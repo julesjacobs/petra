@@ -8,7 +8,7 @@ The [competitor comparison](research/competitive-linux-20261004/REPORT.md) used 
 
 | Solver and configuration | Average solved |
 |---|---:|
-| Petra (`portfolio-excess`, earlier snapshot) | 95.5% |
+| Petra | 95.5% |
 | VerifyPN 4.5.0 (unrestricted defaults) | 81.1% |
 | SMPT (portable MCC configuration) | 60.2% |
 | ITS-Tools (MCC configuration) | 73.5% |
