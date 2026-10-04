@@ -1,1 +1,5 @@
 * -text
+benchmarks/** linguist-generated
+research/** linguist-documentation
+results/** linguist-generated
+vendor/** linguist-vendored
