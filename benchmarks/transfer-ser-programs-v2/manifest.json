@@ -1,0 +1,741 @@
+{
+  "format": "ser-stress-sources-v1",
+  "version": 1,
+  "corpus": "transfer-ser-programs-v2",
+  "counts": {
+    "sources": 12,
+    "expected_serializable": 6,
+    "expected_nonserializable": 6,
+    "four_slot_feasibility_bridges": 6,
+    "six_slot_cases": 6
+  },
+  "selection": "Fixed4/6-slot x path/cycle/chorded x strict/early-release ladder before export or solving; retain all12.",
+  "provenance": [
+    {
+      "path": "scripts/generate_transfer_ser_v2.py",
+      "sha256": "345a0d25776df4cd0c9cae1c5f6a84f5932812a78ea1b20824e46320bc14678e"
+    },
+    {
+      "path": "scripts/generate_diverse_ser.py",
+      "sha256": "fa92154e720a70a7a6cf76c384b7d47fb455d17e561f11d2d2386701323e0869"
+    },
+    {
+      "path": "scripts/test_generate_transfer_ser_v2.py",
+      "sha256": "49311ce7bd6d2bc56417259bee1739d9a54816672fc9730827bedeede77e00a6"
+    },
+    {
+      "path": "research/transfer-ser-programs-v2.md",
+      "sha256": "751ee745abdbd56f6b64165ccddd785da33f343c384adc205159c1677f60209b"
+    },
+    {
+      "path": "vendor/SerializabilityChecker/src/parser.rs",
+      "sha256": "dc308f06697c62aa81943d5727536677286b18bfb220d2cb81ff38cbc0dd1f9e"
+    }
+  ],
+  "cases": [
+    {
+      "name": "transfer_n4_path_strict",
+      "paired_with": "transfer_n4_path_early_release",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 4,
+        "topology": "path",
+        "strict": true,
+        "initial_occupied": [
+          0,
+          2
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "feasibility_bridge": true,
+      "structural_parameters": {
+        "request_types": 8,
+        "shared_boolean_variables": 9,
+        "global_valuation_upper_bound": 512
+      },
+      "source": "transfer_n4_path_strict.ser",
+      "sha256": "2903bbea9bd08a22ab474f806c3a08c73b611c08332823643244b4828e186514",
+      "bytes": 2471,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n4_path_early_release",
+      "paired_with": "transfer_n4_path_strict",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 4,
+        "topology": "path",
+        "strict": false,
+        "initial_occupied": [
+          0,
+          2
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "feasibility_bridge": true,
+      "structural_parameters": {
+        "request_types": 8,
+        "shared_boolean_variables": 9,
+        "global_valuation_upper_bound": 512
+      },
+      "source": "transfer_n4_path_early_release.ser",
+      "sha256": "769cc2ae20cd292e55f4c563abd0e65732f50c3e28127885b82236f823ed51f4",
+      "bytes": 3119,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "count-observes-in-flight-debit",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n4_cycle_strict",
+      "paired_with": "transfer_n4_cycle_early_release",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 4,
+        "topology": "cycle",
+        "strict": true,
+        "initial_occupied": [
+          0,
+          2
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "feasibility_bridge": true,
+      "structural_parameters": {
+        "request_types": 10,
+        "shared_boolean_variables": 9,
+        "global_valuation_upper_bound": 512
+      },
+      "source": "transfer_n4_cycle_strict.ser",
+      "sha256": "90e7790bdf26827e35bb818c320c90d7ff51060f1dcf06ad83d1750e1bda4334",
+      "bytes": 3131,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n4_cycle_early_release",
+      "paired_with": "transfer_n4_cycle_strict",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 4,
+        "topology": "cycle",
+        "strict": false,
+        "initial_occupied": [
+          0,
+          2
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "feasibility_bridge": true,
+      "structural_parameters": {
+        "request_types": 10,
+        "shared_boolean_variables": 9,
+        "global_valuation_upper_bound": 512
+      },
+      "source": "transfer_n4_cycle_early_release.ser",
+      "sha256": "bae0db9ddcc0192420daa1251e797bc9061f4ca5a77ce3316998b8f68aad6f28",
+      "bytes": 3995,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "count-observes-in-flight-debit",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n4_chorded_strict",
+      "paired_with": "transfer_n4_chorded_early_release",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 4,
+        "topology": "chorded",
+        "strict": true,
+        "initial_occupied": [
+          0,
+          2
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "feasibility_bridge": true,
+      "structural_parameters": {
+        "request_types": 14,
+        "shared_boolean_variables": 9,
+        "global_valuation_upper_bound": 512
+      },
+      "source": "transfer_n4_chorded_strict.ser",
+      "sha256": "cf8b329aa0756465999c785396635f054d141ec1ec9d9bf4b2c6c4725c11ca43",
+      "bytes": 4451,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n4_chorded_early_release",
+      "paired_with": "transfer_n4_chorded_strict",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 4,
+        "topology": "chorded",
+        "strict": false,
+        "initial_occupied": [
+          0,
+          2
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "feasibility_bridge": true,
+      "structural_parameters": {
+        "request_types": 14,
+        "shared_boolean_variables": 9,
+        "global_valuation_upper_bound": 512
+      },
+      "source": "transfer_n4_chorded_early_release.ser",
+      "sha256": "483cfbc3a6f2ff63a77472cbeff645baf6c1e03e63f249f24d7824c3c1e88611",
+      "bytes": 5747,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "count-observes-in-flight-debit",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n6_path_strict",
+      "paired_with": "transfer_n6_path_early_release",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 6,
+        "topology": "path",
+        "strict": true,
+        "initial_occupied": [
+          0,
+          3
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "feasibility_bridge": false,
+      "structural_parameters": {
+        "request_types": 12,
+        "shared_boolean_variables": 13,
+        "global_valuation_upper_bound": 8192
+      },
+      "source": "transfer_n6_path_strict.ser",
+      "sha256": "d17942023621b6285ee5ec87586468913f17932c92aaff1f7b7b4800537a1f72",
+      "bytes": 3947,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n6_path_early_release",
+      "paired_with": "transfer_n6_path_strict",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 6,
+        "topology": "path",
+        "strict": false,
+        "initial_occupied": [
+          0,
+          3
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "feasibility_bridge": false,
+      "structural_parameters": {
+        "request_types": 12,
+        "shared_boolean_variables": 13,
+        "global_valuation_upper_bound": 8192
+      },
+      "source": "transfer_n6_path_early_release.ser",
+      "sha256": "6e88dedbf8c7a3bcf60b5c114f478bf544230d27500274fc3f65068b874a5120",
+      "bytes": 5027,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "count-observes-in-flight-debit",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n6_cycle_strict",
+      "paired_with": "transfer_n6_cycle_early_release",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 6,
+        "topology": "cycle",
+        "strict": true,
+        "initial_occupied": [
+          0,
+          3
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "feasibility_bridge": false,
+      "structural_parameters": {
+        "request_types": 14,
+        "shared_boolean_variables": 13,
+        "global_valuation_upper_bound": 8192
+      },
+      "source": "transfer_n6_cycle_strict.ser",
+      "sha256": "987d7326e7a2e1afcbcf7de61fe7fcc9af0d6fcd84ed49c1e607f8f7640d5bdf",
+      "bytes": 4607,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n6_cycle_early_release",
+      "paired_with": "transfer_n6_cycle_strict",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 6,
+        "topology": "cycle",
+        "strict": false,
+        "initial_occupied": [
+          0,
+          3
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "feasibility_bridge": false,
+      "structural_parameters": {
+        "request_types": 14,
+        "shared_boolean_variables": 13,
+        "global_valuation_upper_bound": 8192
+      },
+      "source": "transfer_n6_cycle_early_release.ser",
+      "sha256": "d625af6e99d15f1dfc297ea3ae1b596688c9a38d7e00a29c2ac0230b2d2019c5",
+      "bytes": 5903,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "count-observes-in-flight-debit",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n6_chorded_strict",
+      "paired_with": "transfer_n6_chorded_early_release",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 6,
+        "topology": "chorded",
+        "strict": true,
+        "initial_occupied": [
+          0,
+          3
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "feasibility_bridge": false,
+      "structural_parameters": {
+        "request_types": 20,
+        "shared_boolean_variables": 13,
+        "global_valuation_upper_bound": 8192
+      },
+      "source": "transfer_n6_chorded_strict.ser",
+      "sha256": "4b2b04a1676f926c180e2375c7d8edccd2a55e543040b33df01443f2db4d25ea",
+      "bytes": 6587,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "transfer_n6_chorded_early_release",
+      "paired_with": "transfer_n6_chorded_strict",
+      "family": "conserved-resource-transfer",
+      "parameters": {
+        "sites": 6,
+        "topology": "chorded",
+        "strict": false,
+        "initial_occupied": [
+          0,
+          3
+        ],
+        "undirected_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "feasibility_bridge": false,
+      "structural_parameters": {
+        "request_types": 20,
+        "shared_boolean_variables": 13,
+        "global_valuation_upper_bound": 8192
+      },
+      "source": "transfer_n6_chorded_early_release.ser",
+      "sha256": "f48c24aabfdc75f9a28752896279cf2394449f9ebdc0f6b2c2c89a46c47ec7f7",
+      "bytes": 8531,
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "count-observes-in-flight-debit",
+        "basis": "source-level argument; research/transfer-ser-programs-v2.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    }
+  ],
+  "limitations": [
+    "Source expectations are arguments, not solver ground truth or exported-net proofs.",
+    "Finite-model tests do not interpret SER or prove unbounded-request behavior.",
+    "Four-slot bridges are new sources, not duplicates of a previously frozen corpus.",
+    "Difficulty and export feasibility are unmeasured; global data bounds do not bound export size polynomially.",
+    "All12 sources, including export/resource failures, remain in the denominator.",
+    "Correlated development cases; no reserved evaluation families."
+  ]
+}

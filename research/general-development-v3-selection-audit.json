@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "models": 11,
+  "slots": 176,
+  "groups": [
+    "CloudReconfiguration",
+    "DNAwalker",
+    "IBM",
+    "RERS",
+    "RefineWMG",
+    "TriangularGrid"
+  ],
+  "selection_sha256": "8b0c3496bc31f6fecf4cb54ff49a8d826b10feb7387ea5a1de7f562d1616fc90",
+  "auditor_sha256": "211c186c1f263e1267d3b052168b953d4c04ac23446b97c74721994b0a28b456",
+  "input_sha256": {
+    "vendor/mcc2021/index.html": "58b01d6b01987ef8b4d8fada40b5d392913eb9e3e2fd6ab5dfceded4fbb5fe3f",
+    "benchmarks/application-expansion-v1-selection.json": "65524b6d4faeebd2b5243986a23cac23ce59dec3668a60988d82d917302507d5",
+    "benchmarks/application-parameter-ladders-v2-selection.json": "e729cd00a2facdddcb0273dda32915b0f5a78f17d6e70185a1cb172a80fec605",
+    "benchmarks/mcc-selection.json": "47639889ad5aa46acd50ab9681f1c25454eeff10a664fe1ff8b673aea97b423c",
+    "benchmarks/publication-selection.json": "9dc8baf28450abdc3ee409b941c6589a42e0731c712f769a7fb5c7405b1c58fd",
+    "benchmarks/stress-selection.json": "7b98693f3f153a608b3df6ff229f5418352031657ddfe1a090169602fb586306"
+  },
+  "scope": "Selection/index metadata only. No reserved model/property/result or candidate payload read; no collector or solver executed. Name/group exclusions are conservative metadata rules, not semantic independence or hardness evidence."
+}

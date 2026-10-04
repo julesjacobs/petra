@@ -1,0 +1,117 @@
+{
+  "format": "synthetic-capability-v1",
+  "queries": [
+    {
+      "name": "EF-1",
+      "suite": "synthetic-capability",
+      "instance": "one-token-move",
+      "family": "Synthetic",
+      "status": "imported",
+      "planned": true,
+      "observed": true,
+      "property_slot": 0,
+      "branches": [
+        {
+          "path": "EF-1/branch-0.json",
+          "sha256": "a5816de5f4e36fba45ea5669e2d5bacfec6e97308c24c9e72d8537ec9f396e06"
+        }
+      ],
+      "places": 2,
+      "transitions": 1,
+      "property_id": "EF-1",
+      "kind": "EF",
+      "pnml": "model.pnml",
+      "pnml_sha256": "3285728233556489aaf1157df54ee7e3bdbf2723ae404d3f34ffdcaba3354cfa",
+      "xml": "EF-1/original.xml",
+      "xml_sha256": "8afd72f055ce819bf7aab83729d712e8f488444014067bf314f74c6c81e807cd",
+      "net": "EF-1/model.net",
+      "net_sha256": "4e467566b94eaa054fe47cea87aee9b5fb0bd936df9cf027963fbbf43c01255c",
+      "property": "EF-1/property.xml",
+      "property_sha256": "5e2d831f4a355432ec30e1d5ff26b9c2559291ef2569521380da97062d53840a"
+    },
+    {
+      "name": "EF-2",
+      "suite": "synthetic-capability",
+      "instance": "one-token-move",
+      "family": "Synthetic",
+      "status": "imported",
+      "planned": true,
+      "observed": true,
+      "property_slot": 1,
+      "branches": [
+        {
+          "path": "EF-2/branch-0.json",
+          "sha256": "6f91ca78dcc4ab7121d766ae494abbf721a1fb1c841395634b888e293b58340a"
+        }
+      ],
+      "places": 2,
+      "transitions": 1,
+      "property_id": "EF-2",
+      "kind": "EF",
+      "pnml": "model.pnml",
+      "pnml_sha256": "3285728233556489aaf1157df54ee7e3bdbf2723ae404d3f34ffdcaba3354cfa",
+      "xml": "EF-2/original.xml",
+      "xml_sha256": "a32fcc0308127e3bfcc15c1b81f59e296bcbb310e5aae5c7611ea83a9381dfb7",
+      "net": "EF-2/model.net",
+      "net_sha256": "4e467566b94eaa054fe47cea87aee9b5fb0bd936df9cf027963fbbf43c01255c",
+      "property": "EF-2/property.xml",
+      "property_sha256": "5c66e321bb66110ef0601db9f5b2823340f5ebe99f7357aacd6c657605d6993a"
+    },
+    {
+      "name": "AG-0",
+      "suite": "synthetic-capability",
+      "instance": "one-token-move",
+      "family": "Synthetic",
+      "status": "imported",
+      "planned": true,
+      "observed": true,
+      "property_slot": 2,
+      "branches": [
+        {
+          "path": "AG-0/branch-0.json",
+          "sha256": "e21024e07010871258697ccc50acb9a67350ee8f0e1e749246570f371fba3140"
+        }
+      ],
+      "places": 2,
+      "transitions": 1,
+      "property_id": "AG-0",
+      "kind": "AG",
+      "pnml": "model.pnml",
+      "pnml_sha256": "3285728233556489aaf1157df54ee7e3bdbf2723ae404d3f34ffdcaba3354cfa",
+      "xml": "AG-0/original.xml",
+      "xml_sha256": "1f3a65b96c0ecdc8332b06fdae9353ad40624f3bff83d591fb032ab819878db4",
+      "net": "AG-0/model.net",
+      "net_sha256": "4e467566b94eaa054fe47cea87aee9b5fb0bd936df9cf027963fbbf43c01255c",
+      "property": "AG-0/property.xml",
+      "property_sha256": "c008d1589c992c9d154270d258c850f4666a20927a352652095c2963307a2530"
+    },
+    {
+      "name": "AG-1",
+      "suite": "synthetic-capability",
+      "instance": "one-token-move",
+      "family": "Synthetic",
+      "status": "imported",
+      "planned": true,
+      "observed": true,
+      "property_slot": 3,
+      "branches": [
+        {
+          "path": "AG-1/branch-0.json",
+          "sha256": "095855606532a7ad591ee44bea53d9c521abf842b65f0efb7c20224aecb383a0"
+        }
+      ],
+      "places": 2,
+      "transitions": 1,
+      "property_id": "AG-1",
+      "kind": "AG",
+      "pnml": "model.pnml",
+      "pnml_sha256": "3285728233556489aaf1157df54ee7e3bdbf2723ae404d3f34ffdcaba3354cfa",
+      "xml": "AG-1/original.xml",
+      "xml_sha256": "e6e2eba6d4cf783771a86387f0b473e41760462aae74d6928bf0f3c6f35c7af0",
+      "net": "AG-1/model.net",
+      "net_sha256": "4e467566b94eaa054fe47cea87aee9b5fb0bd936df9cf027963fbbf43c01255c",
+      "property": "AG-1/property.xml",
+      "property_sha256": "7cc02960dc46b61d1254f46b40549ea8601cc937adadae58bbeac64058cc62dd"
+    }
+  ]
+}

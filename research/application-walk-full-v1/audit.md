@@ -1,0 +1,43 @@
+# Linux application artifact audit: passed
+
+Rows: 3280/3280; queries: 656/656; exact ordered-branch representatives: 629.
+
+{
+  "properties": 656,
+  "imported_properties": 640,
+  "collection_unavailable": 16,
+  "classifications": {
+    "all_methods_definitive": 388,
+    "mixed_solved_unresolved": 245,
+    "no_method_definitive": 7,
+    "collection_unavailable": 16
+  },
+  "definitive_by_method": {
+    "native-walk": 632,
+    "native-batched": 615,
+    "native-frozen": 614,
+    "verifypn-default": 603,
+    "smpt-full-portable": 394
+  },
+  "disagreements": 0,
+  "duplicate_disagreements": 0,
+  "native_only": 25,
+  "competitor_only": 1,
+  "flagged_queries": {
+    "error": 262,
+    "nonzero_exit": 252,
+    "timeout": 252,
+    "capability_failure": 3,
+    "collection_failure": 16,
+    "failure_stage:collection": 16,
+    "not_executed": 16
+  }
+}
+
+Checks saved validator requests/responses, native answer consistency and independent-check labels; does not rerun proofs or witnesses. External answers remain tool-reported. Unfetched tool identities are environment-reported only. Systemd sidecars contain accounting, not independent proof of configured limits; those rely on frozen runner bytes and recorded settings.
+
+Development difficulty screen; one repetition with full planned and imported denominators reported separately. CPU affinity is not exclusive isolation. Instruction counts do not remove timeout censorship or contention. Failures and missing counters retained; no stable timing or superiority claim.
+
+No audit issues.
+
+Warnings: 76; all rows, failures, resource sidecars and identities are retained in `audit.json`.

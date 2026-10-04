@@ -1,0 +1,14 @@
+{
+  "scope": "Separate posthoc validation of frozen answer. Original measured validation failure is retained; no changed solver run.",
+  "answer": "results/hard-v2-posthoc-validation-v2/random3_n72_r480_s2026092701.native-symbolic.0.rust-original.json",
+  "sha256": "53923db7724fa3b03b809ea92cfc8eca7d5de524a88e26beb7565e173f6e877b",
+  "answer_bytes": 1381425,
+  "seconds": 60,
+  "memory_mib": 2048,
+  "response_mib": 64,
+  "dag_max_work": 200000000,
+  "query": "random3_n72_r480_s2026092701",
+  "source_run": "results/linux-hard-development-v2",
+  "trigger": "v1 preserved: answer size accepted, then20million DAG checker work cap exhausted after5.6seconds. Increase only checker work limit, retain60s/2GiB.",
+  "previous": "research/hard-v2-posthoc-validation-v1-result.json"
+}

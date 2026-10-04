@@ -1,0 +1,148 @@
+{
+  "format": "application-qualification-selection-v1",
+  "parent_manifest": "benchmarks/application-parameter-ladders-v2/manifest.json",
+  "parent_manifest_sha256": "5bff9f35b8b5b60c588fa379ab9c8ac3c65c96905c706bc40bbaaee2b98437f4",
+  "expected_properties": 4,
+  "queries": [
+    {
+      "name": "SharedMemory-PT-000200__RC03",
+      "suite": "stress-development",
+      "family": "SharedMemory",
+      "family_group": "SharedMemory",
+      "instance": "SharedMemory-PT-000200",
+      "property_slot": 3,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "SharedMemory-PT-000200-ReachabilityCardinality-03",
+      "pnml": "../../../benchmarks/application-parameter-ladders-v2/inputs/SharedMemory-PT-000200/model.pnml",
+      "xml": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC03/original-property.xml",
+      "pnml_sha256": "6a93141a904d54d6c4c1170003cd73c8580b33282eddd012558acddd8b15dde5",
+      "xml_sha256": "176d83edd4adfb7d40cdc0be54dabfd91183f564d6a4842fafc41c9bf15ccd60",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC03/branch-0.json",
+          "sha256": "299bd569b0a6ae5c4f8658d19649fa5964a3d8c7e7416be0442073cabf57a335"
+        },
+        {
+          "path": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC03/branch-1.json",
+          "sha256": "0cdb495011ee85501298345cfd2755ded4d8ff336dff57d422611f835e433a05"
+        },
+        {
+          "path": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC03/branch-2.json",
+          "sha256": "be9647abb6045dad19a0e03731a5ca7d4cb467c6ec55cf6b1848bb0e482133bc"
+        },
+        {
+          "path": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC03/branch-3.json",
+          "sha256": "a1e8e5f8eb3a4dd6d4e73b9c1e68c1e99eab6959dfeda619798e10129ef12b38"
+        }
+      ],
+      "places": 40601,
+      "transitions": 80200,
+      "net": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC03/model.net",
+      "property": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC03/property.xml",
+      "net_sha256": "4ee3e76042d52cf6985a4a17ff1004a4ca180e6d69694231d8ed6e4a9623610d",
+      "property_sha256": "f6f300d9d830d6d89f3016ca6e8a018ad95330c7f72b27a2a2204509f35dbcfc",
+      "qualification_parent": "benchmarks/application-parameter-ladders-v2/manifest.json"
+    },
+    {
+      "name": "SharedMemory-PT-000200__RC04",
+      "suite": "stress-development",
+      "family": "SharedMemory",
+      "family_group": "SharedMemory",
+      "instance": "SharedMemory-PT-000200",
+      "property_slot": 4,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "SharedMemory-PT-000200-ReachabilityCardinality-04",
+      "pnml": "../../../benchmarks/application-parameter-ladders-v2/inputs/SharedMemory-PT-000200/model.pnml",
+      "xml": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC04/original-property.xml",
+      "pnml_sha256": "6a93141a904d54d6c4c1170003cd73c8580b33282eddd012558acddd8b15dde5",
+      "xml_sha256": "a8ac70203d732d12559502dcfcaff1edf66d466970e23a5987fdeff5cf3cff62",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC04/branch-0.json",
+          "sha256": "af72c72fc1a982cfa889196f914e094defc17ba80e1aa13a7626b432f7528030"
+        },
+        {
+          "path": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC04/branch-1.json",
+          "sha256": "66fc76a23883ac17a83e3edb3f11dcc7f30d59d77940142f42a667214a59bf88"
+        }
+      ],
+      "places": 40601,
+      "transitions": 80200,
+      "net": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC04/model.net",
+      "property": "../../../benchmarks/application-parameter-ladders-v2/SharedMemory-PT-000200__RC04/property.xml",
+      "net_sha256": "4ee3e76042d52cf6985a4a17ff1004a4ca180e6d69694231d8ed6e4a9623610d",
+      "property_sha256": "181de1016b9f682aa015a223c70e2c7c59b2caa59ee9fb422f3834c2aa623b93",
+      "qualification_parent": "benchmarks/application-parameter-ladders-v2/manifest.json"
+    },
+    {
+      "name": "TokenRing-PT-030__RC09",
+      "suite": "stress-development",
+      "family": "TokenRing",
+      "family_group": "TokenRing",
+      "instance": "TokenRing-PT-030",
+      "property_slot": 9,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "TokenRing-PT-030-ReachabilityCardinality-09",
+      "pnml": "../../../benchmarks/application-parameter-ladders-v2/inputs/TokenRing-PT-030/model.pnml",
+      "xml": "../../../benchmarks/application-parameter-ladders-v2/TokenRing-PT-030__RC09/original-property.xml",
+      "pnml_sha256": "03d9479469055975c5369c40b3e2a2189d963dc0043ac337ad6ab9a4445823f9",
+      "xml_sha256": "05e34ae932321aeb954fb51275da2aae4ea062d6c0ba7203c9eea269fcc85b0b",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../../../benchmarks/application-parameter-ladders-v2/TokenRing-PT-030__RC09/branch-0.json",
+          "sha256": "4fe5390f6b39bb8bde78454a0389e809d29d5451c758b2f113a503a7200b55e8"
+        },
+        {
+          "path": "../../../benchmarks/application-parameter-ladders-v2/TokenRing-PT-030__RC09/branch-1.json",
+          "sha256": "acd20f418cf969930869424ccc2f6c6167c82dd670b8b197e8e27efc00ece915"
+        }
+      ],
+      "places": 961,
+      "transitions": 27931,
+      "net": "../../../benchmarks/application-parameter-ladders-v2/TokenRing-PT-030__RC09/model.net",
+      "property": "../../../benchmarks/application-parameter-ladders-v2/TokenRing-PT-030__RC09/property.xml",
+      "net_sha256": "4087c6e4634691428254ca16945bd8fecc141a67a533492146189f983405d15e",
+      "property_sha256": "dd83484cd9aad6434d6cb36f463d9291863da70e3837314b73d930c416fed556",
+      "qualification_parent": "benchmarks/application-parameter-ladders-v2/manifest.json"
+    },
+    {
+      "name": "TokenRing-PT-040__RC09",
+      "suite": "stress-development",
+      "family": "TokenRing",
+      "family_group": "TokenRing",
+      "instance": "TokenRing-PT-040",
+      "property_slot": 9,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "TokenRing-PT-040-ReachabilityCardinality-09",
+      "pnml": "../../../benchmarks/application-parameter-ladders-v2/inputs/TokenRing-PT-040/model.pnml",
+      "xml": "../../../benchmarks/application-parameter-ladders-v2/TokenRing-PT-040__RC09/original-property.xml",
+      "pnml_sha256": "ac2ec3f7dd06c8c85d1e5e65194632cad034f9ef06542dc7eb85783d77e4d164",
+      "xml_sha256": "40f158a6501458e3c2eb3752ba7bd6b0e4810d55a86ab5e251659053147ddcae",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "../../../benchmarks/application-parameter-ladders-v2/TokenRing-PT-040__RC09/branch-0.json",
+          "sha256": "36c6726370b1a9c64553544c21c5f999df111d5713ee8dfa7cc049d5fb726776"
+        }
+      ],
+      "places": 1681,
+      "transitions": 65641,
+      "net": "../../../benchmarks/application-parameter-ladders-v2/TokenRing-PT-040__RC09/model.net",
+      "property": "../../../benchmarks/application-parameter-ladders-v2/TokenRing-PT-040__RC09/property.xml",
+      "net_sha256": "567a76954603dda12867ca8d4cd131194821cc4f07f9331e6dcd98bb0ed29955",
+      "property_sha256": "6a53a98ef36826fa4377c0c16c04a1e5afa8e4c1653b7cdf7dbd97b9c6fc8cec",
+      "qualification_parent": "benchmarks/application-parameter-ladders-v2/manifest.json"
+    }
+  ]
+}

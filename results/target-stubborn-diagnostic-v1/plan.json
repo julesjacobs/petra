@@ -1,0 +1,63 @@
+{
+  "status": "registered before launch",
+  "queries": [
+    "AutoFlight-PT-48b__RC01",
+    "AutoFlight-PT-48b__RC02",
+    "AutoFlight-PT-48b__RC03",
+    "AutoFlight-PT-48b__RC12",
+    "AutoFlight-PT-48b__RC15",
+    "AutoFlight-PT-96b__RC05",
+    "AutoFlight-PT-96b__RC09",
+    "CANConstruction-PT-090__RC06",
+    "DLCflexbar-PT-7b__RC00",
+    "DLCflexbar-PT-7b__RC05",
+    "DLCflexbar-PT-7b__RC07",
+    "DLCflexbar-PT-7b__RC14",
+    "DLCflexbar-PT-8b__RC00",
+    "DLCflexbar-PT-8b__RC03",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4",
+    "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+    "ff_random_walk_dekker_vs_satabs_2_multi_30_0_60ea6be9",
+    "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_60_0_7e4914f0"
+  ],
+  "properties": 18,
+  "expected_rows": 36,
+  "original_selection": "research/stubborn-diagnostic-selection-v1.json",
+  "additional_selection": "All target-stubborn screen gains/losses absent from original13-case diagnostic selection",
+  "additional_queries": [
+    "CANConstruction-PT-090__RC06",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4",
+    "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+    "ff_random_walk_dekker_vs_satabs_2_multi_30_0_60ea6be9",
+    "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_60_0_7e4914f0"
+  ],
+  "binary": "results/solver-target-stubborn-v1/vass-reach",
+  "binary_sha256": "370a39e384f8bae9ead849515c9d844b47bb63b784fd5ba19f334c665f6958e0",
+  "source_sha256": "d5540f461f96891d3560760ea71869431501067dc30cce6847eb0029d8f6d17b",
+  "manifest_sha256": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+  "corpus": "benchmarks/candidate-challenges-v1",
+  "methods": {
+    "before": "portfolio-focused",
+    "after": "portfolio-target-stubborn"
+  },
+  "seconds": 5,
+  "outer_seconds": 7,
+  "max_states": 2000000,
+  "memory_mib": 2048,
+  "repeat": 1,
+  "validation": {
+    "seconds": 30,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 20000000,
+    "separate_from_solver_timing": true
+  },
+  "order_seed": 20261026,
+  "output": "results/target-stubborn-diagnostic-v1",
+  "profiling": "Both profile flags enabled, stderr captured separately. Two seconds of diagnostic outer grace permits deadline-return counters. Timings are diagnostic and never substituted into the strict five-second screen.",
+  "scope": "Outcome-selected mechanism diagnostics only; all scheduled cases and incomplete profiles retained.",
+  "selection_evidence": {
+    "research/stubborn-diagnostic-selection-v1.json": "da5b8784f890a23f438db20f25a470780a09f4ff8f6d867a6a756a8229c4600a",
+    "research/target-stubborn-screen-v1-analysis.json": "8a8651dedbcf1a05e89ee9f7c5d0765baf831a16af1aac395be3e292405bf388"
+  }
+}

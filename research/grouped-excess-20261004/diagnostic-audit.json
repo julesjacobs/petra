@@ -1,0 +1,588 @@
+{
+  "status": "passed",
+  "plan_sha256": "768c6e3d87abce736923b4ce851a9d160df09ed23ed7c58eb025f3affce14dd9",
+  "stage": "diagnostic",
+  "rows": 64,
+  "issues": [],
+  "reports": {
+    "pooled": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.19410629820049508,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 20
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 6.211401542415842,
+              "validation_wall_total_seconds": 3.9230379189830273
+            },
+            "baseline": {
+              "solved": 18,
+              "par2_mean_seconds": 4.545013035130978,
+              "verdicts": {
+                "reachable": 12,
+                "unknown": 14,
+                "unreachable": 6
+              },
+              "failure_flags": {
+                "timeout": 13,
+                "nonzero_exit": 5
+              },
+              "solver_wall_total_seconds": 73.26513562141918,
+              "validation_wall_total_seconds": 2.3736264151521027
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 31,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 0.19974752692055078,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 19
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 6.192173334537074,
+              "validation_wall_total_seconds": 3.838688626885414
+            },
+            "baseline": {
+              "solved": 18,
+              "par2_mean_seconds": 4.36904571368359,
+              "verdicts": {
+                "reachable": 12,
+                "unknown": 13,
+                "unreachable": 6
+              },
+              "failure_flags": {
+                "timeout": 12,
+                "nonzero_exit": 5
+              },
+              "solver_wall_total_seconds": 68.2418104133103,
+              "validation_wall_total_seconds": 2.3736264151521027
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC00"
+          ],
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC07"
+          ]
+        ]
+      ]
+    },
+    "existing176": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.19410629820049508,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 20
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 6.211401542415842,
+              "validation_wall_total_seconds": 3.9230379189830273
+            },
+            "baseline": {
+              "solved": 18,
+              "par2_mean_seconds": 4.545013035130978,
+              "verdicts": {
+                "reachable": 12,
+                "unknown": 14,
+                "unreachable": 6
+              },
+              "failure_flags": {
+                "timeout": 13,
+                "nonzero_exit": 5
+              },
+              "solver_wall_total_seconds": 73.26513562141918,
+              "validation_wall_total_seconds": 2.3736264151521027
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 31,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 0.19974752692055078,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 19
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 6.192173334537074,
+              "validation_wall_total_seconds": 3.838688626885414
+            },
+            "baseline": {
+              "solved": 18,
+              "par2_mean_seconds": 4.36904571368359,
+              "verdicts": {
+                "reachable": 12,
+                "unknown": 13,
+                "unreachable": 6
+              },
+              "failure_flags": {
+                "timeout": 12,
+                "nonzero_exit": 5
+              },
+              "solver_wall_total_seconds": 68.2418104133103,
+              "validation_wall_total_seconds": 2.3736264151521027
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC00"
+          ],
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC07"
+          ]
+        ]
+      ]
+    },
+    "family:DNAwalker": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.19410629820049508,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 20
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 6.211401542415842,
+              "validation_wall_total_seconds": 3.9230379189830273
+            },
+            "baseline": {
+              "solved": 18,
+              "par2_mean_seconds": 4.545013035130978,
+              "verdicts": {
+                "reachable": 12,
+                "unknown": 14,
+                "unreachable": 6
+              },
+              "failure_flags": {
+                "timeout": 13,
+                "nonzero_exit": 5
+              },
+              "solver_wall_total_seconds": 73.26513562141918,
+              "validation_wall_total_seconds": 2.3736264151521027
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 31,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 0.19974752692055078,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 19
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 6.192173334537074,
+              "validation_wall_total_seconds": 3.838688626885414
+            },
+            "baseline": {
+              "solved": 18,
+              "par2_mean_seconds": 4.36904571368359,
+              "verdicts": {
+                "reachable": 12,
+                "unknown": 13,
+                "unreachable": 6
+              },
+              "failure_flags": {
+                "timeout": 12,
+                "nonzero_exit": 5
+              },
+              "solver_wall_total_seconds": 68.2418104133103,
+              "validation_wall_total_seconds": 2.3736264151521027
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC00"
+          ],
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC07"
+          ]
+        ]
+      ]
+    }
+  },
+  "accepted_definitive_rows": 50,
+  "terminal_sha256": "1394c0cc0f0a3ce76b3c7a1e46e62df8ea1a672408ebee185c2534946512cf72",
+  "scope": "Single-repeat local development screen. No stable speed, external competitor superiority, held-out generalization, or population confidence claim. No perf counters are collected on this Mac."
+}

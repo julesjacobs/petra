@@ -1,0 +1,1291 @@
+# Pro review — complete browser DOM transcription
+
+Source: https://chatgpt.com/c/6aba8d9d-3b48-83ed-bfaf-936f54ae6962
+
+The following preserves the full substantive response and visible citations. Math appears in accessibility notation. Reviewer experiments are not independently reproduced.
+
+```text
+  - heading "Recommendation" [level=1]
+  - paragraph:
+    - strong: "I would stop developing larger firing-count frontiers as the main research direction. My strongest next hypothesis is an exact symbolic reachable-set engine: shared decision diagrams, implicit guarded transition relations, and a memoized closure algorithm. But the first step should be to test a mature implementation—especially ITS-Tools—not to build another decision-diagram library."
+  - paragraph:
+    - text: I would rank
+    - strong: genuine incremental, dynamically accelerated BMC second
+    - text: ", with a clear opportunity to become first on a separately defined, genuinely counter-intensive workload. Your existing experiments do not adequately test published ABMC. Nevertheless, the structure of the harder development models gives a substantive reason not to assume that acceleration is what they need."
+  - paragraph: "The distinction is:"
+  - blockquote:
+    - paragraph:
+      - strong: Compressing many alternative executions is different from compressing many repetitions of one execution. Your current hard development cohort appears to need the former at least as much as the latter.
+  - paragraph: This is a research hypothesis, not a demonstrated performance advantage. An established symbolic engine might already solve the important gaps, leaving a useful backend integration but no new algorithmic contribution. That possibility should be investigated before another substantial implementation effort.
+  - heading "1. What the available evidence establishes" [level=2]
+  - paragraph:
+    - text: I verified the archive’s 1,781 manifest entries and inspected the central search, count-refinement, acceleration, arithmetic, reduction, and proof implementations, alongside the development chronology and reports. The original benchmark datasets and full result logs are absent, and this environment has no Rust toolchain or Z3 executable. Consequently, I did
+    - strong: not
+    - text: reproduce the reported solver comparisons.
+  - paragraph:
+    - text: "I ran the available Python checker test selection:"
+    - strong: 69 tests passed; one additional test could not complete because its referenced result fixture was absent
+    - text: ", namely results/portfolio-larger-budget/g2_disjunct_1.json. I also implemented a small symbolic-closure mechanism probe, discussed below. Neither exercise substitutes for running the Rust solver on the frozen benchmarks."
+  - heading "The current solver has a real, but still narrow, demonstrated advantage" [level=3]
+  - paragraph: "The relevant reported result is:"
+  - table:
+    - rowgroup:
+      - row "Configuration Reachable Unreachable Total solved":
+        - columnheader "Configuration"
+        - columnheader "Reachable"
+        - columnheader "Unreachable"
+        - columnheader "Total solved"
+    - rowgroup:
+      - row "Combined native 89 46 135":
+        - cell "Combined native"
+        - cell "89"
+        - cell "46"
+        - cell "135":
+          - strong: "135"
+      - row "Count portfolio 89 45 134":
+        - cell "Count portfolio"
+        - cell "89"
+        - cell "45"
+        - cell "134"
+      - row "Walk portfolio 88 45 133":
+        - cell "Walk portfolio"
+        - cell "88"
+        - cell "45"
+        - cell "133"
+      - row "Frozen existing 83 45 128":
+        - cell "Frozen existing"
+        - cell "83"
+        - cell "45"
+        - cell "128"
+      - row "VerifyPN unrestricted 83 46 129":
+        - cell "VerifyPN unrestricted"
+        - cell "83"
+        - cell "46"
+        - cell "129"
+      - row "Qualified SMPT MCC portable 52 45 97":
+        - cell "Qualified SMPT MCC portable"
+        - cell "52"
+        - cell "45"
+        - cell "97"
+  - button "Copy table":
+  - button "Expand table":
+  - paragraph: These are the numbers in research/portfolio-reduced-linux-v1/report.md, not measurements independently reproduced here.
+  - paragraph: The paired results matter more than the totals. Against the frozen solver, the combined configuration gains five RERS properties, one CloudReconfiguration property, and one RefineWMG property. Against VerifyPN, it gains the five RERS properties and one DNAwalker property. There are no solved-set losses in this run, but the improvement is concentrated. The union of two already strong native configurations adds only one property over counts and two over walk.
+  - paragraph: "Thus:"
+  - paragraph:
+    - strong: "Established by the archived report:"
+    - text: useful additional checked coverage on this development cohort.
+  - paragraph:
+    - strong: "Not established:"
+    - text: stable speed superiority, generalization to new families, dominance over the strongest relevant algorithmic classes, or a central new algorithm explaining substantial gains.
+  - paragraph: The six missing-performance-counter warnings must remain visible, but they do not change the reported coverage denominator. The registered 5/30-second repeated experiment is not evidence available for this assessment; I make no assumption about its outcomes.
+  - heading "Do not conflate the different survivor populations" [level=3]
+  - paragraph: The older DoubleExponent/TokenRing survivors are valuable diagnostics of count planning. They are not a representative description of the current 41 shared unknowns.
+  - paragraph:
+    - text: The preceding Linux qualification reports its 42 shared unknowns as concentrated in
+    - strong: DNAwalker and RERS17pb114
+    - text: ; the newer combined comparison reduces the shared unknown count to 41. That is the relevant structural lead for the next backend experiment. Exact composition and phase profiles should be recovered from the frozen results before implementation choices are justified by those survivors.
+  - heading "2. What the implementations actually suggest is wrong" [level=2]
+  - heading "2.1 Frontier refinement is sound, but it learns in an expensive and potentially unhelpful space" [level=3]
+  - paragraph: The mathematical basis of src/frontier_counts.rs is good.
+  - paragraph:
+    - text: For a bound vector
+    - math:
+      - generic: v
+    - generic: v
+    - text: ", it completely explores executions whose firing-count vectors remain componentwise below"
+    - math:
+      - generic: v
+    - generic: v
+    - text: . If no prefix satisfies the target, any successful execution must first leave this box. Therefore it must satisfy
+  - math:
+    - generic: ⋁
+    - generic: t
+    - generic: ∈
+    - generic: F
+    - generic: (
+    - generic: v
+    - generic: )
+    - generic: x
+    - generic: t
+    - generic: ≥
+    - generic: v
+    - generic: t
+    - generic: +
+    - generic: "1"
+    - generic: ","
+  - generic: t∈F(v)
+  - generic: ⋁
+  - text: x
+  - generic: t
+  - text: ≥
+  - text: v
+  - generic: t
+  - text: +
+  - generic: 1,
+  - paragraph:
+    - text: where
+    - math:
+      - generic: F
+      - generic: (
+      - generic: v
+      - generic: )
+    - generic: F(v)
+    - text: contains transitions enabled at an explored prefix whose allowance is exhausted.
+  - paragraph: "The implementation respects the crucial soundness boundary:"
+  - list:
+    - listitem: "Target checks occur at every explored prefix: src/frontier_counts.rs:68–80."
+    - listitem: "Exhausted but enabled transitions enter the frontier: :82–96."
+    - listitem: "A frontier is returned only after the pending worklist is exhausted: :120–125."
+    - listitem: "Deadline, storage, or arithmetic failure produces Limited, not a cut: :267–270."
+    - listitem: "Positive answers undergo witness replay: :220–235."
+  - paragraph:
+    - text: "The expanded variant is also conceptually legitimate: the explored box need not itself be a state-equation solution. Complete closure of"
+    - strong: any
+    - text: finite nonnegative count box supports the same first-exit argument.
+  - paragraph: The problem is not that this reasoning is unsound. It is what must be paid for, and what information survives that payment.
+  - paragraph: "Each search node stores a marking and a remaining-count vector, and deduplication uses the latter:"
+  - generic: Plain text
+  - button "Enable word wrap":
+  - button "Copy":
+  - code: "Node { marking, remaining, parent } seen: HashSet<remaining-count-vector>"
+  - paragraph: See src/frontier_counts.rs:20–24,53–60,97–118.
+  - paragraph:
+    - text: That is correct for the count-bounded problem, but it distinguishes executions that have reached the
+    - strong: same marking
+    - text: with different remaining budgets. In other words, the algorithm introduces additional state distinctions in order to enforce its own search restriction.
+  - paragraph:
+    - text: It already merges interleavings with the same count prefix, so it would be inaccurate to describe the cost as enumerating every permutation. Nevertheless,
+    - math:
+      - generic: "n"
+    - generic: "n"
+    - text: independent one-shot transitions still permit
+    - math:
+      - generic: "2"
+      - generic: "n"
+    - text: "2"
+    - generic: "n"
+    - text: different count prefixes. More generally, the count-box graph can have up to
+  - math:
+    - generic: ∏
+    - generic: t
+    - generic: (
+    - generic: v
+    - generic: t
+    - generic: +
+    - generic: "1"
+    - generic: )
+  - generic: t
+  - generic: ∏
+  - text: (
+  - text: v
+  - generic: t
+  - text: +
+  - generic: 1)
+  - paragraph: nodes before considering enabling restrictions.
+  - paragraph: Worse, a bounded net can have finitely many reachable markings but infinitely many executable count vectors because of cycles. A marking-based algorithm can close that cycle. The count-bounded algorithm keeps encountering the same marking at different remaining budgets.
+  - paragraph:
+    - strong: The expensive execution information is then discarded.
+    - text: A new explore call starts again from the initial marking; the retained information is principally the global count cuts, not the explored marking subproblems or their ordering structure. See src/frontier_counts.rs:200–219,250–264.
+  - paragraph: This is a structural reason why “grow the bounds” need not improve coverage.
+  - heading "2.2 There is a precise escape mechanism for the learned cuts" [level=3]
+  - paragraph: Here is a useful code-derived diagnostic, not a claim that it has already been measured on your survivors.
+  - paragraph:
+    - text: Suppose
+    - math:
+      - generic: x
+      - generic: "0"
+    - text: x
+    - generic: "0"
+    - text: is a spurious state-equation solution satisfying the final target constraints. Suppose there is a nonnegative integer transition invariant
+    - math:
+      - generic: c
+    - generic: c
+    - text: ","
+  - math:
+    - generic: C
+    - generic: c
+    - generic: =
+    - generic: "0"
+    - generic: ","
+  - generic: Cc =
+  - generic: 0,
+  - paragraph:
+    - text: such that every learned frontier
+    - math:
+      - generic: F
+      - generic: j
+    - text: F
+    - generic: j
+    - text: intersects the positive support of
+    - math:
+      - generic: c
+    - generic: c
+    - text: .
+  - paragraph:
+    - text: Then, for sufficiently large
+    - math:
+      - generic: k
+    - generic: k
+    - text: ","
+  - math:
+    - generic: x
+    - generic: "0"
+    - generic: +
+    - generic: k
+    - generic: c
+  - text: x
+  - generic: "0"
+  - text: +
+  - generic: kc
+  - paragraph:
+    - text: still satisfies the same state equation and final-marking target, and satisfies
+    - strong: every currently learned first-exit disjunction
+    - text: .
+  - paragraph: "The reason is simple: in each disjunction, at least one participating count grows without bound along that ray."
+  - paragraph: Consequently, finitely many positive count-threshold cuts need not eliminate an infinite family of spurious candidates—even when the actual marking graph is finite and an exact state-space algorithm could close it.
+  - paragraph: A concrete diagnostic is to check feasibility of
+  - math:
+    - generic: C
+    - generic: c
+    - generic: =
+    - generic: "0"
+    - generic: ","
+    - generic: c
+    - generic: ≥
+    - generic: "0"
+    - generic: ","
+    - generic: ∑
+    - generic: t
+    - generic: ∈
+    - generic: F
+    - generic: j
+    - generic: c
+    - generic: t
+    - generic: ≥
+    - generic: "1"
+    - generic: for every observed frontier
+    - generic: F
+    - generic: j
+    - generic: .
+  - generic: Cc =
+  - generic: 0, c ≥
+  - text: 0,
+  - text: t∈
+  - text: F
+  - generic: j
+  - generic: ∑
+  - text: c
+  - generic: t
+  - text: ≥
+  - text: "1"
+  - generic: for every observed frontier
+  - text: F
+  - generic: j
+  - text: .
+  - paragraph:
+    - text: A rational solution can be scaled to an integer one. This tests whether a common transition-invariant ray escapes all the observed semantic cuts. It does
+    - strong: not
+    - text: establish that every future cut will also be escaped.
+  - paragraph:
+    - text: This analysis is consistent with the broader state-equation CEGAR literature, which already treats count realizability and transition invariants. Wimmel and Wolf are a direct prior-art collision, not a peripheral comparison. Your full-box first-exit construction is a particular refinement mechanism within that landscape, not the invention of count-based CEGAR.
+    - link "arXiv, https://arxiv.org/pdf/1208.2159":
+      - /url: https://arxiv.org/pdf/1208.2159
+      - generic: arXiv
+  - heading "2.3 The reported experiments support stopping this line—not declaring all count reasoning useless" [level=3]
+  - paragraph: "The development reports give the following progression:"
+  - list:
+    - listitem: "Old count planning: 93 reachable properties."
+    - listitem: "DFS frontier planning: 94."
+    - text: "Expanded frontier planning: the"
+    - strong: same 94
+    - text: ", with no additional solved properties."
+    - listitem: The combined local control already finds 104 reachable and 85 unreachable properties.
+  - paragraph: "Sources: research/frontier-counts-development-v2/report.md and research/frontier-expansion-development-v1/report.md."
+  - paragraph: DFS clearly helped at least one search-order/storage failure. That is useful engineering evidence. But complete closure, independent reconstruction, more frontiers, and larger boxes have not produced complementary portfolio coverage.
+  - paragraph: The reported 368 reconstructed frontiers and 130,940 states validate the mechanism. They do not establish that it is an effective search strategy.
+  - paragraph:
+    - text: I would retain this implementation as a diagnostic and regression subject, but
+    - strong: stop treating frontier expansion as the flagship candidate
+    - text: unless a new mechanism addresses the loss of execution structure. Changing growth factors or model limits is not such a mechanism.
+  - heading "2.4 There are smaller implementation issues worth separating from research" [level=3]
+  - paragraph: "linear::System::integer_model constructs a fresh microlp problem on every call, gives every variable unit objective cost, and imposes a total-variable cap:"
+  - list:
+    - listitem: "Fresh model and variables: src/linear.rs:149–161."
+    - listitem: "Constraint reconstruction: :162–179."
+    - listitem: "Exact verification of the returned integer vector: :184–198."
+  - paragraph: "Frontier disjunction selectors therefore consume the same artificial total-variable budget as actual firing counts. Additionally, frontier_counts shrinks that budget as exploration consumes its state allowance: src/frontier_counts.rs:206–214."
+  - paragraph: "This is not an unsoundness: bounded candidate failure returns unknown. But the coupling makes “no candidate” a mixture of arithmetic, witness-length, accumulated-cut, and already-spent-search limits."
+  - paragraph: "Another small opportunity is explicit in the code:"
+  - generic: Plain text
+  - button "Enable word wrap":
+  - button "Copy":
+  - code: closed execution graph; no negative certificate emitted
+  - paragraph: at src/frontier_counts.rs:246–248. An empty frontier after complete exploration gives a finite closed set of markings excluding the target, so a negative answer could be supported. That is a legitimate engineering improvement, not a reason to preserve the overall count-search architecture.
+  - paragraph: "Finally, inspect budget ceilings before interpreting a timeout as algorithmic hardness. The combined schedule gives reduced BFS at most one second in that stage (src/main.rs:839–894), while reduced BFS itself caps closure at 200,000 states (src/reduced_bfs.rs:13,107–112). A historical RefineWMG diagnostic already demonstrated the importance of a different cap: a lower bound of 9,929 firings exceeded an 8,192 count allowance, whereas a larger allowance produced a checked 9,970-step witness. That is evidence for checking artificial limits—not evidence for acceleration."
+  - heading "2.5 The proof-oriented work exists and has real results, but does not currently justify being the main direction" [level=3]
+  - paragraph: The historical diagnosis that moments or signed thresholds were absent is obsolete.
+  - paragraph: src/token_flow.rs:50–157 implements control-edge flow, final-marking variables, edge-indexed token moments, and corresponding consistency/enabling constraints. src/threshold_discovery.rs:301–369 implements a bounded candidate-discovery and inductiveness-elimination loop. src/signed_threshold.rs:202–330 checks the signed-threshold preservation obligations.
+  - paragraph: "The signed-threshold campaign materially improved its unary baseline: 100 checked negatives versus 41, including 61 binary-only results. However, it solved none of the eight then-remaining native gaps, and some independent checks were much more expensive than discovery. Those are the relevant conclusions of research/signed-threshold-full-v1-report.md; they should not be replaced by either “this is useless” or “this is mathematically attractive, therefore promising.”"
+  - paragraph: Similarly, phase-pair reasoning produced genuine additional checked coverage on TokenRing-30/40 RC09. The reported local solver times were 3.900 and 10.981 seconds, while earlier Linux survivor experiments remained unknown at 300 seconds. Those are different experimental settings, not legitimate cross-host speedup ratios. See research/phase-pair-survivors-v1-report.md.
+  - paragraph: "My conclusion is narrower:"
+  - paragraph:
+    - strong: There is evidence for useful targeted negative reasoning. There is not yet evidence that enlarging these global proof languages is the best route to broad new coverage.
+  - heading "3. Why I would test symbolic reachable sets before investing further in acceleration" [level=2]
+  - paragraph: The official model descriptions provide an important distinction.
+  - paragraph:
+    - strong: DNAwalker is reported as 2-bounded
+    - text: ", including the relevant ring and lozenge instances. RERS17pb114 is reported as conservative; the selected multipliers 5 and 9 have total token counts 90 and 162. The RERS models also have a very large transition vocabulary: 151,085 transitions. These are official model descriptions, not independently established properties of your exact hashed input files; the latter should be checked mechanically."
+    - 'link "MCC: https://mcc.lip6.fr/2026/pdf/DNAwalker-form.pdf, https://mcc.lip6.fr/2026/pdf/DNAwalker-form.pdf, 2 additional sources"':
+      - /url: https://mcc.lip6.fr/2026/pdf/DNAwalker-form.pdf
+      - generic: MCC
+      - generic: "+2"
+  - paragraph: This does not prove that decision diagrams will work. It does show why “the unknowns probably need huge repeated-word acceleration” is not a safe assumption.
+  - paragraph:
+    - text: For a fixed word
+    - math:
+      - generic: w
+    - generic: w
+    - text: with effect
+    - math:
+      - generic: δ
+      - generic: w
+    - text: δ
+    - generic: w
+    - text: ", an execution of"
+    - math:
+      - generic: w
+      - generic: r
+    - text: w
+    - generic: r
+    - text: has endpoint
+  - math:
+    - generic: m
+    - generic: ′
+    - generic: =
+    - generic: m
+    - generic: +
+    - generic: r
+    - generic: δ
+    - generic: w
+    - generic: .
+  - text: m
+  - generic: ′
+  - text: =
+  - generic: m +
+  - text: r
+  - text: δ
+  - generic: w
+  - text: .
+  - paragraph:
+    - text: In a globally
+    - math:
+      - generic: K
+    - generic: K
+    - text: "-bounded net, every nonzero coordinate of"
+    - math:
+      - generic: δ
+      - generic: w
+    - text: δ
+    - generic: w
+    - text: satisfies
+  - math:
+    - generic: r
+    - generic: ∣
+    - generic: δ
+    - generic: w
+    - generic: (
+    - generic: p
+    - generic: )
+    - generic: ∣
+    - generic: ≤
+    - generic: K
+    - generic: .
+  - text: r∣
+  - text: δ
+  - generic: w
+  - text: (p)∣ ≤
+  - generic: K.
+  - paragraph: Thus a fixed word with nonzero effect cannot usefully repeat more than twice in a 2-bounded net. If its effect is zero, repetition returns to the same marking, and the repeated traversals expose no intermediate markings beyond those exposed by the first traversal.
+  - paragraph:
+    - text: This is a mathematical deduction about
+    - strong: fixed-word acceleration
+    - text: . It does not rule out ordinary symbolic BMC, richer learned relations, or acceleration on other families. It does substantially weaken the case that large fixed-word repetition counts are the missing ingredient for DNAwalker.
+  - paragraph: "For the current cohort, I rank the directions as follows:"
+  - table:
+    - rowgroup:
+      - row "Rank Direction Main phenomenon addressed Principal risk":
+        - columnheader "Rank"
+        - columnheader "Direction"
+        - columnheader "Main phenomenon addressed"
+        - columnheader "Principal risk"
+    - rowgroup:
+      - row "1 Exact symbolic reachable-set closure Combinatorial state width, repeated subproblems, finite marking cycles Poor variable order or weak sharing; established tools may already occupy the opportunity":
+        - cell "1":
+          - strong: "1"
+        - cell "Exact symbolic reachable-set closure"
+        - cell "Combinatorial state width, repeated subproblems, finite marking cycles"
+        - cell "Poor variable order or weak sharing; established tools may already occupy the opportunity"
+      - row "2 Persistent incremental BMC with dynamic acceleration Deep executions with useful repeated effects; symbolic choice between paths Little acceleration benefit on bounded models; crowded prior art":
+        - cell "2":
+          - strong: "2"
+        - cell "Persistent incremental BMC with dynamic acceleration"
+        - cell "Deep executions with useful repeated effects; symbolic choice between paths"
+        - cell "Little acceleration benefit on bounded models; crowded prior art"
+      - row "3 Property-directed invariant learning/PDR Small relational separators despite large or infinite reachable sets Requires effective lemma discovery; existing PDR competitors already substantial":
+        - cell "3":
+          - strong: "3"
+        - cell "Property-directed invariant learning/PDR"
+        - cell "Small relational separators despite large or infinite reachable sets"
+        - cell "Requires effective lemma discovery; existing PDR competitors already substantial"
+  - button "Copy table":
+  - button "Expand table":
+  - paragraph: I would not implement these as three more portfolio components. I would use the first experimental gate to choose which one receives the next substantial development effort.
+  - heading "4. The strongest candidate, developed enough to implement" [level=2]
+  - 'heading "4.1 Core idea: memoize exact execution subproblems, not final firing-count obstructions" [level=3]'
+  - paragraph: The candidate is an exact symbolic representation of marking sets, with transitions represented implicitly as guarded translations.
+  - paragraph: For each transition retain
+  - math:
+    - generic: h
+    - generic: t
+    - generic: =
+    - generic: pre
+    - generic: ⁡
+    - generic: t
+    - generic: ","
+    - generic: δ
+    - generic: t
+    - generic: =
+    - generic: post
+    - generic: ⁡
+    - generic: t
+    - generic: −
+    - generic: pre
+    - generic: ⁡
+    - generic: t
+    - generic: .
+  - text: h
+  - generic: t
+  - text: =
+  - generic: pre
+  - generic: t
+  - text: ","
+  - text: δ
+  - generic: t
+  - text: =
+  - generic: post
+  - generic: t
+  - text: −
+  - generic: pre
+  - generic: t
+  - text: .
+  - paragraph: Its semantics remains exactly
+  - math:
+    - generic: m
+    - generic: ≥
+    - generic: h
+    - generic: t
+    - generic: ","
+    - generic: m
+    - generic: ′
+    - generic: =
+    - generic: m
+    - generic: +
+    - generic: δ
+    - generic: t
+    - generic: .
+  - generic: m ≥
+  - text: h
+  - generic: t
+  - text: ","
+  - text: m
+  - generic: ′
+  - text: =
+  - generic: m +
+  - text: δ
+  - generic: t
+  - text: .
+  - paragraph:
+    - strong: A zero effect does not mean no dependency.
+    - text: When a place occurs equally in pre and post, its enabling guard must remain. This is particularly important when deciding which transitions can be handled inside a decision-diagram subproblem.
+  - paragraph: Start with sparse multi-valued decision diagrams. A node contains a place level and a finite ordered map from token values to child nodes. Hash-cons equal nodes. Use sparse discovered nonnegative values, not a guessed global token bound.
+  - paragraph:
+    - text: The diagram represents an exact set of markings. It is not an upward closure, does not introduce
+    - math:
+      - generic: ω
+    - generic: ω
+    - text: ", and does not reinterpret exact reachability as coverability."
+  - paragraph:
+    - text: This starting point is established symbolic model checking. Automatic saturation, implicit transition relations, and recursive reachability operations all have substantial prior art. The implementation below is a proposed specialization, not a novelty claim.
+    - 'link "LRE: https://www.lre.epita.fr/dload/papers/hamez.08.atpn.pdf, https://www.lre.epita.fr/dload/papers/hamez.08.atpn.pdf, 2 additional sources"':
+      - /url: https://www.lre.epita.fr/dload/papers/hamez.08.atpn.pdf
+      - generic: LRE
+      - generic: "+2"
+  - heading "4.2 Exact transition image" [level=3]
+  - paragraph:
+    - text: For a transition
+    - math:
+      - generic: t
+    - generic: t
+    - text: ", recursively process a node at place"
+    - math:
+      - generic: p
+    - generic: p
+    - text: .
+  - paragraph:
+    - text: For every represented value
+    - math:
+      - generic: v
+    - generic: v
+    - text: ":"
+  - list:
+    - text: Discard the branch when
+    - math:
+      - generic: v
+      - generic: <
+      - generic: h
+      - generic: t
+      - generic: (
+      - generic: p
+      - generic: )
+    - generic: v <
+    - text: h
+    - generic: t
+    - text: (p)
+    - text: .
+    - text: Otherwise send its child through the residual transition and attach the result at value
+    - math:
+      - generic: v
+      - generic: +
+      - generic: δ
+      - generic: t
+      - generic: (
+      - generic: p
+      - generic: )
+    - generic: v +
+    - text: δ
+    - generic: t
+    - text: (p)
+    - text: .
+  - paragraph: Untouched suffixes can be shared. Memoize image computations by the state node and residual transition.
+  - paragraph: Arithmetic must remain exact. An optimized machine-integer implementation may detect overflow and return unknown or fall back to big integers; it may not wrap.
+  - paragraph:
+    - text: The first executable milestone should be
+    - strong: symbolic BFS
+    - text: ":"
+  - math:
+    - generic: F
+    - generic: i
+    - generic: +
+    - generic: "1"
+    - generic: =
+    - generic: Post
+    - generic: ⁡
+    - generic: (
+    - generic: F
+    - generic: i
+    - generic: )
+    - generic: ∖
+    - generic: R
+    - generic: i
+    - generic: ","
+    - generic: R
+    - generic: i
+    - generic: +
+    - generic: "1"
+    - generic: =
+    - generic: R
+    - generic: i
+    - generic: ∪
+    - generic: F
+    - generic: i
+    - generic: +
+    - generic: "1"
+    - generic: .
+  - text: F
+  - generic: i+1
+  - text: =
+  - generic: Post
+  - text: (
+  - text: F
+  - generic: i
+  - text: ) ∖
+  - text: R
+  - generic: i
+  - text: ","
+  - text: R
+  - generic: i+1
+  - text: =
+  - text: R
+  - generic: i
+  - text: ∪
+  - text: F
+  - generic: i+1
+  - text: .
+  - paragraph: This supplies a simple semantic oracle, straightforward witness extraction, and a clean representation-only ablation against explicit BFS. It is not the proposed final scheduling policy.
+  - heading "4.3 Recursive closure over guard-conditioned transition sets" [level=3]
+  - paragraph: A useful closure formulation works by fixing the current place value and recursively closing the remaining places.
+  - paragraph:
+    - text: For a cofactor
+    - math:
+      - generic: S
+      - generic: v
+    - text: S
+    - generic: v
+    - text: at place
+    - math:
+      - generic: p
+    - generic: p
+    - text: ", separate transitions into those that preserve"
+    - math:
+      - generic: p
+    - generic: p
+    - text: and those that change it.
+  - paragraph:
+    - text: Transitions preserving
+    - math:
+      - generic: p
+    - generic: p
+    - text: and satisfying its guard at
+    - math:
+      - generic: v
+    - generic: v
+    - text: can be used recursively inside that cofactor. Transitions changing
+    - math:
+      - generic: p
+    - generic: p
+    - text: transfer a suffix image into another cofactor.
+  - paragraph: "Schematically:"
+  - generic: Plain text
+  - button "Enable word wrap":
+  - button "Copy":
+  - code: "Close(S, E, p): repeat: old := S for each represented value v: local := residual transitions from E with delta[p] = 0 and v >= pre[p] S[v] := Close(S[v], local, next_place) for each transition t in E with delta_t[p] != 0: for each represented value v satisfying pre_t[p]: destination := v + delta_t[p] S[destination] := S[destination] union Image(S[v], tail(t)) until S = old return S"
+  - paragraph: Here E denotes transitions whose guards on higher coordinates have already been handled.
+  - paragraph: The key memoization boundary is
+  - math:
+    - generic: (
+    - generic: state-diagram node
+    - generic: ","
+    - generic: canonical residual transition set
+    - generic: )
+    - generic: .
+  - text: (
+  - generic: state-diagram node
+  - text: ","
+  - generic: canonical residual transition set
+  - text: ).
+  - paragraph: "Caching only by the state node would be wrong: the same suffix state set can occur under higher-coordinate contexts that enable different transitions."
+  - paragraph: The correctness argument is direct. Recursive local closure represents executions that leave the current coordinate fixed. Cross-cofactor images represent individual transitions changing it. Iterating these operations captures arbitrary alternation between the two. Every addition is generated by actual transitions, and a completed fixed point is closed under every transition.
+  - paragraph: There is no commutativity assumption and no partial-order pruning theorem hidden in this construction.
+  - heading "4.4 Where an implementation-level research question might remain" [level=3]
+  - paragraph: RERS makes it important not to loop over 151,085 unrelated transition objects at every node or depth.
+  - paragraph:
+    - text: A specific hypothesis worth testing is to represent the
+    - strong: union of residual guarded transitions
+    - text: as an interned decision DAG, sharing common tails and guard-conditioned subsets. The desired cost would depend on the number of distinct paired subproblems
+  - math:
+    - generic: (
+    - generic: state cofactor
+    - generic: ","
+    - generic: transition-union cofactor
+    - generic: )
+    - generic: ","
+  - text: (
+  - generic: state cofactor
+  - text: ","
+  - generic: transition-union cofactor
+  - text: ),
+  - paragraph: rather than repeatedly scanning all transitions for all encountered state fragments.
+  - paragraph: This is a precise possible distinction to investigate—not an established novelty claim.
+  - paragraph: "The collisions are close:"
+  - list:
+    - emphasis: Improving Saturation Efficiency with Implicit Relations
+    - text: already avoids rebuilding explicit transition-relation diagrams as integer domains grow.
+    - 'link "Springer Link: https://link.springer.com/chapter/10.1007/978-3-030-21571-2_17, https://link.springer.com/chapter/10.1007/978-3-030-21571-2_17"':
+      - /url: https://link.springer.com/chapter/10.1007/978-3-030-21571-2_17
+      - generic: Springer Link
+    - emphasis: Saturation Enhanced with Conditional Locality
+    - text: already exploits locality revealed by conditioning, rather than only static read/write locality.
+    - 'link "Springer Link: https://link.springer.com/chapter/10.1007/978-3-030-21571-2_19, https://link.springer.com/chapter/10.1007/978-3-030-21571-2_19"':
+      - /url: https://link.springer.com/chapter/10.1007/978-3-030-21571-2_19
+      - generic: Springer Link
+    - emphasis: A Decision Diagram Operation for Reachability
+    - text: already recursively computes closure from state and relation cofactors without requiring the usual event partition.
+    - 'link "arXiv: https://arxiv.org/abs/2212.03684, https://arxiv.org/abs/2212.03684"':
+      - /url: https://arxiv.org/abs/2212.03684
+      - generic: arXiv
+    - text: libDDD already supplies integer-valued diagrams, automatic saturation, hierarchy, and rich shared operation representations.
+    - 'link "lip6.github.io: https://lip6.github.io/ITSTools-web/libddd.html, https://lip6.github.io/ITSTools-web/libddd.html"':
+      - /url: https://lip6.github.io/ITSTools-web/libddd.html
+      - generic: lip6.github.io
+  - paragraph:
+    - text: Therefore, “conditional saturation for Petri nets,” “implicit relations,” “memoized closure,” and “supports initially unknown integer bounds” are
+    - strong: not
+    - text: defensible novelty claims.
+  - paragraph: Before writing a paper around the proposed kernel, you would need to identify the exact operational difference from these methods and show that this difference causes the measured improvement. It may turn out that the proposed representation is simply an existing homomorphism or relation-cofactoring implementation in different terminology.
+  - heading "4.5 Exact general linear targets" [level=3]
+  - paragraph:
+    - text: For a target conjunction
+    - math:
+      - generic: G
+      - generic: (
+      - generic: m
+      - generic: )
+    - generic: G(m)
+    - text: ", test whether the represented set intersects"
+    - math:
+      - generic: G
+    - generic: G
+    - text: .
+  - paragraph:
+    - text: During recursive traversal, fixing
+    - math:
+      - generic: m
+      - generic: p
+      - generic: =
+      - generic: v
+    - text: m
+    - generic: p
+    - text: =
+    - generic: v
+    - text: changes a row
+  - math:
+    - generic: ∑
+    - generic: q
+    - generic: a
+    - generic: q
+    - generic: m
+    - generic: q
+    - generic: ≥
+    - generic: b
+  - generic: q
+  - generic: ∑
+  - text: a
+  - generic: q
+  - text: m
+  - generic: q
+  - text: ≥
+  - generic: b
+  - paragraph: to the residual row
+  - math:
+    - generic: ∑
+    - generic: q
+    - generic: ≠
+    - generic: p
+    - generic: a
+    - generic: q
+    - generic: m
+    - generic: q
+    - generic: ≥
+    - generic: b
+    - generic: −
+    - generic: a
+    - generic: p
+    - generic: v
+    - generic: .
+  - text: q
+  - generic: 
+  - text: =
+  - text: p
+  - generic: ∑
+  - text: a
+  - generic: q
+  - text: m
+  - generic: q
+  - text: ≥
+  - generic: b −
+  - text: a
+  - generic: p
+  - text: v.
+  - paragraph: Treat equality exactly, either directly or as two inequalities. Cache target queries using both the diagram node and the residual constraints. Sound suffix minimum/maximum bounds can reject impossible branches, but they are pruning aids, not a replacement for the predicate.
+  - paragraph:
+    - strong: The target is an observation, not a restriction on intermediate reachable markings.
+    - text: Intersecting the explored state space with the target would generally destroy valid paths.
+  - paragraph: "There is an important complexity caveat: a small reachable-set diagram does not guarantee an easy target query. Independent binary choices plus one weighted equality already encode subset sum. Residual-constraint caches can therefore grow exponentially even when the reachable set itself has excellent sharing."
+  - paragraph: That limitation belongs in the design and experimental plan, particularly because your target language is more general than a collection of simple place bounds.
+  - heading "4.6 Termination, early targets, and soundness boundaries" [level=3]
+  - paragraph: On a bounded net, exact closure terminates in principle because there are finitely many markings. That does not imply practical tractability.
+  - paragraph: On an unbounded net, naive innermost saturation can spend forever in one local closure. The production engine therefore needs resumable closure tasks and finite work quanta. Partial results remain reachable-state underapproximations; they must not be cached or exposed as completed fixed points. An eventual-reachability claim additionally needs a fairness argument for that scheduling policy.
+  - paragraph: Early target discovery is also essential. A target-directed explicit search may find a short witness long before full symbolic closure finishes. The candidate must publish partial root growth and check targets during exploration, rather than compute the entire reachable set before asking the property.
+  - paragraph: The worst cases include bad variable order, weak state sharing, huge token ranges, many distinct residual transition subsets, expensive target intersections, and expensive witness reconstruction. There is no general polynomial bound or claim of a terminating general VASS decision procedure here.
+  - heading "4.7 Witnesses and negatives—without making proof infrastructure the project" [level=3]
+  - paragraph: For the BFS milestone, retain symbolic layers and reconstruct a concrete predecessor chain. For saturation, use operation provenance or backward symbolic search restricted to the accumulated reachable set. The latter may be expensive, so witness extraction must be measured, not treated as free.
+  - paragraph: A positive answer counts only after producing and checking an original-net execution, with the existing reduction lifting where applicable.
+  - paragraph:
+    - text: For a negative answer, an independently checked finite symbolic set
+    - math:
+      - generic: I
+    - generic: I
+    - text: is sufficient when
+  - math:
+    - generic: m
+    - generic: "0"
+    - generic: ∈
+    - generic: I
+    - generic: ","
+    - generic: Post
+    - generic: ⁡
+    - generic: t
+    - generic: (
+    - generic: I
+    - generic: )
+    - generic: ⊆
+    - generic: I
+    - generic: for every
+    - generic: t
+    - generic: ","
+    - generic: I
+    - generic: ∩
+    - generic: G
+    - generic: =
+    - generic: ∅
+    - generic: .
+  - text: m
+  - generic: "0"
+  - text: ∈
+  - text: I,
+  - generic: Post
+  - generic: t
+  - text: (I) ⊆
+  - text: I
+  - generic: for every
+  - text: t, I ∩
+  - generic: G =
+  - generic: ∅.
+  - paragraph:
+    - text: The checker need not establish that
+    - math:
+      - generic: I
+    - generic: I
+    - text: is the
+    - emphasis: smallest
+    - text: reachable set.
+  - paragraph: However, it must check those conditions symbolically. Your current finite-closure checker reruns explicit exploration (src/reduced_bfs.rs:24–41). Reusing it unchanged would erase the very compression advantage being sought.
+  - paragraph: That is one necessary checking boundary, not a proposal for another catalogue of certificate formats.
+  - heading "4.8 What I tested locally" [level=3]
+  - paragraph: I implemented a small exact version of this recursive closure, independently of the Rust code.
+  - paragraph:
+    - text: It agreed with explicit BFS on
+    - strong: 1,000 small bounded random nets
+    - text: ", containing only"
+    - strong: 2,697 reachable markings in total
+    - text: ", and on"
+    - strong: 3,000 signed-linear/equality target queries
+    - text: ". The small total matters: many cases were tiny, so this is a semantic smoke test, not a strong validation campaign."
+  - paragraph:
+    - text: "On"
+    - math:
+      - generic: "n"
+    - generic: "n"
+    - text: independent one-shot moves, with the two places of each component adjacent, the final diagram used
+    - math:
+      - generic: "3"
+      - generic: "n"
+      - generic: +
+      - generic: "1"
+    - generic: 3n +
+    - generic: "1"
+    - text: nodes, including the terminal. At
+    - math:
+      - generic: "n"
+      - generic: =
+      - generic: "64"
+    - generic: n =
+    - generic: "64"
+    - text: ", that was"
+    - strong:
+      - text: 193 nodes representing
+      - math:
+        - generic: "2"
+        - generic: "64"
+      - text: "2"
+      - generic: "64"
+      - text: markings
+    - text: .
+  - paragraph: "The counterexamples to optimism were equally instructive. Separating the component input and output places caused exponential growth: 12 components required 12,286 final nodes for 4,096 markings. A simple transfer of 512 tokens produced 513 reachable markings and 515 nodes—essentially no useful numeric compression."
+  - paragraph: These examples demonstrate mechanisms, not competitive performance. A strong solver may solve their actual properties immediately by other means.
+  - paragraph:
+    - text: The
+    - button "Open preview of symbolic_closure_probe.py":
+      - text: prototype
+    - text: ","
+    - button "Open preview of symbolic_closure_probe_results.json":
+      - text: semantic/compression results
+    - text: ", and"
+    - button "Open preview of symbolic_failure_probes.json":
+      - text: failure probes
+    - text: make those observations reproducible.
+  - heading "5. Why not BMC plus acceleration?" [level=2]
+  - paragraph:
+    - strong: There is no fundamental objection. It deserves a real test. Your current implementations have not supplied that test.
+  - heading "5.1 The current SMT experiment is restarted bounded path-scheme solving" [level=3]
+  - paragraph: "The Rust encoder has reusable state:"
+  - list:
+    - listitem: "Cached sparse summaries and effects: src/accelerated_bmc.rs:62–97."
+    - listitem: "Incremental frame generation through extend_to: :123–135."
+  - paragraph: "But the Python driver does not maintain a persistent solver session. At each bound it regenerates the formula and starts a new Z3 process:"
+  - list:
+    - listitem: "Static vocabulary: scripts/accelerated_bmc.py:46–57."
+    - listitem: "Bound sequence: :58–64."
+    - listitem: "Fresh encoding and Z3 invocation: :75–81."
+    - listitem: "Bounded UNSAT ultimately becomes unknown: :93–99."
+  - paragraph: "The discovered words are static producer-consumer dependency cycles, not words learned from evolving feasible execution models: src/word_discovery.rs:81–148."
+  - paragraph:
+    - text: Thus the experiments test useful primitives and a static search strategy. They do not test the main incremental learning mechanism of Frohn and Giesl’s ABMC, which uses persistent bounded reasoning, feasible-prefix models, dynamically learned accelerations, and carefully justified blocking.
+    - 'link "arXiv: Integrating Loop Acceleration into Bounded Model Checking, https://arxiv.org/pdf/2401.09973"':
+      - /url: https://arxiv.org/pdf/2401.09973
+      - generic: arXiv
+  - paragraph: "The old 192-property screen is nevertheless discouraging for that particular implementation: ordinary BMC found 67 positives, static acceleration approximately 69, and the diagnostic union added nothing beyond the native controls. Forty-seven properties were already true initially. Removing sparse-summary caps did not produce the hoped-for follow-through. Sources: research/abmc-mcc-development-v1/report.md and research/abmc-mcc-sparse-v1/report.md."
+  - paragraph: This is evidence against continuing the same static strategy, not evidence that published ABMC is ineffective.
+  - heading "5.2 The native scheme experiment mostly tests sequence selection" [level=3]
+  - paragraph: "The native engine enumerates vocabulary sequences through a FIFO agenda:"
+  - paragraph: src/scheme_search.rs:99–104.
+  - paragraph: "For a chosen sequence it solves a target-constrained arithmetic problem, then may solve another fresh problem to determine whether the sequence is at least a feasible prefix:"
+  - paragraph: :124–160.
+  - paragraph: The v2/v3 reports show many prefix refutations and many unresolved branch attempts that never progressed beyond the root layer. Cheap root guards improve that cost but do not change the basic combinatorial selection process.
+  - paragraph: Consequently, the current comparison does not isolate “native arithmetic versus SMT.” It mixes arithmetic implementation with dramatically different ways of selecting, representing, and learning about word sequences.
+  - paragraph:
+    - text: A fair arithmetic comparison must give both backends the
+    - strong: same fixed schemes
+    - text: . A fair search comparison must separately measure the value of joint symbolic choice and persistent conflict learning.
+  - heading "5.3 The exact acceleration primitive is already available" [level=3]
+  - paragraph:
+    - text: For a fixed word
+    - math:
+      - generic: w
+    - generic: w
+    - text: ", let"
+    - math:
+      - generic: h
+      - generic: w
+    - text: h
+    - generic: w
+    - text: be its exact enabling hurdle and
+    - math:
+      - generic: δ
+      - generic: w
+    - text: δ
+    - generic: w
+    - text: its effect. For
+    - math:
+      - generic: r
+      - generic: ≥
+      - generic: "1"
+    - generic: r ≥
+    - generic: "1"
+    - text: ","
+  - math:
+    - generic: m
+    - generic: ≥
+    - generic: h
+    - generic: w
+    - generic: +
+    - generic: (
+    - generic: r
+    - generic: −
+    - generic: "1"
+    - generic: )
+    - generic: max
+    - generic: ⁡
+    - generic: (
+    - generic: −
+    - generic: δ
+    - generic: w
+    - generic: ","
+    - generic: "0"
+    - generic: )
+    - generic: ","
+    - generic: m
+    - generic: ′
+    - generic: =
+    - generic: m
+    - generic: +
+    - generic: r
+    - generic: δ
+    - generic: w
+    - generic: ","
+  - generic: m ≥
+  - text: h
+  - generic: w
+  - text: +
+  - generic: (r −
+  - text: 1) max(−
+  - text: δ
+  - generic: w
+  - text: ", 0),"
+  - text: m
+  - generic: ′
+  - text: =
+  - generic: m +
+  - text: r
+  - text: δ
+  - generic: w
+  - text: ","
+  - paragraph: componentwise.
+  - paragraph: Your implementation already has the essential composition and repetition machinery in src/summary.rs:31–107, the SMT constraints in src/accelerated_bmc.rs:138–180, and native fixed-scheme arithmetic in src/path_scheme.rs:67–170.
+  - paragraph:
+    - strong: Re-deriving this formula is not the next research contribution.
+  - paragraph: The missing opportunity is discovering useful words, keeping the reasoning incremental, and reusing failed search information.
+  - heading "5.4 A serious ABMC experiment" [level=3]
+  - paragraph: I would first translate the exact net problem to the published tool, rather than immediately reimplement the whole algorithm.
+  - paragraph: "The translation is straightforward:"
+  - math:
+    - generic: Inv
+    - generic: ⁡
+    - generic: (
+    - generic: m
+    - generic: "0"
+    - generic: )
+    - generic: ","
+  - generic: Inv
+  - text: (
+  - text: m
+  - generic: "0"
+  - text: ),
+  - math:
+    - generic: Inv
+    - generic: ⁡
+    - generic: (
+    - generic: m
+    - generic: )
+    - generic: ∧
+    - generic: m
+    - generic: ≥
+    - generic: pre
+    - generic: ⁡
+    - generic: t
+    - generic: ∧
+    - generic: m
+    - generic: ′
+    - generic: =
+    - generic: m
+    - generic: +
+    - generic: δ
+    - generic: t
+    - generic: ⟹
+    - generic: Inv
+    - generic: ⁡
+    - generic: (
+    - generic: m
+    - generic: ′
+    - generic: )
+    - generic: ","
+  - generic: Inv
+  - text: (m) ∧
+  - generic: m ≥
+  - generic: pre
+  - generic: t
+  - text: ∧
+  - text: m
+  - generic: ′
+  - text: =
+  - generic: m +
+  - text: δ
+  - generic: t
+  - text: ⟹
+  - generic: Inv
+  - text: (
+  - text: m
+  - generic: ′
+  - text: ),
+  - math:
+    - generic: Inv
+    - generic: ⁡
+    - generic: (
+    - generic: m
+    - generic: )
+    - generic: ∧
+    - generic: G
+    - generic: (
+    - generic: m
+    - generic: )
+    - generic: ⟹
+    - generic: ⊥
+    - generic: .
+  - generic: Inv
+  - text: (m) ∧
+  - generic: G(m) ⟹
+  - generic: ⊥.
+  - paragraph: Preserve integer nonnegativity, read guards, signed target coefficients, equalities, and original-property polarity. In this Horn encoding, satisfiability means safety/unreachability; unsatisfiability means the target is reachable.
+  - paragraph:
+    - text: There is relevant newer prior art beyond the FM 2024 paper. The 2026 LoAT software publication describes ABMC and a safety-oriented
+    - strong: Transitive Relation Learning
+    - text: engine, with a reproducible version pin and implementation details. It should be part of the comparison rather than treating the older prototype or artifact as the entire state of the art.
+    - 'link "RWTH Publications: https://publications.rwth-aachen.de/record/1036374/files/1036374.pdf, https://publications.rwth-aachen.de/record/1036374/files/1036374.pdf"':
+      - /url: https://publications.rwth-aachen.de/record/1036374/files/1036374.pdf
+      - generic: RWTH Publications
+  - paragraph: "For your own implementation, the decisive progression is:"
+  - paragraph:
+    - strong: Restarted static vocabulary → persistent static vocabulary → persistent dynamically learned vocabulary.
+  - paragraph: Only the last comparison isolates dynamic acceleration.
+  - paragraph: "The implementation must query feasible prefixes separately from the target query when the latter is unsatisfiable. It must also avoid learning from vacuous all-stuttering models: your current repetition variables admit zero, so merely asking for a prefix model can return no useful execution. Progress constraints, target-prefix handling, and model diversification need explicit design."
+  - paragraph: Do not wait for recurrence of the entire marking to identify useful loops. Full-marking recurrence gives zero net effect. Useful acceleration typically involves recurrence of a control pattern while other token counts change.
+  - paragraph: Keep all original transitions available. Learned exact shortcuts may add search power; bounded shortcut exhaustion does not establish global unreachability.
+  - paragraph: "Nested symbolic repetition is another boundary: an outer repetition count multiplied by a symbolic inner effect introduces products. It is not automatically QF_LIA. Freezing inner counts gives a sound underapproximation, but is not a complete treatment of nested acceleration."
+  - paragraph:
+    - text: "TRL is particularly relevant to the desire for one coherent positive/negative algorithm, but it introduces its own soundness distinction: learned transitive relations can overapproximate behavior, so a model using such relations is not automatically an executable witness. The published method’s relation-learning and refinement obligations must be preserved."
+    - 'link "arXiv: https://arxiv.org/html/2502.04761v1, https://arxiv.org/html/2502.04761v1"':
+      - /url: https://arxiv.org/html/2502.04761v1
+      - generic: arXiv
+  - heading "5.5 Is SMT necessary?" [level=3]
+  - paragraph: No.
+  - paragraph: The existing native portfolio already avoids an external SMT requirement. A decision-diagram reachability engine can likewise be independent of SMT.
+  - paragraph: But “can be native” and “should recreate a mature symbolic arithmetic solver” are different questions.
+  - paragraph:
+    - text: For ABMC, SMT supplies joint Boolean path selection, incremental arithmetic reasoning, learned conflicts, assumptions, and models. The current native fixed-scheme implementation supplies exact arithmetic for a
+    - strong: previously chosen
+    - text: sequence; it does not supply all those capabilities.
+  - paragraph: "My engineering recommendation is:"
+  - paragraph:
+    - strong: Use a mature SMT implementation for the first serious ABMC experiment. Replace it only after profiling identifies a particular solver limitation that a specialized native design can plausibly overcome.
+  - paragraph: Embedding a solver library, invoking a solver process, and depending on a separate end-user installation are also different packaging choices. There is no need to resolve the research architecture by declaring either “SMT required” or “native preferred” in advance.
+  - heading "6. What would—and would not—constitute a research contribution" [level=2]
+  - paragraph: The current project has several valuable ingredients, but the central paper claim is not yet apparent.
+  - paragraph:
+    - text: For count planning, generic state-equation CEGAR collides directly with Wimmel–Wolf. State-equation-guided exploration also needs comparison with FastForward, whose contribution includes algebraically informed directed reachability search. A different search order or another necessary inequality is not by itself a convincing distinction.
+    - link "arXiv, https://arxiv.org/pdf/1208.2159, 1 additional source":
+      - /url: https://arxiv.org/pdf/1208.2159
+      - generic: arXiv
+      - generic: "+1"
+  - paragraph:
+    - text: For reductions and target handling, strong existing work includes polyhedral reduction and property projection. “Reduce the net, then solve the target on the reduction” is already a substantial research area, including
+    - emphasis: Project and Conquer
+    - text: .
+    - 'link "arXiv: https://arxiv.org/abs/2401.03711, https://arxiv.org/abs/2401.03711"':
+      - /url: https://arxiv.org/abs/2401.03711
+      - generic: arXiv
+  - paragraph: For symbolic closure, the closest collisions are sufficiently close that I would not currently advertise a new algorithm. The possible contribution is an operationally distinct shared implicit-relation kernel whose advantage survives same-library ablations—not simply a Rust implementation of saturation.
+  - paragraph: For acceleration, “BMC plus acceleration” is already published, and the successor landscape includes TRL. A credible distinction would need to be Petri-net-specific discovery, representation, or learning that demonstrably improves the published baseline—not merely exact repeated-word summaries or an independent witness checker.
+  - paragraph:
+    - strong: An established method may be the best backend choice even when adopting it produces no new research contribution.
+    - text: Those two decisions should be allowed to separate.
+  - heading "7. A minimal decisive experimental program" [level=2]
+  - 'heading "Stage A: determine which phenomenon the current unknowns exhibit" [level=3]'
+  - paragraph: After the registered experiment finishes normally, recover the frozen inputs and classify the 40 distinct shared-unknown representatives, together with matched solved controls.
+  - paragraph: Record whether the relevant limitation is parsing/reduction time, transition scanning, explicit-state/storage caps, count realization, arithmetic, formula construction, solver time, or witness/checking cost. The existing reports do not provide enough phase attribution to choose among those explanations for all current survivors.
+  - paragraph: "For the count cases, add two diagnostics:"
+  - paragraph:
+    - strong: "Marking duplication:"
+    - text: how many count-prefix states collapse to the same marking?
+  - paragraph:
+    - strong: "Ray escape:"
+    - text: does a common nonnegative transition invariant escape all observed frontier cuts, as described above?
+  - paragraph: For the structural hypothesis, mechanically verify the claimed conservation/boundedness information on the exact hashed nets. Do not use model metadata as a proof allowing a bounded encoding to emit global negative answers.
+  - paragraph: "Also run the simple diagnostic control: reduced explicit search with a genuinely larger stage budget and a separately registered memory-derived state cap. This can reveal whether part of the apparent algorithmic gap is an imposed ceiling."
+  - paragraph: These are development diagnostics. They must not consume or tune against the reserved families.
+  - 'heading "Stage B: run the missing established baseline before a rewrite" [level=3]'
+  - paragraph:
+    - text: Qualify
+    - strong: ITS-Tools
+    - text: on exact original PNML/XML properties and run one predeclared development comparison.
+  - paragraph:
+    - text: "Its documented machinery directly matches the hypothesized missing capability: exact integer-valued symbolic state sets and saturation. This is why it is an important baseline, not because any contest ranking predicts your five-second result."
+    - 'link "lip6.github.io: https://lip6.github.io/ITSTools-web/libddd.html, https://lip6.github.io/ITSTools-web/libddd.html"':
+      - /url: https://lip6.github.io/ITSTools-web/libddd.html
+      - generic: lip6.github.io
+  - paragraph: "Check the adapter as carefully as the SMPT qualification: property selection, target arithmetic, polarity, time accounting, and whether the tool is solving one property or amortizing work across a complete property file."
+  - paragraph: A single controlled exploratory budget—say 30 seconds—can answer the first question. There is no need to launch every new variant at every budget and repeat count before knowing whether the mechanism adds coverage.
+  - paragraph: "The possible outcomes are informative:"
+  - paragraph:
+    - strong: ITS closes important gaps.
+    - text: Symbolic representation is supported as a backend direction. Determine whether integration is sufficient or whether a specific kernel bottleneck remains.
+  - paragraph:
+    - strong: ITS does not close gaps, but fails predominantly in identifiable ordering/relation-construction costs.
+    - text: A narrowly defined representation experiment may still be justified.
+  - paragraph:
+    - strong: A mature symbolic implementation neither compresses the relevant state spaces nor adds coverage.
+    - text: Boundedness alone was a poor predictor; stop the custom DD rewrite and move the investment to the next hypothesis.
+  - paragraph: A naive homemade MDD BFS failing is not enough to falsify mature saturation.
+  - 'heading "Stage C: isolate the symbolic mechanism" [level=3]'
+  - paragraph: "Use the same reduction output, variable order, memory policy, target checker, and witness policy for three comparisons:"
+  - table:
+    - rowgroup:
+      - row "Comparison Question answered":
+        - columnheader "Comparison"
+        - columnheader "Question answered"
+    - rowgroup:
+      - row "Explicit BFS vs symbolic BFS Does representing sets rather than individual markings help?":
+        - cell "Explicit BFS vs symbolic BFS"
+        - cell "Does representing sets rather than individual markings help?"
+      - row "Symbolic BFS vs established saturation Does the closure schedule help?":
+        - cell "Symbolic BFS vs established saturation"
+        - cell "Does the closure schedule help?"
+      - row "Established implicit-relation kernel vs proposed shared-residual kernel Is there a genuinely useful new implementation mechanism?":
+        - cell "Established implicit-relation kernel vs proposed shared-residual kernel"
+        - cell "Is there a genuinely useful new implementation mechanism?"
+  - button "Copy table":
+  - button "Expand table":
+  - paragraph: Do not attribute a better variable order, more aggressive reduction, or missing witness extraction to the new closure algorithm.
+  - paragraph: "Include synthetic axes that deliberately separate the effects: independent components, stronger coupling, read-guard conditioning, bad variable order, large numeric ranges, and signed/equality targets. The large-counter case is a necessary negative control for the DD hypothesis."
+  - 'heading "Stage D: give ABMC a separate, fair opportunity" [level=3]'
+  - paragraph: On a frozen mixture of development cases and genuine high-counter mechanisms, compare persistent static BMC with persistent dynamic ABMC, plus published LoAT ABMC/TRL.
+  - paragraph: "Ordinary incremental BMC is essential: on bounded models, a gain may come from symbolic path choice and incrementality rather than acceleration."
+  - paragraph: Record useful repetitions and learned-word reuse, not just the number of words discovered. A vocabulary full of shortcuts used once—or never—is not evidence that acceleration is helping.
+  - paragraph: For native versus SMT arithmetic, replay an identical collection of fixed schemes through both backends. Do not use different scheme search strategies and then interpret the difference as an arithmetic-backend result.
+  - heading "Advancement and stopping criteria" [level=3]
+  - paragraph: "I would precommit to a modest development gate before examining the new outcomes. For example, advance a major rewrite only if it produces either:"
+  - list:
+    - listitem: At least four additional solved distinct current survivors across at least two family groups; or
+    - listitem: A substantial, repeatable speed/resource improvement on nontrivial matched cases, attributable to the proposed mechanism.
+  - paragraph: Those numbers are project-management thresholds, not statistical theorems or predicted outcomes. A paper requires substantially stronger held-out evidence.
+  - paragraph: Stop a candidate when its advantage disappears under the correct nearest-method ablation, when it only fixes a tunable cap already handled by the established method, or when two frozen development iterations fail to produce meaningful complementary coverage or speed.
+  - paragraph: For frontier expansion specifically, the current evidence already meets my stopping criterion.
+  - heading "Final evaluation" [level=3]
+  - paragraph:
+    - text: The final comparison should retain both the
+    - strong: frozen existing solver and the current combined solver
+    - text: . Comparing only against the older baseline would overstate progress.
+  - paragraph: The necessary competitors are unrestricted VerifyPN, the qualified strong SMPT configuration, and ITS-Tools. Add LoAT ABMC/TRL when making an acceleration claim, or FastForward when making a count-guided-search claim.
+  - paragraph: Keep original-input end-to-end runs as the primary comparison. Common-preprocessing experiments are valuable secondary algorithmic ablations, not replacements for allowing competitors their own strongest preprocessing.
+  - paragraph: Charge all subprocesses and threads to the same resources. Separate solver latency, witness/proof production, and independent validation costs; never count an unchecked candidate as a validated answer. Preserve timeouts, memory failures, missing counters, and unsupported cases.
+  - paragraph:
+    - text: Finally, hold out
+    - strong: family groups
+    - text: ", not random properties from already studied families. Repeated timings do not turn correlated properties into independent samples. A general VASS claim also needs a deliberately frozen counter-intensive/unbounded component, not only bounded MCC models selected because the symbolic engine handles them."
+  - heading "Bottom line" [level=2]
+  - paragraph:
+    - text: The most important change I would make is
+    - strong: from repeatedly solving global firing-count proposals to retaining and sharing execution structure
+    - text: .
+  - paragraph: For the current development evidence, exact symbolic reachable-set closure is the strongest hypothesis to test. A mature ITS-Tools run is the cheapest decisive test of that hypothesis. Genuine incremental ABMC remains a serious second direction, and your existing prototypes have not ruled it out—but the boundedness of the prominent hard families is a concrete reason not to make large fixed-word acceleration the default explanation.
+  - paragraph: "The next milestone should therefore not be “more frontiers reconstructed,” “more threshold forms,” or “more cycle words.” It should be:"
+  - paragraph:
+    - strong: A controlled demonstration that one coherent execution representation breaks a substantial part of the current coverage barrier—and that its advantage remains after comparison with the established method that already uses the same basic idea.
+  - button "Open preview of symbolic_closure_probe.py"
+  - generic "symbolic_closure_probe.py"
+  - generic: Code
+  - button "Download file":
+  - button "Open preview of symbolic_closure_probe_results.json"
+  - generic "symbolic_closure_probe_results.json"
+  - generic: Code
+  - button "Download file":
+  - button "Open preview of symbolic_failure_probes.json"
+  - generic "symbolic_failure_probes.json"
+  - generic: Code
+  - button "Download file":
+  - button "Copy" [active]:
+  - button "Rate response":
+  - button "Share":
+  - button "Read aloud":
+  - button "Regenerate response":
+  - button "More actions":
+  - button "Sources":
+  - generic: ChatGPT can make mistakes. Check important info.
+  - button:
+  - heading "Latest response" [level=4]
+  - status
+  - button "Add files and more":
+  - textbox "Ask ChatGPT":
+    - paragraph: Ask ChatGPT
+  - button "Select ChatGPT model":
+    - generic: Pro
+  - button "Dictate":
+  - button "Start Voice":
+- status
+- status
+- status
+- status
+- status
+- tooltip "Copy response":
+  - generic: Copy response
+```

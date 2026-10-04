@@ -1,0 +1,22 @@
+{
+  "scope": "All 368 stress-development properties. Paired Python and Rust original-input frontends around the same frozen engine, plus unrestricted VerifyPN. One-repetition diagnostic pilot, not held-out evaluation.",
+  "methods": [
+    "candidate-python",
+    "candidate-rust",
+    "verifypn-default"
+  ],
+  "engine": "portfolio-local",
+  "binary": "results/linux-solver-original-sparse-v1/vass-reach",
+  "binary_sha256": "afbf04ad4145eefcfbe747c20e196b37853b22121156272e91de1143ef3dae5a",
+  "source_archive_sha256": "e2a5c4798048d6c12ec36484019a28e1961c87d3091b007a288994056095ab0b",
+  "manifest_sha256": "2f23cc2dcfb72d8cf03979830ad4cd0710751507208a8c000e5ba3a5b7b1a994",
+  "seconds": 5,
+  "repeat": 1,
+  "order_seed": 20260927,
+  "memory_mib": 2048,
+  "linux_cpu": 8,
+  "perf": true,
+  "validation": "Separate bounded independent original-input translation, canonical comparison and witness/proof checking;30s/2GiB/1MiB response. External VerifyPN verdicts not independently checked.",
+  "output": "results/linux-stress-paired-frontends-v1",
+  "prerequisites": "Previous stress pilot and build terminal;14 adapter tests passed on Linux;positive smoke agrees across both frontends and VerifyPN."
+}

@@ -1,0 +1,8 @@
+query,constant_false,places,transitions,smpt_verdict,smpt_wall_seconds,smpt_solver_seconds,smpt_repeats
+c1_disjunct_0,False,24,38,unknown,5.1931051660794765,5.1931051660794765,1
+e2_disjunct_0,False,16,15,unknown,5.133811166975647,5.133811166975647,1
+e3_disjunct_2,False,25,35,unknown,5.134864749852568,5.134864749852568,1
+e4_disjunct_2,False,29,43,unknown,5.121788791147992,5.121788791147992,1
+g1_disjunct_0,False,56,103,unknown,5.1448905419092625,5.1448905419092625,1
+g2_disjunct_1,False,37,48,unknown,5.127013250021264,5.127013250021264,1
+g3_disjunct_1,False,39,55,unknown,5.163899957900867,5.163899957900867,1

@@ -1,0 +1,1130 @@
+{
+  "status": "passed",
+  "plan_sha256": "5a7164941c0af7d7ce1045b2687cf4da8d9304d3054a6480530275f127df621a",
+  "terminal_sha256": "1641cf5e1defe035bba064fb4dd26ea96281d0b1d1f930d42a35ee2cdf4ac1de",
+  "auditor_sha256": "39ce8df6091ce572f9a2970e7e5f6c20a4bd91a3b1c7e1c2430c1183f349ae42",
+  "pinned_files": 1972,
+  "result_artifacts": 280,
+  "rows": 93,
+  "properties": 31,
+  "methods": {
+    "backward-cover": {
+      "solved": 0,
+      "queries": [],
+      "verdicts": {
+        "unknown": 31
+      },
+      "failure_flags": {
+        "nonzero_exit": 4,
+        "timeout": 15
+      },
+      "solver_wall_total": 134.5886145848781,
+      "validation_wall_total": 51.66001316788606,
+      "raw_output": {
+        "incomplete_or_empty_json": 4,
+        "complete_json": 27
+      },
+      "observed_wall_minus_reported_parse_solve_median": 0.03635470893438608
+    },
+    "scaled-relaxed": {
+      "solved": 12,
+      "queries": [
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC00"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC01"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC03"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC08"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC10"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC15"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC02"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC03"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC09"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC12"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC13"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC14"
+        ]
+      ],
+      "verdicts": {
+        "unknown": 19,
+        "reachable": 12
+      },
+      "failure_flags": {},
+      "solver_wall_total": 93.35875982954167,
+      "validation_wall_total": 94.21003833250143,
+      "raw_output": {
+        "complete_json": 31
+      },
+      "observed_wall_minus_reported_parse_solve_median": 0.04166437501296401
+    },
+    "portfolio-excess": {
+      "solved": 13,
+      "queries": [
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC00"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC01"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC03"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC05"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC06"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC07"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC13"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC03"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC05"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC06"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC12"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC14"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC15"
+        ]
+      ],
+      "verdicts": {
+        "unknown": 18,
+        "reachable": 13
+      },
+      "failure_flags": {
+        "nonzero_exit": 7,
+        "timeout": 16
+      },
+      "solver_wall_total": 102.347888791468,
+      "validation_wall_total": 48.21669487375766,
+      "raw_output": {
+        "incomplete_or_empty_json": 7,
+        "complete_json": 24
+      },
+      "observed_wall_minus_reported_parse_solve_median": 0.03619370790794485
+    }
+  },
+  "union": [
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC00"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC01"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC03"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC05"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC06"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC07"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC08"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC10"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC13"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC15"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC02"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC03"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC05"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC06"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC09"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC12"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC13"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC14"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC15"
+    ]
+  ],
+  "intersection": [],
+  "method_only": {
+    "backward-cover": [],
+    "scaled-relaxed": [
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC08"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC10"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC15"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC02"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC09"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC13"
+      ]
+    ],
+    "portfolio-excess": [
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC05"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC06"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC07"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC13"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC05"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC06"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC15"
+      ]
+    ]
+  },
+  "unresolved": [
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC04"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC11"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC12"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC14"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC00"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC08"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC11"
+    ],
+    [
+      "expansion192",
+      "ASLink-PT-05b__RC05"
+    ],
+    [
+      "expansion192",
+      "ASLink-PT-05b__RC06"
+    ],
+    [
+      "expansion192",
+      "ASLink-PT-10b__RC05"
+    ],
+    [
+      "expansion192",
+      "ASLink-PT-10b__RC07"
+    ],
+    [
+      "expansion192",
+      "Railroad-PT-100__RC09"
+    ]
+  ],
+  "validations_recorded": 62,
+  "accepted_witnesses": 25,
+  "scope": "Read-only artifact/provenance/acceptance audit. No solver or certificate replay. Saved bounded independent original-input proof/witness checks verified against request/response evidence. One selected diagnostic, not an overall or repeated comparison.",
+  "prior_direct_audit_sha256": "d0a314fd1d89cfffe3a785a334ddd3074cbad634a4914d40e2d35a4d7324f1ee",
+  "cross_version_descriptive": {
+    "scaled_only_vs_portfolio": [
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC08"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC10"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC15"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC02"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC09"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC13"
+      ]
+    ],
+    "scaled_only_vs_prior_walk": [
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC08"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC10"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC15"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC02"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC09"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC13"
+      ]
+    ],
+    "prior_walk_only_vs_portfolio": [
+      [
+        "expansion192",
+        "ASLink-PT-05b__RC05"
+      ]
+    ],
+    "scaled_intersection_prior_relaxed": [
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC00"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC01"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC03"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC08"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC15"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC02"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC03"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC12"
+      ]
+    ],
+    "scope": "Earlier direct-method diagnostic has a different frozen binary; this comparison guides scheduling, not an isolated algorithm ablation or measured portfolio union."
+  },
+  "accepted_timings": [
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC13",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 4.363041832810268,
+      "rust_parse_seconds": 0.515385416,
+      "rust_solve_seconds": 3.80642225,
+      "validation": {
+        "wall_seconds": 3.7348274579271674,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.61617732,
+          "sampled_peak_rss_bytes": 928497664,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC06",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 3.0303507910575718,
+      "rust_parse_seconds": 0.523043,
+      "rust_solve_seconds": 2.464747625,
+      "validation": {
+        "wall_seconds": 3.411486957920715,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.322438128,
+          "sampled_peak_rss_bytes": 932429824,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC05",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 0.9804789158515632,
+      "rust_parse_seconds": 0.598655208,
+      "rust_solve_seconds": 0.312118959,
+      "validation": {
+        "wall_seconds": 3.8179950409103185,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.694103808,
+          "sampled_peak_rss_bytes": 930381824,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC07",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 0.6592322909273207,
+      "rust_parse_seconds": 0.420622667,
+      "rust_solve_seconds": 0.200689375,
+      "validation": {
+        "wall_seconds": 3.4909367500804365,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.373661632,
+          "sampled_peak_rss_bytes": 928514048,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC02",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 1.459370374912396,
+      "rust_parse_seconds": 0.491537375,
+      "rust_solve_seconds": 0.921808667,
+      "validation": {
+        "wall_seconds": 3.3444332079961896,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.267198296,
+          "sampled_peak_rss_bytes": 921845760,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC03",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 1.4322460000403225,
+      "rust_parse_seconds": 0.4682985,
+      "rust_solve_seconds": 0.918703416,
+      "validation": {
+        "wall_seconds": 3.30631187511608,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.222598112,
+          "sampled_peak_rss_bytes": 929038336,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC03",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 0.9401007920969278,
+      "rust_parse_seconds": 0.428294625,
+      "rust_solve_seconds": 0.443814625,
+      "validation": {
+        "wall_seconds": 3.451221958035603,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.34297756,
+          "sampled_peak_rss_bytes": 930938880,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC00",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 0.9052926248405129,
+      "rust_parse_seconds": 0.60261825,
+      "rust_solve_seconds": 0.25256475,
+      "validation": {
+        "wall_seconds": 5.753210499882698,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 4.28418032,
+          "sampled_peak_rss_bytes": 934772736,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC00",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 4.213721874868497,
+      "rust_parse_seconds": 0.706073417,
+      "rust_solve_seconds": 3.441621417,
+      "validation": {
+        "wall_seconds": 3.9218864580616355,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.721012,
+          "sampled_peak_rss_bytes": 934428672,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC13",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 0.6856148329097778,
+      "rust_parse_seconds": 0.449895875,
+      "rust_solve_seconds": 0.193344667,
+      "validation": {
+        "wall_seconds": 3.642144000157714,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.5231448,
+          "sampled_peak_rss_bytes": 934248448,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC03",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 0.6746132499538362,
+      "rust_parse_seconds": 0.471757,
+      "rust_solve_seconds": 0.177733458,
+      "validation": {
+        "wall_seconds": 3.4256895419675857,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.323579856,
+          "sampled_peak_rss_bytes": 926613504,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC03",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 1.2889630410354584,
+      "rust_parse_seconds": 0.486772625,
+      "rust_solve_seconds": 0.742039958,
+      "validation": {
+        "wall_seconds": 3.3125087080989033,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.209231664,
+          "sampled_peak_rss_bytes": 924958720,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC12",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 0.5810635408852249,
+      "rust_parse_seconds": 0.416002708,
+      "rust_solve_seconds": 0.139922834,
+      "validation": {
+        "wall_seconds": 3.5267696669325233,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.440031232,
+          "sampled_peak_rss_bytes": 932462592,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC12",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 1.180890749907121,
+      "rust_parse_seconds": 0.461494959,
+      "rust_solve_seconds": 0.666964416,
+      "validation": {
+        "wall_seconds": 3.4942427910864353,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.392646992,
+          "sampled_peak_rss_bytes": 924975104,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC10",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 3.582115458091721,
+      "rust_parse_seconds": 0.586789291,
+      "rust_solve_seconds": 2.956102167,
+      "validation": {
+        "wall_seconds": 3.356801416957751,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.2367163039999998,
+          "sampled_peak_rss_bytes": 938295296,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC08",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 1.345979708014056,
+      "rust_parse_seconds": 0.454586166,
+      "rust_solve_seconds": 0.850614834,
+      "validation": {
+        "wall_seconds": 3.3963159590493888,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.2660780959999998,
+          "sampled_peak_rss_bytes": 923844608,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC15",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 1.4890036669094115,
+      "rust_parse_seconds": 0.468279292,
+      "rust_solve_seconds": 0.95256925,
+      "validation": {
+        "wall_seconds": 3.2583218747749925,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.1850588959999997,
+          "sampled_peak_rss_bytes": 923205632,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC01",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 0.83523212489672,
+      "rust_parse_seconds": 0.442200292,
+      "rust_solve_seconds": 0.362954208,
+      "validation": {
+        "wall_seconds": 3.4983694578986615,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.3814714080000003,
+          "sampled_peak_rss_bytes": 930332672,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC01",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 0.8163567499723285,
+      "rust_parse_seconds": 0.430688375,
+      "rust_solve_seconds": 0.333611792,
+      "validation": {
+        "wall_seconds": 3.3655683749821037,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.2664352880000003,
+          "sampled_peak_rss_bytes": 923156480,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC09",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 1.5851751249283552,
+      "rust_parse_seconds": 0.503985291,
+      "rust_solve_seconds": 1.025168209,
+      "validation": {
+        "wall_seconds": 3.310843165963888,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.2130892319999997,
+          "sampled_peak_rss_bytes": 930316288,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC06",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 1.0224668339360505,
+      "rust_parse_seconds": 0.479588,
+      "rust_solve_seconds": 0.488125625,
+      "validation": {
+        "wall_seconds": 3.456134415930137,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.368677344,
+          "sampled_peak_rss_bytes": 936820736,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC15",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 0.7066347920335829,
+      "rust_parse_seconds": 0.467787833,
+      "rust_solve_seconds": 0.195030708,
+      "validation": {
+        "wall_seconds": 3.5811090839561075,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.46581032,
+          "sampled_peak_rss_bytes": 936886272,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-5__RC05",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 1.0244295001029968,
+      "rust_parse_seconds": 0.438962667,
+      "rust_solve_seconds": 0.536793583,
+      "validation": {
+        "wall_seconds": 3.479877542005852,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.403317,
+          "sampled_peak_rss_bytes": 934969344,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC14",
+      "method": "portfolio-excess",
+      "verdict": "reachable",
+      "wall_seconds": 3.9492124170064926,
+      "rust_parse_seconds": 0.441983458,
+      "rust_solve_seconds": 3.460794,
+      "validation": {
+        "wall_seconds": 3.463398375082761,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.3779336,
+          "sampled_peak_rss_bytes": 926187520,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    },
+    {
+      "corpus": "existing176",
+      "query": "RERS17pb114-PT-9__RC14",
+      "method": "scaled-relaxed",
+      "verdict": "reachable",
+      "wall_seconds": 4.352153832791373,
+      "rust_parse_seconds": 0.455091,
+      "rust_solve_seconds": 3.857889875,
+      "validation": {
+        "wall_seconds": 3.454715708969161,
+        "exit_code": 0,
+        "outer_timeout": false,
+        "resources": {
+          "sampled_cpu_seconds": 3.3628282879999998,
+          "sampled_peak_rss_bytes": 929775616,
+          "observed_processes": 1,
+          "sampling_interval_seconds": 0.01,
+          "memory_limit_bytes": 2147483648,
+          "memory_limit_exceeded": false
+        },
+        "seconds_limit": 60.0,
+        "memory_limit_bytes": 2147483648,
+        "response_limit_bytes": 67108864,
+        "dag_check_max_work": 200000000,
+        "included_in_solver_timing": false
+      }
+    }
+  ]
+}

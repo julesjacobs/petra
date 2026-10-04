@@ -1,0 +1,47 @@
+{
+  "corpus": "/Users/julesjacobs/git/git/pvass/benchmarks/raw-stress-v1",
+  "collection_sha256": "9d54f1b1712cf583c15f7f808859445d384a7dc9bc3b7f343cabd782d1f3ab78",
+  "source_manifest_sha256": "48d46e1bff9538e92a692b7fa85145a0e51f7ca9a77aa834c3c7eb8f5a0d7a40",
+  "source_selection": "full-manifest",
+  "selected_sources": [
+    "counter_d31_s16_racy",
+    "counter_d31_s16_locked",
+    "counter_d63_s32_racy",
+    "counter_d63_s32_locked",
+    "counter_d127_s64_racy",
+    "counter_d127_s64_locked",
+    "replicas_n8_racy",
+    "replicas_n8_locked",
+    "replicas_n10_racy",
+    "replicas_n10_locked",
+    "replicas_n12_racy",
+    "replicas_n12_locked",
+    "monitor_d4_c64",
+    "monitor_d4_c128",
+    "monitor_d4_c256",
+    "monitor_d5_c128",
+    "monitor_d5_c256",
+    "monitor_d5_c512"
+  ],
+  "binary_source": "/Users/julesjacobs/git/git/pvass/results/solver-raw-negative-indexed-v1/vass-reach",
+  "binary_sha256": "c57d1d21cbc4c3c0d28c6be743910a482d77629cb8c9e5eb7f3d70ac0c2afdcc",
+  "runner_sha256": {
+    "raw_stress_worker.py": "4b8cd455c21bc34d17aad321115a96a736ccf9f4e4e183e7d3ac404964efded6",
+    "raw_invariant_check.py": "4217c9b2ddac38b648a90c59fd5a60b36ee5ce053f35dd5f7e0547a25d559d96",
+    "benchmark_stress_raw.py": "d69e43968ef1516ead0b604a873e507b36fb81d5a906388bf536596efb57303e",
+    "raw_z3.py": "ba16c188953868e5864b7820ca3ea3b365bf17ca2f56192b939383b12e9c5b4a",
+    "process_runner.py": "07644ec3f88ab2ae1d1e4f0071a3d3f754d13176124828d01e1f4d4cb207b71d"
+  },
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "python_executable": "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+  "z3_package_version": "5.1.0.0",
+  "methods": [
+    "raw-negative"
+  ],
+  "repeat": 2,
+  "seconds": 10.0,
+  "solver_fraction": 0.8,
+  "max_states": 200000,
+  "memory_bytes": 2147483648,
+  "started_unix": 1790531887.9032378
+}

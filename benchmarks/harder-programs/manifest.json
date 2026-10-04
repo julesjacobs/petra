@@ -1,0 +1,322 @@
+[
+  {
+    "name": "counter_d3_s1_racy",
+    "source": "counter_d3_s1_racy.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 3,
+      "stages": 1,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "two-increments-return-one",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "9d9849b95395733d2617328b2cdc10a7aabe0cdcd3e1214efedd116b180377dc"
+  },
+  {
+    "name": "counter_d3_s1_locked",
+    "source": "counter_d3_s1_locked.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 3,
+      "stages": 1,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "bf6c1d06914d78f9eab69aaf3cc89988fceea80a6a28785a0272b97dcc9cb7cf"
+  },
+  {
+    "name": "counter_d5_s2_racy",
+    "source": "counter_d5_s2_racy.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 5,
+      "stages": 2,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "two-increments-return-one",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "56e08ee877b710c8120d941667fd35da37f2455b3c94bfea3fe18e42aaaffffd"
+  },
+  {
+    "name": "counter_d5_s2_locked",
+    "source": "counter_d5_s2_locked.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 5,
+      "stages": 2,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "880267d8aa7d49c8eb5ade67bfd4ff28eb0384d3919c9829d0561c73096265b0"
+  },
+  {
+    "name": "counter_d7_s3_racy",
+    "source": "counter_d7_s3_racy.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 7,
+      "stages": 3,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "two-increments-return-one",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "779cbb0aab796807154962ca6d16a21c6b582dbc4030171b4477be2f4ffc645d"
+  },
+  {
+    "name": "counter_d7_s3_locked",
+    "source": "counter_d7_s3_locked.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 7,
+      "stages": 3,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "4b129ddb1d55773b3851c357a232e920a975f368cb3462f827f46d9ecb67855c"
+  },
+  {
+    "name": "counter_d17_s8_racy",
+    "source": "counter_d17_s8_racy.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 17,
+      "stages": 8,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "two-increments-return-one",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "47d4ea4d028db3811c4b5c814444ae4c9a3aca88c5b2f971da032ec2e97f38c7"
+  },
+  {
+    "name": "counter_d17_s8_locked",
+    "source": "counter_d17_s8_locked.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 17,
+      "stages": 8,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "428a68e88369b042ca97f8a59574436c2c39f661d92416d05adb00fd913d228f"
+  },
+  {
+    "name": "replicas_n2_racy",
+    "source": "replicas_n2_racy.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 2,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "read-torn-write",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "d0f84452d2eda3871866732656f01ac942da28ac952615e08c2b54051cabb24e"
+  },
+  {
+    "name": "replicas_n2_locked",
+    "source": "replicas_n2_locked.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 2,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "e38e4a31705b0f42ac433b622e51f236f8677deb5f400ff01d2cff758811441c"
+  },
+  {
+    "name": "replicas_n3_racy",
+    "source": "replicas_n3_racy.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 3,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "read-torn-write",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "fe865b503156a2d526200cd37808e576b12b7bf8793f13968e832316f2cb3032"
+  },
+  {
+    "name": "replicas_n3_locked",
+    "source": "replicas_n3_locked.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 3,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "5e01c636606fd3c73f1f98b4a0b5cdf25a0bd3c66dd3f2a0e60c93ea4c2206c6"
+  },
+  {
+    "name": "replicas_n4_racy",
+    "source": "replicas_n4_racy.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 4,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "read-torn-write",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "2e9346c90bdd14855dd4e977b3a79c5a94494349e6e5666c033dbeb132bbee3e"
+  },
+  {
+    "name": "replicas_n4_locked",
+    "source": "replicas_n4_locked.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 4,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "017bf98060e37f7350307d14ef69bcc3893673d537258f066b0f5ce5ad9ae111"
+  },
+  {
+    "name": "replicas_n6_racy",
+    "source": "replicas_n6_racy.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 6,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "read-torn-write",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "71614fbc53d836ba9807520e930254d12f417359841f8f87a828ae46d6c9419f"
+  },
+  {
+    "name": "replicas_n6_locked",
+    "source": "replicas_n6_locked.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 6,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "388d6d69a9ab1a32c312487fe01b58650b16c9256adc92548ce500fe67a96e96"
+  },
+  {
+    "name": "monitor_d2_c2",
+    "source": "monitor_d2_c2.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 2,
+      "cycles": 2
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "39280d41ebe4d9afa964052bd9521d3facd63bf92492195f618c8d5c9e84bc3e"
+  },
+  {
+    "name": "monitor_d2_c4",
+    "source": "monitor_d2_c4.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 2,
+      "cycles": 4
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "45a9aa43d5e41c6aebfee79b819958f1a7e3051ed5092ae534f31e953b572147"
+  },
+  {
+    "name": "monitor_d2_c6",
+    "source": "monitor_d2_c6.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 2,
+      "cycles": 6
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "0831cf0b6df9c00427cf2f097cf3381a655d4813e50e1ee40cb32c68d6fecd5e"
+  },
+  {
+    "name": "monitor_d3_c2",
+    "source": "monitor_d3_c2.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 3,
+      "cycles": 2
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "5a25ebf32e134bb1175f1d2355967313d3e9ba75b4e12950cccb52eae30b2b7d"
+  },
+  {
+    "name": "monitor_d3_c4",
+    "source": "monitor_d3_c4.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 3,
+      "cycles": 4
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "11f81b88ae2f1d7ce3a2c1e3377f213542eb9d3db5848ff00efaeba598833b7a"
+  },
+  {
+    "name": "monitor_d3_c6",
+    "source": "monitor_d3_c6.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 3,
+      "cycles": 6
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "5a0aac8954121e848958e39b115c2891545fd7dc5d86d5d14af3cd7b4ec576e7"
+  },
+  {
+    "name": "monitor_d3_c12",
+    "source": "monitor_d3_c12.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 3,
+      "cycles": 12
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "bb1a00d3b9cd6e7bb8c2db40ebbb7619e8cc2ae6586c56cec08ff051e4c12e95"
+  },
+  {
+    "name": "monitor_d4_c12",
+    "source": "monitor_d4_c12.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 4,
+      "cycles": 12
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "8a551157bb833c8b7e43ce9764b123cc0acc41e60904dcc39b2958d696e25a97"
+  }
+]

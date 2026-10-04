@@ -1,0 +1,44 @@
+{
+  "corpus": "/Users/julesjacobs/git/git/pvass/benchmarks/raw-diverse-automaton-v1",
+  "collection_sha256": "69380c4bbd222ab28412872380529c10e691d51263514dca5e6d3a942af212ed",
+  "source_manifest_sha256": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea",
+  "source_selection": "full-manifest",
+  "selected_sources": [
+    "write_skew_n3_racy",
+    "write_skew_n3_pairlocked",
+    "write_skew_n4_racy",
+    "write_skew_n4_pairlocked",
+    "write_skew_n5_racy",
+    "write_skew_n5_pairlocked",
+    "optimistic_v3_aba",
+    "optimistic_v3_validated",
+    "optimistic_v5_aba",
+    "optimistic_v5_validated",
+    "optimistic_v9_aba",
+    "optimistic_v9_validated"
+  ],
+  "binary_source": "/Users/julesjacobs/git/git/pvass/results/solver-automaton-potentials-v1/vass-reach",
+  "binary_sha256": "6c866dbfce8414532c2985eacaba35de5cee9ef5840244a7308c3293d1eb321c",
+  "runner_sha256": {
+    "raw_stress_worker.py": "a82bfd2a857bd787ede90bc2e1ec66104a70d62b3958bbf3f8af31927a5f5fa1",
+    "raw_invariant_check.py": "47ed99a0db558d0262cc0a735293dbb32a118875cf5f093c344d3abcac19ac68",
+    "raw_automaton_check.py": "5c623527114235bb85cec70cc14102f269d24fb5261783dfc1c6c7f037ce24b9",
+    "benchmark_stress_raw.py": "5424d353c1322ddbd7644e24dda2b99b855f14da0261cdc8e5127586a63a6eb3",
+    "raw_z3.py": "ba16c188953868e5864b7820ca3ea3b365bf17ca2f56192b939383b12e9c5b4a",
+    "process_runner.py": "07644ec3f88ab2ae1d1e4f0071a3d3f754d13176124828d01e1f4d4cb207b71d"
+  },
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "python_executable": "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+  "z3_package_version": "5.1.0.0",
+  "methods": [
+    "raw-search",
+    "raw-potential"
+  ],
+  "repeat": 2,
+  "seconds": 5.0,
+  "solver_fraction": 0.8,
+  "max_states": 200000,
+  "negative_verifier_work_limit": 20000000,
+  "memory_bytes": 2147483648,
+  "started_unix": 1790537331.166532
+}

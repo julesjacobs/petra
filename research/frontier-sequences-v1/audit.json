@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "scope": "independent complete reconstruction of every logged frontier; no original-property verdicts",
+  "checks": [
+    {
+      "input": "benchmarks/mcc2021/DoubleExponent-PT-003__RC02/branch-0.json",
+      "cuts": 67,
+      "states": 34656,
+      "shapes": {
+        "all-zero": 8,
+        "general": 54,
+        "singleton-positive": 5
+      }
+    },
+    {
+      "input": "benchmarks/mcc2021/DoubleExponent-PT-003__RC02/branch-1.json",
+      "cuts": 49,
+      "states": 21846,
+      "shapes": {
+        "all-zero": 7,
+        "general": 41,
+        "singleton-positive": 1
+      }
+    },
+    {
+      "input": "benchmarks/mcc2021/DoubleExponent-PT-003__RC07/branch-0.json",
+      "cuts": 124,
+      "states": 73962,
+      "shapes": {
+        "all-zero": 11,
+        "general": 108,
+        "singleton-positive": 5
+      }
+    },
+    {
+      "input": "benchmarks/mcc2021/DoubleExponent-PT-003__RC07/branch-1.json",
+      "cuts": 0,
+      "states": 0,
+      "shapes": {}
+    },
+    {
+      "input": "benchmarks/mcc2021/TokenRing-PT-015__RC12/branch-0.json",
+      "cuts": 128,
+      "states": 476,
+      "shapes": {
+        "all-zero": 128
+      }
+    }
+  ],
+  "total_cuts": 368,
+  "total_states": 130940,
+  "plan_sha256": "8f13516a1e749f7f58ef522f88da9783e802ce67c85b7ec7b20961565fd37a59",
+  "check_plan_sha256": "1846749c48b24ef6de964b7cba6c38ee302c3c3bc1aa4c3f048c1a1b7cd8dcf9",
+  "checks_sha256": "6e145727cc9810430860aec5da2f390cae6e79a0b9e1511e9787d7d417838513"
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Full 34-query synthetic development ladder; no selected exclusions; one-repeat pilot, not representative application superiority",
+  "corpus": "benchmarks/boolean-consistency-v1",
+  "manifest_sha256": "ab43fc86263687f0bbf6b8d1ceb429ea453cacfbf020b45e6b9955556514f855",
+  "methods": [
+    "before/portfolio-local/linux-solver-raw-negative-structural-v1",
+    "symbolic/portfolio-symbolic/linux-solver-dag-sat-v1",
+    "verifypn-default",
+    "smpt-full-portable/automatic-reduction/original-input"
+  ],
+  "seconds": 5,
+  "repeats": 1,
+  "cpus": [
+    8
+  ],
+  "memory_mib": 2048,
+  "perf": true,
+  "order_seed": 20260930,
+  "outer_grace": 0,
+  "validation": "Native original inputs and proof checking; checker separately bounded, not in solve deadline",
+  "smpt_configuration": "Full portable portfolio, WALK internal slicing disabled by documented patch; automatic structural reduction enabled; all subprocesses share CPU8."
+}

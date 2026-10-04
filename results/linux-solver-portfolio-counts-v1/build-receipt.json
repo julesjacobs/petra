@@ -1,0 +1,10 @@
+{
+  "exit_code": 101,
+  "started": 1790604605.9192457,
+  "finished": 1790604605.9824383,
+  "source_manifest_sha256": "70cacc9b8efc35bf04e1bcf7dab45ee53af64b8759fe70b6c361c05d2e6b6f25",
+  "build_log_sha256": "442963113960b3d6ad7f2dd018a515caa4c8185f458bf86118f7beec49f39661",
+  "script_sha256": "1bd411a72d53f5c2856f51addf4a9991a799f6482aefc64c214c04c94f40194e",
+  "rustc": "rustc 1.78.0 (9b00956e5 2024-04-29)\nbinary: rustc\ncommit-hash: 9b00956e56009bab2aa15d7bff10916599e3d6d6\ncommit-date: 2024-04-29\nhost: x86_64-unknown-linux-gnu\nrelease: 1.78.0\nLLVM version: 18.1.2\n",
+  "cargo": "cargo 1.78.0 (54d8815d0 2024-03-26)\n"
+}

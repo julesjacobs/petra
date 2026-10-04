@@ -1,0 +1,44 @@
+{
+  "format": "signed-threshold-workcap-selection-v1",
+  "status": "outcome-selected-development-diagnostic",
+  "parent_denominators": {
+    "source_slots": 656,
+    "imported_slots": 640,
+    "unavailable_slots": 16
+  },
+  "parent_manifest": "benchmarks/application-portfolio-comparison-v1/manifest.json",
+  "parent_manifest_sha256": "9d328b8a3e804237b59150bc9b16cef13b6633efe04262dfe7227a3ffbcc1060",
+  "evidence_sha256": {
+    "research/signed-threshold-full-v1-summary.json": "2810370370c254f2ec13dd111ee7d4885b4d78150b36b6bdece30ba1f6f7c70d",
+    "research/signed-threshold-full-v1-audit.json": "b9d1476caa51da8616f868dfa1ad5b52870b7f53b0924cd13b063e5675feb96b",
+    "research/signed-threshold-full-v1-plan.json": "e0bfad1cea6e777dbcd491a0148d09058022380b2aab73f2eb6a23cbc8864208"
+  },
+  "rule": "Exactly the union of historical_complementarity.baseline_unknown and unary_only in the completed full-v1 summary.",
+  "baseline_unknown": [
+    "NoC3x3-PT-8B__RC12",
+    "SharedMemory-PT-000200__RC01",
+    "SharedMemory-PT-000200__RC04",
+    "SharedMemory-PT-000200__RC09",
+    "SharedMemory-PT-000200__RC12",
+    "SharedMemory-PT-000200__RC14",
+    "TokenRing-PT-030__RC09",
+    "TokenRing-PT-040__RC09"
+  ],
+  "unary_only": [
+    "SharedMemory-PT-000050__RC04",
+    "TokenRing-PT-040__RC04"
+  ],
+  "queries": [
+    "NoC3x3-PT-8B__RC12",
+    "SharedMemory-PT-000050__RC04",
+    "SharedMemory-PT-000200__RC01",
+    "SharedMemory-PT-000200__RC04",
+    "SharedMemory-PT-000200__RC09",
+    "SharedMemory-PT-000200__RC12",
+    "SharedMemory-PT-000200__RC14",
+    "TokenRing-PT-030__RC09",
+    "TokenRing-PT-040__RC04",
+    "TokenRing-PT-040__RC09"
+  ],
+  "scope": "Diagnose sensitivity to the logical-work cap. Outcome-selected subset; no full-cohort superiority inference. Historical Mac/Linux costs are not compared as speedups."
+}

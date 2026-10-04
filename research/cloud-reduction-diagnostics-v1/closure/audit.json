@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "original_property_verdict": "unreachable",
+  "branches": [
+    {
+      "branch": 0,
+      "states": 101476,
+      "reductions": 4,
+      "places": 87,
+      "transitions": 456,
+      "diagnostic_wall_seconds": 0.6755628751125187,
+      "checker_wall_seconds": 9.114751083077863
+    },
+    {
+      "branch": 1,
+      "states": 74840,
+      "reductions": 4,
+      "places": 84,
+      "transitions": 453,
+      "diagnostic_wall_seconds": 0.31582233402878046,
+      "checker_wall_seconds": 6.6791561669670045
+    }
+  ],
+  "plan_sha256": "1a9a775965dcdd19cff03163250d60aa5340c74120d473317214fd4df8e09079",
+  "results_sha256": "5ea7cf4c897e601252a0c07fad3fa43369ea4840087dd9a665aa1d279e3ca85a",
+  "scope": "Independent original translation, reconstructed sound reductions and exhaustive closure checks for both branches. Diagnostic per-branch budgets, not matched production-portfolio performance."
+}

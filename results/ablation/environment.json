@@ -1,0 +1,26 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "seconds": 2,
+  "repeat": 1,
+  "methods": [
+    "bfs",
+    "best-first",
+    "state-equation",
+    "portfolio"
+  ],
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "z3": "Z3 version 5.1.0 - 64 bit",
+  "comparison": "Sequential backend-only cold process wall time; no frontend or frontend proof validation. Native witness/Farkas verification included internally. SMPT exports proofs.",
+  "queries": 218,
+  "binary_sha256": "1b8e6517e0e7a68f1375de8df22e4dee7584240dc984b70d62a446a27823cd63",
+  "cpu": "Apple M4 Max",
+  "source_sha256": {
+    "src/input.rs": "35ecb9962118da97aded81344d8adcf8f2bf5e594337986e73329a3a051222ee",
+    "src/lib.rs": "41e4e4f31659f45963181c568ddf46b34dac7202b25bba324f8c1b0c2f0fb2c0",
+    "src/main.rs": "d094b42c398143688a12c0d0b7f7b3fd3cd396c74b228deb74ab5760d1379c4a",
+    "src/model.rs": "23593ab73c6f422dc5b799c56c779c9e5e9022b794dfa7755ff79023ddb4af86",
+    "src/search.rs": "d6583b0b6f88f32f615d33086d007e538b46a2b78ba16a6f30d130b762447c70",
+    "src/state_equation.rs": "41737f1b97129b0fb7fda48c6b83d7f4d74d2ac9c12985b2aac2ecda4c32a497"
+  }
+}

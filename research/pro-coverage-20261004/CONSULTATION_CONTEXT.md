@@ -1,0 +1,11 @@
+# Consultation context
+
+Prepared at 2026-10-03T23:49:56.030346+00:00. The current source files may include ongoing, unmeasured work. The frozen full-screen candidate is in research/grouped-excess-20261004/snapshot; its RESULTS.md and full-audit.json describe completed evidence. Current src/ and tests/ are newer.
+
+The completed full screen has 31 unresolved original properties; survivor metadata and compact exact branch targets are in this consultation directory. Original PNML/XML is included for every unresolved query. canonical-nets contains one complete canonical branch per survivor model for convenient inspection; its target is only that example branch. The complete exact targets for other branches are in survivor-targets and original XML.
+
+Current development adds guarded large arithmetic stages, less expensive validation, acyclic count realization, exact enabled-action enumeration, backward cover, and positive scaling. Do not infer measured wins from their presence. Coverage-iteration and direct-search diagnostic rows, when present, are partial development evidence; root is still running them. At the time of the assignment, the first newer portfolio had one checked RERS5 RC01 witness in3.156s end-to-end (parse0.476s,solve2.630s), relaxed-batched677states438trace. Consult saved rows for newer completed observations. Positive scaling was being implemented independently; evaluate it or challenge it without making it the preferred direction.
+
+Original RERS models have1,446places151,085transitions with preserved total tokens90/162 and initial nonzero places carrying5/9tokens. The certified old survivor bounds and failed count-dominance diagnostic are included. Fixed-word repetition bounds do not rule out deeper paths or more general acceleration. The older Pro responses are historical suggestions, not established truth.
+
+No proprietary credentials or unrelated personal files are intentionally included. Build outputs, executables, virtual environments, downloaded external solver binaries, duplicate canonical full nets per query, and unrelated historical research are omitted. The entire current source, test, example and script development plus build configuration is included.

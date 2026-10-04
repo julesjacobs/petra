@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "planned_slots": 176,
+  "imported": 176,
+  "matched": 176,
+  "inputs_unchanged": true,
+  "failures": [],
+  "plan_sha256": "50ca0dce2704f262d86e7eb354f1d430ff69ab314c9baaa54be2b4a83767920e",
+  "rows_sha256": "2ce1852f93d9278f66a5e5f528e48171a294489aa303946060b9f98517d14ddf",
+  "scope": "Complete Rust original-input parser versus collected Python canonical branches; strict field/order equality, all branches and polarity. No solver, reduction or difficulty measurement. Per-query process-tree wall and sampled local memory limits."
+}

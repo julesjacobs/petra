@@ -1,0 +1,31 @@
+<property-set><property>
+    <id>CloudOpsManagement-PT-00010by00005-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <disjunction>
+            <integer-le>
+              <integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>ScWorking</place>
+              </tokens-count>
+            </integer-le>
+            <negation>
+              <negation>
+                <integer-le>
+                  <tokens-count>
+                    <place>WSRuntime1</place>
+                  </tokens-count>
+                  <tokens-count>
+                    <place>Wsr1NotDeployed</place>
+                  </tokens-count>
+                </integer-le>
+              </negation>
+            </negation>
+          </disjunction>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

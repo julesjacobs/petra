@@ -1,0 +1,13 @@
+{
+  "plan_sha256": "817b00db65f6a034f3e118c243be43bd2fbc52f992d4221c87e443ea0318b710",
+  "summarizer_sha256": "c8aafc145b1b34cc710662fb8d8473972db9d52c83e97038d242326e69aa403f",
+  "frozen_audit_sha256": "0544d9032b9888f4f8c9d1f62d02b4b07d4550bd28e227f729867f003917260e",
+  "frozen_runner_sha256": "fee0a96140e9faaa2d4ec58dce388574ddeed2b2ea3e39ad9cc251f807cdd597",
+  "audit_receipts": {
+    "repeat1": "f7d3a345ecb8687d652617f0ca1fa7b6674372bad10666bdf58d347f0e768e30",
+    "repeat2": "1e82ce413f9cb17d3089a482348b05c16302a601fcbe75005467b7543043b88a"
+  },
+  "summary_sha256": "c4fc24671f0379dcac004ae6d89783202c8c9d36583722faffdde5b7fa578912",
+  "report_sha256": "38ab9b8dae3875ff09cf0096a7d4c5d2e9cb882e1888505f0e6e9acd46201949",
+  "amendment": "The frozen audit compares deserialized duplicate-group lists with in-memory tuples. This entry point normalizes the freshly recomputed result through JSON before equality comparison. No admission, accounting, source pin, measurement, or host-policy rule changes."
+}

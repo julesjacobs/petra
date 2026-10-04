@@ -1,0 +1,244 @@
+{
+  "status": "audited-screen",
+  "properties": 176,
+  "representatives": 175,
+  "methods": {
+    "native-counts": {
+      "verdicts": {
+        "unknown": 42,
+        "reachable": 89,
+        "unreachable": 45
+      },
+      "solved": 134,
+      "outer_timeouts": 41
+    },
+    "native-frozen": {
+      "verdicts": {
+        "unknown": 48,
+        "reachable": 83,
+        "unreachable": 45
+      },
+      "solved": 128,
+      "outer_timeouts": 47
+    },
+    "native-reduced": {
+      "verdicts": {
+        "unknown": 41,
+        "reachable": 89,
+        "unreachable": 46
+      },
+      "solved": 135,
+      "outer_timeouts": 40
+    },
+    "native-walk": {
+      "verdicts": {
+        "unknown": 43,
+        "reachable": 88,
+        "unreachable": 45
+      },
+      "solved": 133,
+      "outer_timeouts": 42
+    },
+    "smpt-mcc-portable": {
+      "verdicts": {
+        "unknown": 79,
+        "reachable": 52,
+        "unreachable": 45
+      },
+      "solved": 97,
+      "outer_timeouts": 79
+    },
+    "verifypn-default": {
+      "verdicts": {
+        "unknown": 47,
+        "reachable": 83,
+        "unreachable": 46
+      },
+      "solved": 129,
+      "outer_timeouts": 47
+    }
+  },
+  "pairs": {
+    "native-reduced/native-counts": {
+      "gains": [
+        "CloudReconfiguration-PT-311__RC06"
+      ],
+      "losses": []
+    },
+    "native-reduced/native-frozen": {
+      "gains": [
+        "CloudReconfiguration-PT-311__RC06",
+        "RERS17pb114-PT-5__RC02",
+        "RERS17pb114-PT-9__RC01",
+        "RERS17pb114-PT-9__RC04",
+        "RERS17pb114-PT-9__RC07",
+        "RERS17pb114-PT-9__RC10",
+        "RefineWMG-PT-100101__RC11"
+      ],
+      "losses": []
+    },
+    "native-reduced/verifypn-default": {
+      "gains": [
+        "DNAwalker-PT-18lozangeBlock__RC01",
+        "RERS17pb114-PT-5__RC02",
+        "RERS17pb114-PT-9__RC01",
+        "RERS17pb114-PT-9__RC04",
+        "RERS17pb114-PT-9__RC07",
+        "RERS17pb114-PT-9__RC10"
+      ],
+      "losses": []
+    },
+    "native-reduced/smpt-mcc-portable": {
+      "gains": [
+        "CloudReconfiguration-PT-311__RC01",
+        "CloudReconfiguration-PT-311__RC06",
+        "CloudReconfiguration-PT-311__RC08",
+        "CloudReconfiguration-PT-311__RC09",
+        "CloudReconfiguration-PT-311__RC10",
+        "CloudReconfiguration-PT-311__RC11",
+        "CloudReconfiguration-PT-311__RC12",
+        "CloudReconfiguration-PT-311__RC13",
+        "CloudReconfiguration-PT-402__RC00",
+        "CloudReconfiguration-PT-402__RC03",
+        "CloudReconfiguration-PT-402__RC04",
+        "CloudReconfiguration-PT-402__RC06",
+        "CloudReconfiguration-PT-402__RC08",
+        "CloudReconfiguration-PT-402__RC10",
+        "CloudReconfiguration-PT-402__RC14",
+        "CloudReconfiguration-PT-402__RC15",
+        "DNAwalker-PT-09ringLR__RC03",
+        "DNAwalker-PT-18lozangeBlock__RC00",
+        "DNAwalker-PT-18lozangeBlock__RC13",
+        "RERS17pb114-PT-5__RC02",
+        "RERS17pb114-PT-9__RC01",
+        "RERS17pb114-PT-9__RC04",
+        "RERS17pb114-PT-9__RC07",
+        "RERS17pb114-PT-9__RC10",
+        "RefineWMG-PT-010011__RC00",
+        "RefineWMG-PT-010011__RC03",
+        "RefineWMG-PT-010011__RC05",
+        "RefineWMG-PT-010011__RC12",
+        "RefineWMG-PT-100101__RC00",
+        "RefineWMG-PT-100101__RC02",
+        "RefineWMG-PT-100101__RC03",
+        "RefineWMG-PT-100101__RC04",
+        "RefineWMG-PT-100101__RC08",
+        "RefineWMG-PT-100101__RC09",
+        "RefineWMG-PT-100101__RC11",
+        "RefineWMG-PT-100101__RC12",
+        "RefineWMG-PT-100101__RC14",
+        "RefineWMG-PT-100101__RC15"
+      ],
+      "losses": []
+    },
+    "native-reduced/native-walk": {
+      "gains": [
+        "CloudReconfiguration-PT-311__RC06",
+        "RefineWMG-PT-100101__RC11"
+      ],
+      "losses": []
+    }
+  },
+  "warnings": [
+    "RERS17pb114-PT-5__RC09/smpt-mcc-portable/0: interrupted perf export; partial raw counters retained but not imputed",
+    "RERS17pb114-PT-5__RC09/smpt-mcc-portable/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "RERS17pb114-PT-5__RC00/smpt-mcc-portable/0: interrupted perf export; partial raw counters retained but not imputed",
+    "RERS17pb114-PT-5__RC00/smpt-mcc-portable/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "RERS17pb114-PT-9__RC06/smpt-mcc-portable/0: interrupted perf export; partial raw counters retained but not imputed",
+    "RERS17pb114-PT-9__RC06/smpt-mcc-portable/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}"
+  ],
+  "native_only": [
+    {
+      "query": "RERS17pb114-PT-5__RC02",
+      "methods": [
+        "native-reduced",
+        "native-counts",
+        "native-walk"
+      ]
+    },
+    {
+      "query": "RERS17pb114-PT-9__RC01",
+      "methods": [
+        "native-reduced",
+        "native-counts",
+        "native-walk"
+      ]
+    },
+    {
+      "query": "RERS17pb114-PT-9__RC04",
+      "methods": [
+        "native-reduced",
+        "native-counts",
+        "native-walk"
+      ]
+    },
+    {
+      "query": "RERS17pb114-PT-9__RC07",
+      "methods": [
+        "native-reduced",
+        "native-counts",
+        "native-walk"
+      ]
+    },
+    {
+      "query": "RERS17pb114-PT-9__RC10",
+      "methods": [
+        "native-reduced",
+        "native-counts",
+        "native-walk"
+      ]
+    }
+  ],
+  "competitor_only": [],
+  "all_unresolved": [
+    "DNAwalker-PT-09ringLR__RC00",
+    "DNAwalker-PT-09ringLR__RC01",
+    "DNAwalker-PT-09ringLR__RC05",
+    "DNAwalker-PT-09ringLR__RC07",
+    "DNAwalker-PT-09ringLR__RC10",
+    "DNAwalker-PT-09ringLR__RC11",
+    "DNAwalker-PT-09ringLR__RC12",
+    "DNAwalker-PT-09ringLR__RC13",
+    "DNAwalker-PT-09ringLR__RC14",
+    "DNAwalker-PT-18lozangeBlock__RC04",
+    "DNAwalker-PT-18lozangeBlock__RC05",
+    "DNAwalker-PT-18lozangeBlock__RC08",
+    "DNAwalker-PT-18lozangeBlock__RC11",
+    "DNAwalker-PT-18lozangeBlock__RC15",
+    "RERS17pb114-PT-5__RC00",
+    "RERS17pb114-PT-5__RC01",
+    "RERS17pb114-PT-5__RC03",
+    "RERS17pb114-PT-5__RC04",
+    "RERS17pb114-PT-5__RC05",
+    "RERS17pb114-PT-5__RC06",
+    "RERS17pb114-PT-5__RC07",
+    "RERS17pb114-PT-5__RC08",
+    "RERS17pb114-PT-5__RC09",
+    "RERS17pb114-PT-5__RC10",
+    "RERS17pb114-PT-5__RC11",
+    "RERS17pb114-PT-5__RC12",
+    "RERS17pb114-PT-5__RC13",
+    "RERS17pb114-PT-5__RC14",
+    "RERS17pb114-PT-5__RC15",
+    "RERS17pb114-PT-9__RC00",
+    "RERS17pb114-PT-9__RC02",
+    "RERS17pb114-PT-9__RC03",
+    "RERS17pb114-PT-9__RC05",
+    "RERS17pb114-PT-9__RC06",
+    "RERS17pb114-PT-9__RC08",
+    "RERS17pb114-PT-9__RC09",
+    "RERS17pb114-PT-9__RC11",
+    "RERS17pb114-PT-9__RC12",
+    "RERS17pb114-PT-9__RC13",
+    "RERS17pb114-PT-9__RC14",
+    "RERS17pb114-PT-9__RC15"
+  ],
+  "evidence": {
+    "plan.json": "14ba740088129f3cd0b6d8f2e28c6dfb835ca03a29a409f0b51bb32b26b97978",
+    "audit.json": "c9f61f52c5774e0f6b763d156cda0d10cadfcf9ef62610cebd29ab640a4bae4f",
+    "collection.json": "6fc64c3bd49b1af2120230158533c7b216e8ab0e6c513b95b947ad5c5524609e",
+    "execution.json": "2d9d1605eec2f1c9115f91cd6d45dac117fcf0aa2dc465e9c37288961b3488b1",
+    "terminal.json": "7beae94f3a24c106f33466ce8c5e90a92d49499e48cc8790eec0b962fca24507"
+  },
+  "scope": "One five-second original-input development screen; native answers independently checked during collection, external answers tool-reported. No stable speed or superiority claim. Unresolved means no answer at this budget, not proved hard."
+}

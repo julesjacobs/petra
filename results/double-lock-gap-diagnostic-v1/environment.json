@@ -1,0 +1,73 @@
+{
+  "plan": {
+    "status": "registered before launch",
+    "queries": [
+      "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204"
+    ],
+    "properties": 1,
+    "expected_rows": 2,
+    "source_sha256": {
+      "focused": "4628a19715b022773b638081c7489e534b888a59bf8665a74eaff7e767196317",
+      "symbolic": "4628a19715b022773b638081c7489e534b888a59bf8665a74eaff7e767196317"
+    },
+    "manifest_sha256": "b922231712f9b02ba2a1972adc70a64f86e163d22afee44b56e67e833205c8e4",
+    "corpus": "benchmarks/hard-survivors-v1",
+    "methods": {
+      "focused": "portfolio-focused",
+      "symbolic": "portfolio-symbolic"
+    },
+    "seconds": 30,
+    "outer_seconds": 32,
+    "max_states": 2000000,
+    "memory_mib": 2048,
+    "repeat": 1,
+    "validation": {
+      "seconds": 60,
+      "memory_mib": 2048,
+      "response_mib": 64,
+      "dag_max_work": 200000000,
+      "separate_from_solver_timing": true
+    },
+    "order_seed": 20261031,
+    "output": "results/double-lock-gap-diagnostic-v1",
+    "binaries": {
+      "focused": {
+        "path": "results/solver-capacity-direct-v1/vass-reach",
+        "sha256": "bb449a8f64a3d2a01a099b14a3b2b016eae729c6eaed86ae25a6e8f26e2aa23a"
+      },
+      "symbolic": {
+        "path": "results/solver-capacity-direct-v1/vass-reach",
+        "sha256": "bb449a8f64a3d2a01a099b14a3b2b016eae729c6eaed86ae25a6e8f26e2aa23a"
+      }
+    },
+    "scope": "Outcome-selected one-query mechanism diagnostic. Local macOS frozen capacity-direct source; not comparable timing to Linux. No competition or general coverage claim.",
+    "selection_evidence": {
+      "research/linux-hard-survivors-v1.log": "fdca6486d544b9081201e55a320b72df7fe778a4bcad3d7d2ebcd885d49b486f"
+    },
+    "selection_note": "Snapshot hash of live log through preliminary VerifyPN positive and Boop focused unknown; live log continues. Full300s matrix still pending."
+  },
+  "query_order": [
+    "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204"
+  ],
+  "runner_sha256": {
+    "benchmark_smpt_classic.py": "309cd34dd67e5adfb1fff52d2900a8af9020028acf7754702df4784e5a6b852a",
+    "native_original.py": "5d6275a96865a56c7a740768e0db862b254d5f91f3e4d1206c0713efd528c1c8",
+    "smpt_import.py": "ce7e9db6a5b6e4deb5453271433ad3337fd36229bf4b7e325cdf217a8ac96c90",
+    "benchmark.py": "58f7d580c4687c38decef8fb62b8f7d350c601ba78e1e2f1200c2efcbc4b1f86",
+    "token_moment_checker.py": "a42b8367bae56f40da01d723efd504bedbb06cb3905ced5672038ac503c6e027",
+    "token_cut_checker.py": "d6667df9c6e6900b27886de8169835736345779389d85d244eb6b6241bd68d1c",
+    "bounded_token_cut_checker.py": "a333f3429a4bda272715ac84f8529191b4bf406e871a6dbfbe27df0a82a48e60",
+    "finite_token_cut_checker.py": "92ea2c1915a9970347f96171fa20180c3a877f4f8c95ce189bb6a017e7993859",
+    "lazy_token_cut_checker.py": "ba43a0d1c1cab49550e807e89a8df7c7ea0c950cb41cc8a01f12df1f0b0b046b",
+    "local_closure_checker.py": "6e53c37d43a6dcb76b543ec81cf826770ed5c97a0d6027eecca7a5ac984694b1",
+    "dag_checker.py": "b72e8a9c1dd0ce97fe704df748f15580e5794f32548a98de9735f561fc70cdf9",
+    "relevance_checker.py": "0c2d6f867b0809a0f17187d6fb7bba5981ad2f88e560fd875549ca085377603b",
+    "process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "requirements.txt": "01b99c930705a074d54f6c45dc2de953aadc78d47906fa13d538946d062903af",
+    "bounded_validation.py": "10418247ee4159c58d4356d5ea4f97e6d6349b11345d20b213b7d5db7d71e228",
+    "rust_original_validation.py": "09a247de7c2dbf95895292b8932e4172625f4a6cf432854cdc03a5e763af3fb9",
+    "run-double-lock-gap-diagnostic-v1.py": "a45823e6d7ad279e47fdd2d3cdb8330bdf5713302c12a1aaad7cf2b222630119"
+  },
+  "input_files_hashed": 3,
+  "input_bytes_hashed": 1095196
+}

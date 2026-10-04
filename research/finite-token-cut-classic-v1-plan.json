@@ -1,0 +1,38 @@
+{
+  "status": "registered before execution",
+  "scope": "Full37query classical SMPT corpus. Compare old bounded engine, refactored bounded engine, and new finite-control engine. Local development coverage only.",
+  "corpus": "benchmarks/smpt-classic",
+  "properties": 37,
+  "methods": {
+    "before-bounded": "bounded-token-cut",
+    "after-bounded": "bounded-token-cut",
+    "finite": "finite-token-cut"
+  },
+  "expected_rows": 111,
+  "seconds": 2,
+  "repeat": 1,
+  "memory_mib": 2048,
+  "outer_grace": 0,
+  "order_seed": 20261008,
+  "validation": {
+    "seconds": 30,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 20000000,
+    "separate_from_solver_timing": true
+  },
+  "reference": "research/sparse-token-flow-classic-v1-analysis.json",
+  "reporting": "All37queries retained; report gains/losses and independently checked answers. No isolated timing or competitive superiority claim. No changes to liveLinuxqualification.",
+  "manifest_sha256": "bab96510954af8f7292a430c981ea360f47b792974e194fd9830a007bcd296a0",
+  "binaries": {
+    "before": {
+      "path": "results/solver-sparse-token-flow-v1/vass-reach",
+      "sha256": "3a88b9f53b202360819c164b708454f640cf52969224957845d32be12400e24d"
+    },
+    "after": {
+      "path": "results/solver-finite-token-flow-v1/vass-reach",
+      "sha256": "20a9d5122c09bd917001bb56063230bce878df883e4ebb831864f6887a4a6383"
+    }
+  },
+  "native_source_sha256": "ffca1c9cd584f868bb4b52936045f37d63aa0d67df17c62093ee00cbfe2aace6"
+}

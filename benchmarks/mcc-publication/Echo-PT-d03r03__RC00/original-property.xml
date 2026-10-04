@@ -1,0 +1,19 @@
+<property-set><property>
+    <id>Echo-PT-d03r03-ReachabilityCardinality-00</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <negation>
+            <integer-le>
+              <integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p75</place>
+              </tokens-count>
+            </integer-le>
+          </negation>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

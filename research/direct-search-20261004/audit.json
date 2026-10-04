@@ -1,0 +1,351 @@
+{
+  "status": "passed",
+  "plan_sha256": "e3a93c08288afd14132db16ec43e2bf1badbbc3a1a0b739cfc685e3e0622170b",
+  "terminal_sha256": "0ff9d662ef4b2f0056920788b885a2f05ef15887af117b89993734eceff8c24b",
+  "auditor_sha256": "b6b5ebec8fc5f56d81448da318c927f4872636acb06c2e18c88c7590c516ed56",
+  "pinned_files": 1970,
+  "result_artifacts": 141,
+  "rows": 62,
+  "properties": 31,
+  "methods": {
+    "walk-guided": {
+      "solved": 14,
+      "queries": [
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC00"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC01"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC03"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC05"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC06"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC07"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC13"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC03"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC05"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC06"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC12"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC14"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC15"
+        ],
+        [
+          "expansion192",
+          "ASLink-PT-05b__RC05"
+        ]
+      ],
+      "verdicts": {
+        "unknown": 17,
+        "reachable": 14
+      },
+      "failure_flags": {
+        "timeout": 14,
+        "nonzero_exit": 2
+      },
+      "solver_wall_total": 93.73666708148085,
+      "validation_wall_total": 45.38114600069821,
+      "raw_output": {
+        "incomplete_or_empty_json": 2,
+        "complete_json": 29
+      },
+      "observed_wall_minus_reported_parse_solve_median": 0.0351354171565772
+    },
+    "relaxed-batched": {
+      "solved": 9,
+      "queries": [
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC00"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC01"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC03"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC05"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC08"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-5__RC15"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC02"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC03"
+        ],
+        [
+          "existing176",
+          "RERS17pb114-PT-9__RC12"
+        ]
+      ],
+      "verdicts": {
+        "unknown": 22,
+        "reachable": 9
+      },
+      "failure_flags": {
+        "timeout": 22,
+        "nonzero_exit": 9
+      },
+      "solver_wall_total": 137.20784937869757,
+      "validation_wall_total": 30.362020167987794,
+      "raw_output": {
+        "incomplete_or_empty_json": 8,
+        "complete_json": 23
+      },
+      "observed_wall_minus_reported_parse_solve_median": 0.028778958020846623
+    }
+  },
+  "union": [
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC00"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC01"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC03"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC05"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC06"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC07"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC08"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC13"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC15"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC02"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC03"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC05"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC06"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC12"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC14"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC15"
+    ],
+    [
+      "expansion192",
+      "ASLink-PT-05b__RC05"
+    ]
+  ],
+  "intersection": [
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC00"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC01"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC03"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC05"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC03"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC12"
+    ]
+  ],
+  "method_only": {
+    "walk-guided": [
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC06"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC07"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC13"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC05"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC06"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC14"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC15"
+      ],
+      [
+        "expansion192",
+        "ASLink-PT-05b__RC05"
+      ]
+    ],
+    "relaxed-batched": [
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC08"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-5__RC15"
+      ],
+      [
+        "existing176",
+        "RERS17pb114-PT-9__RC02"
+      ]
+    ]
+  },
+  "unresolved": [
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC04"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC10"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC11"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC12"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-5__RC14"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC00"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC08"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC09"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC11"
+    ],
+    [
+      "existing176",
+      "RERS17pb114-PT-9__RC13"
+    ],
+    [
+      "expansion192",
+      "ASLink-PT-05b__RC06"
+    ],
+    [
+      "expansion192",
+      "ASLink-PT-10b__RC05"
+    ],
+    [
+      "expansion192",
+      "ASLink-PT-10b__RC07"
+    ],
+    [
+      "expansion192",
+      "Railroad-PT-100__RC09"
+    ]
+  ],
+  "validations_recorded": 26,
+  "accepted_witnesses": 23,
+  "scope": "Read-only artifact/provenance/acceptance audit. No solver or certificate replay. Saved bounded independent original-input witness checks verified against request/response evidence. One selected diagnostic, not an overall or repeated comparison."
+}

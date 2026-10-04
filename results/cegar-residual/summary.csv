@@ -1,0 +1,8 @@
+query,constant_false,places,transitions,cegar_verdict,cegar_wall_seconds,cegar_solver_seconds,cegar_repeats,portfolio-cegar_verdict,portfolio-cegar_wall_seconds,portfolio-cegar_solver_seconds,portfolio-cegar_repeats
+c1_disjunct_0,False,24,38,unknown,1.196837792173028,0.829843166,1,unknown,2.025368917034939,2.012787125,1
+e2_disjunct_0,False,16,15,unknown,0.7692839161027223,0.75945425,1,unknown,2.0468359161168337,2.031791083,1
+e3_disjunct_2,False,25,35,unknown,1.226524833124131,1.214013959,1,unknown,2.0170518329832703,2.00489625,1
+e4_disjunct_2,False,29,43,unknown,1.5638985838741064,1.552934834,1,unknown,2.029841125011444,2.017683667,1
+g1_disjunct_0,False,56,103,unknown,2.0385932500939816,2.027067708,1,unknown,2.0291595831513405,2.015921833,1
+g2_disjunct_1,False,37,48,unknown,1.2939974160399288,1.284960959,1,unknown,2.0229463749565184,2.010846834,1
+g3_disjunct_1,False,39,55,unknown,1.8544022501446307,1.84529825,1,unknown,2.027904042042792,2.015573625,1

@@ -1,0 +1,165 @@
+--- a/src/main.rs
++++ b/src/main.rs
+@@ -19,6 +19,7 @@
+ mod presburger_harmonize_tests;
+ mod proof_parser;
+ mod proofinvariant_to_presburger;
++mod raw_export;
+ mod reachability;
+ mod reachability_with_proofs;
+ mod semilinear;
+@@ -44,6 +45,7 @@
+ fn print_usage() {
+     println!("{}", "Usage: ser [options] <filename or directory>".bold());
+     println!("{}", "Options:".bold());
++    println!("  --export-raw            Export raw-query.json and raw.net; do not solve");
+     println!(
+         "  {}                  Open generated visualization files",
+         "--open".green()
+@@ -118,6 +120,10 @@
+     let mut i = 1;
+     while i < args.len() {
+         match args[i].as_str() {
++            "--export-raw" => {
++                raw_export::ENABLED.store(true, std::sync::atomic::Ordering::SeqCst);
++                i += 1;
++            }
+             "--open" => {
+                 open_files = true;
+                 i += 1;
+@@ -217,6 +223,18 @@
+         process::exit(1);
+     }
+ 
++    if raw_export::enabled() {
++        if create_certificate_mode || check_certificate_mode {
++            eprintln!("--export-raw cannot be combined with certificate modes");
++            process::exit(1);
++        }
++        semilinear::set_remove_redundant(false);
++        semilinear::set_generate_less(false);
++        kleene::set_smart_kleene_order(false);
++        graphviz::set_viz_enabled(false);
++        smpt::set_use_cache(false);
++        optimize_enabled = false;
++    }
+     let path = Path::new(path_str);
+ 
+     // Make the optimize flag available globally (via a simple static, or by passing it down).
+@@ -331,6 +349,14 @@
+             err
+         );
+         process::exit(1);
++    }
++
++    if raw_export::enabled() {
++        if let Err(err) = raw_export::export(ns, out_dir) {
++            eprintln!("Raw export failed: {err}");
++            process::exit(1);
++        }
++        return;
+     }
+ 
+     // Generate GraphViz output for the Network System
+--- /dev/null
++++ b/src/raw_export.rs
+@@ -0,0 +1,65 @@
++//! Export the reachability question before complement, DNF, and Petri reductions.
++use crate::ns::NS;
++use crate::ns_to_petri::{ns_to_petri_with_requests, ReqPetriState};
++use crate::semilinear::{SemilinearSet, SparseVector};
++use serde_json::{json, Value};
++use std::{collections::BTreeMap, fmt::{Debug, Display}, hash::Hash};
++use std::sync::atomic::{AtomicBool, Ordering};
++
++pub static ENABLED: AtomicBool = AtomicBool::new(false);
++pub fn enabled() -> bool { ENABLED.load(Ordering::SeqCst) }
++
++pub fn export<G, L, Req, Resp>(ns: &NS<G,L,Req,Resp>, out_dir: &str) -> std::io::Result<()>
++where G: Clone + Ord + Hash + Display + Debug,
++      L: Clone + Ord + Hash + Display + Debug,
++      Req: Clone + Ord + Hash + Display + Debug,
++      Resp: Clone + Ord + Hash + Display + Debug,
++{
++    use ReqPetriState::*;
++    let petri = ns_to_petri_with_requests(ns);
++    let mut places = petri.get_places_sorted();
++    let serial: SemilinearSet<_> = ns.serialized_automaton_kleene(|req, resp| {
++        SemilinearSet::singleton(SparseVector::unit(Response(req, resp)))
++    });
++    for component in &serial.components {
++        component.for_each_key(|p| { if !places.contains(p) { places.push(p.clone()); } });
++    }
++    places.sort();
++    let ids: BTreeMap<_,_> = places.iter().cloned().enumerate().map(|(i,p)| (p,i)).collect();
++    let arcs = |ps: Vec<ReqPetriState<L,G,Req,Resp>>| -> Vec<(usize,usize)> {
++        let mut counts = BTreeMap::new();
++        for p in ps { *counts.entry(ids[&p]).or_insert(0) += 1; }
++        counts.into_iter().collect()
++    };
++    let sparse = |v: &SparseVector<ReqPetriState<L,G,Req,Resp>>| -> Vec<(usize,usize)> {
++        let mut result: Vec<_> = v.values.iter().map(|(p,n)| (ids[p],*n)).collect();
++        result.sort(); result
++    };
++    let mut initial = vec![0usize; places.len()];
++    for p in petri.get_initial_marking() { initial[ids[&p]] += 1; }
++    let transitions: Vec<Value> = petri.get_transitions().into_iter().enumerate().map(|(i,(pre,post))| {
++        json!({"name":format!("t{}",i),"pre":arcs(pre),"post":arcs(post)})
++    }).collect();
++    let components: Vec<Value> = serial.components.iter().map(|c| json!({
++        "base":sparse(&c.base), "periods":c.periods.iter().map(&sparse).collect::<Vec<_>>()
++    })).collect();
++    let zero_places: Vec<_> = places.iter().enumerate().filter_map(|(i,p)| matches!(p,Local(_,_)|Request(_)).then_some(i)).collect();
++    let response_places: Vec<_> = places.iter().enumerate().filter_map(|(i,p)| matches!(p,Response(_,_)).then_some(i)).collect();
++    let query = json!({
++        "format":"ser-raw-v1",
++        "places":places.iter().map(ToString::to_string).collect::<Vec<_>>(),
++        "initial":initial,"transitions":transitions,
++        "target":{"kind":"completed-outside-semilinear", "zero_places":zero_places,
++                  "response_places":response_places,"excluded_semilinear":components},
++        "provenance":{"stage":"request-tracking-net-before-complement",
++            "petri_places":places.len(),"petri_transitions":transitions.len(),
++            "serial_components":components.len(),
++            "bidirectional_pruning":false,"disjunct_decomposition":false,
++            "presburger_complement":false,"solver_invoked":false,"cache_used":false,
++            "remove_redundant":false,"generate_less":false,"smart_kleene_order":false}
++    });
++    std::fs::write(format!("{out_dir}/raw-query.json"),serde_json::to_vec_pretty(&query)?)?;
++    std::fs::write(format!("{out_dir}/raw.net"),crate::smpt::petri_to_pnet(&petri,"raw"))?;
++    println!("Raw query: {out_dir}/raw-query.json ({} places, {} transitions, {} serial components)",places.len(),transitions.len(),components.len());
++    Ok(())
++}
+--- /dev/null
++++ b/RAW_EXPORT.md
+@@ -0,0 +1,31 @@
++# Raw serializability reachability queries
++
++Run `ser --export-raw program.ser` (also accepts NS JSON or a directory).
++The output is `out/<stem>/raw-query.json` plus `raw.net`.
++No reachability solver, result cache, Petri pruning, Presburger complement,
++DNF extraction, or per-disjunct early termination runs. Redundant semilinear
++component/period elimination and the optional Kleene construction heuristics
++are disabled. Normal invocation retains the artifact behavior.
++
++The source still undergoes its semantic translation to a finite network system,
++request-tracking Petri net, and serialized-execution Parikh image. These are
++necessary to state this serializability query. The semilinear image is constructed
++with Kleene operations; its components are a representation of the *excluded*
++serial behavior, not separately solved reachability queries. This representation
++can itself grow exponentially; raw export need not finish on every program.
++
++`ser-raw-v1` fields:
++
++- `places`, `initial`, `transitions`: ordinary Petri net, zero-based indices;
++  transition `pre`/`post` entries are `[place, multiplicity]`.
++- `target.zero_places`: every listed place must be zero.
++- `target.response_places`: dimensions to project the marking onto.
++- `target.excluded_semilinear`: union of components, each with sparse `base` and
++  sparse `periods`. A component denotes `base + sum(n_i * period_i)` for
++  independently chosen nonnegative integers `n_i`.
++
++The target holds exactly when all zero constraints hold and the response
++projection belongs to **none** of the excluded components. Other coordinates
++are unconstrained. A reachable target means the input is not serializable.
++`provenance` records the stage and sizes. `raw.net` alone lacks this target;
++it is not a complete query for SMPT's linear-conjunction interface.

@@ -1,0 +1,21 @@
+{
+  "description": "Known manual-proof diagnostic; not held-out evidence or a general coverage corpus.",
+  "queries": [
+    {
+      "name": "g2_disjunct_1",
+      "suite": "SER known diagnostic",
+      "status": "imported",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "g2.json",
+          "sha256": "eed6ce7d74cfca3d9555d8e274893e147b4fff0ab96055ad39e15b0deeb78c34"
+        }
+      ],
+      "net": "../serializability/g2/smpt_petri_disjunct_1.net",
+      "net_sha256": "e003601b5ee2e9130239c169ac56706b1787ac737cb5f5c4e65937f0e23b06ff",
+      "property": "../serializability/g2/smpt_constraints_disjunct_1.xml",
+      "property_sha256": "d8a967cd5590a4861a793c737fbb8e95262cd2833a275d5810243661aa57bec1"
+    }
+  ]
+}

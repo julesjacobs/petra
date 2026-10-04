@@ -1,0 +1,501 @@
+{
+  "status": "passed",
+  "stage": "repeat1",
+  "plan_sha256": "b0cfe2afd23d8a5064b2bebf61343e31959eca17b07a8ef7870771b77c9f3ec8",
+  "terminal_sha256": "d592799e169b286904af96b72bf7a66f4c1844e017a27023d67fb66876abc874",
+  "execution_sha256": "a459f64c3ad441ed734adeaf013d54a2ad1222943734c0dee996789745900802",
+  "rows": 14,
+  "issues": [],
+  "accepted_definitive_rows": 5,
+  "host": {
+    "samples": 59,
+    "preflight_within_thresholds": false,
+    "measurement_within_thresholds": false,
+    "idle_host_objective_met": false,
+    "contention_observed": true,
+    "explicit_contention_permission": false,
+    "load1_range": [
+      13.00048828125,
+      17.86865234375
+    ],
+    "cpu_percent_range": [
+      11.232039785296617,
+      73.04657451335044
+    ],
+    "note": "Host-wide observations; no exclusive-CPU guarantee. Active limit allows one CPU for this campaign."
+  },
+  "scope": "Selected-property diagnostic; no full-corpus or idle-host claim",
+  "reports": {
+    "pooled": {
+      "views": {
+        "all_properties": {
+          "denominator": 7,
+          "methods": {
+            "candidate": {
+              "solved": 3,
+              "par2_mean_seconds": 6.112124637035387,
+              "solver_wall_total_seconds": 20.418898292817175,
+              "validation_wall_total_seconds": 0.986581499921158,
+              "verdicts": {
+                "unreachable": 2,
+                "unknown": 4,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 3
+              }
+            },
+            "baseline": {
+              "solved": 2,
+              "par2_mean_seconds": 7.99319860126291,
+              "solver_wall_total_seconds": 29.577459084335715,
+              "validation_wall_total_seconds": 0.757595791015774,
+              "verdicts": {
+                "unreachable": 1,
+                "unknown": 5,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 3,
+                "timeout": 4
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 7,
+          "methods": {
+            "candidate": {
+              "solved": 3,
+              "par2_mean_seconds": 6.112124637035387,
+              "solver_wall_total_seconds": 20.418898292817175,
+              "validation_wall_total_seconds": 0.986581499921158,
+              "verdicts": {
+                "unreachable": 2,
+                "unknown": 4,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 3
+              }
+            },
+            "baseline": {
+              "solved": 2,
+              "par2_mean_seconds": 7.99319860126291,
+              "solver_wall_total_seconds": 29.577459084335715,
+              "validation_wall_total_seconds": 0.757595791015774,
+              "verdicts": {
+                "unreachable": 1,
+                "unknown": 5,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 3,
+                "timeout": 4
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "existing176": {
+      "views": {
+        "all_properties": {
+          "denominator": 1,
+          "methods": {
+            "candidate": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.02949058287777,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            },
+            "baseline": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.020149833057076,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 1,
+          "methods": {
+            "candidate": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.02949058287777,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            },
+            "baseline": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.020149833057076,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "expansion192": {
+      "views": {
+        "all_properties": {
+          "denominator": 6,
+          "methods": {
+            "candidate": {
+              "solved": 3,
+              "par2_mean_seconds": 5.464145409874618,
+              "solver_wall_total_seconds": 15.389407709939405,
+              "validation_wall_total_seconds": 0.986581499921158,
+              "verdicts": {
+                "unreachable": 2,
+                "unknown": 3,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "timeout": 2
+              }
+            },
+            "baseline": {
+              "solved": 2,
+              "par2_mean_seconds": 7.658731701473395,
+              "solver_wall_total_seconds": 24.55730925127864,
+              "validation_wall_total_seconds": 0.757595791015774,
+              "verdicts": {
+                "unreachable": 1,
+                "unknown": 4,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 2,
+                "timeout": 3
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 6,
+          "methods": {
+            "candidate": {
+              "solved": 3,
+              "par2_mean_seconds": 5.464145409874618,
+              "solver_wall_total_seconds": 15.389407709939405,
+              "validation_wall_total_seconds": 0.986581499921158,
+              "verdicts": {
+                "unreachable": 2,
+                "unknown": 3,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "timeout": 2
+              }
+            },
+            "baseline": {
+              "solved": 2,
+              "par2_mean_seconds": 7.658731701473395,
+              "solver_wall_total_seconds": 24.55730925127864,
+              "validation_wall_total_seconds": 0.757595791015774,
+              "verdicts": {
+                "unreachable": 1,
+                "unknown": 4,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 2,
+                "timeout": 3
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:ASLink": {
+      "views": {
+        "all_properties": {
+          "denominator": 5,
+          "methods": {
+            "candidate": {
+              "solved": 2,
+              "par2_mean_seconds": 6.439006491843611,
+              "solver_wall_total_seconds": 14.799567709909752,
+              "validation_wall_total_seconds": 0.47303545800969005,
+              "verdicts": {
+                "unreachable": 1,
+                "unknown": 3,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "timeout": 2
+              }
+            },
+            "baseline": {
+              "solved": 2,
+              "par2_mean_seconds": 7.190478041768074,
+              "solver_wall_total_seconds": 19.530700959265232,
+              "validation_wall_total_seconds": 0.757595791015774,
+              "verdicts": {
+                "unreachable": 1,
+                "unknown": 3,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "timeout": 2,
+                "nonzero_exit": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 5,
+          "methods": {
+            "candidate": {
+              "solved": 2,
+              "par2_mean_seconds": 6.439006491843611,
+              "solver_wall_total_seconds": 14.799567709909752,
+              "validation_wall_total_seconds": 0.47303545800969005,
+              "verdicts": {
+                "unreachable": 1,
+                "unknown": 3,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "timeout": 2
+              }
+            },
+            "baseline": {
+              "solved": 2,
+              "par2_mean_seconds": 7.190478041768074,
+              "solver_wall_total_seconds": 19.530700959265232,
+              "validation_wall_total_seconds": 0.757595791015774,
+              "verdicts": {
+                "unreachable": 1,
+                "unknown": 3,
+                "reachable": 1
+              },
+              "failure_flags": {
+                "timeout": 2,
+                "nonzero_exit": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:RERS17pb114": {
+      "views": {
+        "all_properties": {
+          "denominator": 1,
+          "methods": {
+            "candidate": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.02949058287777,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            },
+            "baseline": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.020149833057076,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 1,
+          "methods": {
+            "candidate": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.02949058287777,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            },
+            "baseline": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.020149833057076,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:Railroad": {
+      "views": {
+        "all_properties": {
+          "denominator": 1,
+          "methods": {
+            "candidate": {
+              "solved": 1,
+              "par2_mean_seconds": 0.5898400000296533,
+              "solver_wall_total_seconds": 0.5898400000296533,
+              "validation_wall_total_seconds": 0.5135460419114679,
+              "verdicts": {
+                "unreachable": 1
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.026608292013407,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 1,
+          "methods": {
+            "candidate": {
+              "solved": 1,
+              "par2_mean_seconds": 0.5898400000296533,
+              "solver_wall_total_seconds": 0.5898400000296533,
+              "validation_wall_total_seconds": 0.5135460419114679,
+              "verdicts": {
+                "unreachable": 1
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 0,
+              "par2_mean_seconds": 10,
+              "solver_wall_total_seconds": 5.026608292013407,
+              "validation_wall_total_seconds": 0,
+              "verdicts": {
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    }
+  },
+  "audit_scope": "Saved-evidence audit; independent certificate checking occurred in bounded workers during measurement."
+}

@@ -1,0 +1,19 @@
+<property-set><property>
+    <id>CloudOpsManagement-PT-00040by00020-ReachabilityCardinality-10</id>
+    <description>Automatically generated</description>
+    <formula>
+      <exists-path>
+        <finally>
+          <integer-le>
+            <tokens-count>
+              <place>Wsr1NotDeployed</place>
+            </tokens-count>
+            <tokens-count>
+              <place>ServerContainer</place>
+            </tokens-count>
+          </integer-le>
+        </finally>
+      </exists-path>
+    </formula>
+  </property>
+  </property-set>

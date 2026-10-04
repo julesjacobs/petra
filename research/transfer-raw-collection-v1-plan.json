@@ -1,0 +1,53 @@
+{
+  "status": "registered-not-started",
+  "sources": 12,
+  "source_expectations_are_ground_truth": false,
+  "selection": "Full fixed4/6-slot by path/cycle/chorded by strict/early-release matrix; keep every export failure.",
+  "command": [
+    "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+    "scripts/collect_stress_raw.py",
+    "--manifest",
+    "benchmarks/transfer-ser-programs-v1/manifest.json",
+    "--output",
+    "benchmarks/raw-transfer-automaton-v1",
+    "--frontend",
+    "results/frontend-automaton-v1/ser",
+    "--automaton",
+    "--seconds",
+    "120",
+    "--memory-mib",
+    "2048",
+    "--artifact-mib",
+    "256"
+  ],
+  "file_sha256": {
+    "benchmarks/transfer-ser-programs-v1/manifest.json": "a226d75204ca4fdb543d4a2eddf7cffd1361ff389ac2a7fe79ff4e774ca00471",
+    "benchmarks/transfer-ser-programs-v1/transfer_n4_chorded_early_release.ser": "8bf3ba10b91606412c6808408160f06b480de07e959dc7d22b43136cccfcd4a4",
+    "benchmarks/transfer-ser-programs-v1/transfer_n4_chorded_strict.ser": "681efab97d7e36b957249c863bd37cf9097c6dcf8a21209b6932ea1f3744e93e",
+    "benchmarks/transfer-ser-programs-v1/transfer_n4_cycle_early_release.ser": "df0064a117c93edf254115c5e2a1607a63887307e4405134b4d1c17b08a10560",
+    "benchmarks/transfer-ser-programs-v1/transfer_n4_cycle_strict.ser": "9c4aadd727b94696a1efb193162f987ab80930c1cf6cfbfd2e9115ee564799e6",
+    "benchmarks/transfer-ser-programs-v1/transfer_n4_path_early_release.ser": "6d4fec8f3cd42c3076f3590ae884087962e12e5be133bd46a57c22fbe6d7a90b",
+    "benchmarks/transfer-ser-programs-v1/transfer_n4_path_strict.ser": "3395339677810bd5ed00e5ba74d09f45d47029fb36c1d1311492391506e1a16d",
+    "benchmarks/transfer-ser-programs-v1/transfer_n6_chorded_early_release.ser": "7ee154049151eb5a0762a3e6f75c3cf7faa70533e6f5647ef6046067ec743e5b",
+    "benchmarks/transfer-ser-programs-v1/transfer_n6_chorded_strict.ser": "354d5cc21f423569214022e3696b7781eccfffea5e5d4e56922c16a50dab3221",
+    "benchmarks/transfer-ser-programs-v1/transfer_n6_cycle_early_release.ser": "a742b0204d7d0be71eabda0de3273aa8ebe05b58fb87b2310aa69aa4e729aa72",
+    "benchmarks/transfer-ser-programs-v1/transfer_n6_cycle_strict.ser": "37fa0ca601b633ffff58d9ef2ab59287e45ad3e0fe5197072dfe854e4a8a7e8e",
+    "benchmarks/transfer-ser-programs-v1/transfer_n6_path_early_release.ser": "47a86895813b2be62a4b9ebcee8febe44b2b463abb8e860cf51d7488b0794928",
+    "benchmarks/transfer-ser-programs-v1/transfer_n6_path_strict.ser": "eaeb3db7ae762e72f1fadf38a50a8f3ef21927b0d9112613203988004c0211b4",
+    "research/transfer-ser-programs-v1.md": "0ff496b524ef5b89ae5250739b5109b2fd954ba72b221f067c210a68bbd80225",
+    "results/frontend-automaton-v1/ser": "09091ecce01b0bc39c8b90f444983fb690b3571c12f547a843d4e12bfe05e882",
+    "results/frontend-automaton-v1/source.tar.gz": "975cd0e86e66d25e4b04f1f7c74b37d91200759005abc8706b9b6f6cd104055c",
+    "scripts/collect_stress_raw.py": "bc5d585eaaa3aae8780ed0b6c516fc15b6dfdf7da8d61f5debac1aeda8d3b435",
+    "scripts/generate_diverse_ser.py": "fa92154e720a70a7a6cf76c384b7d47fb455d17e561f11d2d2386701323e0869",
+    "scripts/generate_transfer_ser.py": "f13569188bbdd6e78e2f9be8fd67233a775ab45d475a127b59fad062d33b9c5e",
+    "scripts/process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "scripts/test_generate_transfer_ser.py": "c6cee7371b92328caef146d7db1b4f5004ee5fb6fbe461eccb0409e37d922ee0",
+    "vendor/SerializabilityChecker/src/parser.rs": "dc308f06697c62aa81943d5727536677286b18bfb220d2cb81ff38cbc0dd1f9e"
+  },
+  "limits": {
+    "export_seconds": 120,
+    "memory_mib": 2048,
+    "artifact_mib": 256
+  },
+  "scope": "Local bounded raw-automaton collection; no solver. Frontend retains unreduced Petri net and serial automaton; no serial semilinear construction. Not a timed solver comparison. Existing frozen source and frontend archives retained. All22reserved families untouched."
+}

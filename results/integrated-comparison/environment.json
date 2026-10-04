@@ -1,0 +1,45 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "seconds": 2,
+  "repeat": 3,
+  "methods": [
+    "portfolio-next",
+    "portfolio",
+    "smpt"
+  ],
+  "max_states": 200000,
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "z3": "Z3 version 5.1.0 - 64 bit",
+  "comparison": "Sequential backend-only cold process wall time; no frontend or frontend proof validation. Native witness/Farkas verification included internally. SMPT exports proofs.",
+  "queries": 218,
+  "binary_sha256": "51431d45b435504f12757cddbdaa8d878d78fbe7e7aa5ddb36cc9010385223f7",
+  "source_sha256": {
+    "src/backward.rs": "161c60898ed995b535b3c1523038093d0466cacca8dffd693440fbf1b8e46082",
+    "src/cegar.rs": "043989d77b572a270a2bb31db5d1389cf8c0a2104009cbfc0765283c1f465063",
+    "src/complete.rs": "9f8f8b1c45c7809c8e0163639cc31bc2691f0134f794d653645ffd423a335e6a",
+    "src/complete_arithmetic.rs": "cc2d0b6e9e825ee71b053a968d609a9749f16fc5c04f7de49b46131900c919c3",
+    "src/complete_cover.rs": "50b1161ab11f33600f1aaff800c9772470ef6903e8f75cad74cdb1c6759d3b79",
+    "src/complete_target.rs": "178405dd37d9a363a8c24e41f7c6ce3636e7cfa076fba71da3c077b47106e94a",
+    "src/count_plan.rs": "4f076ccd911edb96e79607d15628c2016f90d61edbd105ebcc2b1f8097c99cca",
+    "src/guided.rs": "80f59160a6bdb668e2fa0707d1f98c2ae1cc0c320b6c140877022a8af71c11c1",
+    "src/input.rs": "35ecb9962118da97aded81344d8adcf8f2bf5e594337986e73329a3a051222ee",
+    "src/integer_equation.rs": "f48591b60baf780122669f991ee4ec2ab2d24fa9e2e458dae6cd9a7de32adfcf",
+    "src/klmst.rs": "6ddabf96e4bd6023ebb58d4db754b4cbcc1aa66ac16c3c383557f34a29355475",
+    "src/lib.rs": "949728831b7028f5ed13f927b48d1f123af8f4bdda560facc99ee5febdc86d44",
+    "src/main.rs": "2540d22d83d74aaafb80d777ac95d11c7bf7c2a0ed5a6abd5af9b897488d80cc",
+    "src/model.rs": "23593ab73c6f422dc5b799c56c779c9e5e9022b794dfa7755ff79023ddb4af86",
+    "src/quotient.rs": "4f7b7b3ef7b43db12491bcb4fd6bc5ef1de78faae530018fef434c979af4007d",
+    "src/reduced.rs": "43ca91549a9da10b57d959fd3b27b23a6f2aaeb6738b6e760a2275a5dd24fc85",
+    "src/search.rs": "d3918ac2d4060c665a04c5226599e8d7321e004b1584233e48c1363f03dd0a01",
+    "src/state_equation.rs": "24a90e432bc6197b88dc6534780cd996555b70fd8fd135cc2de18f46040850e3",
+    "src/structural.rs": "0cd39ef06b4c0fd89307b63b788fdf458da69f9d2ba1a21f3d8b961dd67c44e5",
+    "src/summary.rs": "4508b7fef531b4ec6d6274de79a21a9aa44cfc48f718d0b6fbbcc146e926482e"
+  },
+  "load_at_start": [
+    57.798828125,
+    53.76025390625,
+    43.54736328125
+  ],
+  "timing_note": "Other user compiler workloads were active during this session; wall timings are exploratory, not isolated-machine measurements."
+}

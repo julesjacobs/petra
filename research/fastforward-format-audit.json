@@ -1,0 +1,2137 @@
+{
+  "format": "fastforward-format-audit-v1",
+  "commit": "bf6bb6fefd03c640af25b2f5ea0a0dc053d47736",
+  "scope": "Syntactic conversion audit only; no solver results or archive correspondence claims.",
+  "counts": {
+    "parsed-not-converted": 100,
+    "unsupported": 118
+  },
+  "queries": [
+    {
+      "path": "artifact/benchmark/nets/coverability/bug_tracking/x0_PENDING_q3_buggy.lola",
+      "formula": "artifact/benchmark/nets/coverability/bug_tracking/x0_PENDING_q3_buggy.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 1,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 754
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/mist-PN/kanban.lola",
+      "formula": "artifact/benchmark/nets/coverability/mist-PN/kanban.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 16,
+      "transitions": 20,
+      "branches": 1,
+      "predicates": 16,
+      "nontrivial_constraints": 5,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 80
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/mist-PN/leabasicapproach.lola",
+      "formula": "artifact/benchmark/nets/coverability/mist-PN/leabasicapproach.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 16,
+      "transitions": 14,
+      "branches": 1,
+      "predicates": 16,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 32
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/mist-PN/pncsacover.lola",
+      "formula": "artifact/benchmark/nets/coverability/mist-PN/pncsacover.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 31,
+      "transitions": 36,
+      "branches": 1,
+      "predicates": 31,
+      "nontrivial_constraints": 5,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 155
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/mist-PN/pncsasemiliv.lola",
+      "formula": "artifact/benchmark/nets/coverability/mist-PN/pncsasemiliv.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 31,
+      "transitions": 36,
+      "branches": 1,
+      "predicates": 31,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 62
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/finite_leader__single_leader__depth_0.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/finite_leader__single_leader__depth_0.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 294,
+      "transitions": 81,
+      "branches": 1,
+      "predicates": 294,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 588
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/firewall__no_pred_called_with_zero__depth_0.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/firewall__no_pred_called_with_zero__depth_0.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 352,
+      "transitions": 57,
+      "branches": 1,
+      "predicates": 352,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 704
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/howait__all_workers_finished_if_wait_over__depth_0.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/howait__all_workers_finished_if_wait_over__depth_0.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 216,
+      "transitions": 50,
+      "branches": 1,
+      "predicates": 216,
+      "nontrivial_constraints": 3,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 648
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/howait__all_workers_finished_if_wait_over__depth_1.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/howait__all_workers_finished_if_wait_over__depth_1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 768,
+      "transitions": 707,
+      "branches": 1,
+      "predicates": 768,
+      "nontrivial_constraints": 3,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 2304
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/howait__all_workers_finished_if_wait_over__depth_2.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/howait__all_workers_finished_if_wait_over__depth_2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 1621,
+      "transitions": 2398,
+      "branches": 1,
+      "predicates": 1621,
+      "nontrivial_constraints": 3,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 4863
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/safe_send__sending_to_non-pid__depth_0.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/safe_send__sending_to_non-pid__depth_0.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 120,
+      "transitions": 58,
+      "branches": 1,
+      "predicates": 120,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 240
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/stutter__we_abhorr_as__depth_0.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/stutter__we_abhorr_as__depth_0.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 87,
+      "transitions": 23,
+      "branches": 1,
+      "predicates": 87,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 174
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/stutter__we_abhorr_as__depth_1.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/stutter__we_abhorr_as__depth_1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 107,
+      "transitions": 29,
+      "branches": 1,
+      "predicates": 107,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 214
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/stutter__we_abhorr_as__depth_2.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/stutter__we_abhorr_as__depth_2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 107,
+      "transitions": 29,
+      "branches": 1,
+      "predicates": 107,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 214
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/unsafe_send__sending_to_non-pid__depth_0.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/unsafe_send__sending_to_non-pid__depth_0.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 35,
+      "transitions": 14,
+      "branches": 1,
+      "predicates": 35,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 70
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/unsafe_send__sending_to_non-pid__depth_1.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/unsafe_send__sending_to_non-pid__depth_1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 35,
+      "transitions": 14,
+      "branches": 1,
+      "predicates": 35,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 70
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/soter/unsafe_send__sending_to_non-pid__depth_2.lola",
+      "formula": "artifact/benchmark/nets/coverability/soter/unsafe_send__sending_to_non-pid__depth_2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 35,
+      "transitions": 14,
+      "branches": 1,
+      "predicates": 35,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 70
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/Boop_simple_vf_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/Boop_simple_vf_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 31,
+      "transitions": 31,
+      "branches": 1,
+      "predicates": 31,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 62
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/Boop_simple_vf_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/Boop_simple_vf_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 330,
+      "transitions": 7489,
+      "branches": 1,
+      "predicates": 330,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 660
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/Function_Pointer3_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/Function_Pointer3_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 40,
+      "transitions": 71,
+      "branches": 1,
+      "predicates": 40,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 80
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/Function_Pointer3_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/Function_Pointer3_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 306,
+      "transitions": 841,
+      "branches": 1,
+      "predicates": 306,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 612
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/Function_Pointer3_vs_satabs.3.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/Function_Pointer3_vs_satabs.3.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 2826,
+      "transitions": 8961,
+      "branches": 1,
+      "predicates": 2826,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 5652
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/buggy_spaghetti_vf_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/buggy_spaghetti_vf_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 78,
+      "transitions": 115,
+      "branches": 1,
+      "predicates": 78,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 156
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/buggy_spaghetti_vf_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/buggy_spaghetti_vf_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 326,
+      "transitions": 697,
+      "branches": 1,
+      "predicates": 326,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 652
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/conditionals_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/conditionals_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 50,
+      "transitions": 55,
+      "branches": 1,
+      "predicates": 50,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 100
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/constants_vf_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/constants_vf_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 26,
+      "transitions": 25,
+      "branches": 1,
+      "predicates": 26,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 52
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/constants_vf_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/constants_vf_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 262,
+      "transitions": 393,
+      "branches": 1,
+      "predicates": 262,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 524
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/dekker_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/dekker_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 41,
+      "transitions": 121,
+      "branches": 1,
+      "predicates": 41,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 82
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/dekker_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/dekker_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 164,
+      "transitions": 1345,
+      "branches": 1,
+      "predicates": 164,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 328
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p1_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p1_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 64,
+      "transitions": 205,
+      "branches": 1,
+      "predicates": 64,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 128
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p1_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p1_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 570,
+      "transitions": 7601,
+      "branches": 1,
+      "predicates": 570,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 1140
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p1_vs_satabs.3.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p1_vs_satabs.3.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 570,
+      "transitions": 7569,
+      "branches": 1,
+      "predicates": 570,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 1140
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p2_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p2_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 64,
+      "transitions": 213,
+      "branches": 1,
+      "predicates": 64,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 128
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p2_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p2_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 184,
+      "transitions": 1833,
+      "branches": 1,
+      "predicates": 184,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 368
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p3_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p3_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 46,
+      "transitions": 81,
+      "branches": 1,
+      "predicates": 46,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 92
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p3_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p3_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 112,
+      "transitions": 745,
+      "branches": 1,
+      "predicates": 112,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 224
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p3_vs_satabs.3.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/double_lock_p3_vs_satabs.3.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 306,
+      "transitions": 3137,
+      "branches": 1,
+      "predicates": 306,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 612
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/lu-fig2_fixed_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/lu-fig2_fixed_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 39,
+      "transitions": 37,
+      "branches": 1,
+      "predicates": 39,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 78
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/lu-fig2_fixed_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/lu-fig2_fixed_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 61,
+      "transitions": 185,
+      "branches": 1,
+      "predicates": 61,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 122
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/lu-fig2_fixed_vs_satabs.3.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/lu-fig2_fixed_vs_satabs.3.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 178,
+      "transitions": 1617,
+      "branches": 1,
+      "predicates": 178,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 356
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/peterson_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/peterson_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 31,
+      "transitions": 65,
+      "branches": 1,
+      "predicates": 31,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 62
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/peterson_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/peterson_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 284,
+      "transitions": 1985,
+      "branches": 1,
+      "predicates": 284,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 568
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/pthread5_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/pthread5_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 80,
+      "transitions": 413,
+      "branches": 1,
+      "predicates": 80,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 160
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/pthread5_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/pthread5_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 80,
+      "transitions": 412,
+      "branches": 1,
+      "predicates": 80,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 160
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/pthread5_vs_satabs.3.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/pthread5_vs_satabs.3.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 187,
+      "transitions": 1893,
+      "branches": 1,
+      "predicates": 187,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 374
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/pthread5_vs_satabs.4.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/pthread5_vs_satabs.4.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 187,
+      "transitions": 1889,
+      "branches": 1,
+      "predicates": 187,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 374
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/rand_cas_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/rand_cas_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 48,
+      "transitions": 53,
+      "branches": 1,
+      "predicates": 48,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 96
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/rand_lock_p0_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/rand_lock_p0_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 29,
+      "transitions": 43,
+      "branches": 1,
+      "predicates": 29,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 58
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/rand_lock_p0_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/rand_lock_p0_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 110,
+      "transitions": 289,
+      "branches": 1,
+      "predicates": 110,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 220
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/rand_lock_p0_vs_satabs.3.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/rand_lock_p0_vs_satabs.3.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 234,
+      "transitions": 773,
+      "branches": 1,
+      "predicates": 234,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 468
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/simple_loop5_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/simple_loop5_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 31,
+      "transitions": 49,
+      "branches": 1,
+      "predicates": 31,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 62
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/simple_loop5_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/simple_loop5_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 93,
+      "transitions": 485,
+      "branches": 1,
+      "predicates": 93,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 186
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/spin2003_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/spin2003_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 27,
+      "transitions": 35,
+      "branches": 1,
+      "predicates": 27,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 54
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/spin2003_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/spin2003_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 56,
+      "transitions": 181,
+      "branches": 1,
+      "predicates": 56,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 112
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/stack_cas_p0_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/stack_cas_p0_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 41,
+      "transitions": 71,
+      "branches": 1,
+      "predicates": 41,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 82
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/stack_cas_p0_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/stack_cas_p0_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 78,
+      "transitions": 157,
+      "branches": 1,
+      "predicates": 78,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 156
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/stack_cas_p0_vs_satabs.3.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/stack_cas_p0_vs_satabs.3.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 158,
+      "transitions": 345,
+      "branches": 1,
+      "predicates": 158,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 316
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/stack_lock_p0_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/stack_lock_p0_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 37,
+      "transitions": 59,
+      "branches": 1,
+      "predicates": 37,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 74
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/stack_lock_p0_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/stack_lock_p0_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 106,
+      "transitions": 633,
+      "branches": 1,
+      "predicates": 106,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 212
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/szymanski_vs_satabs.1.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/szymanski_vs_satabs.1.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 61,
+      "transitions": 225,
+      "branches": 1,
+      "predicates": 61,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 122
+    },
+    {
+      "path": "artifact/benchmark/nets/coverability/wahl-kroening/szymanski_vs_satabs.2.lola",
+      "formula": "artifact/benchmark/nets/coverability/wahl-kroening/szymanski_vs_satabs.2.formula",
+      "suite": "coverability",
+      "status": "parsed-not-converted",
+      "places": 568,
+      "transitions": 8321,
+      "branches": 1,
+      "predicates": 568,
+      "nontrivial_constraints": 2,
+      "equality_zero_predicates": 0,
+      "dense_coefficient_entries": 1136
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Boop_simple_vf_satabs.2_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/Function_Pointer3_vs_satabs.3_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/dekker_vs_satabs.2_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_20_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_20_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.2_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p1_vs_satabs.3_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p2_vs_satabs.2_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/double_lock_p3_vs_satabs.3_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/lu-fig2_fixed_vs_satabs.3_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/mesh3x2_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/mesh3x2_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/mesh3x2_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/mesh3x2_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/mesh3x2_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/mesh3x2_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/mesh3x2_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/mesh3x2_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/mesh3x2_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/mesh3x2_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/mesh3x2_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/mesh3x2_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/mesh3x2_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/mesh3x2_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/peterson_vs_satabs.2_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pipe__single_message_in_mailbox__depth_1_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pipe__single_message_in_mailbox__depth_1_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.3_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/pthread5_vs_satabs.4_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_20_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_20_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/szymanski_vs_satabs.2_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "unsupported",
+      "error": "duplicate, zero, or oversized arc"
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_100_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_100_0.formula",
+      "suite": "random_walk",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 754,
+      "equality_zero_predicates": 743,
+      "dense_coefficient_entries": 568516
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_25_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_25_0.formula",
+      "suite": "random_walk",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 754,
+      "equality_zero_predicates": 742,
+      "dense_coefficient_entries": 568516
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_30_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_30_0.formula",
+      "suite": "random_walk",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 754,
+      "equality_zero_predicates": 742,
+      "dense_coefficient_entries": 568516
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_35_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_35_0.formula",
+      "suite": "random_walk",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 754,
+      "equality_zero_predicates": 744,
+      "dense_coefficient_entries": 568516
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_40_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_40_0.formula",
+      "suite": "random_walk",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 754,
+      "equality_zero_predicates": 742,
+      "dense_coefficient_entries": 568516
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_50_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_50_0.formula",
+      "suite": "random_walk",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 754,
+      "equality_zero_predicates": 742,
+      "dense_coefficient_entries": 568516
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_60_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_60_0.formula",
+      "suite": "random_walk",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 754,
+      "equality_zero_predicates": 742,
+      "dense_coefficient_entries": 568516
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_75_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_75_0.formula",
+      "suite": "random_walk",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 754,
+      "equality_zero_predicates": 743,
+      "dense_coefficient_entries": 568516
+    },
+    {
+      "path": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_90_0.lola",
+      "formula": "artifact/benchmark/nets/random_walk/x0_PENDING_q6_multi_90_0.formula",
+      "suite": "random_walk",
+      "status": "parsed-not-converted",
+      "places": 754,
+      "transitions": 27370,
+      "branches": 1,
+      "predicates": 754,
+      "nontrivial_constraints": 754,
+      "equality_zero_predicates": 743,
+      "dense_coefficient_entries": 568516
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/geometry10.lola",
+      "formula": "artifact/benchmark/nets/sypet/geometry10.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 65,
+      "transitions": 537,
+      "branches": 1,
+      "predicates": 65,
+      "nontrivial_constraints": 65,
+      "equality_zero_predicates": 62,
+      "dense_coefficient_entries": 4225
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/geometry11.lola",
+      "formula": "artifact/benchmark/nets/sypet/geometry11.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 65,
+      "transitions": 537,
+      "branches": 1,
+      "predicates": 65,
+      "nontrivial_constraints": 65,
+      "equality_zero_predicates": 62,
+      "dense_coefficient_entries": 4225
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/geometry12.lola",
+      "formula": "artifact/benchmark/nets/sypet/geometry12.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 65,
+      "transitions": 537,
+      "branches": 1,
+      "predicates": 65,
+      "nontrivial_constraints": 65,
+      "equality_zero_predicates": 62,
+      "dense_coefficient_entries": 4225
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/geometry13.lola",
+      "formula": "artifact/benchmark/nets/sypet/geometry13.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 66,
+      "transitions": 537,
+      "branches": 1,
+      "predicates": 66,
+      "nontrivial_constraints": 66,
+      "equality_zero_predicates": 62,
+      "dense_coefficient_entries": 4356
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/geometry14.lola",
+      "formula": "artifact/benchmark/nets/sypet/geometry14.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 65,
+      "transitions": 537,
+      "branches": 1,
+      "predicates": 65,
+      "nontrivial_constraints": 65,
+      "equality_zero_predicates": 62,
+      "dense_coefficient_entries": 4225
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/geometry15.lola",
+      "formula": "artifact/benchmark/nets/sypet/geometry15.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 65,
+      "transitions": 537,
+      "branches": 1,
+      "predicates": 65,
+      "nontrivial_constraints": 65,
+      "equality_zero_predicates": 62,
+      "dense_coefficient_entries": 4225
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/joda16.lola",
+      "formula": "artifact/benchmark/nets/sypet/joda16.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 266,
+      "transitions": 3468,
+      "branches": 1,
+      "predicates": 266,
+      "nontrivial_constraints": 266,
+      "equality_zero_predicates": 264,
+      "dense_coefficient_entries": 70756
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/joda17.lola",
+      "formula": "artifact/benchmark/nets/sypet/joda17.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 266,
+      "transitions": 3468,
+      "branches": 1,
+      "predicates": 266,
+      "nontrivial_constraints": 266,
+      "equality_zero_predicates": 264,
+      "dense_coefficient_entries": 70756
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/joda18.lola",
+      "formula": "artifact/benchmark/nets/sypet/joda18.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 266,
+      "transitions": 3468,
+      "branches": 1,
+      "predicates": 266,
+      "nontrivial_constraints": 266,
+      "equality_zero_predicates": 264,
+      "dense_coefficient_entries": 70756
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/joda19.lola",
+      "formula": "artifact/benchmark/nets/sypet/joda19.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 266,
+      "transitions": 3468,
+      "branches": 1,
+      "predicates": 266,
+      "nontrivial_constraints": 266,
+      "equality_zero_predicates": 264,
+      "dense_coefficient_entries": 70756
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/joda20.lola",
+      "formula": "artifact/benchmark/nets/sypet/joda20.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 266,
+      "transitions": 3468,
+      "branches": 1,
+      "predicates": 266,
+      "nontrivial_constraints": 266,
+      "equality_zero_predicates": 264,
+      "dense_coefficient_entries": 70756
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/joda21.lola",
+      "formula": "artifact/benchmark/nets/sypet/joda21.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 266,
+      "transitions": 3468,
+      "branches": 1,
+      "predicates": 266,
+      "nontrivial_constraints": 266,
+      "equality_zero_predicates": 264,
+      "dense_coefficient_entries": 70756
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/joda22.lola",
+      "formula": "artifact/benchmark/nets/sypet/joda22.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 266,
+      "transitions": 3468,
+      "branches": 1,
+      "predicates": 266,
+      "nontrivial_constraints": 266,
+      "equality_zero_predicates": 264,
+      "dense_coefficient_entries": 70756
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/math1.lola",
+      "formula": "artifact/benchmark/nets/sypet/math1.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 178,
+      "transitions": 1451,
+      "branches": 1,
+      "predicates": 178,
+      "nontrivial_constraints": 178,
+      "equality_zero_predicates": 176,
+      "dense_coefficient_entries": 31684
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/math2.lola",
+      "formula": "artifact/benchmark/nets/sypet/math2.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 692,
+      "transitions": 5020,
+      "branches": 1,
+      "predicates": 692,
+      "nontrivial_constraints": 692,
+      "equality_zero_predicates": 690,
+      "dense_coefficient_entries": 478864
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/math3.lola",
+      "formula": "artifact/benchmark/nets/sypet/math3.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 1199,
+      "transitions": 8340,
+      "branches": 1,
+      "predicates": 1199,
+      "nontrivial_constraints": 1199,
+      "equality_zero_predicates": 1196,
+      "dense_coefficient_entries": 1437601
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/math4.lola",
+      "formula": "artifact/benchmark/nets/sypet/math4.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 692,
+      "transitions": 5020,
+      "branches": 1,
+      "predicates": 692,
+      "nontrivial_constraints": 692,
+      "equality_zero_predicates": 690,
+      "dense_coefficient_entries": 478864
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/math5.lola",
+      "formula": "artifact/benchmark/nets/sypet/math5.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 692,
+      "transitions": 5020,
+      "branches": 1,
+      "predicates": 692,
+      "nontrivial_constraints": 692,
+      "equality_zero_predicates": 690,
+      "dense_coefficient_entries": 478864
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/math6.lola",
+      "formula": "artifact/benchmark/nets/sypet/math6.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 179,
+      "transitions": 1451,
+      "branches": 1,
+      "predicates": 179,
+      "nontrivial_constraints": 179,
+      "equality_zero_predicates": 176,
+      "dense_coefficient_entries": 32041
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/math7.lola",
+      "formula": "artifact/benchmark/nets/sypet/math7.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 692,
+      "transitions": 5020,
+      "branches": 1,
+      "predicates": 692,
+      "nontrivial_constraints": 692,
+      "equality_zero_predicates": 690,
+      "dense_coefficient_entries": 478864
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/math8.lola",
+      "formula": "artifact/benchmark/nets/sypet/math8.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 113,
+      "transitions": 929,
+      "branches": 1,
+      "predicates": 113,
+      "nontrivial_constraints": 113,
+      "equality_zero_predicates": 110,
+      "dense_coefficient_entries": 12769
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/math9.lola",
+      "formula": "artifact/benchmark/nets/sypet/math9.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 179,
+      "transitions": 1451,
+      "branches": 1,
+      "predicates": 179,
+      "nontrivial_constraints": 179,
+      "equality_zero_predicates": 176,
+      "dense_coefficient_entries": 32041
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/xml23.lola",
+      "formula": "artifact/benchmark/nets/sypet/xml23.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 510,
+      "transitions": 2697,
+      "branches": 1,
+      "predicates": 510,
+      "nontrivial_constraints": 510,
+      "equality_zero_predicates": 507,
+      "dense_coefficient_entries": 260100
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/xml24.lola",
+      "formula": "artifact/benchmark/nets/sypet/xml24.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 510,
+      "transitions": 2697,
+      "branches": 1,
+      "predicates": 510,
+      "nontrivial_constraints": 510,
+      "equality_zero_predicates": 507,
+      "dense_coefficient_entries": 260100
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/xml25.lola",
+      "formula": "artifact/benchmark/nets/sypet/xml25.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 159,
+      "transitions": 891,
+      "branches": 1,
+      "predicates": 159,
+      "nontrivial_constraints": 159,
+      "equality_zero_predicates": 157,
+      "dense_coefficient_entries": 25281
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/xml26.lola",
+      "formula": "artifact/benchmark/nets/sypet/xml26.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 236,
+      "transitions": 1917,
+      "branches": 1,
+      "predicates": 236,
+      "nontrivial_constraints": 236,
+      "equality_zero_predicates": 234,
+      "dense_coefficient_entries": 55696
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/xml27.lola",
+      "formula": "artifact/benchmark/nets/sypet/xml27.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 236,
+      "transitions": 1917,
+      "branches": 1,
+      "predicates": 236,
+      "nontrivial_constraints": 236,
+      "equality_zero_predicates": 234,
+      "dense_coefficient_entries": 55696
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/xml28.lola",
+      "formula": "artifact/benchmark/nets/sypet/xml28.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 236,
+      "transitions": 1917,
+      "branches": 1,
+      "predicates": 236,
+      "nontrivial_constraints": 236,
+      "equality_zero_predicates": 234,
+      "dense_coefficient_entries": 55696
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/xml29.lola",
+      "formula": "artifact/benchmark/nets/sypet/xml29.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 625,
+      "transitions": 4240,
+      "branches": 1,
+      "predicates": 625,
+      "nontrivial_constraints": 625,
+      "equality_zero_predicates": 621,
+      "dense_coefficient_entries": 390625
+    },
+    {
+      "path": "artifact/benchmark/nets/sypet/xml30.lola",
+      "formula": "artifact/benchmark/nets/sypet/xml30.formula",
+      "suite": "sypet",
+      "status": "parsed-not-converted",
+      "places": 237,
+      "transitions": 1917,
+      "branches": 1,
+      "predicates": 237,
+      "nontrivial_constraints": 237,
+      "equality_zero_predicates": 234,
+      "dense_coefficient_entries": 56169
+    }
+  ]
+}

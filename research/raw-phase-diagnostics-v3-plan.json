@@ -1,0 +1,101 @@
+{
+  "scope": "Local phase/cap diagnostic, not competitive timing; local source editing may overlap, but no builds or competing solver jobs. Same frozen candidate; direct raw-negative uses the full solver phase. Expanded max-states sets both solver discovery and independent verifier work to 2 billion: this is a joint solver/checker diagnostic intervention, not an isolated search ablation or default algorithm change.",
+  "runs": [
+    {
+      "command": [
+        "vendor/venv/bin/python",
+        "scripts/benchmark_stress_raw.py",
+        "--corpus",
+        "benchmarks/raw-diverse-automaton-v1",
+        "--output",
+        "results/raw-phase-diagnostics-v3-pairlocked",
+        "--binary",
+        "/Users/julesjacobs/git/git/pvass/results/solver-raw-phase-diagnostics-v2/vass-reach",
+        "--methods",
+        "raw-negative",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "2048",
+        "--repeat",
+        "1",
+        "--max-states",
+        "20000000",
+        "--case",
+        "write_skew_n3_pairlocked",
+        "--case",
+        "write_skew_n4_pairlocked",
+        "--case",
+        "write_skew_n5_pairlocked"
+      ],
+      "output": "results/raw-phase-diagnostics-v3-pairlocked",
+      "cases": [
+        "write_skew_n3_pairlocked",
+        "write_skew_n4_pairlocked",
+        "write_skew_n5_pairlocked"
+      ],
+      "max_states": 20000000
+    },
+    {
+      "command": [
+        "vendor/venv/bin/python",
+        "scripts/benchmark_stress_raw.py",
+        "--corpus",
+        "benchmarks/raw-diverse-scaling-automaton-v1",
+        "--output",
+        "results/raw-phase-diagnostics-v3-optimistic",
+        "--binary",
+        "/Users/julesjacobs/git/git/pvass/results/solver-raw-phase-diagnostics-v2/vass-reach",
+        "--methods",
+        "raw-negative",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "2048",
+        "--repeat",
+        "1",
+        "--max-states",
+        "20000000",
+        "--case",
+        "optimistic_v17_validated",
+        "--case",
+        "optimistic_v25_validated",
+        "--case",
+        "optimistic_v33_validated",
+        "--case",
+        "optimistic_v49_validated"
+      ],
+      "output": "results/raw-phase-diagnostics-v3-optimistic",
+      "cases": [
+        "optimistic_v17_validated",
+        "optimistic_v25_validated",
+        "optimistic_v33_validated",
+        "optimistic_v49_validated"
+      ],
+      "max_states": 20000000
+    }
+  ],
+  "binary_sha256": "4166c29188f207e4478a23adcb81fe7959333a114e16598907e87960bff59f45",
+  "source_archive_sha256": "7a9802e54373d9fc5c5704e654b7f42051b201ab8e296e5d33f445dfc3d2d101",
+  "environment": {
+    "VASS_RAW_PHASE_DIAGNOSTICS": "1"
+  },
+  "file_sha256": {
+    "scripts/benchmark_stress_raw.py": "3b4d949107261319f70543e38e0d28cc4efe0b0196d968f7dd8c3a1b03e45fb6",
+    "scripts/raw_stress_worker.py": "70b1504f5461e209ad2b85bc186d75c9368c5efbf2b10c2d33fcea4176946d44",
+    "scripts/raw_invariant_check.py": "47ed99a0db558d0262cc0a735293dbb32a118875cf5f093c344d3abcac19ac68",
+    "scripts/raw_schema_check.py": "03b3c69baac745b73333aeb1d22ae1634182716b88db25931b73bf7b84fef8a5",
+    "scripts/raw_automaton_check.py": "5c623527114235bb85cec70cc14102f269d24fb5261783dfc1c6c7f037ce24b9",
+    "scripts/process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "scripts/raw_z3.py": "ba16c188953868e5864b7820ca3ea3b365bf17ca2f56192b939383b12e9c5b4a",
+    "scripts/analyze_raw_phase_diagnostics.py": "ed731333acacdc0175a30659507a98106cfcab71b5c6bbaedc265a231255056a",
+    "research/run-raw-phase-diagnostics-v3.py": "45d628aa56e469487fabe38d87b749f06ae9b5bec244e0e77fff32ed7e01e5a7",
+    "results/solver-raw-phase-diagnostics-v2/provenance.json": "7f3d2fd8e7f560791d7fbee93aa735eb72ea75bbdaecc93575a5735a7cdea71e",
+    "results/solver-raw-phase-diagnostics-v2/source.tar.gz": "7a9802e54373d9fc5c5704e654b7f42051b201ab8e296e5d33f445dfc3d2d101",
+    "benchmarks/raw-diverse-automaton-v1/collection.json": "69380c4bbd222ab28412872380529c10e691d51263514dca5e6d3a942af212ed",
+    "benchmarks/raw-diverse-automaton-v1/source-manifest.json": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea",
+    "benchmarks/raw-diverse-scaling-automaton-v1/collection.json": "0daca7836a776458e3d94fd78093616ae7bf7ea1792a874d5f098e8272c0a93a",
+    "benchmarks/raw-diverse-scaling-automaton-v1/source-manifest.json": "9bdd71d5bcb810d3b38611723512f2e5c01769ebc21bf95ec7464c67d88552df"
+  },
+  "limits": "30 seconds input/check-inclusive, 80% remaining to solver; sampled 2 GiB process-tree RSS; one local invocation at a time."
+}

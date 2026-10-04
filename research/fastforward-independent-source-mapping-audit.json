@@ -1,0 +1,1099 @@
+{
+  "scope": "Independent original-LoLA parser, formula AST syntax, and exact source/canonical net mapping for all 218 queries; no source/canonical target-equivalence proof and no new solver execution.",
+  "checker_sha256": "9ed6b87a7fd43c995ca68cdb76240f5022f2087238eb238176c80c02e518eee6",
+  "manifest_sha256": "c95d1a3a411e7b80c8db62d3fa088c62389d3fcbdfce58d7965dd30533884c99",
+  "elapsed_seconds": 13.149510208051652,
+  "queries": [
+    {
+      "query": "ff_coverability_bug_tracking_x0_PENDING_q3_buggy_7e2c6d9f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_mist_PN_kanban_bed71635",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_mist_PN_leabasicapproach_28b876c3",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_mist_PN_pncsacover_03d49d6a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_mist_PN_pncsasemiliv_fdcd9e64",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_finite_leader__single_leader__depth_0_a0415da4",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_firewall__no_pred_called_with_zero__depth_0_bc15c769",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_howait__all_workers_finished_if_wait_over__depth_0_07837c73",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_howait__all_workers_finished_if_wait_over__depth_1_52df0f4b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_howait__all_workers_finished_if_wait_over__depth_2_fc2c5756",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_safe_send__sending_to_non_pid__depth_0_a8df5d0d",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_stutter__we_abhorr_as__depth_0_0a44bcdc",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_stutter__we_abhorr_as__depth_1_22c6b9f8",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_stutter__we_abhorr_as__depth_2_4cbf6efa",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_unsafe_send__sending_to_non_pid__depth_0_d7946263",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_unsafe_send__sending_to_non_pid__depth_1_db3b4af8",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_soter_unsafe_send__sending_to_non_pid__depth_2_fcd4f68a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_Boop_simple_vf_satabs_1_747d3757",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_Boop_simple_vf_satabs_2_20d44437",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_Function_Pointer3_vs_satabs_1_5c608733",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_Function_Pointer3_vs_satabs_2_66944b8a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_Function_Pointer3_vs_satabs_3_5f67b0c0",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_buggy_spaghetti_vf_satabs_1_6718519f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_buggy_spaghetti_vf_satabs_2_ea30ca4b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_conditionals_vs_satabs_1_fbdcfc01",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_constants_vf_satabs_1_f2746c6b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_constants_vf_satabs_2_5be17e7a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_dekker_vs_satabs_1_ff8d2df4",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_dekker_vs_satabs_2_70f96278",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_double_lock_p1_vs_satabs_1_5b2770f3",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_double_lock_p1_vs_satabs_2_84594050",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_double_lock_p1_vs_satabs_3_92ca853d",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_double_lock_p2_vs_satabs_1_2b7b070e",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_double_lock_p2_vs_satabs_2_dda4f5d2",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_double_lock_p3_vs_satabs_1_943050c3",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_double_lock_p3_vs_satabs_2_7bfbd4b0",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_double_lock_p3_vs_satabs_3_69117efd",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_lu_fig2_fixed_vs_satabs_1_8f1db63f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_lu_fig2_fixed_vs_satabs_2_e74453bf",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_lu_fig2_fixed_vs_satabs_3_6b387518",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_peterson_vs_satabs_1_8b945e7b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_peterson_vs_satabs_2_25a9a3b7",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_pthread5_vs_satabs_1_08746bed",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_pthread5_vs_satabs_2_ef089927",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_pthread5_vs_satabs_3_ca04306a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_pthread5_vs_satabs_4_228b721e",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_rand_cas_vs_satabs_1_cb2adad4",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_rand_lock_p0_vs_satabs_1_49b7a2ac",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_rand_lock_p0_vs_satabs_2_15a745c9",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_rand_lock_p0_vs_satabs_3_a4201a2f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_simple_loop5_vs_satabs_1_764b2018",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_simple_loop5_vs_satabs_2_909aa6a2",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_spin2003_vs_satabs_1_976d00b9",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_spin2003_vs_satabs_2_f7cbabf3",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_stack_cas_p0_vs_satabs_1_242414a7",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_stack_cas_p0_vs_satabs_2_f9d933fa",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_stack_cas_p0_vs_satabs_3_cbed1f54",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_stack_lock_p0_vs_satabs_1_dd37543a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_stack_lock_p0_vs_satabs_2_54813e6d",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_szymanski_vs_satabs_1_e37658e7",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_coverability_wahl_kroening_szymanski_vs_satabs_2_fd2ec13e",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_100_0_3bdf1c1b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_25_0_0ba0f181",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_30_0_990852c0",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_35_0_d0a1d0f1",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_40_0_7d80d074",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_50_0_61a2890f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_60_0_4b65c603",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_75_0_072a56ba",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_25_0_473b7be1",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_30_0_cfcf0d79",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_50_0_ca513233",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_75_0_4ea8c7e2",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_100_0_cd5224b8",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_30_0_60ea6be9",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_35_0_9d7456ea",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_40_0_76076df0",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_50_0_a060d7a3",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_60_0_c8b35a85",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_75_0_39e56bc6",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_100_0_cfd94785",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_20_0_53b32524",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_25_0_4112f870",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_30_0_f7b41baa",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_35_0_f38822a4",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_40_0_b5386653",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_50_0_85cc4181",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_60_0_29899c9e",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_75_0_4e32d951",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_90_0_ffb0346c",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_100_0_b2f46e64",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_25_0_3a7c01dd",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_30_0_bb2141a7",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_35_0_4b1fb975",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_40_0_f7e134b2",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_50_0_10a31909",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_60_0_1e163644",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_75_0_87fe5b6a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_90_0_d9e4397c",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_25_0_e155eb79",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_30_0_3b9bf36b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_35_0_c9f57ec6",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_40_0_620e75da",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_50_0_eb3bd1f8",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_60_0_ba83b39f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_75_0_0282cae8",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_90_0_991eb40a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_100_0_964d5f2c",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_25_0_6f0600a4",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_30_0_8a85ed04",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_35_0_eaa61ac7",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_40_0_80bd36c1",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_50_0_dfbfe06a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_60_0_8824723a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_75_0_28df1c8f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_90_0_b79c2d14",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_100_0_d3394668",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_25_0_109789c0",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_30_0_03c5f38b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_35_0_e1b4c91a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_40_0_1715f165",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_50_0_cb22c7f5",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_60_0_7e4914f0",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_75_0_4caa7013",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_90_0_7680cd5d",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_mesh3x2_multi_100_0_508ba3c1",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_mesh3x2_multi_30_0_28c63473",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_mesh3x2_multi_40_0_7955cbeb",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_mesh3x2_multi_50_0_64d019c3",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_mesh3x2_multi_60_0_747131df",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_mesh3x2_multi_75_0_3c5866bf",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_mesh3x2_multi_90_0_530a8003",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_100_0_0dc8b190",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_25_0_56cd3d19",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_30_0_1c62c4ab",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_35_0_cbe01af1",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_40_0_d1b1337f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_50_0_4e2225a0",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_60_0_1f69f86b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_75_0_7b18af2a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_90_0_63a50e3a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pipe__single_message_in_mailbox__depth_1_multi_50_0_520f92f8",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_100_0_be40d5ca",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_25_0_87cd9acd",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_30_0_9ed5de77",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_35_0_fcb25341",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_40_0_f5b9a3a7",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_50_0_871c4cba",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_60_0_25230f49",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_75_0_b294b730",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_90_0_a70a8618",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_100_0_5b2ca766",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_25_0_029e8ef9",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_30_0_da17928c",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_35_0_e61c223a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_40_0_df2950d1",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_50_0_53ea49ea",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_60_0_9dc5090d",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_75_0_a5685f8e",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_90_0_79b6572b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_100_0_4df7a98c",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_20_0_f953a2d1",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_25_0_06d5f3fa",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_30_0_662a88d9",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_35_0_40288fc0",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_40_0_c5346f19",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_50_0_82faf12b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_60_0_75e22557",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_75_0_46d18478",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_90_0_f3c821ab",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_x0_PENDING_q6_multi_100_0_80e01ed4",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_x0_PENDING_q6_multi_25_0_4ec5379f",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_x0_PENDING_q6_multi_30_0_6d925a2e",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_x0_PENDING_q6_multi_35_0_3a4393d8",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_x0_PENDING_q6_multi_40_0_89c275a8",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_x0_PENDING_q6_multi_50_0_46035366",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_x0_PENDING_q6_multi_60_0_bb49a01a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_x0_PENDING_q6_multi_75_0_ac74307b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_random_walk_x0_PENDING_q6_multi_90_0_cb6b67b5",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_geometry10_3e3a3835",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_geometry11_1a730cd1",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_geometry12_c44963f7",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_geometry13_3a4a7374",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_geometry14_86306a65",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_geometry15_5b1e3d91",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_joda16_0112762d",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_joda17_3ffb0bb4",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_joda18_6dc33581",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_joda19_99faa01a",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_joda20_b270cb55",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_joda21_b6755810",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_joda22_75a5148c",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_math1_48fff63c",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_math2_2df45bf2",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_math3_a1a14255",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_math4_4287c07d",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_math5_55120d92",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_math6_e6ba34aa",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_math7_49082e24",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_math8_55037011",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_math9_a3564ae2",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_xml23_8a1d113b",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_xml24_e72dfaef",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_xml25_8d649d21",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_xml26_3cff7db4",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_xml27_4a902073",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_xml28_33840682",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_xml29_541144f6",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    },
+    {
+      "query": "ff_sypet_xml30_00b89902",
+      "status": "source-net-mapping-and-formula-parsed",
+      "branches": 1
+    }
+  ],
+  "source_and_mapping_hashes_verified": 654
+}

@@ -1,0 +1,787 @@
+[
+  {
+    "query": "JoinFreeModules-PT-0005__RC09",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/JoinFreeModules-PT-0005__RC09.verifypn.0.log",
+    "log_sha256": "ce02221a9ee2f48385618a98ab5d7a585f3b97a6a4e7196cc0949dd95e2d97ce",
+    "external_verdict": "unreachable",
+    "status": "external_negative_unchecked"
+  },
+  {
+    "query": "Echo-PT-d02r15__RC00",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/Echo-PT-d02r15__RC00.verifypn.0.log",
+    "log_sha256": "e35493cbb4bacbd6cb452f8bf66012f29e0b988053c00b10214520579032a84c",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 102,
+    "unique_transitions": 102,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 16,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 101,
+    "unindexed_trace_steps": 1,
+    "original_places": 2127,
+    "original_transitions": 1674,
+    "reduced_net": [
+      1892,
+      1668
+    ],
+    "discovered_states": [
+      1746
+    ],
+    "explored_states": [
+      1746
+    ],
+    "expanded_states": [
+      102
+    ],
+    "reduction_rules": {
+      "A": 1,
+      "I": 1
+    }
+  },
+  {
+    "query": "Echo-PT-d02r15__RC01",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/Echo-PT-d02r15__RC01.verifypn.0.log",
+    "log_sha256": "f66d1043fbf1d1b48fb7b77d517bea04efcb550f31a4a3d16274b0f0afae0997",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 108,
+    "unique_transitions": 108,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 18,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 107,
+    "unindexed_trace_steps": 1,
+    "original_places": 2127,
+    "original_transitions": 1674,
+    "reduced_net": [
+      1893,
+      1668
+    ],
+    "discovered_states": [
+      3214
+    ],
+    "explored_states": [
+      3214
+    ],
+    "expanded_states": [
+      106
+    ],
+    "reduction_rules": {
+      "A": 1,
+      "I": 1
+    }
+  },
+  {
+    "query": "Echo-PT-d02r15__RC02",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/Echo-PT-d02r15__RC02.verifypn.0.log",
+    "log_sha256": "a049bce203a4b9f2466faca3e287f10918fa75f86a061ec0af5ef4818c826325",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 58,
+    "unique_transitions": 58,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 16,
+    "matched_branches": [
+      5
+    ],
+    "longest_target_place_plateau": 45,
+    "unindexed_trace_steps": 1,
+    "original_places": 2127,
+    "original_transitions": 1674,
+    "reduced_net": [
+      1893,
+      1668
+    ],
+    "discovered_states": [
+      1554
+    ],
+    "explored_states": [
+      1554
+    ],
+    "expanded_states": [
+      56
+    ],
+    "reduction_rules": {
+      "A": 1,
+      "I": 1
+    }
+  },
+  {
+    "query": "Echo-PT-d02r15__RC03",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/Echo-PT-d02r15__RC03.verifypn.0.log",
+    "log_sha256": "f9e9a0800d1cf7382dc4e3b2cbe1c4fa9dd2ae02a88698a8528ca565e1cf1c5a",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 114,
+    "unique_transitions": 114,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 16,
+    "matched_branches": [
+      1
+    ],
+    "longest_target_place_plateau": 113,
+    "unindexed_trace_steps": 1,
+    "original_places": 2127,
+    "original_transitions": 1674,
+    "reduced_net": [
+      1893,
+      1668
+    ],
+    "discovered_states": [
+      1839
+    ],
+    "explored_states": [
+      1839
+    ],
+    "expanded_states": [
+      112
+    ],
+    "reduction_rules": {
+      "A": 1,
+      "I": 1
+    }
+  },
+  {
+    "query": "Echo-PT-d02r15__RC13",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/Echo-PT-d02r15__RC13.verifypn.0.log",
+    "log_sha256": "82751486189781b75b3b1057186348eb11d7da62bc4a02716007b5f0e1a0485f",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 7,
+    "unique_transitions": 7,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 7,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 6,
+    "unindexed_trace_steps": 1,
+    "original_places": 2127,
+    "original_transitions": 1674,
+    "reduced_net": [
+      1893,
+      1668
+    ],
+    "discovered_states": [
+      43
+    ],
+    "explored_states": [
+      43
+    ],
+    "expanded_states": [
+      5
+    ],
+    "reduction_rules": {
+      "A": 1,
+      "I": 1
+    }
+  },
+  {
+    "query": "Echo-PT-d02r15__RC14",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/Echo-PT-d02r15__RC14.verifypn.0.log",
+    "log_sha256": "89673aec13f64aa1ed3269f82db1b8c96a716faf9cfc17072a9c2500eb62ade9",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 85,
+    "unique_transitions": 85,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 16,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 77,
+    "unindexed_trace_steps": 1,
+    "original_places": 2127,
+    "original_transitions": 1674,
+    "reduced_net": [
+      1892,
+      1668
+    ],
+    "discovered_states": [
+      2481
+    ],
+    "explored_states": [
+      2481
+    ],
+    "expanded_states": [
+      83
+    ],
+    "reduction_rules": {
+      "A": 1,
+      "I": 1
+    }
+  },
+  {
+    "query": "CANConstruction-PT-020__RC03",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-020__RC03.verifypn.0.log",
+    "log_sha256": "bfc505e91c73b48cb91bdb9fab854f9831561aadec84ffeedf420fbf04909f07",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 20,
+    "unique_transitions": 20,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 16,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 19,
+    "unindexed_trace_steps": 12,
+    "original_places": 1042,
+    "original_transitions": 1760,
+    "reduced_net": [
+      844,
+      1562
+    ],
+    "discovered_states": [
+      71
+    ],
+    "explored_states": [
+      68
+    ],
+    "expanded_states": [
+      13
+    ],
+    "reduction_rules": {
+      "B": 1358
+    }
+  },
+  {
+    "query": "CANConstruction-PT-020__RC05",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-020__RC05.verifypn.0.log",
+    "log_sha256": "c410e0ef7c379cf2e3b689b1d1238177f202f6188348740a71e3304f9db343bd",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 9,
+    "unique_transitions": 9,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 9,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 8,
+    "unindexed_trace_steps": 6,
+    "original_places": 1042,
+    "original_transitions": 1760,
+    "reduced_net": [
+      852,
+      1570
+    ],
+    "discovered_states": [
+      23
+    ],
+    "explored_states": [
+      23
+    ],
+    "expanded_states": [
+      2
+    ],
+    "reduction_rules": {
+      "B": 1277
+    }
+  },
+  {
+    "query": "CANConstruction-PT-020__RC06",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-020__RC06.verifypn.0.log",
+    "log_sha256": "39456ff18e584a8af8526d8ffcecfa88d1e09c196d8be449251c8a64bcd35956",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 38,
+    "unique_transitions": 38,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 25,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 37,
+    "unindexed_trace_steps": 22,
+    "original_places": 1042,
+    "original_transitions": 1760,
+    "reduced_net": [
+      844,
+      1562
+    ],
+    "discovered_states": [
+      188
+    ],
+    "explored_states": [
+      175
+    ],
+    "expanded_states": [
+      29
+    ],
+    "reduction_rules": {
+      "B": 1358
+    }
+  },
+  {
+    "query": "CANConstruction-PT-020__RC07",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-020__RC07.verifypn.0.log",
+    "log_sha256": "91623e325f447a6421269bfb6e07c87fa8926a83cc2fd34e37df9ac00cde37c3",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 7,
+    "unique_transitions": 7,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 7,
+    "matched_branches": [
+      0,
+      1
+    ],
+    "longest_target_place_plateau": 6,
+    "unindexed_trace_steps": 4,
+    "original_places": 1042,
+    "original_transitions": 1760,
+    "reduced_net": [
+      847,
+      1565
+    ],
+    "discovered_states": [
+      23
+    ],
+    "explored_states": [
+      23
+    ],
+    "expanded_states": [
+      2
+    ],
+    "reduction_rules": {
+      "B": 1316
+    }
+  },
+  {
+    "query": "CANConstruction-PT-020__RC09",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-020__RC09.verifypn.0.log",
+    "log_sha256": "cb8a0b6fb2d10e06e1df96a09f3900c837797875f9e5b3782be39dce96d77916",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 20,
+    "unique_transitions": 20,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 13,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 19,
+    "unindexed_trace_steps": 12,
+    "original_places": 1042,
+    "original_transitions": 1760,
+    "reduced_net": [
+      846,
+      1564
+    ],
+    "discovered_states": [
+      103
+    ],
+    "explored_states": [
+      102
+    ],
+    "expanded_states": [
+      7
+    ],
+    "reduction_rules": {
+      "B": 1356
+    }
+  },
+  {
+    "query": "CANConstruction-PT-020__RC12",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-020__RC12.verifypn.0.log",
+    "log_sha256": "b48d85374eadd9dc8c22fee2ad6e73d0c7f7fc413c269b40144c782d4c9d06a4",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 29,
+    "unique_transitions": 29,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 17,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 28,
+    "unindexed_trace_steps": 17,
+    "original_places": 1042,
+    "original_transitions": 1760,
+    "reduced_net": [
+      846,
+      1564
+    ],
+    "discovered_states": [
+      140
+    ],
+    "explored_states": [
+      132
+    ],
+    "expanded_states": [
+      21
+    ],
+    "reduction_rules": {
+      "B": 1356
+    }
+  },
+  {
+    "query": "CANConstruction-PT-020__RC14",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-020__RC14.verifypn.0.log",
+    "log_sha256": "cf86820bcabb5a170a3eea244ed1c1f340805d83afed2d3fcc66f4bf7b6d09f9",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 37,
+    "unique_transitions": 37,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 22,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 36,
+    "unindexed_trace_steps": 22,
+    "original_places": 1042,
+    "original_transitions": 1760,
+    "reduced_net": [
+      846,
+      1564
+    ],
+    "discovered_states": [
+      118
+    ],
+    "explored_states": [
+      115
+    ],
+    "expanded_states": [
+      14
+    ],
+    "reduction_rules": {
+      "B": 1354
+    }
+  },
+  {
+    "query": "CANConstruction-PT-020__RC15",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-020__RC15.verifypn.0.log",
+    "log_sha256": "6ff56d7e874290d9c0e24e66705ff04fa239c1019d00b487d574fb91c49a3191",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 12,
+    "unique_transitions": 12,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 12,
+    "matched_branches": [
+      1
+    ],
+    "longest_target_place_plateau": 10,
+    "unindexed_trace_steps": 7,
+    "original_places": 1042,
+    "original_transitions": 1760,
+    "reduced_net": [
+      845,
+      1563
+    ],
+    "discovered_states": [
+      44
+    ],
+    "explored_states": [
+      44
+    ],
+    "expanded_states": [
+      4
+    ],
+    "reduction_rules": {
+      "B": 1321
+    }
+  },
+  {
+    "query": "CANConstruction-PT-040__RC00",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-040__RC00.verifypn.0.log",
+    "log_sha256": "ec5f147beb833536a311d353d937d540ab8f6b8fa21cf080b8506108f6bb3980",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 38,
+    "unique_transitions": 38,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 22,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 37,
+    "unindexed_trace_steps": 22,
+    "original_places": 3682,
+    "original_transitions": 6720,
+    "reduced_net": [
+      3286,
+      6324
+    ],
+    "discovered_states": [
+      300
+    ],
+    "explored_states": [
+      296
+    ],
+    "expanded_states": [
+      18
+    ],
+    "reduction_rules": {
+      "B": 5116
+    }
+  },
+  {
+    "query": "CANConstruction-PT-040__RC04",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-040__RC04.verifypn.0.log",
+    "log_sha256": "ac7984b7d135cb3e6685dc2e7d39a1f574a2870f456e845118a813c1169a2a36",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 38,
+    "unique_transitions": 38,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 19,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 37,
+    "unindexed_trace_steps": 22,
+    "original_places": 3682,
+    "original_transitions": 6720,
+    "reduced_net": [
+      3286,
+      6324
+    ],
+    "discovered_states": [
+      328
+    ],
+    "explored_states": [
+      309
+    ],
+    "expanded_states": [
+      39
+    ],
+    "reduction_rules": {
+      "B": 5116
+    }
+  },
+  {
+    "query": "CANConstruction-PT-040__RC05",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-040__RC05.verifypn.0.log",
+    "log_sha256": "5b1a07437b94612a1660a568fb6ffcedb66598750129f2a0eb52906874b04f08",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 19,
+    "unique_transitions": 19,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 14,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 18,
+    "unindexed_trace_steps": 12,
+    "original_places": 3682,
+    "original_transitions": 6720,
+    "reduced_net": [
+      3285,
+      6323
+    ],
+    "discovered_states": [
+      127
+    ],
+    "explored_states": [
+      126
+    ],
+    "expanded_states": [
+      6
+    ],
+    "reduction_rules": {
+      "B": 5002
+    }
+  },
+  {
+    "query": "CANConstruction-PT-040__RC08",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-040__RC08.verifypn.0.log",
+    "log_sha256": "c7718403bef36b12fb75c7b2f068ec3081c33534828213ac5c50da2f12841f52",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 28,
+    "unique_transitions": 28,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 19,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 27,
+    "unindexed_trace_steps": 17,
+    "original_places": 3682,
+    "original_transitions": 6720,
+    "reduced_net": [
+      3282,
+      6320
+    ],
+    "discovered_states": [
+      172
+    ],
+    "explored_states": [
+      170
+    ],
+    "expanded_states": [
+      10
+    ],
+    "reduction_rules": {
+      "B": 5120
+    }
+  },
+  {
+    "query": "CANConstruction-PT-040__RC10",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-040__RC10.verifypn.0.log",
+    "log_sha256": "61ddb442efe9f083d0b3d756ee0ef0f98818d2f755834264b80b4356ae33b3ff",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 101,
+    "unique_transitions": 101,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 40,
+    "matched_branches": [
+      1
+    ],
+    "longest_target_place_plateau": 100,
+    "unindexed_trace_steps": 57,
+    "original_places": 3682,
+    "original_transitions": 6720,
+    "reduced_net": [
+      3284,
+      6322
+    ],
+    "discovered_states": [
+      1892
+    ],
+    "explored_states": [
+      1763
+    ],
+    "expanded_states": [
+      184
+    ],
+    "reduction_rules": {
+      "B": 5118
+    }
+  },
+  {
+    "query": "CANConstruction-PT-040__RC11",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-040__RC11.verifypn.0.log",
+    "log_sha256": "3b46727178c53ea89af69efe6734a47a87a96eb9b2538a53ca9751616cb8af5d",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 29,
+    "unique_transitions": 29,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 17,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 28,
+    "unindexed_trace_steps": 17,
+    "original_places": 3682,
+    "original_transitions": 6720,
+    "reduced_net": [
+      3286,
+      6324
+    ],
+    "discovered_states": [
+      252
+    ],
+    "explored_states": [
+      247
+    ],
+    "expanded_states": [
+      16
+    ],
+    "reduction_rules": {
+      "B": 5116
+    }
+  },
+  {
+    "query": "CANConstruction-PT-040__RC14",
+    "kind": "AG",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-040__RC14.verifypn.0.log",
+    "log_sha256": "6b7623e4532cbf115040fd4d73359a0b8f016984df164d2c243015349dffd8de",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 21,
+    "unique_transitions": 21,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 15,
+    "matched_branches": [
+      2
+    ],
+    "longest_target_place_plateau": 20,
+    "unindexed_trace_steps": 13,
+    "original_places": 3682,
+    "original_transitions": 6720,
+    "reduced_net": [
+      3284,
+      6322
+    ],
+    "discovered_states": [
+      128
+    ],
+    "explored_states": [
+      127
+    ],
+    "expanded_states": [
+      7
+    ],
+    "reduction_rules": {
+      "B": 5115
+    }
+  },
+  {
+    "query": "CANConstruction-PT-040__RC15",
+    "kind": "EF",
+    "log": "results/publication-original-causal-verifypn/CANConstruction-PT-040__RC15.verifypn.0.log",
+    "log_sha256": "9c9d5c2576198d4222319e9f2a12711735397880d04c4aa8f289f986538795da",
+    "external_verdict": "reachable",
+    "status": "independently_replayed",
+    "length": 20,
+    "unique_transitions": 20,
+    "max_transition_count": 1,
+    "fifo_causal_depth": 16,
+    "matched_branches": [
+      0
+    ],
+    "longest_target_place_plateau": 19,
+    "unindexed_trace_steps": 12,
+    "original_places": 3682,
+    "original_transitions": 6720,
+    "reduced_net": [
+      3284,
+      6322
+    ],
+    "discovered_states": [
+      131
+    ],
+    "explored_states": [
+      128
+    ],
+    "expanded_states": [
+      13
+    ],
+    "reduction_rules": {
+      "B": 5118
+    }
+  }
+]

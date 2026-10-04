@@ -1,0 +1,1477 @@
+{
+  "format": "smpt-classic-v1",
+  "expected_properties": 26,
+  "queries": [
+    {
+      "name": "DLCflexbar-PT-7b__RC01",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-7b",
+      "property_slot": 1,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-7b-ReachabilityCardinality-01",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-7b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-7b__RC01/original-property.xml",
+      "pnml_sha256": "202759c418fa779c4a8db8c0cfdffb02a49e2068e88a8e977f1513584f907ef8",
+      "xml_sha256": "97fb25c3d763ef33e17838d986d29300af11d3e65603aa87463fd077ce6b4d3e",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC01/branch-0.json",
+          "sha256": "0d97c5939ff61cae2d474c7825fe378c4a3879d3ea903881de8a364d84236236"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC01/branch-1.json",
+          "sha256": "c67154d098759211d2b264c021b17508211ab5cf1092616ac2ec23d6a236e699"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC01/branch-2.json",
+          "sha256": "ecc3b404a283e2804f74f0794e705c313835ec2e3915d6af49d1b92a03c1b3cc"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC01/branch-3.json",
+          "sha256": "5071f34c047d631c8bf0a655ac09cda5abd02b6f1e99889161853844e58bd344"
+        }
+      ],
+      "places": 35101,
+      "transitions": 55507,
+      "net": "../mcc-stress-development/DLCflexbar-PT-7b__RC01/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-7b__RC01/property.xml",
+      "net_sha256": "eb8899758a724609019cdfc483dea121b3dc289b8da2312d0a8aa18d6a649c3b",
+      "property_sha256": "97fb25c3d763ef33e17838d986d29300af11d3e65603aa87463fd077ce6b4d3e",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-7b__RC04",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-7b",
+      "property_slot": 4,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-7b-ReachabilityCardinality-04",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-7b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-7b__RC04/original-property.xml",
+      "pnml_sha256": "202759c418fa779c4a8db8c0cfdffb02a49e2068e88a8e977f1513584f907ef8",
+      "xml_sha256": "b901a2b27c8814b21c542c8bba1166d06f231dd6139d31fbb094cdaf80577899",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC04/branch-0.json",
+          "sha256": "0bc3076f4586facf2d399f90cde01dec51619ae24a2a6ac80c7b04565d190c75"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC04/branch-1.json",
+          "sha256": "208b19ea4fb978885f07c947f0e10f8ee597e34886de8cd5979b8d1916cdd138"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC04/branch-2.json",
+          "sha256": "a294ce03a6fe4595cdd513ba83520876ab13e3d29ece8f4a3d94ec7735ad9dd0"
+        }
+      ],
+      "places": 35101,
+      "transitions": 55507,
+      "net": "../mcc-stress-development/DLCflexbar-PT-7b__RC04/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-7b__RC04/property.xml",
+      "net_sha256": "eb8899758a724609019cdfc483dea121b3dc289b8da2312d0a8aa18d6a649c3b",
+      "property_sha256": "b901a2b27c8814b21c542c8bba1166d06f231dd6139d31fbb094cdaf80577899",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-7b__RC06",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-7b",
+      "property_slot": 6,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-7b-ReachabilityCardinality-06",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-7b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-7b__RC06/original-property.xml",
+      "pnml_sha256": "202759c418fa779c4a8db8c0cfdffb02a49e2068e88a8e977f1513584f907ef8",
+      "xml_sha256": "6be9e2abdf2c676688c431418accc4794d0278ea527a5258fa142dd5ea5d0aab",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC06/branch-0.json",
+          "sha256": "5ae71f8ed6cbe7f4e7ef12d25dc49eaf6e3be231a8e6c460d398b51119a33f62"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC06/branch-1.json",
+          "sha256": "905523e643184af9c9f84516f5a388207e87beb5ffe2372980ba905dc99a348e"
+        }
+      ],
+      "places": 35101,
+      "transitions": 55507,
+      "net": "../mcc-stress-development/DLCflexbar-PT-7b__RC06/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-7b__RC06/property.xml",
+      "net_sha256": "eb8899758a724609019cdfc483dea121b3dc289b8da2312d0a8aa18d6a649c3b",
+      "property_sha256": "6be9e2abdf2c676688c431418accc4794d0278ea527a5258fa142dd5ea5d0aab",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-7b__RC08",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-7b",
+      "property_slot": 8,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-7b-ReachabilityCardinality-08",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-7b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-7b__RC08/original-property.xml",
+      "pnml_sha256": "202759c418fa779c4a8db8c0cfdffb02a49e2068e88a8e977f1513584f907ef8",
+      "xml_sha256": "f21c2e6fc1bbc9c9eda9cbf78de8bbc550dfd63c29f1d1f6255e00f91550a247",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC08/branch-0.json",
+          "sha256": "d55c6d38243af7c360e0965b51ed4e268483a284f82b80c49e410f6014f33228"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC08/branch-1.json",
+          "sha256": "9a6df6743166bbbe145725135eb6329f69e8b69750b63461faa715cdc7544be4"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC08/branch-2.json",
+          "sha256": "67d59247d24e5de7faa58ed2dd25cbdbd310b587bf7f19d6ded526f5279f0eab"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC08/branch-3.json",
+          "sha256": "5f95f60efba7e3eee6a587d03643f40a81d2b9c06a2cf6f6712fdb41fea67f9f"
+        }
+      ],
+      "places": 35101,
+      "transitions": 55507,
+      "net": "../mcc-stress-development/DLCflexbar-PT-7b__RC08/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-7b__RC08/property.xml",
+      "net_sha256": "eb8899758a724609019cdfc483dea121b3dc289b8da2312d0a8aa18d6a649c3b",
+      "property_sha256": "f21c2e6fc1bbc9c9eda9cbf78de8bbc550dfd63c29f1d1f6255e00f91550a247",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-7b__RC10",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-7b",
+      "property_slot": 10,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-7b-ReachabilityCardinality-10",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-7b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-7b__RC10/original-property.xml",
+      "pnml_sha256": "202759c418fa779c4a8db8c0cfdffb02a49e2068e88a8e977f1513584f907ef8",
+      "xml_sha256": "ab98c53f45dfa334a5df844168890781b669d700eba297bc7cc1ac667123a535",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC10/branch-0.json",
+          "sha256": "4992e27ccd421945fc99b85e9c382edcc7929d41e5e995c83c28b469180e4161"
+        }
+      ],
+      "places": 35101,
+      "transitions": 55507,
+      "net": "../mcc-stress-development/DLCflexbar-PT-7b__RC10/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-7b__RC10/property.xml",
+      "net_sha256": "eb8899758a724609019cdfc483dea121b3dc289b8da2312d0a8aa18d6a649c3b",
+      "property_sha256": "ab98c53f45dfa334a5df844168890781b669d700eba297bc7cc1ac667123a535",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-7b__RC11",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-7b",
+      "property_slot": 11,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-7b-ReachabilityCardinality-11",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-7b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-7b__RC11/original-property.xml",
+      "pnml_sha256": "202759c418fa779c4a8db8c0cfdffb02a49e2068e88a8e977f1513584f907ef8",
+      "xml_sha256": "f9a33ca75d5297ab5531f8be0b8b8eb82109685294f6792b7fb5446cda9b240e",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC11/branch-0.json",
+          "sha256": "dc1e449f37449720abe331a031301e5801cf4ddd636bb843a7cb558bfd1a58d3"
+        }
+      ],
+      "places": 35101,
+      "transitions": 55507,
+      "net": "../mcc-stress-development/DLCflexbar-PT-7b__RC11/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-7b__RC11/property.xml",
+      "net_sha256": "eb8899758a724609019cdfc483dea121b3dc289b8da2312d0a8aa18d6a649c3b",
+      "property_sha256": "f9a33ca75d5297ab5531f8be0b8b8eb82109685294f6792b7fb5446cda9b240e",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-7b__RC15",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-7b",
+      "property_slot": 15,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-7b-ReachabilityCardinality-15",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-7b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/original-property.xml",
+      "pnml_sha256": "202759c418fa779c4a8db8c0cfdffb02a49e2068e88a8e977f1513584f907ef8",
+      "xml_sha256": "f27d8d1857fb3c6c3230ce3429d25f7b58fd5b101ef3cf73beffc0552296a7ca",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/branch-0.json",
+          "sha256": "918d4701c526cb7a834e425de8e79d05a370564becf23a72e200d17bebed96ec"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/branch-1.json",
+          "sha256": "0a7cd719a062a6007e508b13547617fbd9a90c0709db61d73190b51e62995170"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/branch-2.json",
+          "sha256": "0f926e0eb29d706aa01989ea646c3bf19ea540d37c26cfa380d5c9fd4abd1f41"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/branch-3.json",
+          "sha256": "35ddda2cc1316a9db8107c09e1ce5b4cf2606f494ccf15179b9c73c61b7155d7"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/branch-4.json",
+          "sha256": "189b45ac34a6b4106ea46e3551b300ca7eac36990355be8c47cd5802075a4617"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/branch-5.json",
+          "sha256": "1b601b9e4f26717dc2a56dd4f94b3a7dd75845e2366fde2a557f10266cdf467d"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/branch-6.json",
+          "sha256": "b6e023cdb5c94998cb18882163d827603d76ccd1c84ba7f5ed110c1b1a8f6a24"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/branch-7.json",
+          "sha256": "b8430f78a647fe25697eeb63e7ab06b775a222b2d3e74603d8d6d06028dc7cb6"
+        }
+      ],
+      "places": 35101,
+      "transitions": 55507,
+      "net": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-7b__RC15/property.xml",
+      "net_sha256": "eb8899758a724609019cdfc483dea121b3dc289b8da2312d0a8aa18d6a649c3b",
+      "property_sha256": "f27d8d1857fb3c6c3230ce3429d25f7b58fd5b101ef3cf73beffc0552296a7ca",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-8b__RC01",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-8b",
+      "property_slot": 1,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-8b-ReachabilityCardinality-01",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-8b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-8b__RC01/original-property.xml",
+      "pnml_sha256": "cfae0069e4749c205c2437b4dc3a7a42f4c0a9dc8ef921bd34051316882c960e",
+      "xml_sha256": "17948b68b3681b0a880623ce0749e57d19ffea33c8cb4e55ed3aaaabb21ade80",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC01/branch-0.json",
+          "sha256": "6a694a4ee62f4263c4ccaf0c628c0c77322c4b39bbadc1c888765bacb9c4d9b1"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC01/branch-1.json",
+          "sha256": "b90f7a60db8aaa7c512c2ac7da6f7ae0758d8b6498bde762a56dc09fbc98a991"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC01/branch-2.json",
+          "sha256": "90c6cb4ce5b75cd981d39f1ac22129c776c0b237e54ef5d7ef61642f66d0b54d"
+        }
+      ],
+      "places": 47560,
+      "transitions": 76160,
+      "net": "../mcc-stress-development/DLCflexbar-PT-8b__RC01/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-8b__RC01/property.xml",
+      "net_sha256": "cd6b3788e844841a684cc5b14f3ce42f9ae3c7b726e438aab7d429964a5fd4cf",
+      "property_sha256": "17948b68b3681b0a880623ce0749e57d19ffea33c8cb4e55ed3aaaabb21ade80",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-8b__RC02",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-8b",
+      "property_slot": 2,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-8b-ReachabilityCardinality-02",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-8b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-8b__RC02/original-property.xml",
+      "pnml_sha256": "cfae0069e4749c205c2437b4dc3a7a42f4c0a9dc8ef921bd34051316882c960e",
+      "xml_sha256": "e91179159d04150e34724ba7bdff43db74db8fa1593e26574fdf0029976849b8",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC02/branch-0.json",
+          "sha256": "741689d845c971a181a9552a1d32dc5e67a7c858d375f452ec4b106fec61eae6"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC02/branch-1.json",
+          "sha256": "ae5023dff07261bd46a752238983316b3662791b84b01230d3fc39c7775eb7c5"
+        }
+      ],
+      "places": 47560,
+      "transitions": 76160,
+      "net": "../mcc-stress-development/DLCflexbar-PT-8b__RC02/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-8b__RC02/property.xml",
+      "net_sha256": "cd6b3788e844841a684cc5b14f3ce42f9ae3c7b726e438aab7d429964a5fd4cf",
+      "property_sha256": "e91179159d04150e34724ba7bdff43db74db8fa1593e26574fdf0029976849b8",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-8b__RC04",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-8b",
+      "property_slot": 4,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-8b-ReachabilityCardinality-04",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-8b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-8b__RC04/original-property.xml",
+      "pnml_sha256": "cfae0069e4749c205c2437b4dc3a7a42f4c0a9dc8ef921bd34051316882c960e",
+      "xml_sha256": "f8db0203f11026381c9ffa69916b10eabbc721b97bcc147887af43ee96e9117f",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC04/branch-0.json",
+          "sha256": "069257ccb74f5ee6446c54f0040d7343019c1e509b3a4c960899d35ab0d7f7de"
+        }
+      ],
+      "places": 47560,
+      "transitions": 76160,
+      "net": "../mcc-stress-development/DLCflexbar-PT-8b__RC04/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-8b__RC04/property.xml",
+      "net_sha256": "cd6b3788e844841a684cc5b14f3ce42f9ae3c7b726e438aab7d429964a5fd4cf",
+      "property_sha256": "f8db0203f11026381c9ffa69916b10eabbc721b97bcc147887af43ee96e9117f",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-8b__RC07",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-8b",
+      "property_slot": 7,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-8b-ReachabilityCardinality-07",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-8b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-8b__RC07/original-property.xml",
+      "pnml_sha256": "cfae0069e4749c205c2437b4dc3a7a42f4c0a9dc8ef921bd34051316882c960e",
+      "xml_sha256": "e20f4c3c4b836fe73b19e03cace165b2786c5ba91683071de42de43c04bc648d",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC07/branch-0.json",
+          "sha256": "1c2292f03480a7dadd12e1b06ec5dd308c80bdfdd45f330f8a61ec6d0d6fde47"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC07/branch-1.json",
+          "sha256": "6bdbb73aa725059d655385e103ce907cfae57686c3e6d86703d12ac4153e6dc7"
+        }
+      ],
+      "places": 47560,
+      "transitions": 76160,
+      "net": "../mcc-stress-development/DLCflexbar-PT-8b__RC07/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-8b__RC07/property.xml",
+      "net_sha256": "cd6b3788e844841a684cc5b14f3ce42f9ae3c7b726e438aab7d429964a5fd4cf",
+      "property_sha256": "e20f4c3c4b836fe73b19e03cace165b2786c5ba91683071de42de43c04bc648d",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-8b__RC08",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-8b",
+      "property_slot": 8,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-8b-ReachabilityCardinality-08",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-8b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-8b__RC08/original-property.xml",
+      "pnml_sha256": "cfae0069e4749c205c2437b4dc3a7a42f4c0a9dc8ef921bd34051316882c960e",
+      "xml_sha256": "4eee0498696dc5b5c646a177cc8042728025d55885d56598eb743429e937de95",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC08/branch-0.json",
+          "sha256": "8840baa4f8cdf488b0c5d397f09f406b91c6822bfb02047c7316aa6d8c82655b"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC08/branch-1.json",
+          "sha256": "73077656befce7a9d4f38c92394015152ecaa84f0bcfc6de7b92e929f748dd8a"
+        }
+      ],
+      "places": 47560,
+      "transitions": 76160,
+      "net": "../mcc-stress-development/DLCflexbar-PT-8b__RC08/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-8b__RC08/property.xml",
+      "net_sha256": "cd6b3788e844841a684cc5b14f3ce42f9ae3c7b726e438aab7d429964a5fd4cf",
+      "property_sha256": "4eee0498696dc5b5c646a177cc8042728025d55885d56598eb743429e937de95",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-8b__RC11",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-8b",
+      "property_slot": 11,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-8b-ReachabilityCardinality-11",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-8b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-8b__RC11/original-property.xml",
+      "pnml_sha256": "cfae0069e4749c205c2437b4dc3a7a42f4c0a9dc8ef921bd34051316882c960e",
+      "xml_sha256": "8bccb4e9886a56572b1045efb31a40ba1c3154b78b757d8cf41de48c7ee734f2",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC11/branch-0.json",
+          "sha256": "60a59e4284e7c811a7098956fe401a931aed954f0d7ac66997a0f587f5d394a1"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC11/branch-1.json",
+          "sha256": "b1c1cb13c5bf6c9466904db62bc70ce1f3af4b6dd1eac2f7c87623086622572d"
+        }
+      ],
+      "places": 47560,
+      "transitions": 76160,
+      "net": "../mcc-stress-development/DLCflexbar-PT-8b__RC11/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-8b__RC11/property.xml",
+      "net_sha256": "cd6b3788e844841a684cc5b14f3ce42f9ae3c7b726e438aab7d429964a5fd4cf",
+      "property_sha256": "8bccb4e9886a56572b1045efb31a40ba1c3154b78b757d8cf41de48c7ee734f2",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-8b__RC12",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-8b",
+      "property_slot": 12,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-8b-ReachabilityCardinality-12",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-8b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-8b__RC12/original-property.xml",
+      "pnml_sha256": "cfae0069e4749c205c2437b4dc3a7a42f4c0a9dc8ef921bd34051316882c960e",
+      "xml_sha256": "29a3719b5f93d1f5d613ad9cba5b83f50c0f62ee3606208778a5d0f8e4035983",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC12/branch-0.json",
+          "sha256": "839d7fc26d016258a3bcdea28cb981a845efc1774574cdd3e039641acce62854"
+        }
+      ],
+      "places": 47560,
+      "transitions": 76160,
+      "net": "../mcc-stress-development/DLCflexbar-PT-8b__RC12/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-8b__RC12/property.xml",
+      "net_sha256": "cd6b3788e844841a684cc5b14f3ce42f9ae3c7b726e438aab7d429964a5fd4cf",
+      "property_sha256": "29a3719b5f93d1f5d613ad9cba5b83f50c0f62ee3606208778a5d0f8e4035983",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "DLCflexbar-PT-8b__RC14",
+      "suite": "stress-development",
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "instance": "DLCflexbar-PT-8b",
+      "property_slot": 14,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "DLCflexbar-PT-8b-ReachabilityCardinality-14",
+      "pnml": "../mcc-stress-development/inputs/DLCflexbar-PT-8b/model.pnml",
+      "xml": "../mcc-stress-development/DLCflexbar-PT-8b__RC14/original-property.xml",
+      "pnml_sha256": "cfae0069e4749c205c2437b4dc3a7a42f4c0a9dc8ef921bd34051316882c960e",
+      "xml_sha256": "e2d9e03686af102c8ab2633ef10e5085a467421573d4dc7a03a5e3f19829777c",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC14/branch-0.json",
+          "sha256": "12b285bea522cdf00c9b77e6de0077bdf7d8410a00dc4c04538e6894add38b71"
+        },
+        {
+          "path": "../mcc-stress-development/DLCflexbar-PT-8b__RC14/branch-1.json",
+          "sha256": "48794351ae254ac49ce7dec39bc8b969edd80649577e0b703ac596c9a823f3e8"
+        }
+      ],
+      "places": 47560,
+      "transitions": 76160,
+      "net": "../mcc-stress-development/DLCflexbar-PT-8b__RC14/model.net",
+      "property": "../mcc-stress-development/DLCflexbar-PT-8b__RC14/property.xml",
+      "net_sha256": "cd6b3788e844841a684cc5b14f3ce42f9ae3c7b726e438aab7d429964a5fd4cf",
+      "property_sha256": "e2d9e03686af102c8ab2633ef10e5085a467421573d4dc7a03a5e3f19829777c",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "CloudOpsManagement-PT-20480by10240__RC12",
+      "suite": "stress-development",
+      "family": "CloudOpsManagement",
+      "family_group": "CloudOpsManagement",
+      "instance": "CloudOpsManagement-PT-20480by10240",
+      "property_slot": 12,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "CloudOpsManagement-PT-20480by10240-ReachabilityCardinality-12",
+      "pnml": "../mcc-stress-development/inputs/CloudOpsManagement-PT-20480by10240/model.pnml",
+      "xml": "../mcc-stress-development/CloudOpsManagement-PT-20480by10240__RC12/original-property.xml",
+      "pnml_sha256": "f302bfd2b02da98ded171b4fa5b54fb4267fd9185357e1d5f882e81b76e363ab",
+      "xml_sha256": "7b1da831287f7b9b0dca7cd3e99dd9e2cd4cdbaf32b2ebb4cdba8bd54975eb7d",
+      "kind": "EF",
+      "branches": [
+        {
+          "path": "../mcc-stress-development/CloudOpsManagement-PT-20480by10240__RC12/branch-0.json",
+          "sha256": "35595c17bb4663c3c88664e8d2b6aef83fd01dcc015f1d1bdf2e5ecc34ad7067"
+        },
+        {
+          "path": "../mcc-stress-development/CloudOpsManagement-PT-20480by10240__RC12/branch-1.json",
+          "sha256": "1fac65a9b1c2bca2657db227c53b91c5a9c947b78a3984059a137e89af1f9ed9"
+        }
+      ],
+      "places": 27,
+      "transitions": 29,
+      "net": "../mcc-stress-development/CloudOpsManagement-PT-20480by10240__RC12/model.net",
+      "property": "../mcc-stress-development/CloudOpsManagement-PT-20480by10240__RC12/property.xml",
+      "net_sha256": "ad4e5977add869c21d14ea29ef300582944a3b51c6f17811b4c2ce2ecc0cc544",
+      "property_sha256": "f2a5576ea923e79d95f654d21d17ca4105d6cccf276dfcbe8e0cd90c3e4512b2",
+      "development_source": "benchmarks/mcc-stress-development/manifest.json"
+    },
+    {
+      "name": "random3_n72_r426_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 72,
+        "clauses": 307,
+        "ratio_hundredths": 426,
+        "seed": 2026092701
+      },
+      "variables": 72,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n72_r426_s2026092701",
+      "status": "imported",
+      "places": 524,
+      "transitions": 1065,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/random3_n72_r426_s2026092701/branch-0.json",
+          "sha256": "a2a1e9c458093d92f1718e0b92553ceeb930084134f8fa0907e901938d54e5a4"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/random3_n72_r426_s2026092701/source.cnf",
+      "source_cnf_sha256": "71c7491f91d116e2123ecfd66b6e8e3ad56f5e770008ad5ece2d22b906487daa",
+      "pnml": "../boolean-consistency-v3/random3_n72_r426_s2026092701/model.pnml",
+      "pnml_sha256": "91a6c8acd68d7c6f24a0de58cb8db1f48547a31614326973c4b6e8097b1f6ab2",
+      "xml": "../boolean-consistency-v3/random3_n72_r426_s2026092701/original-property.xml",
+      "xml_sha256": "658e4f46112e8cdc4a2c7def991450338d6565238308bb48b9bc59e86e17d477",
+      "net": "../boolean-consistency-v3/random3_n72_r426_s2026092701/model.net",
+      "net_sha256": "1803ed85bfb516f43ebc94ae3d69e424b1ec24c2a2c4cfc2878656eb58736866",
+      "property": "../boolean-consistency-v3/random3_n72_r426_s2026092701/property.xml",
+      "property_sha256": "30a519f121141df7155ce00bcf2c9452d51270e7f2c5e9114692d4f944b96cfd",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    },
+    {
+      "name": "random3_n72_r480_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 72,
+        "clauses": 346,
+        "ratio_hundredths": 480,
+        "seed": 2026092701
+      },
+      "variables": 72,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n72_r480_s2026092701",
+      "status": "imported",
+      "places": 563,
+      "transitions": 1182,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/random3_n72_r480_s2026092701/branch-0.json",
+          "sha256": "dcac2a71425b5cd948a817cca92dddf34242e6f5554319744a437ffbc7591d12"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/random3_n72_r480_s2026092701/source.cnf",
+      "source_cnf_sha256": "7b56332b03424119646a276b777e37d782d733d8cf8e5e272f3688a673044b62",
+      "pnml": "../boolean-consistency-v3/random3_n72_r480_s2026092701/model.pnml",
+      "pnml_sha256": "33defaa0c95a5013bb8064ee0a4ed504c27a11e96680aae1620941cd6c22a0aa",
+      "xml": "../boolean-consistency-v3/random3_n72_r480_s2026092701/original-property.xml",
+      "xml_sha256": "1194ba901996da4766aa2fad6ff22b3308b85d4b429943fba495c8427555768b",
+      "net": "../boolean-consistency-v3/random3_n72_r480_s2026092701/model.net",
+      "net_sha256": "d48eae98711396b50aac68767087077583dc97867c80a7f01f4bfe824e19e239",
+      "property": "../boolean-consistency-v3/random3_n72_r480_s2026092701/property.xml",
+      "property_sha256": "cef0d60713e41a9db18c038466e3ea66d9742a475ea3f6e258c5f77ca300a48e",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    },
+    {
+      "name": "random3_n72_r480_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 72,
+        "clauses": 346,
+        "ratio_hundredths": 480,
+        "seed": 2026092702
+      },
+      "variables": 72,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n72_r480_s2026092702",
+      "status": "imported",
+      "places": 563,
+      "transitions": 1182,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/random3_n72_r480_s2026092702/branch-0.json",
+          "sha256": "e317c93ab98ae2a2c1cef21687a0d5f5091ead2e9193f7e5c33d69140234c0c7"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/random3_n72_r480_s2026092702/source.cnf",
+      "source_cnf_sha256": "cc8742faf430ef0081cc1e4f100aa1c09179fa44c13efc249a4036e8ae4a2b45",
+      "pnml": "../boolean-consistency-v3/random3_n72_r480_s2026092702/model.pnml",
+      "pnml_sha256": "55060c1c7107f8078cb99672ec19a486612a67cb9e799cd8b197b36ac348c655",
+      "xml": "../boolean-consistency-v3/random3_n72_r480_s2026092702/original-property.xml",
+      "xml_sha256": "1194ba901996da4766aa2fad6ff22b3308b85d4b429943fba495c8427555768b",
+      "net": "../boolean-consistency-v3/random3_n72_r480_s2026092702/model.net",
+      "net_sha256": "83b64fdee8a47ea3358d10ddc1c60858ff2cdb60bc0d3013ab1dab10d15941cb",
+      "property": "../boolean-consistency-v3/random3_n72_r480_s2026092702/property.xml",
+      "property_sha256": "cef0d60713e41a9db18c038466e3ea66d9742a475ea3f6e258c5f77ca300a48e",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    },
+    {
+      "name": "random3_n96_r426_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 409,
+        "ratio_hundredths": 426,
+        "seed": 2026092701
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r426_s2026092701",
+      "status": "imported",
+      "places": 698,
+      "transitions": 1419,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/random3_n96_r426_s2026092701/branch-0.json",
+          "sha256": "770838e512de911a797834bf91908d3e6bbbd4f2a5277e7b6d06d11dccc9d3ca"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/random3_n96_r426_s2026092701/source.cnf",
+      "source_cnf_sha256": "6affc6641ad1565e15e19df835a57ea71a1239813fc432c0dbbf9111a6e9d013",
+      "pnml": "../boolean-consistency-v3/random3_n96_r426_s2026092701/model.pnml",
+      "pnml_sha256": "679ced80f30e7f7375f6c1c883bf11bd782c8559ede21a4b65cffe0797abeb18",
+      "xml": "../boolean-consistency-v3/random3_n96_r426_s2026092701/original-property.xml",
+      "xml_sha256": "a291360094cdf7d1c9f93753d06f72f32c9553ccf6fbd30e4284225103902fb2",
+      "net": "../boolean-consistency-v3/random3_n96_r426_s2026092701/model.net",
+      "net_sha256": "c2b8c55e74b22565b930812f96de62d6aeef4a5a1548e23a946e608b8d9c7e72",
+      "property": "../boolean-consistency-v3/random3_n96_r426_s2026092701/property.xml",
+      "property_sha256": "73547a69ded356e075b63e5aa09c900ea0ffd47972e3720c3de5e53ebf2ebd02",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    },
+    {
+      "name": "random3_n96_r426_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 409,
+        "ratio_hundredths": 426,
+        "seed": 2026092702
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r426_s2026092702",
+      "status": "imported",
+      "places": 698,
+      "transitions": 1419,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/random3_n96_r426_s2026092702/branch-0.json",
+          "sha256": "b4fd74dff4659675f59e1e0b87b58e6e15584d0586595f307837c387dce688ed"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/random3_n96_r426_s2026092702/source.cnf",
+      "source_cnf_sha256": "f614aba77045562fbfa36791ddae32df1b3d848d35612cea1c2f4fc97cce193a",
+      "pnml": "../boolean-consistency-v3/random3_n96_r426_s2026092702/model.pnml",
+      "pnml_sha256": "f952aefd39e5e4fe518014737a81ee6e3fa7ec7b25eee69d358542b825a4f104",
+      "xml": "../boolean-consistency-v3/random3_n96_r426_s2026092702/original-property.xml",
+      "xml_sha256": "a291360094cdf7d1c9f93753d06f72f32c9553ccf6fbd30e4284225103902fb2",
+      "net": "../boolean-consistency-v3/random3_n96_r426_s2026092702/model.net",
+      "net_sha256": "375043887aafe78d025b9e6d67988e885220bb01506bdcef62b6a66bca902f3c",
+      "property": "../boolean-consistency-v3/random3_n96_r426_s2026092702/property.xml",
+      "property_sha256": "73547a69ded356e075b63e5aa09c900ea0ffd47972e3720c3de5e53ebf2ebd02",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    },
+    {
+      "name": "random3_n96_r480_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 461,
+        "ratio_hundredths": 480,
+        "seed": 2026092701
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r480_s2026092701",
+      "status": "imported",
+      "places": 750,
+      "transitions": 1575,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/random3_n96_r480_s2026092701/branch-0.json",
+          "sha256": "cf3fb933770e94223dbf9007fb528cfa00a1682dca7f637e1c3db72b153b6d65"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/random3_n96_r480_s2026092701/source.cnf",
+      "source_cnf_sha256": "06f02c960ae39dacc2bc66d33121bb7c097c1836805802e15c42803543af5003",
+      "pnml": "../boolean-consistency-v3/random3_n96_r480_s2026092701/model.pnml",
+      "pnml_sha256": "ec036fb17c64d0eb3780fccf260a2e3cbe3e1c4818978ab9d9c5a55025bd6442",
+      "xml": "../boolean-consistency-v3/random3_n96_r480_s2026092701/original-property.xml",
+      "xml_sha256": "306204368ce54fa1a8e0ff9ea5a16c319e1f325d911764fb9ad10c62470d524d",
+      "net": "../boolean-consistency-v3/random3_n96_r480_s2026092701/model.net",
+      "net_sha256": "f1f4887f06f8ac5481d795f61ecf003b767ed6b735757082ddcbccfc291fb3e0",
+      "property": "../boolean-consistency-v3/random3_n96_r480_s2026092701/property.xml",
+      "property_sha256": "4b8a70184696e4c270858d03613d92b81fd3c61937c8812fed3db3e1250e16e4",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    },
+    {
+      "name": "random3_n96_r480_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 461,
+        "ratio_hundredths": 480,
+        "seed": 2026092702
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r480_s2026092702",
+      "status": "imported",
+      "places": 750,
+      "transitions": 1575,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/random3_n96_r480_s2026092702/branch-0.json",
+          "sha256": "e21fb599b9ee1df0039c5713e6f0d1a16b976bfcbff61393f1f7130f30a7a529"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/random3_n96_r480_s2026092702/source.cnf",
+      "source_cnf_sha256": "3c4349450dd91da566ec4bb100b92716f59ea80575ca6c373eb466a2ae7f9d9a",
+      "pnml": "../boolean-consistency-v3/random3_n96_r480_s2026092702/model.pnml",
+      "pnml_sha256": "e548ad39ad698824f5a89751f7d6eac76ee10a9abfe1ae6d540fcc2f43162291",
+      "xml": "../boolean-consistency-v3/random3_n96_r480_s2026092702/original-property.xml",
+      "xml_sha256": "306204368ce54fa1a8e0ff9ea5a16c319e1f325d911764fb9ad10c62470d524d",
+      "net": "../boolean-consistency-v3/random3_n96_r480_s2026092702/model.net",
+      "net_sha256": "996600003ab7d06111105370200a0ae5a3fae358fcb34005b8183ab60f17fa04",
+      "property": "../boolean-consistency-v3/random3_n96_r480_s2026092702/property.xml",
+      "property_sha256": "4b8a70184696e4c270858d03613d92b81fd3c61937c8812fed3db3e1250e16e4",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    },
+    {
+      "name": "pigeonhole_p9_h8",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 9,
+        "holes": 8
+      },
+      "variables": 72,
+      "expected_reachable": false,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p9_h8",
+      "status": "imported",
+      "places": 514,
+      "transitions": 792,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/pigeonhole_p9_h8/branch-0.json",
+          "sha256": "2e863bee0141fab21931bb234671120970721c6424829137018d8cc841d968e1"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/pigeonhole_p9_h8/source.cnf",
+      "source_cnf_sha256": "026f8b7061585ae8f0c983bb57c72935426775f31f4a04c03035c9af8377c052",
+      "pnml": "../boolean-consistency-v3/pigeonhole_p9_h8/model.pnml",
+      "pnml_sha256": "8dd63e8a156e1ba529f0db6ba530012d86a79070cfbc804881b53ac8779b6158",
+      "xml": "../boolean-consistency-v3/pigeonhole_p9_h8/original-property.xml",
+      "xml_sha256": "af174a86e0c5179831c3c1764477c2444736422bf37cbfdc4c8c19314514105e",
+      "net": "../boolean-consistency-v3/pigeonhole_p9_h8/model.net",
+      "net_sha256": "4468cb63bdc87c550a2b6ec05548057aad832b4510e5dd026de1bb8fbdb29e33",
+      "property": "../boolean-consistency-v3/pigeonhole_p9_h8/property.xml",
+      "property_sha256": "b27e07f196705e26f9b4d4d181b054185beeed5b2c966dd1eb660d9e304a9625",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    },
+    {
+      "name": "pigeonhole_p11_h10",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 11,
+        "holes": 10
+      },
+      "variables": 110,
+      "expected_reachable": false,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p11_h10",
+      "status": "imported",
+      "places": 892,
+      "transitions": 1430,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/pigeonhole_p11_h10/branch-0.json",
+          "sha256": "7dd840779cf6feb2110c609670bc88d5e7adbbb9ec48b5ad2f0583f89814b692"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/pigeonhole_p11_h10/source.cnf",
+      "source_cnf_sha256": "aeeaacd781934e712420c4c49960370f2629471df750d472e83f01112625f72f",
+      "pnml": "../boolean-consistency-v3/pigeonhole_p11_h10/model.pnml",
+      "pnml_sha256": "a3ef87ab856ef26c728a06a2ec8adc5d35a6e2a5955810fe7a28ccd75b0c4e39",
+      "xml": "../boolean-consistency-v3/pigeonhole_p11_h10/original-property.xml",
+      "xml_sha256": "eee52a3b2bfc135e3dfb5a2c599e0f261048fe516a213926a57023d3dfb1ba08",
+      "net": "../boolean-consistency-v3/pigeonhole_p11_h10/model.net",
+      "net_sha256": "7d1945e6cc1b8614d0b699dc3a233bd4d86adb95935aeeb3921ec1eea591945a",
+      "property": "../boolean-consistency-v3/pigeonhole_p11_h10/property.xml",
+      "property_sha256": "a4feeca2b4d9e6e0109975198c3c04d441ccf4f00bebb0480fe4c894fd7ff5af",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    },
+    {
+      "name": "pigeonhole_p13_h12",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 13,
+        "holes": 12
+      },
+      "variables": 156,
+      "expected_reachable": false,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p13_h12",
+      "status": "imported",
+      "places": 1418,
+      "transitions": 2340,
+      "branches": [
+        {
+          "path": "../boolean-consistency-v3/pigeonhole_p13_h12/branch-0.json",
+          "sha256": "b94a8c7e36469ce550b105b34bfa79a8fd11aa25cfd50056949dfc2051051441"
+        }
+      ],
+      "source_cnf": "../boolean-consistency-v3/pigeonhole_p13_h12/source.cnf",
+      "source_cnf_sha256": "9f9eccaaf31ca11fc957e56d81f2ee9b8b122dd8cc7de3da229335367e3d22e2",
+      "pnml": "../boolean-consistency-v3/pigeonhole_p13_h12/model.pnml",
+      "pnml_sha256": "92461917673d370f3d095d7b36fd9afe6f2f7629bfdb7995a5a5d1167798cdcd",
+      "xml": "../boolean-consistency-v3/pigeonhole_p13_h12/original-property.xml",
+      "xml_sha256": "3695b31c02b4b299b1c06f66112f26b61a9937f9a8bc63e02b91a786b50933cd",
+      "net": "../boolean-consistency-v3/pigeonhole_p13_h12/model.net",
+      "net_sha256": "7f2d4ae705c8fb35d6a1ba614b27589ebaa726e14eddf5af5fe7da5b37e40ee5",
+      "property": "../boolean-consistency-v3/pigeonhole_p13_h12/property.xml",
+      "property_sha256": "ffc899e68c0090446fa54e1b86c25ba8911dad76ebed51266cae5d1d11223460",
+      "development_source": "benchmarks/boolean-consistency-v3/manifest.json"
+    }
+  ],
+  "selection": "All queries unresolved by every method and repetition in each complete source run.",
+  "scope": "Outcome-selected development view. These are existing inputs, not additional independent benchmarks. Five-second unknowns are not established long-budget hardness or negative verdicts. Keep application and synthetic tracks separate, and retain full source denominators.",
+  "source_evidence": [
+    {
+      "corpus": "mcc-stress-development",
+      "full_denominator": 368,
+      "selected": 16,
+      "sources": {
+        "benchmarks/mcc-stress-development/manifest.json": "2f23cc2dcfb72d8cf03979830ad4cd0710751507208a8c000e5ba3a5b7b1a994",
+        "results/linux-stress-relevance-v1/environment.json": "204f329d6f5fcd9952592e304b8ecaf6b49771bc1ab343c4bb0fdb908a305083",
+        "results/linux-stress-relevance-v1/runs.jsonl": "9aa07fedbe33d71a6866b10cdf079d4bfafd116c3936cc8756ea2e7427517cb8"
+      },
+      "methods": [
+        "before",
+        "after",
+        "verifypn-default"
+      ],
+      "native_tools": {
+        "before": {
+          "engine": "portfolio-focused",
+          "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-dag-sat-v2/vass-reach",
+          "binary_sha256": "37d1b8ae2e968ae7799372ab16bd3698c4291f472362b38c01a990b3eb114fc3"
+        },
+        "after": {
+          "engine": "portfolio-focused",
+          "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-relevance-automaton-v1/vass-reach",
+          "binary_sha256": "331fd66ec3554f8d96822773ba96e81a61967f697c06bed534d66527890bc4a2"
+        }
+      },
+      "seconds": 5.0,
+      "repeat": 1,
+      "failures": [],
+      "cases": [
+        {
+          "query": "CloudOpsManagement-PT-20480by10240__RC12",
+          "family": "CloudOpsManagement",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-7b__RC01",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-7b__RC04",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-7b__RC06",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-7b__RC08",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-7b__RC10",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-7b__RC11",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-7b__RC15",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-8b__RC01",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-8b__RC02",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-8b__RC04",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-8b__RC07",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-8b__RC08",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-8b__RC11",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-8b__RC12",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "DLCflexbar-PT-8b__RC14",
+          "family": "DLCflexbar",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "after": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "corpus": "boolean-consistency-v3",
+      "full_denominator": 34,
+      "selected": 10,
+      "sources": {
+        "benchmarks/boolean-consistency-v3/manifest.json": "50b53daf62789dd363822781ecf9630641e6752d5b66ea1cf7c7c139cbe45ae0",
+        "results/linux-dag-sat-v2/environment.json": "30417c51f2d4c074b8e86c1559a31883a4a684e45d525b762d0f167763b197d1",
+        "results/linux-dag-sat-v2/runs.jsonl": "22f48c9722a5e1ecd2e8f8a5ccbb4a712a88c7baf0e707ece95aa91499cd560e"
+      },
+      "methods": [
+        "before",
+        "dag-v1",
+        "symbolic",
+        "verifypn-default",
+        "smpt-full-portable"
+      ],
+      "native_tools": {
+        "before": {
+          "engine": "portfolio-local",
+          "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-raw-negative-structural-v1/vass-reach",
+          "binary_sha256": "f52db690f446c3500b62823edab87dbb94c0b3a71e54ec8f224a881b49e311b8"
+        },
+        "dag-v1": {
+          "engine": "portfolio-symbolic",
+          "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-dag-sat-v1/vass-reach",
+          "binary_sha256": "12da8b00cc2329d216bc6c95dd12f25e7fb2ec36a4ba752c79ccd3a7fd72bddc"
+        },
+        "symbolic": {
+          "engine": "portfolio-symbolic",
+          "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-dag-sat-v2/vass-reach",
+          "binary_sha256": "37d1b8ae2e968ae7799372ab16bd3698c4291f472362b38c01a990b3eb114fc3"
+        }
+      },
+      "seconds": 5.0,
+      "repeat": 1,
+      "failures": [],
+      "cases": [
+        {
+          "query": "pigeonhole_p11_h10",
+          "family": "pigeonhole",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "pigeonhole_p13_h12",
+          "family": "pigeonhole",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "pigeonhole_p9_h8",
+          "family": "pigeonhole",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "random3_n72_r426_s2026092701",
+          "family": "random-3sat",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "random3_n72_r480_s2026092701",
+          "family": "random-3sat",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "random3_n72_r480_s2026092702",
+          "family": "random-3sat",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "random3_n96_r426_s2026092701",
+          "family": "random-3sat",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "random3_n96_r426_s2026092702",
+          "family": "random-3sat",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "random3_n96_r480_s2026092701",
+          "family": "random-3sat",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        },
+        {
+          "query": "random3_n96_r480_s2026092702",
+          "family": "random-3sat",
+          "verdicts": {
+            "before": [
+              "unknown"
+            ],
+            "dag-v1": [
+              "unknown"
+            ],
+            "symbolic": [
+              "unknown"
+            ],
+            "verifypn-default": [
+              "unknown"
+            ],
+            "smpt-full-portable": [
+              "unknown"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "generator_sha256": "fbccfdcead22e2d829f939f72e2661abcaf058b08248e679ab0643d51d3943c3",
+  "input_validation": {
+    "unique_files": 141,
+    "bytes_hashed": 264289613
+  },
+  "portability": "Paths reference sibling frozen corpora; transfer the source corpora with this view."
+}

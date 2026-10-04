@@ -1,0 +1,9 @@
+{
+  "scope": "Exact duplicate-transition ablation on diagnostic reduced nets, not original verdicts.",
+  "script_sha256": "d08f971340141cf6f738c69424968b609ec0a7f7360a4b0846fe5f30eba5864e",
+  "binary_sha256": "6af74b4e2b0a381ebf5a3b7ef21d96d8a6a79cac28ae27bb586ccf235257f267",
+  "inputs": {
+    "research/cloud-reduction-diagnostics-v1/branch-0.reduced.json": "11cebeda357b65fc5ff5c2f483e27c90a09c8da67d01ed1d0921e0ae2235735a",
+    "research/cloud-reduction-diagnostics-v1/branch-1.reduced.json": "b4488c6d2acafae9a6bb401d486d5fb726f6fa8d7e4e8e28fffe784d00847277"
+  }
+}

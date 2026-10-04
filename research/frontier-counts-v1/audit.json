@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "rows": 10,
+  "coverage": {
+    "candidate": {
+      "unknown": 5
+    },
+    "baseline": {
+      "unknown": 5
+    }
+  },
+  "expired": 1,
+  "memory_limit_exceeded": 0,
+  "plan_sha256": "f63449655717c591ebc7aa0822cb1eb1b0d9051bb17f98fd835338838a906d28",
+  "rows_sha256": "ef131936bb0e0c38f67a56d0001a44522cea35e3f45dbf4c1b27bef107a38688",
+  "audit_sha256": "e075746964ab0b1e827456308fa336ed38622bfecebc0af60713a840a53afd28"
+}

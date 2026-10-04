@@ -1,0 +1,30 @@
+{
+  "scope": "Complete 48-property JoinFreeModules development family; no outcome filtering. One-repeat mechanism pilot, not independent evaluation.",
+  "corpus": "benchmarks/mcc-stress-development",
+  "filter": "^JoinFreeModules-",
+  "methods": {
+    "before": [
+      "portfolio-focused",
+      "linux-solver-dag-sat-v2"
+    ],
+    "after": [
+      "portfolio-focused",
+      "linux-solver-relevance-automaton-v1"
+    ],
+    "sliced-search": [
+      "relaxed-focused",
+      "linux-solver-relevance-automaton-v1"
+    ],
+    "verifypn-default": "unrestricted default"
+  },
+  "seconds": 5,
+  "repeats": 1,
+  "cpus": [
+    8
+  ],
+  "memory_mib": 2048,
+  "perf": true,
+  "order_seed": 20261003,
+  "validation": "Separately bounded original-input checking, native positives independently replayed",
+  "expected_rows": 192
+}

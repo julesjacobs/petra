@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-10-04T07:32:39.065089+00:00",
+  "source_manifest_sha256": "47dcd4e5c860b7f9365181525dea9f9efe2e541718c253e27b843ebc29c5d40b",
+  "script_sha256": "5d8a41c8136ad5c355c250f894008b1ae86ec8e48ef1aad026de17e73c530662",
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)\nbinary: rustc\ncommit-hash: 8bab26f4f68e0e26f0bb7960be334d5b520ea452\ncommit-date: 2026-07-14\nhost: x86_64-unknown-linux-gnu\nrelease: 1.97.1\nLLVM version: 22.1.6\n",
+  "cargo": "cargo 1.97.1 (c980f4866 2026-06-30)\n",
+  "build": {
+    "command": [
+      "cargo",
+      "+1.97.1",
+      "build",
+      "--locked",
+      "--offline",
+      "--release",
+      "--bin",
+      "vass-reach"
+    ],
+    "exit_code": 0,
+    "log_sha256": "5cfd9ef0c023ae4c8741ec6ac5fd56d1efc118e0e3b24cade6ea70d56325c45c"
+  },
+  "tests": {
+    "command": [
+      "cargo",
+      "+1.97.1",
+      "test",
+      "--locked",
+      "--offline",
+      "--release"
+    ],
+    "exit_code": 101,
+    "log_sha256": "156af98872cfabe993f351307011731f04648d400f50dae85fdfae0782e716e3"
+  },
+  "exit_code": 101,
+  "finished_utc": "2026-10-04T07:33:42.613513+00:00"
+}

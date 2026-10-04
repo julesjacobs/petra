@@ -1,0 +1,1141 @@
+{
+  "status": "passed",
+  "stage": "repeat1",
+  "plan_sha256": "817b00db65f6a034f3e118c243be43bd2fbc52f992d4221c87e443ea0318b710",
+  "terminal_sha256": "3c2aec94688de3c5becba9cf3ea06196ea6268d79ed6458d7475e1c9eb98483e",
+  "execution_sha256": "81e1639986d7843e45ae0d8cb362601e63893eaeb370a5dc19dd2bb1a6006147",
+  "rows": 736,
+  "issues": [],
+  "accepted_definitive_rows": 727,
+  "host": {
+    "samples": 680,
+    "preflight_within_thresholds": false,
+    "measurement_within_thresholds": false,
+    "idle_host_objective_met": false,
+    "contention_observed": true,
+    "explicit_contention_permission": true,
+    "load1_range": [
+      10.279296875,
+      26.02392578125
+    ],
+    "cpu_percent_range": [
+      18.32495124618492,
+      89.0188581341353
+    ],
+    "note": "Host-wide observations; no exclusive-CPU guarantee. Active limit allows one CPU for this campaign."
+  },
+  "scope": "Contended full development coverage pilot; no speed claim",
+  "reports": {
+    "pooled": {
+      "views": {
+        "all_properties": {
+          "denominator": 368,
+          "methods": {
+            "candidate": {
+              "solved": 364,
+              "par2_mean_seconds": 0.2926106567319948,
+              "solver_wall_total_seconds": 85.28463296848349,
+              "validation_wall_total_seconds": 158.82753087673336,
+              "verdicts": {
+                "reachable": 230,
+                "unreachable": 134,
+                "unknown": 4
+              },
+              "failure_flags": {
+                "timeout": 3,
+                "nonzero_exit": 1
+              }
+            },
+            "baseline": {
+              "solved": 363,
+              "par2_mean_seconds": 0.5591648031923282,
+              "solver_wall_total_seconds": 179.40564778260887,
+              "validation_wall_total_seconds": 171.25547891645692,
+              "verdicts": {
+                "reachable": 230,
+                "unreachable": 133,
+                "unknown": 5
+              },
+              "failure_flags": {
+                "timeout": 4,
+                "nonzero_exit": 1
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 366,
+          "methods": {
+            "candidate": {
+              "solved": 362,
+              "par2_mean_seconds": 0.29407683837029047,
+              "solver_wall_total_seconds": 85.2360341346357,
+              "validation_wall_total_seconds": 158.686335418839,
+              "verdicts": {
+                "reachable": 229,
+                "unreachable": 133,
+                "unknown": 4
+              },
+              "failure_flags": {
+                "timeout": 3,
+                "nonzero_exit": 1
+              }
+            },
+            "baseline": {
+              "solved": 361,
+              "par2_mean_seconds": 0.5620850986766736,
+              "solver_wall_total_seconds": 179.3561463234946,
+              "validation_wall_total_seconds": 171.11627395823598,
+              "verdicts": {
+                "reachable": 229,
+                "unreachable": 132,
+                "unknown": 5
+              },
+              "failure_flags": {
+                "timeout": 4,
+                "nonzero_exit": 1
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC00"
+          ],
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC07"
+          ]
+        ],
+        [
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC01"
+          ],
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC14"
+          ]
+        ]
+      ]
+    },
+    "existing176": {
+      "views": {
+        "all_properties": {
+          "denominator": 176,
+          "methods": {
+            "candidate": {
+              "solved": 175,
+              "par2_mean_seconds": 0.2819796283372191,
+              "solver_wall_total_seconds": 44.642616170458496,
+              "validation_wall_total_seconds": 133.5576109602116,
+              "verdicts": {
+                "reachable": 115,
+                "unreachable": 60,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            },
+            "baseline": {
+              "solved": 175,
+              "par2_mean_seconds": 0.4405170566209232,
+              "solver_wall_total_seconds": 72.54876659018919,
+              "validation_wall_total_seconds": 145.58546408638358,
+              "verdicts": {
+                "reachable": 115,
+                "unreachable": 60,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 175,
+          "methods": {
+            "candidate": {
+              "solved": 174,
+              "par2_mean_seconds": 0.283464441927416,
+              "solver_wall_total_seconds": 44.62047892040573,
+              "validation_wall_total_seconds": 133.4904375022743,
+              "verdicts": {
+                "reachable": 115,
+                "unreachable": 59,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            },
+            "baseline": {
+              "solved": 174,
+              "par2_mean_seconds": 0.44290492051547126,
+              "solver_wall_total_seconds": 72.52612571511418,
+              "validation_wall_total_seconds": 145.5176396702882,
+              "verdicts": {
+                "reachable": 115,
+                "unreachable": 59,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC00"
+          ],
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC07"
+          ]
+        ]
+      ]
+    },
+    "expansion192": {
+      "views": {
+        "all_properties": {
+          "denominator": 192,
+          "methods": {
+            "candidate": {
+              "solved": 189,
+              "par2_mean_seconds": 0.30235576609387255,
+              "solver_wall_total_seconds": 40.642016798025,
+              "validation_wall_total_seconds": 25.269919916521758,
+              "verdicts": {
+                "reachable": 115,
+                "unreachable": 74,
+                "unknown": 3
+              },
+              "failure_flags": {
+                "timeout": 2
+              }
+            },
+            "baseline": {
+              "solved": 188,
+              "par2_mean_seconds": 0.6679252375494494,
+              "solver_wall_total_seconds": 106.85688119241968,
+              "validation_wall_total_seconds": 25.67001483007334,
+              "verdicts": {
+                "reachable": 115,
+                "unreachable": 73,
+                "unknown": 4
+              },
+              "failure_flags": {
+                "timeout": 3,
+                "nonzero_exit": 1
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 191,
+          "methods": {
+            "candidate": {
+              "solved": 188,
+              "par2_mean_seconds": 0.3038002382525053,
+              "solver_wall_total_seconds": 40.61555521422997,
+              "validation_wall_total_seconds": 25.195897916564718,
+              "verdicts": {
+                "unreachable": 74,
+                "reachable": 114,
+                "unknown": 3
+              },
+              "failure_flags": {
+                "timeout": 2
+              }
+            },
+            "baseline": {
+              "solved": 187,
+              "par2_mean_seconds": 0.6712815969919113,
+              "solver_wall_total_seconds": 106.83002060838044,
+              "validation_wall_total_seconds": 25.59863428794779,
+              "verdicts": {
+                "unreachable": 73,
+                "reachable": 114,
+                "unknown": 4
+              },
+              "failure_flags": {
+                "timeout": 3,
+                "nonzero_exit": 1
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC01"
+          ],
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC14"
+          ]
+        ]
+      ]
+    },
+    "family:ASLink": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 29,
+              "par2_mean_seconds": 1.3374558099239948,
+              "solver_wall_total_seconds": 25.3882956255693,
+              "validation_wall_total_seconds": 4.672039499972016,
+              "verdicts": {
+                "unreachable": 13,
+                "reachable": 16,
+                "unknown": 3
+              },
+              "failure_flags": {
+                "timeout": 2
+              }
+            },
+            "baseline": {
+              "solved": 29,
+              "par2_mean_seconds": 1.9500618697347818,
+              "solver_wall_total_seconds": 45.98898545652628,
+              "validation_wall_total_seconds": 5.417183334007859,
+              "verdicts": {
+                "unreachable": 13,
+                "reachable": 16,
+                "unknown": 3
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 2
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 29,
+              "par2_mean_seconds": 1.3374558099239948,
+              "solver_wall_total_seconds": 25.3882956255693,
+              "validation_wall_total_seconds": 4.672039499972016,
+              "verdicts": {
+                "unreachable": 13,
+                "reachable": 16,
+                "unknown": 3
+              },
+              "failure_flags": {
+                "timeout": 2
+              }
+            },
+            "baseline": {
+              "solved": 29,
+              "par2_mean_seconds": 1.9500618697347818,
+              "solver_wall_total_seconds": 45.98898545652628,
+              "validation_wall_total_seconds": 5.417183334007859,
+              "verdicts": {
+                "unreachable": 13,
+                "reachable": 16,
+                "unknown": 3
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 2
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:ClientsAndServers": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.05621469928883016,
+              "solver_wall_total_seconds": 1.7988703772425652,
+              "validation_wall_total_seconds": 2.920478250598535,
+              "verdicts": {
+                "reachable": 23,
+                "unreachable": 9
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.43055180199007737,
+              "solver_wall_total_seconds": 13.777657663682476,
+              "validation_wall_total_seconds": 3.140078870113939,
+              "verdicts": {
+                "reachable": 23,
+                "unreachable": 9
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.05621469928883016,
+              "solver_wall_total_seconds": 1.7988703772425652,
+              "validation_wall_total_seconds": 2.920478250598535,
+              "verdicts": {
+                "reachable": 23,
+                "unreachable": 9
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.43055180199007737,
+              "solver_wall_total_seconds": 13.777657663682476,
+              "validation_wall_total_seconds": 3.140078870113939,
+              "verdicts": {
+                "reachable": 23,
+                "unreachable": 9
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:CloudReconfiguration": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.256627316462982,
+              "solver_wall_total_seconds": 8.212074126815423,
+              "validation_wall_total_seconds": 18.6870897046756,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.3046573307510698,
+              "solver_wall_total_seconds": 9.749034584034234,
+              "validation_wall_total_seconds": 29.904865585500374,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.256627316462982,
+              "solver_wall_total_seconds": 8.212074126815423,
+              "validation_wall_total_seconds": 18.6870897046756,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.3046573307510698,
+              "solver_wall_total_seconds": 9.749034584034234,
+              "validation_wall_total_seconds": 29.904865585500374,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:DNAwalker": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.12654864326032111,
+              "solver_wall_total_seconds": 4.049556584330276,
+              "validation_wall_total_seconds": 3.6230697103310376,
+              "verdicts": {
+                "unreachable": 20,
+                "reachable": 12
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.1884002565711853,
+              "solver_wall_total_seconds": 6.02880821027793,
+              "validation_wall_total_seconds": 3.6784063756931573,
+              "verdicts": {
+                "unreachable": 20,
+                "reachable": 12
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 31,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 0.12991675271862937,
+              "solver_wall_total_seconds": 4.027419334277511,
+              "validation_wall_total_seconds": 3.5558962523937225,
+              "verdicts": {
+                "unreachable": 19,
+                "reachable": 12
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 31,
+              "par2_mean_seconds": 0.1937473333936425,
+              "solver_wall_total_seconds": 6.0061673352029175,
+              "validation_wall_total_seconds": 3.6105819595977664,
+              "verdicts": {
+                "unreachable": 19,
+                "reachable": 12
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC00"
+          ],
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC07"
+          ]
+        ]
+      ]
+    },
+    "family:HouseConstruction": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.20889963160880143,
+              "solver_wall_total_seconds": 6.684788211481646,
+              "validation_wall_total_seconds": 3.3345597092993557,
+              "verdicts": {
+                "reachable": 27,
+                "unreachable": 5
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.33343011583201587,
+              "solver_wall_total_seconds": 10.669763706624508,
+              "validation_wall_total_seconds": 3.310334875481203,
+              "verdicts": {
+                "reachable": 27,
+                "unreachable": 5
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.20889963160880143,
+              "solver_wall_total_seconds": 6.684788211481646,
+              "validation_wall_total_seconds": 3.3345597092993557,
+              "verdicts": {
+                "reachable": 27,
+                "unreachable": 5
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.33343011583201587,
+              "solver_wall_total_seconds": 10.669763706624508,
+              "validation_wall_total_seconds": 3.310334875481203,
+              "verdicts": {
+                "reachable": 27,
+                "unreachable": 5
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:IBM319": {
+      "views": {
+        "all_properties": {
+          "denominator": 16,
+          "methods": {
+            "candidate": {
+              "solved": 16,
+              "par2_mean_seconds": 0.029981760439113714,
+              "solver_wall_total_seconds": 0.4797081670258194,
+              "validation_wall_total_seconds": 1.2434740848839283,
+              "verdicts": {
+                "unreachable": 10,
+                "reachable": 6
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 16,
+              "par2_mean_seconds": 0.3799961720214924,
+              "solver_wall_total_seconds": 6.079938752343878,
+              "validation_wall_total_seconds": 1.4562329577747732,
+              "verdicts": {
+                "unreachable": 10,
+                "reachable": 6
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 16,
+          "methods": {
+            "candidate": {
+              "solved": 16,
+              "par2_mean_seconds": 0.029981760439113714,
+              "solver_wall_total_seconds": 0.4797081670258194,
+              "validation_wall_total_seconds": 1.2434740848839283,
+              "verdicts": {
+                "unreachable": 10,
+                "reachable": 6
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 16,
+              "par2_mean_seconds": 0.3799961720214924,
+              "solver_wall_total_seconds": 6.079938752343878,
+              "validation_wall_total_seconds": 1.4562329577747732,
+              "verdicts": {
+                "unreachable": 10,
+                "reachable": 6
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:MAPK": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.103411019568739,
+              "solver_wall_total_seconds": 3.309152626199648,
+              "validation_wall_total_seconds": 3.243665250018239,
+              "verdicts": {
+                "reachable": 29,
+                "unreachable": 3
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.3633861340713338,
+              "solver_wall_total_seconds": 11.628356290282682,
+              "validation_wall_total_seconds": 3.2335097489412874,
+              "verdicts": {
+                "reachable": 29,
+                "unreachable": 3
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 31,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 0.10589325943240716,
+              "solver_wall_total_seconds": 3.282691042404622,
+              "validation_wall_total_seconds": 3.169643250061199,
+              "verdicts": {
+                "reachable": 28,
+                "unreachable": 3
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 31,
+              "par2_mean_seconds": 0.37424179697559484,
+              "solver_wall_total_seconds": 11.60149570624344,
+              "validation_wall_total_seconds": 3.1621292068157345,
+              "verdicts": {
+                "reachable": 28,
+                "unreachable": 3
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC01"
+          ],
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC14"
+          ]
+        ]
+      ]
+    },
+    "family:NQueens": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.033146523375762627,
+              "solver_wall_total_seconds": 1.060688748024404,
+              "validation_wall_total_seconds": 2.964844496222213,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 20
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.04109291652275715,
+              "solver_wall_total_seconds": 1.3149733287282288,
+              "validation_wall_total_seconds": 2.9982751682400703,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 20
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.033146523375762627,
+              "solver_wall_total_seconds": 1.060688748024404,
+              "validation_wall_total_seconds": 2.964844496222213,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 20
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.04109291652275715,
+              "solver_wall_total_seconds": 1.3149733287282288,
+              "validation_wall_total_seconds": 2.9982751682400703,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 20
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:RERS17pb114": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 1.0425713203512714,
+              "solver_wall_total_seconds": 28.37648383434862,
+              "validation_wall_total_seconds": 104.98664587712847,
+              "verdicts": {
+                "reachable": 31,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            },
+            "baseline": {
+              "solved": 31,
+              "par2_mean_seconds": 1.0001530130248284,
+              "solver_wall_total_seconds": 27.022661041701213,
+              "validation_wall_total_seconds": 105.25700341374613,
+              "verdicts": {
+                "reachable": 31,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 1.0425713203512714,
+              "solver_wall_total_seconds": 28.37648383434862,
+              "validation_wall_total_seconds": 104.98664587712847,
+              "verdicts": {
+                "reachable": 31,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "nonzero_exit": 1,
+                "timeout": 1
+              }
+            },
+            "baseline": {
+              "solved": 31,
+              "par2_mean_seconds": 1.0001530130248284,
+              "solver_wall_total_seconds": 27.022661041701213,
+              "validation_wall_total_seconds": 105.25700341374613,
+              "verdicts": {
+                "reachable": 31,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:Railroad": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.07500691279710736,
+              "solver_wall_total_seconds": 2.4002212095074356,
+              "validation_wall_total_seconds": 8.1343327104114,
+              "verdicts": {
+                "unreachable": 24,
+                "reachable": 8
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 31,
+              "par2_mean_seconds": 0.8890285871457309,
+              "solver_wall_total_seconds": 23.477144746575505,
+              "validation_wall_total_seconds": 7.5706328332889825,
+              "verdicts": {
+                "unreachable": 23,
+                "reachable": 8,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.07500691279710736,
+              "solver_wall_total_seconds": 2.4002212095074356,
+              "validation_wall_total_seconds": 8.1343327104114,
+              "verdicts": {
+                "unreachable": 24,
+                "reachable": 8
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 31,
+              "par2_mean_seconds": 0.8890285871457309,
+              "solver_wall_total_seconds": 23.477144746575505,
+              "validation_wall_total_seconds": 7.5706328332889825,
+              "verdicts": {
+                "unreachable": 23,
+                "reachable": 8,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              }
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "Railroad-PT-100__RC09"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:RefineWMG": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.08140532685501967,
+              "solver_wall_total_seconds": 2.6049704593606293,
+              "validation_wall_total_seconds": 2.6066157098393887,
+              "verdicts": {
+                "reachable": 32
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.08339606904337415,
+              "solver_wall_total_seconds": 2.668674209387973,
+              "validation_wall_total_seconds": 2.585434168810025,
+              "verdicts": {
+                "reachable": 32
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.08140532685501967,
+              "solver_wall_total_seconds": 2.6049704593606293,
+              "validation_wall_total_seconds": 2.6066157098393887,
+              "verdicts": {
+                "reachable": 32
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.08339606904337415,
+              "solver_wall_total_seconds": 2.668674209387973,
+              "validation_wall_total_seconds": 2.585434168810025,
+              "verdicts": {
+                "reachable": 32
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:TriangularGrid": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.028744468705554027,
+              "solver_wall_total_seconds": 0.9198229985777289,
+              "validation_wall_total_seconds": 2.4107158733531833,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.6562390560138738,
+              "solver_wall_total_seconds": 20.99964979244396,
+              "validation_wall_total_seconds": 2.703521584859118,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.028744468705554027,
+              "solver_wall_total_seconds": 0.9198229985777289,
+              "validation_wall_total_seconds": 2.4107158733531833,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {}
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.6562390560138738,
+              "solver_wall_total_seconds": 20.99964979244396,
+              "validation_wall_total_seconds": 2.703521584859118,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {}
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    }
+  },
+  "audit_scope": "Saved-evidence audit; independent certificate checking occurred in bounded workers during measurement."
+}

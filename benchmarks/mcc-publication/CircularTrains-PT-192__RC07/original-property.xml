@@ -1,0 +1,29 @@
+<property-set><property>
+    <id>CircularTrains-PT-192-ReachabilityCardinality-07</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <disjunction>
+            <integer-le>
+              <tokens-count>
+                <place>F27</place>
+              </tokens-count>
+              <tokens-count>
+                <place>Section_154</place>
+              </tokens-count>
+            </integer-le>
+            <integer-le>
+              <tokens-count>
+                <place>Section_83</place>
+              </tokens-count>
+              <tokens-count>
+                <place>F13</place>
+              </tokens-count>
+            </integer-le>
+          </disjunction>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

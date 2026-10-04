@@ -1,0 +1,21 @@
+<property-set><property>
+    <id>Echo-PT-d02r15-ReachabilityCardinality-09</id>
+    <description>Automatically generated</description>
+    <formula>
+      <exists-path>
+        <finally>
+          <negation>
+            <integer-le>
+              <tokens-count>
+                <place>p514</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p550</place>
+              </tokens-count>
+            </integer-le>
+          </negation>
+        </finally>
+      </exists-path>
+    </formula>
+  </property>
+  </property-set>

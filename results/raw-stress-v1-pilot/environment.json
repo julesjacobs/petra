@@ -1,0 +1,49 @@
+{
+  "corpus": "/Users/julesjacobs/git/git/pvass/benchmarks/raw-stress-v1",
+  "collection_sha256": "9d54f1b1712cf583c15f7f808859445d384a7dc9bc3b7f343cabd782d1f3ab78",
+  "source_manifest_sha256": "48d46e1bff9538e92a692b7fa85145a0e51f7ca9a77aa834c3c7eb8f5a0d7a40",
+  "source_selection": "collection-selection",
+  "selected_sources": [
+    "counter_d31_s16_racy",
+    "counter_d31_s16_locked",
+    "counter_d63_s32_racy",
+    "counter_d63_s32_locked",
+    "counter_d127_s64_racy",
+    "counter_d127_s64_locked",
+    "replicas_n8_racy",
+    "replicas_n8_locked",
+    "replicas_n10_racy",
+    "replicas_n10_locked",
+    "replicas_n12_racy",
+    "replicas_n12_locked",
+    "monitor_d4_c64",
+    "monitor_d4_c128",
+    "monitor_d4_c256",
+    "monitor_d5_c128",
+    "monitor_d5_c256",
+    "monitor_d5_c512"
+  ],
+  "binary_source": "/Users/julesjacobs/git/git/pvass/results/solver-local-v1/vass-reach",
+  "binary_sha256": "d599e09eaa6ff9483c226f748945091b23c6755b71c71fa2758e86e405642905",
+  "runner_sha256": {
+    "raw_stress_worker.py": "90be2d0871d6c490c55b972eb8af57dd796dacfc4dcc817c87a14ed99cb345cd",
+    "benchmark_stress_raw.py": "19beae3f5882916f076da3f7936edfce9d98d80d2e8de8e72235cb3c1125abb7",
+    "raw_z3.py": "ba16c188953868e5864b7820ca3ea3b365bf17ca2f56192b939383b12e9c5b4a",
+    "process_runner.py": "07644ec3f88ab2ae1d1e4f0071a3d3f754d13176124828d01e1f4d4cb207b71d"
+  },
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "python_executable": "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+  "z3_package_version": "5.1.0.0",
+  "methods": [
+    "raw-bfs",
+    "raw-search",
+    "raw-potential",
+    "raw-z3"
+  ],
+  "repeat": 1,
+  "seconds": 10.0,
+  "solver_fraction": 0.8,
+  "max_states": 200000,
+  "memory_bytes": 2147483648,
+  "started_unix": 1790526658.3614771
+}

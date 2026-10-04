@@ -1,0 +1,547 @@
+{
+  "format": "raw-hardness-requalification-v2",
+  "status": "registered-not-started",
+  "workspace": "/Users/julesjacobs/git/git/pvass",
+  "scope": "Full two-cohort development requalification after exact control sharing, typed proof streaming and sparse duplicate-node keys. Same28source slots/24unique programs;60s including independent checking and sampled2GiB. No competitive timing claim.",
+  "python": {
+    "path": "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+    "resolved": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "sha256": "4f00ea2ad53d62437a6a3946b73c73614a97e8accdc5b96dc095ea1a0d9c6a56"
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "distributions": {
+    "z3-solver": {
+      "version": "5.1.0.0",
+      "files": 44,
+      "tree_sha256": "f94153abb3b5ebe7e940f5582e9f0d4df368215f2418210dd068fddfe7f2d8b5"
+    },
+    "psutil": {
+      "version": "7.2.2",
+      "files": 18,
+      "tree_sha256": "6615d071457bdd104411750aa838154d44208f0582a8ece869713eb703f67297"
+    }
+  },
+  "configurations": {
+    "streamed-shared": {
+      "binary": "results/solver-raw-proof-streaming-v1/vass-reach",
+      "binary_sha256": "a17aa24f92269b80672960d4b73adcdbc1f82e49fb930c6113c06da33e692c6e",
+      "archive": "results/solver-raw-proof-streaming-v1/source.tar.gz",
+      "archive_sha256": "8c8e8860317580f4f11d44ebd66f063222e67bfff942349efbafac071da4a740"
+    }
+  },
+  "raw_dispatch": "Frozen streamed/shared solver: raw-negative directly; raw-portfolio retains its quarter-time negative schedule and positive continuation.",
+  "limits": {
+    "seconds": 60,
+    "memory_mib": 2048,
+    "repeat": 1,
+    "solver_fraction": 0.8,
+    "max_states": 100000000,
+    "negative_verifier_work_limit": 10000000000
+  },
+  "cohorts": {
+    "diverse": {
+      "corpus": "benchmarks/raw-diverse-automaton-v1",
+      "sources": [
+        {
+          "name": "write_skew_n3_racy",
+          "source_sha256": "aad4ae6d91169cc5bbed18c9114514d3d4ad581877461ee06689d419ee0b2811",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/write_skew_n3_racy/work/out/write_skew_n3_racy/raw-query.json",
+          "query_sha256": "74696db31b5dc280ff0ec0628cad5a1760a0fcc67a16fdd8c980b6f2c63e5c8e"
+        },
+        {
+          "name": "write_skew_n3_pairlocked",
+          "source_sha256": "d872839d836b9ddc32769f28ab06e9f94d8c0fe81a5701f69f6550e5a34cf654",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/write_skew_n3_pairlocked/work/out/write_skew_n3_pairlocked/raw-query.json",
+          "query_sha256": "177cee90950e3e6974503d03a0490beee92cb141a24d6c355a03f354fe7843f4"
+        },
+        {
+          "name": "write_skew_n4_racy",
+          "source_sha256": "19e9b35cde306d422fd2d4d3c7c03becb332a2ae6df19d43e0456098c04c9b00",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/write_skew_n4_racy/work/out/write_skew_n4_racy/raw-query.json",
+          "query_sha256": "e01a3eb01e7d0658cea0804f3f389999f8033ed881cde3c8d7a7c6549a43581e"
+        },
+        {
+          "name": "write_skew_n4_pairlocked",
+          "source_sha256": "d4779df1dbc128c641fb21877b4f445ddf034dacb4f6363c5d8ec1576c813a8c",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/write_skew_n4_pairlocked/work/out/write_skew_n4_pairlocked/raw-query.json",
+          "query_sha256": "37ed3edd4e9bc733ce812e0c0604754263f8219ca3f4dc10919880a523513c2a"
+        },
+        {
+          "name": "write_skew_n5_racy",
+          "source_sha256": "961921174617524c1f0493f329027239a0635ccda239e6697b2d727cda45edef",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/write_skew_n5_racy/work/out/write_skew_n5_racy/raw-query.json",
+          "query_sha256": "3a24a1e4ce5b84a5553f713d79c540b6bf75c929e64a7385ac02b8b14f9426bb"
+        },
+        {
+          "name": "write_skew_n5_pairlocked",
+          "source_sha256": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/write_skew_n5_pairlocked/work/out/write_skew_n5_pairlocked/raw-query.json",
+          "query_sha256": "91085a85d1bde977e29ed9577fbf45984f01068a169e5bff548dd1313cbc1a91"
+        },
+        {
+          "name": "optimistic_v3_aba",
+          "source_sha256": "c659fdd2c1e093ff6f90c4765936a41abc18a9d0fc2ff5b6b2a7c45098afe7b6",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/optimistic_v3_aba/work/out/optimistic_v3_aba/raw-query.json",
+          "query_sha256": "eac4939c4666113978675ce4740867cf50839f6db1600cfcad7c0f1c29f66e95"
+        },
+        {
+          "name": "optimistic_v3_validated",
+          "source_sha256": "7e79dd6574f9fdaaf21b77eeeca50081d700954fb3e1f38ed40bf4c299687223",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/optimistic_v3_validated/work/out/optimistic_v3_validated/raw-query.json",
+          "query_sha256": "935bf8322f738d4072875f6a459c19c35bfbc28f8a302961429b326bb41db8b2"
+        },
+        {
+          "name": "optimistic_v5_aba",
+          "source_sha256": "92e30b20aa8b19b3ccf79c3d66679ff5f4d269f32e5f44d269a6f5c88548dfeb",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/optimistic_v5_aba/work/out/optimistic_v5_aba/raw-query.json",
+          "query_sha256": "9131c33b67e94ca062b667efdd31b022585be1aaffb1a2155ff196fd88ed19a1"
+        },
+        {
+          "name": "optimistic_v5_validated",
+          "source_sha256": "a42fb500762c4bb76fb37094a1f961e7e8c4c2c2d83abf1260d4229a469f5bb9",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/optimistic_v5_validated/work/out/optimistic_v5_validated/raw-query.json",
+          "query_sha256": "17b70132b790c557bc1fa53b5c5e82a70d5c4ef77fb538c4d4400aaca5d0e497"
+        },
+        {
+          "name": "optimistic_v9_aba",
+          "source_sha256": "35173b2f9c26d254f28b4a164edef6b3bf551989db1690ae8eb0552dc7e506fc",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/optimistic_v9_aba/work/out/optimistic_v9_aba/raw-query.json",
+          "query_sha256": "b9de372640989a8c669fc17622bcfa8048dd5d66ea9903e2178c72c8aca9515f"
+        },
+        {
+          "name": "optimistic_v9_validated",
+          "source_sha256": "e52b081487640ca4da7e668dcac1f4ed58f40178719e030eb63c425198dd47fc",
+          "role": "new-mechanism-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-automaton-v1/optimistic_v9_validated/work/out/optimistic_v9_validated/raw-query.json",
+          "query_sha256": "948e1a8d4f1bac2bff4b00530677168d23be55adeac5d9efb5edc313990eb1df"
+        }
+      ],
+      "selected_slots": 12,
+      "exported_slots": 12
+    },
+    "scaling": {
+      "corpus": "benchmarks/raw-diverse-scaling-automaton-v1",
+      "sources": [
+        {
+          "name": "write_skew_n5_racy",
+          "source_sha256": "961921174617524c1f0493f329027239a0635ccda239e6697b2d727cda45edef",
+          "role": "existing-development-bridge",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n5_racy/work/out/write_skew_n5_racy/raw-query.json",
+          "query_sha256": "3a24a1e4ce5b84a5553f713d79c540b6bf75c929e64a7385ac02b8b14f9426bb"
+        },
+        {
+          "name": "write_skew_n5_pairlocked",
+          "source_sha256": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+          "role": "existing-development-bridge",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n5_pairlocked/work/out/write_skew_n5_pairlocked/raw-query.json",
+          "query_sha256": "91085a85d1bde977e29ed9577fbf45984f01068a169e5bff548dd1313cbc1a91"
+        },
+        {
+          "name": "write_skew_n6_racy",
+          "source_sha256": "0a19260024195a42dec528a6c26910468d50bffcb46d03dbab60fde52862a85d",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n6_racy/work/out/write_skew_n6_racy/raw-query.json",
+          "query_sha256": "cee850827cc3868956963d494e0417c1c8a646494429b23d16780a79deb2b103"
+        },
+        {
+          "name": "write_skew_n6_pairlocked",
+          "source_sha256": "ab468ed9360a2e53d4e026c72108a2b661e223511c2254dcccc232b87c985991",
+          "role": "parameter-scaling-development-case",
+          "export_status": "timeout"
+        },
+        {
+          "name": "optimistic_v9_aba",
+          "source_sha256": "35173b2f9c26d254f28b4a164edef6b3bf551989db1690ae8eb0552dc7e506fc",
+          "role": "existing-development-bridge",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v9_aba/work/out/optimistic_v9_aba/raw-query.json",
+          "query_sha256": "b9de372640989a8c669fc17622bcfa8048dd5d66ea9903e2178c72c8aca9515f"
+        },
+        {
+          "name": "optimistic_v9_validated",
+          "source_sha256": "e52b081487640ca4da7e668dcac1f4ed58f40178719e030eb63c425198dd47fc",
+          "role": "existing-development-bridge",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v9_validated/work/out/optimistic_v9_validated/raw-query.json",
+          "query_sha256": "948e1a8d4f1bac2bff4b00530677168d23be55adeac5d9efb5edc313990eb1df"
+        },
+        {
+          "name": "optimistic_v13_aba",
+          "source_sha256": "8e84dce396843206698f1375d8e8b7c4bb6911a0f8ba1e6972f1c43605a67ebe",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v13_aba/work/out/optimistic_v13_aba/raw-query.json",
+          "query_sha256": "7e813265cca7a647ae818982ab5ba20959991bf74cde65e05ce3915333867526"
+        },
+        {
+          "name": "optimistic_v13_validated",
+          "source_sha256": "322e37c8a177478bae0e8e98c056b1f302370a22b9a50b8c575970b7da6b52f8",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v13_validated/work/out/optimistic_v13_validated/raw-query.json",
+          "query_sha256": "269437e10aed9f6c4673f1f953f9f1fefb72680a63cce41c048251cec9510f36"
+        },
+        {
+          "name": "optimistic_v17_aba",
+          "source_sha256": "597a1c6d0ec94381ff37c8a6edf057040d8df922cc3316a439c39659b04ed4ac",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v17_aba/work/out/optimistic_v17_aba/raw-query.json",
+          "query_sha256": "7275e0aa06cb6510fec177882fa984550a61ff134e632d714e70b1c3f0bc8024"
+        },
+        {
+          "name": "optimistic_v17_validated",
+          "source_sha256": "b613ceba186ccec7522c98a86f7fe5c9d55981ec719eca65c8625fe91f147694",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v17_validated/work/out/optimistic_v17_validated/raw-query.json",
+          "query_sha256": "609daf20e187e233bfda07ed6f0e6e6ff59ec164ae3ec6fbc1839e6f85a730e9"
+        },
+        {
+          "name": "optimistic_v25_aba",
+          "source_sha256": "d4cbc5e9da8624856a07f3524d9cf6acabaf0e4b9201414ea5a1b6d00224f27e",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v25_aba/work/out/optimistic_v25_aba/raw-query.json",
+          "query_sha256": "fa4923de57e6230cd419f1642665f4b7fa97a0a27aec5063fba1e9a0fe7c62d6"
+        },
+        {
+          "name": "optimistic_v25_validated",
+          "source_sha256": "7af55db9e3ec9d1295adec027aa9e36284a7b46e3e1e842f64df48b1c7d6199e",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v25_validated/work/out/optimistic_v25_validated/raw-query.json",
+          "query_sha256": "dbceea75d85a4135d16d0a2eab46b80003febc6c3a0ebd622dbc6476b80e95e4"
+        },
+        {
+          "name": "optimistic_v33_aba",
+          "source_sha256": "fe401f534a7b87c8d16293ea645bfb1212fa3e9af70f3795bde4f1015575630c",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v33_aba/work/out/optimistic_v33_aba/raw-query.json",
+          "query_sha256": "bc44e6bd3548422eebd776eaa0ad9d991d49f47d0bce203382450a8708a8a3ae"
+        },
+        {
+          "name": "optimistic_v33_validated",
+          "source_sha256": "795e2f363fc55b5e86fb8bb9bb7ed5402bec9c55ba6938fbbdb9c5bbe0736545",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v33_validated/work/out/optimistic_v33_validated/raw-query.json",
+          "query_sha256": "ad674b11a4d523d4fd0f783b131bc4af90fceb6fffd87566858c2783bd0074ae"
+        },
+        {
+          "name": "optimistic_v49_aba",
+          "source_sha256": "1b094337f6678d9f7923a6b919846103805c297b906490cc86038db95cd471f2",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v49_aba/work/out/optimistic_v49_aba/raw-query.json",
+          "query_sha256": "1b8a4444fce9e7988a51b8766078e38ecabfa9fa97a43a03902bc39fcb2fb899"
+        },
+        {
+          "name": "optimistic_v49_validated",
+          "source_sha256": "750f2af62d27e2a60abe2bb885eec03a8214566983fe1462b7811a7c91647752",
+          "role": "parameter-scaling-development-case",
+          "export_status": "exported-unvalidated",
+          "query": "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v49_validated/work/out/optimistic_v49_validated/raw-query.json",
+          "query_sha256": "dada873199c9f35392ee6199aa6e0e4b33bb45d8250f2794866558a48fd8edd6"
+        }
+      ],
+      "selected_slots": 16,
+      "exported_slots": 15
+    }
+  },
+  "denominators": {
+    "source_slots": 28,
+    "unique_sources": 24,
+    "exported_slots": 27,
+    "unique_exported_sources": 23,
+    "bridges": [
+      {
+        "source_sha256": "961921174617524c1f0493f329027239a0635ccda239e6697b2d727cda45edef",
+        "names": [
+          "write_skew_n5_racy",
+          "write_skew_n5_racy"
+        ]
+      },
+      {
+        "source_sha256": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+        "names": [
+          "write_skew_n5_pairlocked",
+          "write_skew_n5_pairlocked"
+        ]
+      },
+      {
+        "source_sha256": "35173b2f9c26d254f28b4a164edef6b3bf551989db1690ae8eb0552dc7e506fc",
+        "names": [
+          "optimistic_v9_aba",
+          "optimistic_v9_aba"
+        ]
+      },
+      {
+        "source_sha256": "e52b081487640ca4da7e668dcac1f4ed58f40178719e030eb63c425198dd47fc",
+        "names": [
+          "optimistic_v9_validated",
+          "optimistic_v9_validated"
+        ]
+      }
+    ],
+    "unavailable": [
+      {
+        "cohort": "scaling",
+        "name": "write_skew_n6_pairlocked",
+        "status": "timeout"
+      }
+    ],
+    "total_rows": 112,
+    "expected_solver_invocations": 108,
+    "expected_not_run_rows": 4
+  },
+  "timing_policy": "Sequential four-run local pilot, two repetitions per configuration and cohort. Five-second outer wall deadline includes interpreter startup, input hashing/parsing/schema validation, solver startup/parsing/search, certificate checks and teardown. Solver gets 80% of time remaining after input validation. Frozen-input preparation and export are outside timing. Sampled process-tree RSS 2GiB; portable sampled limits are not cgroup isolation. No local build/solver workload may overlap; unrelated OS activity can still affect timing.",
+  "checking_policy": "Accept positive only after original-net replay and Z3 connected integral automaton-flow nonmembership. Accept negative only after independent raw invariant/schema checks. Checker/solver limits, invalid or unsupported certificates and killed workers stay non-definitive. Export failure stays not-run and in selected-source denominator.",
+  "semantic_limits": [
+    "Completed markings outside serial automaton Parikh image are not ordinary point-reachability targets accepted directly by SMPT/VerifyPN.",
+    "raw-z3 is a project-specific script, not SMPT; current harness does not support raw-z3 on automaton targets.",
+    "Source expectations are arguments, not independently verified source-to-net equivalence or reference answers.",
+    "Existing saved raw results are historical evidence; no new solver result is claimed.",
+    "Source-identity bridge deduplication is mandatory for aggregate unique-program counts. Export artifact hashes identify exact raw JSON bytes, without semantic normalization."
+  ],
+  "hardness_policy": "Report per cohort and per unique source; stable solved means checked definitive in both repetitions, mixed/unknown means budget-limited under this configuration, never proven intrinsically hard. Report export failure separately. Preserve all raw rows, checker statuses, conflicting verdicts and instability. Requalify larger validated optimistic cases before calling them currently hard.",
+  "runs": [
+    {
+      "cohort": "diverse",
+      "configuration": "streamed-shared",
+      "output": "results/raw-hardness-requalification-v2-diverse",
+      "expected_rows": 24,
+      "command": [
+        "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+        "/Users/julesjacobs/git/git/pvass/scripts/benchmark_stress_raw.py",
+        "--corpus",
+        "/Users/julesjacobs/git/git/pvass/benchmarks/raw-diverse-automaton-v1",
+        "--output",
+        "/Users/julesjacobs/git/git/pvass/results/raw-hardness-requalification-v2-diverse",
+        "--binary",
+        "/Users/julesjacobs/git/git/pvass/results/solver-raw-proof-streaming-v1/vass-reach",
+        "--methods",
+        "raw-negative",
+        "raw-portfolio",
+        "--all-sources",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "2048",
+        "--repeat",
+        "1",
+        "--solver-fraction",
+        "0.8",
+        "--max-states",
+        "100000000"
+      ]
+    },
+    {
+      "cohort": "scaling",
+      "configuration": "streamed-shared",
+      "output": "results/raw-hardness-requalification-v2-scaling",
+      "expected_rows": 32,
+      "command": [
+        "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+        "/Users/julesjacobs/git/git/pvass/scripts/benchmark_stress_raw.py",
+        "--corpus",
+        "/Users/julesjacobs/git/git/pvass/benchmarks/raw-diverse-scaling-automaton-v1",
+        "--output",
+        "/Users/julesjacobs/git/git/pvass/results/raw-hardness-requalification-v2-scaling",
+        "--binary",
+        "/Users/julesjacobs/git/git/pvass/results/solver-raw-proof-streaming-v1/vass-reach",
+        "--methods",
+        "raw-negative",
+        "raw-portfolio",
+        "--all-sources",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "2048",
+        "--repeat",
+        "1",
+        "--solver-fraction",
+        "0.8",
+        "--max-states",
+        "100000000"
+      ]
+    }
+  ],
+  "file_sha256": {
+    "benchmarks/diverse-ser-programs-v1/manifest.json": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea",
+    "benchmarks/diverse-ser-programs-v1/optimistic_v3_aba.ser": "c659fdd2c1e093ff6f90c4765936a41abc18a9d0fc2ff5b6b2a7c45098afe7b6",
+    "benchmarks/diverse-ser-programs-v1/optimistic_v3_validated.ser": "7e79dd6574f9fdaaf21b77eeeca50081d700954fb3e1f38ed40bf4c299687223",
+    "benchmarks/diverse-ser-programs-v1/optimistic_v5_aba.ser": "92e30b20aa8b19b3ccf79c3d66679ff5f4d269f32e5f44d269a6f5c88548dfeb",
+    "benchmarks/diverse-ser-programs-v1/optimistic_v5_validated.ser": "a42fb500762c4bb76fb37094a1f961e7e8c4c2c2d83abf1260d4229a469f5bb9",
+    "benchmarks/diverse-ser-programs-v1/optimistic_v9_aba.ser": "35173b2f9c26d254f28b4a164edef6b3bf551989db1690ae8eb0552dc7e506fc",
+    "benchmarks/diverse-ser-programs-v1/optimistic_v9_validated.ser": "e52b081487640ca4da7e668dcac1f4ed58f40178719e030eb63c425198dd47fc",
+    "benchmarks/diverse-ser-programs-v1/write_skew_n3_pairlocked.ser": "d872839d836b9ddc32769f28ab06e9f94d8c0fe81a5701f69f6550e5a34cf654",
+    "benchmarks/diverse-ser-programs-v1/write_skew_n3_racy.ser": "aad4ae6d91169cc5bbed18c9114514d3d4ad581877461ee06689d419ee0b2811",
+    "benchmarks/diverse-ser-programs-v1/write_skew_n4_pairlocked.ser": "d4779df1dbc128c641fb21877b4f445ddf034dacb4f6363c5d8ec1576c813a8c",
+    "benchmarks/diverse-ser-programs-v1/write_skew_n4_racy.ser": "19e9b35cde306d422fd2d4d3c7c03becb332a2ae6df19d43e0456098c04c9b00",
+    "benchmarks/diverse-ser-programs-v1/write_skew_n5_pairlocked.ser": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+    "benchmarks/diverse-ser-programs-v1/write_skew_n5_racy.ser": "961921174617524c1f0493f329027239a0635ccda239e6697b2d727cda45edef",
+    "benchmarks/diverse-ser-scaling-v1/manifest.json": "9bdd71d5bcb810d3b38611723512f2e5c01769ebc21bf95ec7464c67d88552df",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v13_aba.ser": "8e84dce396843206698f1375d8e8b7c4bb6911a0f8ba1e6972f1c43605a67ebe",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v13_validated.ser": "322e37c8a177478bae0e8e98c056b1f302370a22b9a50b8c575970b7da6b52f8",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v17_aba.ser": "597a1c6d0ec94381ff37c8a6edf057040d8df922cc3316a439c39659b04ed4ac",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v17_validated.ser": "b613ceba186ccec7522c98a86f7fe5c9d55981ec719eca65c8625fe91f147694",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v25_aba.ser": "d4cbc5e9da8624856a07f3524d9cf6acabaf0e4b9201414ea5a1b6d00224f27e",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v25_validated.ser": "7af55db9e3ec9d1295adec027aa9e36284a7b46e3e1e842f64df48b1c7d6199e",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v33_aba.ser": "fe401f534a7b87c8d16293ea645bfb1212fa3e9af70f3795bde4f1015575630c",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v33_validated.ser": "795e2f363fc55b5e86fb8bb9bb7ed5402bec9c55ba6938fbbdb9c5bbe0736545",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v49_aba.ser": "1b094337f6678d9f7923a6b919846103805c297b906490cc86038db95cd471f2",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v49_validated.ser": "750f2af62d27e2a60abe2bb885eec03a8214566983fe1462b7811a7c91647752",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v9_aba.ser": "35173b2f9c26d254f28b4a164edef6b3bf551989db1690ae8eb0552dc7e506fc",
+    "benchmarks/diverse-ser-scaling-v1/optimistic_v9_validated.ser": "e52b081487640ca4da7e668dcac1f4ed58f40178719e030eb63c425198dd47fc",
+    "benchmarks/diverse-ser-scaling-v1/write_skew_n5_pairlocked.ser": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+    "benchmarks/diverse-ser-scaling-v1/write_skew_n5_racy.ser": "961921174617524c1f0493f329027239a0635ccda239e6697b2d727cda45edef",
+    "benchmarks/diverse-ser-scaling-v1/write_skew_n6_pairlocked.ser": "ab468ed9360a2e53d4e026c72108a2b661e223511c2254dcccc232b87c985991",
+    "benchmarks/diverse-ser-scaling-v1/write_skew_n6_racy.ser": "0a19260024195a42dec528a6c26910468d50bffcb46d03dbab60fde52862a85d",
+    "benchmarks/raw-diverse-automaton-v1/collection.json": "69380c4bbd222ab28412872380529c10e691d51263514dca5e6d3a942af212ed",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v3_aba/frontend.log": "8d46f9868132304ff99a317fd3fbeb26490be6e18f2a259a9598a9861953617d",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v3_aba/optimistic_v3_aba.ser": "c659fdd2c1e093ff6f90c4765936a41abc18a9d0fc2ff5b6b2a7c45098afe7b6",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v3_aba/work/out/optimistic_v3_aba/raw-query.json": "eac4939c4666113978675ce4740867cf50839f6db1600cfcad7c0f1c29f66e95",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v3_validated/frontend.log": "b6e24af2e8aa61f5565c15b02ff87299130bd20b100c43b23b159cd6a752e433",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v3_validated/optimistic_v3_validated.ser": "7e79dd6574f9fdaaf21b77eeeca50081d700954fb3e1f38ed40bf4c299687223",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v3_validated/work/out/optimistic_v3_validated/raw-query.json": "935bf8322f738d4072875f6a459c19c35bfbc28f8a302961429b326bb41db8b2",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v5_aba/frontend.log": "1b15a5deae724e5c77cf5a51b71c4cdcc7ebdbd281cf1ae6a0db8640fb978830",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v5_aba/optimistic_v5_aba.ser": "92e30b20aa8b19b3ccf79c3d66679ff5f4d269f32e5f44d269a6f5c88548dfeb",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v5_aba/work/out/optimistic_v5_aba/raw-query.json": "9131c33b67e94ca062b667efdd31b022585be1aaffb1a2155ff196fd88ed19a1",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v5_validated/frontend.log": "3347e8db31733180ff6809748238388a893b43403a44345a44849dd6b85a3ad8",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v5_validated/optimistic_v5_validated.ser": "a42fb500762c4bb76fb37094a1f961e7e8c4c2c2d83abf1260d4229a469f5bb9",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v5_validated/work/out/optimistic_v5_validated/raw-query.json": "17b70132b790c557bc1fa53b5c5e82a70d5c4ef77fb538c4d4400aaca5d0e497",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v9_aba/frontend.log": "36b48babe0399a63a245392aef83ee00c255ad91266587abd9d47e9c26fcaa39",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v9_aba/optimistic_v9_aba.ser": "35173b2f9c26d254f28b4a164edef6b3bf551989db1690ae8eb0552dc7e506fc",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v9_aba/work/out/optimistic_v9_aba/raw-query.json": "b9de372640989a8c669fc17622bcfa8048dd5d66ea9903e2178c72c8aca9515f",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v9_validated/frontend.log": "4a5d5fcfd78f67032049d16e2881208561e693327ac02f2914b752c5a19ce5ce",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v9_validated/optimistic_v9_validated.ser": "e52b081487640ca4da7e668dcac1f4ed58f40178719e030eb63c425198dd47fc",
+    "benchmarks/raw-diverse-automaton-v1/optimistic_v9_validated/work/out/optimistic_v9_validated/raw-query.json": "948e1a8d4f1bac2bff4b00530677168d23be55adeac5d9efb5edc313990eb1df",
+    "benchmarks/raw-diverse-automaton-v1/source-manifest.json": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n3_pairlocked/frontend.log": "f3a98528987cf1e99bd19390c96e71202040e34978f6de09941449ce42d942d3",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n3_pairlocked/work/out/write_skew_n3_pairlocked/raw-query.json": "177cee90950e3e6974503d03a0490beee92cb141a24d6c355a03f354fe7843f4",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n3_pairlocked/write_skew_n3_pairlocked.ser": "d872839d836b9ddc32769f28ab06e9f94d8c0fe81a5701f69f6550e5a34cf654",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n3_racy/frontend.log": "2c6260a5ec327af13cc28795e7a701fef434172a204dd5fb4732b4857c5fcba0",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n3_racy/work/out/write_skew_n3_racy/raw-query.json": "74696db31b5dc280ff0ec0628cad5a1760a0fcc67a16fdd8c980b6f2c63e5c8e",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n3_racy/write_skew_n3_racy.ser": "aad4ae6d91169cc5bbed18c9114514d3d4ad581877461ee06689d419ee0b2811",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n4_pairlocked/frontend.log": "e01bce1aa845867c3b4f2a2a6341327981646b532dfd76b8a6c87ec96964bd9b",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n4_pairlocked/work/out/write_skew_n4_pairlocked/raw-query.json": "37ed3edd4e9bc733ce812e0c0604754263f8219ca3f4dc10919880a523513c2a",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n4_pairlocked/write_skew_n4_pairlocked.ser": "d4779df1dbc128c641fb21877b4f445ddf034dacb4f6363c5d8ec1576c813a8c",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n4_racy/frontend.log": "bc5d96b9fb259701892a63f4c7c2ac81dd2f0db20f216e0a5235c94794e13538",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n4_racy/work/out/write_skew_n4_racy/raw-query.json": "e01a3eb01e7d0658cea0804f3f389999f8033ed881cde3c8d7a7c6549a43581e",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n4_racy/write_skew_n4_racy.ser": "19e9b35cde306d422fd2d4d3c7c03becb332a2ae6df19d43e0456098c04c9b00",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n5_pairlocked/frontend.log": "86d01dc34edc1104de88a44ada0494ae31f64cc06fdb0363731bce38bc64544c",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n5_pairlocked/work/out/write_skew_n5_pairlocked/raw-query.json": "91085a85d1bde977e29ed9577fbf45984f01068a169e5bff548dd1313cbc1a91",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n5_pairlocked/write_skew_n5_pairlocked.ser": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n5_racy/frontend.log": "df16b39d32dfc126541212cd732a704bb2a96d77534a02817dab62407b1bef29",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n5_racy/work/out/write_skew_n5_racy/raw-query.json": "3a24a1e4ce5b84a5553f713d79c540b6bf75c929e64a7385ac02b8b14f9426bb",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n5_racy/write_skew_n5_racy.ser": "961921174617524c1f0493f329027239a0635ccda239e6697b2d727cda45edef",
+    "benchmarks/raw-diverse-scaling-automaton-v1/collection.json": "0daca7836a776458e3d94fd78093616ae7bf7ea1792a874d5f098e8272c0a93a",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v13_aba/frontend.log": "80658fb8f81bbfccc4b46290f15527cf80e43d246e453bb17d12fd394b29dbe0",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v13_aba/optimistic_v13_aba.ser": "8e84dce396843206698f1375d8e8b7c4bb6911a0f8ba1e6972f1c43605a67ebe",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v13_aba/work/out/optimistic_v13_aba/raw-query.json": "7e813265cca7a647ae818982ab5ba20959991bf74cde65e05ce3915333867526",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v13_validated/frontend.log": "6a3911a026ebdd40440693054a9049b26526f4b58d6a2ea6b6e795f10c1a50c9",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v13_validated/optimistic_v13_validated.ser": "322e37c8a177478bae0e8e98c056b1f302370a22b9a50b8c575970b7da6b52f8",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v13_validated/work/out/optimistic_v13_validated/raw-query.json": "269437e10aed9f6c4673f1f953f9f1fefb72680a63cce41c048251cec9510f36",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v17_aba/frontend.log": "8b5497133875b27f83fa936c9c04b492a1dbe9ba98b169f71015dcff992108c1",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v17_aba/optimistic_v17_aba.ser": "597a1c6d0ec94381ff37c8a6edf057040d8df922cc3316a439c39659b04ed4ac",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v17_aba/work/out/optimistic_v17_aba/raw-query.json": "7275e0aa06cb6510fec177882fa984550a61ff134e632d714e70b1c3f0bc8024",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v17_validated/frontend.log": "5013f311ee7db34a8b16b1f50496471723206785696ca7592a51eb1af7c41ed5",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v17_validated/optimistic_v17_validated.ser": "b613ceba186ccec7522c98a86f7fe5c9d55981ec719eca65c8625fe91f147694",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v17_validated/work/out/optimistic_v17_validated/raw-query.json": "609daf20e187e233bfda07ed6f0e6e6ff59ec164ae3ec6fbc1839e6f85a730e9",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v25_aba/frontend.log": "62a02abf64b9089889b9053046b24f8cb42f13bc88fd05a01b9851235ee3ba43",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v25_aba/optimistic_v25_aba.ser": "d4cbc5e9da8624856a07f3524d9cf6acabaf0e4b9201414ea5a1b6d00224f27e",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v25_aba/work/out/optimistic_v25_aba/raw-query.json": "fa4923de57e6230cd419f1642665f4b7fa97a0a27aec5063fba1e9a0fe7c62d6",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v25_validated/frontend.log": "5c72aab01bfa46d938f85e2ed3d0906b8d88ded67ebc18c7bd67a4b0a7cbdf00",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v25_validated/optimistic_v25_validated.ser": "7af55db9e3ec9d1295adec027aa9e36284a7b46e3e1e842f64df48b1c7d6199e",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v25_validated/work/out/optimistic_v25_validated/raw-query.json": "dbceea75d85a4135d16d0a2eab46b80003febc6c3a0ebd622dbc6476b80e95e4",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v33_aba/frontend.log": "91843070d354f9070b22fb875831ab5445f6c306bad4f963d443f8b7877f3a8f",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v33_aba/optimistic_v33_aba.ser": "fe401f534a7b87c8d16293ea645bfb1212fa3e9af70f3795bde4f1015575630c",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v33_aba/work/out/optimistic_v33_aba/raw-query.json": "bc44e6bd3548422eebd776eaa0ad9d991d49f47d0bce203382450a8708a8a3ae",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v33_validated/frontend.log": "86955ce7fa9ac6f5e81d9756971ee0762bddda6482a0be2518c73651d8caf609",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v33_validated/optimistic_v33_validated.ser": "795e2f363fc55b5e86fb8bb9bb7ed5402bec9c55ba6938fbbdb9c5bbe0736545",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v33_validated/work/out/optimistic_v33_validated/raw-query.json": "ad674b11a4d523d4fd0f783b131bc4af90fceb6fffd87566858c2783bd0074ae",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v49_aba/frontend.log": "782f1f31325aa8ef32a875e4d1a0f001f4fafaec67d5da8d9a1cd5d9966c79d9",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v49_aba/optimistic_v49_aba.ser": "1b094337f6678d9f7923a6b919846103805c297b906490cc86038db95cd471f2",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v49_aba/work/out/optimistic_v49_aba/raw-query.json": "1b8a4444fce9e7988a51b8766078e38ecabfa9fa97a43a03902bc39fcb2fb899",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v49_validated/frontend.log": "5a190785c9e711309570eead7f3b0f1d10b0d5a80f513afbfaf5fe6e1d51c1b0",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v49_validated/optimistic_v49_validated.ser": "750f2af62d27e2a60abe2bb885eec03a8214566983fe1462b7811a7c91647752",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v49_validated/work/out/optimistic_v49_validated/raw-query.json": "dada873199c9f35392ee6199aa6e0e4b33bb45d8250f2794866558a48fd8edd6",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v9_aba/frontend.log": "0e60a7bcbfc6974c116bfc5649f7247441cbdc4f639aae60ef32f65ab96b88fb",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v9_aba/optimistic_v9_aba.ser": "35173b2f9c26d254f28b4a164edef6b3bf551989db1690ae8eb0552dc7e506fc",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v9_aba/work/out/optimistic_v9_aba/raw-query.json": "b9de372640989a8c669fc17622bcfa8048dd5d66ea9903e2178c72c8aca9515f",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v9_validated/frontend.log": "b69c08f45b37060ee335c67bc391140ae4583a7ce3423c08685b8f4072ba5aed",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v9_validated/optimistic_v9_validated.ser": "e52b081487640ca4da7e668dcac1f4ed58f40178719e030eb63c425198dd47fc",
+    "benchmarks/raw-diverse-scaling-automaton-v1/optimistic_v9_validated/work/out/optimistic_v9_validated/raw-query.json": "948e1a8d4f1bac2bff4b00530677168d23be55adeac5d9efb5edc313990eb1df",
+    "benchmarks/raw-diverse-scaling-automaton-v1/source-manifest.json": "9bdd71d5bcb810d3b38611723512f2e5c01769ebc21bf95ec7464c67d88552df",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n5_pairlocked/frontend.log": "1178d6038cd922b7bbcb381e4d4b8db8bff330eee88e24b01ba71ce5256aa4dd",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n5_pairlocked/work/out/write_skew_n5_pairlocked/raw-query.json": "91085a85d1bde977e29ed9577fbf45984f01068a169e5bff548dd1313cbc1a91",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n5_pairlocked/write_skew_n5_pairlocked.ser": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n5_racy/frontend.log": "c8f37fbb67c58d137b6c3aeef77b8d0797c1dcd0ba8818655d8677489404c639",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n5_racy/work/out/write_skew_n5_racy/raw-query.json": "3a24a1e4ce5b84a5553f713d79c540b6bf75c929e64a7385ac02b8b14f9426bb",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n5_racy/write_skew_n5_racy.ser": "961921174617524c1f0493f329027239a0635ccda239e6697b2d727cda45edef",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n6_pairlocked/frontend.log": "a00b729d7b763d991863f55eca2ae59c85b0b8bffe816feb5b4ae039249450f0",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n6_pairlocked/write_skew_n6_pairlocked.ser": "ab468ed9360a2e53d4e026c72108a2b661e223511c2254dcccc232b87c985991",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n6_racy/frontend.log": "8b916c41e64c3aadcf5248d849ed33ac3f33c95f44e2123affb25a9c47d87a78",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n6_racy/work/out/write_skew_n6_racy/raw-query.json": "cee850827cc3868956963d494e0417c1c8a646494429b23d16780a79deb2b103",
+    "benchmarks/raw-diverse-scaling-automaton-v1/write_skew_n6_racy/write_skew_n6_racy.ser": "0a19260024195a42dec528a6c26910468d50bffcb46d03dbab60fde52862a85d",
+    "research/raw-checker-end-to-end-v1-verification.json": "581a6b4155c177a4db608a8136931c376afbef4a15fb609194f5b8fc280b3002",
+    "research/raw-checker-sparse-identity-tests.log": "67e025bdabed78985010e58cbefb0421e7e1524fdbe6ce93fad82714d564684a",
+    "research/raw-hardness-requalification-v1-launch.py": "dbcd6e83dbc9c06190d7b70a875e4fea4d8afb0d25d6c7830060758ee44e02d3",
+    "research/raw-hardness-requalification-v2-launch.py": "f9761c7f131de641a68fde65f5b1416f63960f725e9984be009a2918d4063ace",
+    "research/register-raw-hardness-requalification-v2.py": "3b671dc158b08c521c47c0d1f6e395a76c882a9c7ec4bd323aa24a5c48b14d09",
+    "results/solver-component-game-v1/SHA256SUMS": "c0dc7e0f0e77dc92564ee77d74dcf7a704d63fb010c098c84d0590cf4eb69d53",
+    "results/solver-component-game-v1/source.tar.gz": "1117fe41777ad68bd943df0d240c05b54ce4c013689dafefa5b9033c0bf504f0",
+    "results/solver-component-game-v1/validation.json": "7a6e98f2824fe2ed0b908111e6b74f6817e92a49f4e29d2b7c6d1ed4e46c1aac",
+    "results/solver-component-game-v1/vass-reach": "fa24c7ee15a01cfe83d9ab16a16e2944eb418630307f2be46b9cac4b8078c174",
+    "results/solver-raw-proof-streaming-v1/provenance.json": "977ad30a050be4e7fbbb987fda6bc446780d947057f89bf4f36ccd356bd2b20b",
+    "results/solver-raw-proof-streaming-v1/source.tar.gz": "8c8e8860317580f4f11d44ebd66f063222e67bfff942349efbafac071da4a740",
+    "results/solver-raw-proof-streaming-v1/vass-reach": "a17aa24f92269b80672960d4b73adcdbc1f82e49fb930c6113c06da33e692c6e",
+    "results/solver-repeated-search-v1/provenance.json": "83864b5049470873dcf4a47243140f052e03d34c34939f34ec225255f1373058",
+    "results/solver-repeated-search-v1/source-files-sha256.json": "912bee56bb75132abaad306428f9f25d50869417b71fa002c4e83b87ff8c821a",
+    "results/solver-repeated-search-v1/source.tar.gz": "a10d053df3e97338e80be8b88608119747cdf89bb97b010bda3de596109fc651",
+    "results/solver-repeated-search-v1/vass-reach": "1d7776ad8984faac623d994119678e1379457842e31eff5b53336964d0eb8c60",
+    "scripts/benchmark_stress_raw.py": "dd7042602abcc142c99c6437dbc9a3723d421a0385cee0bf7bca1800d7f90fc1",
+    "scripts/process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "scripts/raw_automaton_check.py": "5c623527114235bb85cec70cc14102f269d24fb5261783dfc1c6c7f037ce24b9",
+    "scripts/raw_invariant_check.py": "b4cec15ad4f72626082e4dea8423246a349efd0d5412c5a385eeb0a61136c1e5",
+    "scripts/raw_schema_check.py": "03b3c69baac745b73333aeb1d22ae1634182716b88db25931b73bf7b84fef8a5",
+    "scripts/raw_stress_worker.py": "416f8c3649805330e39374640f78b187cac511da1cc44728368980b56882e630",
+    "scripts/raw_z3.py": "ba16c188953868e5864b7820ca3ea3b365bf17ca2f56192b939383b12e9c5b4a",
+    "scripts/test_raw_invariant_check.py": "725050703ca350e936147c3378a02e28381b2342bb074423f1892c3f434d3814"
+  },
+  "methods": [
+    "raw-negative",
+    "raw-portfolio"
+  ],
+  "checker_change": "Dense controller tuples for duplicate detection replaced by exact sparse position/value tuples after unchanged full u64/dimension validation; certificate/schema/transition/affine checks retained. Frozen runner snapshots record changed checker bytes.",
+  "expected_rows": 56
+}

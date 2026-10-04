@@ -1,0 +1,17 @@
+<property-set><property>
+    <id>CANConstruction-PT-040-ReachabilityCardinality-07</id>
+    <description>Automatically generated</description>
+    <formula>
+      <exists-path>
+        <finally>
+          <integer-le>
+            <integer-constant>2</integer-constant>
+            <tokens-count>
+              <place>Node3requestsent12</place>
+            </tokens-count>
+          </integer-le>
+        </finally>
+      </exists-path>
+    </formula>
+  </property>
+  </property-set>

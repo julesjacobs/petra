@@ -1,0 +1,976 @@
+# Pro coverage review — rendered DOM transcription
+
+Source: https://chatgpt.com/c/6ac195da-cc4c-83eb-a123-e76ea2d22af5
+
+Completed response; math retained in browser accessibility notation. Reviewer experiments are not independently reproduced project results.
+
+- heading "ChatGPT said:" [level=4]
+  - heading "Recommendation" [level=2]
+  - paragraph:
+    - strong: Implement an incremental one-copy walk with additive composition of its reachable endpoints.
+    - text: Do not make the next change another large arithmetic stage, a more elaborate global search engine, or a symbolic-backend replacement.
+  - paragraph: "I tested this mechanism on the supplied models. The result is stronger than a plausible implementation suggestion:"
+  - paragraph:
+    - strong: All 26 RERS survivors now have independently replayed witnesses or counterexample traces.
+    - text: A matched, uniform-repetition-only prototype found 25; adding endpoint composition found all 26. For the separating property,
+    - strong: RERS-5 RC12, uniform fivefold repetition is provably incapable of satisfying the target
+    - text: ", whereas combining two different one-copy executions succeeds."
+  - paragraph:
+    - text: This is
+    - strong: not
+    - text: a new five-second original-input coverage measurement. The experiment used a small C++ diagnostic on Linux, prepared inputs rather than timed PNML/XML parsing, and external original-input replay. I did not compile the Rust crate or reproduce your arm64 whole-cohort comparison. The frozen
+    - strong: 337/368
+    - text: result remains the established portfolio result.
+  - paragraph: "The executable diagnostic, all traces, independent validation, regression tests, and a detailed Rust integration plan are included here:"
+  - paragraph:
+    - button "Download copy-mixture-consultation.zip":
+      - text: Download the consultation artifact
+    - text: ·
+    - button "Open preview of IMPLEMENTATION.md":
+      - text: Rust implementation plan
+    - text: ·
+    - button "Open preview of original-validation.json":
+      - text: Independent original-input validation
+  - heading "1. What the evidence actually says" [level=2]
+  - paragraph: I kept three bodies of evidence separate.
+  - region "Scrollable table":
+    - table:
+      - rowgroup:
+        - row "Evidence Result What it establishes":
+          - columnheader "Evidence"
+          - columnheader "Result"
+          - columnheader "What it establishes"
+      - rowgroup:
+        - row "Supplied frozen whole-cohort experiment 337/368 versus 323/368; fourteen gains, zero losses Your established improvement; the fourteen gains are DNAwalker":
+          - cell "Supplied frozen whole-cohort experiment"
+          - cell "337/368 versus 323/368; fourteen gains, zero losses"
+          - cell "Your established improvement; the fourteen gains are DNAwalker"
+        - row "Supplied later direct-search diagnostics 61 saved rows; 17 distinct properties with checked positive answers Individual search methods already find 16 RERS witnesses and one ASLink witness; this is not portfolio coverage":
+          - cell "Supplied later direct-search diagnostics"
+          - cell "61 saved rows; 17 distinct properties with checked positive answers"
+          - cell "Individual search methods already find 16 RERS witnesses and one ASLink witness; this is not portfolio coverage"
+        - 'row "Newly executed mechanism experiment Uniform lifting: 25/26 RERS; endpoint mixtures: 26/26 All 51 proposed traces pass independent original-net and complete-property checks; native deadline performance remains unmeasured"':
+          - cell "Newly executed mechanism experiment"
+          - 'cell "Uniform lifting: 25/26 RERS; endpoint mixtures: 26/26"'
+          - cell "All 51 proposed traces pass independent original-net and complete-property checks; native deadline performance remains unmeasured"
+  - button "Copy table":
+  - button "Expand table":
+  - paragraph:
+    - text: The saved direct-search file contains
+    - strong: 31 walk-guided runs and 30 relaxed-batched runs
+    - text: ", with respectively fourteen and nine checked positives. Their union is seventeen, not twenty-three. That distinction matters when assessing what this proposal adds beyond root’s budget work."
+  - paragraph: The new validation did not merely trust the canonical example target. It checked original PNML hashes and transition identity, translated each requested property’s complete branch, replayed every original weighted input/output arc, evaluated the complete original XML formula with EF/AG polarity, and independently replayed each constituent one-copy word.
+  - paragraph:
+    - text: The source locations supporting the diagnosis are collected in the
+    - button "Open preview of SOURCE_MAP.md":
+      - text: source and evidence map
+    - text: .
+  - heading "The most important consequence" [level=3]
+  - paragraph:
+    - strong: "None of the 26 RERS survivors requires an unreachability proof: every one has a reachable target branch."
+    - text: For an AG property, that reachable branch is a counterexample to the invariant.
+  - paragraph: This substantially changes the immediate engineering question. A new negative-only technique cannot directly solve these 26 obligations. The opportunity is to expose and construct their witnesses cheaply enough, while preserving the successful negative machinery for the rest of the cohort.
+  - heading "2. The dominant limits are different across families" [level=2]
+  - 'heading "RERS: an unnecessarily difficult population search, plus expensive heuristic evaluation" [level=3]'
+  - paragraph:
+    - text: Both RERS instances have
+    - strong: 1,446 places and 151,085 transitions
+    - text: ". Their transition structures are identical; their initial markings differ by population multiplicity:"
+  - math:
+    - generic: m
+    - generic: "0"
+    - generic: =
+    - generic: "5"
+    - generic: u
+    - generic: or
+    - generic: m
+    - generic: "0"
+    - generic: =
+    - generic: "9"
+    - generic: u
+    - generic: ","
+  - text: m
+  - generic: "0"
+  - text: =
+  - text: 5u
+  - generic: or
+  - text: m
+  - generic: "0"
+  - text: =
+  - generic: 9u,
+  - paragraph:
+    - text: where
+    - math:
+      - generic: u
+    - generic: u
+    - text: has eighteen tokens.
+  - paragraph:
+    - text: More importantly, I found and independently checked
+    - strong: eighteen disjoint conserved block sums
+    - text: against every original transition. Each block contains exactly five or nine tokens initially, and exactly one in the divided marking
+    - math:
+      - generic: u
+    - generic: u
+    - text: . Thus searching from
+    - math:
+      - generic: u
+    - generic: u
+    - text: explores a one-token-per-block system while retaining the full interacting transition structure.
+  - paragraph:
+    - text: This is not an assumption that the eighteen blocks execute independently. Transitions can synchronize them. The useful decomposition is into copies of the
+    - strong: whole eighteen-token initial marking
+    - text: ", not into isolated local processes."
+  - paragraph:
+    - text: The current expensive path is visible in the source and logs. In relaxed.rs::Graph::plan, each heuristic evaluation initializes action-sized arrays and performs work over the relaxed action graph. On these models, that graph has 151,085 actions. The captured RC12 profile spent approximately
+    - strong: 1.890 seconds
+    - text: in relaxed-batched while expanding just
+    - strong: 47 focused and 96 full-search nodes
+    - text: . Its full invocation exceeded the original-property deadline and was correctly rejected.
+  - paragraph: That is a genuine per-node-cost problem, not just an unfortunate budget split. Allocating more time to the same graph-wide heuristic can help, but it does not remove that cost.
+  - paragraph:
+    - text: "By contrast, walk.rs already has much of the right machinery: sparse effects, exact missing-guard counts, an incremental enabled set, and incremental target guidance."
+    - strong: Reuse that machinery on the smaller population and retain useful endpoints instead of discarding every prefix that does not individually meet the whole target.
+  - 'heading "ASLink: a different search regime" [level=3]'
+  - paragraph:
+    - text: "The two ASLink models are much smaller in transition count:"
+    - strong: 3,040 and 5,405 transitions
+    - text: . Each starts with one token, so the initial-marking divisor is one. The proposed copy arm therefore does not apply at the initial state.
+  - paragraph:
+    - text: Their remaining direct walks reach the configured
+    - strong: two-million-step cap
+    - text: ", rather than uniformly exhausting five seconds. The targets include signed comparisons and absence requirements, not just “accumulate enough tokens somewhere.” The saved results do not establish whether the three still-unwitnessed ASLink properties are reachable."
+  - paragraph: Consequently, I would not justify the proposed implementation by promising ASLink gains. Nor would I bundle an ASLink-specific search redesign into this change. Root’s allocation work and a later focused investigation of these smaller models are separate questions.
+  - 'heading "Railroad: concentrated guard-update cost, but no copy decomposition" [level=3]'
+  - paragraph:
+    - text: Railroad also has initial divisor one. It has 10,506 transitions, with a single place appearing in
+    - strong: 10,200 transition presets
+    - text: . This makes guard-update representation worth investigating, but it does not establish that this survivor is just a throughput problem.
+  - paragraph:
+    - text: The structural measurements are available in
+    - button "Open preview of model-structure.json":
+      - text: model-structure.json
+    - text: .
+  - paragraph:
+    - strong: "My prioritization is therefore deliberate:"
+    - text: first turn the twenty-six now-demonstrated RERS witnesses into cheap native answers. Do not delay that bounded implementation while trying to unify all five residual non-RERS properties under the same mechanism.
+  - 'heading "3. The algorithm: combine concrete executions, not transition-count guesses" [level=2]'
+  - paragraph: "Your current scaled.rs already implements a sound positive-only idea:"
+  - list:
+    - listitem: Divide the initial marking by a common factor.
+    - listitem: Solve a scaled target.
+    - text: Repeat the resulting
+    - strong: whole word
+    - text: that many times.
+    - listitem: Replay on the original net.
+  - paragraph: "That deserves preservation as a control. But it has two restrictions: its search is relaxed::solve_batched, and every population copy follows the same word."
+  - paragraph: The proposed arm removes those restrictions.
+  - paragraph: Suppose
+  - math:
+    - generic: u
+    - generic: →
+    - generic: w
+    - generic: i
+    - generic: v
+    - generic: i
+  - text: u
+  - text: w
+  - generic: i
+  - text: v
+  - generic: i
+  - paragraph:
+    - text: for several concrete words discovered by an incremental walk. Record the endpoints
+    - math:
+      - generic: v
+      - generic: i
+    - text: v
+    - generic: i
+    - text: ", including"
+    - math:
+      - generic: v
+      - generic: "0"
+      - generic: =
+      - generic: u
+    - text: v
+    - generic: "0"
+    - text: =
+    - generic: u
+    - text: with the empty word.
+  - paragraph: For one complete target branch, let its rows be
+  - math:
+    - generic: a
+    - generic: j
+    - generic: ⋅
+    - generic: m
+    - generic: ⋈
+    - generic: j
+    - generic: b
+    - generic: j
+    - generic: ","
+    - generic: ⋈
+    - generic: j
+    - generic: ∈
+    - generic: "{"
+    - generic: ≥
+    - generic: ","
+    - generic: =
+    - generic: "}"
+    - generic: .
+  - text: a
+  - generic: j
+  - text: ⋅
+  - text: m
+  - text: ⋈
+  - generic: j
+  - text: b
+  - generic: j
+  - text: ","
+  - text: ⋈
+  - generic: j
+  - generic: ∈
+  - generic: "{≥"
+  - generic: ", ="
+  - generic: "}."
+  - paragraph: "Associate each endpoint with its small row-value vector:"
+  - math:
+    - generic: s
+    - generic: i
+    - generic: =
+    - generic: (
+    - generic: a
+    - generic: "1"
+    - generic: ⋅
+    - generic: v
+    - generic: i
+    - generic: ","
+    - generic: …
+    - generic: ","
+    - generic: a
+    - generic: q
+    - generic: ⋅
+    - generic: v
+    - generic: i
+    - generic: )
+    - generic: .
+  - text: s
+  - generic: i
+  - text: =
+  - text: (
+  - text: a
+  - generic: "1"
+  - text: ⋅
+  - text: v
+  - generic: i
+  - text: ", … ,"
+  - text: a
+  - generic: q
+  - text: ⋅
+  - text: v
+  - generic: i
+  - text: ).
+  - paragraph: Then solve the small integer selection problem
+  - math:
+    - generic: x
+    - generic: i
+    - generic: ∈
+    - generic: "N"
+    - generic: ","
+    - generic: ∑
+    - generic: i
+    - generic: x
+    - generic: i
+    - generic: =
+    - generic: g
+    - generic: ","
+  - text: x
+  - generic: i
+  - text: ∈
+  - text: N,
+  - generic: i
+  - generic: ∑
+  - text: x
+  - generic: i
+  - text: =
+  - generic: g,
+  - math:
+    - generic: ∑
+    - generic: i
+    - generic: x
+    - generic: i
+    - generic: s
+    - generic: i
+    - generic: ","
+    - generic: j
+    - generic: ⋈
+    - generic: j
+    - generic: b
+    - generic: j
+    - generic: for every row
+    - generic: j
+    - generic: .
+  - generic: i
+  - generic: ∑
+  - text: x
+  - generic: i
+  - text: s
+  - generic: i,j
+  - text: ⋈
+  - generic: j
+  - text: b
+  - generic: j
+  - generic: for every row
+  - text: j.
+  - paragraph: A successful selection produces the ordinary transition trace
+  - math:
+    - generic: w
+    - generic: "1"
+    - generic: x
+    - generic: "1"
+    - generic: w
+    - generic: "2"
+    - generic: x
+    - generic: "2"
+    - generic: ⋯
+    - generic: w
+    - generic: r
+    - generic: x
+    - generic: r
+    - generic: .
+  - text: w
+  - generic: "1"
+  - text: x
+  - generic: "1"
+  - text: w
+  - generic: "2"
+  - text: x
+  - generic: "2"
+  - text: ⋯
+  - text: w
+  - generic: r
+  - text: x
+  - generic: r
+  - text: .
+  - paragraph:
+    - text: The columns here are
+    - strong: already executable endpoint witnesses
+    - text: ", not columns of the net’s incidence matrix. This avoids the difficult step in a transition-count approach of realizing a nominally feasible count vector as an enabled execution."
+  - heading "Why it is sound with weighted guards and read arcs" [level=3]
+  - paragraph: For an ordinary weighted P/T net,
+  - math:
+    - generic: u
+    - generic: →
+    - generic: w
+    - generic: v
+    - generic: ⟹
+    - generic: u
+    - generic: +
+    - generic: z
+    - generic: →
+    - generic: w
+    - generic: v
+    - generic: +
+    - generic: z
+    - generic: (
+    - generic: z
+    - generic: ≥
+    - generic: "0"
+    - generic: )
+    - generic: .
+  - text: u
+  - generic: w
+  - generic: v ⟹
+  - generic: u +
+  - text: z
+  - generic: w
+  - generic: v +
+  - generic: z (z ≥
+  - generic: 0).
+  - paragraph: At each step, the original weighted input guard remains satisfied after adding a nonnegative background marking; firing preserves that background. Induction gives the statement for a word.
+  - paragraph:
+    - text: Apply that fact successively to the remaining unexecuted copies of
+    - math:
+      - generic: u
+    - generic: u
+    - text: and the endpoints already produced. The concatenated word is executable from
+    - math:
+      - generic: g
+      - generic: u
+    - generic: gu
+    - text: ", ending at"
+    - math:
+      - generic: ∑
+      - generic: i
+      - generic: x
+      - generic: i
+      - generic: v
+      - generic: i
+    - text: ∑
+    - generic: i
+    - text: x
+    - generic: i
+    - text: v
+    - generic: i
+    - text: .
+  - paragraph: "Three boundaries are essential:"
+  - paragraph:
+    - strong: First, monotonicity lifts executions, not target satisfaction.
+    - text: Signed inequalities are not generally upward closed. The complete signed target is evaluated on the exact summed endpoint and again after original replay.
+  - paragraph:
+    - strong: Second, no arc is divided or deleted.
+    - text: A read component represented by overlapping pre/post arcs retains its full original input requirement.
+  - paragraph:
+    - strong: Third, failure is only Unknown.
+    - text: Some original executions genuinely require several population copies to cooperate in ways no one-copy execution can reproduce. Neither a deadlocked divided initial state nor an unsatisfiable sampled-endpoint master proves original unreachability.
+  - paragraph:
+    - text: The mixer should derive its factor from the
+    - strong: initial marking
+    - text: ", not require it to divide equality bounds. Equalities are enforced on the final mixture. Preserve the current smaller-divisor uniform fallback where useful; it may discover behavior unavailable from the primitive one-copy state."
+  - heading "4. A survivor that proves composition is necessary" [level=2]
+  - paragraph:
+    - text: Consider
+    - strong: RERS17pb114-PT-5 RC12
+    - text: . Its complete target is
+  - math:
+    - generic: p
+    - generic: "16"
+    - generic: −
+    - generic: p
+    - generic: "700"
+    - generic: ≥
+    - generic: "0"
+    - generic: ","
+    - generic: −
+    - generic: p
+    - generic: "1355"
+    - generic: ≥
+    - generic: −
+    - generic: "1"
+    - generic: ","
+    - generic: p
+    - generic: "1211"
+    - generic: ≥
+    - generic: "3"
+    - generic: ","
+    - generic: p
+    - generic: "1017"
+    - generic: −
+    - generic: p
+    - generic: "921"
+    - generic: ≥
+    - generic: "0"
+    - generic: ","
+    - generic: p
+    - generic: "1166"
+    - generic: −
+    - generic: p
+    - generic: "405"
+    - generic: ≥
+    - generic: "1."
+  - text: p
+  - generic: "16"
+  - text: −
+  - text: p
+  - generic: "700"
+  - text: −
+  - text: p
+  - generic: "1355"
+  - text: p
+  - generic: "1211"
+  - text: p
+  - generic: "1017"
+  - text: −
+  - text: p
+  - generic: "921"
+  - text: p
+  - generic: "1166"
+  - text: −
+  - text: p
+  - generic: "405"
+  - generic: ≥ 0,
+  - generic: ≥ −1,
+  - generic: ≥ 3,
+  - generic: ≥ 0,
+  - generic: ≥ 1.
+  - paragraph:
+    - text: The checked invariant for the block containing both
+    - math:
+      - generic: p
+      - generic: "1166"
+    - text: p
+    - generic: "1166"
+    - text: and
+    - math:
+      - generic: p
+      - generic: "1211"
+    - text: p
+    - generic: "1211"
+    - text: is
+  - math:
+    - generic: ∑
+    - generic: p
+    - generic: =
+    - generic: p
+    - generic: "1119"
+    - generic: p
+    - generic: "1247"
+    - generic: m
+    - generic: (
+    - generic: p
+    - generic: )
+    - generic: =
+    - generic: "5"
+  - text: p=
+  - text: p
+  - generic: "1119"
+  - generic: ∑
+  - text: p
+  - generic: "1247"
+  - text: m(p) =
+  - generic: "5"
+  - paragraph: on the original net, and one on the divided net.
+  - paragraph:
+    - text: Suppose a uniform lifted endpoint
+    - math:
+      - generic: "5"
+      - generic: v
+    - generic: 5v
+    - text: met the target. Its third row would require
+  - math:
+    - generic: v
+    - generic: (
+    - generic: p
+    - generic: "1211"
+    - generic: )
+    - generic: ≥
+    - generic: "1."
+  - text: v(
+  - text: p
+  - generic: "1211"
+  - text: ) ≥
+  - generic: "1."
+  - paragraph: Its fifth row would require
+  - math:
+    - generic: v
+    - generic: (
+    - generic: p
+    - generic: "1166"
+    - generic: )
+    - generic: −
+    - generic: v
+    - generic: (
+    - generic: p
+    - generic: "405"
+    - generic: )
+    - generic: ≥
+    - generic: "1"
+    - generic: ","
+  - text: v(
+  - text: p
+  - generic: "1166"
+  - text: ) −
+  - text: v(
+  - text: p
+  - generic: "405"
+  - text: ) ≥
+  - generic: 1,
+  - paragraph:
+    - text: hence
+    - math:
+      - generic: v
+      - generic: (
+      - generic: p
+      - generic: "1166"
+      - generic: )
+      - generic: ≥
+      - generic: "1"
+    - text: v(
+    - text: p
+    - generic: "1166"
+    - text: ) ≥
+    - generic: "1"
+    - text: . That puts at least two tokens in a block whose conserved sum is one.
+  - paragraph:
+    - strong: Therefore no one-copy word, however long or cleverly searched for, can solve RC12 through uniform fivefold repetition.
+  - paragraph: "The prototype instead discovered these two one-copy words:"
+  - region "Scrollable table":
+    - table:
+      - rowgroup:
+        - row "Word Length Values of the five target rows":
+          - columnheader "Word"
+          - columnheader "Length"
+          - columnheader "Values of the five target rows"
+      - rowgroup:
+        - row "181":
+          - cell:
+            - math:
+              - generic: A
+            - generic: A
+          - cell "181"
+          - cell:
+            - math:
+              - generic: (
+              - generic: "1"
+              - generic: ","
+              - generic: "0"
+              - generic: ","
+              - generic: "0"
+              - generic: ","
+              - generic: "0"
+              - generic: ","
+              - generic: "1"
+              - generic: )
+            - generic: (1, 0, 0, 0, 1)
+        - row "1,610":
+          - cell:
+            - math:
+              - generic: B
+            - generic: B
+          - cell "1,610"
+          - cell:
+            - math:
+              - generic: (
+              - generic: "0"
+              - generic: ","
+              - generic: "0"
+              - generic: ","
+              - generic: "1"
+              - generic: ","
+              - generic: "0"
+              - generic: ","
+              - generic: "0"
+              - generic: )
+            - generic: (0, 0, 1, 0, 0)
+  - button "Copy table":
+  - button "Expand table":
+  - paragraph:
+    - text: Choosing two copies of
+    - math:
+      - generic: A
+    - generic: A
+    - text: and three of
+    - math:
+      - generic: B
+    - generic: B
+    - text: gives
+  - math:
+    - generic: "2"
+    - generic: (
+    - generic: "1"
+    - generic: ","
+    - generic: "0"
+    - generic: ","
+    - generic: "0"
+    - generic: ","
+    - generic: "0"
+    - generic: ","
+    - generic: "1"
+    - generic: )
+    - generic: +
+    - generic: "3"
+    - generic: (
+    - generic: "0"
+    - generic: ","
+    - generic: "0"
+    - generic: ","
+    - generic: "1"
+    - generic: ","
+    - generic: "0"
+    - generic: ","
+    - generic: "0"
+    - generic: )
+    - generic: =
+    - generic: (
+    - generic: "2"
+    - generic: ","
+    - generic: "0"
+    - generic: ","
+    - generic: "3"
+    - generic: ","
+    - generic: "0"
+    - generic: ","
+    - generic: "2"
+    - generic: )
+    - generic: ","
+  - generic: 2(1, 0, 0, 0, 1) +
+  - generic: 3(0, 0, 1, 0, 0) =
+  - generic: (2, 0, 3, 0, 2),
+  - paragraph: which satisfies every row.
+  - paragraph: The expanded trace
+  - math:
+    - generic: A
+    - generic: A
+    - generic: B
+    - generic: B
+    - generic: B
+  - generic: A A B B B
+  - paragraph:
+    - text: has
+    - strong: 5,192 transitions
+    - text: . I independently replayed both component words from
+    - math:
+      - generic: u
+    - generic: u
+    - text: ", the complete concatenation from the original initial marking, and the full original XML property."
+  - paragraph: This is a particularly useful regression because it separates the mechanisms mathematically, not merely through one timeout.
+  - heading "5. What the prototype results do—and do not—justify" [level=2]
+  - paragraph: The paired prototype uses the same sampler, seed, restarts, enabled-set implementation, and guidance in uniform and mixture modes. The mixture callback does not consume random draws or alter guidance. Up to early success, the sampled trajectories therefore match.
+  - paragraph: "Some representative differences are:"
+  - region "Scrollable table":
+    - table:
+      - rowgroup:
+        - row "Property Uniform-only firings before success Mixture firings before success":
+          - columnheader "Property"
+          - columnheader "Uniform-only firings before success"
+          - columnheader "Mixture firings before success"
+      - rowgroup:
+        - row "RERS-5 RC03 6,819 1,068":
+          - cell "RERS-5 RC03"
+          - cell "6,819"
+          - cell "1,068"
+        - row "RERS-5 RC05 14,232 513":
+          - cell "RERS-5 RC05"
+          - cell "14,232"
+          - cell "513"
+        - row "RERS-5 RC13 56,989 803":
+          - cell "RERS-5 RC13"
+          - cell "56,989"
+          - cell "803"
+        - row "RERS-9 RC00 13,073 2,785":
+          - cell "RERS-9 RC00"
+          - cell "13,073"
+          - cell "2,785"
+        - row "RERS-9 RC11 114,476 19,808":
+          - cell "RERS-9 RC11"
+          - cell "114,476"
+          - cell "19,808"
+        - row "RERS-5 RC12 Impossible through uniform fivefold lifting 1,610":
+          - cell "RERS-5 RC12"
+          - cell "Impossible through uniform fivefold lifting"
+          - cell "1,610"
+  - button "Copy table":
+  - button "Expand table":
+  - paragraph:
+    - text: “Firings” here counts sampled transitions across restarts,
+    - strong: not
+    - text: the final expanded witness length.
+  - paragraph:
+    - text: All twenty-six mixture runs completed in approximately
+    - strong: 0.104–0.162 seconds of parent-observed wall time
+    - text: on this prepared-input diagnostic. That observation motivates a native experiment; it is not an original-input deadline result. The timing excludes original PNML/XML conversion and original replay, and the prototype is not the Rust walk implementation.
+  - paragraph:
+    - text: The full paired results are in
+    - button "Open preview of results.csv":
+      - text: results.csv
+    - text: .
+  - paragraph: "The distinction in attribution is important:"
+  - paragraph:
+    - strong: The mixture itself adds one property over an already strong uniform one-copy walk in this experiment.
+    - text: It also obtains several combinations much earlier. I would not advertise it as twenty-six incremental gains over root’s ongoing scaling work.
+  - paragraph: "The larger proposed implementation gain is the package:"
+  - blockquote:
+    - paragraph: Replace expensive repeated planning on the full-population relaxed graph with inexpensive one-copy incremental sampling, retaining and composing concrete endpoint witnesses.
+  - paragraph: If root’s native uniform arm already solves twenty-five RERS properties comfortably, composition alone is a useful final increment, not a substantial new coverage milestone. The whole-cohort comparison must determine which situation you actually have.
+  - heading "6. Precise Rust changes" [level=2]
+  - heading "A. Expose a prefix observer in walk.rs" [level=3]
+  - paragraph:
+    - text: Factor the existing private index/state/policy loop into a crate-private prepared walk context. Add an observer after each
+    - strong: completed firing
+    - text: ", and at the empty prefix, receiving the concrete marking or exact row values and a path handle."
+  - paragraph: The observer retains useful endpoints and can terminate when it constructs a valid mixture. It must not run halfway through updating changed places or enabledness.
+  - paragraph: Keep existing public walk behavior unchanged when no observer is installed. For the first ablation, installing the observer must not change random-number consumption, restart policy, enabled-transition order, or guidance.
+  - paragraph: Allow reset from a borrowed divided initial marking. Share the prepared transition index within the property invocation rather than cloning 151,085 transition records for each restart or branch.
+  - heading "B. Add copy_mix.rs" [level=3]
+  - paragraph: The new module needs a bounded endpoint bank and a small exact dynamic program.
+  - paragraph: "A suitable internal representation is:"
+  - generic: Rust
+  - button "Enable word wrap":
+  - button "Copy":
+  - code: "struct Profile { values: Vec<i128>, // checked operations; BigInt fallback or decline path: PathId, length: usize, } struct Mixture { branch: usize, terms: Vec<(PathId, u32)>, expanded_length: usize, }"
+  - paragraph: Run the uniform check first. Invoke the mixture master only when a genuinely useful endpoint signature arrives.
+  - paragraph:
+    - text: The dynamic program has layers for zero through
+    - math:
+      - generic: g
+    - generic: g
+    - text: used copies. Each edge adds one recorded signature. At layer
+    - math:
+      - generic: g
+    - generic: g
+    - text: ", test the complete original branch and reconstruct the selected words."
+  - paragraph:
+    - text: For dominance within one layer, a profile must be at least as good in every >= row and
+    - strong: equal in every equality row
+    - text: ". Keep the shortest witness for an identical signature. With an expanded-trace budget, use length-aware dominance: a much longer dominating endpoint must not erase a short usable witness."
+  - paragraph: Do not clip signed accumulated values at their target bounds. Subsequent endpoint contributions can be negative.
+  - paragraph: The prototype uses bounded banks and bounded master work; Rust additionally needs deadline checks during that work. Resource exhaustion or arithmetic overflow must decline the arm, never produce an unreachability certificate.
+  - heading "C. Fix the timed internal replay cost in model.rs" [level=3]
+  - paragraph: This is necessary support for composed witnesses, not an unrelated cleanup.
+  - paragraph:
+    - text: The current check_witness scans
+    - strong: every place for every transition
+    - text: ", searching the transition’s pre/post lists to obtain multiplicities. The largest mixed diagnostic trace has 24,048 transitions."
+  - paragraph:
+    - text: Add a deadline-aware replay routine that reads the
+    - strong: original arc lists
+    - text: "directly:"
+  - paragraph: Check the entire original preset before mutation; subtract original inputs; add original outputs with checked arithmetic; periodically check the deadline; finally evaluate the complete target exactly.
+  - paragraph: Its work should scale with the witness’s actual arcs, plus final target evaluation, rather than with places × trace_length.
+  - paragraph: Independence does not require a dense implementation. It requires not trusting search’s cached enabled flags or derived effects. Keep the external Python checker unchanged.
+  - heading "D. Integrate through the existing original-property boundary" [level=3]
+  - paragraph: Route the new arm through main.rs and original.rs, preserving their original-input clock, branch accounting, and EF/AG result assembly.
+  - paragraph: Do not start a new five-second clock inside the arm. Count index construction, endpoint-bank work, trace expansion, original internal replay, and output construction.
+  - paragraph: Initially keep the existing branch dispatcher. The diagnostic evaluates multiple branches from a trajectory; sharing that work in production is reasonable, but should be a separately identified optimization rather than an unnoticed difference in the comparison.
+  - heading "One supporting representation change to isolate" [level=3]
+  - paragraph: walk.rs::fire currently scans every user of a changed place, even when its input-threshold truth value does not change.
+  - paragraph:
+    - text: Grouping users by threshold permits skipping all users of weight
+    - math:
+      - generic: w
+    - generic: w
+    - text: unless
+  - math:
+    - generic: (
+    - generic: old
+    - generic: <
+    - generic: w
+    - generic: )
+    - generic: ≠
+    - generic: (
+    - generic: new
+    - generic: <
+    - generic: w
+    - generic: )
+    - generic: .
+  - text: (
+  - generic: old
+  - text: <
+  - text: w)
+  - generic: 
+  - text: =
+  - text: (
+  - generic: new
+  - text: <
+  - generic: w).
+  - paragraph: For unit arcs, moving from five tokens to four then requires no guard-user updates; moving from one to zero still does. This retains exact weighted/read guards.
+  - paragraph:
+    - text: The prototype uses threshold grouping in
+    - strong: both
+    - text: controls. Either port it into both native controls or measure it separately. Do not credit its performance contribution to endpoint composition.
+  - heading "7. Soundness and regression obligations" [level=2]
+  - paragraph:
+    - text: The artifact includes eight passing reference tests, including
+    - strong: 2,000 generated weighted additive-replay checks
+    - text: and
+    - strong: 200 comparisons of the exact master against exhaustive selection
+    - text: . It also contains the original replay checks for all twenty-six RERS mixture witnesses.
+  - paragraph: For native integration, four groups of regressions are decisive.
+  - paragraph:
+    - strong: Mixed-target semantics.
+    - text: Include a two-copy net with a → b and a → c, targeting exactly one token in each of b and c. Uniform repetition cannot solve it; a mixture can. Add negative coefficients, equality bounds not divisible by the initial divisor, unused copies represented by the empty word, and distinct target branches that must not be combined.
+  - paragraph:
+    - strong: Guard semantics and incompleteness.
+    - text: Test weighted presets, overlapping input/output arcs, and transitions requiring two tokens where the one-copy marking has only one. The latter must return Unknown from the copy arm even when the original net is reachable.
+  - paragraph:
+    - strong: Integration and resources.
+    - text: Check observer-disabled trajectory equivalence, invalid transition IDs, overflow boundaries, deadline expiration during master search and replay, trace-size caps, and correct EF/AG polarity. Differentially test sparse replay against the existing checker.
+  - paragraph:
+    - strong: The actual separating model.
+    - text: Preserve RC12’s original source hashes, both constituent words, expanded witness, complete target, and shared block invariant. This test detects accidental regression back to homogeneous lifting.
+  - paragraph: None of these changes requires a new negative certificate format. Existing negative answers still pass through the existing independent exact checkers.
+  - heading "8. Prior art and the right claim" [level=2]
+  - paragraph: The ingredients are not grounds for a novelty claim.
+  - paragraph:
+    - text: The planning literature already develops delete-relaxed plans, helpful actions, local search, and fallback search. Hoffmann and Nebel’s FF work is directly relevant to the existing relaxed-guidance architecture and to the tradeoff between heuristic quality and evaluation cost.
+    - 'link "FAI Group: FF Homepage, https://fai.cs.uni-saarland.de/hoffmann/ff.html"':
+      - /url: https://fai.cs.uni-saarland.de/hoffmann/ff.html
+      - generic: FAI Group
+  - paragraph:
+    - text: For Petri nets specifically, Blondin, Haase, and Offtermatt’s
+    - strong: Directed Reachability for Infinite-State Systems
+    - text: uses lightweight overapproximations as distance oracles for A* and greedy best-first exploration. “Use a cheap heuristic to find witnesses” is therefore not a distinguishing contribution.
+    - 'link "PubMed Central (PMC): Directed Reachability for Infinite-State Systems - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984551/"':
+      - /url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7984551/
+      - generic: PubMed Central (PMC)
+  - paragraph:
+    - text: Wolf and Wimmel’s
+    - strong: Applying CEGAR to the Petri Net State Equation
+    - text: explores solutions of the state equation with refinement. The proposed small master differs operationally because its columns already carry executable words; it is not another search over unexecuted transition-count solutions.
+    - 'link "arXiv: [1208.2159] Applying CEGAR to the Petri Net State Equation, https://arxiv.org/abs/1208.2159"':
+      - /url: https://arxiv.org/abs/1208.2159
+      - generic: arXiv
+  - paragraph:
+    - text: The cutoff literature also has substantially stronger scaling and insertion results connecting continuous and discrete executions. Balasubramanian, Esparza, and Raskin are relevant prior art, but their existence-of-a-sufficient-scale results must not be confused with finding a witness at your fixed population of five or nine. This proposal only needs concrete execution addition.
+    - 'link "arXiv: Finding Cut-Offs in Leaderless Rendez-Vous Protocols is Easy, https://arxiv.org/pdf/2010.09471"':
+      - /url: https://arxiv.org/pdf/2010.09471
+      - generic: arXiv
+  - paragraph:
+    - text: Finally, property projection through structural reduction is established territory;
+    - strong: Project and Conquer
+    - text: addresses generalized reachability formulas and their projection onto reduced nets. This proposal deliberately avoids a new projection obligation by checking the original target on exact constructed endpoints and original replay.
+    - 'link "arXiv: [2401.03711] Project and Conquer: Fast Quantifier Elimination for Checking Petri Net Reachability, https://arxiv.org/abs/2401.03711"':
+      - /url: https://arxiv.org/abs/2401.03711
+      - generic: arXiv
+  - paragraph: "The defensible present claim is therefore narrow:"
+  - blockquote:
+    - paragraph: On the supplied development survivors, concrete one-copy endpoint sampling and composition exposes independently checked witnesses that the frozen portfolio did not obtain within its deadline.
+  - paragraph: Whether this becomes a broader algorithmic contribution requires native performance evidence, additional families, and a more exhaustive prior-art investigation.
+  - heading "9. The decisive whole-cohort experiment" [level=2]
+  - paragraph: "Freeze root’s budget-allocation candidate before integrating the mechanism. Compare these configurations:"
+  - region "Scrollable table":
+    - table:
+      - rowgroup:
+        - row "Configuration Purpose":
+          - columnheader "Configuration"
+          - columnheader "Purpose"
+      - rowgroup:
+        - 'row "A: frozen 337 candidate Historical anchor"':
+          - 'cell "A: frozen 337 candidate"':
+            - strong: "A:"
+            - text: frozen 337 candidate
+          - cell "Historical anchor"
+        - 'row "B: newly frozen root budget candidate Actual immediate baseline"':
+          - 'cell "B: newly frozen root budget candidate"':
+            - strong: "B:"
+            - text: newly frozen root budget candidate
+          - cell "Actual immediate baseline"
+        - 'row "C: B plus incremental one-copy walking and uniform lifting Isolate the new sampling/representation package"':
+          - 'cell "C: B plus incremental one-copy walking and uniform lifting"':
+            - strong: "C:"
+            - text: B plus incremental one-copy walking and uniform lifting
+          - cell "Isolate the new sampling/representation package"
+        - 'row "D: C plus endpoint retention and composition Isolate mixture"':
+          - 'cell "D: C plus endpoint retention and composition"':
+            - strong: "D:"
+            - text: C plus endpoint retention and composition
+          - cell "Isolate mixture"
+  - button "Copy table":
+  - button "Expand table":
+  - paragraph:
+    - strong: D versus B is the engineering decision. D versus C measures the additional value of composition.
+    - text: Put supporting changes such as sparse replay into both C and D, and identify any independent effect they have on B.
+  - paragraph:
+    - text: Run all
+    - strong: 368 property slots
+    - text: ", not just the survivors. Keep the official denominator while separately reporting the 366 distinct ordered-branch representatives identified in the frozen audit."
+  - paragraph: Use paired, counterbalanced, sequential runs with builds completed beforehand, identical seeds, and at least three whole-cohort passes. Preserve the strict original-input boundary through parsing, preprocessing, all branches, witness construction, internal verification, and output. Apply the same two-GiB process-tree memory convention and report its observation/enforcement limitations.
+  - paragraph: For every configuration, report checked gains and losses, repeat stability, late proposals rejected, per-stage cost, and observed peak memory. Validate every decisive positive and negative externally. Do not union standalone successes into portfolio coverage, and do not treat formulas on the same two RERS nets as independent evidence of family generalization. Reserved families stay untouched.
+  - paragraph:
+    - text: My suggested promotion criterion is
+    - strong: at least five additional repeatedly checked properties over B, without repeatedly losing an already checked property or violating the deadline/resource contract
+    - text: . That is an engineering acceptance threshold, not a prediction.
+  - paragraph: If a mature uniform arm already captures twenty-five, retain the small RC12 composition improvement but do not describe it as another large advance. Conversely, if the lightweight sampler moves several of the currently unwitnessed RERS cases inside five seconds, the package has delivered exactly the further gain you asked for.
+  - paragraph:
+    - strong: "The next implementation should exploit this concrete result: all twenty-six RERS targets are reachable, their witnesses can be assembled from small-population executions, and one of them requires different copies to take different executions. Turn that into one bounded native positive arm, rather than expanding the solver’s architecture before testing it."
+  - button "Open preview of IMPLEMENTATION.md"
+  - generic "IMPLEMENTATION.md"
+  - generic: Document
+  - button "Download file":
+  - button "Open preview of original-validation.json"
+  - generic "original-validation.json"
+  - generic: Code
+  - button "Download file":
+  - button "Open preview of SOURCE_MAP.md"
+  - generic "SOURCE_MAP.md"
+  - generic: Document
+  - button "Download file":
+  - button "2 more":
+    - text: 2 more

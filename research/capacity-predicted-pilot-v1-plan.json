@@ -1,0 +1,45 @@
+{
+  "scope": "Outcome-selected local same-binary capacity ablation on all14 statically predicted refutations; not full-corpus evidence or competitive timing. No concurrent local builds/tests/imports. Linux comparison may continue on its separate host.",
+  "corpus": "benchmarks/mcc-stress-development",
+  "manifest_sha256": "2f23cc2dcfb72d8cf03979830ad4cd0710751507208a8c000e5ba3a5b7b1a994",
+  "properties": [
+    "DLCflexbar-PT-7b__RC02",
+    "DLCflexbar-PT-7b__RC03",
+    "DLCflexbar-PT-7b__RC09",
+    "DLCflexbar-PT-7b__RC12",
+    "DLCflexbar-PT-7b__RC13",
+    "DLCflexbar-PT-8b__RC05",
+    "DLCflexbar-PT-8b__RC06",
+    "DLCflexbar-PT-8b__RC09",
+    "DLCflexbar-PT-8b__RC10",
+    "DLCflexbar-PT-8b__RC15",
+    "DLCflexbar-PT-8b__RC11",
+    "DLCflexbar-PT-8b__RC12",
+    "AutoFlight-PT-96b__RC07",
+    "AutoFlight-PT-96b__RC12"
+  ],
+  "filter": "^(?:DLCflexbar\\-PT\\-7b__RC02|DLCflexbar\\-PT\\-7b__RC03|DLCflexbar\\-PT\\-7b__RC09|DLCflexbar\\-PT\\-7b__RC12|DLCflexbar\\-PT\\-7b__RC13|DLCflexbar\\-PT\\-8b__RC05|DLCflexbar\\-PT\\-8b__RC06|DLCflexbar\\-PT\\-8b__RC09|DLCflexbar\\-PT\\-8b__RC10|DLCflexbar\\-PT\\-8b__RC15|DLCflexbar\\-PT\\-8b__RC11|DLCflexbar\\-PT\\-8b__RC12|AutoFlight\\-PT\\-96b__RC07|AutoFlight\\-PT\\-96b__RC12)$",
+  "seconds": 5,
+  "repeat": 2,
+  "expected_rows": 56,
+  "memory_mib": 2048,
+  "memory_scope": "sampled process-tree RSS on Mac",
+  "methods": [
+    "before",
+    "after"
+  ],
+  "native_engines": {
+    "before": "portfolio-focused",
+    "after": "portfolio-focused"
+  },
+  "binaries": {
+    "before": "results/solver-capacity-v1/without-capacity",
+    "after": "results/solver-capacity-v1/vass-reach"
+  },
+  "validation": "30seconds/2GiB separately bounded independent original PNML/XML reconstruction and proof checking",
+  "next": "Full-family and full-corpus comparisons on isolated Linux.",
+  "binary_sha256": "872d86055df527a0ea6a2e20e6fd025a19d619f30dc6d939bc6915681f192902",
+  "source_sha256": "be616e409438b6f499b327867c6cd54783c777ef7227af4a94f31e1734751b99",
+  "before_wrapper_sha256": "1107144ab2fbb983aca55fca1f36661b7040d0fb1a3d1668b3cb0433812adc80",
+  "ablation": "Same frozen native executable; before shell wrapper adds --no-capacity-preprocessing. Wrapper startup is included; no precise runtime claim."
+}

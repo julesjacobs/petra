@@ -1,0 +1,1214 @@
+{
+  "format": "smpt-classic-v1",
+  "source": "Deterministic generated ordinary 1-safe Petri nets",
+  "selection": "All 34 preselected cases, no outcome filtering. Random 3-CNF at three ratios around the SAT threshold, two fixed seeds, four sizes; positive/negative pigeonhole pairs at five sizes.",
+  "generator_sha256": "3b24735306b78ec40ea93b4f7e58b798b1d06adfe9108490c98bdd3f31067b12",
+  "expected_properties": 34,
+  "scope": "Synthetic development only. Difficulty is measured, not inferred from size. Complements MCC and raw SER; not held-out evaluation.",
+  "queries": [
+    {
+      "name": "random3_n24_r380_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 24,
+        "clauses": 91,
+        "ratio_hundredths": 380,
+        "seed": 2026092701
+      },
+      "variables": 24,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n24_r380_s2026092701",
+      "status": "imported",
+      "places": 164,
+      "transitions": 321,
+      "branches": [
+        {
+          "path": "random3_n24_r380_s2026092701/branch-0.json",
+          "sha256": "06cad642e31b1c7c16b6d2770bc78d9da52b7947a1ef34e54f929430203cb9d3"
+        }
+      ],
+      "source_cnf": "random3_n24_r380_s2026092701/source.cnf",
+      "source_cnf_sha256": "0a87b414ad0a84ab865d8d2efb7a780cfbbddad31e04517bd56dc2bc49ab54f8",
+      "pnml": "random3_n24_r380_s2026092701/model.pnml",
+      "pnml_sha256": "642e973d007d5fb820abb62c42434b81588a53df31155b21cb3d0cb238eba691",
+      "xml": "random3_n24_r380_s2026092701/original-property.xml",
+      "xml_sha256": "0510e11745a6ac3e41837c94ccf16e9fa164500cf3863ba5f0d45b536ee4c1e7",
+      "net": "random3_n24_r380_s2026092701/model.net",
+      "net_sha256": "a7ace46a89211ac40febc21ed9cbbd02c65ba7f24c435450f11a6dd31230d856",
+      "property": "random3_n24_r380_s2026092701/property.xml",
+      "property_sha256": "6b675620231c9913508849cc7efb0796618deadd795896725da99cc62f0c548f"
+    },
+    {
+      "name": "random3_n24_r380_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 24,
+        "clauses": 91,
+        "ratio_hundredths": 380,
+        "seed": 2026092702
+      },
+      "variables": 24,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n24_r380_s2026092702",
+      "status": "imported",
+      "places": 164,
+      "transitions": 321,
+      "branches": [
+        {
+          "path": "random3_n24_r380_s2026092702/branch-0.json",
+          "sha256": "b26649651d6ff443cc1618bf613cfd9108476889e23d9df3e45d7385567bef5d"
+        }
+      ],
+      "source_cnf": "random3_n24_r380_s2026092702/source.cnf",
+      "source_cnf_sha256": "dd8b17f044856c902cab7f6434f7be1884f2047420f048af4f92c3d79f5b29b8",
+      "pnml": "random3_n24_r380_s2026092702/model.pnml",
+      "pnml_sha256": "5b46f5cf0f32df867696de314a2ea99381eb3b0d5eae6bf7a98f06f5043e2d4e",
+      "xml": "random3_n24_r380_s2026092702/original-property.xml",
+      "xml_sha256": "0510e11745a6ac3e41837c94ccf16e9fa164500cf3863ba5f0d45b536ee4c1e7",
+      "net": "random3_n24_r380_s2026092702/model.net",
+      "net_sha256": "61ec1214902e9729e0b879ee1d623a1599173896f917d09fa6ec25adb0f99eaa",
+      "property": "random3_n24_r380_s2026092702/property.xml",
+      "property_sha256": "6b675620231c9913508849cc7efb0796618deadd795896725da99cc62f0c548f"
+    },
+    {
+      "name": "random3_n24_r426_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 24,
+        "clauses": 102,
+        "ratio_hundredths": 426,
+        "seed": 2026092701
+      },
+      "variables": 24,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n24_r426_s2026092701",
+      "status": "imported",
+      "places": 175,
+      "transitions": 354,
+      "branches": [
+        {
+          "path": "random3_n24_r426_s2026092701/branch-0.json",
+          "sha256": "2a1bc27870aefa9e18839911b834587d0705f86d6fb4e64c77771c2220803509"
+        }
+      ],
+      "source_cnf": "random3_n24_r426_s2026092701/source.cnf",
+      "source_cnf_sha256": "9786bd731692e1dfa2bc36b123ac326a1c20b4837da99590388ed275ca93dc40",
+      "pnml": "random3_n24_r426_s2026092701/model.pnml",
+      "pnml_sha256": "96695e9fc0227530e5651ee29ce740932a04f86fe04fb8ecbdff104d73c70d02",
+      "xml": "random3_n24_r426_s2026092701/original-property.xml",
+      "xml_sha256": "499780d809b44e34b23bad95172c5f9340eec79a1960d6a406c390fc818adbfb",
+      "net": "random3_n24_r426_s2026092701/model.net",
+      "net_sha256": "702e6e0e93c21246ad9831930bf9b6f6eede2ee74b9c88a55ba68bb41d969c28",
+      "property": "random3_n24_r426_s2026092701/property.xml",
+      "property_sha256": "bb2988c6a82bb37314392564ebd4b6c3e755855d737e032b0cbe94324f82fc12"
+    },
+    {
+      "name": "random3_n24_r426_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 24,
+        "clauses": 102,
+        "ratio_hundredths": 426,
+        "seed": 2026092702
+      },
+      "variables": 24,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n24_r426_s2026092702",
+      "status": "imported",
+      "places": 175,
+      "transitions": 354,
+      "branches": [
+        {
+          "path": "random3_n24_r426_s2026092702/branch-0.json",
+          "sha256": "eeedd677410dc178a8022d612717dc67325e6c6df46fbfac2e370f008efc0b19"
+        }
+      ],
+      "source_cnf": "random3_n24_r426_s2026092702/source.cnf",
+      "source_cnf_sha256": "5ec8b5537e2b9d7e492b2e013f196e95a0df5a243e97650784aaf8c58f8cf32f",
+      "pnml": "random3_n24_r426_s2026092702/model.pnml",
+      "pnml_sha256": "9ec078b291f115c63e393e48ea6e966bbc5977bfe2e050d6bbdf68f06e1b82dd",
+      "xml": "random3_n24_r426_s2026092702/original-property.xml",
+      "xml_sha256": "499780d809b44e34b23bad95172c5f9340eec79a1960d6a406c390fc818adbfb",
+      "net": "random3_n24_r426_s2026092702/model.net",
+      "net_sha256": "c3f103e5c039b13e9ec77f391cf95b6851150351bfc9459e11f7ae1474d07424",
+      "property": "random3_n24_r426_s2026092702/property.xml",
+      "property_sha256": "bb2988c6a82bb37314392564ebd4b6c3e755855d737e032b0cbe94324f82fc12"
+    },
+    {
+      "name": "random3_n24_r480_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 24,
+        "clauses": 115,
+        "ratio_hundredths": 480,
+        "seed": 2026092701
+      },
+      "variables": 24,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n24_r480_s2026092701",
+      "status": "imported",
+      "places": 188,
+      "transitions": 393,
+      "branches": [
+        {
+          "path": "random3_n24_r480_s2026092701/branch-0.json",
+          "sha256": "b682364ba4db6df6ffa1679164d4086dd72d2976c4a298d3faf3d24ea9b5c9c3"
+        }
+      ],
+      "source_cnf": "random3_n24_r480_s2026092701/source.cnf",
+      "source_cnf_sha256": "aa9dc1c5a7f27878dd0d45ade8c371f16d9ed4e27f9aacafba2a843ac1c62337",
+      "pnml": "random3_n24_r480_s2026092701/model.pnml",
+      "pnml_sha256": "fd04fc61502bc6da904c23c96c7b5f74349291db4d16b698e98e45f68dfdcc25",
+      "xml": "random3_n24_r480_s2026092701/original-property.xml",
+      "xml_sha256": "a19f81812923f4a35e18834bc4b77dd14653864eae70af6b756520a726e0832f",
+      "net": "random3_n24_r480_s2026092701/model.net",
+      "net_sha256": "eabd01c2e768262c24c92a9369979797500830179ce78ac235155704ade6b71a",
+      "property": "random3_n24_r480_s2026092701/property.xml",
+      "property_sha256": "005bc1844a90acc6dedfb21638b376b13e53b182884234ff536d6d4ae6572abb"
+    },
+    {
+      "name": "random3_n24_r480_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 24,
+        "clauses": 115,
+        "ratio_hundredths": 480,
+        "seed": 2026092702
+      },
+      "variables": 24,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n24_r480_s2026092702",
+      "status": "imported",
+      "places": 188,
+      "transitions": 393,
+      "branches": [
+        {
+          "path": "random3_n24_r480_s2026092702/branch-0.json",
+          "sha256": "0e737174869c62f1ef8e67b17996f08deeb27a73f3536cb9767083287108fc12"
+        }
+      ],
+      "source_cnf": "random3_n24_r480_s2026092702/source.cnf",
+      "source_cnf_sha256": "ae815771ecad5f7c78f09f276893b1468f9f7d1635689f74075180f7740a0022",
+      "pnml": "random3_n24_r480_s2026092702/model.pnml",
+      "pnml_sha256": "30502d9156e337cf782caebabc2ca4ad32664cebd6400f1bac874b0dc1922c15",
+      "xml": "random3_n24_r480_s2026092702/original-property.xml",
+      "xml_sha256": "a19f81812923f4a35e18834bc4b77dd14653864eae70af6b756520a726e0832f",
+      "net": "random3_n24_r480_s2026092702/model.net",
+      "net_sha256": "ba95a91b9d304d5b8e3c0ef10c2c971f975a2c83ddccaa81d49b9dde41caed0c",
+      "property": "random3_n24_r480_s2026092702/property.xml",
+      "property_sha256": "005bc1844a90acc6dedfb21638b376b13e53b182884234ff536d6d4ae6572abb"
+    },
+    {
+      "name": "random3_n48_r380_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 48,
+        "clauses": 182,
+        "ratio_hundredths": 380,
+        "seed": 2026092701
+      },
+      "variables": 48,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n48_r380_s2026092701",
+      "status": "imported",
+      "places": 327,
+      "transitions": 642,
+      "branches": [
+        {
+          "path": "random3_n48_r380_s2026092701/branch-0.json",
+          "sha256": "b975aa69f9cb96c0ae17dd2858411d415f68d3d43190af417309a56a1806273f"
+        }
+      ],
+      "source_cnf": "random3_n48_r380_s2026092701/source.cnf",
+      "source_cnf_sha256": "1063e0afdb390e94928546d6f181c16f3e60245bc1632a7ade44e63c56a8781e",
+      "pnml": "random3_n48_r380_s2026092701/model.pnml",
+      "pnml_sha256": "80ff8b51aef4f22c7cab10776be0dc2cb101986fb1cf4c3f78d0b7f95961bbca",
+      "xml": "random3_n48_r380_s2026092701/original-property.xml",
+      "xml_sha256": "853f4c2cdaa671e6d99dd36be7a65acc7cbe9fc5cc53a4392aae4130bee492c5",
+      "net": "random3_n48_r380_s2026092701/model.net",
+      "net_sha256": "9b45eade9385b24f9112119f23905e643d7b74f9f8bfc261149a539dd3590659",
+      "property": "random3_n48_r380_s2026092701/property.xml",
+      "property_sha256": "57d5ba047f4b314dcc480b9f534e2fe677c371ba84dd52578129dbe7ad24284a"
+    },
+    {
+      "name": "random3_n48_r380_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 48,
+        "clauses": 182,
+        "ratio_hundredths": 380,
+        "seed": 2026092702
+      },
+      "variables": 48,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n48_r380_s2026092702",
+      "status": "imported",
+      "places": 327,
+      "transitions": 642,
+      "branches": [
+        {
+          "path": "random3_n48_r380_s2026092702/branch-0.json",
+          "sha256": "b70ea311e528c40f8395ab20573873b6578c8f063251c1c4c122bc3ea092cbca"
+        }
+      ],
+      "source_cnf": "random3_n48_r380_s2026092702/source.cnf",
+      "source_cnf_sha256": "6659315f2899ec82f35987487e2cfa5692b0f32af2a30f311f911ec3f9d4836f",
+      "pnml": "random3_n48_r380_s2026092702/model.pnml",
+      "pnml_sha256": "b53355126913b19d56861a4fbb35518c38b7ea2a7a9917ba18561afe070ca9d9",
+      "xml": "random3_n48_r380_s2026092702/original-property.xml",
+      "xml_sha256": "853f4c2cdaa671e6d99dd36be7a65acc7cbe9fc5cc53a4392aae4130bee492c5",
+      "net": "random3_n48_r380_s2026092702/model.net",
+      "net_sha256": "5a7c9793904e3e453ddd492683e13b13ab64db1feb448a50f9f0ac6601dc8e3e",
+      "property": "random3_n48_r380_s2026092702/property.xml",
+      "property_sha256": "57d5ba047f4b314dcc480b9f534e2fe677c371ba84dd52578129dbe7ad24284a"
+    },
+    {
+      "name": "random3_n48_r426_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 48,
+        "clauses": 204,
+        "ratio_hundredths": 426,
+        "seed": 2026092701
+      },
+      "variables": 48,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n48_r426_s2026092701",
+      "status": "imported",
+      "places": 349,
+      "transitions": 708,
+      "branches": [
+        {
+          "path": "random3_n48_r426_s2026092701/branch-0.json",
+          "sha256": "4c96b65dbcac1d71cf4d1ba2553495a5aeb1bdf41be38f9dad7bd1761ede0cf9"
+        }
+      ],
+      "source_cnf": "random3_n48_r426_s2026092701/source.cnf",
+      "source_cnf_sha256": "68be6e28b7f3b48f1e57eb35e825b89908d1a4f3adc8485ae52516037a585646",
+      "pnml": "random3_n48_r426_s2026092701/model.pnml",
+      "pnml_sha256": "8013053248df8b984d86bdf79045ed84edbba5ff41cda8e0a0c4f9d12f77dfb4",
+      "xml": "random3_n48_r426_s2026092701/original-property.xml",
+      "xml_sha256": "525c3af4df7262d72b71f9d8aedeff16411b76b133488c2d6d7495c2bca96bf1",
+      "net": "random3_n48_r426_s2026092701/model.net",
+      "net_sha256": "ffaa802034a72c24d2704445683729f8e9bc717efbac2680304aa9e2df3a8ccb",
+      "property": "random3_n48_r426_s2026092701/property.xml",
+      "property_sha256": "9eff1cc167be8956094e30242b97228cb0dd8ad11e9655808032d0ded3502b2a"
+    },
+    {
+      "name": "random3_n48_r426_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 48,
+        "clauses": 204,
+        "ratio_hundredths": 426,
+        "seed": 2026092702
+      },
+      "variables": 48,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n48_r426_s2026092702",
+      "status": "imported",
+      "places": 349,
+      "transitions": 708,
+      "branches": [
+        {
+          "path": "random3_n48_r426_s2026092702/branch-0.json",
+          "sha256": "5f4ef182bd4d836326b43ff1388afedacbfa435adcab91e78d432056e3c59676"
+        }
+      ],
+      "source_cnf": "random3_n48_r426_s2026092702/source.cnf",
+      "source_cnf_sha256": "b8a225b1d6be27d8c8547765d1ea2d85d18ddee479523d1498cc63baface1dda",
+      "pnml": "random3_n48_r426_s2026092702/model.pnml",
+      "pnml_sha256": "2f91762b5f6c35512841c4d08e66199f9406acef93eef01b00121d290f4981b4",
+      "xml": "random3_n48_r426_s2026092702/original-property.xml",
+      "xml_sha256": "525c3af4df7262d72b71f9d8aedeff16411b76b133488c2d6d7495c2bca96bf1",
+      "net": "random3_n48_r426_s2026092702/model.net",
+      "net_sha256": "659671a73c9dcaf567a0fbb850be9dadc7fb3d6efb206386424f0f2301a52216",
+      "property": "random3_n48_r426_s2026092702/property.xml",
+      "property_sha256": "9eff1cc167be8956094e30242b97228cb0dd8ad11e9655808032d0ded3502b2a"
+    },
+    {
+      "name": "random3_n48_r480_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 48,
+        "clauses": 230,
+        "ratio_hundredths": 480,
+        "seed": 2026092701
+      },
+      "variables": 48,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n48_r480_s2026092701",
+      "status": "imported",
+      "places": 375,
+      "transitions": 786,
+      "branches": [
+        {
+          "path": "random3_n48_r480_s2026092701/branch-0.json",
+          "sha256": "81a5227c190fa78ce9eaf9f37ba9cb6839b60721e98e87929ab76092682f8d66"
+        }
+      ],
+      "source_cnf": "random3_n48_r480_s2026092701/source.cnf",
+      "source_cnf_sha256": "27ac85d5e2caab8776fea8914e3cb18752822e19401c1894cdaab77481496223",
+      "pnml": "random3_n48_r480_s2026092701/model.pnml",
+      "pnml_sha256": "d05d77f50dd2077dadf01d7cdbbc7b7f38b548d6f9f5ddf47ada08303e3fc17e",
+      "xml": "random3_n48_r480_s2026092701/original-property.xml",
+      "xml_sha256": "b85c5f810c7e1f3952137589d3e13a3ed5722ce9003aa984baee3c183627989c",
+      "net": "random3_n48_r480_s2026092701/model.net",
+      "net_sha256": "a83b11a0729ed4b0cd0429af73e48d9254bcd046ff167920feae14eed9790906",
+      "property": "random3_n48_r480_s2026092701/property.xml",
+      "property_sha256": "7f183395f621fe6c60263fd28a6f6c930e03e8363de9d5cc6a9739d937c40537"
+    },
+    {
+      "name": "random3_n48_r480_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 48,
+        "clauses": 230,
+        "ratio_hundredths": 480,
+        "seed": 2026092702
+      },
+      "variables": 48,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n48_r480_s2026092702",
+      "status": "imported",
+      "places": 375,
+      "transitions": 786,
+      "branches": [
+        {
+          "path": "random3_n48_r480_s2026092702/branch-0.json",
+          "sha256": "eaf6bdddd6c35df53e58d5cc814026f0a4e16cd1f4d52e9669f5ef999e19f1c7"
+        }
+      ],
+      "source_cnf": "random3_n48_r480_s2026092702/source.cnf",
+      "source_cnf_sha256": "c20469001ad7f6470abec2db10f2de50d84c008e5b02b91cd6bda490f3334d74",
+      "pnml": "random3_n48_r480_s2026092702/model.pnml",
+      "pnml_sha256": "91baf3725ea606131902383875c8dfb6af615517de4ce17d51a32972eb70b11a",
+      "xml": "random3_n48_r480_s2026092702/original-property.xml",
+      "xml_sha256": "b85c5f810c7e1f3952137589d3e13a3ed5722ce9003aa984baee3c183627989c",
+      "net": "random3_n48_r480_s2026092702/model.net",
+      "net_sha256": "1b28f1d25c3a2dd48052553b793818a44034c5b1a9b8091509447069ae03ee31",
+      "property": "random3_n48_r480_s2026092702/property.xml",
+      "property_sha256": "7f183395f621fe6c60263fd28a6f6c930e03e8363de9d5cc6a9739d937c40537"
+    },
+    {
+      "name": "random3_n72_r380_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 72,
+        "clauses": 274,
+        "ratio_hundredths": 380,
+        "seed": 2026092701
+      },
+      "variables": 72,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n72_r380_s2026092701",
+      "status": "imported",
+      "places": 491,
+      "transitions": 966,
+      "branches": [
+        {
+          "path": "random3_n72_r380_s2026092701/branch-0.json",
+          "sha256": "91cbd59a430034aed42425d7f29c1fa34b72c3312ed8f10a60ac9b9f543ddb6a"
+        }
+      ],
+      "source_cnf": "random3_n72_r380_s2026092701/source.cnf",
+      "source_cnf_sha256": "c0152a3464ee89a681eb5601fe154e744fa36c4cba14136980b2484ddb07e843",
+      "pnml": "random3_n72_r380_s2026092701/model.pnml",
+      "pnml_sha256": "c28653c142f0acf19e0e7992663a1fdddeb4fbc1d535322a2ce4690758a40ee9",
+      "xml": "random3_n72_r380_s2026092701/original-property.xml",
+      "xml_sha256": "2bbb23dcf193ee8fce8edd45231defd928608a0e47829c63b5865258f4eadd16",
+      "net": "random3_n72_r380_s2026092701/model.net",
+      "net_sha256": "b8af10586cdcbffbc9f629028f9cb44528eb735afc463dcd9cdecff4158cbc0b",
+      "property": "random3_n72_r380_s2026092701/property.xml",
+      "property_sha256": "034a26aecb1316da67945e1bff33248b399a7e60b009d72b032c72e6d42f4c2f"
+    },
+    {
+      "name": "random3_n72_r380_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 72,
+        "clauses": 274,
+        "ratio_hundredths": 380,
+        "seed": 2026092702
+      },
+      "variables": 72,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n72_r380_s2026092702",
+      "status": "imported",
+      "places": 491,
+      "transitions": 966,
+      "branches": [
+        {
+          "path": "random3_n72_r380_s2026092702/branch-0.json",
+          "sha256": "7839bfecd522a3302a6af8d134dffdade048c6c880ff2f6685db2207128f1dfb"
+        }
+      ],
+      "source_cnf": "random3_n72_r380_s2026092702/source.cnf",
+      "source_cnf_sha256": "91707c4e4e8a88124d450bba1398bffb7018b9b3846f8f9081716069362e4f4b",
+      "pnml": "random3_n72_r380_s2026092702/model.pnml",
+      "pnml_sha256": "6f6470b57daaf88a36a040b4daf370e5892ce45b4ab36dc1c0cfbfcf5767736c",
+      "xml": "random3_n72_r380_s2026092702/original-property.xml",
+      "xml_sha256": "2bbb23dcf193ee8fce8edd45231defd928608a0e47829c63b5865258f4eadd16",
+      "net": "random3_n72_r380_s2026092702/model.net",
+      "net_sha256": "ab54c5ce14f49fc1d7f0f6e0aa56f883bb590e1028278ab32f0f7293806a6be5",
+      "property": "random3_n72_r380_s2026092702/property.xml",
+      "property_sha256": "034a26aecb1316da67945e1bff33248b399a7e60b009d72b032c72e6d42f4c2f"
+    },
+    {
+      "name": "random3_n72_r426_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 72,
+        "clauses": 307,
+        "ratio_hundredths": 426,
+        "seed": 2026092701
+      },
+      "variables": 72,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n72_r426_s2026092701",
+      "status": "imported",
+      "places": 524,
+      "transitions": 1065,
+      "branches": [
+        {
+          "path": "random3_n72_r426_s2026092701/branch-0.json",
+          "sha256": "a2a1e9c458093d92f1718e0b92553ceeb930084134f8fa0907e901938d54e5a4"
+        }
+      ],
+      "source_cnf": "random3_n72_r426_s2026092701/source.cnf",
+      "source_cnf_sha256": "71c7491f91d116e2123ecfd66b6e8e3ad56f5e770008ad5ece2d22b906487daa",
+      "pnml": "random3_n72_r426_s2026092701/model.pnml",
+      "pnml_sha256": "d5b80882a1b0aab1ac6880e7d17ed54b39d75af0ad53dc1f0e08937a32616fb6",
+      "xml": "random3_n72_r426_s2026092701/original-property.xml",
+      "xml_sha256": "658e4f46112e8cdc4a2c7def991450338d6565238308bb48b9bc59e86e17d477",
+      "net": "random3_n72_r426_s2026092701/model.net",
+      "net_sha256": "1803ed85bfb516f43ebc94ae3d69e424b1ec24c2a2c4cfc2878656eb58736866",
+      "property": "random3_n72_r426_s2026092701/property.xml",
+      "property_sha256": "30a519f121141df7155ce00bcf2c9452d51270e7f2c5e9114692d4f944b96cfd"
+    },
+    {
+      "name": "random3_n72_r426_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 72,
+        "clauses": 307,
+        "ratio_hundredths": 426,
+        "seed": 2026092702
+      },
+      "variables": 72,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n72_r426_s2026092702",
+      "status": "imported",
+      "places": 524,
+      "transitions": 1065,
+      "branches": [
+        {
+          "path": "random3_n72_r426_s2026092702/branch-0.json",
+          "sha256": "84fe2016e9c8f6ea7d9bb1c5f85874863eba568aacab8c16003e3d6f0aef417e"
+        }
+      ],
+      "source_cnf": "random3_n72_r426_s2026092702/source.cnf",
+      "source_cnf_sha256": "b893a6af30e30f179ea7c7317eab69a08318ba48cb3e7f66cac2ee926ace800d",
+      "pnml": "random3_n72_r426_s2026092702/model.pnml",
+      "pnml_sha256": "32d22c2947c8dc07a2493146712d116941b344f66ab1aa7ff4508b18df40d1f0",
+      "xml": "random3_n72_r426_s2026092702/original-property.xml",
+      "xml_sha256": "658e4f46112e8cdc4a2c7def991450338d6565238308bb48b9bc59e86e17d477",
+      "net": "random3_n72_r426_s2026092702/model.net",
+      "net_sha256": "0a083d76a31e753299e8dca1fd0a1cc1f6b5039b029d1858952906d4f725a723",
+      "property": "random3_n72_r426_s2026092702/property.xml",
+      "property_sha256": "30a519f121141df7155ce00bcf2c9452d51270e7f2c5e9114692d4f944b96cfd"
+    },
+    {
+      "name": "random3_n72_r480_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 72,
+        "clauses": 346,
+        "ratio_hundredths": 480,
+        "seed": 2026092701
+      },
+      "variables": 72,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n72_r480_s2026092701",
+      "status": "imported",
+      "places": 563,
+      "transitions": 1182,
+      "branches": [
+        {
+          "path": "random3_n72_r480_s2026092701/branch-0.json",
+          "sha256": "dcac2a71425b5cd948a817cca92dddf34242e6f5554319744a437ffbc7591d12"
+        }
+      ],
+      "source_cnf": "random3_n72_r480_s2026092701/source.cnf",
+      "source_cnf_sha256": "7b56332b03424119646a276b777e37d782d733d8cf8e5e272f3688a673044b62",
+      "pnml": "random3_n72_r480_s2026092701/model.pnml",
+      "pnml_sha256": "7dbe75330321aead7efbfa0d128b13b9c243ff83fef456a380f65ac76120d28e",
+      "xml": "random3_n72_r480_s2026092701/original-property.xml",
+      "xml_sha256": "1194ba901996da4766aa2fad6ff22b3308b85d4b429943fba495c8427555768b",
+      "net": "random3_n72_r480_s2026092701/model.net",
+      "net_sha256": "d48eae98711396b50aac68767087077583dc97867c80a7f01f4bfe824e19e239",
+      "property": "random3_n72_r480_s2026092701/property.xml",
+      "property_sha256": "cef0d60713e41a9db18c038466e3ea66d9742a475ea3f6e258c5f77ca300a48e"
+    },
+    {
+      "name": "random3_n72_r480_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 72,
+        "clauses": 346,
+        "ratio_hundredths": 480,
+        "seed": 2026092702
+      },
+      "variables": 72,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n72_r480_s2026092702",
+      "status": "imported",
+      "places": 563,
+      "transitions": 1182,
+      "branches": [
+        {
+          "path": "random3_n72_r480_s2026092702/branch-0.json",
+          "sha256": "e317c93ab98ae2a2c1cef21687a0d5f5091ead2e9193f7e5c33d69140234c0c7"
+        }
+      ],
+      "source_cnf": "random3_n72_r480_s2026092702/source.cnf",
+      "source_cnf_sha256": "cc8742faf430ef0081cc1e4f100aa1c09179fa44c13efc249a4036e8ae4a2b45",
+      "pnml": "random3_n72_r480_s2026092702/model.pnml",
+      "pnml_sha256": "63f6049b8a44fa5d0d8d3233de509da9df132df93a97aa46ee00a9e28243cc32",
+      "xml": "random3_n72_r480_s2026092702/original-property.xml",
+      "xml_sha256": "1194ba901996da4766aa2fad6ff22b3308b85d4b429943fba495c8427555768b",
+      "net": "random3_n72_r480_s2026092702/model.net",
+      "net_sha256": "83b64fdee8a47ea3358d10ddc1c60858ff2cdb60bc0d3013ab1dab10d15941cb",
+      "property": "random3_n72_r480_s2026092702/property.xml",
+      "property_sha256": "cef0d60713e41a9db18c038466e3ea66d9742a475ea3f6e258c5f77ca300a48e"
+    },
+    {
+      "name": "random3_n96_r380_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 365,
+        "ratio_hundredths": 380,
+        "seed": 2026092701
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r380_s2026092701",
+      "status": "imported",
+      "places": 654,
+      "transitions": 1287,
+      "branches": [
+        {
+          "path": "random3_n96_r380_s2026092701/branch-0.json",
+          "sha256": "1fd143d551fcd02732ee775cd9945ef7667f320426f073d24bf2789803b3b2d0"
+        }
+      ],
+      "source_cnf": "random3_n96_r380_s2026092701/source.cnf",
+      "source_cnf_sha256": "295384963a2cf2b6dade4cdd9d792f757e174179e9e2a9059b88b8fe0def5419",
+      "pnml": "random3_n96_r380_s2026092701/model.pnml",
+      "pnml_sha256": "db8455c7f47e5d450672b5c561ab0cb86ffa9fc7c7ae2f26fbe67d31a46c6c6e",
+      "xml": "random3_n96_r380_s2026092701/original-property.xml",
+      "xml_sha256": "a9e1bdc5ebe593e9f277e03f3ef20e1cd8b12e2e824af6aad598a080283cd3bd",
+      "net": "random3_n96_r380_s2026092701/model.net",
+      "net_sha256": "6eaa0b4092c2c41c07279e3775d9ceb0607236f18760bcdb26591b920cb2a76f",
+      "property": "random3_n96_r380_s2026092701/property.xml",
+      "property_sha256": "8dcf6f610cde6ac5e78ef6eec968869adc48985f30a9defc47ed0f9ec980397d"
+    },
+    {
+      "name": "random3_n96_r380_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 365,
+        "ratio_hundredths": 380,
+        "seed": 2026092702
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r380_s2026092702",
+      "status": "imported",
+      "places": 654,
+      "transitions": 1287,
+      "branches": [
+        {
+          "path": "random3_n96_r380_s2026092702/branch-0.json",
+          "sha256": "81b513b8d07041c5cd3b77c160f33f90ff8575b773f5d780ff4805a7f4307e75"
+        }
+      ],
+      "source_cnf": "random3_n96_r380_s2026092702/source.cnf",
+      "source_cnf_sha256": "7d6a945afade3d6ba6550c640b4de1ea478ca3e38855fd4318bf7c5a7daa75c1",
+      "pnml": "random3_n96_r380_s2026092702/model.pnml",
+      "pnml_sha256": "9990ab72818ba472fa9afbcda859fc8c99c2286dce570bf662ece92f4395caff",
+      "xml": "random3_n96_r380_s2026092702/original-property.xml",
+      "xml_sha256": "a9e1bdc5ebe593e9f277e03f3ef20e1cd8b12e2e824af6aad598a080283cd3bd",
+      "net": "random3_n96_r380_s2026092702/model.net",
+      "net_sha256": "ac9b1dde34f48e033c78693842aa8387702fab7b3a54716f5d940a94b879b658",
+      "property": "random3_n96_r380_s2026092702/property.xml",
+      "property_sha256": "8dcf6f610cde6ac5e78ef6eec968869adc48985f30a9defc47ed0f9ec980397d"
+    },
+    {
+      "name": "random3_n96_r426_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 409,
+        "ratio_hundredths": 426,
+        "seed": 2026092701
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r426_s2026092701",
+      "status": "imported",
+      "places": 698,
+      "transitions": 1419,
+      "branches": [
+        {
+          "path": "random3_n96_r426_s2026092701/branch-0.json",
+          "sha256": "770838e512de911a797834bf91908d3e6bbbd4f2a5277e7b6d06d11dccc9d3ca"
+        }
+      ],
+      "source_cnf": "random3_n96_r426_s2026092701/source.cnf",
+      "source_cnf_sha256": "6affc6641ad1565e15e19df835a57ea71a1239813fc432c0dbbf9111a6e9d013",
+      "pnml": "random3_n96_r426_s2026092701/model.pnml",
+      "pnml_sha256": "295a23c723f0cd0e09f6478216488dc49123c5e9548b51ca94c79561a8670a28",
+      "xml": "random3_n96_r426_s2026092701/original-property.xml",
+      "xml_sha256": "a291360094cdf7d1c9f93753d06f72f32c9553ccf6fbd30e4284225103902fb2",
+      "net": "random3_n96_r426_s2026092701/model.net",
+      "net_sha256": "c2b8c55e74b22565b930812f96de62d6aeef4a5a1548e23a946e608b8d9c7e72",
+      "property": "random3_n96_r426_s2026092701/property.xml",
+      "property_sha256": "73547a69ded356e075b63e5aa09c900ea0ffd47972e3720c3de5e53ebf2ebd02"
+    },
+    {
+      "name": "random3_n96_r426_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 409,
+        "ratio_hundredths": 426,
+        "seed": 2026092702
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r426_s2026092702",
+      "status": "imported",
+      "places": 698,
+      "transitions": 1419,
+      "branches": [
+        {
+          "path": "random3_n96_r426_s2026092702/branch-0.json",
+          "sha256": "b4fd74dff4659675f59e1e0b87b58e6e15584d0586595f307837c387dce688ed"
+        }
+      ],
+      "source_cnf": "random3_n96_r426_s2026092702/source.cnf",
+      "source_cnf_sha256": "f614aba77045562fbfa36791ddae32df1b3d848d35612cea1c2f4fc97cce193a",
+      "pnml": "random3_n96_r426_s2026092702/model.pnml",
+      "pnml_sha256": "b3b68056dc45a3f25b5881a2e5b02f874ef048bc792f18b39b196fb01ad45f4a",
+      "xml": "random3_n96_r426_s2026092702/original-property.xml",
+      "xml_sha256": "a291360094cdf7d1c9f93753d06f72f32c9553ccf6fbd30e4284225103902fb2",
+      "net": "random3_n96_r426_s2026092702/model.net",
+      "net_sha256": "375043887aafe78d025b9e6d67988e885220bb01506bdcef62b6a66bca902f3c",
+      "property": "random3_n96_r426_s2026092702/property.xml",
+      "property_sha256": "73547a69ded356e075b63e5aa09c900ea0ffd47972e3720c3de5e53ebf2ebd02"
+    },
+    {
+      "name": "random3_n96_r480_s2026092701",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 461,
+        "ratio_hundredths": 480,
+        "seed": 2026092701
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r480_s2026092701",
+      "status": "imported",
+      "places": 750,
+      "transitions": 1575,
+      "branches": [
+        {
+          "path": "random3_n96_r480_s2026092701/branch-0.json",
+          "sha256": "cf3fb933770e94223dbf9007fb528cfa00a1682dca7f637e1c3db72b153b6d65"
+        }
+      ],
+      "source_cnf": "random3_n96_r480_s2026092701/source.cnf",
+      "source_cnf_sha256": "06f02c960ae39dacc2bc66d33121bb7c097c1836805802e15c42803543af5003",
+      "pnml": "random3_n96_r480_s2026092701/model.pnml",
+      "pnml_sha256": "79b6fdf721b63121a917a9728595ec900cd88d28033f5a489d89c9c756d569b8",
+      "xml": "random3_n96_r480_s2026092701/original-property.xml",
+      "xml_sha256": "306204368ce54fa1a8e0ff9ea5a16c319e1f325d911764fb9ad10c62470d524d",
+      "net": "random3_n96_r480_s2026092701/model.net",
+      "net_sha256": "f1f4887f06f8ac5481d795f61ecf003b767ed6b735757082ddcbccfc291fb3e0",
+      "property": "random3_n96_r480_s2026092701/property.xml",
+      "property_sha256": "4b8a70184696e4c270858d03613d92b81fd3c61937c8812fed3db3e1250e16e4"
+    },
+    {
+      "name": "random3_n96_r480_s2026092702",
+      "family": "random-3sat",
+      "parameters": {
+        "variables": 96,
+        "clauses": 461,
+        "ratio_hundredths": 480,
+        "seed": 2026092702
+      },
+      "variables": 96,
+      "expected_reachable": null,
+      "expectation_basis": "Unlabelled random formula.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "random3_n96_r480_s2026092702",
+      "status": "imported",
+      "places": 750,
+      "transitions": 1575,
+      "branches": [
+        {
+          "path": "random3_n96_r480_s2026092702/branch-0.json",
+          "sha256": "e21fb599b9ee1df0039c5713e6f0d1a16b976bfcbff61393f1f7130f30a7a529"
+        }
+      ],
+      "source_cnf": "random3_n96_r480_s2026092702/source.cnf",
+      "source_cnf_sha256": "3c4349450dd91da566ec4bb100b92716f59ea80575ca6c373eb466a2ae7f9d9a",
+      "pnml": "random3_n96_r480_s2026092702/model.pnml",
+      "pnml_sha256": "6f031892e6a659c8afd5483ee02d429ae994eb2c4ec4a16c9a2dd2c0acec23e6",
+      "xml": "random3_n96_r480_s2026092702/original-property.xml",
+      "xml_sha256": "306204368ce54fa1a8e0ff9ea5a16c319e1f325d911764fb9ad10c62470d524d",
+      "net": "random3_n96_r480_s2026092702/model.net",
+      "net_sha256": "996600003ab7d06111105370200a0ae5a3fae358fcb34005b8183ab60f17fa04",
+      "property": "random3_n96_r480_s2026092702/property.xml",
+      "property_sha256": "4b8a70184696e4c270858d03613d92b81fd3c61937c8812fed3db3e1250e16e4"
+    },
+    {
+      "name": "pigeonhole_p4_h4",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 4,
+        "holes": 4
+      },
+      "variables": 16,
+      "expected_reachable": true,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p4_h4",
+      "status": "imported",
+      "places": 77,
+      "transitions": 96,
+      "branches": [
+        {
+          "path": "pigeonhole_p4_h4/branch-0.json",
+          "sha256": "9f7aaeb8ddf093f7a94dbe6f18b8f579aaef22f9b1fcb1db2400e508f9f54335"
+        }
+      ],
+      "source_cnf": "pigeonhole_p4_h4/source.cnf",
+      "source_cnf_sha256": "222f351c4e89a709132dad3642b51a8860d2af7a3cb2145fa7b5d15b8f902601",
+      "pnml": "pigeonhole_p4_h4/model.pnml",
+      "pnml_sha256": "3fb8dba97921293a75e6963762a2c7846fcaf92ba47d6517d258cce29542db86",
+      "xml": "pigeonhole_p4_h4/original-property.xml",
+      "xml_sha256": "0151679ee6c8d7ad5cd04abc49cdd461901626cd6e9b44158d094547dcce18cf",
+      "net": "pigeonhole_p4_h4/model.net",
+      "net_sha256": "53d269ccab5a1a3b1aef8816faf2543386d921d3fd7c8dcccf26a014c7a7cc9f",
+      "property": "pigeonhole_p4_h4/property.xml",
+      "property_sha256": "16a55e91009cd88f2847bb67d47410678f05b27c8ef68755d565753ce6a849df"
+    },
+    {
+      "name": "pigeonhole_p5_h4",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 5,
+        "holes": 4
+      },
+      "variables": 20,
+      "expected_reachable": false,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p5_h4",
+      "status": "imported",
+      "places": 106,
+      "transitions": 140,
+      "branches": [
+        {
+          "path": "pigeonhole_p5_h4/branch-0.json",
+          "sha256": "31385df6cb2a607deae86f3962792e94f8fe88feb5657c70a4841718b10fe5b6"
+        }
+      ],
+      "source_cnf": "pigeonhole_p5_h4/source.cnf",
+      "source_cnf_sha256": "c8a59526385b925866951e9ea410a123c4d8715d7144f038539eebbff2b2c222",
+      "pnml": "pigeonhole_p5_h4/model.pnml",
+      "pnml_sha256": "e797ab0dc72a5ca9f0be4d510da88ce3790aef2e41b58211d3a5864df47c3b80",
+      "xml": "pigeonhole_p5_h4/original-property.xml",
+      "xml_sha256": "a3e290ef79fb980ff8c19774ad630fc0a2f15e11318aed36c6c11b785c7a94df",
+      "net": "pigeonhole_p5_h4/model.net",
+      "net_sha256": "c9423d2c3c1927ae711a853b1771626645e3ce870e2b1d4bff64863619138e34",
+      "property": "pigeonhole_p5_h4/property.xml",
+      "property_sha256": "cf84ade2844e490d9c87b3428e290ee6c86fc16bf185128ce328720ca725a4de"
+    },
+    {
+      "name": "pigeonhole_p6_h6",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 6,
+        "holes": 6
+      },
+      "variables": 36,
+      "expected_reachable": true,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p6_h6",
+      "status": "imported",
+      "places": 205,
+      "transitions": 288,
+      "branches": [
+        {
+          "path": "pigeonhole_p6_h6/branch-0.json",
+          "sha256": "e58df7b489c50f40a48eb6110a013200713112a00d57bdd62f2015cca01be97b"
+        }
+      ],
+      "source_cnf": "pigeonhole_p6_h6/source.cnf",
+      "source_cnf_sha256": "1fc24b354b2f02e48b16c96dba4b5d4c2bbb34072ecbe8c8e510421660a58d09",
+      "pnml": "pigeonhole_p6_h6/model.pnml",
+      "pnml_sha256": "eef610dda3eb495f29933e241360692ba369640cb269919b3f7f6419e8f69b8b",
+      "xml": "pigeonhole_p6_h6/original-property.xml",
+      "xml_sha256": "8b01f7573b1697fe43d3eff3211f6fb59e419b637b134f4122bb6d7d975e7ae9",
+      "net": "pigeonhole_p6_h6/model.net",
+      "net_sha256": "100f029d72e8ff5347eaa8310a365865d621168e506ed8b441ffb00bc35cda46",
+      "property": "pigeonhole_p6_h6/property.xml",
+      "property_sha256": "2e3f08463d03573767320312c3a5d6bcf53381c1df7daf2854b2c276a2befd00"
+    },
+    {
+      "name": "pigeonhole_p7_h6",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 7,
+        "holes": 6
+      },
+      "variables": 42,
+      "expected_reachable": false,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p7_h6",
+      "status": "imported",
+      "places": 260,
+      "transitions": 378,
+      "branches": [
+        {
+          "path": "pigeonhole_p7_h6/branch-0.json",
+          "sha256": "7f130ff3ecf1b1e963a067ac1c2a9fe5fa7d00b6cb2b2f1611ed7b525d211d3b"
+        }
+      ],
+      "source_cnf": "pigeonhole_p7_h6/source.cnf",
+      "source_cnf_sha256": "025c015d04a706c3f6c2156a9513958ba8ef62a6fbf613109d6efd0c858fbe02",
+      "pnml": "pigeonhole_p7_h6/model.pnml",
+      "pnml_sha256": "451501bedf25214880152028c659f6901a92245117cf06db471f222aff1b06c7",
+      "xml": "pigeonhole_p7_h6/original-property.xml",
+      "xml_sha256": "db719ff4b7b88ca641923826ddf198095e8a187101ed931e215ed956f3021abb",
+      "net": "pigeonhole_p7_h6/model.net",
+      "net_sha256": "cdda892b4ba84f0a54b8e77425f69e84ed2a6b3bd3dae7f15508fc7335c3e453",
+      "property": "pigeonhole_p7_h6/property.xml",
+      "property_sha256": "d7a0a39f7d042879f95709c1375b3dfa3369adacabb9403a002cdbae1ba35f84"
+    },
+    {
+      "name": "pigeonhole_p8_h8",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 8,
+        "holes": 8
+      },
+      "variables": 64,
+      "expected_reachable": true,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p8_h8",
+      "status": "imported",
+      "places": 425,
+      "transitions": 640,
+      "branches": [
+        {
+          "path": "pigeonhole_p8_h8/branch-0.json",
+          "sha256": "11480b79b048b2547367aca4b57a0fa1d6ca1cb171142e9b48bb2f02d65f6ba6"
+        }
+      ],
+      "source_cnf": "pigeonhole_p8_h8/source.cnf",
+      "source_cnf_sha256": "821f612f6438c2f0df09ed47f70664b4951cfbdd8ade481b809cd5e3ac0164fa",
+      "pnml": "pigeonhole_p8_h8/model.pnml",
+      "pnml_sha256": "0309dd7d85b9166caa746117976238e0d60a2fb1bff635cb4b45dae497151984",
+      "xml": "pigeonhole_p8_h8/original-property.xml",
+      "xml_sha256": "34b699d5f682607da8fb2cf2ef678d0a96e67bde0b4970643165227a0b9c4963",
+      "net": "pigeonhole_p8_h8/model.net",
+      "net_sha256": "99f0a1831657af081843bf970860d0e60aaf72aeeedb941fe9f8397b246d46aa",
+      "property": "pigeonhole_p8_h8/property.xml",
+      "property_sha256": "473185e47663af5abdabdb9ddbc759d6fa65123d3776b227955cf3078f3516ec"
+    },
+    {
+      "name": "pigeonhole_p9_h8",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 9,
+        "holes": 8
+      },
+      "variables": 72,
+      "expected_reachable": false,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p9_h8",
+      "status": "imported",
+      "places": 514,
+      "transitions": 792,
+      "branches": [
+        {
+          "path": "pigeonhole_p9_h8/branch-0.json",
+          "sha256": "2e863bee0141fab21931bb234671120970721c6424829137018d8cc841d968e1"
+        }
+      ],
+      "source_cnf": "pigeonhole_p9_h8/source.cnf",
+      "source_cnf_sha256": "026f8b7061585ae8f0c983bb57c72935426775f31f4a04c03035c9af8377c052",
+      "pnml": "pigeonhole_p9_h8/model.pnml",
+      "pnml_sha256": "8ac70cd5cfb2bde1f6d43b5c39b8cc3fdf3df86a5423c9775ed143092d906a60",
+      "xml": "pigeonhole_p9_h8/original-property.xml",
+      "xml_sha256": "af174a86e0c5179831c3c1764477c2444736422bf37cbfdc4c8c19314514105e",
+      "net": "pigeonhole_p9_h8/model.net",
+      "net_sha256": "4468cb63bdc87c550a2b6ec05548057aad832b4510e5dd026de1bb8fbdb29e33",
+      "property": "pigeonhole_p9_h8/property.xml",
+      "property_sha256": "b27e07f196705e26f9b4d4d181b054185beeed5b2c966dd1eb660d9e304a9625"
+    },
+    {
+      "name": "pigeonhole_p10_h10",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 10,
+        "holes": 10
+      },
+      "variables": 100,
+      "expected_reachable": true,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p10_h10",
+      "status": "imported",
+      "places": 761,
+      "transitions": 1200,
+      "branches": [
+        {
+          "path": "pigeonhole_p10_h10/branch-0.json",
+          "sha256": "8ff109c96c0502142b4f5f6c280b58216a5d188f004a1427362321c71496c065"
+        }
+      ],
+      "source_cnf": "pigeonhole_p10_h10/source.cnf",
+      "source_cnf_sha256": "37ff83f7c3c7e858d61e3cef74040039268f2455fc5f8adf8b54446f2e1fc084",
+      "pnml": "pigeonhole_p10_h10/model.pnml",
+      "pnml_sha256": "210d9554b33fe62fff4bac8ab312d1d4a08ad8c7862f5df6a19fc30273576971",
+      "xml": "pigeonhole_p10_h10/original-property.xml",
+      "xml_sha256": "3ea83e3413f640d82f97649640b61a7b81f40887f1ea2608d971db551478a4ba",
+      "net": "pigeonhole_p10_h10/model.net",
+      "net_sha256": "c34b87e782c2e9b46421f43213205fc7305fb91dfc1cb3cbcb054a0dcce947d9",
+      "property": "pigeonhole_p10_h10/property.xml",
+      "property_sha256": "3d2e49b2b16a7500c135926691307c439843c8f64dd451d25ba05996dd6b6eb0"
+    },
+    {
+      "name": "pigeonhole_p11_h10",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 11,
+        "holes": 10
+      },
+      "variables": 110,
+      "expected_reachable": false,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p11_h10",
+      "status": "imported",
+      "places": 892,
+      "transitions": 1430,
+      "branches": [
+        {
+          "path": "pigeonhole_p11_h10/branch-0.json",
+          "sha256": "7dd840779cf6feb2110c609670bc88d5e7adbbb9ec48b5ad2f0583f89814b692"
+        }
+      ],
+      "source_cnf": "pigeonhole_p11_h10/source.cnf",
+      "source_cnf_sha256": "aeeaacd781934e712420c4c49960370f2629471df750d472e83f01112625f72f",
+      "pnml": "pigeonhole_p11_h10/model.pnml",
+      "pnml_sha256": "1dd59d256055eb7d19fbfeff77f2e42e6f450af66e893ca1f8644205ac6e0e23",
+      "xml": "pigeonhole_p11_h10/original-property.xml",
+      "xml_sha256": "eee52a3b2bfc135e3dfb5a2c599e0f261048fe516a213926a57023d3dfb1ba08",
+      "net": "pigeonhole_p11_h10/model.net",
+      "net_sha256": "7d1945e6cc1b8614d0b699dc3a233bd4d86adb95935aeeb3921ec1eea591945a",
+      "property": "pigeonhole_p11_h10/property.xml",
+      "property_sha256": "a4feeca2b4d9e6e0109975198c3c04d441ccf4f00bebb0480fe4c894fd7ff5af"
+    },
+    {
+      "name": "pigeonhole_p12_h12",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 12,
+        "holes": 12
+      },
+      "variables": 144,
+      "expected_reachable": true,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p12_h12",
+      "status": "imported",
+      "places": 1237,
+      "transitions": 2016,
+      "branches": [
+        {
+          "path": "pigeonhole_p12_h12/branch-0.json",
+          "sha256": "fedb7ff74d460f29b53f187b03f79863c4728b0ba0529fa43dad0e9f5a9bc6aa"
+        }
+      ],
+      "source_cnf": "pigeonhole_p12_h12/source.cnf",
+      "source_cnf_sha256": "bbe976ed267ce7dfd2c5c5693fb24bed69243995f5d97958de119887d71a7918",
+      "pnml": "pigeonhole_p12_h12/model.pnml",
+      "pnml_sha256": "8a90b9ed9d8574984a0f974e73fe05ef1d2e2ea06ae2c93db68142947d334863",
+      "xml": "pigeonhole_p12_h12/original-property.xml",
+      "xml_sha256": "a66626115f950275b4b54805a375d9f1005f8b33ccebc19c8e4962c577e8f296",
+      "net": "pigeonhole_p12_h12/model.net",
+      "net_sha256": "c1982ea3842e122e71b635955e8e6e2f97ba9f73040ead472630fc0241084c24",
+      "property": "pigeonhole_p12_h12/property.xml",
+      "property_sha256": "38a29433fdc9391e461de5869f18b9161fc22a6d1015ef986d244178029cedaf"
+    },
+    {
+      "name": "pigeonhole_p13_h12",
+      "family": "pigeonhole",
+      "parameters": {
+        "pigeons": 13,
+        "holes": 12
+      },
+      "variables": 156,
+      "expected_reachable": false,
+      "expectation_basis": "Injective placement exists iff pigeons <= holes; each pigeon must occupy a hole and no pair may share a hole.",
+      "property_id": "accepting",
+      "kind": "EF",
+      "suite": "synthetic-development",
+      "instance": "pigeonhole_p13_h12",
+      "status": "imported",
+      "places": 1418,
+      "transitions": 2340,
+      "branches": [
+        {
+          "path": "pigeonhole_p13_h12/branch-0.json",
+          "sha256": "b94a8c7e36469ce550b105b34bfa79a8fd11aa25cfd50056949dfc2051051441"
+        }
+      ],
+      "source_cnf": "pigeonhole_p13_h12/source.cnf",
+      "source_cnf_sha256": "9f9eccaaf31ca11fc957e56d81f2ee9b8b122dd8cc7de3da229335367e3d22e2",
+      "pnml": "pigeonhole_p13_h12/model.pnml",
+      "pnml_sha256": "fb4fe89a44e6a325cd6856a025b13fb3a5bddfd54fbe488f5490bae800eb6624",
+      "xml": "pigeonhole_p13_h12/original-property.xml",
+      "xml_sha256": "3695b31c02b4b299b1c06f66112f26b61a9937f9a8bc63e02b91a786b50933cd",
+      "net": "pigeonhole_p13_h12/model.net",
+      "net_sha256": "7f2d4ae705c8fb35d6a1ba614b27589ebaa726e14eddf5af5fe7da5b37e40ee5",
+      "property": "pigeonhole_p13_h12/property.xml",
+      "property_sha256": "ffc899e68c0090446fa54e1b86c25ba8911dad76ebed51266cae5d1d11223460"
+    }
+  ]
+}

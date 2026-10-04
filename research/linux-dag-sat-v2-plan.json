@@ -1,0 +1,24 @@
+{
+  "scope": "Full 34-query synthetic development ladder; no selected exclusions; one-repeat pilot, not representative application superiority",
+  "corpus": "benchmarks/boolean-consistency-v3",
+  "manifest_sha256": "50b53daf62789dd363822781ecf9630641e6752d5b66ea1cf7c7c139cbe45ae0",
+  "methods": [
+    "before/portfolio-local/linux-solver-raw-negative-structural-v1",
+    "dag-v1/portfolio-symbolic/linux-solver-dag-sat-v1",
+    "symbolic/portfolio-symbolic/linux-solver-dag-sat-v2",
+    "verifypn-default",
+    "smpt-full-portable/automatic-reduction/original-input"
+  ],
+  "seconds": 5,
+  "repeats": 1,
+  "cpus": [
+    8
+  ],
+  "memory_mib": 2048,
+  "perf": true,
+  "order_seed": 20261001,
+  "outer_grace": 0,
+  "validation": "Native original inputs and proof checking; checker separately bounded, not in solve deadline",
+  "smpt_configuration": "Full portable portfolio, WALK internal slicing disabled by documented patch; automatic structural reduction enabled; all subprocesses share CPU8.",
+  "prerequisite": "SMPT compatibility smoke v3 completed: one valid unknown and one negative answer, no parser errors. All canonical net/target hashes unchanged across corpus versions."
+}

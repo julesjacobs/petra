@@ -1,0 +1,46 @@
+{
+  "status": "complete-contended-pilot",
+  "plan_sha256": "d230dcc763b15b09a08cc45d9e605513b1cfdbc7173d82dfcc6d1765ef867ec0",
+  "candidate_sha256": "107f2269fe12a147ffced9c44e4d7c91f3834705e927bb104a2fa8ec70eb7f9f",
+  "capability_sha256": "015a0e613cd69ab1c52c9391fbece8a4be65db664bb4102511ae57489f766c0e",
+  "dispatch": {
+    "pid": 2563154,
+    "created": 1791101368.92,
+    "boot_id": "5e4c8d83-098d-4822-b09a-8d09d920e641",
+    "script_sha256": "e610d4e74e9b7bbb0ac9df16cb053c003b5199b04a57c97ba83c2744f52ec32b"
+  },
+  "properties": 368,
+  "representatives": 366,
+  "expected_rows": 2944,
+  "methods": [
+    "native-excess",
+    "verifypn-default",
+    "smpt-mcc-portable",
+    "its-mcc"
+  ],
+  "poll": "python3 research/competitive-linux-20261004/manage.py poll --kind campaign",
+  "collect": "python3 research/competitive-linux-20261004/manage.py collect --kind campaign",
+  "warning": "Completed campaign; do not restart or replace measurements. Original failed audit preserved; Z3 omission addressed only by documented provenance amendment. Host contention affects timings and deadline-sensitive coverage. No idle-host result is claimed.",
+  "terminal": {
+    "plan_sha256": "d230dcc763b15b09a08cc45d9e605513b1cfdbc7173d82dfcc6d1765ef867ec0",
+    "exit_code": 0,
+    "completed": [
+      "repeat1",
+      "repeat2"
+    ],
+    "finished_utc": "2026-10-04T09:40:03.254365+00:00"
+  },
+  "original_post_collect": [
+    "python3 research/competitive-linux-20261004/audit.py",
+    "python3 research/competitive-linux-20261004/summarize.py"
+  ],
+  "post_collect": [
+    "python3 research/competitive-linux-20261004/audit-v2.py",
+    "python3 research/competitive-linux-20261004/summarize-v2.py",
+    "python3 research/competitive-linux-20261004/analysis-supplement-v2.py"
+  ],
+  "report": "research/competitive-linux-20261004/REPORT.md",
+  "analysis_status": "passed-with-provenance-amendment",
+  "supplement_status": "passed",
+  "idle_host_objective_met": false
+}

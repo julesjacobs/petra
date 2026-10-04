@@ -1,0 +1,17 @@
+<property-set><property>
+    <id>CircularTrains-PT-192-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+      <exists-path>
+        <finally>
+          <integer-le>
+            <integer-constant>3</integer-constant>
+            <tokens-count>
+              <place>F189</place>
+            </tokens-count>
+          </integer-le>
+        </finally>
+      </exists-path>
+    </formula>
+  </property>
+  </property-set>

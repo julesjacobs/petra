@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "session_id": 85941,
+  "exit_code": 0,
+  "rows": 7,
+  "independently_checked_negatives": 6,
+  "memory_limits": 1,
+  "binary": "results/solver-raw-phase-diagnostics-v2/vass-reach",
+  "scope": "Local diagnostic, 30-second input/check-inclusive deadline, 2 billion solver/checker work, sampled2GiB. Source editing overlapped; no competitive timing claim.",
+  "rows_summary": [
+    {
+      "query": "write_skew_n3_pairlocked",
+      "status": "verified-negative",
+      "wall_seconds": 0.5041222078725696
+    },
+    {
+      "query": "write_skew_n4_pairlocked",
+      "status": "verified-negative",
+      "wall_seconds": 1.6135119169484824
+    },
+    {
+      "query": "write_skew_n5_pairlocked",
+      "status": "memory-limit",
+      "wall_seconds": 4.335296000121161
+    },
+    {
+      "query": "optimistic_v17_validated",
+      "status": "verified-negative",
+      "wall_seconds": 0.6341530829668045
+    },
+    {
+      "query": "optimistic_v25_validated",
+      "status": "verified-negative",
+      "wall_seconds": 0.5166575000621378
+    },
+    {
+      "query": "optimistic_v33_validated",
+      "status": "verified-negative",
+      "wall_seconds": 0.7746000841725618
+    },
+    {
+      "query": "optimistic_v49_validated",
+      "status": "verified-negative",
+      "wall_seconds": 1.7956499580759555
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "Targeted cap ablation for an independently proved count-cap gap; no cohort claim.",
+  "caps": [
+    8192,
+    16384,
+    65536
+  ],
+  "seconds": 5,
+  "outer_seconds": 5.3,
+  "checker_seconds": 30,
+  "memory_bytes": 2147483648,
+  "pins": {
+    "benchmarks/general-development-v3/RefineWMG-PT-100101__RC11/branch-4.json": "bf0402c8e2cf72b95fa6a0be0266f56fbe34b16e89df3793e178d27e452d3747",
+    "target/release/examples/count_plan_diagnostic": "591fb383ce13fd2fb653483ee6ad881e31ddf63484e875e1887faf170f570b9d",
+    "src/count_plan.rs": "b56552ecaeef5fa9420b2f37a9d1c4da1787553f2a9d29e08fcb1a4e05a2dc0f",
+    "examples/count_plan_diagnostic.rs": "4f1e1fb407b1490c70d432ec7fc968bbd0fd0b9ed97589ba38a374f973f78209",
+    "research/probe-count-caps-v1.py": "9ebae33ef83c8619fd67d2c61e191aa89420b8e0f833bf014fa1d3be84a13246",
+    "scripts/check_backend_answer.py": "732678c3a4ea0233fb8410c1e25f0c331189d355def4522d56370fe72f248694",
+    "scripts/process_runner.py": "29f438dc94186d951b99a04e40f5ba1cc580f4e5ddb6131cdceb4d6655fba007"
+  }
+}

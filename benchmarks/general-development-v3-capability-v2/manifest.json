@@ -1,0 +1,105 @@
+{
+  "format": "synthetic-capability-v1",
+  "queries": [
+    {
+      "name": "EF-1",
+      "suite": "synthetic-capability",
+      "instance": "one-token-move",
+      "status": "imported",
+      "property_slot": 0,
+      "branches": [
+        {
+          "path": "EF-1/branch-0.json",
+          "sha256": "a5816de5f4e36fba45ea5669e2d5bacfec6e97308c24c9e72d8537ec9f396e06"
+        }
+      ],
+      "places": 2,
+      "transitions": 1,
+      "property_id": "EF-1",
+      "kind": "EF",
+      "pnml": "model.pnml",
+      "pnml_sha256": "4aa8be576585f6fe13179dd02bf4257bc4eccf63493447ec05c65ae39e3ab87e",
+      "xml": "EF-1/original.xml",
+      "xml_sha256": "81f530df6e0ff16847a3cd113f418e3ebea79db52dba44cc6633d3a18a8427ce",
+      "net": "EF-1/model.net",
+      "net_sha256": "4e467566b94eaa054fe47cea87aee9b5fb0bd936df9cf027963fbbf43c01255c",
+      "property": "EF-1/property.xml",
+      "property_sha256": "32fa61cc5ebfa3cd587ad21523b81e3fc39828eba288283b37de28e8404cd5c7"
+    },
+    {
+      "name": "EF-2",
+      "suite": "synthetic-capability",
+      "instance": "one-token-move",
+      "status": "imported",
+      "property_slot": 1,
+      "branches": [
+        {
+          "path": "EF-2/branch-0.json",
+          "sha256": "6f91ca78dcc4ab7121d766ae494abbf721a1fb1c841395634b888e293b58340a"
+        }
+      ],
+      "places": 2,
+      "transitions": 1,
+      "property_id": "EF-2",
+      "kind": "EF",
+      "pnml": "model.pnml",
+      "pnml_sha256": "4aa8be576585f6fe13179dd02bf4257bc4eccf63493447ec05c65ae39e3ab87e",
+      "xml": "EF-2/original.xml",
+      "xml_sha256": "deb45af22d874f2d318ccd0c9d4245d614a54219e2c78f3d40f368938213b47e",
+      "net": "EF-2/model.net",
+      "net_sha256": "4e467566b94eaa054fe47cea87aee9b5fb0bd936df9cf027963fbbf43c01255c",
+      "property": "EF-2/property.xml",
+      "property_sha256": "5e2fecc740a64f39ea4d105ca43c02a8ee9735409d70e457d62552ce032188db"
+    },
+    {
+      "name": "AG-0",
+      "suite": "synthetic-capability",
+      "instance": "one-token-move",
+      "status": "imported",
+      "property_slot": 2,
+      "branches": [
+        {
+          "path": "AG-0/branch-0.json",
+          "sha256": "e21024e07010871258697ccc50acb9a67350ee8f0e1e749246570f371fba3140"
+        }
+      ],
+      "places": 2,
+      "transitions": 1,
+      "property_id": "AG-0",
+      "kind": "AG",
+      "pnml": "model.pnml",
+      "pnml_sha256": "4aa8be576585f6fe13179dd02bf4257bc4eccf63493447ec05c65ae39e3ab87e",
+      "xml": "AG-0/original.xml",
+      "xml_sha256": "ea3b20c57547e7b946b31af63f2f0012ef1f189620f9963005e08f1ba48fd1be",
+      "net": "AG-0/model.net",
+      "net_sha256": "4e467566b94eaa054fe47cea87aee9b5fb0bd936df9cf027963fbbf43c01255c",
+      "property": "AG-0/property.xml",
+      "property_sha256": "7443a8ffee504c4e838e58878967c093f67f8f47ed945770ac77065d03c5caf4"
+    },
+    {
+      "name": "AG-1",
+      "suite": "synthetic-capability",
+      "instance": "one-token-move",
+      "status": "imported",
+      "property_slot": 3,
+      "branches": [
+        {
+          "path": "AG-1/branch-0.json",
+          "sha256": "095855606532a7ad591ee44bea53d9c521abf842b65f0efb7c20224aecb383a0"
+        }
+      ],
+      "places": 2,
+      "transitions": 1,
+      "property_id": "AG-1",
+      "kind": "AG",
+      "pnml": "model.pnml",
+      "pnml_sha256": "4aa8be576585f6fe13179dd02bf4257bc4eccf63493447ec05c65ae39e3ab87e",
+      "xml": "AG-1/original.xml",
+      "xml_sha256": "aa435da6c046555df8093ca27b9ad0548a1c9cbe2599a2dedea4aa95238caeb1",
+      "net": "AG-1/model.net",
+      "net_sha256": "4e467566b94eaa054fe47cea87aee9b5fb0bd936df9cf027963fbbf43c01255c",
+      "property": "AG-1/property.xml",
+      "property_sha256": "67b3e14264c8d35817172d4efee1b64c154cedae8b644d4b9d97993d484bbe15"
+    }
+  ]
+}

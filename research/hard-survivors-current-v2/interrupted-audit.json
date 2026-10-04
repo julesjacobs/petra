@@ -1,0 +1,3345 @@
+{
+  "status": "incomplete",
+  "available_row_audit": "passed",
+  "issues": [],
+  "observed_rows": 27,
+  "expected_rows": 40,
+  "missing_rows": 13,
+  "frozen_plan_sha256": "97537ae48199a6d419bea14810050c55e581ead9bbe9b129a2b51d97fdca0651",
+  "parent_denominators": [
+    620,
+    69,
+    8
+  ],
+  "original_full_auditor_status": "failed",
+  "original_full_auditor_issues": [
+    "Registered row denominator differs",
+    "Incomplete, duplicated or unexpected query/method/repeat matrix",
+    "Recorded row order differs from frozen scheduling",
+    "Complete difficulty analysis unavailable: Incomplete or unexpected matrix: 13 missing, 0 extra"
+  ],
+  "expected_incomplete_issues": [
+    "Registered row denominator differs",
+    "Incomplete, duplicated or unexpected query/method/repeat matrix",
+    "Recorded row order differs from frozen scheduling",
+    "Complete difficulty analysis unavailable: Incomplete or unexpected matrix: 13 missing, 0 extra"
+  ],
+  "warnings": [
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/smpt-full-portable/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/smpt-full-portable/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/native-frozen/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/native-frozen/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/native-walk/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/native-walk/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/smpt-full-portable/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/smpt-full-portable/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/verifypn-default/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/verifypn-default/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/native-batched/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/native-batched/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/smpt-full-portable/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/smpt-full-portable/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/smpt-full-portable/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/smpt-full-portable/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/native-batched/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/native-batched/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/native-frozen/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/native-frozen/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/native-walk/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/native-walk/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/smpt-full-portable/0: interrupted perf export; partial raw counters retained but not imputed",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/smpt-full-portable/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "pigeonhole_p13_h12/native-batched/0: interrupted perf export; partial raw counters retained but not imputed",
+    "pigeonhole_p13_h12/native-batched/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}",
+    "pigeonhole_p13_h12/native-frozen/0: interrupted perf export; partial raw counters retained but not imputed",
+    "pigeonhole_p13_h12/native-frozen/0: perf coverage {'instructions:u': 'missing-or-invalid-value', 'cycles:u': 'missing-or-invalid-value', 'task-clock': 'missing-or-invalid-value'}"
+  ],
+  "full_rows": [
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-batched",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 300.17548628899385,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-b398815924f8498a81cabc236020955c.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "133783559245",
+          "ExecMainExitTimestampMonotonic": "134083721236",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "1674371072",
+          "CPUUsageNSec": "300053103000"
+        },
+        "cpu_seconds": 300.053103,
+        "peak_memory_bytes": 1674371072,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 3346432314008,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299905643966.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "3346432314008",
+              "",
+              "instructions:u",
+              "299905643966",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1521166177161,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299905643966.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1521166177161",
+              "",
+              "cycles:u",
+              "299905643966",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299905.64,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299905643966.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299905.64",
+              "msec",
+              "task-clock:u",
+              "299905643966",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-frozen",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 300.18429557501804,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-9e91ad121f15443db53708e13e84c1c1.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "134083756406",
+          "ExecMainExitTimestampMonotonic": "134383920076",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "1664446464",
+          "CPUUsageNSec": "299992294000"
+        },
+        "cpu_seconds": 299.992294,
+        "peak_memory_bytes": 1664446464,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 3146760860339,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299850640756.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "3146760860339",
+              "",
+              "instructions:u",
+              "299850640756",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1512736438157,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299850640756.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1512736438157",
+              "",
+              "cycles:u",
+              "299850640756",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299850.64,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299850640756.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299850.64",
+              "msec",
+              "task-clock:u",
+              "299850640756",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-repeated-search-v1/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-walk",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 300.20005914298235,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-a21c17f54041417ebdd955f6acd9325c.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "134383965639",
+          "ExecMainExitTimestampMonotonic": "134684143751",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "1789988864",
+          "CPUUsageNSec": "300044669000"
+        },
+        "cpu_seconds": 300.044669,
+        "peak_memory_bytes": 1789988864,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 2880586802875,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299894858723.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "2880586802875",
+              "",
+              "instructions:u",
+              "299894858723",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1494214397337,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299894858723.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1494214397337",
+              "",
+              "cycles:u",
+              "299894858723",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299894.86,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299894858723.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299894.86",
+              "msec",
+              "task-clock:u",
+              "299894858723",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-walk",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "smpt-full-portable",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 17.43715007501305,
+      "exit_code": -9,
+      "capability_failures": [],
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-403174a4baeb4d228b8df7ba36eb021a.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "134684189040",
+          "ExecMainExitTimestampMonotonic": "134701496730",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "17354383000"
+        },
+        "cpu_seconds": 17.354383,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/venv/bin/python",
+        "-m",
+        "smpt",
+        "-n",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/original-property.xml",
+        "--methods",
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP",
+        "--timeout",
+        "300",
+        "--show-time",
+        "--show-techniques",
+        "--show-model",
+        "--export-proof",
+        "/home/jules/experiments/pvass-publication/results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.smpt-full-portable.0.proof",
+        "--auto-reduce"
+      ],
+      "outer_timeout": true,
+      "enabled_methods": [
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP"
+      ],
+      "subprocess_error": false,
+      "formula_output": null,
+      "independent_checks": [
+        "none-external-smpt"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "smpt-original"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "verifypn-default",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 300.18500117000076,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-ea615e55150c40efa5dd4499446d1b09.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "134701654915",
+          "ExecMainExitTimestampMonotonic": "135001792283",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "523603968",
+          "CPUUsageNSec": "299700661000"
+        },
+        "cpu_seconds": 299.700661,
+        "peak_memory_bytes": 523603968,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 3304646788998,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299598416011.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "3304646788998",
+              "",
+              "instructions:u",
+              "299598416011",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1488749664525,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299598416011.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1488749664525",
+              "",
+              "cycles:u",
+              "299598416011",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299598.42,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299598416011.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299598.42",
+              "msec",
+              "task-clock:u",
+              "299598416011",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/verifypn/build-release/verifypn/bin/verifypn-linux64",
+        "-x",
+        "1",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/model.pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/original-property.xml"
+      ],
+      "formula_output": [],
+      "independent_checks": [
+        "none-external-verifypn"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "verifypn-original"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-frozen",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 196.53440162999323,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-87bcf7bd1b01417ea5925e9788934156.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "135001927987",
+          "ExecMainExitTimestampMonotonic": "135198445178",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "196357606000"
+        },
+        "cpu_seconds": 196.357606,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-repeated-search-v1/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-walk",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 181.86285291297827,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-eebc9c4e52f3465980b4c4c47262bab2.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "135198648130",
+          "ExecMainExitTimestampMonotonic": "135380494176",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "181716664000"
+        },
+        "cpu_seconds": 181.716664,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-walk",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "smpt-full-portable",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 56.59077719799825,
+      "exit_code": -9,
+      "capability_failures": [],
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-83b01eb252764139a1b10820172a885b.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "135380676826",
+          "ExecMainExitTimestampMonotonic": "135437250569",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "56200550000"
+        },
+        "cpu_seconds": 56.20055,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/venv/bin/python",
+        "-m",
+        "smpt",
+        "-n",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/original-property.xml",
+        "--methods",
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP",
+        "--timeout",
+        "300",
+        "--show-time",
+        "--show-techniques",
+        "--show-model",
+        "--export-proof",
+        "/home/jules/experiments/pvass-publication/results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.smpt-full-portable.0.proof",
+        "--auto-reduce"
+      ],
+      "outer_timeout": true,
+      "enabled_methods": [
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP"
+      ],
+      "subprocess_error": false,
+      "formula_output": null,
+      "independent_checks": [
+        "none-external-smpt"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "smpt-original"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "verifypn-default",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 184.48588421399472,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-f6073bf8bdcc45058b81098bf0fe0250.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "135437441934",
+          "ExecMainExitTimestampMonotonic": "135621906160",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "184376253000"
+        },
+        "cpu_seconds": 184.376253,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/verifypn/build-release/verifypn/bin/verifypn-linux64",
+        "-x",
+        "1",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/model.pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/original-property.xml"
+      ],
+      "formula_output": [],
+      "independent_checks": [
+        "none-external-verifypn"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "verifypn-original"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-batched",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 180.1929416479834,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-06da00916ff143b3b021f31d7ecd4940.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "135622088730",
+          "ExecMainExitTimestampMonotonic": "135802269158",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "180109810000"
+        },
+        "cpu_seconds": 180.10981,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-walk",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 300.2842165559996,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-1712e9684c8c430cbf4cd3f18b53f06f.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "135802467133",
+          "ExecMainExitTimestampMonotonic": "136102736225",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "1741983744",
+          "CPUUsageNSec": "300119354000"
+        },
+        "cpu_seconds": 300.119354,
+        "peak_memory_bytes": 1741983744,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 2893720861390,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299853456000.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "2893720861390",
+              "",
+              "instructions:u",
+              "299853456000",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1496779360246,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299853456000.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1496779360246",
+              "",
+              "cycles:u",
+              "299853456000",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299853.46,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299853456000.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299853.46",
+              "msec",
+              "task-clock:u",
+              "299853456000",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-walk",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "suite": "fastforward-repository-random_walk",
+      "method": "smpt-full-portable",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 20.737926147994585,
+      "exit_code": -9,
+      "capability_failures": [],
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-c67628bf1a334a0c92a1898348ad99fc.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "136102810296",
+          "ExecMainExitTimestampMonotonic": "136123397083",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "20644358000"
+        },
+        "cpu_seconds": 20.644358,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/venv/bin/python",
+        "-m",
+        "smpt",
+        "-n",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/original-property.xml",
+        "--methods",
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP",
+        "--timeout",
+        "300",
+        "--show-time",
+        "--show-techniques",
+        "--show-model",
+        "--export-proof",
+        "/home/jules/experiments/pvass-publication/results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.smpt-full-portable.0.proof",
+        "--auto-reduce"
+      ],
+      "outer_timeout": true,
+      "enabled_methods": [
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP"
+      ],
+      "subprocess_error": false,
+      "formula_output": null,
+      "independent_checks": [
+        "none-external-smpt"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "smpt-original"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "suite": "fastforward-repository-random_walk",
+      "method": "verifypn-default",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 300.11082738099503,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-5296945a4c594efcb40a464fc780db5a.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "136123568937",
+          "ExecMainExitTimestampMonotonic": "136423662468",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "711581696",
+          "CPUUsageNSec": "300014570000"
+        },
+        "cpu_seconds": 300.01457,
+        "peak_memory_bytes": 711581696,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 4071196613095,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299940184742.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "4071196613095",
+              "",
+              "instructions:u",
+              "299940184742",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1531744408222,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299940184742.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1531744408222",
+              "",
+              "cycles:u",
+              "299940184742",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299940.18,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299940184742.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299940.18",
+              "msec",
+              "task-clock:u",
+              "299940184742",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/verifypn/build-release/verifypn/bin/verifypn-linux64",
+        "-x",
+        "1",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/model.pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/original-property.xml"
+      ],
+      "formula_output": [],
+      "independent_checks": [
+        "none-external-verifypn"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "verifypn-original"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-batched",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 300.1756211629836,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-066a6568610b4cd2b94ce7a2b50facba.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "136423703734",
+          "ExecMainExitTimestampMonotonic": "136723866171",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "1735585792",
+          "CPUUsageNSec": "300025622000"
+        },
+        "cpu_seconds": 300.025622,
+        "peak_memory_bytes": 1735585792,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 2735924613256,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299877638854.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "2735924613256",
+              "",
+              "instructions:u",
+              "299877638854",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1491123835212,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299877638854.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1491123835212",
+              "",
+              "cycles:u",
+              "299877638854",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299877.64,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299877638854.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299877.64",
+              "msec",
+              "task-clock:u",
+              "299877638854",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-frozen",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 300.1695406959916,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-2dc96fa3919f427fad78aba01d3b615a.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "136723908233",
+          "ExecMainExitTimestampMonotonic": "137024054801",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "1735540736",
+          "CPUUsageNSec": "300024797000"
+        },
+        "cpu_seconds": 300.024797,
+        "peak_memory_bytes": 1735540736,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 3077367589897,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299891887101.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "3077367589897",
+              "",
+              "instructions:u",
+              "299891887101",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1517761632661,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299891887101.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1517761632661",
+              "",
+              "cycles:u",
+              "299891887101",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299891.89,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299891887101.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299891.89",
+              "msec",
+              "task-clock:u",
+              "299891887101",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-repeated-search-v1/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "suite": "fastforward-repository-random_walk",
+      "method": "smpt-full-portable",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 52.17783539800439,
+      "exit_code": -9,
+      "capability_failures": [],
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-930f7d5dba464edc9d05e7182d49eddf.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "137024100164",
+          "ExecMainExitTimestampMonotonic": "137076254610",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "51857818000"
+        },
+        "cpu_seconds": 51.857818,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/venv/bin/python",
+        "-m",
+        "smpt",
+        "-n",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/original-property.xml",
+        "--methods",
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP",
+        "--timeout",
+        "300",
+        "--show-time",
+        "--show-techniques",
+        "--show-model",
+        "--export-proof",
+        "/home/jules/experiments/pvass-publication/results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.smpt-full-portable.0.proof",
+        "--auto-reduce"
+      ],
+      "outer_timeout": true,
+      "enabled_methods": [
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP"
+      ],
+      "subprocess_error": false,
+      "formula_output": null,
+      "independent_checks": [
+        "none-external-smpt"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "smpt-original"
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "suite": "fastforward-repository-random_walk",
+      "method": "verifypn-default",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 300.21793019698816,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-234c877666484befb225c84bc12c75d2.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "137076598440",
+          "ExecMainExitTimestampMonotonic": "137376791098",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "2109669376",
+          "CPUUsageNSec": "300018288000"
+        },
+        "cpu_seconds": 300.018288,
+        "peak_memory_bytes": 2109669376,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 3406332447003,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299822675171.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "3406332447003",
+              "",
+              "instructions:u",
+              "299822675171",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1517705614153,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299822675171.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1517705614153",
+              "",
+              "cycles:u",
+              "299822675171",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299822.68,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299822675171.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299822.68",
+              "msec",
+              "task-clock:u",
+              "299822675171",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/verifypn/build-release/verifypn/bin/verifypn-linux64",
+        "-x",
+        "1",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/model.pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/original-property.xml"
+      ],
+      "formula_output": [],
+      "independent_checks": [
+        "none-external-verifypn"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "verifypn-original"
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-batched",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 192.90926128500723,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-531abec564b74ce69b1aac273a48e02d.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "137376835019",
+          "ExecMainExitTimestampMonotonic": "137569724145",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "192807159000"
+        },
+        "cpu_seconds": 192.807159,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-frozen",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 192.8689563710068,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-331abb0185ca45ad956996647fe65d20.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "137569877742",
+          "ExecMainExitTimestampMonotonic": "137762731116",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "192804192000"
+        },
+        "cpu_seconds": 192.804192,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-repeated-search-v1/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-walk",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 192.96130270897993,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-525aa5238fe7457994d270c7850e2db0.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "137762897563",
+          "ExecMainExitTimestampMonotonic": "137955837133",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "192891141000"
+        },
+        "cpu_seconds": 192.891141,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-walk",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "suite": "fastforward-repository-random_walk",
+      "method": "verifypn-default",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 300.0896763880155,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-b81e15c551764f609b5ade3d379222c9.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "137956027982",
+          "ExecMainExitTimestampMonotonic": "138256103088",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "653791232",
+          "CPUUsageNSec": "300014596000"
+        },
+        "cpu_seconds": 300.014596,
+        "peak_memory_bytes": 653791232,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 4213502913762,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299947365858.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "4213502913762",
+              "",
+              "instructions:u",
+              "299947365858",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1554653743658,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299947365858.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1554653743658",
+              "",
+              "cycles:u",
+              "299947365858",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299947.37,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299947365858.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299947.37",
+              "msec",
+              "task-clock:u",
+              "299947365858",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/verifypn/build-release/verifypn/bin/verifypn-linux64",
+        "-x",
+        "1",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/model.pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/original-property.xml"
+      ],
+      "formula_output": [],
+      "independent_checks": [
+        "none-external-verifypn"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "verifypn-original"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-batched",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 300.1629347729904,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-ac4a3793037d40458136d72e48ef48f6.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "138256139787",
+          "ExecMainExitTimestampMonotonic": "138556292223",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "1838391296",
+          "CPUUsageNSec": "300085580000"
+        },
+        "cpu_seconds": 300.08558,
+        "peak_memory_bytes": 1838391296,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 3935064476232,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299949218201.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "3935064476232",
+              "",
+              "instructions:u",
+              "299949218201",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1549583319969,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299949218201.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1549583319969",
+              "",
+              "cycles:u",
+              "299949218201",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299949.22,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299949218201.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299949.22",
+              "msec",
+              "task-clock:u",
+              "299949218201",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-frozen",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 300.1762489899993,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-316f871fd2914b619801de954b6029d2.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "138556324595",
+          "ExecMainExitTimestampMonotonic": "138856486678",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "1775538176",
+          "CPUUsageNSec": "300082330000"
+        },
+        "cpu_seconds": 300.08233,
+        "peak_memory_bytes": 1775538176,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 3868842224013,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299947894297.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "3868842224013",
+              "",
+              "instructions:u",
+              "299947894297",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1550012460311,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299947894297.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1550012460311",
+              "",
+              "cycles:u",
+              "299947894297",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299947.89,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299947894297.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299947.89",
+              "msec",
+              "task-clock:u",
+              "299947894297",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-repeated-search-v1/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "suite": "fastforward-repository-random_walk",
+      "method": "native-walk",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 300.1519617679878,
+      "exit_code": 130,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-99b533a8506b47c5bc6226ecc9b555d4.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "timeout",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "timeout",
+          "ExecMainStartTimestampMonotonic": "138856523919",
+          "ExecMainExitTimestampMonotonic": "139156661422",
+          "ExecMainCode": "1",
+          "ExecMainStatus": "130",
+          "ControlGroup": "",
+          "MemoryPeak": "1763082240",
+          "CPUUsageNSec": "300068845000"
+        },
+        "cpu_seconds": 300.068845,
+        "peak_memory_bytes": 1763082240,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": false,
+        "perf_enabled": true,
+        "perf_counters": {
+          "instructions:u": {
+            "value": 3860122415184,
+            "unit": "",
+            "observed_event": "instructions:u",
+            "event_runtime_ns": 299937311762.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "3860122415184",
+              "",
+              "instructions:u",
+              "299937311762",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "cycles:u": {
+            "value": 1550433739828,
+            "unit": "",
+            "observed_event": "cycles:u",
+            "event_runtime_ns": 299937311762.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "1550433739828",
+              "",
+              "cycles:u",
+              "299937311762",
+              "100.00",
+              "",
+              ""
+            ]
+          },
+          "task-clock": {
+            "value": 299937.31,
+            "unit": "msec",
+            "observed_event": "task-clock:u",
+            "event_runtime_ns": 299937311762.0,
+            "time_running_percent": 100.0,
+            "raw_fields": [
+              "299937.31",
+              "msec",
+              "task-clock:u",
+              "299937311762",
+              "100.00",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/original-property.xml",
+        "--property-id",
+        "reachability",
+        "--method",
+        "portfolio-walk",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "suite": "fastforward-repository-random_walk",
+      "method": "smpt-full-portable",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "wall_seconds": 16.75829695200082,
+      "exit_code": -9,
+      "capability_failures": [],
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-15d18151efc045b8876897cd57d85408.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "139156699115",
+          "ExecMainExitTimestampMonotonic": "139173322652",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "16706147000"
+        },
+        "cpu_seconds": 16.706147,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/vendor/venv/bin/python",
+        "-m",
+        "smpt",
+        "-n",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/original-property.xml",
+        "--methods",
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP",
+        "--timeout",
+        "300",
+        "--show-time",
+        "--show-techniques",
+        "--show-model",
+        "--export-proof",
+        "/home/jules/experiments/pvass-publication/results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.smpt-full-portable.0.proof",
+        "--auto-reduce"
+      ],
+      "outer_timeout": true,
+      "enabled_methods": [
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP"
+      ],
+      "subprocess_error": false,
+      "formula_output": null,
+      "independent_checks": [
+        "none-external-smpt"
+      ],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null,
+      "property_truth": null,
+      "input_mode": "smpt-original"
+    },
+    {
+      "query": "pigeonhole_p13_h12",
+      "suite": "synthetic-development",
+      "method": "native-batched",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 75.6537000759854,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-1d50c081dc8b4b19a6318fc305a16a05.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "139173480563",
+          "ExecMainExitTimestampMonotonic": "139249124184",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "75618436000"
+        },
+        "cpu_seconds": 75.618436,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/boolean-consistency-v3/pigeonhole_p13_h12/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/boolean-consistency-v3/pigeonhole_p13_h12/original-property.xml",
+        "--property-id",
+        "accepting",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    },
+    {
+      "query": "pigeonhole_p13_h12",
+      "suite": "synthetic-development",
+      "method": "native-frozen",
+      "repeat": 0,
+      "property_kind": "EF",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 75.94487537801615,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "resources": {
+        "runner": "linux-systemd-user",
+        "unit": "pvass-376b32daec0144bbbb835f69b964291d.service",
+        "cpus": [
+          8
+        ],
+        "systemd_result": "oom-kill",
+        "systemd_properties": {
+          "ActiveState": "failed",
+          "SubState": "failed",
+          "Result": "oom-kill",
+          "ExecMainStartTimestampMonotonic": "139249280057",
+          "ExecMainExitTimestampMonotonic": "139325214150",
+          "ExecMainCode": "2",
+          "ExecMainStatus": "9",
+          "ControlGroup": "",
+          "MemoryPeak": "2147483648",
+          "CPUUsageNSec": "75888237000"
+        },
+        "cpu_seconds": 75.888237,
+        "peak_memory_bytes": 2147483648,
+        "memory_limit_bytes": 2147483648,
+        "memory_limit_exceeded": true,
+        "perf_enabled": true,
+        "perf_counters": null,
+        "perf_failure": "Missing perf counters: ['cycles:u', 'instructions:u', 'task-clock']"
+      },
+      "command": [
+        "/home/jules/experiments/pvass-publication/results/linux-solver-repeated-search-v1/vass-reach",
+        "--pnml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/boolean-consistency-v3/pigeonhole_p13_h12/model.pnml",
+        "--xml",
+        "/home/jules/experiments/pvass-publication/research/hard-survivors-current-v1/corpus/../../../benchmarks/boolean-consistency-v3/pigeonhole_p13_h12/original-property.xml",
+        "--property-id",
+        "accepting",
+        "--method",
+        "portfolio-batched",
+        "--seconds",
+        "300.0",
+        "--max-states",
+        "2000000",
+        "--buffer-agglomeration"
+      ],
+      "input_mode": "rust-original-v1",
+      "independent_checks": [],
+      "branches": [],
+      "execution_attempted": true,
+      "collection_status": "imported",
+      "collection_observed": null,
+      "property_slot": null
+    }
+  ],
+  "scheduled_cells": [
+    {
+      "sequence": 1,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 2,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "method": "native-frozen",
+      "repeat": 0
+    },
+    {
+      "sequence": 3,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 4,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 5,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 6,
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "method": "native-frozen",
+      "repeat": 0
+    },
+    {
+      "sequence": 7,
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 8,
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 9,
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 10,
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 11,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 12,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 13,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 14,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 15,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "method": "native-frozen",
+      "repeat": 0
+    },
+    {
+      "sequence": 16,
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 17,
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 18,
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 19,
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "method": "native-frozen",
+      "repeat": 0
+    },
+    {
+      "sequence": 20,
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 21,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 22,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 23,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "method": "native-frozen",
+      "repeat": 0
+    },
+    {
+      "sequence": 24,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 25,
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 26,
+      "query": "pigeonhole_p13_h12",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 27,
+      "query": "pigeonhole_p13_h12",
+      "method": "native-frozen",
+      "repeat": 0
+    },
+    {
+      "sequence": 28,
+      "query": "pigeonhole_p13_h12",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 29,
+      "query": "pigeonhole_p13_h12",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 30,
+      "query": "pigeonhole_p13_h12",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 31,
+      "query": "pigeonhole_p11_h10",
+      "method": "native-frozen",
+      "repeat": 0
+    },
+    {
+      "sequence": 32,
+      "query": "pigeonhole_p11_h10",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 33,
+      "query": "pigeonhole_p11_h10",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 34,
+      "query": "pigeonhole_p11_h10",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 35,
+      "query": "pigeonhole_p11_h10",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 36,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 37,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 38,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 39,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 40,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "native-frozen",
+      "repeat": 0
+    }
+  ],
+  "missing_cells": [
+    {
+      "sequence": 28,
+      "query": "pigeonhole_p13_h12",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 29,
+      "query": "pigeonhole_p13_h12",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 30,
+      "query": "pigeonhole_p13_h12",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 31,
+      "query": "pigeonhole_p11_h10",
+      "method": "native-frozen",
+      "repeat": 0
+    },
+    {
+      "sequence": 32,
+      "query": "pigeonhole_p11_h10",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 33,
+      "query": "pigeonhole_p11_h10",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 34,
+      "query": "pigeonhole_p11_h10",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 35,
+      "query": "pigeonhole_p11_h10",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 36,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "native-walk",
+      "repeat": 0
+    },
+    {
+      "sequence": 37,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "smpt-full-portable",
+      "repeat": 0
+    },
+    {
+      "sequence": 38,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "verifypn-default",
+      "repeat": 0
+    },
+    {
+      "sequence": 39,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "native-batched",
+      "repeat": 0
+    },
+    {
+      "sequence": 40,
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "method": "native-frozen",
+      "repeat": 0
+    }
+  ],
+  "uncommitted_missing_cell_artifacts": [],
+  "retained_file_inventory": [
+    {
+      "path": "results/linux-hard-survivors-current-v2/environment.json",
+      "sha256": "2ef825831cc5b7db1250a1c94e677f0eacc673efbde8873e354c064ee94eea84",
+      "bytes": 21557
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.native-batched.0.rust-original.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.native-batched.0.rust-original.json.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.native-batched.0.rust-original.json.systemd.json",
+      "sha256": "97e3233dfa575acfb7ad748e7f993b68dd1ff05617f8b425dab0ed8f24aa2456",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.native-frozen.0.rust-original.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.native-frozen.0.rust-original.json.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.native-frozen.0.rust-original.json.systemd.json",
+      "sha256": "3719455cd887ef033a841657bcab70d7f27f4e726e93ce763dff622b0a5db368",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.native-walk.0.rust-original.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.native-walk.0.rust-original.json.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.native-walk.0.rust-original.json.systemd.json",
+      "sha256": "03087e00a76579f5b5aba308b4ff936471f4391e380eeec28961e905ade064ab",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.smpt-full-portable.0.log",
+      "sha256": "90fba8226d48aadc3357c502384b4d200719868864402e3959407a3dde5936ee",
+      "bytes": 52
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.smpt-full-portable.0.log.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.smpt-full-portable.0.log.systemd.json",
+      "sha256": "42eff78b7b8fee80165263f6282ece5ceae301b0487adf97d5c7bad5170668e4",
+      "bytes": 316
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.verifypn-default.0.log",
+      "sha256": "a94055586b460f2d154d2cf24c0545ec94195ac62e44dc3035206c9f884dff28",
+      "bytes": 12703
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.verifypn-default.0.log.perf.csv",
+      "sha256": "96bf31b48ea1f273c0caa62fc10c2042ae46a88da87fba9026deecbfbe4851ce",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6.verifypn-default.0.log.systemd.json",
+      "sha256": "caf7722fa26bf8dd93c2b1e3aaafe5873a442eac8423ee5055b7fea3f92aa6ce",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.native-batched.0.rust-original.json",
+      "sha256": "2135b5e8a64502778fb181a3b96f9f9343770fc5fc65d50378305f6d1a14bd30",
+      "bytes": 100
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.native-batched.0.rust-original.json.perf.csv",
+      "sha256": "efa54853264489ff0b997232299f7db8fb3195ebd032f835f8e56122cc64f9b3",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.native-batched.0.rust-original.json.systemd.json",
+      "sha256": "a853a1cbc9454cb4c39e8ac4835ec410a931c0bc7faf1b1ccdd8d21bd8b4f8ca",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.native-frozen.0.rust-original.json",
+      "sha256": "dfd44dd458d001e185ada30983e022b1b69efd88c3cdaa2e31c822ef9ff1383e",
+      "bytes": 104
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.native-frozen.0.rust-original.json.perf.csv",
+      "sha256": "49618f6d395e9cfc6f345e3dc462de743cedd88ad2efcdd1ced692462cbc0ef6",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.native-frozen.0.rust-original.json.systemd.json",
+      "sha256": "4ae379ed9d72fec01a9bf88f76e2885a146cdcdedd2edf61e017591e13fdd6f7",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.native-walk.0.rust-original.json",
+      "sha256": "2135b5e8a64502778fb181a3b96f9f9343770fc5fc65d50378305f6d1a14bd30",
+      "bytes": 100
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.native-walk.0.rust-original.json.perf.csv",
+      "sha256": "c48964a86f8761f69c2b5d6a661d9311a1f2c4f9242b51cca985fb2a2773eb49",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.native-walk.0.rust-original.json.systemd.json",
+      "sha256": "c0bb2f4a2087fb6c74cf329d6b52647cb08e1adea6a4ab5dc45cc8f82723abd3",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.smpt-full-portable.0.log",
+      "sha256": "e9154c68eb08f3f0a10dd413243594ce877b282512d5e1dab9a1a7474de729ac",
+      "bytes": 52
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.smpt-full-portable.0.log.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.smpt-full-portable.0.log.systemd.json",
+      "sha256": "2992e4ca40f027b0aa592befd2a8446cd2cd2b20833fbfd081233628817343e5",
+      "bytes": 316
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.verifypn-default.0.log",
+      "sha256": "c1e6f63b3082b8693544e92ae1dccd4944a7c98ee4be047414b3fe6c7a330674",
+      "bytes": 77229
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.verifypn-default.0.log.perf.csv",
+      "sha256": "5394b370c435f868e2afa6f67a705b07a1bf4e91902e4cc91ad7dd6eceefb5e9",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764.verifypn-default.0.log.systemd.json",
+      "sha256": "121071df947e86cb0d7aa1265a33d101ca5dc02d757b8e4bea2dccf0c4a885a2",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.native-batched.0.rust-original.json",
+      "sha256": "2135b5e8a64502778fb181a3b96f9f9343770fc5fc65d50378305f6d1a14bd30",
+      "bytes": 100
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.native-batched.0.rust-original.json.perf.csv",
+      "sha256": "a4d72e4e2a233a912022062599990f2431e4b48edaaab04b7d8c759bedb3cfbf",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.native-batched.0.rust-original.json.systemd.json",
+      "sha256": "27396d6e86c96be6610baf8ae5ce9a4a5280cfd0c6ccc1934986cdcd30ea6a2e",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.native-frozen.0.rust-original.json",
+      "sha256": "dfd44dd458d001e185ada30983e022b1b69efd88c3cdaa2e31c822ef9ff1383e",
+      "bytes": 104
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.native-frozen.0.rust-original.json.perf.csv",
+      "sha256": "8c8be45146dbf45ce6f9d5aff93af36dafd3262f2f97dc74a82af53258eab161",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.native-frozen.0.rust-original.json.systemd.json",
+      "sha256": "7f5019afda4d5aa0d376294b1c019fe81edc8e6c11a991839475106a1869a9f0",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.native-walk.0.rust-original.json",
+      "sha256": "2135b5e8a64502778fb181a3b96f9f9343770fc5fc65d50378305f6d1a14bd30",
+      "bytes": 100
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.native-walk.0.rust-original.json.perf.csv",
+      "sha256": "b89508df78775452a4bc93d07439436efd5942c749ef6b5648e301210b7052dc",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.native-walk.0.rust-original.json.systemd.json",
+      "sha256": "19ca9d02d71d584f95edd10ef93156dad7197a83ac2a84f9fb10bc71b6f731c8",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.smpt-full-portable.0.log",
+      "sha256": "f35d03d003ebb9ae845d9cab120e37b241a29ba233c394c18ef7e947195316e5",
+      "bytes": 52
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.smpt-full-portable.0.log.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.smpt-full-portable.0.log.systemd.json",
+      "sha256": "8e7902f988313a6bbd8dfd26cf124a6b0003d68d8725fa0620dba9a2f0e229d0",
+      "bytes": 316
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.verifypn-default.0.log",
+      "sha256": "e7fd8c0d9ecaa69111ff91552ded2b757e82615ba650a117024ed310902efade",
+      "bytes": 77719
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.verifypn-default.0.log.perf.csv",
+      "sha256": "490df8613336da772210b0c146cd4c6074bd232d4d5713e48fcd5bc54052c4dd",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f.verifypn-default.0.log.systemd.json",
+      "sha256": "dc4791cd3e61eb00f789908ae5634e3817f8de4b1def045bdd9c6d8efb33d37e",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.native-batched.0.rust-original.json",
+      "sha256": "2135b5e8a64502778fb181a3b96f9f9343770fc5fc65d50378305f6d1a14bd30",
+      "bytes": 100
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.native-batched.0.rust-original.json.perf.csv",
+      "sha256": "6b1fb60068b1733b57548b2e756455133c339557a20dfb39b97888e5300010f6",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.native-batched.0.rust-original.json.systemd.json",
+      "sha256": "2df44c9d69474f4aa0cd14a7e81580fbc619518cee0ff0e1538f208063340ab6",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.native-frozen.0.rust-original.json",
+      "sha256": "dfd44dd458d001e185ada30983e022b1b69efd88c3cdaa2e31c822ef9ff1383e",
+      "bytes": 104
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.native-frozen.0.rust-original.json.perf.csv",
+      "sha256": "4532c67d60169f6bc6d7c2181de03c0cf42e18b0559e4b1f1c6adcdcbe9baa91",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.native-frozen.0.rust-original.json.systemd.json",
+      "sha256": "0681d97b5952e33dea8a1c3a0bb46d27ff0c3fb7af235b352ef03214c7183e6d",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.native-walk.0.rust-original.json",
+      "sha256": "2135b5e8a64502778fb181a3b96f9f9343770fc5fc65d50378305f6d1a14bd30",
+      "bytes": 100
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.native-walk.0.rust-original.json.perf.csv",
+      "sha256": "0ed76db4cc446d264f01d452114d2a00f14c4f6ad97fbd946e427895fab50002",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.native-walk.0.rust-original.json.systemd.json",
+      "sha256": "8aeb00e792b8425d17a21b6b8f5708be4a8e4115760469776150f584a5567a37",
+      "bytes": 318
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.smpt-full-portable.0.log",
+      "sha256": "aa03b5481ea1be151ccb951f639edd9080250360e4a94c01815f1874d56b1750",
+      "bytes": 52
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.smpt-full-portable.0.log.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.smpt-full-portable.0.log.systemd.json",
+      "sha256": "1a36c27eabac69bfad93dd69c35555c0ca3b73a28e5c8f925b9126bd6de5b6d7",
+      "bytes": 316
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.verifypn-default.0.log",
+      "sha256": "36aff51f932b77a56e78f9daeaa4307957b6162066cbe2e5b035bdee7d3bcd16",
+      "bytes": 77276
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.verifypn-default.0.log.perf.csv",
+      "sha256": "bad560ebb6590d0e44ec058425350e632ae0d647337347db5158ec163a06622b",
+      "bytes": 187
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807.verifypn-default.0.log.systemd.json",
+      "sha256": "d103c165dc4b7da12bb8e2bec633a533ec5bc7925089cc3c5915f0c02e8454a4",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.native-batched.0.rust-original.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.native-batched.0.rust-original.json.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.native-batched.0.rust-original.json.systemd.json",
+      "sha256": "a0e97fee3fa9051a80b10870c95d471d8b90e33d06cc48802401a59605741581",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.native-frozen.0.rust-original.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.native-frozen.0.rust-original.json.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.native-frozen.0.rust-original.json.systemd.json",
+      "sha256": "80eee8149d4ecbc985da0453e312da9cb06760959f0dc91c35a04fde2da65070",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.native-walk.0.rust-original.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.native-walk.0.rust-original.json.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.native-walk.0.rust-original.json.systemd.json",
+      "sha256": "407c439d2a78b0a6c7dd07e6a6f1b48e50d01a67669c9444876e2f4b450ea938",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.smpt-full-portable.0.log",
+      "sha256": "1342f7adc2ad08bc4d9024787fceedfa8a67b799c33b68161eec6510272f120d",
+      "bytes": 52
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.smpt-full-portable.0.log.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.smpt-full-portable.0.log.systemd.json",
+      "sha256": "05483358751f65e0d6af045edff39d15f4609fefe631eb493ca3d329b74d2a2a",
+      "bytes": 316
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.verifypn-default.0.log",
+      "sha256": "baf9224f0679b9fff509202dec48005dc88bae9deb84e357587253775cd4d5a4",
+      "bytes": 6986
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.verifypn-default.0.log.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f.verifypn-default.0.log.systemd.json",
+      "sha256": "66791e471502ed6396cebbd742dd3079f62ae286394399579256701a26cb9abd",
+      "bytes": 317
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/pigeonhole_p13_h12.native-batched.0.rust-original.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/pigeonhole_p13_h12.native-batched.0.rust-original.json.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/pigeonhole_p13_h12.native-batched.0.rust-original.json.systemd.json",
+      "sha256": "dd2c41d770b513bc924e241f9b727d8a0d2e22bff7a9b5022ccd63ac4ecee911",
+      "bytes": 316
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/pigeonhole_p13_h12.native-frozen.0.rust-original.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/pigeonhole_p13_h12.native-frozen.0.rust-original.json.perf.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/pigeonhole_p13_h12.native-frozen.0.rust-original.json.systemd.json",
+      "sha256": "65bf034a78d152487ab9fdaf34de25005b17b9ab6b84009dfd5f219b660c5238",
+      "bytes": 316
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/benchmark.py",
+      "sha256": "60e684f25ef6b39993f268aacb6a0a295ef7d37d61cd011c3ec77ff2233257f8",
+      "bytes": 29242
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/benchmark_smpt_classic.py",
+      "sha256": "b474c3e905b641fe678aea08d1ccec667f45ef2352cf01222a338eeed7e81056",
+      "bytes": 37957
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/bounded_token_cut_checker.py",
+      "sha256": "a333f3429a4bda272715ac84f8529191b4bf406e871a6dbfbe27df0a82a48e60",
+      "bytes": 2663
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/bounded_validation.py",
+      "sha256": "10418247ee4159c58d4356d5ea4f97e6d6349b11345d20b213b7d5db7d71e228",
+      "bytes": 9005
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/buffer_agglomeration_checker.py",
+      "sha256": "199c7b045aedd4cbeb4ae3019aa649585adc0412749886feada1c52d5a16b536",
+      "bytes": 10085
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/dag_checker.py",
+      "sha256": "b72e8a9c1dd0ce97fe704df748f15580e5794f32548a98de9735f561fc70cdf9",
+      "bytes": 16659
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/finite_token_cut_checker.py",
+      "sha256": "92ea2c1915a9970347f96171fa20180c3a877f4f8c95ce189bb6a017e7993859",
+      "bytes": 10445
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/kreach_adapter.py",
+      "sha256": "8b26fd5749c06f27b75d31418e89279de3d2e8fd573433032805465702979045",
+      "bytes": 4204
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/lazy_token_cut_checker.py",
+      "sha256": "ba43a0d1c1cab49550e807e89a8df7c7ea0c950cb41cc8a01f12df1f0b0b046b",
+      "bytes": 6533
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/linux_runner.py",
+      "sha256": "413475025b17beaa5a027c6e3495c8dfb0f4898d5e95a79c0f5fe5ad48db5504",
+      "bytes": 9095
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/local_closure_checker.py",
+      "sha256": "6e53c37d43a6dcb76b543ec81cf826770ed5c97a0d6027eecca7a5ac984694b1",
+      "bytes": 2698
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/native_original.py",
+      "sha256": "5d6275a96865a56c7a740768e0db862b254d5f91f3e4d1206c0713efd528c1c8",
+      "bytes": 4081
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/process_runner.py",
+      "sha256": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+      "bytes": 4691
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/relevance_checker.py",
+      "sha256": "0c2d6f867b0809a0f17187d6fb7bba5981ad2f88e560fd875549ca085377603b",
+      "bytes": 6641
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/requirements.txt",
+      "sha256": "01b99c930705a074d54f6c45dc2de953aadc78d47906fa13d538946d062903af",
+      "bytes": 49
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/rust_original_validation.py",
+      "sha256": "09a247de7c2dbf95895292b8932e4172625f4a6cf432854cdc03a5e763af3fb9",
+      "bytes": 5839
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/smpt_import.py",
+      "sha256": "ce7e9db6a5b6e4deb5453271433ad3337fd36229bf4b7e325cdf217a8ac96c90",
+      "bytes": 10721
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/target_path_potential_checker.py",
+      "sha256": "a0f9464fc08fa4958264ca985a0303552cf7b4b839ef965ef8a4e42d3a24f500",
+      "bytes": 6257
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/target_zero_trap_checker.py",
+      "sha256": "15e23110138ab55a2b245608c85cc7b59e7b0efeb61ac31a7fe21d05e75a105a",
+      "bytes": 7323
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/token_cut_checker.py",
+      "sha256": "d6667df9c6e6900b27886de8169835736345779389d85d244eb6b6241bd68d1c",
+      "bytes": 5416
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/token_moment_checker.py",
+      "sha256": "a42b8367bae56f40da01d723efd504bedbb06cb3905ced5672038ac503c6e027",
+      "bytes": 6894
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runner-source/verifypn_runner.py",
+      "sha256": "ac4c9ee1d11804ae754f6b5e9b62a26994e4f35613fc4574614b6ff28b55720a",
+      "bytes": 3372
+    },
+    {
+      "path": "results/linux-hard-survivors-current-v2/runs.jsonl",
+      "sha256": "cf13442825fd561dae7c2adb9e53f8223f8160cac8fb8426ce3a47fafb80dc50",
+      "bytes": 61059
+    }
+  ],
+  "parent_plan_metadata_caveats": {
+    "expected_solver_invocations": 3200,
+    "kind_preserving_representatives": 630,
+    "reporting": "Keep656planned/640imported/629ordered-branch and630kind-preserving denominators, both parent cohorts and every family/failure. Native answers independently checked; competitors tool-reported. One seeded repetition is exploratory."
+  },
+  "scope": "Overall experiment remains incomplete. Available rows retain original resource/command/proof-response checks from unchanged full auditor. Proof checkers are not rerun; no recorded definitive verdict currently needs proof revalidation. Missing cells are unmeasured, never Unknown. Environment-reported competitor binary identities are not independently fetched. Preserve original 620/69/8 parent denominators; three inherited ordinary-cohort plan fields are stale and are retained verbatim. No uninterrupted-run equivalence or superiority claim.",
+  "verdict_counts_by_method": {
+    "native-batched": {
+      "unknown": 6
+    },
+    "native-frozen": {
+      "unknown": 6
+    },
+    "native-walk": {
+      "unknown": 5
+    },
+    "smpt-full-portable": {
+      "unknown": 5
+    },
+    "verifypn-default": {
+      "unknown": 5
+    }
+  },
+  "audit_source_sha256": {
+    "research/hard-survivors-current-v2/audit-interrupted.py": "e4a9c72d76c6491d5e79be9eb61ca9a42d9f4892b3a1bfb4aeea96ebd6538cd4",
+    "research/audit-linux-application-expansion-v2.py": "b9987e459b6a63e639e809a668c2c8df6ebd021c732e9afee86e382cf756738e"
+  },
+  "evidence_sha256": {
+    "research/hard-survivors-current-v2/terminal.json": "315e302090a1a2465cd88cc3d981a9f1d0ac064035ec84318f82e21cc511dc9b",
+    "research/hard-survivors-current-v2/stopped-observation.json": "b75104251e74de2439f0f193cff9704026fd1466ed1b985147192dc2a30c2eb6",
+    "research/hard-survivors-current-v2/collection.json": "ac438d96bfbc810d2f3632acfe1fe5a4a28e03e1de2595e59ebd9bf45c02e646",
+    "results/linux-hard-survivors-current-v2/runs.jsonl": "cf13442825fd561dae7c2adb9e53f8223f8160cac8fb8426ce3a47fafb80dc50"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "seconds": 2,
+  "repeat": 1,
+  "methods": [
+    "bfs",
+    "best-first",
+    "state-equation",
+    "integer-state-equation",
+    "marked-traps",
+    "support",
+    "klm-schemes",
+    "portfolio-old",
+    "portfolio",
+    "smpt"
+  ],
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "z3": "Z3 version 5.1.0 - 64 bit",
+  "comparison": "Sequential backend-only cold process wall time; no frontend or frontend proof validation. Native witness/Farkas verification included internally. SMPT exports proofs.",
+  "queries": 218,
+  "binary_sha256": "8a788da0782cbfa7991359875d8f7125fd77f3f5fdb60735c7b589816fef94b5",
+  "source_sha256": {
+    "src/input.rs": "35ecb9962118da97aded81344d8adcf8f2bf5e594337986e73329a3a051222ee",
+    "src/integer_equation.rs": "f48591b60baf780122669f991ee4ec2ab2d24fa9e2e458dae6cd9a7de32adfcf",
+    "src/klmst.rs": "6ddabf96e4bd6023ebb58d4db754b4cbcc1aa66ac16c3c383557f34a29355475",
+    "src/lib.rs": "217122dcd9227aff70cf0edd3a41010cf7a6beca515638c35e8f33fc19b10e8c",
+    "src/main.rs": "eb8cc904b3322e483823a9f3447f891e64fc97ac086c2a1f4c0d4b427cebd540",
+    "src/model.rs": "23593ab73c6f422dc5b799c56c779c9e5e9022b794dfa7755ff79023ddb4af86",
+    "src/search.rs": "d3918ac2d4060c665a04c5226599e8d7321e004b1584233e48c1363f03dd0a01",
+    "src/state_equation.rs": "24a90e432bc6197b88dc6534780cd996555b70fd8fd135cc2de18f46040850e3",
+    "src/structural.rs": "0cd39ef06b4c0fd89307b63b788fdf458da69f9d2ba1a21f3d8b961dd67c44e5"
+  },
+  "load_at_start": [
+    29.51708984375,
+    32.68408203125,
+    34.43798828125
+  ],
+  "timing_note": "Other user compiler workloads were active during this session; wall timings are exploratory, not isolated-machine measurements."
+}

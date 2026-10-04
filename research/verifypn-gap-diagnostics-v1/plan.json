@@ -1,0 +1,23 @@
+{
+  "scope": "Exploratory per-branch diagnostics; not a fair whole-property comparison.",
+  "binary": "/Users/julesjacobs/git/git/pvass/results/solver-walk-sparse-v1/vass-reach",
+  "binary_sha256": "b871e709d8f104f47b7af09f6dcc10da794859b68191c6765ebd945a25f52413",
+  "inputs": {
+    "benchmarks/general-development-v3/CloudReconfiguration-PT-311__RC06/branch-0.json": "b807734d0f01880645a3aebaa8b7fa591dd8af8c04945899eea7500aaab08968",
+    "benchmarks/general-development-v3/CloudReconfiguration-PT-311__RC06/branch-1.json": "b956af2aa1b69d5b61c1b0b615397eca7b29af1425d6b89cd626073b34b4990a",
+    "benchmarks/general-development-v3/RefineWMG-PT-100101__RC11/branch-0.json": "7e6fd1d4f740d5b951b746e844349aa705892874edaefe33dd118af35356e32c",
+    "benchmarks/general-development-v3/RefineWMG-PT-100101__RC11/branch-1.json": "38feec0b12328bb35f76fa3119c0b44ad587d42962056ac25b737feb8787583d",
+    "benchmarks/general-development-v3/RefineWMG-PT-100101__RC11/branch-2.json": "c6f824b55d3fadbdcc64f81129ccd7c33e90c6bcb677d65123248c269661a39d",
+    "benchmarks/general-development-v3/RefineWMG-PT-100101__RC11/branch-3.json": "df1bb7fe4e5bca5738e06c79dbf84cf190b64a29344d0f8b28e5b3f806af629f",
+    "benchmarks/general-development-v3/RefineWMG-PT-100101__RC11/branch-4.json": "bf0402c8e2cf72b95fa6a0be0266f56fbe34b16e89df3793e178d27e452d3747",
+    "benchmarks/general-development-v3/RefineWMG-PT-100101__RC11/branch-5.json": "9a109cdb0f5e8e9a93f0bd7d75ef89cbd16fc2529289d4d2ffc16baea7eb2989"
+  },
+  "methods": [
+    "portfolio-walk",
+    "sparse-count-plan"
+  ],
+  "seconds_per_branch": 2,
+  "outer_seconds": 2.2,
+  "memory_bytes": 2147483648,
+  "checker_seconds": 30
+}

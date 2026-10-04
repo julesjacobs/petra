@@ -1,0 +1,1036 @@
+{
+  "format": "mcc-stress-selection-v1",
+  "status": "selection-only; acquisition and solver execution not performed",
+  "selection": "Use the five original application-development families FMS, DatabaseWithMutex, RwMutex, SharedMemory, TokenRing. Preserve source-index order and deduplicate names at first occurrence. Within each family select every indexed instance strictly after its largest previously selected development ordinal in the four recorded selection files. Keep all 16 ReachabilityCardinality slots per model, regardless of acquisition/import or solver outcome. No model/property payload or solver result informs instance selection. Later ordinal or larger name parameter is not verified hardness.",
+  "source": "https://yanntm.github.io/pnmcc-models-2021/",
+  "index_path": "vendor/mcc2021/index.html",
+  "index_sha256": "58b01d6b01987ef8b4d8fada40b5d392913eb9e3e2fd6ab5dfceded4fbb5fe3f",
+  "prior_selections": {
+    "benchmarks/mcc-selection.json": "47639889ad5aa46acd50ab9681f1c25454eeff10a664fe1ff8b673aea97b423c",
+    "benchmarks/publication-selection.json": "9dc8baf28450abdc3ee409b941c6589a42e0731c712f769a7fb5c7405b1c58fd",
+    "benchmarks/stress-selection.json": "7b98693f3f153a608b3df6ff229f5418352031657ddfe1a090169602fb586306",
+    "benchmarks/application-expansion-v1-selection.json": "65524b6d4faeebd2b5243986a23cac23ce59dec3668a60988d82d917302507d5"
+  },
+  "reserved_selection": {
+    "path": "benchmarks/reserved-evaluation-v2.json",
+    "sha256": "d7ae4dd2d55f9bda15f0ea4ef3da26c52da468883122491cb20fd4971560abe9"
+  },
+  "reserved_families_excluded": [
+    "AirplaneLD",
+    "Angiogenesis",
+    "BusinessProcesses",
+    "CloudDeployment",
+    "DES",
+    "Diffusion2D",
+    "ERK",
+    "HirschbergSinclair",
+    "Kanban",
+    "LamportFastMutEx",
+    "LeafsetExtension",
+    "ParamProductionCell",
+    "Peterson",
+    "Philosophers",
+    "Raft",
+    "ResAllocation",
+    "ShieldPPPs",
+    "SmartHome",
+    "Sudoku",
+    "SwimmingPool",
+    "TCPcondis",
+    "TwoPhaseLocking"
+  ],
+  "expected_models": 29,
+  "expected_properties": 464,
+  "property_slots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "denominator": {
+    "indexed_instances_in_selected_families": 44,
+    "prior_selected_models": 10,
+    "earlier_unselected_models": 5,
+    "eligible_and_selected_models": 29,
+    "planned_property_slots": 464
+  },
+  "family_decisions": [
+    {
+      "family": "FMS",
+      "published_instances": 14,
+      "previous_names": [
+        "FMS-PT-00002",
+        "FMS-PT-00010"
+      ],
+      "previous_max_ordinal": 3,
+      "indexed_instances": [
+        {
+          "name": "FMS-PT-00002",
+          "published_ordinal": 1,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "FMS-PT-00005",
+          "published_ordinal": 2,
+          "decision": "earlier-ordinal-excluded"
+        },
+        {
+          "name": "FMS-PT-00010",
+          "published_ordinal": 3,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "FMS-PT-00020",
+          "published_ordinal": 4,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-00050",
+          "published_ordinal": 5,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-00100",
+          "published_ordinal": 6,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-00200",
+          "published_ordinal": 7,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-00500",
+          "published_ordinal": 8,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-01000",
+          "published_ordinal": 9,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-02000",
+          "published_ordinal": 10,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-05000",
+          "published_ordinal": 11,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-10000",
+          "published_ordinal": 12,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-20000",
+          "published_ordinal": 13,
+          "decision": "selected"
+        },
+        {
+          "name": "FMS-PT-50000",
+          "published_ordinal": 14,
+          "decision": "selected"
+        }
+      ],
+      "eligible_models": 11,
+      "selected_ordinals": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "expected_properties": 176
+    },
+    {
+      "family": "DatabaseWithMutex",
+      "published_instances": 5,
+      "previous_names": [
+        "DatabaseWithMutex-PT-02",
+        "DatabaseWithMutex-PT-10"
+      ],
+      "previous_max_ordinal": 3,
+      "indexed_instances": [
+        {
+          "name": "DatabaseWithMutex-PT-02",
+          "published_ordinal": 1,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "DatabaseWithMutex-PT-04",
+          "published_ordinal": 2,
+          "decision": "earlier-ordinal-excluded"
+        },
+        {
+          "name": "DatabaseWithMutex-PT-10",
+          "published_ordinal": 3,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "DatabaseWithMutex-PT-20",
+          "published_ordinal": 4,
+          "decision": "selected"
+        },
+        {
+          "name": "DatabaseWithMutex-PT-40",
+          "published_ordinal": 5,
+          "decision": "selected"
+        }
+      ],
+      "eligible_models": 2,
+      "selected_ordinals": [
+        4,
+        5
+      ],
+      "expected_properties": 32
+    },
+    {
+      "family": "RwMutex",
+      "published_instances": 12,
+      "previous_names": [
+        "RwMutex-PT-r0010w0010",
+        "RwMutex-PT-r0010w0050"
+      ],
+      "previous_max_ordinal": 3,
+      "indexed_instances": [
+        {
+          "name": "RwMutex-PT-r0010w0010",
+          "published_ordinal": 1,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "RwMutex-PT-r0010w0020",
+          "published_ordinal": 2,
+          "decision": "earlier-ordinal-excluded"
+        },
+        {
+          "name": "RwMutex-PT-r0010w0050",
+          "published_ordinal": 3,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "RwMutex-PT-r0010w0100",
+          "published_ordinal": 4,
+          "decision": "selected"
+        },
+        {
+          "name": "RwMutex-PT-r0010w0500",
+          "published_ordinal": 5,
+          "decision": "selected"
+        },
+        {
+          "name": "RwMutex-PT-r0010w1000",
+          "published_ordinal": 6,
+          "decision": "selected"
+        },
+        {
+          "name": "RwMutex-PT-r0010w2000",
+          "published_ordinal": 7,
+          "decision": "selected"
+        },
+        {
+          "name": "RwMutex-PT-r0020w0010",
+          "published_ordinal": 8,
+          "decision": "selected"
+        },
+        {
+          "name": "RwMutex-PT-r0100w0010",
+          "published_ordinal": 9,
+          "decision": "selected"
+        },
+        {
+          "name": "RwMutex-PT-r0500w0010",
+          "published_ordinal": 10,
+          "decision": "selected"
+        },
+        {
+          "name": "RwMutex-PT-r1000w0010",
+          "published_ordinal": 11,
+          "decision": "selected"
+        },
+        {
+          "name": "RwMutex-PT-r2000w0010",
+          "published_ordinal": 12,
+          "decision": "selected"
+        }
+      ],
+      "eligible_models": 9,
+      "selected_ordinals": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "expected_properties": 144
+    },
+    {
+      "family": "SharedMemory",
+      "published_instances": 6,
+      "previous_names": [
+        "SharedMemory-PT-000005",
+        "SharedMemory-PT-000020"
+      ],
+      "previous_max_ordinal": 3,
+      "indexed_instances": [
+        {
+          "name": "SharedMemory-PT-000005",
+          "published_ordinal": 1,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "SharedMemory-PT-000010",
+          "published_ordinal": 2,
+          "decision": "earlier-ordinal-excluded"
+        },
+        {
+          "name": "SharedMemory-PT-000020",
+          "published_ordinal": 3,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "SharedMemory-PT-000050",
+          "published_ordinal": 4,
+          "decision": "selected"
+        },
+        {
+          "name": "SharedMemory-PT-000100",
+          "published_ordinal": 5,
+          "decision": "selected"
+        },
+        {
+          "name": "SharedMemory-PT-000200",
+          "published_ordinal": 6,
+          "decision": "selected"
+        }
+      ],
+      "eligible_models": 3,
+      "selected_ordinals": [
+        4,
+        5,
+        6
+      ],
+      "expected_properties": 48
+    },
+    {
+      "family": "TokenRing",
+      "published_instances": 7,
+      "previous_names": [
+        "TokenRing-PT-005",
+        "TokenRing-PT-015"
+      ],
+      "previous_max_ordinal": 3,
+      "indexed_instances": [
+        {
+          "name": "TokenRing-PT-005",
+          "published_ordinal": 1,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "TokenRing-PT-010",
+          "published_ordinal": 2,
+          "decision": "earlier-ordinal-excluded"
+        },
+        {
+          "name": "TokenRing-PT-015",
+          "published_ordinal": 3,
+          "decision": "prior-selection"
+        },
+        {
+          "name": "TokenRing-PT-020",
+          "published_ordinal": 4,
+          "decision": "selected"
+        },
+        {
+          "name": "TokenRing-PT-030",
+          "published_ordinal": 5,
+          "decision": "selected"
+        },
+        {
+          "name": "TokenRing-PT-040",
+          "published_ordinal": 6,
+          "decision": "selected"
+        },
+        {
+          "name": "TokenRing-PT-050",
+          "published_ordinal": 7,
+          "decision": "selected"
+        }
+      ],
+      "eligible_models": 4,
+      "selected_ordinals": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "expected_properties": 64
+    }
+  ],
+  "models": [
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-00020",
+      "published_ordinal": 4,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-00020.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 20
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-00050",
+      "published_ordinal": 5,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-00050.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 50
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-00100",
+      "published_ordinal": 6,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-00100.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 100
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-00200",
+      "published_ordinal": 7,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-00200.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 200
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-00500",
+      "published_ordinal": 8,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-00500.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 500
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-01000",
+      "published_ordinal": 9,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-01000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 1000
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-02000",
+      "published_ordinal": 10,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-02000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 2000
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-05000",
+      "published_ordinal": 11,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-05000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 5000
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-10000",
+      "published_ordinal": 12,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-10000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 10000
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-20000",
+      "published_ordinal": 13,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-20000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 20000
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "name": "FMS-PT-50000",
+      "published_ordinal": 14,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-50000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 50000
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "DatabaseWithMutex",
+      "family_group": "DatabaseWithMutex",
+      "name": "DatabaseWithMutex-PT-20",
+      "published_ordinal": 4,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DatabaseWithMutex-PT-20.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 20
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "DatabaseWithMutex",
+      "family_group": "DatabaseWithMutex",
+      "name": "DatabaseWithMutex-PT-40",
+      "published_ordinal": 5,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DatabaseWithMutex-PT-40.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 40
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "name": "RwMutex-PT-r0010w0100",
+      "published_ordinal": 4,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r0010w0100.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "r": 10,
+        "w": 100
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "name": "RwMutex-PT-r0010w0500",
+      "published_ordinal": 5,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r0010w0500.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "r": 10,
+        "w": 500
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "name": "RwMutex-PT-r0010w1000",
+      "published_ordinal": 6,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r0010w1000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "r": 10,
+        "w": 1000
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "name": "RwMutex-PT-r0010w2000",
+      "published_ordinal": 7,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r0010w2000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "r": 10,
+        "w": 2000
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "name": "RwMutex-PT-r0020w0010",
+      "published_ordinal": 8,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r0020w0010.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "r": 20,
+        "w": 10
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "name": "RwMutex-PT-r0100w0010",
+      "published_ordinal": 9,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r0100w0010.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "r": 100,
+        "w": 10
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "name": "RwMutex-PT-r0500w0010",
+      "published_ordinal": 10,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r0500w0010.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "r": 500,
+        "w": 10
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "name": "RwMutex-PT-r1000w0010",
+      "published_ordinal": 11,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r1000w0010.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "r": 1000,
+        "w": 10
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "name": "RwMutex-PT-r2000w0010",
+      "published_ordinal": 12,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r2000w0010.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "r": 2000,
+        "w": 10
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "SharedMemory",
+      "family_group": "SharedMemory",
+      "name": "SharedMemory-PT-000050",
+      "published_ordinal": 4,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/SharedMemory-PT-000050.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 50
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "SharedMemory",
+      "family_group": "SharedMemory",
+      "name": "SharedMemory-PT-000100",
+      "published_ordinal": 5,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/SharedMemory-PT-000100.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 100
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "SharedMemory",
+      "family_group": "SharedMemory",
+      "name": "SharedMemory-PT-000200",
+      "published_ordinal": 6,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/SharedMemory-PT-000200.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 200
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "TokenRing",
+      "family_group": "TokenRing",
+      "name": "TokenRing-PT-020",
+      "published_ordinal": 4,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TokenRing-PT-020.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 20
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "TokenRing",
+      "family_group": "TokenRing",
+      "name": "TokenRing-PT-030",
+      "published_ordinal": 5,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TokenRing-PT-030.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 30
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "TokenRing",
+      "family_group": "TokenRing",
+      "name": "TokenRing-PT-040",
+      "published_ordinal": 6,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TokenRing-PT-040.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 40
+      },
+      "prior_metadata_exact_name_matches": []
+    },
+    {
+      "family": "TokenRing",
+      "family_group": "TokenRing",
+      "name": "TokenRing-PT-050",
+      "published_ordinal": 7,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TokenRing-PT-050.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality",
+      "name_parameters": {
+        "name_suffix": 50
+      },
+      "prior_metadata_exact_name_matches": []
+    }
+  ],
+  "prior_metadata_inventory": [
+    {
+      "path": "benchmarks/application-expansion-v1/manifest.json",
+      "sha256": "3317f2804f7bd74719c64b9d4bb5e9fe8e60eb1a177c5a45c80723ba01416e81",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/application-expansion-v1/selection.json",
+      "sha256": "65524b6d4faeebd2b5243986a23cac23ce59dec3668a60988d82d917302507d5",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/application-expansion-v1-selection.json",
+      "sha256": "65524b6d4faeebd2b5243986a23cac23ce59dec3668a60988d82d917302507d5",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/application-gaps-v1/manifest.json",
+      "sha256": "fac7da5e99e2262b8cf8002357ede8fb79751328b47f851c47e169d71f983a9a",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/application-gaps-v2/manifest.json",
+      "sha256": "c12aba553b29a980584254a039bd2e79b84f6ce900a8492934bd1a5062def48e",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/boolean-consistency-v1/manifest.json",
+      "sha256": "ab43fc86263687f0bbf6b8d1ceb429ea453cacfbf020b45e6b9955556514f855",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/boolean-consistency-v2/manifest.json",
+      "sha256": "dec15941f17a88ed9db81afea822bc932f61ec26c971958bd1b002338b3fb272",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/boolean-consistency-v3/manifest.json",
+      "sha256": "50b53daf62789dd363822781ecf9630641e6752d5b66ea1cf7c7c139cbe45ae0",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/candidate-challenges-v1/manifest.json",
+      "sha256": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/diverse-ser-programs-v1/manifest.json",
+      "sha256": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/diverse-ser-scaling-v1/manifest.json",
+      "sha256": "9bdd71d5bcb810d3b38611723512f2e5c01769ebc21bf95ec7464c67d88552df",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/fastforward-import-v1/manifest.json",
+      "sha256": "c95d1a3a411e7b80c8db62d3fa088c62389d3fcbdfce58d7965dd30533884c99",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/fastforward-import-v2/manifest.json",
+      "sha256": "c95d1a3a411e7b80c8db62d3fa088c62389d3fcbdfce58d7965dd30533884c99",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/hard-development-v1/manifest.json",
+      "sha256": "a239a470d4d1f70e549f225e1839f077443b15152d3c29978c65790ddf0d87ca",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/hard-development-v2/manifest.json",
+      "sha256": "1e77f4283218c14cb5f9265c372f7226e7402cdf08c245b2008d20d5485968ba",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/hard-survivors-v1/manifest.json",
+      "sha256": "b922231712f9b02ba2a1972adc70a64f86e163d22afee44b56e67e833205c8e4",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/harder-programs/manifest.json",
+      "sha256": "272c0abba1f985dcb96e593da9e1f4bd71fad9b9e3848ac21494d20568b81332",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/mcc-publication/manifest.json",
+      "sha256": "71f8fc3bf9e3d64f4c7f0a65fe7058b441cfdfb0bdb5bd04e61331f818a3aeeb",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/mcc-publication-development/manifest.json",
+      "sha256": "d233f8cf91cf7d2bd7534f2435a54e5f34b4bf2cfc7573a45783aabf72ecc9ae",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/mcc-publication-evaluation/manifest.json",
+      "sha256": "9028f162dc9940a55919fd328e139ed7f4d7ea906cf6a1da9a71103f24136b02",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/mcc-selection.json",
+      "sha256": "47639889ad5aa46acd50ab9681f1c25454eeff10a664fe1ff8b673aea97b423c",
+      "selected_family_instance_names": [
+        "DatabaseWithMutex-PT-02",
+        "DatabaseWithMutex-PT-10",
+        "FMS-PT-00002",
+        "FMS-PT-00010",
+        "RwMutex-PT-r0010w0010",
+        "RwMutex-PT-r0010w0050",
+        "SharedMemory-PT-000005",
+        "SharedMemory-PT-000020",
+        "TokenRing-PT-005",
+        "TokenRing-PT-015"
+      ]
+    },
+    {
+      "path": "benchmarks/mcc-stress-development/manifest.json",
+      "sha256": "2f23cc2dcfb72d8cf03979830ad4cd0710751507208a8c000e5ba3a5b7b1a994",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/mcc-stress-development/selection.json",
+      "sha256": "7b98693f3f153a608b3df6ff229f5418352031657ddfe1a090169602fb586306",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/mcc2021/manifest.json",
+      "sha256": "f639756e06c9162467b8dc50f1321001cee92cc411b25f3ed5a6a3403dd01b73",
+      "selected_family_instance_names": [
+        "DatabaseWithMutex-PT-02",
+        "DatabaseWithMutex-PT-10",
+        "FMS-PT-00002",
+        "FMS-PT-00010",
+        "RwMutex-PT-r0010w0010",
+        "RwMutex-PT-r0010w0050",
+        "SharedMemory-PT-000005",
+        "SharedMemory-PT-000020",
+        "TokenRing-PT-005",
+        "TokenRing-PT-015"
+      ]
+    },
+    {
+      "path": "benchmarks/mcc2021-development/manifest.json",
+      "sha256": "01f000d8b7417aba6558259dd22e51aba8ecf4577481f236fdd1c972568637aa",
+      "selected_family_instance_names": [
+        "DatabaseWithMutex-PT-02",
+        "DatabaseWithMutex-PT-10",
+        "FMS-PT-00002",
+        "FMS-PT-00010",
+        "RwMutex-PT-r0010w0010",
+        "RwMutex-PT-r0010w0050",
+        "SharedMemory-PT-000005",
+        "SharedMemory-PT-000020",
+        "TokenRing-PT-005",
+        "TokenRing-PT-015"
+      ]
+    },
+    {
+      "path": "benchmarks/mcc2021-development-hard/manifest.json",
+      "sha256": "04f8837ab1539ef3c9f82a7ccecb87f99afed14ae353575e454665d10b3afd2b",
+      "selected_family_instance_names": [
+        "DatabaseWithMutex-PT-10",
+        "SharedMemory-PT-000020",
+        "TokenRing-PT-015"
+      ]
+    },
+    {
+      "path": "benchmarks/mcc2021-evaluation/manifest.json",
+      "sha256": "8611363475145c33a5f64a5162dc9c6375ac69418356970ac5a6279a62d1500e",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/publication-selection.json",
+      "sha256": "9dc8baf28450abdc3ee409b941c6589a42e0731c712f769a7fb5c7405b1c58fd",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/reserved-evaluation-v2.json",
+      "sha256": "d7ae4dd2d55f9bda15f0ea4ef3da26c52da468883122491cb20fd4971560abe9",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/scaling-programs/manifest.json",
+      "sha256": "c1535629f379fc83699d697dcdab9e9ffc5efc67e0e29a812a29d478dcec5a4f",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/smpt-classic/manifest.json",
+      "sha256": "bab96510954af8f7292a430c981ea360f47b792974e194fd9830a007bcd296a0",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/stress-programs/manifest.json",
+      "sha256": "48d46e1bff9538e92a692b7fa85145a0e51f7ca9a77aa834c3c7eb8f5a0d7a40",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/stress-selection.json",
+      "sha256": "7b98693f3f153a608b3df6ff229f5418352031657ddfe1a090169602fb586306",
+      "selected_family_instance_names": []
+    },
+    {
+      "path": "benchmarks/token-flow-diagnostic/manifest.json",
+      "sha256": "f5b8c53f7c818baf636cfb16e2c267a79c82632be68e4601af564a13c5a75e5e",
+      "selected_family_instance_names": []
+    }
+  ],
+  "audit_scope": "Metadata only: immediate corpus manifests and selection/reservation JSON. Exact indexed names matched against all inventoried metadata; no new selected name was present. This does not establish absence of renamed or semantically equivalent inputs. No reserved model, property, archive, or solver output inspected.",
+  "parameter_interpretation": "Numeric name suffixes are recorded labels, not independently verified model dimensions. RwMutex is two axes: r=10 with w=100,500,1000,2000; w=10 with r=20,100,500,1000,2000. Do not treat these as one monotone scalar size sequence.",
+  "archive_identity": "Only source-index bytes and URLs are frozen. Archive checksums, dimensions, property syntax, licenses, duplicate relationships, and observed difficulty must be recorded after acquisition.",
+  "collector": {
+    "script": "scripts/collect_stress_mcc.py",
+    "sha256": "bba0cf77f8d4075fa3bfc74461f0185f378adec39b21c2b6f40b1685554c7827",
+    "output": "benchmarks/application-parameter-ladders-v2",
+    "seconds_per_model": 120,
+    "memory_mib": 2048,
+    "archive_mib": 256,
+    "expanded_mib": 1024,
+    "artifact_mib": 1024,
+    "executed": false
+  },
+  "development_only": true
+}

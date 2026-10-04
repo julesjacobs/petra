@@ -1,0 +1,101 @@
+{
+  "format": "raw-n5-control-diagnostic-v1",
+  "runs": [
+    {
+      "configuration": "dense",
+      "output": "results/raw-n5-control-diagnostic-v1-dense",
+      "command": [
+        "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+        "scripts/benchmark_stress_raw.py",
+        "--corpus",
+        "benchmarks/raw-diverse-automaton-v1",
+        "--output",
+        "results/raw-n5-control-diagnostic-v1-dense",
+        "--binary",
+        "/Users/julesjacobs/git/git/pvass/results/solver-raw-balanced-v1/vass-reach",
+        "--methods",
+        "raw-portfolio-balanced",
+        "--case",
+        "write_skew_n5_pairlocked",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "2048",
+        "--repeat",
+        "1",
+        "--solver-fraction",
+        "0.8",
+        "--max-states",
+        "100000000"
+      ],
+      "binary_sha256": "a642f91c60868b1530053a47b0c847a6eeaa8c754ca0389062e2eb5f9232c664",
+      "source_archive_sha256": "0b1dab138f2ea19cdd6b576872355a09cf5f661574f2a279f51dd8b5534da142"
+    },
+    {
+      "configuration": "compressed",
+      "output": "results/raw-n5-control-diagnostic-v1-compressed",
+      "command": [
+        "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+        "scripts/benchmark_stress_raw.py",
+        "--corpus",
+        "benchmarks/raw-diverse-automaton-v1",
+        "--output",
+        "results/raw-n5-control-diagnostic-v1-compressed",
+        "--binary",
+        "/Users/julesjacobs/git/git/pvass/results/solver-walk-sparse-v1/vass-reach",
+        "--methods",
+        "raw-portfolio-balanced",
+        "--case",
+        "write_skew_n5_pairlocked",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "2048",
+        "--repeat",
+        "1",
+        "--solver-fraction",
+        "0.8",
+        "--max-states",
+        "100000000"
+      ],
+      "binary_sha256": "b871e709d8f104f47b7af09f6dcc10da794859b68191c6765ebd945a25f52413",
+      "source_archive_sha256": "114352ff7fe67ac88d9592549a0260fef156cd062a283b7b759a0ab94d7c2edb"
+    }
+  ],
+  "rows": 2,
+  "query": {
+    "name": "write_skew_n5_pairlocked",
+    "source_sha256": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+    "role": "new-mechanism-development-case",
+    "export_status": "exported-unvalidated",
+    "query": "benchmarks/raw-diverse-automaton-v1/write_skew_n5_pairlocked/work/out/write_skew_n5_pairlocked/raw-query.json",
+    "query_sha256": "91085a85d1bde977e29ed9577fbf45984f01068a169e5bff548dd1313cbc1a91"
+  },
+  "limits": {
+    "seconds": 60,
+    "memory_mib": 2048,
+    "max_states": 100000000,
+    "solver_fraction": 0.8,
+    "repeat": 1
+  },
+  "environment": {
+    "VASS_RAW_PHASE_DIAGNOSTICS": "1"
+  },
+  "file_sha256": {
+    "benchmarks/raw-diverse-automaton-v1/collection.json": "69380c4bbd222ab28412872380529c10e691d51263514dca5e6d3a942af212ed",
+    "benchmarks/raw-diverse-automaton-v1/source-manifest.json": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea",
+    "benchmarks/raw-diverse-automaton-v1/write_skew_n5_pairlocked/work/out/write_skew_n5_pairlocked/raw-query.json": "91085a85d1bde977e29ed9577fbf45984f01068a169e5bff548dd1313cbc1a91",
+    "research/run-raw-n5-control-diagnostic-v1.py": "8e47ed12d4151700ad11cda18d5239b269064fe67b4656abdd11718b40cb4f4b",
+    "results/solver-raw-balanced-v1/provenance.json": "8902713df4d20f562385ca58b6ca27444e01cc3ddae766a40508657dd994963e",
+    "results/solver-walk-sparse-v1/provenance.json": "403a5c272004cdd931f24f95f6d8641f29b7b0a93d6f26cd25b7d78b5b664462",
+    "scripts/analyze_raw_phase_diagnostics.py": "ed731333acacdc0175a30659507a98106cfcab71b5c6bbaedc265a231255056a",
+    "scripts/benchmark_stress_raw.py": "cc5cb786aad59a7aba640947dd7af50c3cc0395fcf57229fae3ea48e99620a22",
+    "scripts/process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "scripts/raw_automaton_check.py": "5c623527114235bb85cec70cc14102f269d24fb5261783dfc1c6c7f037ce24b9",
+    "scripts/raw_invariant_check.py": "b4cec15ad4f72626082e4dea8423246a349efd0d5412c5a385eeb0a61136c1e5",
+    "scripts/raw_schema_check.py": "03b3c69baac745b73333aeb1d22ae1634182716b88db25931b73bf7b84fef8a5",
+    "scripts/raw_stress_worker.py": "feda1b5dfa74defd18beff5983e447d9d4d6f98b3b6467e7ba745fbce018312e",
+    "scripts/raw_z3.py": "ba16c188953868e5864b7820ca3ea3b365bf17ca2f56192b939383b12e9c5b4a"
+  },
+  "scope": "One original n5 query, existing dense versus compressed frozen binaries, same balanced scheduler and checker. Charge2d->8d is a known confound. Phase attribution only; no competitive timing claim. Local only; preserve censored/truncated spans and independent checks."
+}

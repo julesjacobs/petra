@@ -1,0 +1,369 @@
+{
+  "status": "passed",
+  "rows": 20,
+  "queries": 10,
+  "source_slots": 10,
+  "imported_slots": 10,
+  "unavailable_slots": 0,
+  "coverage": {
+    "native-threshold": {
+      "unknown": 9,
+      "unreachable": 1
+    },
+    "native-unary": {
+      "unknown": 8,
+      "unreachable": 2
+    }
+  },
+  "checked_definitive_rows": 3,
+  "details": [
+    {
+      "query": "SharedMemory-PT-000200__RC14",
+      "method": "native-threshold",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.05156495817937,
+      "exit_code": 0,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC14",
+      "method": "native-unary",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.5864536671433598,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "bounded candidate discovery exhausted; candidates=16 retained=0 forms=16 rounds=3 scans=7 obligations=1462 removed=28 revived=0 proposals=93 capped=0 logical_work=1500783",
+        "bounded candidate discovery exhausted; candidates=8 retained=0 forms=8 rounds=3 scans=7 obligations=730 removed=14 revived=0 proposals=48 capped=0 logical_work=1392876"
+      ]
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC01",
+      "method": "native-unary",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.023799792164937,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC01",
+      "method": "native-threshold",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.015240208012983,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC12",
+      "method": "native-threshold",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 1.7873393748886883,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "bounded candidate discovery exhausted; candidates=253 retained=0 forms=20 rounds=8 scans=70 obligations=28630 removed=670 revived=0 proposals=2313 capped=0 logical_work=22677588"
+      ]
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC12",
+      "method": "native-unary",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.09219450014643371,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "bounded candidate discovery exhausted; candidates=20 retained=0 forms=20 rounds=8 scans=37 obligations=1199 removed=78 revived=0 proposals=123 capped=0 logical_work=429270"
+      ]
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC12",
+      "method": "native-unary",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.5899742501787841,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "bounded candidate discovery exhausted; candidates=15 retained=0 forms=14 rounds=3 scans=10 obligations=1470 removed=28 revived=0 proposals=95 capped=0 logical_work=1492163",
+        "bounded candidate discovery exhausted; candidates=11 retained=0 forms=10 rounds=3 scans=10 obligations=1104 removed=21 revived=0 proposals=73 capped=0 logical_work=1456279"
+      ]
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC12",
+      "method": "native-threshold",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.024224833119661,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC04",
+      "method": "native-threshold",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 1.8442855421453714,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "logical work limit; candidates=9 retained=0 forms=4 rounds=1 scans=1 obligations=24534 removed=0 revived=0 proposals=15 capped=0 logical_work=99999760",
+        "logical work limit; candidates=9 retained=0 forms=5 rounds=1 scans=1 obligations=27195 removed=0 revived=0 proposals=15 capped=0 logical_work=99999874"
+      ]
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC04",
+      "method": "native-unary",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 4.783525499980897,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "signed threshold deadline; candidates=3 retained=0 forms=2 rounds=2 scans=3 obligations=124912 removed=3 revived=0 proposals=9 capped=0 logical_work=90024301",
+        "logical work limit; candidates=3 retained=0 forms=2 rounds=2 scans=3 obligations=137063 removed=3 revived=0 proposals=9 capped=0 logical_work=99999878"
+      ]
+    },
+    {
+      "query": "TokenRing-PT-030__RC09",
+      "method": "native-unary",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.5919519169256091,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "bounded candidate discovery exhausted; candidates=64 retained=0 forms=64 rounds=5 scans=16 obligations=5758 removed=121 revived=0 proposals=367 capped=75 logical_work=1512645",
+        "bounded candidate discovery exhausted; candidates=64 retained=0 forms=64 rounds=6 scans=23 obligations=9378 removed=169 revived=0 proposals=511 capped=111 logical_work=2101024"
+      ]
+    },
+    {
+      "query": "TokenRing-PT-030__RC09",
+      "method": "native-threshold",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.028475708095357,
+      "exit_code": 0,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "SharedMemory-PT-000050__RC04",
+      "method": "native-threshold",
+      "verdict": "unreachable",
+      "property_truth": true,
+      "wall_seconds": 0.8398643750697374,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "clauses": 2,
+      "binary_clauses": 1,
+      "checker_seconds": 0.9394576249178499,
+      "answer_file_bytes": 29095,
+      "proof_json_bytes_compact": 28487
+    },
+    {
+      "query": "SharedMemory-PT-000050__RC04",
+      "method": "native-unary",
+      "verdict": "unreachable",
+      "property_truth": true,
+      "wall_seconds": 0.046458665980026126,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "clauses": 1,
+      "binary_clauses": 0,
+      "checker_seconds": 0.24031045893207192,
+      "answer_file_bytes": 713,
+      "proof_json_bytes_compact": 109
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC09",
+      "method": "native-unary",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.4759735418483615,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "bounded candidate discovery exhausted; candidates=3 retained=0 forms=2 rounds=2 scans=6 obligations=187 removed=4 revived=0 proposals=15 capped=0 logical_work=845489",
+        "bounded candidate discovery exhausted; candidates=3 retained=0 forms=2 rounds=2 scans=6 obligations=187 removed=4 revived=0 proposals=16 capped=0 logical_work=886102",
+        "bounded candidate discovery exhausted; candidates=3 retained=0 forms=2 rounds=2 scans=6 obligations=187 removed=4 revived=0 proposals=16 capped=0 logical_work=886102"
+      ]
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC09",
+      "method": "native-threshold",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.023293209029362,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "TokenRing-PT-040__RC04",
+      "method": "native-threshold",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.4791043750010431,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "checked signed-threshold invariant; candidates=6 retained=6 forms=1 rounds=1 scans=1 obligations=1 removed=0 revived=0 proposals=6 capped=0 logical_work=632852",
+        "checked signed-threshold invariant; candidates=6 retained=6 forms=2 rounds=1 scans=1 obligations=1 removed=0 revived=0 proposals=6 capped=0 logical_work=621085"
+      ]
+    },
+    {
+      "query": "TokenRing-PT-040__RC04",
+      "method": "native-unary",
+      "verdict": "unreachable",
+      "property_truth": true,
+      "wall_seconds": 0.5306334581691772,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "clauses": 6,
+      "binary_clauses": 0,
+      "checker_seconds": 28.515432208077982,
+      "answer_file_bytes": 39421,
+      "proof_json_bytes_compact": 38522
+    },
+    {
+      "query": "TokenRing-PT-040__RC09",
+      "method": "native-unary",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.6031044579576701,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "bounded candidate discovery exhausted; candidates=64 retained=0 forms=64 rounds=5 scans=17 obligations=9936 removed=165 revived=0 proposals=499 capped=129 logical_work=3257979"
+      ]
+    },
+    {
+      "query": "TokenRing-PT-040__RC09",
+      "method": "native-threshold",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.011993292020634,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    }
+  ],
+  "artifact_sha256": {
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC14.native-unary.0.rust-original.json.validation-request.json": "d2a963830fa3157b6218fe917b5655910fbd6b704fc4deb2a5eb2a55b8e19b55",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC04.native-threshold.0.rust-original.json": "03749a782d5dd4f9ac2dd970e6e3ff6c1e7bf0f4bd5c6881d05faea6239ecbf2",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-030__RC09.native-unary.0.rust-original.json.validation-response.json": "911c0f05799d408a804919cfb7d98e429c6c6c7deebf889917df2911f9638f60",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC04.native-unary.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/NoC3x3-PT-8B__RC12.native-unary.0.rust-original.json.validation-response.json": "f39414abf033511e30308ae2fb5772e0bb42e07ecaa7a602959c00bf6589981b",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-030__RC09.native-unary.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000050__RC04.native-unary.0.rust-original.json.validation-request.json": "f738c9e469773057ce8be5b876eeb16167c8b730d260e39d9534b55feea7c274",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC01.native-threshold.0.rust-original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC14.native-unary.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000050__RC04.native-threshold.0.rust-original.json.validation-response.json": "f78aaae4bf2b730aa9cf10f4eb1bf8065add39330358ed442c3344c801af33db",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC01.native-unary.0.rust-original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/NoC3x3-PT-8B__RC12.native-threshold.0.rust-original.json": "5983dab8e215ec7d9538a1097191ad77235195aea60cbdd9f1cd3b5bf09cfd90",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC04.native-threshold.0.rust-original.json.validation-response.json": "f84ce48219447ab787c3287235b429a63cbe3fe3b379c83372118b42751159b9",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC12.native-unary.0.rust-original.json": "b720db54cacce55113636918191ef673bdf37b7c5e25448bc2451902cc871d22",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-030__RC09.native-unary.0.rust-original.json": "7dbe03ea14568aa0e37440504d2e28aa35f693a6c33e8a7ffb2a62f64720015d",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC12.native-unary.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC09.native-unary.0.rust-original.json.validation-request.json": "3ea1bd6ebc52e6fa6993ba7cdb00b123edd2aabcda81177fea3e941b60ede66f",
+    "results/local-signed-threshold-workcap-v1/runs.jsonl": "1a6b322e84f023b81dddd2583a153758b9f7b611c4507125f5ce16ed62ae741f",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC09.native-unary.0.rust-original.json.validation-response.json": "a2e9dca9a7db43b548fdd37c355728bcbf2e55fd596b9c41ff49a59bb81fe904",
+    "results/local-signed-threshold-workcap-v1/REPORT.md": "36ac68e36d16604a43614a2c149a8bb4f977904631a53881f5d53cffc00df030",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000050__RC04.native-threshold.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC09.native-unary.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC04.native-unary.0.rust-original.json": "611b2e984010484320dc3aaf9b3c01bb156b935d2ef97ff8f2c5530b142360c9",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC09.native-unary.0.rust-original.json": "0336da55706e7fa047bccafdae20bad2e0a8c261d8b1f6b92544f067eff85507",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC04.native-threshold.0.rust-original.json": "dc59fb6073f65c7c417a108032af17f8b4dbe006515fa98f0f8a86a85ecc2943",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC04.native-threshold.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000050__RC04.native-unary.0.rust-original.json.validation-response.json": "385b76fa4b0285e9561e19e5df3a5e797b01623fcb17a00e55c51d10bee82c84",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC04.native-unary.0.rust-original.json.validation-request.json": "874a311ffaf593a8b295c1c95a6fea548bef32b5906ec6db56ed2365b7ddf553",
+    "results/local-signed-threshold-workcap-v1/NoC3x3-PT-8B__RC12.native-threshold.0.rust-original.json.validation-request.json": "015dfa910d2c1eae32b7227014be99ce606cf5e30b1fb79b20ef95b93c1dd4a8",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000050__RC04.native-threshold.0.rust-original.json.validation-request.json": "5b3cd273c3d10280deccb2f57ee1c565022c6bfee4cc148013f8199a8321225d",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC04.native-unary.0.rust-original.json.validation-response.json": "14427bb09888ad3068d20cdc091a5589c5a7910d67aa49169b1ebc6c3de9d816",
+    "results/local-signed-threshold-workcap-v1/NoC3x3-PT-8B__RC12.native-unary.0.rust-original.json.validation-request.json": "9b884baf6271a9d56ed15aee346dda7960b063dd5ad5d0af3ff318d3e8fc6404",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000050__RC04.native-unary.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000050__RC04.native-threshold.0.rust-original.json": "e60398f79576d653fc3565ed71c3ed69f7f1f44c33f416274ff49b7178ac741f",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC12.native-unary.0.rust-original.json.validation-response.json": "b0ad6854efd982607acadf754248929036ba1640e76ed9a6b2fdfe8fe18cfe37",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC09.native-threshold.0.rust-original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC09.native-unary.0.rust-original.json": "d9ce2c7cc619dbbee383f4847bb37b2716a77ae468998a7f73666cf7a74e6137",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC04.native-unary.0.rust-original.json": "4af9d10c6d37c52b619a87588536f31e255a50d86f125a2fc1b04a72cf8cdab8",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-030__RC09.native-threshold.0.rust-original.json": "426f95cedf7100ea534549d0a54a5168e09b6c0edf94e5b739568cbf185a74bd",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC04.native-threshold.0.rust-original.json.validation-request.json": "9564a3288f185045f88bdf2652eb61f320f2036e4d2d44175046c5e24f491d7a",
+    "results/local-signed-threshold-workcap-v1/NoC3x3-PT-8B__RC12.native-threshold.0.rust-original.json.validation-response.json": "5bbe086c8e6e09206ecf2e3a11f47815c2f2c08684db3a772a44e5b4e4a3373f",
+    "results/local-signed-threshold-workcap-v1/NoC3x3-PT-8B__RC12.native-unary.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC14.native-unary.0.rust-original.json.validation-response.json": "11b0ab8f5f41320c9da50e7a707337892c73acb94c114f7905a2c388ca4a64eb",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC04.native-threshold.0.rust-original.json.validation-request.json": "d3741567ce617660f94acf882326d6a39e68b91305b9d2bee6088a77a3311a25",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC09.native-unary.0.rust-original.json.validation-request.json": "2d922a05ea80596e3e312f520fc32f7f6714602d30d94b9fcc055ca1fbc91d42",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC12.native-unary.0.rust-original.json.validation-request.json": "0844759275dad4701245e154d361431e3fd729665fc2b03a2db97b5bcf505187",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000050__RC04.native-unary.0.rust-original.json": "20d7273dda3120f4c87d2862b469106435d30d5c6e9ba25c56c3ec9ec26beed8",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC09.native-unary.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/NoC3x3-PT-8B__RC12.native-unary.0.rust-original.json": "17159a2671bd3d2dd3682b009a4c81fa47590417f51fd7b6d73d55185dc1a75d",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC09.native-unary.0.rust-original.json.validation-response.json": "8ad74c559f29909ee2fcc28189bcf52577ccfcddffa0440182fe7f12d88677d4",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-030__RC09.native-unary.0.rust-original.json.validation-request.json": "0c0cd305a41e44e70920a16af0a0c7ae0945210dabe771e8b2ff6814283c871e",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC04.native-threshold.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/NoC3x3-PT-8B__RC12.native-threshold.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC09.native-threshold.0.rust-original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC14.native-unary.0.rust-original.json": "ec91e891c4a269b7a9946f1d0a48fd83b5d014b67af1e2b50dad0c3ada90dc68",
+    "results/local-signed-threshold-workcap-v1/environment.json": "19f8078719b3e5d3b23772d85f460dde807943e7416d0fa936e7b354f8fd4a74",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC12.native-threshold.0.rust-original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC04.native-unary.0.rust-original.json.validation-response.json": "119fbbed4ddcf69a35d80c3df64462cf47d88c315dabd951640da7f8a84d114a",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC04.native-unary.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-signed-threshold-workcap-v1/SharedMemory-PT-000200__RC14.native-threshold.0.rust-original.json": "32415630bd44b4a0281220264ca47d726c0e0cb075463345923a2646e5c59c01",
+    "results/local-signed-threshold-workcap-v1/TokenRing-PT-040__RC04.native-unary.0.rust-original.json.validation-request.json": "0e1f0faa43a34c27c65b3f2f9328cda8fab37a1c7d9f8d380812453a34a0d82a",
+    "results/local-signed-threshold-workcap-v1/runner-source/phase_pair_checker.py": "fe4694b9ec891a0419c86b5a3d1aa58102a16f4cc7e8bad2198d555516c1c2ff",
+    "results/local-signed-threshold-workcap-v1/runner-source/dag_checker.py": "b72e8a9c1dd0ce97fe704df748f15580e5794f32548a98de9735f561fc70cdf9",
+    "results/local-signed-threshold-workcap-v1/runner-source/bounded_token_cut_checker.py": "a333f3429a4bda272715ac84f8529191b4bf406e871a6dbfbe27df0a82a48e60",
+    "results/local-signed-threshold-workcap-v1/runner-source/signed_threshold_checker.py": "f7cd30ad9ad15fc3f3d12e4a667a5705e1551a98730e8f85655cab19a78a4bbd",
+    "results/local-signed-threshold-workcap-v1/runner-source/benchmark.py": "2a86bf7a2924d660a678ce74ba622737d93fc5b86e80b09ea40db9f93d87ffe8",
+    "results/local-signed-threshold-workcap-v1/runner-source/requirements.txt": "01b99c930705a074d54f6c45dc2de953aadc78d47906fa13d538946d062903af",
+    "results/local-signed-threshold-workcap-v1/runner-source/rust_original_validation.py": "09a247de7c2dbf95895292b8932e4172625f4a6cf432854cdc03a5e763af3fb9",
+    "results/local-signed-threshold-workcap-v1/runner-source/target_zero_trap_checker.py": "15e23110138ab55a2b245608c85cc7b59e7b0efeb61ac31a7fe21d05e75a105a",
+    "results/local-signed-threshold-workcap-v1/runner-source/token_cut_checker.py": "d6667df9c6e6900b27886de8169835736345779389d85d244eb6b6241bd68d1c",
+    "results/local-signed-threshold-workcap-v1/runner-source/lazy_token_cut_checker.py": "ba43a0d1c1cab49550e807e89a8df7c7ea0c950cb41cc8a01f12df1f0b0b046b",
+    "results/local-signed-threshold-workcap-v1/runner-source/process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "results/local-signed-threshold-workcap-v1/runner-source/local_closure_checker.py": "6e53c37d43a6dcb76b543ec81cf826770ed5c97a0d6027eecca7a5ac984694b1",
+    "results/local-signed-threshold-workcap-v1/runner-source/bounded_validation.py": "10418247ee4159c58d4356d5ea4f97e6d6349b11345d20b213b7d5db7d71e228",
+    "results/local-signed-threshold-workcap-v1/runner-source/token_moment_checker.py": "a42b8367bae56f40da01d723efd504bedbb06cb3905ced5672038ac503c6e027",
+    "results/local-signed-threshold-workcap-v1/runner-source/finite_token_cut_checker.py": "92ea2c1915a9970347f96171fa20180c3a877f4f8c95ce189bb6a017e7993859",
+    "results/local-signed-threshold-workcap-v1/runner-source/target_path_potential_checker.py": "a0f9464fc08fa4958264ca985a0303552cf7b4b839ef965ef8a4e42d3a24f500",
+    "results/local-signed-threshold-workcap-v1/runner-source/native_original.py": "5d6275a96865a56c7a740768e0db862b254d5f91f3e4d1206c0713efd528c1c8",
+    "results/local-signed-threshold-workcap-v1/runner-source/kreach_adapter.py": "8b26fd5749c06f27b75d31418e89279de3d2e8fd573433032805465702979045",
+    "results/local-signed-threshold-workcap-v1/runner-source/smpt_import.py": "ce7e9db6a5b6e4deb5453271433ad3337fd36229bf4b7e325cdf217a8ac96c90",
+    "results/local-signed-threshold-workcap-v1/runner-source/relevance_checker.py": "0c2d6f867b0809a0f17187d6fb7bba5981ad2f88e560fd875549ca085377603b",
+    "results/local-signed-threshold-workcap-v1/runner-source/buffer_agglomeration_checker.py": "199c7b045aedd4cbeb4ae3019aa649585adc0412749886feada1c52d5a16b536",
+    "results/local-signed-threshold-workcap-v1/runner-source/benchmark_smpt_classic.py": "3824a92df5868ccf990a1475f3e1edb3125d7ccb32f1df842a33fc8c0b85698c",
+    "research/signed-threshold-workcap-v1-plan.json": "7d2af05b1eb723e5005f9d62083306cae4f642193f04ccd796cf30296de7d639",
+    "research/audit-signed-threshold-workcap-v1.py": "f6fbbf8ce029319b651a83b02a26bf932e31d6fbab422916d9c3532449388e3f",
+    "research/signed-threshold-workcap-v1-terminal.json": "ca0afffdc7e8050f08abc4aca3396b02686363d8057ebb6511a7f1033f690395"
+  },
+  "scope": "Saved evidence reconciliation, not a new proof execution. Outcome-selected 10-query subset of the 656/640/16 parent cohort; local5s higher-work-cap diagnostic. No cross-machine speed, integrated-portfolio or general superiority claim.",
+  "parent_denominators": {
+    "source_slots": 656,
+    "imported_slots": 640,
+    "unavailable_slots": 16
+  },
+  "selection_status": "outcome-selected-development-diagnostic"
+}

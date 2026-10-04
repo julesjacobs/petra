@@ -1,0 +1,51 @@
+{
+  "status": "registered before execution",
+  "query": {
+    "name": "NoC3x3-PT-8B__RC12",
+    "suite": "stress-development",
+    "family": "NoC3x3",
+    "family_group": "NoC3x3",
+    "instance": "NoC3x3-PT-8B",
+    "property_slot": 12,
+    "planned": true,
+    "observed": true,
+    "status": "imported",
+    "property_id": "NoC3x3-PT-8B-ReachabilityCardinality-12",
+    "pnml": "../application-expansion-v1/inputs/NoC3x3-PT-8B/model.pnml",
+    "xml": "../application-expansion-v1/NoC3x3-PT-8B__RC12/original-property.xml",
+    "pnml_sha256": "8039a692972ea0ec6916dbf4100101021a84400dd9607c82d7d29e36bc064a98",
+    "xml_sha256": "b15274dea625610508643ca439540d3d28736ccac9c119e619584b27658f7c31",
+    "kind": "AG",
+    "branches": [
+      {
+        "path": "../application-expansion-v1/NoC3x3-PT-8B__RC12/branch-0.json",
+        "sha256": "8a8443b2ccd6fd56669e4d547e87bcb081e49d8dc0103cacd22f23133d0c4739"
+      }
+    ],
+    "places": 9140,
+    "transitions": 14577,
+    "net": "../application-expansion-v1/NoC3x3-PT-8B__RC12/model.net",
+    "property": "../application-expansion-v1/NoC3x3-PT-8B__RC12/property.xml",
+    "net_sha256": "80f25b8efba87c94850b8a8039578988b2bd4f064a7563ec4a26b82a855535f4",
+    "property_sha256": "b15274dea625610508643ca439540d3d28736ccac9c119e619584b27658f7c31"
+  },
+  "corpus": "benchmarks/application-gaps-v2",
+  "command": [
+    "/home/jules/experiments/pvass-publication/vendor/verifypn/build-release/verifypn/bin/verifypn-linux64",
+    "-x",
+    "1",
+    "--trace",
+    "/home/jules/experiments/pvass-publication/benchmarks/application-gaps-v2/../application-expansion-v1/inputs/NoC3x3-PT-8B/model.pnml",
+    "/home/jules/experiments/pvass-publication/benchmarks/application-gaps-v2/../application-expansion-v1/NoC3x3-PT-8B__RC12/original-property.xml"
+  ],
+  "seconds": 60,
+  "memory_mib": 2048,
+  "linux_cpus": [
+    8
+  ],
+  "perf": true,
+  "binary_sha256": "50164d51246c30400615a4c7f76397b0bd21fa3f3d0fefb8bad5ba2560ad5577",
+  "pnml_sha256": "8039a692972ea0ec6916dbf4100101021a84400dd9607c82d7d29e36bc064a98",
+  "xml_sha256": "b15274dea625610508643ca439540d3d28736ccac9c119e619584b27658f7c31",
+  "scope": "Trace-enabled witness extraction on the original input. Trace mode can disable structural reductions; this is not a replacement for default-mode performance results."
+}

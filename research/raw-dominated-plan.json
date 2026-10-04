@@ -1,0 +1,20 @@
+{
+  "scope": "All 18 raw stress sources; remove binary potential goals implied by already-retained weaker unary goals. Preserve their target union, redistribute existing per-goal time budget; optional profile logging disabled.",
+  "binary": "results/solver-dominated-goals-v1/vass-reach",
+  "hashes": {
+    "vass-reach": "7ea1763a296f502f6c5ca0fc29ce5ccd7c1cca9242695bb9bd222615e2f9bc4c",
+    "source.tar.gz": "5724c4ef9065e21c5be7726c82f371d434c54aa2f9ee170959894d71bb8f8720"
+  },
+  "output": "results/raw-stress-dominated-v1",
+  "methods": [
+    "raw-potential"
+  ],
+  "seconds": 10,
+  "memory_mib": 2048,
+  "repeat": 2,
+  "max_states": 200000,
+  "solver_fraction": 0.8,
+  "source_manifest_sha256": "48d46e1bff9538e92a692b7fa85145a0e51f7ca9a77aa834c3c7eb8f5a0d7a40",
+  "baseline": "results/raw-stress-compact-v1",
+  "validation": "Existing bounded worker independently replays original traces and checks raw semilinear nonmembership within the input-inclusive envelope."
+}

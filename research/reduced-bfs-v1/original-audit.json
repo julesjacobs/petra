@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "plan_sha256": "5254bf6850f4770440dacb97be4f84ecfa6957c94a1e6bd3aa6132343e457bde",
+  "results_sha256": "f46c10afd136718343e46209f43d2c7517a3e8545804592cb1c365427bd938e9",
+  "scope": "Full original-input property and two independently checked nested closure proofs; single local diagnostic, no stable speed claim."
+}

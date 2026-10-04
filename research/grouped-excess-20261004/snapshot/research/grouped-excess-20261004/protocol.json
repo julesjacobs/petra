@@ -1,0 +1,33 @@
+{
+  "format": "grouped-excess-original-comparison-v1",
+  "status": "protocol-before-candidate-freeze",
+  "methods": ["candidate", "baseline"],
+  "candidate_engine": "portfolio-excess",
+  "baseline_engine": "portfolio-reduced",
+  "baseline_binary": "results/solver-before-symbolic-20261004/vass-reach",
+  "baseline_sha256": "19ef799d463625b00fb779f77951ef2178dcd72bf768c8999659f1bcc5edc949",
+  "corpora": [
+    {"name": "existing176", "path": "benchmarks/general-development-v3", "properties": 176, "representatives": 175},
+    {"name": "expansion192", "path": "benchmarks/development-expansion-v4", "properties": 192, "representatives": 191}
+  ],
+  "seconds": 5.0,
+  "repeat": 1,
+  "max_states": 2000000,
+  "memory_mib": 2048,
+  "outer_grace": 0.0,
+  "buffer_agglomeration_methods": ["candidate", "baseline"],
+  "validation_seconds": 60.0,
+  "validation_memory_mib": 2048,
+  "validation_response_mib": 64,
+  "validation_dag_work": 200000000,
+  "order_seed": 2026100401,
+  "stages": {
+    "diagnostic": {"corpora": ["existing176"], "family": "DNAwalker", "properties": 32, "expected_rows": 64, "scope": "Mechanism diagnostic only; all DNAwalker slots, including the duplicate, retained."},
+    "full": {"corpora": ["existing176", "expansion192"], "family": null, "properties": 368, "expected_rows": 736, "representatives": 366, "scope": "Complete development regression, reported separately for each corpus and pooled. No diagnostic subset substitution."}
+  },
+  "ordering": "Within each sequential corpus, shuffle queries with order_seed+corpus_index; rotate the two method labels by query_index modulo 2. Each full corpus has even size and exactly balanced first position counts. Record exact schedule at candidate freeze.",
+  "measurement": "Original PNML/XML, Rust parse and all property branches within one strict five-second outer invocation. Separate bounded independent Python translation and certificate checking outside solver timing. Portable process-tree RSS sampling with termination at observed 2GiB; not a Linux cgroup guarantee. One local invocation at a time; no benchmarks or builds overlap.",
+  "analysis": "Retain all planned original slots and unsuccessful outcomes. Report original-slot and exact ordered-branch representative denominators, candidate gains/losses, normalized verdict agreement, failure flags, solver and validator times separately, and PAR-2 charging all nonaccepted outcomes twice budget. Diagnostic and full stages are distinct observations and are never pooled as repetitions.",
+  "launch_gate": "Preparation never launches a solver. Root must explicitly authorize a prebuilt frozen candidate before run diagnostic or run full. Full stage additionally requires a passing diagnostic artifact audit. Candidate changes require a new campaign directory and freeze; never overwrite prior results.",
+  "claim_scope": "Single-repeat local development screen. No stable speed, external competitor superiority, held-out generalization, or population confidence claim. No perf counters are collected on this Mac."
+}

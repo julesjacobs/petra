@@ -1,0 +1,24 @@
+{
+  "status": "registered before complete Linux matrix; not launched",
+  "source_run": "results/linux-hard-development-v2",
+  "expected_source_rows": 276,
+  "expected_source_properties": 69,
+  "corpus": "benchmarks/hard-development-v2",
+  "manifest_sha256": "1e77f4283218c14cb5f9265c372f7226e7402cdf08c245b2008d20d5485968ba",
+  "native_methods": [
+    "native-focused",
+    "native-symbolic"
+  ],
+  "selection": "Every native row in the complete measured matrix with failure_stage=validation or a nonempty validation_failure. Do not select by desired verdict, answer size, or expected success. Retain missing/incomplete/invalid answers as failed qualifications.",
+  "limits": {
+    "seconds": 60,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 200000000
+  },
+  "motivation": "Earlier separately reported example exceeded the original 1 MiB answer cap, then the 20 million DAG-work cap; it verified under these limits. This is explicitly posthoc policy selection.",
+  "execution": "Only after the live Linux job is authoritatively terminal, its complete matrix and frozen identities are audited, and inputs/answers are retrieved. Use copied saved answers in a separate output directory; never overwrite original run artifacts or validation results. No solver reruns.",
+  "output": "results/hard-v2-uniform-validation-v1",
+  "reporting": "Report original checked coverage and all original failures first, then separately qualified answers and remaining failures. Local validator wall time is not Linux solver timing. Account for every selected row, preserve answer hashes, checker sources and bounded-worker resources. Competitor answers remain tool-reported.",
+  "previous_example": "research/hard-v2-posthoc-validation-v2-plan.json"
+}

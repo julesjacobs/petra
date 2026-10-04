@@ -1,0 +1,56 @@
+[
+  {
+    "path": "vendor/verifypn",
+    "commit": "c8193465bed56654546968bce3a956f0c25c5bee",
+    "remotes": "origin\thttps://github.com/TAPAAL/verifypn.git (fetch)\norigin\thttps://github.com/TAPAAL/verifypn.git (push)",
+    "status": ""
+  },
+  {
+    "path": "vendor/KReach",
+    "commit": "48b41f249bc0f93707402b2c11b21024f041a286",
+    "remotes": "origin\thttps://github.com/dixonary/kosaraju.git (fetch)\norigin\thttps://github.com/dixonary/kosaraju.git (push)",
+    "status": "M app/Main.hs\n M kosaraju.cabal\n M src/Data/VASS/Reachability/Kosaraju.hs\n M src/LDN.hs\n?? bin/\n?? cabal.project\n?? cabal.project.freeze\n?? compatibility.patch\n?? deps/\n?? dist-newstyle/\n?? reference/\n?? smoke/"
+  },
+  {
+    "path": "vendor/4ti2",
+    "commit": "f93eb8e419322a9ce653a6285f3febdbb2f24da4",
+    "remotes": "origin\thttps://github.com/4ti2/4ti2.git (fetch)\norigin\thttps://github.com/4ti2/4ti2.git (push)",
+    "status": "?? lib/alloca.h\n?? lib/assert.h\n?? lib/getopt-cdefs.h\n?? lib/inttypes.h\n?? lib/libgnu.a\n?? lib/limits.h\n?? lib/stdint.h\n?? lib/stdio.h\n?? lib/stdlib.h\n?? lib/string.h\n?? lib/wchar.h\n?? test/qsolve/api/circuits_main\n?? test/qsolve/api/circuits_main.log\n?? test/qsolve/api/circuits_main.trs\n?? test/qsolve/api/qsolve_main\n?? test/qsolve/api/qsolve_main.log\n?? test/qsolve/api/qsolve_main.trs\n?? test/qsolve/api/rays_main\n?? test/qsolve/api/rays_main.log\n?? test/qsolve/api/rays_main.trs\n?? test/qsolve/api/test-suite.log\n?? test/qsolve/api/test_input_conversion_64_to_gmp\n?? test/qsolve/api/test_input_conversion_gmp_to_64\n?? test/zsolve/api/test-suite.log\n?? test/zsolve/api/test_zsolve_api\n?? test/zsolve/api/test_zsolve_api.log\n?? test/zsolve/api/test_zsolve_api.trs"
+  },
+  {
+    "path": "vendor/ITS-Tools-MCC",
+    "commit": "1b883d1273df87f7523b9c016e7bc1a8733d9b8e",
+    "remotes": "origin\thttps://github.com/yanntm/ITS-Tools-MCC.git (fetch)\norigin\thttps://github.com/yanntm/ITS-Tools-MCC.git (push)",
+    "status": ""
+  },
+  {
+    "path": "vendor/SMPT-upstream",
+    "commit": "82206ddcca45ecc497f8ed8eebc169a7c69d3641",
+    "remotes": "origin\thttps://github.com/nicolasAmat/SMPT.git (fetch)\norigin\thttps://github.com/nicolasAmat/SMPT.git (push)",
+    "status": ""
+  },
+  {
+    "path": "vendor/KReach/deps/duvet",
+    "commit": "1cb22f34ed52ed5f8ca6ce639696cdc7c4c4e1f0",
+    "remotes": "origin\thttps://github.com/dixonary/duvet (fetch)\norigin\thttps://github.com/dixonary/duvet (push)",
+    "status": ""
+  },
+  {
+    "path": "vendor/KReach/deps/karp-miller",
+    "commit": "cf24259b56dc36f30ab8f4f6e19a31709cbf1038",
+    "remotes": "origin\thttps://github.com/dixonary/karp-miller (fetch)\norigin\thttps://github.com/dixonary/karp-miller (push)",
+    "status": ""
+  },
+  {
+    "path": "vendor/KReach/deps/vass",
+    "commit": "21020e8246353f14042c4e8070a6af093e2aebf2",
+    "remotes": "origin\thttps://github.com/dixonary/vass (fetch)\norigin\thttps://github.com/dixonary/vass (push)",
+    "status": ""
+  },
+  {
+    "path": "vendor/verifypn/build-release/ptrie-ext-prefix/src/ptrie-ext",
+    "commit": "9132d723cf19fad5a402f4b19a194c6aa66325fb",
+    "remotes": "origin\thttps://github.com/petergjoel/ptrie (fetch)\norigin\thttps://github.com/petergjoel/ptrie (push)",
+    "status": ""
+  }
+]

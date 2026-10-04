@@ -1,0 +1,1 @@
+This run was stopped after detecting overlap with the 4ti2 build/test process. It is incomplete, and its timings must not be used for performance comparisons. The frozen candidate executable remains valid; rerun in a fresh output directory after all builds finish.

@@ -1,0 +1,60 @@
+{
+  "scope": "Exercise the new nested closure format on original Cloud input with Linux limits.",
+  "parent_plan_sha256": "14ba740088129f3cd0b6d8f2e28c6dfb835ca03a29a409f0b51bb32b26b97978",
+  "script_sha256": "698320f062d78f1b3cdb94a7eb8a596ad6b957766982a701c20bbb4cbae7f15b",
+  "query": {
+    "name": "CloudReconfiguration-PT-311__RC06",
+    "suite": "stress-development",
+    "family": "CloudReconfiguration",
+    "family_group": "CloudReconfiguration",
+    "instance": "CloudReconfiguration-PT-311",
+    "property_slot": 6,
+    "planned": true,
+    "observed": true,
+    "status": "imported",
+    "property_id": "CloudReconfiguration-PT-311-ReachabilityCardinality-06",
+    "pnml": "inputs/CloudReconfiguration-PT-311/model.pnml",
+    "xml": "CloudReconfiguration-PT-311__RC06/original-property.xml",
+    "pnml_sha256": "5eb39a6091ec540811887a0f8ce49e0171801a0d9807fd49743bcd9f3a2af809",
+    "xml_sha256": "f7f0fd75f46f9fa6a5f2128f1f569d026ed7a266b7a40a767f500d189ecbdb35",
+    "kind": "EF",
+    "branches": [
+      {
+        "path": "CloudReconfiguration-PT-311__RC06/branch-0.json",
+        "sha256": "b807734d0f01880645a3aebaa8b7fa591dd8af8c04945899eea7500aaab08968"
+      },
+      {
+        "path": "CloudReconfiguration-PT-311__RC06/branch-1.json",
+        "sha256": "b956af2aa1b69d5b61c1b0b615397eca7b29af1425d6b89cd626073b34b4990a"
+      }
+    ],
+    "places": 2585,
+    "transitions": 3095,
+    "net": "CloudReconfiguration-PT-311__RC06/model.net",
+    "property": "CloudReconfiguration-PT-311__RC06/property.xml",
+    "net_sha256": "3e333042ddb1899c7dc932f8bdc543d1077e81ab86faf751b25bd2aff90261ff",
+    "property_sha256": "f7f0fd75f46f9fa6a5f2128f1f569d026ed7a266b7a40a767f500d189ecbdb35"
+  },
+  "command": [
+    "/home/jules/experiments/pvass-publication/results/linux-solver-portfolio-reduced-v1/vass-reach",
+    "--pnml",
+    "/home/jules/experiments/pvass-publication/benchmarks/general-development-v3/inputs/CloudReconfiguration-PT-311/model.pnml",
+    "--xml",
+    "/home/jules/experiments/pvass-publication/benchmarks/general-development-v3/CloudReconfiguration-PT-311__RC06/original-property.xml",
+    "--property-id",
+    "CloudReconfiguration-PT-311-ReachabilityCardinality-06",
+    "--method",
+    "portfolio-reduced",
+    "--seconds",
+    "5",
+    "--max-states",
+    "2000000",
+    "--buffer-agglomeration"
+  ],
+  "binary_sha256": "777caa027eca5d5c846b39c49fc48ff8bf59d9675ffe50b49cbe93e3480a44b7",
+  "cpus": [
+    8
+  ],
+  "memory_bytes": 2147483648,
+  "seconds": 5
+}

@@ -1,0 +1,181 @@
+{
+  "status": "passed",
+  "scope": "fixed count vectors only; no original property verdicts",
+  "plan_sha256": "3599bd66504f1d9fb3ecc973b673e18df69ae2ce6a01b8bcef523c35f3b02ba8",
+  "rows_sha256": "2b4912166d020b31805dcda5a2accf5fe944ca560e40304e261d7a06c501a576",
+  "audit_script_sha256": "325cb516623cab3a88d2dd2529cced5d1e46dbe48fd64595d103cd52d9c74016",
+  "results": [
+    {
+      "input": "benchmarks/mcc2021/DoubleExponent-PT-003__RC02/branch-0.json",
+      "status": "fixed-count-vector-exhausted",
+      "total_firings": 424,
+      "explored_states": 69,
+      "edges": 68,
+      "deadlocks": 6,
+      "greedy_prefix_length": 28,
+      "any_prefix_satisfies_target": false,
+      "escape_frontier": [
+        {
+          "transition": 76,
+          "name": "t34",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 85,
+          "name": "t42",
+          "minimum_total_count": 1
+        }
+      ],
+      "enabled_outside_remaining_counts": []
+    },
+    {
+      "input": "benchmarks/mcc2021/DoubleExponent-PT-003__RC02/branch-1.json",
+      "status": "fixed-count-vector-exhausted",
+      "total_firings": 503,
+      "explored_states": 69,
+      "edges": 68,
+      "deadlocks": 6,
+      "greedy_prefix_length": 28,
+      "any_prefix_satisfies_target": false,
+      "escape_frontier": [
+        {
+          "transition": 76,
+          "name": "t34",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 85,
+          "name": "t42",
+          "minimum_total_count": 1
+        }
+      ],
+      "enabled_outside_remaining_counts": []
+    },
+    {
+      "input": "benchmarks/mcc2021/DoubleExponent-PT-003__RC07/branch-0.json",
+      "status": "fixed-count-vector-exhausted",
+      "total_firings": 253,
+      "explored_states": 70,
+      "edges": 69,
+      "deadlocks": 7,
+      "greedy_prefix_length": 28,
+      "any_prefix_satisfies_target": false,
+      "escape_frontier": [
+        {
+          "transition": 76,
+          "name": "t34",
+          "minimum_total_count": 1
+        }
+      ],
+      "enabled_outside_remaining_counts": []
+    },
+    {
+      "input": "benchmarks/mcc2021/DoubleExponent-PT-003__RC07/branch-1.json",
+      "status": "no-model; no infeasibility conclusion"
+    },
+    {
+      "input": "benchmarks/mcc2021/TokenRing-PT-015__RC12/branch-0.json",
+      "status": "fixed-count-vector-exhausted",
+      "total_firings": 4,
+      "explored_states": 1,
+      "edges": 0,
+      "deadlocks": 1,
+      "greedy_prefix_length": 0,
+      "any_prefix_satisfies_target": false,
+      "escape_frontier": [
+        {
+          "transition": 0,
+          "name": "OtherProcess_14_14_13",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 259,
+          "name": "OtherProcess_13_13_12",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 460,
+          "name": "OtherProcess_6_6_5",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 486,
+          "name": "OtherProcess_12_12_11",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 671,
+          "name": "OtherProcess_10_10_9",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 969,
+          "name": "OtherProcess_3_3_2",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 1002,
+          "name": "OtherProcess_8_8_7",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 1223,
+          "name": "OtherProcess_1_1_0",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 1373,
+          "name": "OtherProcess_7_7_6",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 1445,
+          "name": "OtherProcess_4_4_3",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 1752,
+          "name": "OtherProcess_11_11_10",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 1935,
+          "name": "OtherProcess_2_2_1",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 2142,
+          "name": "OtherProcess_15_15_14",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 2386,
+          "name": "OtherProcess_9_9_8",
+          "minimum_total_count": 1
+        },
+        {
+          "transition": 3161,
+          "name": "OtherProcess_5_5_4",
+          "minimum_total_count": 1
+        }
+      ],
+      "enabled_outside_remaining_counts": [
+        0,
+        259,
+        460,
+        486,
+        671,
+        969,
+        1002,
+        1223,
+        1373,
+        1445,
+        1752,
+        1935,
+        2142,
+        2386,
+        3161
+      ]
+    }
+  ]
+}

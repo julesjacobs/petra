@@ -1,0 +1,10 @@
+{
+  "scope": "Additional original-LoLA positive-witness validation only; no solver timings or negative certification. All native positives in the complete measured matrix are selected.",
+  "expected_positives": 6,
+  "sources": {
+    "benchmarks/fastforward-import-v2/manifest.json": "c95d1a3a411e7b80c8db62d3fa088c62389d3fcbdfce58d7965dd30533884c99",
+    "results/linux-fastforward-smoke-v1/environment.json": "6292836c92da9ffec943ea477f87dfa2a6f957b83a22745ead463f87a500764b",
+    "results/linux-fastforward-smoke-v1/runs.jsonl": "b3cfe6041447f6e5114841494280cbff1ef088fed1d5d348d65864b2403dada4"
+  },
+  "driver_sha256": "0d9767167d816c1b2ffd208de85cfcc7d8979ad74e0709ecc482d1da71f92f7e"
+}

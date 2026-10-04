@@ -1,0 +1,21 @@
+{
+  "scope": "Search diagnostic reduced nets; checked answers apply only to these reduced inputs.",
+  "seconds": 3,
+  "outer_seconds": 3.3,
+  "memory_bytes": 2147483648,
+  "max_states": 2000000,
+  "binary": "/Users/julesjacobs/git/git/pvass/results/solver-portfolio-counts-development-v1/candidate",
+  "binary_sha256": "aa05180cfe9ccd75d728742cbfa33ebf2dc10e7991a5fb86456aa4834ed5b5b0",
+  "checker_sha256": "732678c3a4ea0233fb8410c1e25f0c331189d355def4522d56370fe72f248694",
+  "script_sha256": "964c958192b10182e0f097de55d8a48652f828ae8ed6d19c2b7054731c11425a",
+  "inputs": {
+    "research/cloud-reduction-diagnostics-v1/branch-0.reduced.json": "11cebeda357b65fc5ff5c2f483e27c90a09c8da67d01ed1d0921e0ae2235735a",
+    "research/cloud-reduction-diagnostics-v1/branch-1.reduced.json": "b4488c6d2acafae9a6bb401d486d5fb726f6fa8d7e4e8e28fffe784d00847277",
+    "research/cloud-reduction-diagnostics-v1/dedup/branch-0.reduced.normalized.json": "7f3e5cdc4381e57ba6f0269358c083da1369f285876c32d2c2c91d39cc5ae575",
+    "research/cloud-reduction-diagnostics-v1/dedup/branch-1.reduced.normalized.json": "89df8c27ba4a3df941c77f6450cbccb51fa167a2e9241f6a57b577faecd0f914"
+  },
+  "methods": [
+    "bfs",
+    "portfolio-walk-counts"
+  ]
+}

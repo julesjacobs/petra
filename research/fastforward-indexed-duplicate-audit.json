@@ -1,0 +1,145 @@
+{
+  "scope": "Exact indexed semantics after removing labels and nonnegative singleton >=0 tautologies. Place, transition and constraint order retained. No arbitrary-renaming/isomorphism or full logical-equivalence check; no duplicate finding does not establish suite disjointness.",
+  "manifests": [
+    "benchmarks/fastforward-import-v2/manifest.json",
+    "benchmarks/smpt-classic/manifest.json"
+  ],
+  "counts": {
+    "existing": {
+      "queries": 37,
+      "compared_branches": 39,
+      "excluded_queries": 0
+    },
+    "fastforward": {
+      "queries": 218,
+      "compared_branches": 218,
+      "excluded_queries": 0
+    }
+  },
+  "groups": [
+    [
+      {
+        "corpus": "existing",
+        "query": "Performance__NTest__CryptoMiner",
+        "branch": "Performance__NTest__CryptoMiner/branch-0.json"
+      },
+      {
+        "corpus": "existing",
+        "query": "Expressiveness__CryptoMiner",
+        "branch": "Expressiveness__CryptoMiner/branch-0.json"
+      }
+    ],
+    [
+      {
+        "corpus": "existing",
+        "query": "Expressiveness__Parity",
+        "branch": "Expressiveness__Parity/branch-0.json"
+      },
+      {
+        "corpus": "existing",
+        "query": "Certificates__Parity",
+        "branch": "Certificates__Parity/branch-0.json"
+      }
+    ],
+    [
+      {
+        "corpus": "existing",
+        "query": "Expressiveness__PGCD",
+        "branch": "Expressiveness__PGCD/branch-0.json"
+      },
+      {
+        "corpus": "existing",
+        "query": "Certificates__PGCD",
+        "branch": "Certificates__PGCD/branch-0.json"
+      }
+    ],
+    [
+      {
+        "corpus": "fastforward",
+        "query": "ff_coverability_soter_stutter__we_abhorr_as__depth_1_22c6b9f8",
+        "branch": "ff_coverability_soter_stutter__we_abhorr_as__depth_1_22c6b9f8/branch-0.json"
+      },
+      {
+        "corpus": "fastforward",
+        "query": "ff_coverability_soter_stutter__we_abhorr_as__depth_2_4cbf6efa",
+        "branch": "ff_coverability_soter_stutter__we_abhorr_as__depth_2_4cbf6efa/branch-0.json"
+      }
+    ],
+    [
+      {
+        "corpus": "fastforward",
+        "query": "ff_coverability_soter_unsafe_send__sending_to_non_pid__depth_0_d7946263",
+        "branch": "ff_coverability_soter_unsafe_send__sending_to_non_pid__depth_0_d7946263/branch-0.json"
+      },
+      {
+        "corpus": "fastforward",
+        "query": "ff_coverability_soter_unsafe_send__sending_to_non_pid__depth_1_db3b4af8",
+        "branch": "ff_coverability_soter_unsafe_send__sending_to_non_pid__depth_1_db3b4af8/branch-0.json"
+      },
+      {
+        "corpus": "fastforward",
+        "query": "ff_coverability_soter_unsafe_send__sending_to_non_pid__depth_2_fcd4f68a",
+        "branch": "ff_coverability_soter_unsafe_send__sending_to_non_pid__depth_2_fcd4f68a/branch-0.json"
+      }
+    ],
+    [
+      {
+        "corpus": "fastforward",
+        "query": "ff_random_walk_pthread5_vs_satabs_3_multi_35_0_fcb25341",
+        "branch": "ff_random_walk_pthread5_vs_satabs_3_multi_35_0_fcb25341/branch-0.json"
+      },
+      {
+        "corpus": "fastforward",
+        "query": "ff_random_walk_pthread5_vs_satabs_3_multi_40_0_f5b9a3a7",
+        "branch": "ff_random_walk_pthread5_vs_satabs_3_multi_40_0_f5b9a3a7/branch-0.json"
+      }
+    ],
+    [
+      {
+        "corpus": "fastforward",
+        "query": "ff_random_walk_x0_PENDING_q6_multi_100_0_80e01ed4",
+        "branch": "ff_random_walk_x0_PENDING_q6_multi_100_0_80e01ed4/branch-0.json"
+      },
+      {
+        "corpus": "fastforward",
+        "query": "ff_random_walk_x0_PENDING_q6_multi_75_0_ac74307b",
+        "branch": "ff_random_walk_x0_PENDING_q6_multi_75_0_ac74307b/branch-0.json"
+      },
+      {
+        "corpus": "fastforward",
+        "query": "ff_random_walk_x0_PENDING_q6_multi_90_0_cb6b67b5",
+        "branch": "ff_random_walk_x0_PENDING_q6_multi_90_0_cb6b67b5/branch-0.json"
+      }
+    ],
+    [
+      {
+        "corpus": "fastforward",
+        "query": "ff_sypet_geometry10_3e3a3835",
+        "branch": "ff_sypet_geometry10_3e3a3835/branch-0.json"
+      },
+      {
+        "corpus": "fastforward",
+        "query": "ff_sypet_geometry11_1a730cd1",
+        "branch": "ff_sypet_geometry11_1a730cd1/branch-0.json"
+      },
+      {
+        "corpus": "fastforward",
+        "query": "ff_sypet_geometry14_86306a65",
+        "branch": "ff_sypet_geometry14_86306a65/branch-0.json"
+      }
+    ],
+    [
+      {
+        "corpus": "fastforward",
+        "query": "ff_sypet_joda19_99faa01a",
+        "branch": "ff_sypet_joda19_99faa01a/branch-0.json"
+      },
+      {
+        "corpus": "fastforward",
+        "query": "ff_sypet_joda20_b270cb55",
+        "branch": "ff_sypet_joda20_b270cb55/branch-0.json"
+      }
+    ]
+  ],
+  "cross_corpus_groups": []
+}

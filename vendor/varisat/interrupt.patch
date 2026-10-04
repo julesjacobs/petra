@@ -1,0 +1,102 @@
+--- a/src/state.rs
++++ b/src/state.rs
+@@ -27,6 +27,7 @@
+     pub solver_invoked: bool,
+     pub state_is_invalid: bool,
+     pub solver_error: Option<SolverError>,
++    pub interrupt: Option<Box<dyn FnMut() -> bool>>,
+ }
+ 
+ impl Default for SolverState {
+@@ -37,6 +38,20 @@
+             solver_invoked: false,
+             state_is_invalid: false,
+             solver_error: None,
++            interrupt: None,
+         }
+     }
+ }
++
++impl SolverState {
++    pub fn poll_interrupt(&mut self) -> bool {
++        if self.solver_error.is_some() {
++            return true;
++        }
++        if self.interrupt.as_mut().map_or(false, |callback| callback()) {
++            self.solver_error = Some(SolverError::Interrupted);
++            return true;
++        }
++        false
++    }
++}
+--- a/src/solver.rs
++++ b/src/solver.rs
+@@ -61,6 +61,13 @@
+     /// Create a new solver.
+     pub fn new() -> Solver<'a> {
+         Solver::default()
++    }
++
++    /// Install a cooperative interruption callback, polled before decisions and
++    /// before each queued literal is propagated. Returning true stops solving.
++    /// A single watch-list propagation and solver maintenance run without polling.
++    pub fn set_interrupt(&mut self, callback: impl FnMut() -> bool + 'static) {
++        self.ctx.solver_state.interrupt = Some(Box::new(callback));
+     }
+ 
+     /// Change the solver configuration.
+--- a/src/prop.rs
++++ b/src/prop.rs
+@@ -28,13 +28,19 @@
+         mut ImplGraphP,
+         mut TrailP,
+         mut WatchlistsP,
++        mut SolverStateP,
+         BinaryClausesP,
+         ClauseDbP,
+     ),
+ ) -> Result<(), Conflict> {
+     enable_watchlists(ctx.borrow());
+ 
+-    while let Some(lit) = ctx.part_mut(TrailP).pop_queue() {
++    loop {
++        // Poll before popping: an interrupted propagation leaves its queue intact.
++        if ctx.part_mut(SolverStateP).poll_interrupt() {
++            return Ok(());
++        }
++        let Some(lit) = ctx.part_mut(TrailP).pop_queue() else { break };
+         binary::propagate_binary(ctx.borrow(), lit)?;
+         long::propagate_long(ctx.borrow(), lit)?;
+     }
+--- a/src/cdcl.rs
++++ b/src/cdcl.rs
+@@ -47,6 +47,7 @@
+             reconstruct_global_model(ctx.borrow());
+             return;
+         }
++        Err(FoundConflict::Interrupted) => return,
+         Err(FoundConflict::Assumption) => {
+             ctx.part_mut(SolverStateP).sat_state = SatState::UnsatUnderAssumptions;
+             return;
+@@ -103,6 +104,7 @@
+ ///
+ /// Specifies whether a conflict was found during propagation or while enqueuing assumptions.
+ enum FoundConflict {
++    Interrupted,
+     Conflict(Conflict),
+     Assumption,
+ }
+@@ -135,7 +137,13 @@
+     ),
+ ) -> Result<(), FoundConflict> {
+     loop {
++        if ctx.part_mut(SolverStateP).poll_interrupt() {
++            return Err(FoundConflict::Interrupted);
++        }
+         let propagation_result = propagate(ctx.borrow());
++        if ctx.part_mut(SolverStateP).poll_interrupt() {
++            return Err(FoundConflict::Interrupted);
++        }
+ 
+         let new_unit = prove_units(ctx.borrow());
+ 

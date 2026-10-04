@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "properties": 37,
+  "rows": 111,
+  "checked_positive_rows": 2,
+  "reachable_by_mode": {
+    "ordinary": 0,
+    "singleton": 1,
+    "cycles": 1
+  },
+  "solved": {
+    "ordinary": [],
+    "singleton": [
+      "Performance__NTest__3u"
+    ],
+    "cycles": [
+      "Performance__NTest__3u"
+    ]
+  },
+  "pairwise": {
+    "cycles/singleton": {
+      "gains": [],
+      "losses": []
+    },
+    "cycles/ordinary": {
+      "gains": [
+        "Performance__NTest__3u"
+      ],
+      "losses": []
+    },
+    "singleton/ordinary": {
+      "gains": [
+        "Performance__NTest__3u"
+      ],
+      "losses": []
+    }
+  },
+  "branch_reasons": [
+    {
+      "mode": "cycles",
+      "reason": "None",
+      "count": 12
+    },
+    {
+      "mode": "cycles",
+      "reason": "bounded schemes exhausted",
+      "count": 25
+    },
+    {
+      "mode": "cycles",
+      "reason": "checked compressed witness",
+      "count": 1
+    },
+    {
+      "mode": "cycles",
+      "reason": "z3-8 deadline",
+      "count": 1
+    },
+    {
+      "mode": "ordinary",
+      "reason": "None",
+      "count": 10
+    },
+    {
+      "mode": "ordinary",
+      "reason": "bounded schemes exhausted",
+      "count": 25
+    },
+    {
+      "mode": "ordinary",
+      "reason": "z3-16 deadline",
+      "count": 4
+    },
+    {
+      "mode": "singleton",
+      "reason": "None",
+      "count": 10
+    },
+    {
+      "mode": "singleton",
+      "reason": "bounded schemes exhausted",
+      "count": 26
+    },
+    {
+      "mode": "singleton",
+      "reason": "checked compressed witness",
+      "count": 1
+    },
+    {
+      "mode": "singleton",
+      "reason": "z3-16 deadline",
+      "count": 2
+    }
+  ],
+  "plan_sha256": "9a4168f15f0a6f49ba6a24026edc4ede31eb9eb0205c4fa20869797bd65a99b4",
+  "runs_sha256": "c415554667adc78095ee02268c499027a3169e66646735a3144b0d791fe619f4",
+  "scope": "One-second positive-witness development screen on all37canonical classical properties. No unreachability method, competitor result, stable speed claim or publication evidence. Audit checks saved bounded independent-validation outputs, not a second proof execution."
+}

@@ -1,0 +1,42 @@
+{
+  "status": "registered before launch; pending diagnostics",
+  "scope": "Local single-process development ablation of unchanged frozen methods and binary; all 104 selected properties, three repetitions; no held-out or external comparison claim.",
+  "corpus": "benchmarks/candidate-challenges-v1",
+  "manifest_sha256": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+  "properties": 104,
+  "expected_rows": 624,
+  "seconds": 5,
+  "repeat": 3,
+  "methods": {
+    "before": "portfolio-focused",
+    "after": "portfolio-stubborn"
+  },
+  "binaries": {
+    "before": {
+      "path": "results/solver-stubborn-v1/vass-reach",
+      "sha256": "7277cdfa4bd16cc2e75649bdd9bd3558a9942ec03a5e1bd805b960f5b3d4cbb6"
+    },
+    "after": {
+      "path": "results/solver-stubborn-v1/vass-reach",
+      "sha256": "7277cdfa4bd16cc2e75649bdd9bd3558a9942ec03a5e1bd805b960f5b3d4cbb6"
+    }
+  },
+  "source_sha256": "84200bf3cc5cd782847bddb31ed7dc7e1f5ed6f62c66f1d8441cfda3e9aed46b",
+  "max_states": 2000000,
+  "memory_mib": 2048,
+  "memory_enforcement": "macOS sampled process-tree RSS",
+  "outer_grace": 0,
+  "order_seed": 20261022,
+  "filter": "",
+  "profiling": false,
+  "validation": {
+    "seconds": 30,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 20000000,
+    "separate_from_solver_timing": true
+  },
+  "reporting": "Complete matrix, identities, independent proof/witness checks, failures, track/family coverage, full620parent denominator and exact duplicate report. No stable timing/coverage claim from one repetition. Follow stubborn-ablation-protocol.md for repeats and diagnostics.",
+  "output": "results/stubborn-repeat-v1",
+  "trigger": "One new independently checked solve in the complete screen; three losses also retained. Full repetition matrix required before a stable coverage claim."
+}

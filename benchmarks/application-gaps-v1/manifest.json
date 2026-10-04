@@ -1,0 +1,169 @@
+{
+  "format": "smpt-classic-v1",
+  "source": "https://yanntm.github.io/pnmcc-models-2021/",
+  "selection_sha256": "65524b6d4faeebd2b5243986a23cac23ce59dec3668a60988d82d917302507d5",
+  "suite": "stress-development",
+  "expected_properties": 192,
+  "collection_complete": true,
+  "per_model_limits": {
+    "seconds": 120.0,
+    "memory_bytes": 2147483648,
+    "archive_bytes": 268435456,
+    "expanded_bytes": 1073741824,
+    "artifact_bytes": 1073741824
+  },
+  "importer_sha256": "ce7e9db6a5b6e4deb5453271433ad3337fd36229bf4b7e325cdf217a8ac96c90",
+  "collector_sha256": "bba0cf77f8d4075fa3bfc74461f0185f378adec39b21c2b6f40b1685554c7827",
+  "queries": [
+    {
+      "name": "CircadianClock-PT-100000__RC12",
+      "suite": "stress-development",
+      "family": "CircadianClock",
+      "family_group": "CircadianClock",
+      "instance": "CircadianClock-PT-100000",
+      "property_slot": 12,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "CircadianClock-PT-100000-ReachabilityCardinality-12",
+      "pnml": "../application-expansion-v1/inputs/CircadianClock-PT-100000/model.pnml",
+      "xml": "../application-expansion-v1/CircadianClock-PT-100000__RC12/original-property.xml",
+      "pnml_sha256": "a73ee8f78f3231b4e8e9f8d0560829159ecee9385def9ac594c69f24766290ec",
+      "xml_sha256": "3a0376a5cc78e8408f8c36ba50b7370704b1bb890e4ae85dd1b76e71c9dbabcd",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-0.json",
+          "sha256": "2594eca74f8b4b45d706d40bd21da6b9095bcf635e99b8ced74348058464fe5c"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-1.json",
+          "sha256": "d6756647cd7a3cbc0044eca9c1d534635cb5cd2674eebfc84f7a9ec2c09d2648"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-2.json",
+          "sha256": "46a34ed5589e9ea51a8009ec1cdae2146b6058233a5b52864a9d6bd4586acff8"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-3.json",
+          "sha256": "37e513dca1f2302a2f9d22ba30f32ffc2576dd103fb4534b913d50a3dfb2cf31"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-4.json",
+          "sha256": "8aeb1c0e70c732f58fe796d06f37991360d5a644abdb78578db583a88ba206df"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-5.json",
+          "sha256": "41bf133e1fb380dbb027949274a63f6e7b9288a426124adbe9e3170b072beee9"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-6.json",
+          "sha256": "7199fe495b9ec8e84c928aa3b3cd33a9ff121ff3bd39575ed88b2663c18c9284"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-7.json",
+          "sha256": "431f543e84970c902c55eafc92b214c823ef978072bdeec8773e20dca5f8ce4d"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-8.json",
+          "sha256": "f7facf53de27487d8ee5cffef16a8f5fdab76449eae76eb76d3dc4e99185b018"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-9.json",
+          "sha256": "3dd0d265c985e230aa60bf422fa2c305e9c318f352780da7e3fc358f69604c00"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-10.json",
+          "sha256": "48ffdd71cfa865f95ee4f91c3972fc2abeae6acb30c3732d2efc4ff6c07222ae"
+        },
+        {
+          "path": "../application-expansion-v1/CircadianClock-PT-100000__RC12/branch-11.json",
+          "sha256": "2e4cd75fcb6b2374222ca6a918d2aecba70e523814eb3855b5b6b7575a4bd02b"
+        }
+      ],
+      "places": 14,
+      "transitions": 16,
+      "net": "../application-expansion-v1/CircadianClock-PT-100000__RC12/model.net",
+      "property": "CircadianClock-PT-100000__RC12/property.xml",
+      "net_sha256": "f2ad7ca282c11064118edab0128f78f44084daa19c43ab3ec53491e40efa84a1",
+      "property_sha256": "6e1323701bb82c703074b30ac2b73b3bef8e343d44bd35431947cc14f382260b"
+    },
+    {
+      "name": "NoC3x3-PT-8B__RC06",
+      "suite": "stress-development",
+      "family": "NoC3x3",
+      "family_group": "NoC3x3",
+      "instance": "NoC3x3-PT-8B",
+      "property_slot": 6,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "NoC3x3-PT-8B-ReachabilityCardinality-06",
+      "pnml": "../application-expansion-v1/inputs/NoC3x3-PT-8B/model.pnml",
+      "xml": "../application-expansion-v1/NoC3x3-PT-8B__RC06/original-property.xml",
+      "pnml_sha256": "8039a692972ea0ec6916dbf4100101021a84400dd9607c82d7d29e36bc064a98",
+      "xml_sha256": "4b72ba122796c32d435de417488e7a252b824e58b25dfda4404d4192a17a13b8",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../application-expansion-v1/NoC3x3-PT-8B__RC06/branch-0.json",
+          "sha256": "45410935a23e324b529bd3c084a7ed55096cf7823942c78c3e94df84f3900936"
+        },
+        {
+          "path": "../application-expansion-v1/NoC3x3-PT-8B__RC06/branch-1.json",
+          "sha256": "1706344c3020113913b3858c4ed86f58ee675bfbe6d141c8667f83f48080c986"
+        },
+        {
+          "path": "../application-expansion-v1/NoC3x3-PT-8B__RC06/branch-2.json",
+          "sha256": "724bf10c821e1a814e5e7e7dd16b2f992634558e2388cd5e8560b138e8078b08"
+        }
+      ],
+      "places": 9140,
+      "transitions": 14577,
+      "net": "../application-expansion-v1/NoC3x3-PT-8B__RC06/model.net",
+      "property": "NoC3x3-PT-8B__RC06/property.xml",
+      "net_sha256": "80f25b8efba87c94850b8a8039578988b2bd4f064a7563ec4a26b82a855535f4",
+      "property_sha256": "4b72ba122796c32d435de417488e7a252b824e58b25dfda4404d4192a17a13b8"
+    },
+    {
+      "name": "NoC3x3-PT-8B__RC12",
+      "suite": "stress-development",
+      "family": "NoC3x3",
+      "family_group": "NoC3x3",
+      "instance": "NoC3x3-PT-8B",
+      "property_slot": 12,
+      "planned": true,
+      "observed": true,
+      "status": "imported",
+      "property_id": "NoC3x3-PT-8B-ReachabilityCardinality-12",
+      "pnml": "../application-expansion-v1/inputs/NoC3x3-PT-8B/model.pnml",
+      "xml": "../application-expansion-v1/NoC3x3-PT-8B__RC12/original-property.xml",
+      "pnml_sha256": "8039a692972ea0ec6916dbf4100101021a84400dd9607c82d7d29e36bc064a98",
+      "xml_sha256": "b15274dea625610508643ca439540d3d28736ccac9c119e619584b27658f7c31",
+      "kind": "AG",
+      "branches": [
+        {
+          "path": "../application-expansion-v1/NoC3x3-PT-8B__RC12/branch-0.json",
+          "sha256": "8a8443b2ccd6fd56669e4d547e87bcb081e49d8dc0103cacd22f23133d0c4739"
+        }
+      ],
+      "places": 9140,
+      "transitions": 14577,
+      "net": "../application-expansion-v1/NoC3x3-PT-8B__RC12/model.net",
+      "property": "NoC3x3-PT-8B__RC12/property.xml",
+      "net_sha256": "80f25b8efba87c94850b8a8039578988b2bd4f064a7563ec4a26b82a855535f4",
+      "property_sha256": "b15274dea625610508643ca439540d3d28736ccac9c119e619584b27658f7c31"
+    }
+  ],
+  "source_evidence": {
+    "parent_queries": 192,
+    "parent_representatives": 187,
+    "selection": "All queries with a definitive competitor answer and neither native configuration definitive in the complete5s application screen.",
+    "selected": [
+      "CircadianClock-PT-100000__RC12",
+      "NoC3x3-PT-8B__RC06",
+      "NoC3x3-PT-8B__RC12"
+    ],
+    "scope": "Outcome-selected development diagnostic; parent artifact audit pending local timing termination."
+  }
+}

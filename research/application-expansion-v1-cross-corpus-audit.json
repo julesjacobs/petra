@@ -1,0 +1,11 @@
+{
+  "corpora": [
+    "mcc-stress-development",
+    "boolean-consistency-v3",
+    "fastforward-import-v2"
+  ],
+  "new_properties": 192,
+  "prior_properties": 620,
+  "exact_branch_matches": [],
+  "scope": "Ordered canonical branch hashes only; no semantic independence claim."
+}

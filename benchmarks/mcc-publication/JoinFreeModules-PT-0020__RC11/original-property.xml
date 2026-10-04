@@ -1,0 +1,33 @@
+<property-set><property>
+    <id>JoinFreeModules-PT-0020-ReachabilityCardinality-11</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <negation>
+            <conjunction>
+              <integer-le>
+                <tokens-count>
+                  <place>p28</place>
+                </tokens-count>
+                <tokens-count>
+                  <place>p7</place>
+                </tokens-count>
+              </integer-le>
+              <negation>
+                <integer-le>
+                  <tokens-count>
+                    <place>p63</place>
+                  </tokens-count>
+                  <tokens-count>
+                    <place>p39</place>
+                  </tokens-count>
+                </integer-le>
+              </negation>
+            </conjunction>
+          </negation>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

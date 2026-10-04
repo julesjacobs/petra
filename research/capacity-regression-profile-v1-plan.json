@@ -1,0 +1,17 @@
+{
+  "scope": "Diagnostic repeat/profile of the one observed full-family loss; no competing solver timing claim. Preserve the initial loss even if intermittent.",
+  "query": "DLCflexbar-PT-7b__RC00",
+  "binary": "results/solver-capacity-direct-v1/vass-reach",
+  "binary_sha256": "bb449a8f64a3d2a01a099b14a3b2b016eae729c6eaed86ae25a6e8f26e2aa23a",
+  "methods": [
+    "before",
+    "after"
+  ],
+  "before_flag": "--no-capacity-preprocessing",
+  "repeat": 3,
+  "seconds": 5,
+  "memory_mib": 2048,
+  "expected_rows": 6,
+  "profiling": "VASS_PORTFOLIO_PROFILE=1 with stderr separate from machine-readable answer",
+  "validation": "Independent original input/proof replay in bounded worker"
+}

@@ -1,0 +1,44 @@
+{
+  "status": "registered before launch",
+  "scope": "Frozen-binary before/after comparison of target-directed closure cost optimization; same engine and scheduling, exact selection semantics preserved except earlier full fallback. Development screening only.",
+  "corpus": "benchmarks/candidate-challenges-v1",
+  "manifest_sha256": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+  "properties": 104,
+  "expected_rows": 208,
+  "seconds": 5,
+  "repeat": 1,
+  "methods": {
+    "before": "portfolio-target-stubborn",
+    "after": "portfolio-target-stubborn"
+  },
+  "binaries": {
+    "before": {
+      "path": "results/solver-target-stubborn-v1/vass-reach",
+      "sha256": "370a39e384f8bae9ead849515c9d844b47bb63b784fd5ba19f334c665f6958e0"
+    },
+    "after": {
+      "path": "results/solver-target-closure-v1/vass-reach",
+      "sha256": "4b50d8f123fa7b27ae2521fd76db54820db99400e99579513a60958da10acc08"
+    }
+  },
+  "source_sha256": {
+    "before": "d5540f461f96891d3560760ea71869431501067dc30cce6847eb0029d8f6d17b",
+    "after": "c3a95b30b6a1222b5eb54de1daabf12115bcc7e5c5df034ca0c95ce8a7e05d7a"
+  },
+  "max_states": 2000000,
+  "memory_mib": 2048,
+  "memory_enforcement": "macOS sampled process-tree RSS",
+  "outer_grace": 0,
+  "order_seed": 20261029,
+  "filter": "",
+  "profiling": false,
+  "validation": {
+    "seconds": 30,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 20000000,
+    "separate_from_solver_timing": true
+  },
+  "reporting": "Complete planned matrix and all failures; frozen identities, limits, independent original-input validation and LoLA positive replay; track/family and parent denominator620 retained for challenge screen. One repetition is screening only; full repeats before stable gain claims.",
+  "output": "results/target-closure-screen-v1"
+}

@@ -1,0 +1,705 @@
+{
+  "format": "mcc-stress-selection-v1",
+  "status": "selection-only; not downloaded, imported, or benchmarked",
+  "selection": "Choose these six named, previously unselected nonreserved application families for domain variety; within each family preserve recorded index order, deduplicate at first occurrence, and select ceil(3*N/4) and N (one-based published PT ordinals). Keep every one of the 16 ReachabilityCardinality slots for every selected model. No solver result, property polarity, net size, or download/import success is used for selection. Later ordinal is not verified hardness. This is development, not held-out evaluation.",
+  "source": "https://yanntm.github.io/pnmcc-models-2021/",
+  "index_path": "vendor/mcc2021/index.html",
+  "index_sha256": "58b01d6b01987ef8b4d8fada40b5d392913eb9e3e2fd6ab5dfceded4fbb5fe3f",
+  "expected_models": 12,
+  "expected_properties": 192,
+  "property_slots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "family_decisions": [
+    {
+      "family": "BART",
+      "family_group": "BART",
+      "domain_label": "rail transport control",
+      "domain_label_basis": "Model-family name and conventional domain interpretation; no new model documentation or archive inspected.",
+      "rationale": "Adds a rail-system family distinct from previously selected CircularTrains; no structural-independence claim.",
+      "published_instances": 8,
+      "selected_ordinals": [
+        6,
+        8
+      ]
+    },
+    {
+      "family": "CircadianClock",
+      "family_group": "CircadianClock",
+      "domain_label": "biological clock",
+      "domain_label_basis": "Model-family name and conventional domain interpretation; no new model documentation or archive inspected.",
+      "rationale": "Adds a circadian model; different named model family from the reserved ERK and Angiogenesis families.",
+      "published_instances": 6,
+      "selected_ordinals": [
+        5,
+        6
+      ]
+    },
+    {
+      "family": "IOTPpurchase",
+      "family_group": "IOTPpurchase",
+      "domain_label": "electronic purchase protocol",
+      "domain_label_basis": "Model-family name and conventional domain interpretation; no new model documentation or archive inspected.",
+      "rationale": "Adds a transaction-protocol application rather than another mutex or synthetic counter family.",
+      "published_instances": 4,
+      "selected_ordinals": [
+        3,
+        4
+      ]
+    },
+    {
+      "family": "NoC3x3",
+      "family_group": "NoC3x3",
+      "domain_label": "network-on-chip communication",
+      "domain_label_basis": "Model-family name and conventional domain interpretation; no new model documentation or archive inspected.",
+      "rationale": "Adds an on-chip communication family beyond existing CAN and GPU progress examples.",
+      "published_instances": 16,
+      "selected_ordinals": [
+        12,
+        16
+      ]
+    },
+    {
+      "family": "RobotManipulation",
+      "family_group": "RobotManipulation",
+      "domain_label": "robotics",
+      "domain_label_basis": "Model-family name and conventional domain interpretation; no new model documentation or archive inspected.",
+      "rationale": "Adds a robotic manipulation application absent from recorded selections.",
+      "published_instances": 13,
+      "selected_ordinals": [
+        10,
+        13
+      ]
+    },
+    {
+      "family": "SmallOperatingSystem",
+      "family_group": "SmallOperatingSystem",
+      "domain_label": "operating-system coordination",
+      "domain_label_basis": "Model-family name and conventional domain interpretation; no new model documentation or archive inspected.",
+      "rationale": "Adds a systems/resource-coordination family beyond existing database and shared-memory examples.",
+      "published_instances": 19,
+      "selected_ordinals": [
+        15,
+        19
+      ]
+    }
+  ],
+  "models": [
+    {
+      "family": "BART",
+      "family_group": "BART",
+      "name": "BART-PT-040",
+      "published_ordinal": 6,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/BART-PT-040.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "BART",
+      "family_group": "BART",
+      "name": "BART-PT-060",
+      "published_ordinal": 8,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/BART-PT-060.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CircadianClock",
+      "family_group": "CircadianClock",
+      "name": "CircadianClock-PT-010000",
+      "published_ordinal": 5,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CircadianClock-PT-010000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CircadianClock",
+      "family_group": "CircadianClock",
+      "name": "CircadianClock-PT-100000",
+      "published_ordinal": 6,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CircadianClock-PT-100000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "IOTPpurchase",
+      "family_group": "IOTPpurchase",
+      "name": "IOTPpurchase-PT-C05M04P03D02",
+      "published_ordinal": 3,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/IOTPpurchase-PT-C05M04P03D02.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "IOTPpurchase",
+      "family_group": "IOTPpurchase",
+      "name": "IOTPpurchase-PT-C12M10P15D17",
+      "published_ordinal": 4,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/IOTPpurchase-PT-C12M10P15D17.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "NoC3x3",
+      "family_group": "NoC3x3",
+      "name": "NoC3x3-PT-6B",
+      "published_ordinal": 12,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/NoC3x3-PT-6B.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "NoC3x3",
+      "family_group": "NoC3x3",
+      "name": "NoC3x3-PT-8B",
+      "published_ordinal": 16,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/NoC3x3-PT-8B.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "RobotManipulation",
+      "family_group": "RobotManipulation",
+      "name": "RobotManipulation-PT-01000",
+      "published_ordinal": 10,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RobotManipulation-PT-01000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "RobotManipulation",
+      "family_group": "RobotManipulation",
+      "name": "RobotManipulation-PT-10000",
+      "published_ordinal": 13,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RobotManipulation-PT-10000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "SmallOperatingSystem",
+      "family_group": "SmallOperatingSystem",
+      "name": "SmallOperatingSystem-PT-MT2048DC1024",
+      "published_ordinal": 15,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/SmallOperatingSystem-PT-MT2048DC1024.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "SmallOperatingSystem",
+      "family_group": "SmallOperatingSystem",
+      "name": "SmallOperatingSystem-PT-MT8192DC4096",
+      "published_ordinal": 19,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/SmallOperatingSystem-PT-MT8192DC4096.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    }
+  ],
+  "reserved_families_excluded": [
+    "AirplaneLD",
+    "Angiogenesis",
+    "BusinessProcesses",
+    "CloudDeployment",
+    "DES",
+    "Diffusion2D",
+    "ERK",
+    "HirschbergSinclair",
+    "Kanban",
+    "LamportFastMutEx",
+    "LeafsetExtension",
+    "ParamProductionCell",
+    "Peterson",
+    "Philosophers",
+    "Raft",
+    "ResAllocation",
+    "ShieldPPPs",
+    "SmartHome",
+    "Sudoku",
+    "SwimmingPool",
+    "TCPcondis",
+    "TwoPhaseLocking"
+  ],
+  "recorded_used_mcc_families": [
+    "AirplaneLD",
+    "Angiogenesis",
+    "AutoFlight",
+    "BusinessProcesses",
+    "CANConstruction",
+    "CircularTrains",
+    "CloudDeployment",
+    "CloudOpsManagement",
+    "DES",
+    "DLCflexbar",
+    "DatabaseWithMutex",
+    "Diffusion2D",
+    "DoubleExponent",
+    "ERK",
+    "Echo",
+    "FMS",
+    "GPUForwardProgress",
+    "HirschbergSinclair",
+    "JoinFreeModules",
+    "Kanban",
+    "LamportFastMutEx",
+    "LeafsetExtension",
+    "ParamProductionCell",
+    "Peterson",
+    "Philosophers",
+    "Raft",
+    "ResAllocation",
+    "RwMutex",
+    "SharedMemory",
+    "ShieldPPPs",
+    "SmartHome",
+    "Sudoku",
+    "SwimmingPool",
+    "TCPcondis",
+    "TokenRing",
+    "TwoPhaseLocking"
+  ],
+  "prior_manifest_inventory": {
+    "benchmarks/boolean-consistency-v1/manifest.json": {
+      "sha256": "ab43fc86263687f0bbf6b8d1ceb429ea453cacfbf020b45e6b9955556514f855",
+      "families": [
+        "pigeonhole",
+        "random-3sat"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/boolean-consistency-v2/manifest.json": {
+      "sha256": "dec15941f17a88ed9db81afea822bc932f61ec26c971958bd1b002338b3fb272",
+      "families": [
+        "pigeonhole",
+        "random-3sat"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/boolean-consistency-v3/manifest.json": {
+      "sha256": "50b53daf62789dd363822781ecf9630641e6752d5b66ea1cf7c7c139cbe45ae0",
+      "families": [
+        "pigeonhole",
+        "random-3sat"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/candidate-challenges-v1/manifest.json": {
+      "sha256": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+      "families": [
+        "AutoFlight",
+        "CANConstruction",
+        "CloudOpsManagement",
+        "DLCflexbar",
+        "JoinFreeModules",
+        "pigeonhole",
+        "random-3sat"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/diverse-ser-programs-v1/manifest.json": {
+      "sha256": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea",
+      "families": [],
+      "reserved_families": []
+    },
+    "benchmarks/diverse-ser-scaling-v1/manifest.json": {
+      "sha256": "9bdd71d5bcb810d3b38611723512f2e5c01769ebc21bf95ec7464c67d88552df",
+      "families": [],
+      "reserved_families": []
+    },
+    "benchmarks/fastforward-import-v1/manifest.json": {
+      "sha256": "c95d1a3a411e7b80c8db62d3fa088c62389d3fcbdfce58d7965dd30533884c99",
+      "families": [],
+      "reserved_families": []
+    },
+    "benchmarks/fastforward-import-v2/manifest.json": {
+      "sha256": "c95d1a3a411e7b80c8db62d3fa088c62389d3fcbdfce58d7965dd30533884c99",
+      "families": [],
+      "reserved_families": []
+    },
+    "benchmarks/hard-development-v1/manifest.json": {
+      "sha256": "a239a470d4d1f70e549f225e1839f077443b15152d3c29978c65790ddf0d87ca",
+      "families": [
+        "CloudOpsManagement",
+        "DLCflexbar",
+        "pigeonhole",
+        "random-3sat"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/hard-development-v2/manifest.json": {
+      "sha256": "1e77f4283218c14cb5f9265c372f7226e7402cdf08c245b2008d20d5485968ba",
+      "families": [
+        "CloudOpsManagement",
+        "DLCflexbar",
+        "pigeonhole",
+        "random-3sat"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/hard-survivors-v1/manifest.json": {
+      "sha256": "b922231712f9b02ba2a1972adc70a64f86e163d22afee44b56e67e833205c8e4",
+      "families": [
+        "pigeonhole"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/harder-programs/manifest.json": {
+      "sha256": "272c0abba1f985dcb96e593da9e1f4bd71fad9b9e3848ac21494d20568b81332",
+      "families": [
+        "cyclic-counter",
+        "phase-monitor",
+        "replicated-register"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/mcc-publication/manifest.json": {
+      "sha256": "71f8fc3bf9e3d64f4c7f0a65fe7058b441cfdfb0bdb5bd04e61331f818a3aeeb",
+      "families": [
+        "AirplaneLD",
+        "AutoFlight",
+        "CANConstruction",
+        "CircularTrains",
+        "CloudDeployment",
+        "CloudOpsManagement",
+        "DLCflexbar",
+        "ERK",
+        "Echo",
+        "GPUForwardProgress",
+        "HirschbergSinclair",
+        "JoinFreeModules",
+        "LeafsetExtension",
+        "ShieldPPPs",
+        "Sudoku",
+        "TwoPhaseLocking"
+      ],
+      "reserved_families": [
+        "AirplaneLD",
+        "CloudDeployment",
+        "ERK",
+        "HirschbergSinclair",
+        "LeafsetExtension",
+        "ShieldPPPs",
+        "Sudoku",
+        "TwoPhaseLocking"
+      ]
+    },
+    "benchmarks/mcc-publication-development/manifest.json": {
+      "sha256": "d233f8cf91cf7d2bd7534f2435a54e5f34b4bf2cfc7573a45783aabf72ecc9ae",
+      "families": [
+        "AutoFlight",
+        "CANConstruction",
+        "CircularTrains",
+        "CloudOpsManagement",
+        "DLCflexbar",
+        "Echo",
+        "GPUForwardProgress",
+        "JoinFreeModules"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/mcc-publication-evaluation/manifest.json": {
+      "sha256": "9028f162dc9940a55919fd328e139ed7f4d7ea906cf6a1da9a71103f24136b02",
+      "families": [
+        "AirplaneLD",
+        "CloudDeployment",
+        "ERK",
+        "HirschbergSinclair",
+        "LeafsetExtension",
+        "ShieldPPPs",
+        "Sudoku",
+        "TwoPhaseLocking"
+      ],
+      "reserved_families": [
+        "AirplaneLD",
+        "CloudDeployment",
+        "ERK",
+        "HirschbergSinclair",
+        "LeafsetExtension",
+        "ShieldPPPs",
+        "Sudoku",
+        "TwoPhaseLocking"
+      ]
+    },
+    "benchmarks/mcc-selection.json": {
+      "sha256": "47639889ad5aa46acd50ab9681f1c25454eeff10a664fe1ff8b673aea97b423c",
+      "families": [
+        "DatabaseWithMutex",
+        "DoubleExponent",
+        "FMS",
+        "Kanban",
+        "LamportFastMutEx",
+        "Peterson",
+        "Philosophers",
+        "RwMutex",
+        "SharedMemory",
+        "SwimmingPool",
+        "TCPcondis",
+        "TokenRing"
+      ],
+      "reserved_families": [
+        "Kanban",
+        "LamportFastMutEx",
+        "Peterson",
+        "Philosophers",
+        "SwimmingPool",
+        "TCPcondis"
+      ]
+    },
+    "benchmarks/mcc-stress-development/manifest.json": {
+      "sha256": "2f23cc2dcfb72d8cf03979830ad4cd0710751507208a8c000e5ba3a5b7b1a994",
+      "families": [
+        "AutoFlight",
+        "CANConstruction",
+        "CircularTrains",
+        "CloudOpsManagement",
+        "DLCflexbar",
+        "Echo",
+        "GPUForwardProgress",
+        "JoinFreeModules"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/mcc-stress-development/selection.json": {
+      "sha256": "7b98693f3f153a608b3df6ff229f5418352031657ddfe1a090169602fb586306",
+      "families": [
+        "AutoFlight",
+        "CANConstruction",
+        "CircularTrains",
+        "CloudOpsManagement",
+        "DLCflexbar",
+        "Echo",
+        "GPUForwardProgress",
+        "JoinFreeModules"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/mcc2021/manifest.json": {
+      "sha256": "f639756e06c9162467b8dc50f1321001cee92cc411b25f3ed5a6a3403dd01b73",
+      "families": [
+        "DatabaseWithMutex",
+        "DoubleExponent",
+        "FMS",
+        "Kanban",
+        "LamportFastMutEx",
+        "Peterson",
+        "Philosophers",
+        "RwMutex",
+        "SharedMemory",
+        "SwimmingPool",
+        "TCPcondis",
+        "TokenRing"
+      ],
+      "reserved_families": [
+        "Kanban",
+        "LamportFastMutEx",
+        "Peterson",
+        "Philosophers",
+        "SwimmingPool",
+        "TCPcondis"
+      ]
+    },
+    "benchmarks/mcc2021-development/manifest.json": {
+      "sha256": "01f000d8b7417aba6558259dd22e51aba8ecf4577481f236fdd1c972568637aa",
+      "families": [
+        "DatabaseWithMutex",
+        "DoubleExponent",
+        "FMS",
+        "RwMutex",
+        "SharedMemory",
+        "TokenRing"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/mcc2021-development-hard/manifest.json": {
+      "sha256": "04f8837ab1539ef3c9f82a7ccecb87f99afed14ae353575e454665d10b3afd2b",
+      "families": [
+        "DatabaseWithMutex",
+        "DoubleExponent",
+        "SharedMemory",
+        "TokenRing"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/mcc2021-evaluation/manifest.json": {
+      "sha256": "8611363475145c33a5f64a5162dc9c6375ac69418356970ac5a6279a62d1500e",
+      "families": [
+        "Kanban",
+        "LamportFastMutEx",
+        "Peterson",
+        "Philosophers",
+        "SwimmingPool",
+        "TCPcondis"
+      ],
+      "reserved_families": [
+        "Kanban",
+        "LamportFastMutEx",
+        "Peterson",
+        "Philosophers",
+        "SwimmingPool",
+        "TCPcondis"
+      ]
+    },
+    "benchmarks/publication-selection.json": {
+      "sha256": "9dc8baf28450abdc3ee409b941c6589a42e0731c712f769a7fb5c7405b1c58fd",
+      "families": [
+        "AirplaneLD",
+        "AutoFlight",
+        "CANConstruction",
+        "CircularTrains",
+        "CloudDeployment",
+        "CloudOpsManagement",
+        "DLCflexbar",
+        "ERK",
+        "Echo",
+        "GPUForwardProgress",
+        "HirschbergSinclair",
+        "JoinFreeModules",
+        "LeafsetExtension",
+        "ShieldPPPs",
+        "Sudoku",
+        "TwoPhaseLocking"
+      ],
+      "reserved_families": [
+        "AirplaneLD",
+        "CloudDeployment",
+        "ERK",
+        "HirschbergSinclair",
+        "LeafsetExtension",
+        "ShieldPPPs",
+        "Sudoku",
+        "TwoPhaseLocking"
+      ]
+    },
+    "benchmarks/reserved-evaluation-v2.json": {
+      "sha256": "d7ae4dd2d55f9bda15f0ea4ef3da26c52da468883122491cb20fd4971560abe9",
+      "families": [
+        "AirplaneLD",
+        "Angiogenesis",
+        "AutoFlight",
+        "BusinessProcesses",
+        "CANConstruction",
+        "CircularTrains",
+        "CloudDeployment",
+        "CloudOpsManagement",
+        "DES",
+        "DLCflexbar",
+        "DatabaseWithMutex",
+        "Diffusion2D",
+        "DoubleExponent",
+        "ERK",
+        "Echo",
+        "FMS",
+        "GPUForwardProgress",
+        "HirschbergSinclair",
+        "JoinFreeModules",
+        "Kanban",
+        "LamportFastMutEx",
+        "LeafsetExtension",
+        "ParamProductionCell",
+        "Peterson",
+        "Philosophers",
+        "Raft",
+        "ResAllocation",
+        "RwMutex",
+        "SharedMemory",
+        "ShieldPPPs",
+        "SmartHome",
+        "Sudoku",
+        "SwimmingPool",
+        "TCPcondis",
+        "TokenRing",
+        "TwoPhaseLocking",
+        "cyclic-counter",
+        "phase-monitor",
+        "replicated-register"
+      ],
+      "reserved_families": [
+        "Angiogenesis",
+        "BusinessProcesses",
+        "DES",
+        "Diffusion2D",
+        "ParamProductionCell",
+        "Raft",
+        "ResAllocation",
+        "SmartHome"
+      ]
+    },
+    "benchmarks/scaling-programs/manifest.json": {
+      "sha256": "c1535629f379fc83699d697dcdab9e9ffc5efc67e0e29a812a29d478dcec5a4f",
+      "families": [
+        "cyclic-counter",
+        "phase-monitor",
+        "replicated-register"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/smpt-classic/manifest.json": {
+      "sha256": "bab96510954af8f7292a430c981ea360f47b792974e194fd9830a007bcd296a0",
+      "families": [],
+      "reserved_families": []
+    },
+    "benchmarks/stress-programs/manifest.json": {
+      "sha256": "48d46e1bff9538e92a692b7fa85145a0e51f7ca9a77aa834c3c7eb8f5a0d7a40",
+      "families": [],
+      "reserved_families": []
+    },
+    "benchmarks/stress-selection.json": {
+      "sha256": "7b98693f3f153a608b3df6ff229f5418352031657ddfe1a090169602fb586306",
+      "families": [
+        "AutoFlight",
+        "CANConstruction",
+        "CircularTrains",
+        "CloudOpsManagement",
+        "DLCflexbar",
+        "Echo",
+        "GPUForwardProgress",
+        "JoinFreeModules"
+      ],
+      "reserved_families": []
+    },
+    "benchmarks/token-flow-diagnostic/manifest.json": {
+      "sha256": "f5b8c53f7c818baf636cfb16e2c267a79c82632be68e4601af564a13c5a75e5e",
+      "families": [],
+      "reserved_families": []
+    }
+  },
+  "audit_scope": "Metadata only: every immediate benchmarks/*/manifest.json, root selection/reserved JSON, and benchmarks/*/selection.json present before this selection. Family/group fields and PT instance names inventoried; selected family strings absent also from recorded instance/name/source_lola fields. This is not a historical-exposure, graph-isomorphism, or related-model audit. No reserved input archive or model/property payload was read.",
+  "related_family_caution": "Domain labels do not certify independent generators. Reaudit related model families before any publication-level separation claim. All eight newly reserved families plus fourteen earlier evaluation families remain excluded.",
+  "collector": {
+    "script": "scripts/collect_stress_mcc.py",
+    "sha256": "bba0cf77f8d4075fa3bfc74461f0185f378adec39b21c2b6f40b1685554c7827",
+    "output": "benchmarks/application-expansion-v1",
+    "seconds_per_model": 120,
+    "memory_mib": 2048,
+    "archive_mib": 256,
+    "expanded_mib": 1024,
+    "artifact_mib": 1024,
+    "policy": "One bounded worker at a time; preserve all192 planned slots on unavailable download, parse/unsupported input, property count mismatch, timeout, memory limit, and artifact limit. No replacement/reselection after results."
+  },
+  "archive_identity": "URLs are recorded; archive hashes, bytes and licenses remain unobserved until bounded acquisition records them. The saved index hash pins selection membership, not server archive contents."
+}

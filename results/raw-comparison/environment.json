@@ -1,0 +1,37 @@
+{
+  "corpus": "benchmarks/raw-harder",
+  "queries": 24,
+  "seconds": 2,
+  "repeat": 3,
+  "methods": [
+    "raw-bfs",
+    "raw-potential"
+  ],
+  "binary_sha256": "91ece0b4b7ae9d670ec9e966293dd67319d75971e850e07aa0171c27c7dae08c",
+  "source_sha256": {
+    "src/cegar.rs": "043989d77b572a270a2bb31db5d1389cf8c0a2104009cbfc0765283c1f465063",
+    "src/raw_search.rs": "8c3411d32458c1c754497db309174a85b85a4ca89a212c7d4d2268952ea9a6ef",
+    "src/raw_target.rs": "76e4fcaf6ab3a279266b4a9b0ba0b1f58bf43caa238af7c7d18dbd71720d07c0",
+    "src/guided.rs": "80f59160a6bdb668e2fa0707d1f98c2ae1cc0c320b6c140877022a8af71c11c1",
+    "src/raw_potential.rs": "16c7c1e02104262032463967e688819c5b21398e1a1e6c74a9cf21a8ef3f6875",
+    "src/klmst.rs": "6ddabf96e4bd6023ebb58d4db754b4cbcc1aa66ac16c3c383557f34a29355475",
+    "src/lib.rs": "cfb4dee90ed4a49ee1f2d6c041a5c7652bd7bcc09d3ef2417f5cfb904ecea435",
+    "src/reduced.rs": "ec37ab0198bfcf4b6beb304c05f1f6411294f63498432ffe20aa9a3d76c7c79b",
+    "src/structural.rs": "0cd39ef06b4c0fd89307b63b788fdf458da69f9d2ba1a21f3d8b961dd67c44e5",
+    "src/integer_equation.rs": "f48591b60baf780122669f991ee4ec2ab2d24fa9e2e458dae6cd9a7de32adfcf",
+    "src/quotient.rs": "4f7b7b3ef7b43db12491bcb4fd6bc5ef1de78faae530018fef434c979af4007d",
+    "src/complete_cover.rs": "50b1161ab11f33600f1aaff800c9772470ef6903e8f75cad74cdb1c6759d3b79",
+    "src/count_plan.rs": "4dc08cc9cea6d8af2a235c8cfe12f9293a99a1acf2a3422ac84d32debd113eea",
+    "src/complete_target.rs": "178405dd37d9a363a8c24e41f7c6ce3636e7cfa076fba71da3c077b47106e94a",
+    "src/state_equation.rs": "24a90e432bc6197b88dc6534780cd996555b70fd8fd135cc2de18f46040850e3",
+    "src/complete_arithmetic.rs": "cc2d0b6e9e825ee71b053a968d609a9749f16fc5c04f7de49b46131900c919c3",
+    "src/main.rs": "e4bb01afc0de308c814286298e95c0babfbe8d72526229014d38f203ffc7e303",
+    "src/input.rs": "35ecb9962118da97aded81344d8adcf8f2bf5e594337986e73329a3a051222ee",
+    "src/complete.rs": "9f8f8b1c45c7809c8e0163639cc31bc2691f0134f794d653645ffd423a335e6a",
+    "src/search.rs": "d3918ac2d4060c665a04c5226599e8d7321e004b1584233e48c1363f03dd0a01",
+    "src/model.rs": "23593ab73c6f422dc5b799c56c779c9e5e9022b794dfa7755ff79023ddb4af86",
+    "src/backward.rs": "161c60898ed995b535b3c1523038093d0466cacca8dffd693440fbf1b8e46082",
+    "src/summary.rs": "4508b7fef531b4ec6d6274de79a21a9aa44cfc48f718d0b6fbbcc146e926482e"
+  },
+  "scope": "One original net and uncomplemented semilinear target per program. No DNF splitting. Sequential processes; proof verification outside timing."
+}

@@ -1,0 +1,33 @@
+<property-set><property>
+    <id>AutoFlight-PT-02a-ReachabilityCardinality-12</id>
+    <description>Automatically generated</description>
+    <formula>
+      <exists-path>
+        <finally>
+          <conjunction>
+            <negation>
+              <integer-le>
+                <tokens-count>
+                  <place>p25</place>
+                </tokens-count>
+                <tokens-count>
+                  <place>p55</place>
+                </tokens-count>
+              </integer-le>
+            </negation>
+            <negation>
+              <negation>
+                <integer-le>
+                  <integer-constant>1</integer-constant>
+                  <tokens-count>
+                    <place>p38</place>
+                  </tokens-count>
+                </integer-le>
+              </negation>
+            </negation>
+          </conjunction>
+        </finally>
+      </exists-path>
+    </formula>
+  </property>
+  </property-set>

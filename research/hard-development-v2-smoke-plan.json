@@ -1,0 +1,11 @@
+{
+  "properties": [
+    "CloudOpsManagement-PT-20480by10240__RC12",
+    "pigeonhole_p11_h10",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_40_0_7d80d074"
+  ],
+  "seconds": 2,
+  "expected_rows": 12,
+  "purpose": "Frontend/resource compatibility; no hardness conclusions.",
+  "full_plan": "research/hard-development-v2-plan.json"
+}

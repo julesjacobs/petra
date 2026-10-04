@@ -1,0 +1,11 @@
+# Phase-pair input schema alignment
+
+The independent phase-pair checker now validates the entire original problem before checking its certificate. Previously it only validated target constraints cited by conflicts. `prior-acceptance.json` records a malformed unreferenced target accepted by the unchanged frozen v1 checker; the repaired checker rejects it. This demonstrates a schema validation gap, not a false refutation of a well-formed reachability query.
+
+Validation follows the Rust `Problem` JSON schema and `Problem::validate`: string place and transition names, u64 initial markings, distinct positive weighted arcs per transition side, valid place indices, and every target row with a dimension-matched i64 coefficient vector, i64 bound, and boolean equality. Duplicate names and extra object fields remain allowed, matching serde. Python booleans cannot substitute for integers. Errors are deterministic `ValueError`s. Certificate rules are unchanged.
+
+`vendor/venv/bin/python tests/check_phase_pair_schema.py` passed all 7 tests in `tests-composition.log`. This includes 30 malformed-field subcases, missing-field and nonobject inputs, integer boundaries, unknown object fields, duplicate names, prior acceptance reproduction, direct dispatch, and relevance reconstruction before phase-pair checking. The tests invoke actual bounded validator child processes: Python original-input mode accepts the valid translated PNML/XML fixture and rejects a malformed canonical/generated target; Rust original-input mode independently translates original PNML/XML and accepts both direct and relevance-wrapped phase-pair proofs. The tests exercise validation of synthetic answers, not a newly run solver.
+
+The first two runs failed due to fixture setup (missing PNML net type; comparison of translator tuples to JSON arrays). Both logs are retained. No Rust builds or benchmarks were run.
+
+`results/runner-phase-pair-v2` preserves the complete 23-file v1 closure except `scripts/phase_pair_checker.py`; the existing phase dispatch remains unchanged. The v1 file manifest and every v2 archive member were independently checked. `validation.json` records hashes. No other shared script or historical evidence was edited.

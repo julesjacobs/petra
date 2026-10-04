@@ -1,0 +1,19 @@
+{
+  "corpus": "benchmarks/raw-diverse-automaton-v1",
+  "sources": 12,
+  "methods": [
+    "raw-portfolio"
+  ],
+  "repeat": 2,
+  "seconds": 5,
+  "memory_mib": 2048,
+  "scope": "Local exploratory matched full12-source before/after coverage and regression comparison; separate sequential runs, all source inputs and limits equal. Two repeats per configuration; no Linux/competitor runtime claim.",
+  "before": "results/solver-shared-relevance-schemas-v1/vass-reach",
+  "after": "results/solver-component-game-v1/vass-reach",
+  "expected_rows_per_configuration": 24,
+  "binary_sha256": {
+    "before": "06dee8eab4b1b7fe9708cb64bafbc9f883b74a719390a50eb7431d4646ea6e3f",
+    "after": "fa24c7ee15a01cfe83d9ab16a16e2944eb418630307f2be46b9cac4b8078c174"
+  },
+  "observed_execution_caveat": "Read-only local application-capacity auditing occurred during this local experiment. No builds or imported-corpus conversions overlapped. Treat results as bounded developmental coverage, not isolated timing or speedup evidence; repeat on isolated Linux for publication."
+}

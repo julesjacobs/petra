@@ -1,0 +1,44 @@
+{
+  "corpus": "/Users/julesjacobs/git/git/pvass/benchmarks/raw-diverse-automaton-v1",
+  "collection_sha256": "69380c4bbd222ab28412872380529c10e691d51263514dca5e6d3a942af212ed",
+  "source_manifest_sha256": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea",
+  "source_selection": "collection-selection",
+  "selected_sources": [
+    "write_skew_n3_racy",
+    "write_skew_n3_pairlocked",
+    "write_skew_n4_racy",
+    "write_skew_n4_pairlocked",
+    "write_skew_n5_racy",
+    "write_skew_n5_pairlocked",
+    "optimistic_v3_aba",
+    "optimistic_v3_validated",
+    "optimistic_v5_aba",
+    "optimistic_v5_validated",
+    "optimistic_v9_aba",
+    "optimistic_v9_validated"
+  ],
+  "binary_source": "/Users/julesjacobs/git/git/pvass/results/solver-component-game-v1/vass-reach",
+  "binary_sha256": "fa24c7ee15a01cfe83d9ab16a16e2944eb418630307f2be46b9cac4b8078c174",
+  "runner_sha256": {
+    "raw_stress_worker.py": "70b1504f5461e209ad2b85bc186d75c9368c5efbf2b10c2d33fcea4176946d44",
+    "raw_invariant_check.py": "47ed99a0db558d0262cc0a735293dbb32a118875cf5f093c344d3abcac19ac68",
+    "raw_automaton_check.py": "5c623527114235bb85cec70cc14102f269d24fb5261783dfc1c6c7f037ce24b9",
+    "raw_schema_check.py": "03b3c69baac745b73333aeb1d22ae1634182716b88db25931b73bf7b84fef8a5",
+    "benchmark_stress_raw.py": "3b4d949107261319f70543e38e0d28cc4efe0b0196d968f7dd8c3a1b03e45fb6",
+    "raw_z3.py": "ba16c188953868e5864b7820ca3ea3b365bf17ca2f56192b939383b12e9c5b4a",
+    "process_runner.py": "07644ec3f88ab2ae1d1e4f0071a3d3f754d13176124828d01e1f4d4cb207b71d"
+  },
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "python_executable": "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+  "z3_package_version": "5.1.0.0",
+  "methods": [
+    "raw-negative"
+  ],
+  "repeat": 2,
+  "seconds": 5.0,
+  "solver_fraction": 0.8,
+  "max_states": 200000,
+  "negative_verifier_work_limit": 20000000,
+  "memory_bytes": 2147483648,
+  "started_unix": 1790540724.4605892
+}

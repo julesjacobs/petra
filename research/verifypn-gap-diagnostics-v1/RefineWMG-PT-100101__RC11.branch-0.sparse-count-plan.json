@@ -1,0 +1,1 @@
+{"marking":null,"method":"sparse-count-plan","parse_seconds":0.000478459,"places":504,"reason":"1 arithmetic attempts, 0 integer models, 0 support refinements; no replayed witness","solve_seconds":0.001789459,"states":0,"trace":[],"transitions":403,"verdict":"unknown"}

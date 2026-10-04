@@ -1,0 +1,364 @@
+{
+  "status": "Complete matrix; full independent artifact audit pending retrieval",
+  "rows": 12,
+  "parent_queries": 192,
+  "parent_representatives": 187,
+  "by_method": {
+    "native-focused": {
+      "reachable": 2,
+      "unknown": 1
+    },
+    "native-symbolic": {
+      "reachable": 2,
+      "unknown": 1
+    },
+    "smpt-full-portable": {
+      "reachable": 2,
+      "unknown": 1
+    },
+    "verifypn-default": {
+      "reachable": 3
+    }
+  },
+  "details": [
+    {
+      "query": "NoC3x3-PT-8B__RC06",
+      "method": "native-focused",
+      "verdict": "reachable",
+      "wall_seconds": 2.4697466060024453,
+      "outer_timeout": false,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": [
+        {
+          "branch": 0,
+          "verdict": "reachable",
+          "engine": "relaxed-focused",
+          "independent_check": "python-witness"
+        }
+      ],
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 36615893839,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 2404812655.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "36615893839",
+          "",
+          "instructions:u",
+          "2404812655",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC06",
+      "method": "native-symbolic",
+      "verdict": "reachable",
+      "wall_seconds": 2.7462404899997637,
+      "outer_timeout": false,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": [
+        {
+          "branch": 0,
+          "verdict": "reachable",
+          "engine": "relaxed-focused",
+          "independent_check": "python-witness"
+        }
+      ],
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 43527543064,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 2698974128.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "43527543064",
+          "",
+          "instructions:u",
+          "2698974128",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC06",
+      "method": "verifypn-default",
+      "verdict": "reachable",
+      "wall_seconds": 0.7903436490014428,
+      "outer_timeout": false,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": null,
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 11962711232,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 739697079.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "11962711232",
+          "",
+          "instructions:u",
+          "739697079",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC06",
+      "method": "smpt-full-portable",
+      "verdict": "reachable",
+      "wall_seconds": 6.694859814000665,
+      "outer_timeout": false,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": null,
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 104654005023,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 6551558344.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "104654005023",
+          "",
+          "instructions:u",
+          "6551558344",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "CircadianClock-PT-100000__RC12",
+      "method": "native-symbolic",
+      "verdict": "reachable",
+      "wall_seconds": 0.5492274179996457,
+      "outer_timeout": false,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": [
+        {
+          "branch": 0,
+          "verdict": "reachable",
+          "engine": "relaxed-focused",
+          "independent_check": "python-witness"
+        }
+      ],
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 7291899821,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 501236512.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "7291899821",
+          "",
+          "instructions:u",
+          "501236512",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "CircadianClock-PT-100000__RC12",
+      "method": "verifypn-default",
+      "verdict": "reachable",
+      "wall_seconds": 1.421149437999702,
+      "outer_timeout": false,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": null,
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 16804972088,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 1367801421.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "16804972088",
+          "",
+          "instructions:u",
+          "1367801421",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "CircadianClock-PT-100000__RC12",
+      "method": "smpt-full-portable",
+      "verdict": "reachable",
+      "wall_seconds": 8.325667020006222,
+      "outer_timeout": false,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": null,
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 98570190254,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 8180891965.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "98570190254",
+          "",
+          "instructions:u",
+          "8180891965",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "CircadianClock-PT-100000__RC12",
+      "method": "native-focused",
+      "verdict": "reachable",
+      "wall_seconds": 0.5609115580009529,
+      "outer_timeout": false,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": [
+        {
+          "branch": 0,
+          "verdict": "reachable",
+          "engine": "relaxed-focused",
+          "independent_check": "python-witness"
+        }
+      ],
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 7280503262,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 507249466.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "7280503262",
+          "",
+          "instructions:u",
+          "507249466",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC12",
+      "method": "verifypn-default",
+      "verdict": "reachable",
+      "wall_seconds": 0.5881196870031999,
+      "outer_timeout": false,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": null,
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 8763876442,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 530639768.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "8763876442",
+          "",
+          "instructions:u",
+          "530639768",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC12",
+      "method": "smpt-full-portable",
+      "verdict": "unknown",
+      "wall_seconds": 17.240753384990967,
+      "outer_timeout": true,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": null,
+      "memory_limit_exceeded": true,
+      "instructions": null
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC12",
+      "method": "native-focused",
+      "verdict": "unknown",
+      "wall_seconds": 60.07589605198882,
+      "outer_timeout": true,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": [],
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 1006109557030,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 59988963738.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "1006109557030",
+          "",
+          "instructions:u",
+          "59988963738",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC12",
+      "method": "native-symbolic",
+      "verdict": "unknown",
+      "wall_seconds": 60.09535374600091,
+      "outer_timeout": true,
+      "validation_failure": null,
+      "failure_stage": null,
+      "branches": [],
+      "memory_limit_exceeded": false,
+      "instructions": {
+        "value": 1025593687408,
+        "unit": "",
+        "observed_event": "instructions:u",
+        "event_runtime_ns": 59985644166.0,
+        "time_running_percent": 100.0,
+        "raw_fields": [
+          "1025593687408",
+          "",
+          "instructions:u",
+          "59985644166",
+          "100.00",
+          "",
+          ""
+        ]
+      }
+    }
+  ],
+  "runs_sha256": "d77749e9e83ec9a6f84b638186e6b8abacac935ea5bcbaeddc37c8f13562a183",
+  "scope": "Outcome-selected development qualification; native answers have recorded independent checks, external answers tool-reported, one repetition and shared host."
+}

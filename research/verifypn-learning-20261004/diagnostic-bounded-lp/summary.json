@@ -1,0 +1,914 @@
+{
+  "status": "passed",
+  "plan_sha256": "c6518018d1949908d004d97e5addbce5f04cdebbd63bc355ec18f9036e6ed49c",
+  "properties": 4,
+  "rows": 16,
+  "scope": "Selected-property diagnostic; no full-corpus or idle-host claim",
+  "contended": true,
+  "timing_interpretation": "Descriptive only; no speed claim",
+  "blocks": {
+    "repeat1": {
+      "status": "passed",
+      "stage": "repeat1",
+      "plan_sha256": "c6518018d1949908d004d97e5addbce5f04cdebbd63bc355ec18f9036e6ed49c",
+      "terminal_sha256": "3e87a8dd171b62fa0929bc7e748ed49f0f6db1bd07350594b18020e7ba443d6c",
+      "execution_sha256": "1328ea301a0fb702592d61c3545cc6f32a32c18c91acac83966c2bbfe7a335f9",
+      "rows": 8,
+      "issues": [],
+      "accepted_definitive_rows": 7,
+      "host": {
+        "samples": 35,
+        "preflight_within_thresholds": false,
+        "measurement_within_thresholds": false,
+        "idle_host_objective_met": false,
+        "contention_observed": true,
+        "explicit_contention_permission": false,
+        "load1_range": [
+          10.294921875,
+          16.888671875
+        ],
+        "cpu_percent_range": [
+          34.24386726677176,
+          68.43274364779496
+        ],
+        "note": "Host-wide observations; no exclusive-CPU guarantee. Active limit allows one CPU for this campaign."
+      },
+      "scope": "Selected-property diagnostic; no full-corpus or idle-host claim",
+      "reports": {
+        "pooled": {
+          "views": {
+            "all_properties": {
+              "denominator": 4,
+              "methods": {
+                "candidate": {
+                  "solved": 4,
+                  "par2_mean_seconds": 0.7062088960083202,
+                  "solver_wall_total_seconds": 2.8248355840332806,
+                  "validation_wall_total_seconds": 7.418938248883933,
+                  "verdicts": {
+                    "reachable": 2,
+                    "unreachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 3,
+                  "par2_mean_seconds": 4.057166510494426,
+                  "solver_wall_total_seconds": 11.253409166820347,
+                  "validation_wall_total_seconds": 7.263585040811449,
+                  "verdicts": {
+                    "reachable": 2,
+                    "unreachable": 1,
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 4,
+              "methods": {
+                "candidate": {
+                  "solved": 4,
+                  "par2_mean_seconds": 0.7062088960083202,
+                  "solver_wall_total_seconds": 2.8248355840332806,
+                  "validation_wall_total_seconds": 7.418938248883933,
+                  "verdicts": {
+                    "reachable": 2,
+                    "unreachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 3,
+                  "par2_mean_seconds": 4.057166510494426,
+                  "solver_wall_total_seconds": 11.253409166820347,
+                  "validation_wall_total_seconds": 7.263585040811449,
+                  "verdicts": {
+                    "reachable": 2,
+                    "unreachable": 1,
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "existing176": {
+          "views": {
+            "all_properties": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.012572499923408,
+                  "solver_wall_total_seconds": 2.025144999846816,
+                  "validation_wall_total_seconds": 6.735593790886924,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 2,
+                  "par2_mean_seconds": 0.954753604484722,
+                  "solver_wall_total_seconds": 1.909507208969444,
+                  "validation_wall_total_seconds": 6.844833665993065,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.012572499923408,
+                  "solver_wall_total_seconds": 2.025144999846816,
+                  "validation_wall_total_seconds": 6.735593790886924,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 2,
+                  "par2_mean_seconds": 0.954753604484722,
+                  "solver_wall_total_seconds": 1.909507208969444,
+                  "validation_wall_total_seconds": 6.844833665993065,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "expansion192": {
+          "views": {
+            "all_properties": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 0.3998452920932323,
+                  "solver_wall_total_seconds": 0.7996905841864645,
+                  "validation_wall_total_seconds": 0.6833444579970092,
+                  "verdicts": {
+                    "unreachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 1,
+                  "par2_mean_seconds": 7.15957941650413,
+                  "solver_wall_total_seconds": 9.343901957850903,
+                  "validation_wall_total_seconds": 0.41875137481838465,
+                  "verdicts": {
+                    "unreachable": 1,
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 0.3998452920932323,
+                  "solver_wall_total_seconds": 0.7996905841864645,
+                  "validation_wall_total_seconds": 0.6833444579970092,
+                  "verdicts": {
+                    "unreachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 1,
+                  "par2_mean_seconds": 7.15957941650413,
+                  "solver_wall_total_seconds": 9.343901957850903,
+                  "validation_wall_total_seconds": 0.41875137481838465,
+                  "verdicts": {
+                    "unreachable": 1,
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "family:ASLink": {
+          "views": {
+            "all_properties": {
+              "denominator": 1,
+              "methods": {
+                "candidate": {
+                  "solved": 1,
+                  "par2_mean_seconds": 0.6015624171122909,
+                  "solver_wall_total_seconds": 0.6015624171122909,
+                  "validation_wall_total_seconds": 0.24003187497146428,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 1,
+                  "par2_mean_seconds": 4.3191588330082595,
+                  "solver_wall_total_seconds": 4.3191588330082595,
+                  "validation_wall_total_seconds": 0.41875137481838465,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 1,
+              "methods": {
+                "candidate": {
+                  "solved": 1,
+                  "par2_mean_seconds": 0.6015624171122909,
+                  "solver_wall_total_seconds": 0.6015624171122909,
+                  "validation_wall_total_seconds": 0.24003187497146428,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 1,
+                  "par2_mean_seconds": 4.3191588330082595,
+                  "solver_wall_total_seconds": 4.3191588330082595,
+                  "validation_wall_total_seconds": 0.41875137481838465,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "family:RERS17pb114": {
+          "views": {
+            "all_properties": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.012572499923408,
+                  "solver_wall_total_seconds": 2.025144999846816,
+                  "validation_wall_total_seconds": 6.735593790886924,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 2,
+                  "par2_mean_seconds": 0.954753604484722,
+                  "solver_wall_total_seconds": 1.909507208969444,
+                  "validation_wall_total_seconds": 6.844833665993065,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.012572499923408,
+                  "solver_wall_total_seconds": 2.025144999846816,
+                  "validation_wall_total_seconds": 6.735593790886924,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 2,
+                  "par2_mean_seconds": 0.954753604484722,
+                  "solver_wall_total_seconds": 1.909507208969444,
+                  "validation_wall_total_seconds": 6.844833665993065,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "family:Railroad": {
+          "views": {
+            "all_properties": {
+              "denominator": 1,
+              "methods": {
+                "candidate": {
+                  "solved": 1,
+                  "par2_mean_seconds": 0.1981281670741737,
+                  "solver_wall_total_seconds": 0.1981281670741737,
+                  "validation_wall_total_seconds": 0.4433125830255449,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 0,
+                  "par2_mean_seconds": 10,
+                  "solver_wall_total_seconds": 5.024743124842644,
+                  "validation_wall_total_seconds": 0,
+                  "verdicts": {
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 1,
+              "methods": {
+                "candidate": {
+                  "solved": 1,
+                  "par2_mean_seconds": 0.1981281670741737,
+                  "solver_wall_total_seconds": 0.1981281670741737,
+                  "validation_wall_total_seconds": 0.4433125830255449,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 0,
+                  "par2_mean_seconds": 10,
+                  "solver_wall_total_seconds": 5.024743124842644,
+                  "validation_wall_total_seconds": 0,
+                  "verdicts": {
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        }
+      },
+      "audit_scope": "Saved-evidence audit; independent certificate checking occurred in bounded workers during measurement."
+    },
+    "repeat2": {
+      "status": "passed",
+      "stage": "repeat2",
+      "plan_sha256": "c6518018d1949908d004d97e5addbce5f04cdebbd63bc355ec18f9036e6ed49c",
+      "terminal_sha256": "e4419687a09f6301838995c71ffed6958d316ae6bb3e2b951d1e38bcb47fed7c",
+      "execution_sha256": "79125fdc4e9bb53c7406b3b084f22051ed3a8510827f7ea278b723557426eded",
+      "rows": 8,
+      "issues": [],
+      "accepted_definitive_rows": 7,
+      "host": {
+        "samples": 35,
+        "preflight_within_thresholds": false,
+        "measurement_within_thresholds": false,
+        "idle_host_objective_met": false,
+        "contention_observed": true,
+        "explicit_contention_permission": false,
+        "load1_range": [
+          15.9365234375,
+          20.06298828125
+        ],
+        "cpu_percent_range": [
+          23.118427283702577,
+          70.35218007081436
+        ],
+        "note": "Host-wide observations; no exclusive-CPU guarantee. Active limit allows one CPU for this campaign."
+      },
+      "scope": "Selected-property diagnostic; no full-corpus or idle-host claim",
+      "reports": {
+        "pooled": {
+          "views": {
+            "all_properties": {
+              "denominator": 4,
+              "methods": {
+                "candidate": {
+                  "solved": 4,
+                  "par2_mean_seconds": 0.6204898335854523,
+                  "solver_wall_total_seconds": 2.481959334341809,
+                  "validation_wall_total_seconds": 7.4743261251132935,
+                  "verdicts": {
+                    "reachable": 2,
+                    "unreachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 3,
+                  "par2_mean_seconds": 4.007852239708882,
+                  "solver_wall_total_seconds": 11.060320917749777,
+                  "validation_wall_total_seconds": 7.142126957187429,
+                  "verdicts": {
+                    "reachable": 2,
+                    "unreachable": 1,
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 4,
+              "methods": {
+                "candidate": {
+                  "solved": 4,
+                  "par2_mean_seconds": 0.6204898335854523,
+                  "solver_wall_total_seconds": 2.481959334341809,
+                  "validation_wall_total_seconds": 7.4743261251132935,
+                  "verdicts": {
+                    "reachable": 2,
+                    "unreachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 3,
+                  "par2_mean_seconds": 4.007852239708882,
+                  "solver_wall_total_seconds": 11.060320917749777,
+                  "validation_wall_total_seconds": 7.142126957187429,
+                  "verdicts": {
+                    "reachable": 2,
+                    "unreachable": 1,
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "existing176": {
+          "views": {
+            "all_properties": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.022267458611168,
+                  "solver_wall_total_seconds": 2.044534917222336,
+                  "validation_wall_total_seconds": 6.834011333063245,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.0129076044540852,
+                  "solver_wall_total_seconds": 2.0258152089081705,
+                  "validation_wall_total_seconds": 6.783211999107152,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.022267458611168,
+                  "solver_wall_total_seconds": 2.044534917222336,
+                  "validation_wall_total_seconds": 6.834011333063245,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.0129076044540852,
+                  "solver_wall_total_seconds": 2.0258152089081705,
+                  "validation_wall_total_seconds": 6.783211999107152,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "expansion192": {
+          "views": {
+            "all_properties": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 0.2187122085597366,
+                  "solver_wall_total_seconds": 0.4374244171194732,
+                  "validation_wall_total_seconds": 0.6403147920500487,
+                  "verdicts": {
+                    "unreachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 1,
+                  "par2_mean_seconds": 7.002796874963678,
+                  "solver_wall_total_seconds": 9.034505708841607,
+                  "validation_wall_total_seconds": 0.35891495808027685,
+                  "verdicts": {
+                    "unreachable": 1,
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 0.2187122085597366,
+                  "solver_wall_total_seconds": 0.4374244171194732,
+                  "validation_wall_total_seconds": 0.6403147920500487,
+                  "verdicts": {
+                    "unreachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 1,
+                  "par2_mean_seconds": 7.002796874963678,
+                  "solver_wall_total_seconds": 9.034505708841607,
+                  "validation_wall_total_seconds": 0.35891495808027685,
+                  "verdicts": {
+                    "unreachable": 1,
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "family:ASLink": {
+          "views": {
+            "all_properties": {
+              "denominator": 1,
+              "methods": {
+                "candidate": {
+                  "solved": 1,
+                  "par2_mean_seconds": 0.24558604205958545,
+                  "solver_wall_total_seconds": 0.24558604205958545,
+                  "validation_wall_total_seconds": 0.20054999995045364,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 1,
+                  "par2_mean_seconds": 4.005593749927357,
+                  "solver_wall_total_seconds": 4.005593749927357,
+                  "validation_wall_total_seconds": 0.35891495808027685,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 1,
+              "methods": {
+                "candidate": {
+                  "solved": 1,
+                  "par2_mean_seconds": 0.24558604205958545,
+                  "solver_wall_total_seconds": 0.24558604205958545,
+                  "validation_wall_total_seconds": 0.20054999995045364,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 1,
+                  "par2_mean_seconds": 4.005593749927357,
+                  "solver_wall_total_seconds": 4.005593749927357,
+                  "validation_wall_total_seconds": 0.35891495808027685,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "family:RERS17pb114": {
+          "views": {
+            "all_properties": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.022267458611168,
+                  "solver_wall_total_seconds": 2.044534917222336,
+                  "validation_wall_total_seconds": 6.834011333063245,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.0129076044540852,
+                  "solver_wall_total_seconds": 2.0258152089081705,
+                  "validation_wall_total_seconds": 6.783211999107152,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 2,
+              "methods": {
+                "candidate": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.022267458611168,
+                  "solver_wall_total_seconds": 2.044534917222336,
+                  "validation_wall_total_seconds": 6.834011333063245,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 2,
+                  "par2_mean_seconds": 1.0129076044540852,
+                  "solver_wall_total_seconds": 2.0258152089081705,
+                  "validation_wall_total_seconds": 6.783211999107152,
+                  "verdicts": {
+                    "reachable": 2
+                  },
+                  "failure_flags": {}
+                }
+              },
+              "gains": [],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        },
+        "family:Railroad": {
+          "views": {
+            "all_properties": {
+              "denominator": 1,
+              "methods": {
+                "candidate": {
+                  "solved": 1,
+                  "par2_mean_seconds": 0.19183837505988777,
+                  "solver_wall_total_seconds": 0.19183837505988777,
+                  "validation_wall_total_seconds": 0.43976479209959507,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 0,
+                  "par2_mean_seconds": 10,
+                  "solver_wall_total_seconds": 5.02891195891425,
+                  "validation_wall_total_seconds": 0,
+                  "verdicts": {
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            },
+            "representatives": {
+              "denominator": 1,
+              "methods": {
+                "candidate": {
+                  "solved": 1,
+                  "par2_mean_seconds": 0.19183837505988777,
+                  "solver_wall_total_seconds": 0.19183837505988777,
+                  "validation_wall_total_seconds": 0.43976479209959507,
+                  "verdicts": {
+                    "unreachable": 1
+                  },
+                  "failure_flags": {}
+                },
+                "baseline": {
+                  "solved": 0,
+                  "par2_mean_seconds": 10,
+                  "solver_wall_total_seconds": 5.02891195891425,
+                  "validation_wall_total_seconds": 0,
+                  "verdicts": {
+                    "unknown": 1
+                  },
+                  "failure_flags": {
+                    "timeout": 1
+                  }
+                }
+              },
+              "gains": [
+                {
+                  "corpus": "expansion192",
+                  "query": "Railroad-PT-100__RC09"
+                }
+              ],
+              "losses": []
+            }
+          },
+          "duplicate_groups": []
+        }
+      },
+      "audit_scope": "Saved-evidence audit; independent certificate checking occurred in bounded workers during measurement."
+    }
+  },
+  "repeatability": {
+    "candidate": {
+      "both": 4,
+      "either": 4
+    },
+    "baseline": {
+      "both": 3,
+      "either": 3
+    }
+  },
+  "stable_gains": [
+    {
+      "corpus": "expansion192",
+      "query": "Railroad-PT-100__RC09"
+    }
+  ],
+  "stable_losses": [],
+  "conditional_timing": {
+    "solver": {
+      "properties": 3,
+      "baseline_over_candidate_geomean": 2.0449662931568144
+    },
+    "including_validation": {
+      "properties": 3,
+      "baseline_over_candidate_geomean": 1.9127314074520119
+    }
+  },
+  "limitations": [
+    "Portable solver and validator memory/CPU metrics are sampled; short-lived children may escape samples.",
+    "Portable wall time includes cleanup; Linux solver wall time ends before final cleanup.",
+    "Host samples detect observed contention; they do not establish exclusive CPUs or rule out between-sample interference.",
+    "Source/binary correspondence is unverified without a supplied build receipt; receipts are not reproducible-build verification."
+  ]
+}

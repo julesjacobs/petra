@@ -1,0 +1,27 @@
+{
+  "status": "frozen",
+  "selection_sha256": "58329cafef9ff7ca68b4096494017c36c9e17c42f106a4f2ca1fc2fabb022787",
+  "families": [
+    "ASLink",
+    "MAPK",
+    "HouseConstruction",
+    "Railroad",
+    "NQueens",
+    "ClientsAndServers"
+  ],
+  "models": [
+    "ASLink-PT-05b",
+    "ASLink-PT-10b",
+    "MAPK-PT-00320",
+    "MAPK-PT-10240",
+    "HouseConstruction-PT-00200",
+    "HouseConstruction-PT-32000",
+    "Railroad-PT-020",
+    "Railroad-PT-100",
+    "NQueens-PT-12",
+    "NQueens-PT-30",
+    "ClientsAndServers-PT-N0020P1",
+    "ClientsAndServers-PT-N5000P0"
+  ],
+  "properties": 192
+}

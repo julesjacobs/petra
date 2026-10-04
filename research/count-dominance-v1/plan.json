@@ -1,0 +1,32 @@
+{
+  "scope": "Frozen-event mechanism diagnostic; no fresh solver proposals or property verdicts.",
+  "limits_per_exploration_and_independent_check": {
+    "states": 200000,
+    "work": 20000000,
+    "seconds": 10.0,
+    "cells": 16000000
+  },
+  "work_units": "Upper-bound charged scalar slots in guard, target, state and dominance operations.",
+  "semantics": "Unbounded mathematical nonnegative integers; pinned graphs are small and match Rust logs.",
+  "sources": {
+    "research/count-dominance-v1/diagnostic.py": "4ec1b362174a68aa0cd02ac601ce8b7f1304befc82d711a9da2556d41d609ca3",
+    "research/count-dominance-v1/test_diagnostic.py": "c6c9d514dc83071d10fb699c7b5b122543c9f0b51087684253f38f87d8997c52",
+    "research/frontier-sequences-v1/plan.json": "8f13516a1e749f7f58ef522f88da9783e802ce67c85b7ec7b20961565fd37a59",
+    "research/frontier-sequences-v1/runs.jsonl": "8b54100f613b8c43f7d31bfa17a72560d743a7dc895fe8825e7639f464a7a239"
+  },
+  "inputs": {
+    "benchmarks/mcc2021/DoubleExponent-PT-003__RC02/branch-0.json": "9f2aba53048bfc9c9da2cce1f25fbd28e3438fdfedc5b544099c53c4a1ae15a3",
+    "benchmarks/mcc2021/DoubleExponent-PT-003__RC02/branch-1.json": "54cd0ff3081c728f977fcc9a0327c9ef22061815c18d9de97bc9cc048d4e285c",
+    "benchmarks/mcc2021/DoubleExponent-PT-003__RC07/branch-0.json": "4a820e77ce6a49747ef596b313328e189dae76914d44fe1c111c50dfda3ff464",
+    "benchmarks/mcc2021/DoubleExponent-PT-003__RC07/branch-1.json": "1969daf2e0481183707b4cd7c0a2f0059d4ad14e4c63cf297ee6c56a9012dfe4",
+    "benchmarks/mcc2021/TokenRing-PT-015__RC12/branch-0.json": "f9e1f1e6a5d01e6c25e397dc7d3c91f544aec74e9bc3cf8aee89ba3f58c912fb"
+  },
+  "logs": {
+    "0.jsonl": "213e41a9096394bd156b53e968a17d5493ee6200e27fc88a0aafa20c2f4469c8",
+    "1.jsonl": "c598b19668bc38e7c7621dad1f636ec833a6f3aafeee3bdf853cbc13e92ea1da",
+    "2.jsonl": "d00965bebd67546ed7e4d56a615f772fa63a0f4728c70009c32b4697562b64a2",
+    "3.jsonl": "b951a855546d8a7e1fe76263238527f96e243941018c2d98c7ddb0ee71f78838",
+    "4.jsonl": "f150625126bcafbc9c91ea9e39cf33dac4fd1fc4e39a4dddc4006fdb24db4182"
+  },
+  "iteration": "Same reversed-transition DFS order; original count-vector dedup versus marking antichains."
+}

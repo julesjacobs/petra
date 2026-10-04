@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "method": "portfolio-walk",
+      "verdict": "unknown",
+      "expired": true,
+      "wall": 5.333681249991059
+    },
+    {
+      "method": "portfolio-walk-counts",
+      "verdict": "reachable",
+      "expired": false,
+      "wall": 0.17347179190255702
+    }
+  ],
+  "artifact_sha256": {
+    "original-results.json": "7ccf67d62cb1db2b31ba71cc02cde119f4b81c2b6d21072838b4d80df8cc5a59",
+    "portfolio-walk.original.json.validation-response.json": "1ae232ce2b15dea58f1583e1c97993f4ba73c2f74e397350c0e7ef295824dc0d",
+    "portfolio-walk-counts.original.json": "7dadf788609f195bfe76f872c2da8745789eb4bd9a71f7f14a2a39989c6835ad",
+    "portfolio-walk-counts.original.json.validation-response.json": "4d0dc05e767b3b1f415a740df926e3aa0c4bc86c474f5cc5f56f633a24c21720",
+    "original-plan.json": "7db5728dd8728d34828c707e96a6781f4aad4b456f4c6d6f856835f177032d81",
+    "portfolio-walk-counts.original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "portfolio-walk-counts.original.json.validation-request.json": "e6b6957b668f6c09a8a14483eb42376657e7cf474dfbf5f95134dc7879c540e4",
+    "clippy.log": "ca078857716b415bdcb7d99d85e6a03687c8b1fea4133a550d80a717c1e5f294",
+    "portfolio-walk.original.json.validation-request.json": "0de0a7ef505a55dc20a3e1e111cd514a72a79b5a1b6c1827505cad93afd05e53",
+    "portfolio-walk.original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests.log": "962b81aa509c3c923ff5637abfb9255c9921ab63ba2d2dd3787a34ebedec12be",
+    "portfolio-walk.original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "original-run.log": "e7e3a9e721b663202063a139e91fe500995b3cfb1f56edd6fc236d2d71e3ac3b",
+    "build.log": "901e345db7cc3ae786b157daacafc50ad58e857b586ce456ffd68c463e91830e"
+  },
+  "scope": "Saved source/input identities and bounded independent-validator receipts; no new solver run or stable timing claim."
+}

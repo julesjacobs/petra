@@ -1,0 +1,19 @@
+<property-set><property>
+    <id>AutoFlight-PT-03a-ReachabilityCardinality-00</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <integer-le>
+            <tokens-count>
+              <place>p48</place>
+            </tokens-count>
+            <tokens-count>
+              <place>p21</place>
+            </tokens-count>
+          </integer-le>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

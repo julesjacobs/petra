@@ -1,0 +1,65 @@
+{
+  "scope": "Original PNML/XML diagnostic with independently translated and checked answers.",
+  "query": {
+    "name": "RefineWMG-PT-100101__RC11",
+    "suite": "stress-development",
+    "family": "RefineWMG",
+    "family_group": "RefineWMG",
+    "instance": "RefineWMG-PT-100101",
+    "property_slot": 11,
+    "planned": true,
+    "observed": true,
+    "status": "imported",
+    "property_id": "RefineWMG-PT-100101-ReachabilityCardinality-11",
+    "pnml": "inputs/RefineWMG-PT-100101/model.pnml",
+    "xml": "RefineWMG-PT-100101__RC11/original-property.xml",
+    "pnml_sha256": "850245f30115ea50c9c80f8aa7f8e1faf507303d69be91be4db6dbd3a13c51da",
+    "xml_sha256": "39827810433f14d89fdddc9691907c2a17f8dcecc23e7a1220dd8c3323cf0b31",
+    "kind": "EF",
+    "branches": [
+      {
+        "path": "RefineWMG-PT-100101__RC11/branch-0.json",
+        "sha256": "7e6fd1d4f740d5b951b746e844349aa705892874edaefe33dd118af35356e32c"
+      },
+      {
+        "path": "RefineWMG-PT-100101__RC11/branch-1.json",
+        "sha256": "38feec0b12328bb35f76fa3119c0b44ad587d42962056ac25b737feb8787583d"
+      },
+      {
+        "path": "RefineWMG-PT-100101__RC11/branch-2.json",
+        "sha256": "c6f824b55d3fadbdcc64f81129ccd7c33e90c6bcb677d65123248c269661a39d"
+      },
+      {
+        "path": "RefineWMG-PT-100101__RC11/branch-3.json",
+        "sha256": "df1bb7fe4e5bca5738e06c79dbf84cf190b64a29344d0f8b28e5b3f806af629f"
+      },
+      {
+        "path": "RefineWMG-PT-100101__RC11/branch-4.json",
+        "sha256": "bf0402c8e2cf72b95fa6a0be0266f56fbe34b16e89df3793e178d27e452d3747"
+      },
+      {
+        "path": "RefineWMG-PT-100101__RC11/branch-5.json",
+        "sha256": "9a109cdb0f5e8e9a93f0bd7d75ef89cbd16fc2529289d4d2ffc16baea7eb2989"
+      }
+    ],
+    "places": 504,
+    "transitions": 403,
+    "net": "RefineWMG-PT-100101__RC11/model.net",
+    "property": "RefineWMG-PT-100101__RC11/property.xml",
+    "net_sha256": "b3443f09f7c21fc75cbdd1a438f29d3dd20d75d5c0f2359c86f28333899ecaaf",
+    "property_sha256": "8dc823cf0c2afe8e54bf549eddf293745fbf0b8ba908cd168b7fc0fd5f16efd3"
+  },
+  "seconds": 5,
+  "outer_seconds": 5.3,
+  "memory_bytes": 2147483648,
+  "methods": [
+    "sparse-count-plan",
+    "sparse-count-plan-budget"
+  ],
+  "pins": {
+    "target/release/vass-reach": "37c5e1e556cdd90fe0599e890c5a8ca054eca8266a74f03717eb87a49bad6aff",
+    "src/count_plan.rs": "7c96991213eae84b4c15fc2545c1d355c0436c4d37edcd1fa3960ff81101b484",
+    "src/main.rs": "c0c0311d59fdf416212d921abe470f95fc6a2872d847fa79dfb56cc4e3ae5d57",
+    "research/check-count-budget-original-v1.py": "a2f1a47e8051dd6154a4b28e4846d45456d91dd9a992c2f060d8f497cda30009"
+  }
+}

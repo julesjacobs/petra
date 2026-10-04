@@ -1,0 +1,36 @@
+{
+  "scope": "Paired local development ablation. No external timing or generalization claim.",
+  "corpus": "benchmarks/hard-development-v2",
+  "manifest_sha256": "1e77f4283218c14cb5f9265c372f7226e7402cdf08c245b2008d20d5485968ba",
+  "properties": 69,
+  "expected_rows": 138,
+  "seconds": 2,
+  "repeat": 1,
+  "memory_mib": 2048,
+  "outer_grace": 0,
+  "order_seed": 20261012,
+  "methods": {
+    "finite-before": "finite-token-cut",
+    "finite-after": "finite-token-cut"
+  },
+  "binaries": {
+    "before": {
+      "path": "results/solver-relevant-finite-v1/vass-reach",
+      "sha256": "7e93f39cc51a3396b9d1c480bff88900b96ab8ad40bd373845e3e57af880c794"
+    },
+    "after": {
+      "path": "results/solver-nonzero-control-v1/vass-reach",
+      "sha256": "e50afb3669ee62b52faa3e7b5e02dc1c2968eaa8519a6b49e1f5a40eb896c804"
+    }
+  },
+  "source_sha256": "d117f8d7cc44a45e7fb47fab7beafac05b8906e61323d84b2333b37e06c66c09",
+  "validation": {
+    "seconds": 30,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 20000000,
+    "separate_from_solver_timing": true
+  },
+  "reporting": "Audit full matrix, independent original-input answers, coverage gains/losses, unknown reasons and full denominator. Preserve complete prior runs.",
+  "status": "registered before launch"
+}

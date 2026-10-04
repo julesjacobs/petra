@@ -1,0 +1,282 @@
+--- a/src/main.rs
++++ b/src/main.rs
+@@ -46,6 +46,7 @@
+     println!("{}", "Usage: ser [options] <filename or directory>".bold());
+     println!("{}", "Options:".bold());
+     println!("  --export-raw            Export raw-query.json and raw.net; do not solve");
++    println!("  --export-raw-automaton  Export serial automaton without semilinear expansion");
+     println!(
+         "  {}                  Open generated visualization files",
+         "--open".green()
+@@ -120,6 +121,10 @@
+     let mut i = 1;
+     while i < args.len() {
+         match args[i].as_str() {
++            "--export-raw-automaton" => {
++                raw_export::AUTOMATON.store(true, std::sync::atomic::Ordering::SeqCst);
++                i += 1;
++            }
+             "--export-raw" => {
+                 raw_export::ENABLED.store(true, std::sync::atomic::Ordering::SeqCst);
+                 i += 1;
+@@ -224,6 +229,11 @@
+     }
+ 
+     if raw_export::enabled() {
++        if raw_export::ENABLED.load(std::sync::atomic::Ordering::SeqCst)
++            && raw_export::AUTOMATON.load(std::sync::atomic::Ordering::SeqCst) {
++            eprintln!("Choose only one of --export-raw and --export-raw-automaton");
++            process::exit(1);
++        }
+         if create_certificate_mode || check_certificate_mode {
+             eprintln!("--export-raw cannot be combined with certificate modes");
+             process::exit(1);
+--- a/src/raw_export.rs
++++ b/src/raw_export.rs
+@@ -7,7 +7,10 @@
+ use std::sync::atomic::{AtomicBool, Ordering};
+ 
+ pub static ENABLED: AtomicBool = AtomicBool::new(false);
+-pub fn enabled() -> bool { ENABLED.load(Ordering::SeqCst) }
++pub static AUTOMATON: AtomicBool = AtomicBool::new(false);
++pub fn enabled() -> bool {
++    ENABLED.load(Ordering::SeqCst) || AUTOMATON.load(Ordering::SeqCst)
++}
+ 
+ pub fn export<G, L, Req, Resp>(ns: &NS<G,L,Req,Resp>, out_dir: &str) -> std::io::Result<()>
+ where G: Clone + Ord + Hash + Display + Debug,
+@@ -15,6 +18,9 @@
+       Req: Clone + Ord + Hash + Display + Debug,
+       Resp: Clone + Ord + Hash + Display + Debug,
+ {
++    if AUTOMATON.load(Ordering::SeqCst) {
++        return export_automaton(ns, out_dir);
++    }
+     use ReqPetriState::*;
+     let petri = ns_to_petri_with_requests(ns);
+     let mut places = petri.get_places_sorted();
+@@ -63,3 +69,184 @@
+     println!("Raw query: {out_dir}/raw-query.json ({} places, {} transitions, {} serial components)",places.len(),transitions.len(),components.len());
+     Ok(())
+ }
++
++fn automaton_query<G, L, Req, Resp>(ns: &NS<G,L,Req,Resp>) -> Value
++where G: Clone + Ord + Hash + Display + Debug,
++      L: Clone + Ord + Hash + Display + Debug,
++      Req: Clone + Ord + Hash + Display + Debug,
++      Resp: Clone + Ord + Hash + Display + Debug,
++{
++    use ReqPetriState::*;
++    let petri = ns_to_petri_with_requests(ns);
++    let serial = ns.serialized_automaton();
++    let mut places = petri.get_places_sorted();
++    places.extend(serial.iter().map(|(_,req,resp,_)| Response(req.clone(),resp.clone())));
++    places.sort();
++    places.dedup();
++    let ids: BTreeMap<_,_> = places.iter().cloned().enumerate().map(|(i,p)| (p,i)).collect();
++    let arcs = |ps: Vec<ReqPetriState<L,G,Req,Resp>>| -> Vec<(usize,usize)> {
++        let mut counts = BTreeMap::new();
++        for p in ps { *counts.entry(ids[&p]).or_insert(0) += 1; }
++        counts.into_iter().collect()
++    };
++    let mut initial = vec![0usize; places.len()];
++    for p in petri.get_initial_marking() { initial[ids[&p]] += 1; }
++    let transitions: Vec<Value> = petri.get_transitions().into_iter().enumerate().map(|(i,(pre,post))| {
++        json!({"name":format!("t{}",i),"pre":arcs(pre),"post":arcs(post)})
++    }).collect();
++    let mut states: Vec<_> = ns.get_global_states().into_iter().cloned().collect();
++    states.sort();
++    states.dedup();
++    let state_ids: BTreeMap<_,_> = states.iter().cloned().enumerate().map(|(i,g)| (g,i)).collect();
++    let mut edges: Vec<_> = serial.into_iter().map(|(g,req,resp,h)| {
++        (state_ids[&g], state_ids[&h], ids[&Response(req,resp)])
++    }).collect();
++    edges.sort();
++    edges.dedup();
++    let edges: Vec<Value> = edges.into_iter().map(|(source,target,response)| {
++        json!({"source":source,"target":target,"response":response})
++    }).collect();
++    let zero_places: Vec<_> = places.iter().enumerate().filter_map(|(i,p)| matches!(p,Local(_,_)|Request(_)).then_some(i)).collect();
++    let response_places: Vec<_> = places.iter().enumerate().filter_map(|(i,p)| matches!(p,Response(_,_)).then_some(i)).collect();
++    json!({
++        "format":"ser-raw-v2", "places":places.iter().map(ToString::to_string).collect::<Vec<_>>(),
++        "initial":initial,"transitions":transitions,
++        "target":{"kind":"completed-outside-automaton", "zero_places":zero_places,
++            "response_places":response_places,
++            "excluded_automaton":{"states":states.len(),"initial":state_ids[&ns.initial_global],
++                "accepting":(0..states.len()).collect::<Vec<_>>(),"edges":edges}},
++        "provenance":{"stage":"request-tracking-net-before-serial-parikh-expansion",
++            "petri_places":places.len(),"petri_transitions":transitions.len(),
++            "serial_states":states.len(),"serial_edges":edges.len(),
++            "semilinear_expansion":false,"bidirectional_pruning":false,
++            "disjunct_decomposition":false,"presburger_complement":false,
++            "solver_invoked":false,"cache_used":false,"remove_redundant":false,
++            "generate_less":false,"smart_kleene_order":false}
++    })
++}
++
++fn export_automaton<G, L, Req, Resp>(ns: &NS<G,L,Req,Resp>, out_dir: &str) -> std::io::Result<()>
++where G: Clone + Ord + Hash + Display + Debug,
++      L: Clone + Ord + Hash + Display + Debug,
++      Req: Clone + Ord + Hash + Display + Debug,
++      Resp: Clone + Ord + Hash + Display + Debug,
++{
++    let query = automaton_query(ns);
++    std::fs::write(format!("{out_dir}/raw-query.json"),serde_json::to_vec_pretty(&query)?)?;
++    let petri = ns_to_petri_with_requests(ns);
++    std::fs::write(format!("{out_dir}/raw.net"),crate::smpt::petri_to_pnet(&petri,"raw"))?;
++    println!("Raw automaton query: {out_dir}/raw-query.json ({} states, {} edges)",
++        query["provenance"]["serial_states"],query["provenance"]["serial_edges"]);
++    Ok(())
++}
++
++#[cfg(test)]
++mod tests {
++    use super::*;
++
++    #[test]
++    fn automaton_keeps_initial_acceptance_and_absent_responses() {
++        let empty = NS::<usize,usize,usize,usize>::new(9);
++        let query = automaton_query(&empty);
++        assert_eq!(query["format"], "ser-raw-v2");
++        assert_eq!(query["target"]["excluded_automaton"],
++            json!({"states":1,"initial":0,"accepting":[0],"edges":[]}));
++        assert_eq!(query["target"]["response_places"], json!([]));
++        assert!(query["target"].get("excluded_semilinear").is_none());
++    }
++
++    #[test]
++    fn automaton_edges_use_original_response_place_ids() {
++        let mut ns = NS::<usize,usize,usize,usize>::new(2);
++        ns.add_request(7,10);
++        ns.add_request(8,12);
++        ns.add_response(11,20);
++        ns.add_response(13,21);
++        ns.add_transition(10,2,11,1);
++        ns.add_transition(10,1,11,1);
++        ns.add_transition(12,1,13,2);
++        let query = automaton_query(&ns);
++        let places = query["places"].as_array().unwrap();
++        let a = places.iter().position(|p| p == &json!("RESP_20_REQ_7")).unwrap();
++        let b = places.iter().position(|p| p == &json!("RESP_21_REQ_8")).unwrap();
++        assert_eq!(query["target"]["excluded_automaton"], json!({
++            "states":2,"initial":1,"accepting":[0,1],"edges":[
++                {"source":0,"target":0,"response":a},
++                {"source":0,"target":1,"response":b},
++                {"source":1,"target":0,"response":a}]}));
++        assert_eq!(query, automaton_query(&ns));
++        assert_eq!(query["transitions"].as_array().unwrap().len(),
++            ns_to_petri_with_requests(&ns).get_transitions().len());
++    }
++
++    #[test]
++    fn immediate_response_is_a_labeled_self_loop() {
++        let mut ns = NS::<usize,usize,usize,usize>::new(9);
++        ns.add_request(7,10);
++        ns.add_response(10,20);
++        let query = automaton_query(&ns);
++        let response = query["target"]["response_places"][0].as_u64().unwrap();
++        assert_eq!(query["target"]["excluded_automaton"]["edges"],
++            json!([{"source":0,"target":0,"response":response}]));
++    }
++
++    #[test]
++    fn bounded_automaton_parikh_image_matches_v1_semilinear_image() {
++        use std::collections::BTreeSet;
++        let mut ns = NS::<usize,usize,usize,usize>::new(2);
++        ns.add_request(7,10);
++        ns.add_request(8,12);
++        ns.add_response(11,20);
++        ns.add_response(13,21);
++        ns.add_transition(10,2,11,1);
++        ns.add_transition(10,1,11,1);
++        ns.add_transition(12,1,13,2);
++        let query = automaton_query(&ns);
++        let automaton = &query["target"]["excluded_automaton"];
++        let places = query["places"].as_array().unwrap();
++        let empty = vec![0usize;places.len()];
++        let mut reached = BTreeSet::from([(automaton["initial"].as_u64().unwrap(),empty.clone())]);
++        let mut pending: Vec<_> = reached.iter().cloned().collect();
++        while let Some((state,counts)) = pending.pop() {
++            if counts.iter().sum::<usize>() == 4 { continue; }
++            for edge in automaton["edges"].as_array().unwrap() {
++                if edge["source"].as_u64().unwrap() != state { continue; }
++                let mut next = counts.clone();
++                next[edge["response"].as_u64().unwrap() as usize] += 1;
++                let next = (edge["target"].as_u64().unwrap(),next);
++                if reached.insert(next.clone()) { pending.push(next); }
++            }
++        }
++        let actual: BTreeSet<_> = reached.into_iter().map(|(_,counts)|counts).collect();
++        let serial: SemilinearSet<_> = ns.serialized_automaton_kleene(|req,resp| {
++            SemilinearSet::singleton(SparseVector::unit(
++                ReqPetriState::<usize,usize,usize,usize>::Response(req,resp)))
++        });
++        let dense = |v: &SparseVector<ReqPetriState<usize,usize,usize,usize>>| {
++            let mut counts = empty.clone();
++            for (p,n) in &v.values {
++                let id = places.iter().position(|name|name == &json!(p.to_string())).unwrap();
++                counts[id] = *n;
++            }
++            counts
++        };
++        let mut expected = BTreeSet::new();
++        for component in serial.components {
++            let base = dense(&component.base);
++            if base.iter().sum::<usize>() > 4 { continue; }
++            let periods: Vec<_> = component.periods.iter().map(&dense).collect();
++            let mut seen = BTreeSet::from([base.clone()]);
++            let mut todo = vec![base];
++            while let Some(counts) = todo.pop() {
++                expected.insert(counts.clone());
++                for period in &periods {
++                    let next: Vec<_> = counts.iter().zip(period).map(|(a,b)|a+b).collect();
++                    if next.iter().sum::<usize>() <= 4 && seen.insert(next.clone()) {
++                        todo.push(next);
++                    }
++                }
++            }
++        }
++        assert_eq!(actual,expected);
++    }
++}
+--- a/RAW_EXPORT.md
++++ b/RAW_EXPORT.md
+@@ -29,3 +29,37 @@
+ are unconstrained. A reachable target means the input is not serializable.
+ `provenance` records the stage and sizes. `raw.net` alone lacks this target;
+ it is not a complete query for SMPT's linear-conjunction interface.
++
++## Serial automaton export
++
++`ser --export-raw-automaton --no-viz program.ser` writes `ser-raw-v2` to the
++same output names. This opt-in representation bypasses Kleene elimination and
++semilinear expansion. `--export-raw` continues to produce the original v1
++representation; the two flags cannot be combined.
++
++The net and completion condition have the same semantics as v1. The target kind
++is `completed-outside-automaton`, and `excluded_automaton` replaces
++`excluded_semilinear`:
++
++- `states`: number of serial global states; state IDs are zero-based.
++- `initial`: initial global state ID.
++- `accepting`: accepting state IDs. Every global state accepts because a serial
++  history may stop after any completed request, including the empty history.
++- `edges`: objects `{source, target, response}`; each edge emits one response
++  token. `response` is an original Petri-net place ID, not an alphabet index.
++
++The excluded set is exactly the Parikh image of all accepted paths in this
++automaton. Target membership requires completion and nonmembership of the
++response vector in that Parikh image. It does not require matching the
++concurrent execution's final global state. States and edges are sorted and
++edges deduplicated for deterministic serialization. No serial states are
++eliminated and no solver is invoked.
++
++This representation avoids exponential semilinear subset expansion. Semantic
++translation and serial-automaton construction can still exceed resource
++limits; target membership can also be expensive. A resource limit must remain
++unknown, never count as nonmembership.
++
++Reproduce this incremental frontend change after the v1 patch with
++`scripts/setup-raw-automaton.sh`. Its patch is
++`scripts/ser-raw-automaton-export.patch`; it leaves the v1 export code intact.

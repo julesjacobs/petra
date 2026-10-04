@@ -1,0 +1,72 @@
+{
+  "format": "grouped-excess-original-repeat-v1",
+  "status": "protocol-before-final-candidate-freeze",
+  "methods": [
+    "candidate",
+    "baseline"
+  ],
+  "candidate_engine": "portfolio-excess",
+  "baseline_engine": "portfolio-reduced",
+  "baseline_binary": "results/solver-before-symbolic-20261004/vass-reach",
+  "baseline_sha256": "19ef799d463625b00fb779f77951ef2178dcd72bf768c8999659f1bcc5edc949",
+  "corpora": [
+    {
+      "name": "existing176",
+      "path": "benchmarks/general-development-v3",
+      "properties": 176,
+      "representatives": 175
+    },
+    {
+      "name": "expansion192",
+      "path": "benchmarks/development-expansion-v4",
+      "properties": 192,
+      "representatives": 191
+    }
+  ],
+  "seconds": 5.0,
+  "repeat": 2,
+  "max_states": 2000000,
+  "memory_mib": 2048,
+  "outer_grace": 0.0,
+  "buffer_agglomeration_methods": [
+    "candidate",
+    "baseline"
+  ],
+  "validation_seconds": 60.0,
+  "validation_memory_mib": 2048,
+  "validation_response_mib": 64,
+  "validation_dag_work": 200000000,
+  "order_seed": 2026100402,
+  "stages": {
+    "repeat1": {
+      "corpora": [
+        "expansion192",
+        "existing176"
+      ],
+      "family": null,
+      "properties": 368,
+      "expected_rows": 736,
+      "representatives": 366,
+      "scope": "First fresh full repeat for optimized candidate."
+    },
+    "repeat2": {
+      "corpora": [
+        "existing176",
+        "expansion192"
+      ],
+      "family": null,
+      "properties": 368,
+      "expected_rows": 736,
+      "representatives": 366,
+      "scope": "Second fresh full repeat; reversed corpus order and first method rotation."
+    }
+  },
+  "ordering": "Two full repeats. Reverse corpus order between blocks; shuffle each corpus with order_seed+100*block_index+corpus_index; first method rotation is (query_index+block_index)%2. Every full corpus has exactly balanced first positions. Freeze exact schedule before either block.",
+  "measurement": "Original PNML/XML, Rust parse and all property branches within one strict five-second outer invocation. Separate bounded independent Python translation and certificate checking outside solver timing. Portable process-tree RSS sampling with termination at observed 2GiB; not a Linux cgroup guarantee. One local invocation at a time; no benchmarks or builds overlap.",
+  "analysis": "Report each full repeat, both corpora and each family, on all368 original slots and366 exact ordered-branch representatives. Accepted definitive answers require separate bounded original-input checking. Report paired gains/losses, solved intersection/union across the two repeats, solver PAR-2, and actual solver plus validator wall time. Common-solved timings use queries solved by both methods in both new blocks. The earlier grouped-only screen is a separate candidate, not a repeat of this one. Retain every outcome, no filtering or replacement runs.",
+  "launch_gate": "Preparation and freeze never launch a solver. Parent must authorize optimized candidate after build/checker tests. Prior grouped-only full audit must pass and its terminal must be complete. No local build or other benchmark overlap. Candidate/source changes require new campaign, not replacement rows.",
+  "claim_scope": "Two local development repeats of optimized candidate versus frozen baseline. Coverage repeatability, not precise confidence intervals or held-out generalization. Original grouped-only screen uses a distinct binary and is not pooled. Validator costs reported separately and summed for actual end-to-end cost; no performance counters.",
+  "prerequisite_full_audit": "research/grouped-excess-20261004/full-audit.json",
+  "prerequisite_full_audit_sha256": "e7059470a8691aa2c9c2b8a10840dfcd6609f16514de7047c315a034032dbd1b",
+  "candidate_design": "Grouped-excess negative certificates, original-net divided-marking guided walks and ordinary guided walks before reduction, divided-marking relaxed search and prior fallbacks; guard threshold walk indexing, relaxed action indexes, acyclic count realization and bounded arithmetic precheck construction. CLI auto chooses portfolio-excess for ordinary input and retains raw-potential for raw input. Both measured engines explicitly enable buffer agglomeration."
+}

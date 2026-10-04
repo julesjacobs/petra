@@ -1,0 +1,1352 @@
+{
+  "format": "smpt-classic-v1",
+  "source": "https://yanntm.github.io/pnmcc-models-2021/",
+  "selection_sha256": "47639889ad5aa46acd50ab9681f1c25454eeff10a664fe1ff8b673aea97b423c",
+  "queries": [
+    {
+      "name": "DatabaseWithMutex-PT-10__RC01",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "4a99be67d610383c49e100f64cecb766ba733f778a91332a5e9af00540c42e6c",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-01",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC01/branch-0.json",
+          "sha256": "92659852a744f816fe397e7b400111a1906ae571b6f038047f1b804e2626352e"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC01/branch-1.json",
+          "sha256": "b800eaee6208b70aba1dd85a683abbb37c4f365905e4d8958cabf3a4e666d5b7"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC01/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC01/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "a601584ea94650e3ee5c11d2b6dca84a04e2cd2791214b30fa9a858c0e158eae"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC02",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "d2f6cd6d3389ff4fc457d51e5af8e16bd3557968b6a86964aef7e9fd1c0b9f5a",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-02",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC02/branch-0.json",
+          "sha256": "8d462b8265098cea64c9e82e089caaa6514c4e7349012789c27e1c5f454e6757"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC02/branch-1.json",
+          "sha256": "1700952e504daf841548e7d1fe7669694eadc54b11366041f3f1c146f9c7fcb7"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC02/branch-2.json",
+          "sha256": "cc9edcf9deacdb3598604d32351e681ec3054bc52c83692dd371ad53dd4e0308"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC02/branch-3.json",
+          "sha256": "2d1a574d8b6119915703de3a760fe2799743664f4e88b0c2e4783d2524819efb"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC02/branch-4.json",
+          "sha256": "681e228003b8a0c3f06306ac1bb4cbef1bac51692c05415891e8d87e575713d2"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC02/branch-5.json",
+          "sha256": "695f26817eb56cbee919c268c11e922e55c07e452281f1557fe8ad2d3cf76b31"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC02/branch-6.json",
+          "sha256": "68bb13cfa55c4b6b45f10af08610929706ef2d397f6faeb4b2553ad6b9dc16cd"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC02/branch-7.json",
+          "sha256": "db3ee992e2b065387e984a353b683f053d1c07eb7d925c2e101740c2877db599"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC02/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC02/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "02a36817f1865be94efeff14c24d401c682cf0268a0ba8a1033e01ae8e76f2f0"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC04",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "5bb3016b3edac32a84cfbf4a50d2a4925f4938379dc10e1bf56fb0daddc86233",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-04",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC04/branch-0.json",
+          "sha256": "9bc91e4a02bbad2c44d465bd524b4e599dd817a21e8cd271cd9e5c92b3c89541"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC04/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC04/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "582d6a4e685504fc47bd1680aac64cddd34946730e8bcceb6d803adfb1437e3a"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC05",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "0b82dd976ea32d5ab1978aabfda276b07ca8b7b5ea03dc87e81faf5ba1a7a1ec",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-05",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC05/branch-0.json",
+          "sha256": "67bec3d77ee960a717f342911e3f7ea9a45fc66b7e70d31766149482fa21ee5f"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC05/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC05/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "998b1b6b4512f4c9887677038c95597b530a8d766400bbc57f5f89ccf136d12c"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC08",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "f308eebdec3103aec32413f133218c989744c4e991e1d4a14dec5f5849acba3e",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-08",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC08/branch-0.json",
+          "sha256": "ffa709b389e5353f0d235c467dde1e0b5a8c0c94035ae3be7530407e04c4cd88"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC08/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC08/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "31be4893708e587cd83f2fb7185a58d565b3b247f255c138f6d800ef64159f75"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC09",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "f9f12f12de2a45173befab152b276fc11e3ab1228801c413d4b1900e6a6f5469",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-09",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC09/branch-0.json",
+          "sha256": "f6b7b1d71654022943f77a7b11721d98f45af8995388a90869a6fbb2d0fe6c4d"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC09/branch-1.json",
+          "sha256": "7ee75970f0ff7a876b1a1730826b2a326caef4d417a5395e8ac4fb5664670c3a"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC09/branch-2.json",
+          "sha256": "f3e5c7c37b42ff7ced55f6eeb354a9237093520d1e9a19bc94c60f5ee94833af"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC09/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC09/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "fad9e5772d2322153da651f18fcd97e7e55f279dfa14e1ef5e7f25bf89948eb0"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC10",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "00f5479b2ead55fc0f77e8fa08a2a65cd3c6d469750d2b3125c5dc8ae14c97d8",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-10",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC10/branch-0.json",
+          "sha256": "28bd8a89d6a86f648aed35de574bd6225c5ec7f257eea92af4ecbd218910dd48"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC10/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC10/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "3b66b5de7d68edaaccd14d3d33e3d5823123bf9fba44761232a74a11bcab2c00"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC11",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "1c402533e599ae115841e05bd67930afd6c4a5c347c0e9720191f0937fd77471",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-11",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC11/branch-0.json",
+          "sha256": "13a7f04c99a98f747d140c8dbb577a3cbbeb6762c3d45a989459a776591e8a7c"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC11/branch-1.json",
+          "sha256": "b4ee1e66743f3fed2213251241945bfb2fe43c746dde65ceceb63a998b12d3c5"
+        },
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC11/branch-2.json",
+          "sha256": "60fda2e46774d31cb8e9b9644eb4424f4cb2e56cbc425d69c0377e184a7e3543"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC11/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC11/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "a5ccd70eec7c80f62ace0bc1cc69b01023f2d4dab9b5bd5e0818aa38e87fcfdb"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC12",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "a97cd7968eddec12f23758727937d8d55003daf67cfd28f22108e1a402b23582",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-12",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC12/branch-0.json",
+          "sha256": "012474bf28ee44eaf3dbda7a4e5a00e2d9f3f7360d4c567c43dbec8e0a622e57"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC12/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC12/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "0c05a6cbc9f51b063616a7b58207a6d9da139d142e6fbee13547f46906d3ce74"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC13",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "1edbb7ba84d4e82d08a8c0e3507ee3e15549c4a11ec7520e3ea3ab7b7ce2bb80",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-13",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC13/branch-0.json",
+          "sha256": "cdc7a3ccf382f00ce41f965c71efb2b8774f32f9edcc756c9b58085467074b2e"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC13/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC13/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "61ab8566f81eff684c5aaf385dd262c526a5850b9fbfe8850ec071006f7f6cb6"
+    },
+    {
+      "name": "DatabaseWithMutex-PT-10__RC15",
+      "suite": "development",
+      "family": "DatabaseWithMutex",
+      "instance": "DatabaseWithMutex-PT-10",
+      "pnml_sha256": "d88bac318d6f0c6b38603640d80152a1b0efb62fcdd7e89d82d8bf8b008f9cd7",
+      "xml_sha256": "8c1cd7515754510b8eef4165f1030574122ebffd05a1d770e47d6d06aa205ef2",
+      "property_id": "DatabaseWithMutex-PT-10-ReachabilityCardinality-15",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DatabaseWithMutex-PT-10__RC15/branch-0.json",
+          "sha256": "a194f6d2513daba2acaf3c86aa938c6330b047e09c0c79714197ae5fe7696362"
+        }
+      ],
+      "places": 830,
+      "transitions": 800,
+      "net": "../mcc2021/DatabaseWithMutex-PT-10__RC15/model.net",
+      "property": "../mcc2021/DatabaseWithMutex-PT-10__RC15/property.xml",
+      "net_sha256": "5168735bc2ed60c8f7b76684a7ad0797fe786c3b0c5727806f2a0bbe40c19e81",
+      "property_sha256": "0d97738e26f43e670304cfa05b7c0d0ee7bf8d3468cdf51b18c15fea39ddcc32"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC02",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "eea3adadc96b53a10d2e47231a94bf9f3702a9aff10580f086bad5b3dbe6fbc4",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-02",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC02/branch-0.json",
+          "sha256": "33dc4c8d68efd16017f8e1a0d7ef9b60015f78cbff49525d2e5374cc7755b4bc"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC02/branch-1.json",
+          "sha256": "e80afdf3a63183b662c8a6e488684f34e5f804f49f164791f30837e9050f1008"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC02/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC02/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "f91bec79e1492a8508f218032982a94db98d5995b26beef609928d456ee745dc"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC04",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "74dd38e6c21fd6750dcccc66935c6bcec737969c37c4d39ff2f5bb9227f99488",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-04",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC04/branch-0.json",
+          "sha256": "dd0a3930f33f8f1cab98679af4173d9d0455a609bc6eeb119713667eb973a9dd"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC04/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC04/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "cdb6984a24f95a08f6ce6e47ae1ae04b6c7a881fdce0fb8b98771addef2eaa48"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC05",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "1018130276072cb8200331d011dffeb5d6e2b11d94d89e484d08df3db037c597",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-05",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC05/branch-0.json",
+          "sha256": "9b715a4732f692d85ff46cbed06365b939817c78f60aac9648d501f75dd2c947"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC05/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC05/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "15c1ab63f23b8b9ee50724d6753a89abd8638aa17a360a4d2302471acca27ebd"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC06",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "6920767e1ca6509a0b3282003d955a567d80be4e3fe7263f69f8c1bb7501922b",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-06",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC06/branch-0.json",
+          "sha256": "a56bd34f8f29b0e1c8d40bc1079e5b7faf2cea76662b65e7b1a4ffa5994852a7"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC06/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC06/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "2b73b1c6bcc9e43441597b9de38c14560cbb14f8f84fcd26a522776ec93011d4"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC07",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "6bf41ba380e43a73c3f14736f5cbe6f0c329fe5498fb013999868b6c467c46cf",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-07",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC07/branch-0.json",
+          "sha256": "89ea50e71453cefbdcda746c225eb9612df8dc8f8c27c333e2417be54cff6220"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC07/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC07/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "2ea22371ee5ba742d460c7afa0e48e9191f42b3dde55352384b70f7235619488"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC08",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "e4c7945ced464f75fc6d1a54b3e6173dfbad1b3377e57f26ae24051f7f3d7dde",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-08",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC08/branch-0.json",
+          "sha256": "ee2b28933e30fff98fe83656f0fe674bd055689a750b41038257b39adba34e2d"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC08/branch-1.json",
+          "sha256": "6a2a012447040b9964b51f6a100bffe2530c7f98ffa7c8c36b4f2f82f76c3cdd"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC08/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC08/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "d0ca7e54ad9b09cd916d99db88b715bf65bcd2ffd74e1a15930027d1b8f134ec"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC09",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "be6340f82521819886b6550c8e803f398e41e7b9a605d6b5cad0b0992851c587",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-09",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC09/branch-0.json",
+          "sha256": "035b8a9de2e5721c7dfc12c4b12b27ec79a1acbf839919648d43c29731d43b6d"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC09/branch-1.json",
+          "sha256": "8ea5cf17b6426f57437812a93aa3cfa75100df3ee4211aa3a6d710400f1cb586"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC09/branch-2.json",
+          "sha256": "0586004997c43de892b0f902f3a2a82c3ce919941452267d9f402dcfa3b625a8"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC09/branch-3.json",
+          "sha256": "567d6c07c26a8057b66d64dbba40b9338dd448c015afbc3e1570313199384279"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC09/branch-4.json",
+          "sha256": "2010c17d85da6545caaed3ca058772f62bb3f9d1b1b399777f188d5c56101245"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC09/branch-5.json",
+          "sha256": "6efd17bbb25803667c43a785087e525b9a32cf13b15332a02273e862daf8a2a0"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC09/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC09/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "b7ac8ba9175935ac996f37179adc466cf3f4692d4863736fc699fd72c8bb036d"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC10",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "51be51bc7908699d4a1c3533140c60c41abdd84d170c519fb1f798515d5b1c05",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-10",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC10/branch-0.json",
+          "sha256": "e1afa3d3ca87a1f7d0df974412869e5cb3df5745d583a6bf7220587eac4b8c35"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC10/branch-1.json",
+          "sha256": "ebde9b7940c6df472135abb014267fd2742741b465ee0e5811e737b2c3e70418"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC10/branch-2.json",
+          "sha256": "9309152bfbc94cbf03ecdf98df10ad764f14f5c208650ec79037531a40ce3496"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC10/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC10/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "aec3de34bf65ed287ea44691cb8fc252465dedbee5c1a6547737abae55200867"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC11",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "840cc4885e18ce6697be00d20e1040f526bb3a6c0d777749edd4c121f53ce64e",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-11",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC11/branch-0.json",
+          "sha256": "4cdfc1d440b73715ac3a50c387ec3e5c0f2d41fe6943f3630fecb5cd458f03fd"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC11/branch-1.json",
+          "sha256": "8c6c7840697d85373f66b117a34458802d069e5f5a073748913b5963531817ef"
+        },
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC11/branch-2.json",
+          "sha256": "7ee283beac4c10acc08e3b4514c234b03f53ae87d7554fdc4de67184e6cb8b27"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC11/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC11/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "14f66b2b9f26419ad1233fff274e43fe6f1ae0f78e6a9ae79be35ae631b065b9"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC12",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "34a797b30438f6d0dbe77fda4d4eff2214814b153216a0e9744d6ff1789c4bf2",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-12",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC12/branch-0.json",
+          "sha256": "87d962e9e6a802f8ba906fc47f2f31457bc0594a911d939600369da466576865"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC12/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC12/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "1ed31aad627daa86272c64ca144a8736257c3293c421324e349211b277088301"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC13",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "9fa5f2ea0edd44f356cb5d12787d6c5cb6483f4e88ff7d00bf031c4c95e971c7",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-13",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC13/branch-0.json",
+          "sha256": "5f6f7c1ee840c7fccfc8da6f6a922a77ce0718a451b6878134351b278985cde8"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC13/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC13/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "b28339f9e13f9e3a36a1e2bd2079fbd7334159f71c2c79720f21e5567dc6e0e3"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC14",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "e5de096bf6fa4a61c29aa0298f2be94d4485ac22c88142c7e3abd7e90c74add2",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-14",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC14/branch-0.json",
+          "sha256": "051dd8c93b0d7b82a4da1b55f3e08d0beb84c06b13362d7337f8d733f67b5636"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC14/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC14/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "de902783c36c036166a1de7397453b744750860f98d02cc5cace2f02b6d9b640"
+    },
+    {
+      "name": "SharedMemory-PT-000020__RC15",
+      "suite": "development",
+      "family": "SharedMemory",
+      "instance": "SharedMemory-PT-000020",
+      "pnml_sha256": "3d7ca5a349c8af39f7f2387911f51c0abc347d849da603d4506e40db873ac812",
+      "xml_sha256": "f07bef043517cb7842326c10221013de034f4eaa07a62dacbde0fa26d1e699e3",
+      "property_id": "SharedMemory-PT-000020-ReachabilityCardinality-15",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/SharedMemory-PT-000020__RC15/branch-0.json",
+          "sha256": "824e76a441aa204d29629d42ad37cfebecf8e92eae7fa9947ece21021abb00d0"
+        }
+      ],
+      "places": 461,
+      "transitions": 820,
+      "net": "../mcc2021/SharedMemory-PT-000020__RC15/model.net",
+      "property": "../mcc2021/SharedMemory-PT-000020__RC15/property.xml",
+      "net_sha256": "c8a1851793fb9feef245fd12bd22543029219efbc03be16547807ca26fce45ed",
+      "property_sha256": "3e30aafc29a3e790d1bd3bf962d86a98ff79d8ea1527f0bd80822f5a3b4a342e"
+    },
+    {
+      "name": "TokenRing-PT-015__RC00",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "94781efb29dbe5674f1947c8eecd601c9c7156da512c9c330d7fdef139020452",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-00",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC00/branch-0.json",
+          "sha256": "8be0b3dccf53721347a83df56c66c49ea536e0da37df7d249fb25dc095fca91b"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC00/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC00/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "e6ea91566a5114f93588677c3db1383b4ecbf889719921526f35aed8c9b400d1"
+    },
+    {
+      "name": "TokenRing-PT-015__RC01",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "64bfa57f1de00524311c0f0977a4871a55ca993226f94dbf5f699c562d80541b",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-01",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC01/branch-0.json",
+          "sha256": "44e7449203b402e47b5db3d5e7cdd955288624fa68e882785e7578ceafa78c80"
+        },
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC01/branch-1.json",
+          "sha256": "78dfc56896cf9a71ef1807e5db79d53288bc0a6734fd24db9cbbd9fc862da048"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC01/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC01/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "9bc95c25e60c1fff20b9815981d2e4d3d22ba62162eeef26e84c96a883e4bf52"
+    },
+    {
+      "name": "TokenRing-PT-015__RC02",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "99ecf4c5504685af79fe841c24b33017c4280089d42cd2129c8fcdabc3ce8fa4",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-02",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC02/branch-0.json",
+          "sha256": "909409bdf0e1b3c16de3d57b668c97bfaa17d41753996298a6cb2afd15d60be8"
+        },
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC02/branch-1.json",
+          "sha256": "3c97f717856694c158995aac6d60ab9eda220d10dc60f5a372bb109dcf6a758b"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC02/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC02/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "6b454161e0099e1f09b7eaa3c4010887b0d2f1520c8eafc54cb6a4210334d166"
+    },
+    {
+      "name": "TokenRing-PT-015__RC03",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "1b9a80c6dc5ddbb00bf99e0ac42ea32d1aa839371628525de7284b1ba5f7338d",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-03",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC03/branch-0.json",
+          "sha256": "24b55d58903f39c2bb44652ea32f345b480af20caf3b4ed99a3be4ed34f2222b"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC03/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC03/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "da0fab80b72c9dc749b9937612c73318b14cd8a80fb15742536ddf595758582f"
+    },
+    {
+      "name": "TokenRing-PT-015__RC04",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "f8c61c682159bf8c229819bff5de662c18f1f4d6ce7030e9a1acf373d939fdb7",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-04",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC04/branch-0.json",
+          "sha256": "8be0b3dccf53721347a83df56c66c49ea536e0da37df7d249fb25dc095fca91b"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC04/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC04/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "d7c8582a98f4cd3eda96882f5d7d0885f636be158dbf3cf98f03d0f147ce6a89"
+    },
+    {
+      "name": "TokenRing-PT-015__RC05",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "b0c17e864c32378d6f5fc4e64b048bcced2209f1459c523e382c4e5491da4f2a",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-05",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC05/branch-0.json",
+          "sha256": "8be0b3dccf53721347a83df56c66c49ea536e0da37df7d249fb25dc095fca91b"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC05/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC05/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "e8caa7a14a11186b028e1d7bc76c86b6a7dd7afbe4ad7b3dcfbb6a3b17cd4c77"
+    },
+    {
+      "name": "TokenRing-PT-015__RC06",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "b71dceb278ad55d727056aaa5ae2c27c91ee0a50856569d9d616e06461289a4d",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-06",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC06/branch-0.json",
+          "sha256": "b98374a31894777916bcbe92504fc006df7caa9a21a121a59f8f1d65fbbb02b6"
+        },
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC06/branch-1.json",
+          "sha256": "b98374a31894777916bcbe92504fc006df7caa9a21a121a59f8f1d65fbbb02b6"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC06/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC06/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "ac17c770a6e5095773f0c13ba4c96ec7f51129425b60dde94751bf10b43c24bc"
+    },
+    {
+      "name": "TokenRing-PT-015__RC07",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "1004d63c08f3a40913d583b7ddb180df486577154b75470254e5247a8bb88695",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-07",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC07/branch-0.json",
+          "sha256": "df45f06df24b2ffc21837a8a0ae5b67d7320195d425c2944f3a63104225456e2"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC07/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC07/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "7143787bb11d64e2701e2dc7a8526827f37037eb38fc397cd2a9cf67bd6b0fd5"
+    },
+    {
+      "name": "TokenRing-PT-015__RC08",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "8cc22e5f131c013e57235bad5080c353bc3c5ecf3db1578d8ff17a229ecc0b69",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-08",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC08/branch-0.json",
+          "sha256": "519f48c506e21d535eef17f5847ad8f4712ca4a89dc58f2234620b6331df3f11"
+        },
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC08/branch-1.json",
+          "sha256": "aa8d6065910f6d5024626eb57d3f6ccec4db88423fd8a68fa14ba25035265b68"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC08/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC08/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "8c1fc6358ff387f76819d35fb2669c6b1bbf7f96f34ecac6eba7f7cd529c1c51"
+    },
+    {
+      "name": "TokenRing-PT-015__RC09",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "228a9036322fcb63156105630f2afd0be495549a362af09e174ef4be46826041",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-09",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC09/branch-0.json",
+          "sha256": "7803e7d7cf3f3d07ee90403e1998c84656890921b2d217f1d1e6bc2fcb0e3fca"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC09/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC09/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "ce3ef9b5316b20f77bef6a3b63a889624422e6be89c21f56fdafd7844b164bb6"
+    },
+    {
+      "name": "TokenRing-PT-015__RC10",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "555438e05b63e88a3c37f9f5378231537bc440938249e0e10b9a307415e6211f",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-10",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC10/branch-0.json",
+          "sha256": "1a4b9dbcaa4e4a03c6b207b631895717d4f86bdc1127e3765bf877252a45061e"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC10/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC10/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "333b78c05e499378620b0b4a5bfde9ede58f568011006895063ce1cf1371a7cd"
+    },
+    {
+      "name": "TokenRing-PT-015__RC11",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "58723d5e5146798d4140f5748ddbb61ea52df1c1b6f5049b657c14fc1b316370",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-11",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC11/branch-0.json",
+          "sha256": "93baa6c973edea57a74337f493a0b2b7d1dcd387019407a406acce424fbb5da4"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC11/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC11/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "42769422982339d7df68d6308c7d1edf1ef2e4dcd46bd7c20869055fd5755109"
+    },
+    {
+      "name": "TokenRing-PT-015__RC12",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "8aa081e14bf32162e164c4b0680aff15e55e4ffc7a1de22a0cd00331059310b6",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-12",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC12/branch-0.json",
+          "sha256": "f9e1f1e6a5d01e6c25e397dc7d3c91f544aec74e9bc3cf8aee89ba3f58c912fb"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC12/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC12/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "9463f7b1dff838caf0d69c30ea0184e4c73e0a044bc7a46e5f2667181e77edb8"
+    },
+    {
+      "name": "TokenRing-PT-015__RC13",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "cb96a5ccc055539879b22d3b96e7082c60c480b9c7e46b7fa1b6d21196d09e2e",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-13",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC13/branch-0.json",
+          "sha256": "853a27ca2d624f40efeb8ce9a2a7a76738abb31f6e48e73405fc22118053b148"
+        },
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC13/branch-1.json",
+          "sha256": "4200d4b4e269232739db30e16c2706b12de0a051f9e8454eaf6e1aea4825630e"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC13/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC13/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "a94435d56635b3cdeac573b122803bd214b9bf2a318c40e0428085fdb798cdaa"
+    },
+    {
+      "name": "TokenRing-PT-015__RC14",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "caf5bf5db89daf8b14d319d51f99a44caff4eb7e28edbf2d2b6a3bcb4cefbf49",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-14",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC14/branch-0.json",
+          "sha256": "a2e73f8206ac731bfc2464c9a0b658a97924fe016532d13bbd39054a62040392"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC14/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC14/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "2c3b4a8bf093602e6c7bc5545a09785968c84953a53189c17346097960ffac8d"
+    },
+    {
+      "name": "TokenRing-PT-015__RC15",
+      "suite": "development",
+      "family": "TokenRing",
+      "instance": "TokenRing-PT-015",
+      "pnml_sha256": "1a223a25b60c4d4afd8f72122c3c8b1d6573911c987c9a12e79322c8d52d69fd",
+      "xml_sha256": "3c6ba819483bf5b110473392b980c98655fe0c0fb0d599ce6d6d7841392bf59e",
+      "property_id": "TokenRing-PT-015-ReachabilityCardinality-15",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/TokenRing-PT-015__RC15/branch-0.json",
+          "sha256": "3561d2bb426866cba2d2463cede2f4363ddf3c9b6c05ffc8a45ef9e5c916f14a"
+        }
+      ],
+      "places": 256,
+      "transitions": 3616,
+      "net": "../mcc2021/TokenRing-PT-015__RC15/model.net",
+      "property": "../mcc2021/TokenRing-PT-015__RC15/property.xml",
+      "net_sha256": "ea2e179c3ae7b799cf3b84dca78e714034c548a70f5d0c440232fb1dab43ed5a",
+      "property_sha256": "8d34baf5f46c7763a094a338d2bd8bb3f29beab63e060f50eda7aa1f595e3278"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC00",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "0a91170314d989dfb5c04d95a13a9c7f66d19e93b2eef74ab183a00be4daec44",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-00",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC00/branch-0.json",
+          "sha256": "849ee79babeb7041ff7c9037568ee75b5659389b272e9427ab6e3a5c30d99534"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC00/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC00/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "75dbd049573cdd1c419a8e433f4db66d3dae4b28017f45baec5ade9570ed787d"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC01",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "0d3e5f6dff3b65f5beda35d5445e43c49ddb5830456f1138c96243deff8886f1",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-01",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC01/branch-0.json",
+          "sha256": "641aacd9d813bcc049bb10eec5272802922bfa9b2334d7b741fe7dc9e770d245"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC01/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC01/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "db96c6fa30eda8f7e84673c671128186f3a3b8747b4ae129bfe3470dd8b08f35"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC02",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "e83638b4525776288f297978903123c870ff63761d331065f39c77b17231e1b1",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-02",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC02/branch-0.json",
+          "sha256": "9f2aba53048bfc9c9da2cce1f25fbd28e3438fdfedc5b544099c53c4a1ae15a3"
+        },
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC02/branch-1.json",
+          "sha256": "54cd0ff3081c728f977fcc9a0327c9ef22061815c18d9de97bc9cc048d4e285c"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC02/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC02/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "5d7cbd38702711e5ee6fecadc53e19c19247fe397c276130c3e76f63ae9fbf2a"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC03",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "881de38b5c0c9acb5d1a0a23aefcb37515454c4cafcca1d0e5b558f9c88303d9",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-03",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC03/branch-0.json",
+          "sha256": "711ebeae007eee2dfc6a4e1418f8e7982e573e75309af0bcde10ce06fdf94981"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC03/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC03/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "dbfc905f152a8e1169a6975648a8328279a049d1838595bc398b3f76f561f8a5"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC07",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "dcd8e75aa219410d1ce5c9ebe7fcd50b7fc6128187fa864fb96cc2b607c11ef8",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-07",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC07/branch-0.json",
+          "sha256": "4a820e77ce6a49747ef596b313328e189dae76914d44fe1c111c50dfda3ff464"
+        },
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC07/branch-1.json",
+          "sha256": "1969daf2e0481183707b4cd7c0a2f0059d4ad14e4c63cf297ee6c56a9012dfe4"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC07/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC07/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "f56765e40191be6c5a68611b0fc49ddb3b255a69f55ef363d7d7abe4b750e947"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC08",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "aca2a83bf8ab96cf4956e63ae846e2767f2ea99acfdfe2e828b5f08e330a10f6",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-08",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC08/branch-0.json",
+          "sha256": "edbeef3ba06a3d124423808928221788f29a0c505afde7c13108f26891f46ff1"
+        },
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC08/branch-1.json",
+          "sha256": "11ba5141a22f854af8d03af8d26fcf378ddb80eebf0ff5820031726e9076bcdc"
+        },
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC08/branch-2.json",
+          "sha256": "f9af45e90e15e7149f41f346163282291510b9b943a1ce7b29964606d09163ee"
+        },
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC08/branch-3.json",
+          "sha256": "0c5914845f27cbf55f12987eb67e188fcb7f9c989a129c81b8309a3d222f42dc"
+        },
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC08/branch-4.json",
+          "sha256": "dcc5a81310ffcb7c9b8546e734381caa6474d0954b79e69cb80b58ecc3bb863b"
+        },
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC08/branch-5.json",
+          "sha256": "3b5d57f0c064e388db7923852d150f1f4df74892a91c4d187e7fe7b5e0ac7b85"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC08/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC08/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "63130d3c32f6eb743d200fd8cbb78bbce8f11755e09a929d48c630983bf4d9f4"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC09",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "309097398222917424b8c4b20560042dea0dce22124fc86eb64fec569a6bad89",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-09",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC09/branch-0.json",
+          "sha256": "1e9caa8c08de56d9df7f625c00b36cf08675ef87863e4c82cf81524f6c373a04"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC09/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC09/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "54108fe110bee4a7f04c4583aaa57c1f2fe8623697cb3e97f2cf8c18037d6cf5"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC10",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "517cab0cb25e1fccb2d81f153e99ad3fd51c48813550040921aab5188d7a4ed5",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-10",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC10/branch-0.json",
+          "sha256": "28c4fe44596f43d2c04bed1bd07519784a3f352fcf0592053458bf350971f0a2"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC10/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC10/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "87a30fe4d64286461e7118ef26478ca2949281cbf3812d724b15bdc3007c3ac8"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC11",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "0bb765af2623572c17f5a97f379aec30134ca031fe926e8ad1dc1eaff597edc3",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-11",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC11/branch-0.json",
+          "sha256": "1c7ed7113df8be455057f5a7276e4ff707a0a1f55979aa6fbaabf2f8324902ef"
+        },
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC11/branch-1.json",
+          "sha256": "d95ced598292ecdfdead74767391b9dc90536dd8640ca4f672a69debfe598e60"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC11/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC11/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "67af56faf0d1f49247dc60063ae6c4074d10b05ecccea9cc2db8310ee5485ff8"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC12",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "a288dfe04ec7c74fa34d5a83e2f69f511e33d09c532ed9b58bb9b397d06e9a57",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-12",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC12/branch-0.json",
+          "sha256": "4b3e7f72e4f08fe543172322f964f52125fa99a4dd19cd2310968ef2190b0d80"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC12/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC12/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "a8c47c8d6c4732fbe33c4b415bfbb9e527aaa910be48fe994283eac5fbb0cf20"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC14",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "ed61b73238150691943e82852e133aa7a12ea0ba6cafca79891810b54f0c9c98",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-14",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC14/branch-0.json",
+          "sha256": "9eeeb7b9de0e8179cbcaea4e8200a1c9db797f637cb3060c1bfb075a9ed3358f"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC14/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC14/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "b41bae232f9c819e582dc7cb1b6a8eaf8b08ad151798a6b1924f7eb9345018d5"
+    },
+    {
+      "name": "DoubleExponent-PT-003__RC15",
+      "suite": "development",
+      "family": "DoubleExponent",
+      "instance": "DoubleExponent-PT-003",
+      "pnml_sha256": "d955791ee788ca909a034114018a9bcbc0a3c843446ad68a2fe09d1c472cdafa",
+      "xml_sha256": "b1876eb5d1da8a4ca8617bf7bc5358238490cd238cd8a51036af5db5478eb3cd",
+      "property_id": "DoubleExponent-PT-003-ReachabilityCardinality-15",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "../mcc2021/DoubleExponent-PT-003__RC15/branch-0.json",
+          "sha256": "8fbd20c1cff0ff527468abd11dd2e1dc83f1645ef597f1e740bc73404d25c3d1"
+        }
+      ],
+      "places": 163,
+      "transitions": 148,
+      "net": "../mcc2021/DoubleExponent-PT-003__RC15/model.net",
+      "property": "../mcc2021/DoubleExponent-PT-003__RC15/property.xml",
+      "net_sha256": "a644211d9c68ad7dbf09ea55cb4e4faa5c02928ca82c02096bc5a8d132656253",
+      "property_sha256": "581451a231291385cc528419df0e0daaabedd8e710bf079d218d5d57a21fb58e"
+    }
+  ],
+  "selection": {
+    "criterion": "Development queries unknown to portfolio-next in the first expanded 2-second run; never use this subset as unbiased coverage evidence.",
+    "baseline": "results/mcc-development-v2/runs.jsonl",
+    "baseline_sha256": "c35f4219b3edeca03f8357e292ce5c710eba3c7a4e00cba321ee256bdfee9334"
+  }
+}

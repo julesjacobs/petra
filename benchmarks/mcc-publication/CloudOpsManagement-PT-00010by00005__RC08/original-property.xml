@@ -1,0 +1,21 @@
+<property-set><property>
+    <id>CloudOpsManagement-PT-00010by00005-ReachabilityCardinality-08</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <negation>
+            <integer-le>
+              <tokens-count>
+                <place>Wsr2NotDeployed</place>
+              </tokens-count>
+              <tokens-count>
+                <place>WsRuntime3</place>
+              </tokens-count>
+            </integer-le>
+          </negation>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

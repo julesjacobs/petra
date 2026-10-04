@@ -1,0 +1,19 @@
+<property-set><property>
+    <id>CloudOpsManagement-PT-00040by00020-ReachabilityCardinality-13</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <negation>
+            <integer-le>
+              <integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>Wsr3Started</place>
+              </tokens-count>
+            </integer-le>
+          </negation>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

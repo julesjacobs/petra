@@ -1,0 +1,1 @@
+Proceed with the .kvass parser exactly as proposed, without algorithm changes. Root will implement Python kvass() using finite states for run/check/private transitions and update benchmark runner. Run smoke tests on new encoding, document results and stop build workloads before timing.

@@ -1,0 +1,903 @@
+{
+  "format": "smpt-classic-v1",
+  "source": "https://doi.org/10.5281/zenodo.5863379",
+  "importer_sha256": "3d398d8901303d21ca589aef07302917e8ca39d10542f0841c375a6835a2bc7d",
+  "queries": [
+    {
+      "name": "Performance__NTest__1",
+      "suite": "Performance",
+      "instance": "NTest/1",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/1.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/1_.xml",
+      "pnml_sha256": "e85851d3f5e02089df20c65db95e133744d8572850827007064503f7092060ba",
+      "xml_sha256": "f9b809667b3379c1473807526e45ba547bfba0b8d1bf13be3e7d5e40f1aeb45e",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__1/branch-0.json",
+          "sha256": "629741e1bbc36c931711c35634189c26810d3e6d87aef9f8c05aa25598f8e336"
+        }
+      ],
+      "places": 3,
+      "transitions": 3,
+      "net": "Performance__NTest__1/model.net",
+      "property": "Performance__NTest__1/property.xml",
+      "net_sha256": "904ea6627d99c3e240eb03534a7203f72cc753ac63e19a52119f23b546a637b9",
+      "property_sha256": "d47b11e5f1eda2d48a17c3d452eb6f8a38998a3f3f319f02c6a43a87bba68947"
+    },
+    {
+      "name": "Performance__NTest__3u",
+      "suite": "Performance",
+      "instance": "NTest/3u",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/3u.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/3u_.xml",
+      "pnml_sha256": "ced2a0c441c666bbdb0fdc0d233d3edae2de19459ec238378ee0c6e6c03a9164",
+      "xml_sha256": "e0324c99dddfcc7cd9760aa8c283c10b66a4bd9fd59914fdf35598130b270967",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__3u/branch-0.json",
+          "sha256": "b645374bdebc9c68c1a2d5104db06f7755511cc2807937dd2be6a8409073ff89"
+        }
+      ],
+      "places": 3,
+      "transitions": 3,
+      "net": "Performance__NTest__3u/model.net",
+      "property": "Performance__NTest__3u/property.xml",
+      "net_sha256": "2ec4a06bf48fc9526238ea001e95e83b5de031f623ae72c2ece9097d65fbe949",
+      "property_sha256": "b49c3542062581cb904330ae14e9d5f3578f02bb545b92cc4cd3fdc101b78959"
+    },
+    {
+      "name": "Performance__NTest__5pi",
+      "suite": "Performance",
+      "instance": "NTest/5pi",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/5pi.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/5pi_.xml",
+      "pnml_sha256": "5d941f41f5fda717e085866c2d6917bcbc7f6da447633a8805820e66ffb044db",
+      "xml_sha256": "4ac83c4ab5790ad8f127a76f640bd5c61c1073d3b0dffcf6e18163cef4cd6f5a",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__5pi/branch-0.json",
+          "sha256": "dc59432536620dbc3808d144a1385254a84eb61290c6ebe645ff2811564466f5"
+        }
+      ],
+      "places": 6,
+      "transitions": 5,
+      "net": "Performance__NTest__5pi/model.net",
+      "property": "Performance__NTest__5pi/property.xml",
+      "net_sha256": "cc29d6d6e1178d77fe291a7edeaf60ba4c30e7df1ef292ff105e70566b5905f6",
+      "property_sha256": "65cf455f5d29307001cb967cf76a617b3aedfa4dcd63f356e2f4c02f906fc2f5"
+    },
+    {
+      "name": "Performance__NTest__6pi",
+      "suite": "Performance",
+      "instance": "NTest/6pi",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/6pi.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/6pi_.xml",
+      "pnml_sha256": "51a4662be20d4c746456c7848b4e5a6953ab787479c726711691e7794c04c650",
+      "xml_sha256": "1680b20b2c04f448c6c17d5eaff8ecef9e02e2a9cb7a48f74236b7a55e2cd4e0",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__6pi/branch-0.json",
+          "sha256": "bcce29371a323e63a5539aad4c17ff31f3102c6c73fda127ce3cfe3979ef78b4"
+        }
+      ],
+      "places": 4,
+      "transitions": 3,
+      "net": "Performance__NTest__6pi/model.net",
+      "property": "Performance__NTest__6pi/property.xml",
+      "net_sha256": "44efc9d07efe0c4eae9d098bbc51e74fe3c1de66bce8ccc783c3a06e7df63a59",
+      "property_sha256": "b1d635649c1c2b27b5dc51a7873c4aa79fefcfa2c39b6807f1ce489f5aa3914f"
+    },
+    {
+      "name": "Performance__NTest__7pi",
+      "suite": "Performance",
+      "instance": "NTest/7pi",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/7pi.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/7pi_.xml",
+      "pnml_sha256": "4469f442842938be074236a100478803db0b9cb055a76fc3876137011f388798",
+      "xml_sha256": "a8634dccfd979e70b51786a25f489b9465d0971c6086ec86fe72622cac409303",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__7pi/branch-0.json",
+          "sha256": "72a25a1a3920846465b4c2a926368cd70fe09d363ccd888fb7600eeef18720da"
+        }
+      ],
+      "places": 4,
+      "transitions": 3,
+      "net": "Performance__NTest__7pi/model.net",
+      "property": "Performance__NTest__7pi/property.xml",
+      "net_sha256": "33665d9441a2a6cd547429fabd461e84ceabf8b8b6a7257a422ad35c56ae9fe1",
+      "property_sha256": "255cf6cb167ce318cf7bf07249da0ffef3bcab42094da14fbb2998459e475174"
+    },
+    {
+      "name": "Performance__NTest__b",
+      "suite": "Performance",
+      "instance": "NTest/b",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/b.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/b_.xml",
+      "pnml_sha256": "005d0a6be4cc270e78d180e180e171cd98091ad2ca8e669e43edd6b400956750",
+      "xml_sha256": "7f52f57bb65ec3bb9955b4e51f363e2f492982375c26f6d79e6b8db839149cc5",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__b/branch-0.json",
+          "sha256": "5334355f85970a6f72a9360f8df8aa0ab05a51b6a2fbf464508ec640e7a399c6"
+        }
+      ],
+      "places": 3,
+      "transitions": 4,
+      "net": "Performance__NTest__b/model.net",
+      "property": "Performance__NTest__b/property.xml",
+      "net_sha256": "89fe9ac4b8f8f065613424812a561b7ca8946a36cfd623ad962ba71094511971",
+      "property_sha256": "255cf6cb167ce318cf7bf07249da0ffef3bcab42094da14fbb2998459e475174"
+    },
+    {
+      "name": "Performance__NTest__CryptoMiner",
+      "suite": "Performance",
+      "instance": "NTest/CryptoMiner",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/CryptoMiner.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/CryptoMiner_.xml",
+      "pnml_sha256": "382484b83e017997153ffb34f817c9b917f4427a83190dfcba3ab99564500bc8",
+      "xml_sha256": "45436916945615d1ae2d0daa4689c80a90774c5224a34ad3b5c25223bddf6471",
+      "property_id": "CryptoMiner-Inv",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__CryptoMiner/branch-0.json",
+          "sha256": "1323602aa4d5aa48bfdb3b12bef8fb6e5fba8393aba448ff691e8e6c86213afd"
+        }
+      ],
+      "places": 5,
+      "transitions": 6,
+      "net": "Performance__NTest__CryptoMiner/model.net",
+      "property": "Performance__NTest__CryptoMiner/property.xml",
+      "net_sha256": "621f7e6610a4190922bd1d22d100aaef83135655e7dfc6d617064f59e52426a6",
+      "property_sha256": "43fcb1a1b99898a6fff8eebf13b1318f9f486f37847ced6c9f481efcc2baa7a5"
+    },
+    {
+      "name": "Performance__NTest__kw2",
+      "suite": "Performance",
+      "instance": "NTest/kw2",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/kw2.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/kw2_.xml",
+      "pnml_sha256": "4f0eb19640389d1c7441d4a6c88131dd5166ff8f87026e738cb11278c55a15f6",
+      "xml_sha256": "d671be34637b029eedb824e20692d8c5d7911046e96cbf2aaeeb073d399a50d6",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__kw2/branch-0.json",
+          "sha256": "13c369410476f91a2cdd242bbbef9153c5a72bebb4c785481cb4f364ce6f89c3"
+        }
+      ],
+      "places": 4,
+      "transitions": 4,
+      "net": "Performance__NTest__kw2/model.net",
+      "property": "Performance__NTest__kw2/property.xml",
+      "net_sha256": "3dc77eec2533aeb2cc24495627d9ee90ae056f5831b9b64acfc18c0361dbaa5a",
+      "property_sha256": "f7663015e9a28c61b67fcee6df2b3616ef0298afee98aa175e0f8c40b06f45ff"
+    },
+    {
+      "name": "Performance__NTest__mtx",
+      "suite": "Performance",
+      "instance": "NTest/mtx",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/mtx.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/mtx_.xml",
+      "pnml_sha256": "5105f4f40ca1945fbf9071ef6ec399574672dd0c68332e5ebeda082338880bdf",
+      "xml_sha256": "6d20fd38508ce7854a6a8a94b14699e49c55326b9ccafe2426d050e516b216fc",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__mtx/branch-0.json",
+          "sha256": "a1c6c49364e56120c9893a1e199483003ef45007c78d59938fba553f6c644f23"
+        }
+      ],
+      "places": 4,
+      "transitions": 4,
+      "net": "Performance__NTest__mtx/model.net",
+      "property": "Performance__NTest__mtx/property.xml",
+      "net_sha256": "47b1b6b813977bd3e3f305bbbdd7d2b3bdc7217c0cbf1d03b88f506fea47b783",
+      "property_sha256": "0dae30e21687eefb54276eca97dc6c5931cea72856fe0c4bbd77d88d48f79b5e"
+    },
+    {
+      "name": "Performance__NTest__nope",
+      "suite": "Performance",
+      "instance": "NTest/nope",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/nope.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/nope_.xml",
+      "pnml_sha256": "f036eab204b4eae84d1d9e5b2a26db4a2ea0302cf6f731dfabd94a92c46dd0e3",
+      "xml_sha256": "ea5c22f2c4c9721a59fbe3f2a55b0973074f5698fe175c57dfb4c6b6372af382",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__nope/branch-0.json",
+          "sha256": "8d849f39c32bf2ef09099f945746eed47f283a5a87e52bd2f37aeab665a31d08"
+        }
+      ],
+      "places": 2,
+      "transitions": 3,
+      "net": "Performance__NTest__nope/model.net",
+      "property": "Performance__NTest__nope/property.xml",
+      "net_sha256": "0af837e69258ce4e1348cd6568f4a35d01ddb9dadb31cca6eda2ff7a67247e5f",
+      "property_sha256": "255cf6cb167ce318cf7bf07249da0ffef3bcab42094da14fbb2998459e475174"
+    },
+    {
+      "name": "Performance__NTest__nope2",
+      "suite": "Performance",
+      "instance": "NTest/nope2",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/nope2.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/nope2_.xml",
+      "pnml_sha256": "ce050a88c19fd858797f1fe6bb81d0633bc51c049d349211244ec3128c6edd03",
+      "xml_sha256": "5b862c7b95b7446ddf06181c0446179b6753bddfcae50e47133c2021db4674e5",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__nope2/branch-0.json",
+          "sha256": "7b5d5ce12258abf0d67305318d72d60941318a322865e979b82db66a03995fec"
+        }
+      ],
+      "places": 1,
+      "transitions": 2,
+      "net": "Performance__NTest__nope2/model.net",
+      "property": "Performance__NTest__nope2/property.xml",
+      "net_sha256": "c7b955c6fc5f740165d4c38f4c37d518479d7a88cac4371759388683971431a6",
+      "property_sha256": "5e70b7280ce0ebdafcf03888c87d4c0a039807d12cf11c145653bae096532d4f"
+    },
+    {
+      "name": "Performance__NTest__u",
+      "suite": "Performance",
+      "instance": "NTest/u",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/u.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/u_.xml",
+      "pnml_sha256": "cefa10f7c3228999677c5f782f9acd7315e10d57a128ed0f598ca82a21b1faf9",
+      "xml_sha256": "7f52f57bb65ec3bb9955b4e51f363e2f492982375c26f6d79e6b8db839149cc5",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__u/branch-0.json",
+          "sha256": "4652a448a408b3fe5f71bc0656aedc68c8d61695101a84383a34826ade47924b"
+        }
+      ],
+      "places": 2,
+      "transitions": 3,
+      "net": "Performance__NTest__u/model.net",
+      "property": "Performance__NTest__u/property.xml",
+      "net_sha256": "3675aaf2152ef69e9647c698160c8dfa4900192bcef375ee1b7160a29b349335",
+      "property_sha256": "255cf6cb167ce318cf7bf07249da0ffef3bcab42094da14fbb2998459e475174"
+    },
+    {
+      "name": "Performance__NTest__w",
+      "suite": "Performance",
+      "instance": "NTest/w",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/w.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/w_.xml",
+      "pnml_sha256": "8f7373dfa3319af706c8a6b6f35d292c87a2b0306a29f927823b9b235e3a12b2",
+      "xml_sha256": "f3f2a9aa6b9a8750f89c5fde52557ecebf511632b511957af42d527b9b8a1c0c",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__w/branch-0.json",
+          "sha256": "baf82f3dbe004796a7438d555d5037de1019d87ee2e4dbed5a120a0cfdec6b0f"
+        }
+      ],
+      "places": 4,
+      "transitions": 3,
+      "net": "Performance__NTest__w/model.net",
+      "property": "Performance__NTest__w/property.xml",
+      "net_sha256": "ff0956a44060a8c7cc97741ef762125d11516be5dc88919886dfadb44c29dc4f",
+      "property_sha256": "d47b11e5f1eda2d48a17c3d452eb6f8a38998a3f3f319f02c6a43a87bba68947"
+    },
+    {
+      "name": "Performance__NTest__w1",
+      "suite": "Performance",
+      "instance": "NTest/w1",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/w1.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/w1_.xml",
+      "pnml_sha256": "7d053776a2aab1637d06cdbd850f445a77ddea0c0fe46ea3997960b452f06e20",
+      "xml_sha256": "f3f2a9aa6b9a8750f89c5fde52557ecebf511632b511957af42d527b9b8a1c0c",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__w1/branch-0.json",
+          "sha256": "f13ec4c0ca671c96e713b432600925c2dfda77f5de3497a65e30b0105e601fae"
+        }
+      ],
+      "places": 4,
+      "transitions": 3,
+      "net": "Performance__NTest__w1/model.net",
+      "property": "Performance__NTest__w1/property.xml",
+      "net_sha256": "dae9394b3e502774b6e97390f199666585a14e6929b2cb4689ea3d20ed905945",
+      "property_sha256": "d47b11e5f1eda2d48a17c3d452eb6f8a38998a3f3f319f02c6a43a87bba68947"
+    },
+    {
+      "name": "Performance__NTest__w2",
+      "suite": "Performance",
+      "instance": "NTest/w2",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/w2.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/w2_.xml",
+      "pnml_sha256": "23afe43b99d20a0515e1a6e89abc655900917888d37b454894f9bd2c69f19d0f",
+      "xml_sha256": "f3f2a9aa6b9a8750f89c5fde52557ecebf511632b511957af42d527b9b8a1c0c",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__w2/branch-0.json",
+          "sha256": "e4e20e5cc26fc7fdded9d95673bbf448c722f7bf933b44b77fd0dbd250b5ff86"
+        }
+      ],
+      "places": 4,
+      "transitions": 3,
+      "net": "Performance__NTest__w2/model.net",
+      "property": "Performance__NTest__w2/property.xml",
+      "net_sha256": "6f62482953f023e6a6d8878a10f6874ad5f4be5f9018458ff0f2f80929c22313",
+      "property_sha256": "d47b11e5f1eda2d48a17c3d452eb6f8a38998a3f3f319f02c6a43a87bba68947"
+    },
+    {
+      "name": "Performance__NTest__wb",
+      "suite": "Performance",
+      "instance": "NTest/wb",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/wb.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/wb_.xml",
+      "pnml_sha256": "c3941306e17196afd8ae22707a2bfdfbf9c46bbff6a29a6cf781017eeb655758",
+      "xml_sha256": "fbb819583e24401937432b98d78f9b1dd8e7dad090b94e1e9a873e242f341480",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__wb/branch-0.json",
+          "sha256": "19a9df1111bdef493a25ec743ab1359d0992a7497bbc9a229707b86e0a67d585"
+        }
+      ],
+      "places": 5,
+      "transitions": 3,
+      "net": "Performance__NTest__wb/model.net",
+      "property": "Performance__NTest__wb/property.xml",
+      "net_sha256": "4a5dd6eb43509fb2c2d253062c2a2650fd5b159afe8ae394d756407b5f05100a",
+      "property_sha256": "ba81efd2891fe3fd8fee8f5031170fe1c11a18b7ba64b67f4f2662313dd9bf03"
+    },
+    {
+      "name": "Performance__NTest__we",
+      "suite": "Performance",
+      "instance": "NTest/we",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/we.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/we_.xml",
+      "pnml_sha256": "75c52cd12a218ddb0f147112218f294ed4c4ff73771c3ce7f905235dface43d7",
+      "xml_sha256": "f3f2a9aa6b9a8750f89c5fde52557ecebf511632b511957af42d527b9b8a1c0c",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__we/branch-0.json",
+          "sha256": "3a42c6c40002f846b2abb889c4466f2629bda575f6fd8706009d6c210d2cc189"
+        }
+      ],
+      "places": 5,
+      "transitions": 4,
+      "net": "Performance__NTest__we/model.net",
+      "property": "Performance__NTest__we/property.xml",
+      "net_sha256": "7a64c03374d09aed8bbb470e65a8e5101efe5b2d5a0eb711339f43e9092cb0d9",
+      "property_sha256": "d86b2f0c9b629c391dde502abcf3ed6d8af2edf22c1419ea29a25b8b979f2765"
+    },
+    {
+      "name": "Performance__NTest__x",
+      "suite": "Performance",
+      "instance": "NTest/x",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/x.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/x_.xml",
+      "pnml_sha256": "382d9da3ce75ff2ee9e4a226d2944db8631790bff50a73279a49814bbb5a551a",
+      "xml_sha256": "fbb819583e24401937432b98d78f9b1dd8e7dad090b94e1e9a873e242f341480",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__x/branch-0.json",
+          "sha256": "78f0f7d1aae41a8c77e3ee2bc626cb7d333882be3a32338345d7fbb8cb78f5ca"
+        }
+      ],
+      "places": 4,
+      "transitions": 3,
+      "net": "Performance__NTest__x/model.net",
+      "property": "Performance__NTest__x/property.xml",
+      "net_sha256": "2d9e1d187058b9fda2a0e68a90aa459fbe8d72de11bcf1b39c58548e8766b6b9",
+      "property_sha256": "90c7bf88c6807f76e48ef475efa12bea6139ac128adb9904ac61925d71cdf197"
+    },
+    {
+      "name": "Performance__NTest__z",
+      "suite": "Performance",
+      "instance": "NTest/z",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/z.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/z_.xml",
+      "pnml_sha256": "4c509b2c6b7034383e59b142aab8671ba3015e8effa60bbae476daea4f7788a7",
+      "xml_sha256": "f3f2a9aa6b9a8750f89c5fde52557ecebf511632b511957af42d527b9b8a1c0c",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__z/branch-0.json",
+          "sha256": "67a61221b2764d447d566d9c1d6618aff9a4041ee87719787dbf9b98cd18c99c"
+        }
+      ],
+      "places": 4,
+      "transitions": 3,
+      "net": "Performance__NTest__z/model.net",
+      "property": "Performance__NTest__z/property.xml",
+      "net_sha256": "0d1d4460143ea6900e111b0aafbee933c44d78561cc5894813d66b16176ee1b4",
+      "property_sha256": "d47b11e5f1eda2d48a17c3d452eb6f8a38998a3f3f319f02c6a43a87bba68947"
+    },
+    {
+      "name": "Performance__NTest__ze",
+      "suite": "Performance",
+      "instance": "NTest/ze",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/ze.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/ze_.xml",
+      "pnml_sha256": "98e520f779cd7d670f8aa75ab8217704cede77972b3e22758aab1633df7cce73",
+      "xml_sha256": "f3f2a9aa6b9a8750f89c5fde52557ecebf511632b511957af42d527b9b8a1c0c",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__ze/branch-0.json",
+          "sha256": "eff0eabd1af09f9b260dac67771eb9c7c950f345da908a36e7acc9f0ea38a1c0"
+        }
+      ],
+      "places": 7,
+      "transitions": 5,
+      "net": "Performance__NTest__ze/model.net",
+      "property": "Performance__NTest__ze/property.xml",
+      "net_sha256": "17b0f2a1c5337f7913e752c99c50e3a5542eb799a74b1b8d17ddd7d3d7318343",
+      "property_sha256": "9475f4d351ec0513929fd02ad01612b2de5c131866e3e45bb0a9c4b5c1dc5216"
+    },
+    {
+      "name": "Performance__NTest__zz",
+      "suite": "Performance",
+      "instance": "NTest/zz",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/zz.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/NTest/zz_.xml",
+      "pnml_sha256": "de6ab1e36fe2e21d13a7b644b58623bbc7b6a2c20922b93fe52a1bb8f86daa02",
+      "xml_sha256": "ac73db133b72663659b9114174ef060f0e743794764a3492029d9a7b1c34d754",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__NTest__zz/branch-0.json",
+          "sha256": "f33df48cc51f28e023bda2f994613690da669e40cab34c8ae202eaf0049677f8"
+        }
+      ],
+      "places": 3,
+      "transitions": 4,
+      "net": "Performance__NTest__zz/model.net",
+      "property": "Performance__NTest__zz/property.xml",
+      "net_sha256": "bc16e884a3bca721e3f0e63f8020d4e9417a72c5a9d5db1897d8b1b77ed5a966",
+      "property_sha256": "d47b11e5f1eda2d48a17c3d452eb6f8a38998a3f3f319f02c6a43a87bba68947"
+    },
+    {
+      "name": "Performance__Sara__test3",
+      "suite": "Performance",
+      "instance": "Sara/test3",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/Sara/test3.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/Sara/test3_.xml",
+      "pnml_sha256": "b3eb5af5365f8375d17ac6cde3d036b36355ec038bfa2163c276bcd213b0618a",
+      "xml_sha256": "475309bd5c91ed4ef20fb46dd4abfdea69c5d9208bc09eb196db2647b0387452",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__Sara__test3/branch-0.json",
+          "sha256": "bba01b4b82e106e773224167bdf5ef705180b9f70c5d32919c81874fd7915c58"
+        }
+      ],
+      "places": 3,
+      "transitions": 1,
+      "net": "Performance__Sara__test3/model.net",
+      "property": "Performance__Sara__test3/property.xml",
+      "net_sha256": "e69ad9d81d53e95dae7a1f6ec0e16f1c9bb8af5e990a71edea52921ac7367bb8",
+      "property_sha256": "90c7bf88c6807f76e48ef475efa12bea6139ac128adb9904ac61925d71cdf197"
+    },
+    {
+      "name": "Performance__Sara__test4",
+      "suite": "Performance",
+      "instance": "Sara/test4",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/Sara/test4.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/Sara/test4_.xml",
+      "pnml_sha256": "1cd9d0a75dfdf5a0d01130d029f74636c9c516f9ed6cd04bcdc0ed610e4c34c1",
+      "xml_sha256": "34e820e9229164aa7915582be815369339b657a0173099ac3bcc7a3df68359db",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__Sara__test4/branch-0.json",
+          "sha256": "76f0efb63fe5f0b2423364a57cf2a08510c7a70ce1f0367e58e23ae08ada1f82"
+        }
+      ],
+      "places": 4,
+      "transitions": 4,
+      "net": "Performance__Sara__test4/model.net",
+      "property": "Performance__Sara__test4/property.xml",
+      "net_sha256": "db66496b5f5966b4662a1fa4c9825b4400c79fde184623fe6ceeab0111daf341",
+      "property_sha256": "4c27dee29ec047d45b0429d220f8737598c27e0521433a4ba9dc8ec24067077d"
+    },
+    {
+      "name": "Performance__Sara__test12",
+      "suite": "Performance",
+      "instance": "Sara/test12",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/Sara/test12.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/Sara/test12_.xml",
+      "pnml_sha256": "0364794b4e646cb9c033b8a0a1eb64717b8ee62200394a5342c4b370c37ab01f",
+      "xml_sha256": "4b89d9d8b810c3c61c5973049bde462dee8fa6d057bf817a9887d6d8bf9043a3",
+      "property_id": "Marking",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__Sara__test12/branch-0.json",
+          "sha256": "8ae8b13e6461738f47dd2a912821f1b83aa43215ec0b64262b499b62e685efd1"
+        }
+      ],
+      "places": 3,
+      "transitions": 1,
+      "net": "Performance__Sara__test12/model.net",
+      "property": "Performance__Sara__test12/property.xml",
+      "net_sha256": "05a1ff38e3cf804966993adf8c7fc3a5d6c63005a651c3452949e431db0844ad",
+      "property_sha256": "404c59fc4bc069c0a4a86f25c66274a30d125a9075b821a5c02bd061c966bb84"
+    },
+    {
+      "name": "Performance__TokenTank__PGCD-50",
+      "suite": "Performance",
+      "instance": "TokenTank/PGCD-50",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/PGCD-50.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/PGCD-50_.xml",
+      "pnml_sha256": "c54a749edc6d5bec079f9849cccdad8e84b35230cd05107f9fb055717885c263",
+      "xml_sha256": "d82df72d07ea3f2d329c528c40da9c3282f760dc352bd42de798de16b265e8de",
+      "property_id": "PGCD-50-Inv",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__TokenTank__PGCD-50/branch-0.json",
+          "sha256": "e7db17b5348a2dc15ba7169786cb490933a3639640a2efda88eeddaf28189cbd"
+        }
+      ],
+      "places": 4,
+      "transitions": 2,
+      "net": "Performance__TokenTank__PGCD-50/model.net",
+      "property": "Performance__TokenTank__PGCD-50/property.xml",
+      "net_sha256": "c86b3ba2914a359ff42c9a16421eab85020659e423caf9f2ba79ba8b8f0546f5",
+      "property_sha256": "93a3b82218ac7aecc1f0a15b382df3ff6164642df293ddc3fc07edc3ea120f5e"
+    },
+    {
+      "name": "Performance__TokenTank__PGCD-500",
+      "suite": "Performance",
+      "instance": "TokenTank/PGCD-500",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/PGCD-500.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/PGCD-500_.xml",
+      "pnml_sha256": "8803f893f2949fd0fe2e3eca80218407bf0129a8969ae681ab4d8339a81708f1",
+      "xml_sha256": "dc6bd8fd9edbf6dbacc6b05c3c918f2d9c3d40c23d40155131bc0bfbba195b83",
+      "property_id": "PGCD-500-Inv",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__TokenTank__PGCD-500/branch-0.json",
+          "sha256": "b04f1981d3f74c723aeb40a783e3c7e6ea28172a27446c43ecabaea0f2e6279f"
+        }
+      ],
+      "places": 4,
+      "transitions": 2,
+      "net": "Performance__TokenTank__PGCD-500/model.net",
+      "property": "Performance__TokenTank__PGCD-500/property.xml",
+      "net_sha256": "a3b3819f1c765f1e23a3361fde5ca50b17648580a10b7e594d33dcd64acb7e59",
+      "property_sha256": "fcab5e870b5c0a928891a9cd8b6b8deab02a145c2c79a5b835753aa737dc732a"
+    },
+    {
+      "name": "Performance__TokenTank__PGCD-10000",
+      "suite": "Performance",
+      "instance": "TokenTank/PGCD-10000",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/PGCD-10000.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/PGCD-10000_.xml",
+      "pnml_sha256": "579d91beb87273e8cbd93dac4ecceeae119fc53b456de9bba04435e50db325f8",
+      "xml_sha256": "1d435ea83779e95ceba3c2f0faa3af27699fb6ccb7b1eb6804952f563046bd5b",
+      "property_id": "PGCD-10000-Inv",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__TokenTank__PGCD-10000/branch-0.json",
+          "sha256": "2f847f9158a7bd695fd4661fce2628c1c820233ffe67422919b097cdac0e9ea2"
+        }
+      ],
+      "places": 4,
+      "transitions": 2,
+      "net": "Performance__TokenTank__PGCD-10000/model.net",
+      "property": "Performance__TokenTank__PGCD-10000/property.xml",
+      "net_sha256": "2f76d8c3400a2e1764c5a93122f51a481a470a22125f622b3b934dbd4831afce",
+      "property_sha256": "00840962565416de312f214307896caa9ec2ab00c25987b1b2c81fa65a553d66"
+    },
+    {
+      "name": "Performance__TokenTank__CryptoMiner-50",
+      "suite": "Performance",
+      "instance": "TokenTank/CryptoMiner-50",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/CryptoMiner-50.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/CryptoMiner-50_.xml",
+      "pnml_sha256": "0b9d437d4293b450d7652b7ede240965c9f28484f6254b8f78396a09a88e208a",
+      "xml_sha256": "8c39de617d6c88c903cdfdad0924bb03a26bfc61813ef2c354375e78eb53ae63",
+      "property_id": "CryptoMiner-50-Inv",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__TokenTank__CryptoMiner-50/branch-0.json",
+          "sha256": "c0b3777aacd55649e7a8e151515b2807165047662f220a0f5ec63d5286cc7af0"
+        }
+      ],
+      "places": 6,
+      "transitions": 6,
+      "net": "Performance__TokenTank__CryptoMiner-50/model.net",
+      "property": "Performance__TokenTank__CryptoMiner-50/property.xml",
+      "net_sha256": "ad00a31d197c40abb4bb26bb6eb4adce561dd8a3adde379a403c9a50d6935526",
+      "property_sha256": "dad44eba42c77048b114df7d9738862392d02c278d51575394a9bb2bb3aece84"
+    },
+    {
+      "name": "Performance__TokenTank__CryptoMiner-500",
+      "suite": "Performance",
+      "instance": "TokenTank/CryptoMiner-500",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/CryptoMiner-500.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/CryptoMiner-500_.xml",
+      "pnml_sha256": "f14e530896aa7f5e4243aaa58f3bec18cb2dc76d952e0f74c8733611d8be5f7c",
+      "xml_sha256": "1fa6916ec9e3b798594f9f8ead890afed4abdb21b29576589ec70f45771bb081",
+      "property_id": "CryptoMiner-500-Inv",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__TokenTank__CryptoMiner-500/branch-0.json",
+          "sha256": "d9bd9b956defc480387b663c6ce39d79968543a8d960ce3283d53586da353c0e"
+        }
+      ],
+      "places": 6,
+      "transitions": 6,
+      "net": "Performance__TokenTank__CryptoMiner-500/model.net",
+      "property": "Performance__TokenTank__CryptoMiner-500/property.xml",
+      "net_sha256": "8012a413245a5bd634c0bc46d4a7c423c17291051b0cab0d1a4fa22366a5f8f4",
+      "property_sha256": "3ec9266055b289fd2b0cf8907db0905c73818512735c0fd8b34898f8957d5290"
+    },
+    {
+      "name": "Performance__TokenTank__CryptoMiner-10000",
+      "suite": "Performance",
+      "instance": "TokenTank/CryptoMiner-10000",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/CryptoMiner-10000.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Performance/nets/TokenTank/CryptoMiner-10000_.xml",
+      "pnml_sha256": "6ca3c86bdc76dd9589993f81971530ef9ac5a1056e4638522978222859b6de22",
+      "xml_sha256": "94a7e7d4a1dbff0e23553f98d12ca2e452eddfca7e4ceb86c6a5fb0e04fdfd3e",
+      "property_id": "CryptoMiner-10000-Inv",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Performance__TokenTank__CryptoMiner-10000/branch-0.json",
+          "sha256": "f56d8d576d7dd4a2abd95d997cf973e2e7ffad43c634f8d73fa2095dafc48967"
+        }
+      ],
+      "places": 6,
+      "transitions": 6,
+      "net": "Performance__TokenTank__CryptoMiner-10000/model.net",
+      "property": "Performance__TokenTank__CryptoMiner-10000/property.xml",
+      "net_sha256": "42177728460f17ac09296ecff1089b68b819c354d607d21d15669047d8a09c18",
+      "property_sha256": "66452b65950815d2a8dd6670f032b69e38dd6186d031e2940378056a982bbc61"
+    },
+    {
+      "name": "Expressiveness__Parity",
+      "suite": "Expressiveness",
+      "instance": "Parity",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/Parity/model.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/Parity/ReachabilityCardinality.xml",
+      "pnml_sha256": "a7ff341b262c6ce9d0327d9f2f6d53737d2e34c015a89614d3fcfaae5ad8fc84",
+      "xml_sha256": "eb60a407e5811cf3c58c041ee6e5fc06d5f260ec7b140257dfcb6da0be34da9a",
+      "property_id": "Parity-Inv",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Expressiveness__Parity/branch-0.json",
+          "sha256": "361b2fc0d9050edc2612b145853318aa88ce01935700de93272173b6cf8c2a5c"
+        }
+      ],
+      "places": 1,
+      "transitions": 2,
+      "net": "Expressiveness__Parity/model.net",
+      "property": "Expressiveness__Parity/property.xml",
+      "net_sha256": "ba42f92cadd76ca6c95b41754cf17e8aca56d1e2cf4dd0fc71f9046fcf09d3d6",
+      "property_sha256": "cc7d6347e049812ab935aabd2fee9d29fb901b2c24c1b40118659a89ef0fdee4"
+    },
+    {
+      "name": "Expressiveness__PGCD",
+      "suite": "Expressiveness",
+      "instance": "PGCD",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/PGCD/model.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/PGCD/ReachabilityCardinality.xml",
+      "pnml_sha256": "999eaf4f950097d92ee190ac5d4e3b3ef1a721781334c51229c4cc6e8834c772",
+      "xml_sha256": "262f5ffb20f1279907189290d96e97da98f642c44734b3bb6b83bb38c590ae2b",
+      "property_id": "PGCD-Inv",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Expressiveness__PGCD/branch-0.json",
+          "sha256": "7a3d587d45bd5c0d9e9485cb777bed4bd339c1ef908ddc3344aee144d65f0374"
+        }
+      ],
+      "places": 3,
+      "transitions": 2,
+      "net": "Expressiveness__PGCD/model.net",
+      "property": "Expressiveness__PGCD/property.xml",
+      "net_sha256": "3b6c9f82c3dc08bc5317cfce308feb6a791a3fbc3d60fe81bfc20389418b33f2",
+      "property_sha256": "0a3022b5165fedbdf8b772e9490ff411cc1dda899486ddf6b0f1c56b0001cc35"
+    },
+    {
+      "name": "Expressiveness__CryptoMiner",
+      "suite": "Expressiveness",
+      "instance": "CryptoMiner",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/CryptoMiner/model.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/CryptoMiner/ReachabilityCardinality.xml",
+      "pnml_sha256": "382484b83e017997153ffb34f817c9b917f4427a83190dfcba3ab99564500bc8",
+      "xml_sha256": "45436916945615d1ae2d0daa4689c80a90774c5224a34ad3b5c25223bddf6471",
+      "property_id": "CryptoMiner-Inv",
+      "kind": "EF",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Expressiveness__CryptoMiner/branch-0.json",
+          "sha256": "1323602aa4d5aa48bfdb3b12bef8fb6e5fba8393aba448ff691e8e6c86213afd"
+        }
+      ],
+      "places": 5,
+      "transitions": 6,
+      "net": "Expressiveness__CryptoMiner/model.net",
+      "property": "Expressiveness__CryptoMiner/property.xml",
+      "net_sha256": "621f7e6610a4190922bd1d22d100aaef83135655e7dfc6d617064f59e52426a6",
+      "property_sha256": "43fcb1a1b99898a6fff8eebf13b1318f9f486f37847ced6c9f481efcc2baa7a5"
+    },
+    {
+      "name": "Expressiveness__Process",
+      "suite": "Expressiveness",
+      "instance": "Process",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/Process/model.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/Process/ReachabilityCardinality.xml",
+      "pnml_sha256": "8de67790985a52e0e2f39857de96e6c24248b8fb5778f616949097040b627f12",
+      "xml_sha256": "963e79aac700a701c199b53e10365b8fccebabe656b6c8a3b49cd461651a1e5a",
+      "property_id": "Process-Inv",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Expressiveness__Process/branch-0.json",
+          "sha256": "4d8e664f67887d81292bad8f8b9eaf155397ad0486f7bcd81f9e47186dc5b8d3"
+        },
+        {
+          "path": "Expressiveness__Process/branch-1.json",
+          "sha256": "3264254d2d6a5958d049f705a6111971afc60707166273d0e1ceb557773bc716"
+        }
+      ],
+      "places": 8,
+      "transitions": 8,
+      "net": "Expressiveness__Process/model.net",
+      "property": "Expressiveness__Process/property.xml",
+      "net_sha256": "34be55cc9b3a63cb1ac21d853e6174b50919c55a5e7ff1437693b52851f81173",
+      "property_sha256": "b7b07fba07263f708d8a6ea860190fc5561b42395a31b6b37c4b826f4c35275f"
+    },
+    {
+      "name": "Expressiveness__Murphy",
+      "suite": "Expressiveness",
+      "instance": "Murphy",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/Murphy/model.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Expressiveness/nets/Murphy/ReachabilityCardinality.xml",
+      "pnml_sha256": "bc691beca6f617d5912143320385b700ef6c3568f78a5e1c79d03e74c17c43cc",
+      "xml_sha256": "9e3c3add05ab89f7b3927d256af5cb54697447cba9ad34d00705befb04d49e23",
+      "property_id": "Murphy-Inv",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Expressiveness__Murphy/branch-0.json",
+          "sha256": "41955944920efecb63d7f2b0c7df24cace47682738ac661cbf5478e8b61eae6f"
+        },
+        {
+          "path": "Expressiveness__Murphy/branch-1.json",
+          "sha256": "25a42fb66eebd13431355d30479a7a32a06d08efe1855561f88c443c631dc905"
+        }
+      ],
+      "places": 6,
+      "transitions": 6,
+      "net": "Expressiveness__Murphy/model.net",
+      "property": "Expressiveness__Murphy/property.xml",
+      "net_sha256": "333313a2278349344b7448bff6261d3f459816916d7684bd7491dc9f26443898",
+      "property_sha256": "c20380d2bce3072f923370e2fd0096469d6556e787f5477ace75c53db63e3e04"
+    },
+    {
+      "name": "Certificates__Parity",
+      "suite": "Certificates",
+      "instance": "Parity",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Certificates/nets/Parity/model.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Certificates/nets/Parity/ReachabilityCardinality.xml",
+      "pnml_sha256": "a7ff341b262c6ce9d0327d9f2f6d53737d2e34c015a89614d3fcfaae5ad8fc84",
+      "xml_sha256": "eb60a407e5811cf3c58c041ee6e5fc06d5f260ec7b140257dfcb6da0be34da9a",
+      "property_id": "Parity-Inv",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Certificates__Parity/branch-0.json",
+          "sha256": "361b2fc0d9050edc2612b145853318aa88ce01935700de93272173b6cf8c2a5c"
+        }
+      ],
+      "places": 1,
+      "transitions": 2,
+      "net": "Certificates__Parity/model.net",
+      "property": "Certificates__Parity/property.xml",
+      "net_sha256": "ba42f92cadd76ca6c95b41754cf17e8aca56d1e2cf4dd0fc71f9046fcf09d3d6",
+      "property_sha256": "cc7d6347e049812ab935aabd2fee9d29fb901b2c24c1b40118659a89ef0fdee4"
+    },
+    {
+      "name": "Certificates__PGCD",
+      "suite": "Certificates",
+      "instance": "PGCD",
+      "pnml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Certificates/nets/PGCD/model.pnml",
+      "xml": "/Users/julesjacobs/git/git/pvass/vendor/smpt-benchmarks/tacas2022/Artifact/Certificates/nets/PGCD/ReachabilityCardinality.xml",
+      "pnml_sha256": "999eaf4f950097d92ee190ac5d4e3b3ef1a721781334c51229c4cc6e8834c772",
+      "xml_sha256": "262f5ffb20f1279907189290d96e97da98f642c44734b3bb6b83bb38c590ae2b",
+      "property_id": "PGCD-Inv",
+      "kind": "AG",
+      "status": "imported",
+      "branches": [
+        {
+          "path": "Certificates__PGCD/branch-0.json",
+          "sha256": "7a3d587d45bd5c0d9e9485cb777bed4bd339c1ef908ddc3344aee144d65f0374"
+        }
+      ],
+      "places": 3,
+      "transitions": 2,
+      "net": "Certificates__PGCD/model.net",
+      "property": "Certificates__PGCD/property.xml",
+      "net_sha256": "3b6c9f82c3dc08bc5317cfce308feb6a791a3fbc3d60fe81bfc20389418b33f2",
+      "property_sha256": "0a3022b5165fedbdf8b772e9490ff411cc1dda899486ddf6b0f1c56b0001cc35"
+    }
+  ]
+}

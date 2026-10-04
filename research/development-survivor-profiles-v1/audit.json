@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "rows": 5,
+  "scope": "pins, process completion and paired phase records; no benchmark verdicts accepted",
+  "plan_sha256": "4d5150b29214650510d0da73a4b67bf766b9a97c64cd1f83c2a88395a8b08e70",
+  "rows_sha256": "6a985db0acb136c2699afb45d8ac374afa32208fd0922204580fad50d77cc8e1"
+}

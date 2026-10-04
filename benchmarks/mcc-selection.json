@@ -1,0 +1,173 @@
+{
+  "selection": "First published PT instance of twelve specified families; split by SHA256(pvass-v2:family), before solver development. All 16 cardinality properties per model. Evaluation families are not used for tuning. After baseline solved all development properties at smallest scale, added third published instance of each family, preserving family split; no evaluation results consulted.",
+  "models": [
+    {
+      "family": "Kanban",
+      "name": "Kanban-PT-00005",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Kanban-PT-00005.tgz",
+      "sha256": "90312c4ff8774d55360eab9d3846ceff631e9e4062272691bbe9679a7e3290df"
+    },
+    {
+      "family": "FMS",
+      "name": "FMS-PT-00002",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-00002.tgz",
+      "sha256": "d30f311235ded4346c9661eeea13c7a9dfd6e6256ac07d08b7059cd75cf08423"
+    },
+    {
+      "family": "Philosophers",
+      "name": "Philosophers-PT-000005",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Philosophers-PT-000005.tgz",
+      "sha256": "eabe37c125a9a246273ff4cda34c353f4c83dc691b1d2196c2ed1bb1be09ecb0"
+    },
+    {
+      "family": "Peterson",
+      "name": "Peterson-PT-2",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Peterson-PT-2.tgz",
+      "sha256": "1b69f8f9f8bad0b8c722ad39ed5fbd57994d84aee2f3290575b14837d4ab5a62"
+    },
+    {
+      "family": "LamportFastMutEx",
+      "name": "LamportFastMutEx-PT-2",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/LamportFastMutEx-PT-2.tgz",
+      "sha256": "06dfabe0e8139f1e444d05bcea5a64a9ef27be8bf3b554c1715b50c379da3e04"
+    },
+    {
+      "family": "DatabaseWithMutex",
+      "name": "DatabaseWithMutex-PT-02",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DatabaseWithMutex-PT-02.tgz",
+      "sha256": "d51b3e841058b07a92ad66414214ae8bc13ff0c7efb6b567188da5e08a2a91b8"
+    },
+    {
+      "family": "RwMutex",
+      "name": "RwMutex-PT-r0010w0010",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r0010w0010.tgz",
+      "sha256": "5c9f901616239ac72e1670aab0ff006f90bcb83b92c7945aad3bbd3a55821700"
+    },
+    {
+      "family": "SharedMemory",
+      "name": "SharedMemory-PT-000005",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/SharedMemory-PT-000005.tgz",
+      "sha256": "6963e4d4b5ec5d005f263fdd29d4eeab25a121dbaa89caccd918cef2dcaae28c"
+    },
+    {
+      "family": "SwimmingPool",
+      "name": "SwimmingPool-PT-01",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/SwimmingPool-PT-01.tgz",
+      "sha256": "40f930b2096b2ee60a35ef9bcaa7e0de4ecc40e67680a7bea5aad5148af2f9ea"
+    },
+    {
+      "family": "TCPcondis",
+      "name": "TCPcondis-PT-05",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TCPcondis-PT-05.tgz",
+      "sha256": "9b51af7fb4d4465761bbbc91de478ab76b8d64d3d97429363b408302d40dc129"
+    },
+    {
+      "family": "TokenRing",
+      "name": "TokenRing-PT-005",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TokenRing-PT-005.tgz",
+      "sha256": "cf72eb7fa49c7568b4e93d92a78f71d87b76e58125356bdc1fe83b67b75b623e"
+    },
+    {
+      "family": "DoubleExponent",
+      "name": "DoubleExponent-PT-001",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DoubleExponent-PT-001.tgz",
+      "sha256": "88b6352a32aae8572dc1f0d7585634fd26b8bb739decd13fae2e138c1bc740dc"
+    },
+    {
+      "family": "Kanban",
+      "name": "Kanban-PT-00020",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Kanban-PT-00020.tgz",
+      "sha256": "371bda56fd2cc375ac2fdf1a644d1d03a97ef2f7ababafd71c2c21ba9ef40780"
+    },
+    {
+      "family": "FMS",
+      "name": "FMS-PT-00010",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/FMS-PT-00010.tgz",
+      "sha256": "4cf9b3dcedbf2b2e8e37ab9a93a8f06dda505829a21921e4a04094389d9ad5ec"
+    },
+    {
+      "family": "Philosophers",
+      "name": "Philosophers-PT-000020",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Philosophers-PT-000020.tgz",
+      "sha256": "2968495ec090036dbaccf975cb0d41abc55864d11bace98dff13f33098424bfa"
+    },
+    {
+      "family": "Peterson",
+      "name": "Peterson-PT-4",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Peterson-PT-4.tgz",
+      "sha256": "8b680fb3ba5abea8293be13f56720bb356d93f0ae1f7670cf7c65616e4039efd"
+    },
+    {
+      "family": "LamportFastMutEx",
+      "name": "LamportFastMutEx-PT-4",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/LamportFastMutEx-PT-4.tgz",
+      "sha256": "7f9ab9a2fb2552229677a379637920295d07e1039a9a1c9adf70533277162f0c"
+    },
+    {
+      "family": "DatabaseWithMutex",
+      "name": "DatabaseWithMutex-PT-10",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DatabaseWithMutex-PT-10.tgz",
+      "sha256": "1c763acfb61bfb6bcefd5eaa1f1a565351899644fa40c5d56400f7e9556142b3"
+    },
+    {
+      "family": "RwMutex",
+      "name": "RwMutex-PT-r0010w0050",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RwMutex-PT-r0010w0050.tgz",
+      "sha256": "f8eef9d366b714d839c1add717e908527924867c91091146ce348fa68b719631"
+    },
+    {
+      "family": "SharedMemory",
+      "name": "SharedMemory-PT-000020",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/SharedMemory-PT-000020.tgz",
+      "sha256": "bed7c761243edddba8e3a6b8257b04f24df521a8091c9301e7beb42140216ecd"
+    },
+    {
+      "family": "SwimmingPool",
+      "name": "SwimmingPool-PT-03",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/SwimmingPool-PT-03.tgz",
+      "sha256": "c678478af7c537f932b3e1c9a2a87c08dd0c65aaf9894951b15ab5d793a9ddff"
+    },
+    {
+      "family": "TCPcondis",
+      "name": "TCPcondis-PT-15",
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TCPcondis-PT-15.tgz",
+      "sha256": "e748898cd92ebb5f314ad05d090f531c3f8f21fc92774e163fbcecb4259c296c"
+    },
+    {
+      "family": "TokenRing",
+      "name": "TokenRing-PT-015",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TokenRing-PT-015.tgz",
+      "sha256": "6c7e23e0711ce22885ea69b9957d38d74d6c488834066818778eef5464dfaa6c"
+    },
+    {
+      "family": "DoubleExponent",
+      "name": "DoubleExponent-PT-003",
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DoubleExponent-PT-003.tgz",
+      "sha256": "8f8dbe34e33ed46c4b85b8a4b0e70573f06fc3589939631f90f849a24c92ae9c"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "counter_d31_s16_racy",
+    "source": "counter_d31_s16_racy.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 31,
+      "stages": 16,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "two-increments-return-one",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "5b1cdb62f3d397f6e359d8902a503a67f9b3cefd6bbdaa82169a8a8d9919ded1"
+  },
+  {
+    "name": "replicas_n8_racy",
+    "source": "replicas_n8_racy.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 8,
+      "locked": false
+    },
+    "expected_serializable": false,
+    "argument": "read-torn-write",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "3aef9b3ca9b95363874569f7d48fdb30fe2945895a0047e935148d9f327126c0"
+  },
+  {
+    "name": "counter_d31_s16_locked",
+    "source": "counter_d31_s16_locked.ser",
+    "family": "cyclic-counter",
+    "parameters": {
+      "domain": 31,
+      "stages": 16,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "da95f5ee5e6d3b037ae7093c7de5fd94498f3c7e3d391833bda272ef83c6b900"
+  },
+  {
+    "name": "replicas_n8_locked",
+    "source": "replicas_n8_locked.ser",
+    "family": "replicated-register",
+    "parameters": {
+      "cells": 8,
+      "locked": true
+    },
+    "expected_serializable": true,
+    "argument": "lock-linearization",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "32671eac2ef2f284e6c1fe6c266c70dbd340d1dd0bd8056996f81d130a7f7ce3"
+  },
+  {
+    "name": "monitor_d4_c32",
+    "source": "monitor_d4_c32.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 4,
+      "cycles": 32
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "341554854c61646cf5eaee6a90ce22855455bde71c0720618c8671a438156912"
+  },
+  {
+    "name": "monitor_d5_c64",
+    "source": "monitor_d5_c64.ser",
+    "family": "phase-monitor",
+    "parameters": {
+      "domain": 5,
+      "cycles": 64
+    },
+    "expected_serializable": false,
+    "argument": "observe-completes-only-with-interleaved-advances",
+    "expectation_basis": "semantic argument; see research/harder-programs.md",
+    "sha256": "11f404faeff1b37462ee0beb93e39bfd00e317bc14e02ae674e7d62523d6c6ec"
+  }
+]

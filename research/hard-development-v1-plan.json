@@ -1,0 +1,37 @@
+{
+  "status": "prepared-not-started; Linux FastForward comparison must finish before deployment or execution",
+  "scope": "Longer-budget qualification of existing outcome-selected development challenges, not held-out evaluation or new independent inputs.",
+  "corpus": "benchmarks/hard-development-v1",
+  "manifest_sha256": "a239a470d4d1f70e549f225e1839f077443b15152d3c29978c65790ddf0d87ca",
+  "properties": 26,
+  "expected_rows": 104,
+  "seconds": 60,
+  "repeat": 1,
+  "linux_cpus": [
+    8
+  ],
+  "memory_mib": 2048,
+  "perf": true,
+  "max_states": 2000000,
+  "order_seed": 20261006,
+  "methods": {
+    "native-focused": "portfolio-focused",
+    "native-symbolic": "portfolio-symbolic",
+    "verifypn-default": "default",
+    "smpt-full-portable": "full portable"
+  },
+  "native_binary": "results/linux-solver-shared-relevance-schemas-v1/vass-reach",
+  "native_binary_sha256": "0f1a9fba6a4f3f4190b44a4866d998acffed0ea02999118cc889666017a81a14",
+  "candidate_scope": "Frozen shared relevance implementation; excludes subsequent component-game and capacity work.",
+  "input_scope": "Original PNML/XML, parsing and preprocessing included; no input changes or simplification at selection time.",
+  "validation": {
+    "separately_bounded": true,
+    "seconds": 60,
+    "memory_mib": 2048,
+    "native": "independent Python checking",
+    "competitors": "tool-reported; disagreements require investigation"
+  },
+  "reporting": "Report MCC and Boolean tracks separately, all26 denominators, errors and memory failures separately, all method configurations, repeated net/property identities and original full-corpus context. One repetition supports coverage qualification, not precise speedup claims.",
+  "followup": "Freeze every jointly unresolved case after the complete104-row audit for a300-second qualification. Do not promote setup failures as algorithmic hardness. Re-measure improved solvers on complete source corpora.",
+  "reserved": "All eight families in benchmarks/reserved-evaluation-v2.json remain excluded."
+}

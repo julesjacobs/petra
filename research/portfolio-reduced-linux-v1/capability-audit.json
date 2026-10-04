@@ -1,0 +1,8 @@
+{
+  "closure_receipt_sha256": "25d0f126f31112f80b2a19dbde2a3f3635eeb76a6a9a8c04b5b02c8c9c22a334",
+  "status": "passed",
+  "harness_rows": 24,
+  "component_rows": 5,
+  "plan_sha256": "14ba740088129f3cd0b6d8f2e28c6dfb835ca03a29a409f0b51bb32b26b97978",
+  "capability_sha256": "61e5bfed7a24bb12fdb1c2be0752dae3514c07550033bacfe30972b18e0e025a"
+}

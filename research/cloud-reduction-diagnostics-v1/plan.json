@@ -1,0 +1,18 @@
+{
+  "scope": "Bounded structural diagnostics, without original-net reachability claims.",
+  "pins": {
+    "target/release/examples/reduction_diagnostic": "6af74b4e2b0a381ebf5a3b7ef21d96d8a6a79cac28ae27bb586ccf235257f267",
+    "research/diagnose-cloud-reductions-v1.py": "d7c7d7839737c2a945499e9d5dfc85979cbe789bad3d7e00bb88b714d6efa8cf",
+    "examples/reduction_diagnostic.rs": "c97ec8a2621b9ea6b3b3107864eff727a562e325236ca4e71dc0a8887931c3a1",
+    "src/buffer_agglomeration.rs": "6986ca9bac4261eaab5f098bceac6e212411d510bf2bdf48aeb4f35b80cd6f9d",
+    "src/relevance.rs": "f87e8d90ffef85b5a2d60112c336bbd841fc788f371222232a37f957f3c62313",
+    "src/model.rs": "23593ab73c6f422dc5b799c56c779c9e5e9022b794dfa7755ff79023ddb4af86",
+    "scripts/process_runner.py": "ed733246c2bd08d734986c7dc29dd602bcff550ef9bd8dd4e22c110dc8069524"
+  },
+  "inputs": {
+    "benchmarks/general-development-v3/CloudReconfiguration-PT-311__RC06/branch-0.json": "b807734d0f01880645a3aebaa8b7fa591dd8af8c04945899eea7500aaab08968",
+    "benchmarks/general-development-v3/CloudReconfiguration-PT-311__RC06/branch-1.json": "b956af2aa1b69d5b61c1b0b615397eca7b29af1425d6b89cd626073b34b4990a"
+  },
+  "outer_seconds": 5.3,
+  "memory_bytes": 2147483648
+}

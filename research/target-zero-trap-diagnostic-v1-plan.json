@@ -1,0 +1,62 @@
+{
+  "status": "registered before launch",
+  "queries": [
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_40_0_7d80d074",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4",
+    "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+    "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+    "ff_random_walk_double_lock_p2_vs_satabs_2_multi_75_0_0282cae8",
+    "ff_random_walk_double_lock_p3_vs_satabs_3_multi_100_0_964d5f2c",
+    "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_25_0_109789c0",
+    "ff_random_walk_peterson_vs_satabs_2_multi_75_0_7b18af2a",
+    "ff_random_walk_peterson_vs_satabs_2_multi_90_0_63a50e3a",
+    "ff_random_walk_pthread5_vs_satabs_3_multi_60_0_25230f49",
+    "ff_random_walk_pthread5_vs_satabs_3_multi_90_0_a70a8618",
+    "ff_random_walk_pthread5_vs_satabs_4_multi_75_0_a5685f8e"
+  ],
+  "properties": 13,
+  "expected_rows": 26,
+  "source_sha256": {
+    "before": "9cea2e0ccc8380276899b23312517d2e84bf78a088012449b200e5aff1bc506f",
+    "after": "9cea2e0ccc8380276899b23312517d2e84bf78a088012449b200e5aff1bc506f"
+  },
+  "manifest_sha256": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+  "corpus": "benchmarks/candidate-challenges-v1",
+  "methods": {
+    "before": "portfolio-focused",
+    "after": "portfolio-focused"
+  },
+  "target_zero_trap_methods": [
+    "after"
+  ],
+  "seconds": 5,
+  "outer_seconds": 7,
+  "max_states": 2000000,
+  "memory_mib": 2048,
+  "repeat": 1,
+  "validation": {
+    "seconds": 60,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 200000000,
+    "separate_from_solver_timing": true
+  },
+  "order_seed": 20261102,
+  "output": "results/target-zero-trap-diagnostic-v1",
+  "binaries": {
+    "before": {
+      "path": "results/solver-target-zero-trap-v1/vass-reach",
+      "sha256": "3377ec6f05d11c13a4827e783a05fc414fdb55009d9a3354f41d47c6f5b5ec6f"
+    },
+    "after": {
+      "path": "results/solver-target-zero-trap-v1/vass-reach",
+      "sha256": "3377ec6f05d11c13a4827e783a05fc414fdb55009d9a3354f41d47c6f5b5ec6f"
+    }
+  },
+  "scope": "All12 changed outcomes in the complete strict104-query screen plus motivating double-lock100 query. Mechanism diagnostics, profiling and2souter grace; no timing substitution into strict screen.",
+  "selection_evidence": {
+    "results/target-zero-trap-screen-v1/runs.jsonl": "b1e62b464258830311c5869e50a89bc45d86af216e0012a5b81e1fa1003403e0"
+  },
+  "new_queries": 0
+}

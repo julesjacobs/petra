@@ -1,0 +1,11 @@
+/target/
+/vendor/*
+!/vendor/varisat/
+/benchmarks/
+/results/
+/research/
+/out/
+/.pvass-measurement.lock
+__pycache__/
+*.py[cod]
+.DS_Store

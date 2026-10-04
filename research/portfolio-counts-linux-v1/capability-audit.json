@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "harness_rows": 20,
+  "component_rows": 5,
+  "plan_sha256": "de15c42faa62b3dffd6a8a27a6d922b7691fe1fbc51edf54b19cdb903cb38f40",
+  "capability_sha256": "b1770ca146ae03bc55e50d02efbbc7091a64afda863ddcb1c1101599f12e9929"
+}

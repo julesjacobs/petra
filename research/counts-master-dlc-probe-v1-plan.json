@@ -1,0 +1,44 @@
+{
+  "scope": "Paired local development comparison; no Linux/external competition or held-out claim.",
+  "corpus": "benchmarks/hard-development-v2",
+  "manifest_sha256": "1e77f4283218c14cb5f9265c372f7226e7402cdf08c245b2008d20d5485968ba",
+  "properties": 1,
+  "expected_rows": 3,
+  "seconds": 20,
+  "repeat": 1,
+  "memory_mib": 2048,
+  "outer_grace": 0,
+  "order_seed": 20261016,
+  "filter": "^DLCflexbar-PT-7b__RC01$",
+  "methods": {
+    "lazy-before": "lazy-finite-token-cut",
+    "lazy-after": "lazy-finite-token-cut",
+    "focused": "portfolio-focused"
+  },
+  "binaries": {
+    "lazy-before": {
+      "path": "results/solver-lazy-finite-v1/vass-reach",
+      "sha256": "f2e449e90da0ebf5f189eeb32cca0eeb5b6ae805cfdc3542dc8725fe3ba1a9b2"
+    },
+    "lazy-after": {
+      "path": "results/solver-counts-master-v1/vass-reach",
+      "sha256": "f7b1eaed983ae488e920dc1380455456b47d4b32d424b8b29ad31144c796d2cf"
+    },
+    "focused": {
+      "path": "results/solver-counts-master-v1/vass-reach",
+      "sha256": "f7b1eaed983ae488e920dc1380455456b47d4b32d424b8b29ad31144c796d2cf"
+    }
+  },
+  "source_sha256": "13d6397293eeb5b4f69b9a34ad113de250691f6e7261c96bc95aa09f0528a830",
+  "validation": {
+    "seconds": 60,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 20000000,
+    "lazy_max_work": 20000000,
+    "separate_from_solver_timing": true
+  },
+  "intervention": "Counts-only numerical master with original objective and canonical proof lift; same lazy pricing, selection, scheduling, checker schema. Primal validation deadline checks hardened. Frozen old lazy and finite included; focused repeat diagnoses prior single-run variation.",
+  "reporting": "Retain full matrix and failures, independent checks, exact duplicate awareness, reduced dimensions and phase diagnostics. Hard69selectedfrom620parentqueries; reservedfamiliesuntouched. Report focusedRC15 repeat stability separately.",
+  "status": "registered before launch"
+}

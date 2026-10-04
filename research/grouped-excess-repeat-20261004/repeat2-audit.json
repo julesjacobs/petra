@@ -1,0 +1,2088 @@
+{
+  "status": "passed",
+  "plan_sha256": "b06c10b3a5554eea96eea26a5baabc7b934e6e09e392897dd0cd9fc006bc55bc",
+  "stage": "repeat2",
+  "rows": 736,
+  "issues": [],
+  "reports": {
+    "pooled": {
+      "views": {
+        "all_properties": {
+          "denominator": 368,
+          "methods": {
+            "candidate": {
+              "solved": 363,
+              "par2_mean_seconds": 0.5613297153638838,
+              "verdicts": {
+                "reachable": 230,
+                "unreachable": 133,
+                "unknown": 5
+              },
+              "failure_flags": {
+                "timeout": 4
+              },
+              "solver_wall_total_seconds": 180.22381046181545,
+              "validation_wall_total_seconds": 174.35137996892445
+            },
+            "baseline": {
+              "solved": 322,
+              "par2_mean_seconds": 1.505230263384874,
+              "verdicts": {
+                "reachable": 203,
+                "unreachable": 119,
+                "unknown": 46
+              },
+              "failure_flags": {
+                "timeout": 43,
+                "nonzero_exit": 29
+              },
+              "solver_wall_total_seconds": 318.56462654913776,
+              "validation_wall_total_seconds": 81.07887666090392
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC02"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC09"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC15"
+            },
+            {
+              "corpus": "expansion192",
+              "query": "ASLink-PT-05b__RC05"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 366,
+          "methods": {
+            "candidate": {
+              "solved": 361,
+              "par2_mean_seconds": 0.5642529224831855,
+              "verdicts": {
+                "reachable": 229,
+                "unreachable": 132,
+                "unknown": 5
+              },
+              "failure_flags": {
+                "timeout": 4
+              },
+              "solver_wall_total_seconds": 180.17104483675212,
+              "validation_wall_total_seconds": 174.18954392778687
+            },
+            "baseline": {
+              "solved": 321,
+              "par2_mean_seconds": 1.4857568812863189,
+              "verdicts": {
+                "reachable": 202,
+                "unreachable": 119,
+                "unknown": 45
+              },
+              "failure_flags": {
+                "timeout": 42,
+                "nonzero_exit": 29
+              },
+              "solver_wall_total_seconds": 313.3967703413218,
+              "validation_wall_total_seconds": 80.99897949374281
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC02"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC09"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC15"
+            },
+            {
+              "corpus": "expansion192",
+              "query": "ASLink-PT-05b__RC05"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC00"
+          ],
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC07"
+          ]
+        ],
+        [
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC01"
+          ],
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC14"
+          ]
+        ]
+      ]
+    },
+    "existing176": {
+      "views": {
+        "all_properties": {
+          "denominator": 176,
+          "methods": {
+            "candidate": {
+              "solved": 175,
+              "par2_mean_seconds": 0.4435847677496812,
+              "verdicts": {
+                "reachable": 115,
+                "unreachable": 60,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              },
+              "solver_wall_total_seconds": 73.10779862385243,
+              "validation_wall_total_seconds": 148.19017300731502
+            },
+            "baseline": {
+              "solved": 135,
+              "par2_mean_seconds": 2.5475498769572535,
+              "verdicts": {
+                "unknown": 41,
+                "reachable": 89,
+                "unreachable": 46
+              },
+              "failure_flags": {
+                "timeout": 40,
+                "nonzero_exit": 28
+              },
+              "solver_wall_total_seconds": 242.0102938010823,
+              "validation_wall_total_seconds": 56.31623053574003
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC02"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC09"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC15"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 175,
+          "methods": {
+            "candidate": {
+              "solved": 174,
+              "par2_mean_seconds": 0.4459726878508393,
+              "verdicts": {
+                "reachable": 115,
+                "unreachable": 59,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              },
+              "solver_wall_total_seconds": 73.08209987380542,
+              "validation_wall_total_seconds": 148.11290896637365
+            },
+            "baseline": {
+              "solved": 135,
+              "par2_mean_seconds": 2.5049644476827235,
+              "verdicts": {
+                "unknown": 40,
+                "reachable": 89,
+                "unreachable": 46
+              },
+              "failure_flags": {
+                "timeout": 39,
+                "nonzero_exit": 28
+              },
+              "solver_wall_total_seconds": 236.98015596810728,
+              "validation_wall_total_seconds": 56.31623053574003
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC02"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC09"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC15"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC00"
+          ],
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC07"
+          ]
+        ]
+      ]
+    },
+    "expansion192": {
+      "views": {
+        "all_properties": {
+          "denominator": 192,
+          "methods": {
+            "candidate": {
+              "solved": 188,
+              "par2_mean_seconds": 0.6692625840102361,
+              "verdicts": {
+                "unreachable": 73,
+                "reachable": 115,
+                "unknown": 4
+              },
+              "failure_flags": {
+                "timeout": 3
+              },
+              "solver_wall_total_seconds": 107.11601183796301,
+              "validation_wall_total_seconds": 26.161206961609423
+            },
+            "baseline": {
+              "solved": 187,
+              "par2_mean_seconds": 0.5497706176101929,
+              "verdicts": {
+                "unreachable": 73,
+                "reachable": 114,
+                "unknown": 5
+              },
+              "failure_flags": {
+                "timeout": 3,
+                "nonzero_exit": 1
+              },
+              "solver_wall_total_seconds": 76.55433274805546,
+              "validation_wall_total_seconds": 24.762646125163883
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "ASLink-PT-05b__RC05"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 191,
+          "methods": {
+            "candidate": {
+              "solved": 187,
+              "par2_mean_seconds": 0.6726248652091572,
+              "verdicts": {
+                "unreachable": 73,
+                "reachable": 114,
+                "unknown": 4
+              },
+              "failure_flags": {
+                "timeout": 3
+              },
+              "solver_wall_total_seconds": 107.0889449629467,
+              "validation_wall_total_seconds": 26.07663496141322
+            },
+            "baseline": {
+              "solved": 186,
+              "par2_mean_seconds": 0.5519279591953723,
+              "verdicts": {
+                "unreachable": 73,
+                "reachable": 113,
+                "unknown": 5
+              },
+              "failure_flags": {
+                "timeout": 3,
+                "nonzero_exit": 1
+              },
+              "solver_wall_total_seconds": 76.41661437321454,
+              "validation_wall_total_seconds": 24.682748958002776
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "ASLink-PT-05b__RC05"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC01"
+          ],
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC14"
+          ]
+        ]
+      ]
+    },
+    "family:ASLink": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 29,
+              "par2_mean_seconds": 1.9503375143467565,
+              "verdicts": {
+                "reachable": 16,
+                "unreachable": 13,
+                "unknown": 3
+              },
+              "failure_flags": {
+                "timeout": 2
+              },
+              "solver_wall_total_seconds": 45.98810562607832,
+              "validation_wall_total_seconds": 5.401505921501666
+            },
+            "baseline": {
+              "solved": 28,
+              "par2_mean_seconds": 2.1024902642675443,
+              "verdicts": {
+                "reachable": 15,
+                "unreachable": 13,
+                "unknown": 4
+              },
+              "failure_flags": {
+                "timeout": 2,
+                "nonzero_exit": 1
+              },
+              "solver_wall_total_seconds": 43.24838570645079,
+              "validation_wall_total_seconds": 5.2638452493119985
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "ASLink-PT-05b__RC05"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 29,
+              "par2_mean_seconds": 1.9503375143467565,
+              "verdicts": {
+                "reachable": 16,
+                "unreachable": 13,
+                "unknown": 3
+              },
+              "failure_flags": {
+                "timeout": 2
+              },
+              "solver_wall_total_seconds": 45.98810562607832,
+              "validation_wall_total_seconds": 5.401505921501666
+            },
+            "baseline": {
+              "solved": 28,
+              "par2_mean_seconds": 2.1024902642675443,
+              "verdicts": {
+                "reachable": 15,
+                "unreachable": 13,
+                "unknown": 4
+              },
+              "failure_flags": {
+                "timeout": 2,
+                "nonzero_exit": 1
+              },
+              "solver_wall_total_seconds": 43.24838570645079,
+              "validation_wall_total_seconds": 5.2638452493119985
+            }
+          },
+          "gains": [
+            {
+              "corpus": "expansion192",
+              "query": "ASLink-PT-05b__RC05"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:ClientsAndServers": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.43323695708386367,
+              "verdicts": {
+                "reachable": 23,
+                "unreachable": 9
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 13.863582626683637,
+              "validation_wall_total_seconds": 3.0384994202759117
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.16859514716634294,
+              "verdicts": {
+                "reachable": 23,
+                "unreachable": 9
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 5.395044709322974,
+              "validation_wall_total_seconds": 2.705189330736175
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.43323695708386367,
+              "verdicts": {
+                "reachable": 23,
+                "unreachable": 9
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 13.863582626683637,
+              "validation_wall_total_seconds": 3.0384994202759117
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.16859514716634294,
+              "verdicts": {
+                "reachable": 23,
+                "unreachable": 9
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 5.395044709322974,
+              "validation_wall_total_seconds": 2.705189330736175
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:CloudReconfiguration": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.2998608697525924,
+              "verdicts": {
+                "unreachable": 15,
+                "reachable": 17
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 9.595547832082957,
+              "validation_wall_total_seconds": 29.240949832368642
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.1537002449767897,
+              "verdicts": {
+                "unreachable": 15,
+                "reachable": 17
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 4.91840783925727,
+              "validation_wall_total_seconds": 29.940858833491802
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.2998608697525924,
+              "verdicts": {
+                "unreachable": 15,
+                "reachable": 17
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 9.595547832082957,
+              "validation_wall_total_seconds": 29.240949832368642
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.1537002449767897,
+              "verdicts": {
+                "unreachable": 15,
+                "reachable": 17
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 4.91840783925727,
+              "validation_wall_total_seconds": 29.940858833491802
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:DNAwalker": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.18394309374707518,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 20
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 5.886178999906406,
+              "validation_wall_total_seconds": 3.924121667863801
+            },
+            "baseline": {
+              "solved": 18,
+              "par2_mean_seconds": 4.544795748734032,
+              "verdicts": {
+                "reachable": 12,
+                "unknown": 14,
+                "unreachable": 6
+              },
+              "failure_flags": {
+                "timeout": 13,
+                "nonzero_exit": 2
+              },
+              "solver_wall_total_seconds": 73.35883658239618,
+              "validation_wall_total_seconds": 2.448235623538494
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 31,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 0.18904774999546428,
+              "verdicts": {
+                "reachable": 12,
+                "unreachable": 19
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 5.860480249859393,
+              "validation_wall_total_seconds": 3.8468576269224286
+            },
+            "baseline": {
+              "solved": 18,
+              "par2_mean_seconds": 4.368821418048033,
+              "verdicts": {
+                "reachable": 12,
+                "unknown": 13,
+                "unreachable": 6
+              },
+              "failure_flags": {
+                "timeout": 12,
+                "nonzero_exit": 2
+              },
+              "solver_wall_total_seconds": 68.32869874942116,
+              "validation_wall_total_seconds": 2.448235623538494
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-09ringLR__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "DNAwalker-PT-18lozangeBlock__RC15"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC00"
+          ],
+          [
+            "existing176",
+            "DNAwalker-PT-09ringLR__RC07"
+          ]
+        ]
+      ]
+    },
+    "family:HouseConstruction": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.329322235629661,
+              "verdicts": {
+                "reachable": 27,
+                "unreachable": 5
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 10.538311540149152,
+              "validation_wall_total_seconds": 3.4747805832885206
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.07193860289407894,
+              "verdicts": {
+                "reachable": 27,
+                "unreachable": 5
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 2.302035292610526,
+              "validation_wall_total_seconds": 2.7868084190413356
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.329322235629661,
+              "verdicts": {
+                "reachable": 27,
+                "unreachable": 5
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 10.538311540149152,
+              "validation_wall_total_seconds": 3.4747805832885206
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.07193860289407894,
+              "verdicts": {
+                "reachable": 27,
+                "unreachable": 5
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 2.302035292610526,
+              "validation_wall_total_seconds": 2.7868084190413356
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:IBM319": {
+      "views": {
+        "all_properties": {
+          "denominator": 16,
+          "methods": {
+            "candidate": {
+              "solved": 16,
+              "par2_mean_seconds": 0.38600439061701763,
+              "verdicts": {
+                "unreachable": 10,
+                "reachable": 6
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 6.176070249872282,
+              "validation_wall_total_seconds": 1.472262125229463
+            },
+            "baseline": {
+              "solved": 16,
+              "par2_mean_seconds": 0.15831712778890505,
+              "verdicts": {
+                "unreachable": 10,
+                "reachable": 6
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 2.533074044622481,
+              "validation_wall_total_seconds": 1.5346487499773502
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 16,
+          "methods": {
+            "candidate": {
+              "solved": 16,
+              "par2_mean_seconds": 0.38600439061701763,
+              "verdicts": {
+                "unreachable": 10,
+                "reachable": 6
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 6.176070249872282,
+              "validation_wall_total_seconds": 1.472262125229463
+            },
+            "baseline": {
+              "solved": 16,
+              "par2_mean_seconds": 0.15831712778890505,
+              "verdicts": {
+                "unreachable": 10,
+                "reachable": 6
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 2.533074044622481,
+              "validation_wall_total_seconds": 1.5346487499773502
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:MAPK": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.36382224877161207,
+              "verdicts": {
+                "reachable": 29,
+                "unreachable": 3
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 11.642311960691586,
+              "validation_wall_total_seconds": 3.398616665508598
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.17389666925009806,
+              "verdicts": {
+                "reachable": 29,
+                "unreachable": 3
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 5.564693416003138,
+              "validation_wall_total_seconds": 2.70525208231993
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 31,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 0.37468532534436355,
+              "verdicts": {
+                "reachable": 28,
+                "unreachable": 3
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 11.61524508567527,
+              "validation_wall_total_seconds": 3.3140446653123945
+            },
+            "baseline": {
+              "solved": 31,
+              "par2_mean_seconds": 0.175063711005233,
+              "verdicts": {
+                "reachable": 28,
+                "unreachable": 3
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 5.426975041162223,
+              "validation_wall_total_seconds": 2.625354915158823
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": [
+        [
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC01"
+          ],
+          [
+            "expansion192",
+            "MAPK-PT-00320__RC14"
+          ]
+        ]
+      ]
+    },
+    "family:NQueens": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.040781640585919376,
+              "verdicts": {
+                "unreachable": 20,
+                "reachable": 12
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 1.30501249874942,
+              "validation_wall_total_seconds": 3.06787495338358
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.04578280339046614,
+              "verdicts": {
+                "unreachable": 20,
+                "reachable": 12
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 1.4650497084949166,
+              "validation_wall_total_seconds": 3.05144012439996
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.040781640585919376,
+              "verdicts": {
+                "unreachable": 20,
+                "reachable": 12
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 1.30501249874942,
+              "validation_wall_total_seconds": 3.06787495338358
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.04578280339046614,
+              "verdicts": {
+                "unreachable": 20,
+                "reachable": 12
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 1.4650497084949166,
+              "validation_wall_total_seconds": 3.05144012439996
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:RERS17pb114": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 1.01901792044373,
+              "verdicts": {
+                "reachable": 31,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              },
+              "solver_wall_total_seconds": 27.645452954107895,
+              "validation_wall_total_seconds": 108.11170204146765
+            },
+            "baseline": {
+              "solved": 5,
+              "par2_mean_seconds": 8.618828451835725,
+              "verdicts": {
+                "unknown": 27,
+                "reachable": 5
+              },
+              "failure_flags": {
+                "timeout": 27,
+                "nonzero_exit": 26
+              },
+              "solver_wall_total_seconds": 141.51865329244174,
+              "validation_wall_total_seconds": 16.77440374903381
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC02"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC09"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC15"
+            }
+          ],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 1.01901792044373,
+              "verdicts": {
+                "reachable": 31,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              },
+              "solver_wall_total_seconds": 27.645452954107895,
+              "validation_wall_total_seconds": 108.11170204146765
+            },
+            "baseline": {
+              "solved": 5,
+              "par2_mean_seconds": 8.618828451835725,
+              "verdicts": {
+                "unknown": 27,
+                "reachable": 5
+              },
+              "failure_flags": {
+                "timeout": 27,
+                "nonzero_exit": 26
+              },
+              "solver_wall_total_seconds": 141.51865329244174,
+              "validation_wall_total_seconds": 16.77440374903381
+            }
+          },
+          "gains": [
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC01"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC04"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC10"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-5__RC15"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC00"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC02"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC03"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC05"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC06"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC07"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC08"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC09"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC11"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC12"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC13"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC14"
+            },
+            {
+              "corpus": "existing176",
+              "query": "RERS17pb114-PT-9__RC15"
+            }
+          ],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:Railroad": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 0.8980749076436041,
+              "verdicts": {
+                "reachable": 8,
+                "unreachable": 23,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              },
+              "solver_wall_total_seconds": 23.778687585610896,
+              "validation_wall_total_seconds": 7.779929417651147
+            },
+            "baseline": {
+              "solved": 31,
+              "par2_mean_seconds": 0.7359202186926268,
+              "verdicts": {
+                "reachable": 8,
+                "unreachable": 23,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              },
+              "solver_wall_total_seconds": 18.579123915173113,
+              "validation_wall_total_seconds": 8.250110919354483
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 31,
+              "par2_mean_seconds": 0.8980749076436041,
+              "verdicts": {
+                "reachable": 8,
+                "unreachable": 23,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              },
+              "solver_wall_total_seconds": 23.778687585610896,
+              "validation_wall_total_seconds": 7.779929417651147
+            },
+            "baseline": {
+              "solved": 31,
+              "par2_mean_seconds": 0.7359202186926268,
+              "verdicts": {
+                "reachable": 8,
+                "unreachable": 23,
+                "unknown": 1
+              },
+              "failure_flags": {
+                "timeout": 1
+              },
+              "solver_wall_total_seconds": 18.579123915173113,
+              "validation_wall_total_seconds": 8.250110919354483
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:RefineWMG": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.08469304832397029,
+              "verdicts": {
+                "reachable": 32
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 2.710177546367049,
+              "validation_wall_total_seconds": 2.6620770851150155
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.09700310290645575,
+              "verdicts": {
+                "reachable": 32
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 3.104099293006584,
+              "validation_wall_total_seconds": 2.81072183069773
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.08469304832397029,
+              "verdicts": {
+                "reachable": 32
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 2.710177546367049,
+              "validation_wall_total_seconds": 2.6620770851150155
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.09700310290645575,
+              "verdicts": {
+                "reachable": 32
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 3.104099293006584,
+              "validation_wall_total_seconds": 2.81072183069773
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    },
+    "family:TriangularGrid": {
+      "views": {
+        "all_properties": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.6591990950473701,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 21.094371041515842,
+              "validation_wall_total_seconds": 2.7790602552704513
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.5180382109174388,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 16.577222749358043,
+              "validation_wall_total_seconds": 2.8073617490008473
+            }
+          },
+          "gains": [],
+          "losses": []
+        },
+        "representatives": {
+          "denominator": 32,
+          "methods": {
+            "candidate": {
+              "solved": 32,
+              "par2_mean_seconds": 0.6591990950473701,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 21.094371041515842,
+              "validation_wall_total_seconds": 2.7790602552704513
+            },
+            "baseline": {
+              "solved": 32,
+              "par2_mean_seconds": 0.5180382109174388,
+              "verdicts": {
+                "reachable": 17,
+                "unreachable": 15
+              },
+              "failure_flags": {},
+              "solver_wall_total_seconds": 16.577222749358043,
+              "validation_wall_total_seconds": 2.8073617490008473
+            }
+          },
+          "gains": [],
+          "losses": []
+        }
+      },
+      "duplicate_groups": []
+    }
+  },
+  "accepted_definitive_rows": 685,
+  "terminal_sha256": "69ba9dfb95604380740c85428a48db719315c4be2e06688ece39d288c00dd4dc",
+  "scope": "Two local development repeats of optimized candidate versus frozen baseline. Coverage repeatability, not precise confidence intervals or held-out generalization. Original grouped-only screen uses a distinct binary and is not pooled. Validator costs reported separately and summed for actual end-to-end cost; no performance counters."
+}

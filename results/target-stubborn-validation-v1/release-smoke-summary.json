@@ -1,0 +1,40 @@
+{
+  "unknown": {
+    "verdict": "unknown",
+    "events": 2,
+    "fallback_stats": {
+      "chosen": 2,
+      "enabled_considered": 2,
+      "expanded": 3,
+      "focused": false,
+      "full_all_enabled": 3,
+      "full_closure_limit": 0,
+      "full_periodic": 0,
+      "full_seen": 0,
+      "full_visible": 0,
+      "generated": 2,
+      "reductions": 0,
+      "stubborn": true,
+      "target_directed": true
+    }
+  },
+  "reachable": {
+    "verdict": "reachable",
+    "events": 2,
+    "fallback_stats": {
+      "chosen": 4,
+      "enabled_considered": 4,
+      "expanded": 4,
+      "focused": false,
+      "full_all_enabled": 4,
+      "full_closure_limit": 0,
+      "full_periodic": 0,
+      "full_seen": 0,
+      "full_visible": 0,
+      "generated": 4,
+      "reductions": 0,
+      "stubborn": true,
+      "target_directed": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<property-set><property>
+    <id>GPUForwardProgress-PT-12a-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <negation>
+            <integer-le>
+              <integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p33</place>
+              </tokens-count>
+            </integer-le>
+          </negation>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

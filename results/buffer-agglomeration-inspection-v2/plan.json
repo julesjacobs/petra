@@ -1,0 +1,14 @@
+{
+  "scope": "Local single-branch structural diagnostic only, not solver coverage or competitor timing.",
+  "query": "benchmarks/application-expansion-v1/NoC3x3-PT-8B__RC12/branch-0.json",
+  "query_sha256": "8a8443b2ccd6fd56669e4d547e87bcb081e49d8dc0103cacd22f23133d0c4739",
+  "binary_sha256": "a366d7826ad2882ef4549105f168308da330ad9c6562a18c64be0749350b1eec",
+  "preparation_seconds": [
+    0.1,
+    1.0
+  ],
+  "outer_seconds": 5,
+  "memory_mib": 2048,
+  "work": 20000000,
+  "independent_reconstruction_seconds": 60
+}

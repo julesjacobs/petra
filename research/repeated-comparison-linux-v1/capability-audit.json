@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "suite_sha256": "8ab24b5b7d3c7fdde01832cbcacd39908764da6ef7df55d10961a4cb9ac94d36",
+  "qualification_sha256": "a5359c75394f7aa134a27c928a00b5cb8c194257f3d3ddda3904995b186f75e2",
+  "fresh_harness_rows": 32,
+  "fresh_component_rows": 10,
+  "derived_blocks": 4,
+  "collector_archive_sha256": "8a1fb8a45993e62ec13c9d400c3b7be7d7f20751cc84babffe950be2ad125d39",
+  "audit_script_sha256": "233d7e36f85fabd34b7a26fe5783f99f48a11f11c386789d088d8f57fe1ecad9"
+}

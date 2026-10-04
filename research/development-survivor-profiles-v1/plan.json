@@ -1,0 +1,21 @@
+{
+  "scope": "Stage diagnostics for all survivor branches; excluded from benchmark results.",
+  "binary_sha256": "5d38055e04762f0235fbbecb3ab2f0537d71845f788d23d2df85732f1c52252c",
+  "input_sha256": {
+    "benchmarks/mcc2021/DoubleExponent-PT-003__RC02/branch-0.json": "9f2aba53048bfc9c9da2cce1f25fbd28e3438fdfedc5b544099c53c4a1ae15a3",
+    "benchmarks/mcc2021/DoubleExponent-PT-003__RC02/branch-1.json": "54cd0ff3081c728f977fcc9a0327c9ef22061815c18d9de97bc9cc048d4e285c",
+    "benchmarks/mcc2021/DoubleExponent-PT-003__RC07/branch-0.json": "4a820e77ce6a49747ef596b313328e189dae76914d44fe1c111c50dfda3ff464",
+    "benchmarks/mcc2021/DoubleExponent-PT-003__RC07/branch-1.json": "1969daf2e0481183707b4cd7c0a2f0059d4ad14e4c63cf297ee6c56a9012dfe4",
+    "benchmarks/mcc2021/TokenRing-PT-015__RC12/branch-0.json": "f9e1f1e6a5d01e6c25e397dc7d3c91f544aec74e9bc3cf8aee89ba3f58c912fb"
+  },
+  "selection_sha256": "cc61e0ecf13d679bbcf6acdbe4d7dd9b123ac47fe24c57cee1ac9f52f0129c29",
+  "script_sha256": "796a8cf6a6935555ef7fb87003dd385a78751151641c255cbb61d0af01780383",
+  "method": "portfolio-reduced",
+  "internal_seconds": 5,
+  "external_seconds": 7,
+  "max_states": 2000000,
+  "sampled_memory_bytes": 2147483648,
+  "environment": {
+    "VASS_PORTFOLIO_PROFILE": "1"
+  }
+}

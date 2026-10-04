@@ -1,0 +1,13 @@
+{
+  "files": {
+    "vass-reach": "4abae89f2187ff710a3759accd20acf3f7618582a202ccbc5b4402608554e7b1",
+    "baseline-vass-reach": "91ece0b4b7ae9d670ec9e966293dd67319d75971e850e07aa0171c27c7dae08c",
+    "source.tar.gz": "9f48d7b371d4572c12f023430e687733192d712f7675e7867ea959c31ef5a7cf"
+  },
+  "final_results": [
+    "results/mcc-evaluation-v2",
+    "results/classic-v2-final",
+    "results/ser-v2-final",
+    "results/mcc-development-frozen"
+  ]
+}

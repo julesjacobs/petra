@@ -1,0 +1,19 @@
+<property-set><property>
+    <id>CANConstruction-PT-020-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <integer-le>
+            <tokens-count>
+              <place>Node2GiveAnswer9</place>
+            </tokens-count>
+            <tokens-count>
+              <place>Node11requestsent19</place>
+            </tokens-count>
+          </integer-le>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

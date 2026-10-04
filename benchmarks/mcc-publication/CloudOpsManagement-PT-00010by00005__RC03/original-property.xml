@@ -1,0 +1,29 @@
+<property-set><property>
+    <id>CloudOpsManagement-PT-00010by00005-ReachabilityCardinality-03</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <disjunction>
+            <integer-le>
+              <integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>Wsr2NotDeployed</place>
+              </tokens-count>
+            </integer-le>
+            <negation>
+              <integer-le>
+                <tokens-count>
+                  <place>Wsr2Started</place>
+                </tokens-count>
+                <tokens-count>
+                  <place>Wsr3Deployed</place>
+                </tokens-count>
+              </integer-le>
+            </negation>
+          </disjunction>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

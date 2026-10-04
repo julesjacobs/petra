@@ -1,0 +1,1 @@
+This incomplete run is excluded from performance comparisons. Eight orphaned WALK processes from earlier SMPT-upstream diagnostics consumed CPU throughout the measurement. The runner was terminated and the confirmed workspace-owned leftovers were removed. See research/orphan-walk-cleanup.json. Rerun only after a workload preflight.

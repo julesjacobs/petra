@@ -1,0 +1,40 @@
+{
+  "status": "registered-not-started; supersedes unexecuted v1 plan",
+  "scope": "Longer-budget qualification of existing outcome-selected development challenges, not held-out evaluation or new independent inputs.",
+  "corpus": "benchmarks/hard-development-v2",
+  "manifest_sha256": "1e77f4283218c14cb5f9265c372f7226e7402cdf08c245b2008d20d5485968ba",
+  "properties": 69,
+  "expected_rows": 276,
+  "seconds": 60,
+  "repeat": 1,
+  "linux_cpus": [
+    8
+  ],
+  "memory_mib": 2048,
+  "perf": true,
+  "max_states": 2000000,
+  "order_seed": 20261006,
+  "methods": {
+    "native-focused": "portfolio-focused",
+    "native-symbolic": "portfolio-symbolic",
+    "verifypn-default": "default",
+    "smpt-full-portable": "full portable"
+  },
+  "native_binary": "results/linux-solver-capacity-direct-v1/vass-reach",
+  "native_binary_sha256": "e3e7f057d8885b82238a0c86a50ef56fc5492946aa85eaabc805387b609dc37a",
+  "candidate_scope": "Frozen capacity-direct implementation, including component-game and checked capacity preprocessing; excludes in-progress sparse token-flow optimization.",
+  "input_scope": "Original PNML/XML, parsing and preprocessing included; no input changes or simplification at selection time.",
+  "validation": {
+    "separately_bounded": true,
+    "seconds": 60,
+    "memory_mib": 2048,
+    "native": "independent Python checking",
+    "competitors": "tool-reported; disagreements require investigation"
+  },
+  "reporting": "Report MCC, Boolean and FastForward tracks separately with all69 queries and620 parent queries retained in provenance. Classify setup errors, timeouts and memory limits separately. One repetition qualifies coverage only; no precise speedup claims.",
+  "followup": "Audit complete276-row matrix, independently validate native answers and replay FastForward positive witnesses on original LoLA. Freeze all jointly unresolved cases for a300-second qualification, excluding no case silently.",
+  "reserved": "All eight families in benchmarks/reserved-evaluation-v2.json remain excluded.",
+  "source_properties": 620,
+  "native_source_sha256": "4628a19715b022773b638081c7489e534b888a59bf8665a74eaff7e767196317",
+  "supersedes": "research/hard-development-v1-plan.json (26 cases; never executed)"
+}

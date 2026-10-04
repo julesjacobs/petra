@@ -1,0 +1,65 @@
+{
+  "scope": "Local matched scheduling pilot: same frozen solver/inputs/checker, legacy portfolio versus opt-in positive warmup and three-quarter negative phase.60s/2GiB; max_states100M yields10Bnegative-work/checker limit, with positive search state limits per stage. Whole-query wall/memory limits apply across stages. No novelty, competitive timing or global10Baggregate-work claim. No Linux operations.",
+  "cases": [
+    "write_skew_n3_racy",
+    "write_skew_n3_pairlocked",
+    "write_skew_n5_racy",
+    "write_skew_n5_pairlocked"
+  ],
+  "rows": 8,
+  "runs": [
+    {
+      "output": "results/raw-balanced-pilot-v1-matched",
+      "command": [
+        "vendor/venv/bin/python",
+        "scripts/benchmark_stress_raw.py",
+        "--corpus",
+        "benchmarks/raw-diverse-automaton-v1",
+        "--output",
+        "results/raw-balanced-pilot-v1-matched",
+        "--binary",
+        "/Users/julesjacobs/git/git/pvass/results/solver-raw-balanced-v1/vass-reach",
+        "--methods",
+        "raw-portfolio",
+        "raw-portfolio-balanced",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "2048",
+        "--repeat",
+        "1",
+        "--max-states",
+        "100000000",
+        "--case",
+        "write_skew_n3_racy",
+        "--case",
+        "write_skew_n3_pairlocked",
+        "--case",
+        "write_skew_n5_racy",
+        "--case",
+        "write_skew_n5_pairlocked"
+      ],
+      "max_states": 100000000
+    }
+  ],
+  "binary_sha256": "a642f91c60868b1530053a47b0c847a6eeaa8c754ca0389062e2eb5f9232c664",
+  "source_archive_sha256": "0b1dab138f2ea19cdd6b576872355a09cf5f661574f2a279f51dd8b5534da142",
+  "file_sha256": {
+    "scripts/benchmark_stress_raw.py": "cc5cb786aad59a7aba640947dd7af50c3cc0395fcf57229fae3ea48e99620a22",
+    "scripts/raw_stress_worker.py": "feda1b5dfa74defd18beff5983e447d9d4d6f98b3b6467e7ba745fbce018312e",
+    "scripts/raw_invariant_check.py": "b4cec15ad4f72626082e4dea8423246a349efd0d5412c5a385eeb0a61136c1e5",
+    "scripts/raw_schema_check.py": "03b3c69baac745b73333aeb1d22ae1634182716b88db25931b73bf7b84fef8a5",
+    "scripts/raw_automaton_check.py": "5c623527114235bb85cec70cc14102f269d24fb5261783dfc1c6c7f037ce24b9",
+    "scripts/raw_z3.py": "ba16c188953868e5864b7820ca3ea3b365bf17ca2f56192b939383b12e9c5b4a",
+    "scripts/process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "scripts/analyze_raw_phase_diagnostics.py": "ed731333acacdc0175a30659507a98106cfcab71b5c6bbaedc265a231255056a",
+    "research/run-raw-balanced-pilot-v1.py": "ba597a5793ae8d2a232c1f787c1c235d63dfbe6415847562aa00d4664705b8ca",
+    "results/solver-raw-balanced-v1/provenance.json": "8902713df4d20f562385ca58b6ca27444e01cc3ddae766a40508657dd994963e",
+    "benchmarks/raw-diverse-automaton-v1/collection.json": "69380c4bbd222ab28412872380529c10e691d51263514dca5e6d3a942af212ed",
+    "benchmarks/raw-diverse-automaton-v1/source-manifest.json": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea"
+  },
+  "environment": {
+    "VASS_RAW_PHASE_DIAGNOSTICS": "1"
+  },
+  "limits": "60s input/check-inclusive; 80% remaining to solver; sampled2GiB tree RSS; one invocation at a time."
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "All 368 imported original MCC properties; stress development, not held-out evaluation",
+  "selection_sha256": "7b98693f3f153a608b3df6ff229f5418352031657ddfe1a090169602fb586306",
+  "manifest_sha256": "2f23cc2dcfb72d8cf03979830ad4cd0710751507208a8c000e5ba3a5b7b1a994",
+  "methods": [
+    "frozen-v2",
+    "portfolio-local",
+    "verifypn-default"
+  ],
+  "seconds": 5,
+  "repeat": 1,
+  "order_seed": 20260927,
+  "memory_mib": 2048,
+  "linux_cpu": 8,
+  "perf": true,
+  "native_frontend": "Frozen Python original-input frontend; full outer deadline",
+  "validation": "Separate bounded independent translation/proof checking, 30s and 2GiB",
+  "output": "results/linux-stress-v1-pilot",
+  "source_harness": "Use already tested harness copied to Linux before linux-local-v1-development; do not use pending Rust-original integration",
+  "created_unix": 1790526224.8011541
+}

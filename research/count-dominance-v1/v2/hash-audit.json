@@ -1,0 +1,18 @@
+[
+  {
+    "path": "research/count-dominance-v1",
+    "status": "passed",
+    "events": 368,
+    "source_hashes": 4,
+    "plan_sha256": "1d59d8a5a8d270d2f8036ab5397cfa2a98c8d0e4933d676e021cab944167a02f",
+    "events_sha256": "85c0ef8e92661ea3207d97df1df47b7f53b388c55d102bd26a784af45ca6323d"
+  },
+  {
+    "path": "research/count-dominance-v1/v2",
+    "status": "passed",
+    "events": 368,
+    "source_hashes": 4,
+    "plan_sha256": "87182ed9761343ed1bb8a26a93bee8067012b12664dfbd022ee381b7a79483fb",
+    "events_sha256": "d26b7057206b10d72393944b46fccd313053340e0d8d7f83f9059dd04d04b9bf"
+  }
+]

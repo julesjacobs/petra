@@ -1,0 +1,18 @@
+{
+  "purpose": "Full generated development ladder hardness pilot; no outcome-based exclusions",
+  "corpus": "benchmarks/boolean-consistency-v1",
+  "manifest_sha256": "ab43fc86263687f0bbf6b8d1ceb429ea453cacfbf020b45e6b9955556514f855",
+  "properties": 34,
+  "methods": {
+    "frozen-rust": "linux-solver-raw-negative-structural-v1 / portfolio-local",
+    "verifypn-default": "unrestricted default"
+  },
+  "seconds": 5,
+  "repeat": 1,
+  "cpu": 8,
+  "memory_mib": 2048,
+  "perf": true,
+  "order_seed": 20260927,
+  "input_scope": "Original PNML/XML included in deadline; independent native validation separately bounded",
+  "claims": "Synthetic development diagnostic; not representative superiority or held-out evaluation. Do not call it hard until measured."
+}

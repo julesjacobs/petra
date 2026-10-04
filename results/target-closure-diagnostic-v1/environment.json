@@ -1,0 +1,115 @@
+{
+  "plan": {
+    "status": "registered before launch",
+    "queries": [
+      "AutoFlight-PT-48b__RC01",
+      "AutoFlight-PT-48b__RC02",
+      "AutoFlight-PT-48b__RC03",
+      "AutoFlight-PT-48b__RC12",
+      "AutoFlight-PT-48b__RC15",
+      "AutoFlight-PT-96b__RC05",
+      "AutoFlight-PT-96b__RC09",
+      "CANConstruction-PT-090__RC06",
+      "DLCflexbar-PT-7b__RC00",
+      "DLCflexbar-PT-7b__RC05",
+      "DLCflexbar-PT-7b__RC07",
+      "DLCflexbar-PT-7b__RC14",
+      "DLCflexbar-PT-8b__RC00",
+      "DLCflexbar-PT-8b__RC03",
+      "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04",
+      "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4",
+      "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+      "ff_random_walk_dekker_vs_satabs_2_multi_30_0_60ea6be9",
+      "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_60_0_7e4914f0"
+    ],
+    "properties": 19,
+    "expected_rows": 38,
+    "original_selection": "research/stubborn-diagnostic-selection-v1.json",
+    "additional_selection": "All previous18 target diagnostics plus every new closure-screen gain/loss",
+    "additional_queries": [
+      "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04"
+    ],
+    "source_sha256": {
+      "before": "d5540f461f96891d3560760ea71869431501067dc30cce6847eb0029d8f6d17b",
+      "after": "c3a95b30b6a1222b5eb54de1daabf12115bcc7e5c5df034ca0c95ce8a7e05d7a"
+    },
+    "manifest_sha256": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+    "corpus": "benchmarks/candidate-challenges-v1",
+    "methods": {
+      "before": "portfolio-target-stubborn",
+      "after": "portfolio-target-stubborn"
+    },
+    "seconds": 5,
+    "outer_seconds": 7,
+    "max_states": 2000000,
+    "memory_mib": 2048,
+    "repeat": 1,
+    "validation": {
+      "seconds": 30,
+      "memory_mib": 2048,
+      "response_mib": 64,
+      "dag_max_work": 20000000,
+      "separate_from_solver_timing": true
+    },
+    "order_seed": 20261030,
+    "output": "results/target-closure-diagnostic-v1",
+    "profiling": "Both profile flags enabled, stderr captured separately. Two seconds of diagnostic outer grace permits deadline-return counters. Timings are diagnostic and never substituted into the strict five-second screen.",
+    "scope": "Outcome-selected mechanism diagnostics only; all scheduled cases and incomplete profiles retained.",
+    "selection_evidence": {
+      "research/target-stubborn-diagnostic-v1-plan.json": "80deba905fbf17b8ca53fb1aa0e728b09b57f76c6a3c1513a10ab9520aa712a8",
+      "research/target-closure-screen-v1-analysis.json": "9127ee1e80b2c3373986d0a7975832459439fc2f133ad57ad230692b40fc99c9"
+    },
+    "binaries": {
+      "before": {
+        "path": "results/solver-target-stubborn-v1/vass-reach",
+        "sha256": "370a39e384f8bae9ead849515c9d844b47bb63b784fd5ba19f334c665f6958e0"
+      },
+      "after": {
+        "path": "results/solver-target-closure-v1/vass-reach",
+        "sha256": "4b50d8f123fa7b27ae2521fd76db54820db99400e99579513a60958da10acc08"
+      }
+    }
+  },
+  "query_order": [
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04",
+    "AutoFlight-PT-96b__RC05",
+    "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_60_0_7e4914f0",
+    "AutoFlight-PT-48b__RC12",
+    "AutoFlight-PT-96b__RC09",
+    "AutoFlight-PT-48b__RC03",
+    "AutoFlight-PT-48b__RC02",
+    "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+    "AutoFlight-PT-48b__RC15",
+    "DLCflexbar-PT-7b__RC05",
+    "DLCflexbar-PT-7b__RC00",
+    "DLCflexbar-PT-8b__RC00",
+    "DLCflexbar-PT-7b__RC14",
+    "AutoFlight-PT-48b__RC01",
+    "DLCflexbar-PT-8b__RC03",
+    "DLCflexbar-PT-7b__RC07",
+    "CANConstruction-PT-090__RC06",
+    "ff_random_walk_dekker_vs_satabs_2_multi_30_0_60ea6be9"
+  ],
+  "runner_sha256": {
+    "benchmark_smpt_classic.py": "309cd34dd67e5adfb1fff52d2900a8af9020028acf7754702df4784e5a6b852a",
+    "native_original.py": "5d6275a96865a56c7a740768e0db862b254d5f91f3e4d1206c0713efd528c1c8",
+    "smpt_import.py": "ce7e9db6a5b6e4deb5453271433ad3337fd36229bf4b7e325cdf217a8ac96c90",
+    "benchmark.py": "58f7d580c4687c38decef8fb62b8f7d350c601ba78e1e2f1200c2efcbc4b1f86",
+    "token_moment_checker.py": "a42b8367bae56f40da01d723efd504bedbb06cb3905ced5672038ac503c6e027",
+    "token_cut_checker.py": "d6667df9c6e6900b27886de8169835736345779389d85d244eb6b6241bd68d1c",
+    "bounded_token_cut_checker.py": "a333f3429a4bda272715ac84f8529191b4bf406e871a6dbfbe27df0a82a48e60",
+    "finite_token_cut_checker.py": "92ea2c1915a9970347f96171fa20180c3a877f4f8c95ce189bb6a017e7993859",
+    "lazy_token_cut_checker.py": "ba43a0d1c1cab49550e807e89a8df7c7ea0c950cb41cc8a01f12df1f0b0b046b",
+    "local_closure_checker.py": "6e53c37d43a6dcb76b543ec81cf826770ed5c97a0d6027eecca7a5ac984694b1",
+    "dag_checker.py": "b72e8a9c1dd0ce97fe704df748f15580e5794f32548a98de9735f561fc70cdf9",
+    "relevance_checker.py": "0c2d6f867b0809a0f17187d6fb7bba5981ad2f88e560fd875549ca085377603b",
+    "process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "requirements.txt": "01b99c930705a074d54f6c45dc2de953aadc78d47906fa13d538946d062903af",
+    "bounded_validation.py": "10418247ee4159c58d4356d5ea4f97e6d6349b11345d20b213b7d5db7d71e228",
+    "rust_original_validation.py": "09a247de7c2dbf95895292b8932e4172625f4a6cf432854cdc03a5e763af3fb9",
+    "run-target-closure-diagnostic-v1.py": "f99b5fffa69c5ec0f64596377cb40e8a5f1da27ef1e9a9bdcd8a25b844a570c9"
+  },
+  "input_files_hashed": 54,
+  "input_bytes_hashed": 156680803
+}

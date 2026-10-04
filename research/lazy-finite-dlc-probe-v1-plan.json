@@ -1,0 +1,44 @@
+{
+  "scope": "Local development coverage and representation ablation; no external timing or held-out claim.",
+  "corpus": "benchmarks/hard-development-v2",
+  "manifest_sha256": "1e77f4283218c14cb5f9265c372f7226e7402cdf08c245b2008d20d5485968ba",
+  "properties": 1,
+  "expected_rows": 3,
+  "seconds": 20,
+  "repeat": 1,
+  "memory_mib": 2048,
+  "outer_grace": 0,
+  "order_seed": 20261014,
+  "filter": "^DLCflexbar-PT-7b__RC01$",
+  "methods": {
+    "finite": "finite-token-cut",
+    "lazy": "lazy-finite-token-cut",
+    "focused": "portfolio-focused"
+  },
+  "binaries": {
+    "finite": {
+      "path": "results/solver-lazy-finite-v1/vass-reach",
+      "sha256": "f2e449e90da0ebf5f189eeb32cca0eeb5b6ae805cfdc3542dc8725fe3ba1a9b2"
+    },
+    "lazy": {
+      "path": "results/solver-lazy-finite-v1/vass-reach",
+      "sha256": "f2e449e90da0ebf5f189eeb32cca0eeb5b6ae805cfdc3542dc8725fe3ba1a9b2"
+    },
+    "focused": {
+      "path": "results/solver-lazy-finite-v1/vass-reach",
+      "sha256": "f2e449e90da0ebf5f189eeb32cca0eeb5b6ae805cfdc3542dc8725fe3ba1a9b2"
+    }
+  },
+  "source_sha256": "8bf58c0405dadedaf99de1ac54ba51acabf8adc8439e449637f03d84e4829c48",
+  "validation": {
+    "seconds": 60,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 20000000,
+    "lazy_max_work": 20000000,
+    "lazy_work_scope": "shared across graph reconstruction and certificate column arithmetic; stricter than native reconstruction visit cap",
+    "separate_from_solver_timing": true
+  },
+  "reporting": "Retain full registered matrix, source denominator, independent checks, coverage gains/losses and validation/resource failures. Report graph/pricing diagnostics for probe. 69-query hard set is selected from620parentqueries; eightreservedMCCfamiliesuntouched.",
+  "status": "registered before launch"
+}

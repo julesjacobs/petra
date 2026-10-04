@@ -1,0 +1,14 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "seconds": 2,
+  "repeat": 1,
+  "methods": [
+    "portfolio",
+    "smpt"
+  ],
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "z3": "Z3 version 5.1.0 - 64 bit",
+  "comparison": "Sequential backend-only cold process wall time; no frontend or frontend proof validation. Native witness/Farkas verification included internally. SMPT exports proofs.",
+  "queries": 218
+}

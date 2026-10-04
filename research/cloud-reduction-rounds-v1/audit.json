@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "rows": 6,
+  "plan_sha256": "19870a5e7809a15361b8a8f8a28f9fe4998977372fb0fd9b5b13717d25d1cd8e",
+  "results_sha256": "8b10146050b434480f050edb575b76c6ae132e13ce8bc9a7306506753ad56271",
+  "conclusion": "At identical200k-state/3s limits, zero and one reduction round exhaust the state budget; two rounds prove both branches unreachable. Larger state budgets and stable timing unmeasured."
+}

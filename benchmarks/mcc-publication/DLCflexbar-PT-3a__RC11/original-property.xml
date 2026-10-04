@@ -1,0 +1,17 @@
+<property-set><property>
+    <id>DLCflexbar-PT-3a-ReachabilityCardinality-11</id>
+    <description>Automatically generated</description>
+    <formula>
+      <exists-path>
+        <finally>
+          <integer-le>
+            <integer-constant>3</integer-constant>
+            <tokens-count>
+              <place>p105</place>
+            </tokens-count>
+          </integer-le>
+        </finally>
+      </exists-path>
+    </formula>
+  </property>
+  </property-set>

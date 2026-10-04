@@ -1,0 +1,43 @@
+{
+  "status": "prepared-not-deployed-not-launched",
+  "initial_seconds": 60,
+  "survivor_seconds": 300,
+  "methods": [
+    "native-buffer",
+    "native-batched",
+    "verifypn-default",
+    "smpt-full-portable"
+  ],
+  "repeat": 1,
+  "linux_cpus": [
+    8
+  ],
+  "perf": true,
+  "memory_mib": 2048,
+  "outer_grace": 0,
+  "original_selection": [
+    "SharedMemory-PT-000200__RC01",
+    "SharedMemory-PT-000200__RC02",
+    "SharedMemory-PT-000200__RC03",
+    "SharedMemory-PT-000200__RC04",
+    "SharedMemory-PT-000200__RC05",
+    "SharedMemory-PT-000200__RC09",
+    "SharedMemory-PT-000200__RC12",
+    "SharedMemory-PT-000200__RC14",
+    "TokenRing-PT-030__RC09",
+    "TokenRing-PT-030__RC10",
+    "TokenRing-PT-040__RC09",
+    "TokenRing-PT-040__RC11",
+    "TokenRing-PT-040__RC13"
+  ],
+  "original_selected": 13,
+  "parent_slots": 464,
+  "parent_imports": 448,
+  "parent_collection_failures": 16,
+  "parent_representatives": 442,
+  "stage_300_rule": "All audited60s cases with classification no_method_definitive, including operational failures. Conflicts or incomplete audit block selection. No new5s comparison outcome changes original13.",
+  "validation": "Existing bounded60s/2GiB independent native checks excluded from solver timing; checker failures remain unresolved; external answers tool-reported.",
+  "interpretation": "Outcome-selected development qualification. Timeouts and errors do not establish intrinsic search hardness. Parsing/reduction/search attribution requires uncensored phase evidence.",
+  "reserved": "No new families or payloads accessed. Only previously acquired SharedMemory and TokenRing selections.",
+  "execution": "No automatic chaining. Register300s survivors locally only after confirmed terminal60s run, complete retrieval and successful artifact audit. Deploy and launch explicitly afterward."
+}

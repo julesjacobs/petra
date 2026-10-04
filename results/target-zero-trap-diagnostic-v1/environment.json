@@ -1,0 +1,101 @@
+{
+  "plan": {
+    "status": "registered before launch",
+    "queries": [
+      "ff_random_walk_Boop_simple_vf_satabs_2_multi_40_0_7d80d074",
+      "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04",
+      "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4",
+      "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+      "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "ff_random_walk_double_lock_p2_vs_satabs_2_multi_75_0_0282cae8",
+      "ff_random_walk_double_lock_p3_vs_satabs_3_multi_100_0_964d5f2c",
+      "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_25_0_109789c0",
+      "ff_random_walk_peterson_vs_satabs_2_multi_75_0_7b18af2a",
+      "ff_random_walk_peterson_vs_satabs_2_multi_90_0_63a50e3a",
+      "ff_random_walk_pthread5_vs_satabs_3_multi_60_0_25230f49",
+      "ff_random_walk_pthread5_vs_satabs_3_multi_90_0_a70a8618",
+      "ff_random_walk_pthread5_vs_satabs_4_multi_75_0_a5685f8e"
+    ],
+    "properties": 13,
+    "expected_rows": 26,
+    "source_sha256": {
+      "before": "9cea2e0ccc8380276899b23312517d2e84bf78a088012449b200e5aff1bc506f",
+      "after": "9cea2e0ccc8380276899b23312517d2e84bf78a088012449b200e5aff1bc506f"
+    },
+    "manifest_sha256": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+    "corpus": "benchmarks/candidate-challenges-v1",
+    "methods": {
+      "before": "portfolio-focused",
+      "after": "portfolio-focused"
+    },
+    "target_zero_trap_methods": [
+      "after"
+    ],
+    "seconds": 5,
+    "outer_seconds": 7,
+    "max_states": 2000000,
+    "memory_mib": 2048,
+    "repeat": 1,
+    "validation": {
+      "seconds": 60,
+      "memory_mib": 2048,
+      "response_mib": 64,
+      "dag_max_work": 200000000,
+      "separate_from_solver_timing": true
+    },
+    "order_seed": 20261102,
+    "output": "results/target-zero-trap-diagnostic-v1",
+    "binaries": {
+      "before": {
+        "path": "results/solver-target-zero-trap-v1/vass-reach",
+        "sha256": "3377ec6f05d11c13a4827e783a05fc414fdb55009d9a3354f41d47c6f5b5ec6f"
+      },
+      "after": {
+        "path": "results/solver-target-zero-trap-v1/vass-reach",
+        "sha256": "3377ec6f05d11c13a4827e783a05fc414fdb55009d9a3354f41d47c6f5b5ec6f"
+      }
+    },
+    "scope": "All12 changed outcomes in the complete strict104-query screen plus motivating double-lock100 query. Mechanism diagnostics, profiling and2souter grace; no timing substitution into strict screen.",
+    "selection_evidence": {
+      "results/target-zero-trap-screen-v1/runs.jsonl": "b1e62b464258830311c5869e50a89bc45d86af216e0012a5b81e1fa1003403e0"
+    },
+    "new_queries": 0
+  },
+  "query_order": [
+    "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_25_0_109789c0",
+    "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+    "ff_random_walk_pthread5_vs_satabs_4_multi_75_0_a5685f8e",
+    "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+    "ff_random_walk_peterson_vs_satabs_2_multi_75_0_7b18af2a",
+    "ff_random_walk_double_lock_p2_vs_satabs_2_multi_75_0_0282cae8",
+    "ff_random_walk_Boop_simple_vf_satabs_2_multi_40_0_7d80d074",
+    "ff_random_walk_pthread5_vs_satabs_3_multi_60_0_25230f49",
+    "ff_random_walk_pthread5_vs_satabs_3_multi_90_0_a70a8618",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4",
+    "ff_random_walk_double_lock_p3_vs_satabs_3_multi_100_0_964d5f2c",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04",
+    "ff_random_walk_peterson_vs_satabs_2_multi_90_0_63a50e3a"
+  ],
+  "runner_sha256": {
+    "benchmark_smpt_classic.py": "b589a3ffc3ead6804bda77b732e83b024543c4a27854ec50d55a32dc267a3178",
+    "native_original.py": "5d6275a96865a56c7a740768e0db862b254d5f91f3e4d1206c0713efd528c1c8",
+    "smpt_import.py": "ce7e9db6a5b6e4deb5453271433ad3337fd36229bf4b7e325cdf217a8ac96c90",
+    "benchmark.py": "32a1f8b39eee49f65206d09c2583f477c66abee121362353cc507073485522f9",
+    "token_moment_checker.py": "a42b8367bae56f40da01d723efd504bedbb06cb3905ced5672038ac503c6e027",
+    "token_cut_checker.py": "d6667df9c6e6900b27886de8169835736345779389d85d244eb6b6241bd68d1c",
+    "bounded_token_cut_checker.py": "a333f3429a4bda272715ac84f8529191b4bf406e871a6dbfbe27df0a82a48e60",
+    "finite_token_cut_checker.py": "92ea2c1915a9970347f96171fa20180c3a877f4f8c95ce189bb6a017e7993859",
+    "lazy_token_cut_checker.py": "ba43a0d1c1cab49550e807e89a8df7c7ea0c950cb41cc8a01f12df1f0b0b046b",
+    "local_closure_checker.py": "6e53c37d43a6dcb76b543ec81cf826770ed5c97a0d6027eecca7a5ac984694b1",
+    "dag_checker.py": "b72e8a9c1dd0ce97fe704df748f15580e5794f32548a98de9735f561fc70cdf9",
+    "relevance_checker.py": "0c2d6f867b0809a0f17187d6fb7bba5981ad2f88e560fd875549ca085377603b",
+    "target_zero_trap_checker.py": "15e23110138ab55a2b245608c85cc7b59e7b0efeb61ac31a7fe21d05e75a105a",
+    "process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "requirements.txt": "01b99c930705a074d54f6c45dc2de953aadc78d47906fa13d538946d062903af",
+    "bounded_validation.py": "10418247ee4159c58d4356d5ea4f97e6d6349b11345d20b213b7d5db7d71e228",
+    "rust_original_validation.py": "09a247de7c2dbf95895292b8932e4172625f4a6cf432854cdc03a5e763af3fb9",
+    "run-target-zero-trap-diagnostic-v1.py": "09314df67f1768762794fb47469b99190409aacbbebac2e442fc1e96397e2fbf"
+  },
+  "input_files_hashed": 39,
+  "input_bytes_hashed": 59619685
+}

@@ -1,0 +1,285 @@
+{
+  "workspace_root": "/home/jules/experiments/pvass-publication",
+  "seconds": 5.0,
+  "repeat": 1,
+  "methods": [
+    "native-reduced",
+    "native-counts",
+    "native-walk",
+    "native-frozen",
+    "verifypn-default",
+    "smpt-mcc-portable"
+  ],
+  "native_tools": {
+    "native-reduced": {
+      "engine": "portfolio-reduced",
+      "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-portfolio-reduced-v1/vass-reach",
+      "binary_sha256": "777caa027eca5d5c846b39c49fc48ff8bf59d9675ffe50b49cbe93e3480a44b7"
+    },
+    "native-counts": {
+      "engine": "portfolio-walk-counts",
+      "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-portfolio-counts-v1/vass-reach",
+      "binary_sha256": "b4d3216ad42c1d5e861dfa154f503dfafa899b0780eed78dea5c1e81a17f7e76"
+    },
+    "native-walk": {
+      "engine": "portfolio-walk",
+      "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-walk-sparse-v2/vass-reach",
+      "binary_sha256": "a0a38ce05b073bc584fbc929ad9057cbc419f00b3e5df4bb968c88ca39c05484"
+    },
+    "native-frozen": {
+      "engine": "portfolio-batched",
+      "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-repeated-search-v1/vass-reach",
+      "binary_sha256": "876e855affc6aab53f920295dcb57747df7de61bbb64733d89b63ff8c9aa0ab5"
+    }
+  },
+  "target_zero_trap_methods": [],
+  "target_path_potential_methods": [],
+  "buffer_agglomeration_methods": [
+    "native-reduced",
+    "native-counts",
+    "native-walk",
+    "native-frozen"
+  ],
+  "geometric_branches_methods": [],
+  "order_seed": 2026092903,
+  "property_order": [
+    "EF-1",
+    "AG-1",
+    "EF-2",
+    "AG-0"
+  ],
+  "max_states": 2000000,
+  "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.43",
+  "queries": 4,
+  "manifest_sha256": "e452054429900e5348d6db0fc33fa8e607dbfecd4c854a2051f1b7d67989bc9a",
+  "binary_sha256": "a0a38ce05b073bc584fbc929ad9057cbc419f00b3e5df4bb968c88ca39c05484",
+  "baseline_binary_sha256": null,
+  "script_sha256": {
+    "benchmark_smpt_classic.py": "5b7db926241b7aaf408c31f6019814f7b709aebcf2234fb0dffb4bcbd3c75fd4",
+    "kreach_adapter.py": "8b26fd5749c06f27b75d31418e89279de3d2e8fd573433032805465702979045",
+    "native_original.py": "5d6275a96865a56c7a740768e0db862b254d5f91f3e4d1206c0713efd528c1c8",
+    "smpt_import.py": "ce7e9db6a5b6e4deb5453271433ad3337fd36229bf4b7e325cdf217a8ac96c90",
+    "benchmark.py": "83ad280e4ae632cf1e0a90e8210ee57daf9c09105ec480fc7de2316a663aedb2",
+    "token_moment_checker.py": "a42b8367bae56f40da01d723efd504bedbb06cb3905ced5672038ac503c6e027",
+    "token_cut_checker.py": "d6667df9c6e6900b27886de8169835736345779389d85d244eb6b6241bd68d1c",
+    "bounded_token_cut_checker.py": "a333f3429a4bda272715ac84f8529191b4bf406e871a6dbfbe27df0a82a48e60",
+    "finite_token_cut_checker.py": "92ea2c1915a9970347f96171fa20180c3a877f4f8c95ce189bb6a017e7993859",
+    "lazy_token_cut_checker.py": "ba43a0d1c1cab49550e807e89a8df7c7ea0c950cb41cc8a01f12df1f0b0b046b",
+    "local_closure_checker.py": "6e53c37d43a6dcb76b543ec81cf826770ed5c97a0d6027eecca7a5ac984694b1",
+    "phase_pair_checker.py": "fe4694b9ec891a0419c86b5a3d1aa58102a16f4cc7e8bad2198d555516c1c2ff",
+    "signed_threshold_checker.py": "f7cd30ad9ad15fc3f3d12e4a667a5705e1551a98730e8f85655cab19a78a4bbd",
+    "dag_checker.py": "b72e8a9c1dd0ce97fe704df748f15580e5794f32548a98de9735f561fc70cdf9",
+    "relevance_checker.py": "0c2d6f867b0809a0f17187d6fb7bba5981ad2f88e560fd875549ca085377603b",
+    "target_zero_trap_checker.py": "15e23110138ab55a2b245608c85cc7b59e7b0efeb61ac31a7fe21d05e75a105a",
+    "target_path_potential_checker.py": "a0f9464fc08fa4958264ca985a0303552cf7b4b839ef965ef8a4e42d3a24f500",
+    "buffer_agglomeration_checker.py": "199c7b045aedd4cbeb4ae3019aa649585adc0412749886feada1c52d5a16b536",
+    "process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "requirements.txt": "01b99c930705a074d54f6c45dc2de953aadc78d47906fa13d538946d062903af",
+    "bounded_validation.py": "10418247ee4159c58d4356d5ea4f97e6d6349b11345d20b213b7d5db7d71e228",
+    "rust_original_validation.py": "09a247de7c2dbf95895292b8932e4172625f4a6cf432854cdc03a5e763af3fb9",
+    "verifypn_runner.py": "ac4c9ee1d11804ae754f6b5e9b62a26994e4f35613fc4574614b6ff28b55720a",
+    "linux_runner.py": "413475025b17beaa5a027c6e3495c8dfb0f4898d5e95a79c0f5fe5ad48db5504"
+  },
+  "scope": "Whole original properties; sequential cold processes. Native branches share a budget; AG answers invert counterexample reachability. Verification excluded from wall time.",
+  "smpt_configurations": {
+    "smpt-mcc-portable": [
+      "WALK",
+      "STATE-EQUATION",
+      "BMC",
+      "INDUCTION",
+      "K-INDUCTION",
+      "PDR-COV",
+      "PDR-REACH",
+      "PDR-REACH-SATURATED",
+      "SMT",
+      "CP"
+    ]
+  },
+  "smpt_root": "/home/jules/experiments/pvass-publication/vendor/SMPT-portable",
+  "smpt_python": "/home/jules/experiments/pvass-publication/vendor/venv/bin/python",
+  "auto_reduce": false,
+  "track_resources": true,
+  "smpt_original": true,
+  "outer_grace": 0.0,
+  "native_original": false,
+  "native_python": "/home/jules/experiments/pvass-publication/vendor/venv/bin/python",
+  "rust_original": true,
+  "rust_original_methods": [],
+  "method_input_scope": {
+    "native-reduced": {
+      "mode": "rust-original-v1",
+      "scope": "Original PNML/XML; Rust startup, parsing, target DNF and in-process branch solving inside one strict whole-property deadline. Bounded independent Python original-input translation, canonical comparison and witness/proof checking outside timing."
+    },
+    "native-counts": {
+      "mode": "rust-original-v1",
+      "scope": "Original PNML/XML; Rust startup, parsing, target DNF and in-process branch solving inside one strict whole-property deadline. Bounded independent Python original-input translation, canonical comparison and witness/proof checking outside timing."
+    },
+    "native-walk": {
+      "mode": "rust-original-v1",
+      "scope": "Original PNML/XML; Rust startup, parsing, target DNF and in-process branch solving inside one strict whole-property deadline. Bounded independent Python original-input translation, canonical comparison and witness/proof checking outside timing."
+    },
+    "native-frozen": {
+      "mode": "rust-original-v1",
+      "scope": "Original PNML/XML; Rust startup, parsing, target DNF and in-process branch solving inside one strict whole-property deadline. Bounded independent Python original-input translation, canonical comparison and witness/proof checking outside timing."
+    },
+    "verifypn-default": {
+      "mode": "verifypn-original",
+      "scope": "Original PNML/XML; VerifyPN startup, parsing, preprocessing and solving inside the timed process."
+    },
+    "smpt-mcc-portable": {
+      "mode": "smpt-original",
+      "scope": "Original PNML/XML; SMPT startup, parsing, configured reduction and solving inside the timed process."
+    }
+  },
+  "linux_cpus": [
+    8
+  ],
+  "perf": true,
+  "native_python_sha256": "52e0a13e60a981d8c4b6478be2ba5176f69da07948a056bf49cf6f077e30cb41",
+  "native_input_scope": "Original PNML/XML; Rust startup, parsing, target DNF and in-process branch solving inside one strict whole-property deadline. Bounded independent Python original-input translation, canonical comparison and witness/proof checking outside timing.",
+  "memory_mib": 2048,
+  "tools": {
+    "reduce": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/tina-linux/tina-4.0.0/bin/reduce",
+      "sha256": "5594c9b438bd79f1c03b087e4b415f8726938901dfd0759a2fe1651d936b5b80"
+    },
+    "walk": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/tina-linux/tina-4.0.0/bin/walk",
+      "sha256": "a1574c54f1707f9470e439ead9cdb5165fade84078884d4449d283b4eb3a62aa"
+    },
+    "tina": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/tina-linux/tina-4.0.0/bin/tina",
+      "sha256": "2aba7983b28e578903b2e9ac9d98aa985d2fa221c8cee72f2aa6cfd1e2e2a962"
+    },
+    "ndrio": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/tina-linux/tina-4.0.0/bin/ndrio",
+      "sha256": "1f765d2a8fcec912aa9bcb766803e97aa87713af9728a0a0c3cc5f99d3754204"
+    },
+    "struct": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/tina-linux/tina-4.0.0/bin/struct",
+      "sha256": "dc889ced503ad7633ece7756fc9b6e18fa66993377c361ff7c1aaf0d357c9ed6"
+    },
+    "qsolve": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/4ti2-install/bin/qsolve",
+      "sha256": "c2769f95792540ccdf91cf523cd90341e256d90c19e8e134dad299e6783eaa85"
+    },
+    "4ti2gmp": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/4ti2-install/bin/4ti2gmp",
+      "sha256": "32a17b81dc39b05ef7d9e13e358644a61595745624b20463a62721ba6702a145"
+    },
+    "4ti2int64": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/4ti2-install/bin/4ti2int64",
+      "sha256": "fe38bd045d4027e4e2a4d2993b96065a46d0f347a3a9b4d900284f662bcf36f9"
+    },
+    "z3": {
+      "path": "/home/jules/experiments/pvass-publication/results/runner-smpt-single-core-v3/source/vendor/venv/bin/z3",
+      "sha256": "54bae839dd54e262edac6f755fc99659ce2a121301faff20a3e3b94478dcead0"
+    },
+    "minizinc": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/minizinc-linux-v1/MiniZincIDE-2.10.1-x86_64-linux-gnu/bin/minizinc",
+      "sha256": "4f60af707fd5e71eb968345845f1e118821e0df4c0d4192195c60bad7ad2f370"
+    }
+  },
+  "smpt_source_sha256": {
+    "smpt/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "smpt/__main__.py": "7a4d78cb3fdaf7c442bde496795496aa598e8d0983e401c1597d044b0685a3a6",
+    "smpt/checkers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "smpt/checkers/abstractchecker.py": "33063489fac3b7821172246c9c2b5e3425d5080bd05b1fb41204842e9c0309b0",
+    "smpt/checkers/bmc.py": "bfdcce1f69b62a5793db9e9396cec19f8e73e36ae78d9d931043203adb233646",
+    "smpt/checkers/bulk.py": "cc26dec6d97037a0f3e95c9f49f129645371bed13e7a2200b1b28641219ca1c0",
+    "smpt/checkers/compound.py": "7a1ec06d90f85f598c638a675c051d44a86b617e8449eae139d8d739d93f0561",
+    "smpt/checkers/cp.py": "a584f91dc4e66d29472c47699e82d64ac9cc0c4dafb9fb43307f2d9495bb25d2",
+    "smpt/checkers/enumerative.py": "7293e1c4fe6107c55aa7afc34639d8ec9a07daf4212af7ac338ce5c2d226d7df",
+    "smpt/checkers/induction.py": "f88fa10552fc5cbc1d908ae443e6f0cbcd122d90b72511bd475a20bc1f9acdc2",
+    "smpt/checkers/initialmarking.py": "2000114c5e44b2c4566ec8e1feac246fbc3cbe9f276b92ac9a7aac176b07b6cc",
+    "smpt/checkers/kinduction.py": "861b8a1c4bd7c93df518cac8fbe7fb1d77ea304071e61b8e9392d1a758af765c",
+    "smpt/checkers/pdr.py": "f863f2e205e6722a70f326e6f358da9810a86731ca342a3e467ac780de54ffaf",
+    "smpt/checkers/randomwalk.py": "bf960938c4b9650280d7aa517c88513968c907bf1d654c9358337967398d2028",
+    "smpt/checkers/statequation.py": "d6b281ed656719eb6287777a7ec2e1f73d4ea6e73a3ba0a7b2ad5ce154074125",
+    "smpt/exec/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "smpt/exec/certificate.py": "0aff092b7f424cede404bdd2d717795818cc52ea8f6c655943ecf4ea029eb4ff",
+    "smpt/exec/parallelizer.py": "afbb84bb966c2f103f3236768ceeb126bc8fbbe4154409293b1f1e306ec0de7d",
+    "smpt/exec/utils.py": "5e1d4b29a5097d798e8dff894732946550db4689728ba2aa8c036424abe8ac71",
+    "smpt/interfaces/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "smpt/interfaces/convert.py": "2d8a563205327e438c6e327c6de35d92926060db37d5fb739e41a61a7b3f609b",
+    "smpt/interfaces/hwalk.py": "ae2e433bc1b7081dc145b9357d4e914eefdc084dd3fb6ae76b469eb27cab67aa",
+    "smpt/interfaces/minizinc.py": "d28dd6329d39a0475bb5c99dda0dc8affbcee1bca665ce96afc10398b11aa374",
+    "smpt/interfaces/octant.py": "6b51d793a8dc6846edfedf0d076c0b20bf7ab6ed0a85b88de41a15034ade947e",
+    "smpt/interfaces/play.py": "420d9c7fea0eca207791efc65e7f4c11d1a230b70d97585b25fa722839bebbce",
+    "smpt/interfaces/reduce.py": "2fff8fdb2e1300b8277e200c2ffb8e68dbe59752732d422075d644c2cb655c99",
+    "smpt/interfaces/solver.py": "bf5b32c38f5cb9539c0306f2e1de4f62a8bd8f0fa0e72fcf7b0e0954d68ef8b7",
+    "smpt/interfaces/unfold.py": "21cf6b8b7c3f3be256280cf115303ba0ad0b3e0dd6bdf5af575e8ccb724a50a2",
+    "smpt/interfaces/walk.py": "366495431fce9ff92b5f9ec791f5fac666e542628ac7b412d405b7988a6eaa7f",
+    "smpt/interfaces/z3.py": "3b8c71787f6ed3e13cedb0a226d534a39f5e3fbf1dbec716acdae63d07a5e998",
+    "smpt/ptio/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "smpt/ptio/formula.py": "1d2648f479820ffaa5fd4a697a945dd692808310e810a173537a504bd4b9e25c",
+    "smpt/ptio/ptnet.py": "351fdd876cb947b6beb0c8731f5ff820da0b5b3e306762284ce1b2738cecf3a3",
+    "smpt/ptio/system.py": "838958c976d055b4107b5a8f5bd46b17441c145591d325ed532f1325aa03f9ea",
+    "smpt/ptio/verdict.py": "41cd6dee150bcb9c0dc0f38bd6894d0aa5208d3e0d4a709c26aacae52143bd68",
+    "smpt/smpt.py": "380bb7ab2a6977f6b234680bd48d3d7de6ad29c99ec995a6bcc258ec85b22e1b"
+  },
+  "smpt": "Selected source directory. Requested methods are not effective workers. Official --mcc selects its own preliminary and subsequent portfolios. All added portable configurations require automatic reduction and resource tracking. Internal timeout ceil(seconds); outer allowance seconds plus configured grace (default zero on Linux, one second elsewhere). Added configurations reject expired or over-budget answers. External proofs are not independently checked. See linux_cpus, perf and per-row resources for enforcement.",
+  "smpt_scheduling": {
+    "smpt-mcc-portable": {
+      "requested_methods": [
+        "WALK",
+        "STATE-EQUATION",
+        "BMC",
+        "INDUCTION",
+        "K-INDUCTION",
+        "PDR-COV",
+        "PDR-REACH",
+        "PDR-REACH-SATURATED",
+        "SMT",
+        "CP"
+      ],
+      "effective_workers": null,
+      "requested_methods_control_workers": false,
+      "scheduling_policy": "official-mcc",
+      "effective_workers_note": "Official MCC chooses workers; --methods satisfies the required CLI group and is ignored for scheduling."
+    }
+  },
+  "smpt_auto_reduce_by_method": {
+    "smpt-mcc-portable": true
+  },
+  "input_preflight": {
+    "mode": "streaming-deduplicated-sha256",
+    "unique_files": 17,
+    "bytes_hashed": 3741
+  },
+  "collection_counts": {
+    "planned": 4,
+    "imported": 4,
+    "unsupported": 0,
+    "explicitly_unobserved": 0
+  },
+  "bounded_validation": {
+    "enabled": true,
+    "seconds": 60.0,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_check_max_work": 200000000,
+    "included_in_solver_timing": false
+  },
+  "verifypn": {
+    "binary": "/home/jules/experiments/pvass-publication/vendor/verifypn/build-release/verifypn/bin/verifypn-linux64",
+    "binary_sha256": "50164d51246c30400615a4c7f76397b0bd21fa3f3d0fefb8bad5ba2560ad5577",
+    "source": "/home/jules/experiments/pvass-publication/vendor/verifypn",
+    "source_commit": "c8193465bed56654546968bce3a956f0c25c5bee",
+    "source_status": "",
+    "version": "VerifyPN (untimed verification engine for TAPAAL) 4.5.0\nCopyright (C) 2011-2023\n                        Alexander Bilgram <alexander@bilgram.dk>\n                        Frederik Meyer Boenneland <sadpantz@gmail.com>\n                        Emil Normann Brandt <emilnormannbrandt@gmail.com>\n                        Jesper Adriaan van Diepen <jespoke@hotmail.com>\n                        Jakob Dyhr <jakobdyhr@gmail.com>\n                        Peter Fogh <peter.f1992@gmail.com>\n                        Jonas Finnemann Jensen <jopsen@gmail.com>\n                        Emil Gybel Henriksen <emil-g-h@hotmail.com>\n                        Jens Emil Fink H\u00f8jriis <jens.emil@live.dk>\n                        Lasse Steen Jensen <lassjen88@gmail.com>\n                        Peter Gj\u00f8l Jensen <root@petergjoel.dk>\n                        Nicolaj \u00d8sterby Jensen <nicoesterby@gmail.com>\n                        Tobias Skovgaard Jepsen <tobiasj1991@gmail.com>\n                        Mads Johannsen <mads_johannsen@yahoo.com>\n                        Kenneth Yrke J\u00f8rgensen <kenneth@yrke.dk>\n                        Isabella Kaufmann <bellakaufmann93@gmail.com>\n                        Alan Mozafar Khorsid <alan18@hotmail.dk>\n                        Andreas Hairing Klostergaard <kloster92@me.com>\n                        Esben Nielsen <esbenn179@gmail.com>\n                        S\u00f8ren Moss Nielsen <soren_moss@mac.com>\n                        Thomas S\u00f8nders\u00f8 Nielsen <primogens@gmail.com>\n                        Samuel Pastva <daemontus@gmail.com>\n                        Kira St\u00e6hr Pedersen <kira2809@live.dk>\n                        Thomas Pedersen <thomas.pedersen@stofanet.dk>\n                        Theodor Risager <theodor349@gmail.com>\n                        Jiri Srba <srba.jiri@gmail.com>\n                        Adam Moloney St\u00fcck <adam@adast.xyz>\n                        Andreas Sebastian S\u00f8rensen <todes92@protonmail.com>\n                        Mathias Mehl S\u00f8rensen <mathiasmehlsoerensen@gmail.com>\n                        Peter Haar Taankvist <ptaankvist@gmail.com>\n                        Rasmus Gr\u00f8nkj\u00e6r Tollund <rasmusgtollund@gmail.com>\n                        Nikolaj Jensen Ulrik <nikolaj@njulrik.dk>\n                        Simon Mejlby Virenfeldt <simon@simwir.dk>\n                        Lars K\u00e6rlund \u00d8stergaard <larsko@gmail.com>\nGNU GPLv3 or later <http://gnu.org/licenses/gpl.html>\n",
+    "configurations": {
+      "verifypn-default": []
+    },
+    "configuration": "Single-property invocations; verifypn requests trace reconstruction (disabling H/J/R/S/Q reductions), verifypn-default uses unrestricted defaults. Upstream MCC scheduling is not used.",
+    "proof_check": "External verdicts are not independently checked."
+  },
+  "linux_host": {
+    "lscpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  32\nOn-line CPU(s) list:                     0-31\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 9 7950X3D 16-Core Processor\nCPU family:                              25\nModel:                                   97\nThread(s) per core:                      2\nCore(s) per socket:                      16\nSocket(s):                               1\nStepping:                                2\nFrequency boost:                         enabled\nCPU(s) scaling MHz:                      57%\nCPU max MHz:                             5763.3560\nCPU min MHz:                             416.6290\nBogoMIPS:                                8385.06\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good amd_lbr_v2 nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpuid_fault cpb cat_l3 cdp_l3 hw_pstate ssbd mba perfmon_v2 ibrs ibpb stibp ibrs_enhanced vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk avx512_bf16 clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic vgif x2avic v_spec_ctrl vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid overflow_recov succor smca fsrm flush_l1d amd_lbr_pmc_freeze\nVirtualization:                          AMD-V\nL1d cache:                               512 KiB (16 instances)\nL1i cache:                               512 KiB (16 instances)\nL2 cache:                                16 MiB (16 instances)\nL3 cache:                                128 MiB (2 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-31\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Mitigation; Safe RET\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; STIBP always-on; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Mitigation; Clear CPU buffers\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n",
+    "topology": "CPU CORE L1d:L1i:L2:L3\n  0    0 0:0:0:0\n  1    1 1:1:1:0\n  2    2 2:2:2:0\n  3    3 3:3:3:0\n  4    4 4:4:4:0\n  5    5 5:5:5:0\n  6    6 6:6:6:0\n  7    7 7:7:7:0\n  8    8 8:8:8:1\n  9    9 9:9:9:1\n 10   10 10:10:10:1\n 11   11 11:11:11:1\n 12   12 12:12:12:1\n 13   13 13:13:13:1\n 14   14 14:14:14:1\n 15   15 15:15:15:1\n 16    0 0:0:0:0\n 17    1 1:1:1:0\n 18    2 2:2:2:0\n 19    3 3:3:3:0\n 20    4 4:4:4:0\n 21    5 5:5:5:0\n 22    6 6:6:6:0\n 23    7 7:7:7:0\n 24    8 8:8:8:1\n 25    9 9:9:9:1\n 26   10 10:10:10:1\n 27   11 11:11:11:1\n 28   12 12:12:12:1\n 29   13 13:13:13:1\n 30   14 14:14:14:1\n 31   15 15:15:15:1\n",
+    "kernel": "7.0.0-30-generic",
+    "perf_event_paranoid": "2",
+    "loadavg": "0.41 0.65 0.97 1/1281 1392225",
+    "caveat": "CPU affinity is not exclusive CPU isolation. Retired instructions count user-space work; wall and cgroup CPU/memory are recorded separately. Deadline/OOM runs remain unknown during counter-flush shutdown grace."
+  }
+}

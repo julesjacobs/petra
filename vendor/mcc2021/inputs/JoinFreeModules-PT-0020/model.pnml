@@ -1,0 +1,6331 @@
+<?xml version="1.0"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml"> 
+<net id="JoinFreeModules-PT-0020" type="http://www.pnml.org/version-2009/grammar/ptnet"> 
+<name> 
+<text>JoinFreeModules-PT-0020</text> 
+</name> 
+<page id="g0"> 
+<transition id="t"> 
+<name> 
+<text>t</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="32460" y="0"/> 
+</graphics> 
+</transition> 
+<place id="p"> 
+<name> 
+<text>p</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="32660" y="0"/> 
+</graphics> 
+</place> 
+<place id="p1"> 
+<name> 
+<text>p1</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="55" y="190"/> 
+</graphics> 
+</place> 
+<place id="p2"> 
+<name> 
+<text>p2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="265" y="50"/> 
+</graphics> 
+</place> 
+<place id="p3"> 
+<name> 
+<text>p3</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="440" y="170"/> 
+</graphics> 
+</place> 
+<place id="p4"> 
+<name> 
+<text>p4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="255" y="435"/> 
+</graphics> 
+</place> 
+<place id="p5"> 
+<name> 
+<text>p5</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="500" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t1"> 
+<name> 
+<text>t1</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="90" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t2"> 
+<name> 
+<text>t2</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="450" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t3"> 
+<name> 
+<text>t3</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="205" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t4"> 
+<name> 
+<text>t4</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="580" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t5"> 
+<name> 
+<text>t5</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="25" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t6"> 
+<name> 
+<text>t6</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="125" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t7"> 
+<name> 
+<text>t7</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="270" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t8"> 
+<name> 
+<text>t8</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="375" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-1" source="p1" target="t1"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="30" y="132"/> 
+<position x="48" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-1" source="t4" target="p5"> 
+</arc> 
+<arc id="e-3-1" source="p5" target="t7"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-1" source="t7" target="p3"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-1" source="t7" target="p2"> 
+<graphics> 
+<position x="283" y="238"/> 
+<position x="285" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-1" source="t7" target="p1"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-1" source="p1" target="t6"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-1" source="t6" target="p4"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-1" source="p4" target="t5"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-1" source="t5" target="p1"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-1" source="p4" target="t8"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-1" source="t1" target="p1"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-1" source="t8" target="p5"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-1" source="t4" target="p4"> 
+<graphics> 
+<position x="628" y="295"/> 
+<position x="505" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-1" source="t1" target="p2"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-1" source="t2" target="p2"> 
+</arc> 
+<arc id="e-17-1" source="p3" target="t2"> 
+</arc> 
+<arc id="e-18-1" source="p2" target="t3"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="237" y="74"/> 
+<position x="203" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-1" source="t3" target="p1"> 
+</arc> 
+<arc id="e-20-1" source="t3" target="p3"> 
+</arc> 
+<arc id="e-21-1" source="p3" target="t4"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-1" source="p3" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="705" y="30"/> 
+<position x="1623" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-1" source="t" target="p3"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="1600" y="0"/> 
+<position x="700" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p6"> 
+<name> 
+<text>p6</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="855" y="190"/> 
+</graphics> 
+</place> 
+<place id="p7"> 
+<name> 
+<text>p7</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="1065" y="50"/> 
+</graphics> 
+</place> 
+<place id="p8"> 
+<name> 
+<text>p8</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="1240" y="170"/> 
+</graphics> 
+</place> 
+<place id="p9"> 
+<name> 
+<text>p9</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1055" y="435"/> 
+</graphics> 
+</place> 
+<place id="p10"> 
+<name> 
+<text>p10</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1300" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t9"> 
+<name> 
+<text>t9</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="890" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t10"> 
+<name> 
+<text>t10</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1250" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t11"> 
+<name> 
+<text>t11</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1005" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t12"> 
+<name> 
+<text>t12</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1380" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t13"> 
+<name> 
+<text>t13</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="825" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t14"> 
+<name> 
+<text>t14</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="925" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t15"> 
+<name> 
+<text>t15</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1070" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t16"> 
+<name> 
+<text>t16</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1175" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-2" source="p6" target="t9"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="830" y="132"/> 
+<position x="848" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-2" source="t12" target="p10"> 
+</arc> 
+<arc id="e-3-2" source="p10" target="t15"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-2" source="t15" target="p8"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-2" source="t15" target="p7"> 
+<graphics> 
+<position x="1083" y="238"/> 
+<position x="1085" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-2" source="t15" target="p6"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-2" source="p6" target="t14"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-2" source="t14" target="p9"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-2" source="p9" target="t13"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-2" source="t13" target="p6"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-2" source="p9" target="t16"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-2" source="t9" target="p6"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-2" source="t16" target="p10"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-2" source="t12" target="p9"> 
+<graphics> 
+<position x="1428" y="295"/> 
+<position x="1305" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-2" source="t9" target="p7"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-2" source="t10" target="p7"> 
+</arc> 
+<arc id="e-17-2" source="p8" target="t10"> 
+</arc> 
+<arc id="e-18-2" source="p7" target="t11"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="1037" y="74"/> 
+<position x="1003" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-2" source="t11" target="p6"> 
+</arc> 
+<arc id="e-20-2" source="t11" target="p8"> 
+</arc> 
+<arc id="e-21-2" source="p8" target="t12"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-2" source="p8" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="1410" y="30"/> 
+<position x="3246" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-2" source="t" target="p8"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="3200" y="0"/> 
+<position x="1400" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p11"> 
+<name> 
+<text>p11</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="1655" y="190"/> 
+</graphics> 
+</place> 
+<place id="p12"> 
+<name> 
+<text>p12</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="1865" y="50"/> 
+</graphics> 
+</place> 
+<place id="p13"> 
+<name> 
+<text>p13</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="2040" y="170"/> 
+</graphics> 
+</place> 
+<place id="p14"> 
+<name> 
+<text>p14</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1855" y="435"/> 
+</graphics> 
+</place> 
+<place id="p15"> 
+<name> 
+<text>p15</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2100" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t17"> 
+<name> 
+<text>t17</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1690" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t18"> 
+<name> 
+<text>t18</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2050" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t19"> 
+<name> 
+<text>t19</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1805" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t20"> 
+<name> 
+<text>t20</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2180" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t21"> 
+<name> 
+<text>t21</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1625" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t22"> 
+<name> 
+<text>t22</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1725" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t23"> 
+<name> 
+<text>t23</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1870" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t24"> 
+<name> 
+<text>t24</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="1975" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-3" source="p11" target="t17"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="1630" y="132"/> 
+<position x="1648" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-3" source="t20" target="p15"> 
+</arc> 
+<arc id="e-3-3" source="p15" target="t23"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-3" source="t23" target="p13"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-3" source="t23" target="p12"> 
+<graphics> 
+<position x="1883" y="238"/> 
+<position x="1885" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-3" source="t23" target="p11"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-3" source="p11" target="t22"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-3" source="t22" target="p14"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-3" source="p14" target="t21"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-3" source="t21" target="p11"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-3" source="p14" target="t24"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-3" source="t17" target="p11"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-3" source="t24" target="p15"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-3" source="t20" target="p14"> 
+<graphics> 
+<position x="2228" y="295"/> 
+<position x="2105" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-3" source="t17" target="p12"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-3" source="t18" target="p12"> 
+</arc> 
+<arc id="e-17-3" source="p13" target="t18"> 
+</arc> 
+<arc id="e-18-3" source="p12" target="t19"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="1837" y="74"/> 
+<position x="1803" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-3" source="t19" target="p11"> 
+</arc> 
+<arc id="e-20-3" source="t19" target="p13"> 
+</arc> 
+<arc id="e-21-3" source="p13" target="t20"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-3" source="p13" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="2115" y="30"/> 
+<position x="4869" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-3" source="t" target="p13"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="4800" y="0"/> 
+<position x="2100" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p16"> 
+<name> 
+<text>p16</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="2455" y="190"/> 
+</graphics> 
+</place> 
+<place id="p17"> 
+<name> 
+<text>p17</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="2665" y="50"/> 
+</graphics> 
+</place> 
+<place id="p18"> 
+<name> 
+<text>p18</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="2840" y="170"/> 
+</graphics> 
+</place> 
+<place id="p19"> 
+<name> 
+<text>p19</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2655" y="435"/> 
+</graphics> 
+</place> 
+<place id="p20"> 
+<name> 
+<text>p20</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2900" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t25"> 
+<name> 
+<text>t25</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2490" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t26"> 
+<name> 
+<text>t26</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2850" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t27"> 
+<name> 
+<text>t27</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2605" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t28"> 
+<name> 
+<text>t28</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2980" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t29"> 
+<name> 
+<text>t29</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2425" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t30"> 
+<name> 
+<text>t30</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2525" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t31"> 
+<name> 
+<text>t31</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2670" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t32"> 
+<name> 
+<text>t32</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="2775" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-4" source="p16" target="t25"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="2430" y="132"/> 
+<position x="2448" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-4" source="t28" target="p20"> 
+</arc> 
+<arc id="e-3-4" source="p20" target="t31"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-4" source="t31" target="p18"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-4" source="t31" target="p17"> 
+<graphics> 
+<position x="2683" y="238"/> 
+<position x="2685" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-4" source="t31" target="p16"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-4" source="p16" target="t30"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-4" source="t30" target="p19"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-4" source="p19" target="t29"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-4" source="t29" target="p16"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-4" source="p19" target="t32"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-4" source="t25" target="p16"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-4" source="t32" target="p20"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-4" source="t28" target="p19"> 
+<graphics> 
+<position x="3028" y="295"/> 
+<position x="2905" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-4" source="t25" target="p17"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-4" source="t26" target="p17"> 
+</arc> 
+<arc id="e-17-4" source="p18" target="t26"> 
+</arc> 
+<arc id="e-18-4" source="p17" target="t27"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="2637" y="74"/> 
+<position x="2603" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-4" source="t27" target="p16"> 
+</arc> 
+<arc id="e-20-4" source="t27" target="p18"> 
+</arc> 
+<arc id="e-21-4" source="p18" target="t28"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-4" source="p18" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="2820" y="30"/> 
+<position x="6492" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-4" source="t" target="p18"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="6400" y="0"/> 
+<position x="2800" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p21"> 
+<name> 
+<text>p21</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="3255" y="190"/> 
+</graphics> 
+</place> 
+<place id="p22"> 
+<name> 
+<text>p22</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="3465" y="50"/> 
+</graphics> 
+</place> 
+<place id="p23"> 
+<name> 
+<text>p23</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="3640" y="170"/> 
+</graphics> 
+</place> 
+<place id="p24"> 
+<name> 
+<text>p24</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3455" y="435"/> 
+</graphics> 
+</place> 
+<place id="p25"> 
+<name> 
+<text>p25</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3700" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t33"> 
+<name> 
+<text>t33</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3290" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t34"> 
+<name> 
+<text>t34</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3650" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t35"> 
+<name> 
+<text>t35</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3405" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t36"> 
+<name> 
+<text>t36</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3780" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t37"> 
+<name> 
+<text>t37</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3225" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t38"> 
+<name> 
+<text>t38</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3325" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t39"> 
+<name> 
+<text>t39</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3470" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t40"> 
+<name> 
+<text>t40</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="3575" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-5" source="p21" target="t33"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="3230" y="132"/> 
+<position x="3248" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-5" source="t36" target="p25"> 
+</arc> 
+<arc id="e-3-5" source="p25" target="t39"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-5" source="t39" target="p23"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-5" source="t39" target="p22"> 
+<graphics> 
+<position x="3483" y="238"/> 
+<position x="3485" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-5" source="t39" target="p21"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-5" source="p21" target="t38"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-5" source="t38" target="p24"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-5" source="p24" target="t37"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-5" source="t37" target="p21"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-5" source="p24" target="t40"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-5" source="t33" target="p21"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-5" source="t40" target="p25"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-5" source="t36" target="p24"> 
+<graphics> 
+<position x="3828" y="295"/> 
+<position x="3705" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-5" source="t33" target="p22"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-5" source="t34" target="p22"> 
+</arc> 
+<arc id="e-17-5" source="p23" target="t34"> 
+</arc> 
+<arc id="e-18-5" source="p22" target="t35"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="3437" y="74"/> 
+<position x="3403" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-5" source="t35" target="p21"> 
+</arc> 
+<arc id="e-20-5" source="t35" target="p23"> 
+</arc> 
+<arc id="e-21-5" source="p23" target="t36"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-5" source="p23" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="3525" y="30"/> 
+<position x="8115" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-5" source="t" target="p23"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="8000" y="0"/> 
+<position x="3500" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p26"> 
+<name> 
+<text>p26</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="4055" y="190"/> 
+</graphics> 
+</place> 
+<place id="p27"> 
+<name> 
+<text>p27</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="4265" y="50"/> 
+</graphics> 
+</place> 
+<place id="p28"> 
+<name> 
+<text>p28</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="4440" y="170"/> 
+</graphics> 
+</place> 
+<place id="p29"> 
+<name> 
+<text>p29</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4255" y="435"/> 
+</graphics> 
+</place> 
+<place id="p30"> 
+<name> 
+<text>p30</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4500" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t41"> 
+<name> 
+<text>t41</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4090" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t42"> 
+<name> 
+<text>t42</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4450" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t43"> 
+<name> 
+<text>t43</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4205" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t44"> 
+<name> 
+<text>t44</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4580" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t45"> 
+<name> 
+<text>t45</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4025" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t46"> 
+<name> 
+<text>t46</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4125" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t47"> 
+<name> 
+<text>t47</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4270" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t48"> 
+<name> 
+<text>t48</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4375" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-6" source="p26" target="t41"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="4030" y="132"/> 
+<position x="4048" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-6" source="t44" target="p30"> 
+</arc> 
+<arc id="e-3-6" source="p30" target="t47"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-6" source="t47" target="p28"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-6" source="t47" target="p27"> 
+<graphics> 
+<position x="4283" y="238"/> 
+<position x="4285" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-6" source="t47" target="p26"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-6" source="p26" target="t46"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-6" source="t46" target="p29"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-6" source="p29" target="t45"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-6" source="t45" target="p26"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-6" source="p29" target="t48"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-6" source="t41" target="p26"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-6" source="t48" target="p30"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-6" source="t44" target="p29"> 
+<graphics> 
+<position x="4628" y="295"/> 
+<position x="4505" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-6" source="t41" target="p27"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-6" source="t42" target="p27"> 
+</arc> 
+<arc id="e-17-6" source="p28" target="t42"> 
+</arc> 
+<arc id="e-18-6" source="p27" target="t43"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="4237" y="74"/> 
+<position x="4203" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-6" source="t43" target="p26"> 
+</arc> 
+<arc id="e-20-6" source="t43" target="p28"> 
+</arc> 
+<arc id="e-21-6" source="p28" target="t44"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-6" source="p28" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="4230" y="30"/> 
+<position x="9738" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-6" source="t" target="p28"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="9600" y="0"/> 
+<position x="4200" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p31"> 
+<name> 
+<text>p31</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="4855" y="190"/> 
+</graphics> 
+</place> 
+<place id="p32"> 
+<name> 
+<text>p32</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="5065" y="50"/> 
+</graphics> 
+</place> 
+<place id="p33"> 
+<name> 
+<text>p33</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="5240" y="170"/> 
+</graphics> 
+</place> 
+<place id="p34"> 
+<name> 
+<text>p34</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5055" y="435"/> 
+</graphics> 
+</place> 
+<place id="p35"> 
+<name> 
+<text>p35</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5300" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t49"> 
+<name> 
+<text>t49</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4890" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t50"> 
+<name> 
+<text>t50</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5250" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t51"> 
+<name> 
+<text>t51</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5005" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t52"> 
+<name> 
+<text>t52</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5380" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t53"> 
+<name> 
+<text>t53</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4825" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t54"> 
+<name> 
+<text>t54</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="4925" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t55"> 
+<name> 
+<text>t55</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5070" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t56"> 
+<name> 
+<text>t56</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5175" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-7" source="p31" target="t49"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="4830" y="132"/> 
+<position x="4848" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-7" source="t52" target="p35"> 
+</arc> 
+<arc id="e-3-7" source="p35" target="t55"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-7" source="t55" target="p33"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-7" source="t55" target="p32"> 
+<graphics> 
+<position x="5083" y="238"/> 
+<position x="5085" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-7" source="t55" target="p31"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-7" source="p31" target="t54"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-7" source="t54" target="p34"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-7" source="p34" target="t53"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-7" source="t53" target="p31"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-7" source="p34" target="t56"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-7" source="t49" target="p31"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-7" source="t56" target="p35"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-7" source="t52" target="p34"> 
+<graphics> 
+<position x="5428" y="295"/> 
+<position x="5305" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-7" source="t49" target="p32"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-7" source="t50" target="p32"> 
+</arc> 
+<arc id="e-17-7" source="p33" target="t50"> 
+</arc> 
+<arc id="e-18-7" source="p32" target="t51"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="5037" y="74"/> 
+<position x="5003" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-7" source="t51" target="p31"> 
+</arc> 
+<arc id="e-20-7" source="t51" target="p33"> 
+</arc> 
+<arc id="e-21-7" source="p33" target="t52"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-7" source="p33" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="4935" y="30"/> 
+<position x="11361" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-7" source="t" target="p33"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="11200" y="0"/> 
+<position x="4900" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p36"> 
+<name> 
+<text>p36</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="5655" y="190"/> 
+</graphics> 
+</place> 
+<place id="p37"> 
+<name> 
+<text>p37</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="5865" y="50"/> 
+</graphics> 
+</place> 
+<place id="p38"> 
+<name> 
+<text>p38</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="6040" y="170"/> 
+</graphics> 
+</place> 
+<place id="p39"> 
+<name> 
+<text>p39</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5855" y="435"/> 
+</graphics> 
+</place> 
+<place id="p40"> 
+<name> 
+<text>p40</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6100" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t57"> 
+<name> 
+<text>t57</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5690" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t58"> 
+<name> 
+<text>t58</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6050" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t59"> 
+<name> 
+<text>t59</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5805" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t60"> 
+<name> 
+<text>t60</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6180" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t61"> 
+<name> 
+<text>t61</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5625" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t62"> 
+<name> 
+<text>t62</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5725" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t63"> 
+<name> 
+<text>t63</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5870" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t64"> 
+<name> 
+<text>t64</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="5975" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-8" source="p36" target="t57"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="5630" y="132"/> 
+<position x="5648" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-8" source="t60" target="p40"> 
+</arc> 
+<arc id="e-3-8" source="p40" target="t63"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-8" source="t63" target="p38"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-8" source="t63" target="p37"> 
+<graphics> 
+<position x="5883" y="238"/> 
+<position x="5885" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-8" source="t63" target="p36"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-8" source="p36" target="t62"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-8" source="t62" target="p39"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-8" source="p39" target="t61"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-8" source="t61" target="p36"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-8" source="p39" target="t64"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-8" source="t57" target="p36"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-8" source="t64" target="p40"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-8" source="t60" target="p39"> 
+<graphics> 
+<position x="6228" y="295"/> 
+<position x="6105" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-8" source="t57" target="p37"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-8" source="t58" target="p37"> 
+</arc> 
+<arc id="e-17-8" source="p38" target="t58"> 
+</arc> 
+<arc id="e-18-8" source="p37" target="t59"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="5837" y="74"/> 
+<position x="5803" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-8" source="t59" target="p36"> 
+</arc> 
+<arc id="e-20-8" source="t59" target="p38"> 
+</arc> 
+<arc id="e-21-8" source="p38" target="t60"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-8" source="p38" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="5640" y="30"/> 
+<position x="12984" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-8" source="t" target="p38"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="12800" y="0"/> 
+<position x="5600" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p41"> 
+<name> 
+<text>p41</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="6455" y="190"/> 
+</graphics> 
+</place> 
+<place id="p42"> 
+<name> 
+<text>p42</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="6665" y="50"/> 
+</graphics> 
+</place> 
+<place id="p43"> 
+<name> 
+<text>p43</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="6840" y="170"/> 
+</graphics> 
+</place> 
+<place id="p44"> 
+<name> 
+<text>p44</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6655" y="435"/> 
+</graphics> 
+</place> 
+<place id="p45"> 
+<name> 
+<text>p45</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6900" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t65"> 
+<name> 
+<text>t65</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6490" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t66"> 
+<name> 
+<text>t66</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6850" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t67"> 
+<name> 
+<text>t67</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6605" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t68"> 
+<name> 
+<text>t68</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6980" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t69"> 
+<name> 
+<text>t69</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6425" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t70"> 
+<name> 
+<text>t70</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6525" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t71"> 
+<name> 
+<text>t71</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6670" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t72"> 
+<name> 
+<text>t72</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="6775" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-9" source="p41" target="t65"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="6430" y="132"/> 
+<position x="6448" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-9" source="t68" target="p45"> 
+</arc> 
+<arc id="e-3-9" source="p45" target="t71"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-9" source="t71" target="p43"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-9" source="t71" target="p42"> 
+<graphics> 
+<position x="6683" y="238"/> 
+<position x="6685" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-9" source="t71" target="p41"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-9" source="p41" target="t70"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-9" source="t70" target="p44"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-9" source="p44" target="t69"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-9" source="t69" target="p41"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-9" source="p44" target="t72"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-9" source="t65" target="p41"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-9" source="t72" target="p45"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-9" source="t68" target="p44"> 
+<graphics> 
+<position x="7028" y="295"/> 
+<position x="6905" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-9" source="t65" target="p42"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-9" source="t66" target="p42"> 
+</arc> 
+<arc id="e-17-9" source="p43" target="t66"> 
+</arc> 
+<arc id="e-18-9" source="p42" target="t67"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="6637" y="74"/> 
+<position x="6603" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-9" source="t67" target="p41"> 
+</arc> 
+<arc id="e-20-9" source="t67" target="p43"> 
+</arc> 
+<arc id="e-21-9" source="p43" target="t68"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-9" source="p43" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="6345" y="30"/> 
+<position x="14607" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-9" source="t" target="p43"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="14400" y="0"/> 
+<position x="6300" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p46"> 
+<name> 
+<text>p46</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="7255" y="190"/> 
+</graphics> 
+</place> 
+<place id="p47"> 
+<name> 
+<text>p47</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="7465" y="50"/> 
+</graphics> 
+</place> 
+<place id="p48"> 
+<name> 
+<text>p48</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="7640" y="170"/> 
+</graphics> 
+</place> 
+<place id="p49"> 
+<name> 
+<text>p49</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7455" y="435"/> 
+</graphics> 
+</place> 
+<place id="p50"> 
+<name> 
+<text>p50</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7700" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t73"> 
+<name> 
+<text>t73</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7290" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t74"> 
+<name> 
+<text>t74</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7650" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t75"> 
+<name> 
+<text>t75</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7405" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t76"> 
+<name> 
+<text>t76</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7780" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t77"> 
+<name> 
+<text>t77</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7225" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t78"> 
+<name> 
+<text>t78</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7325" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t79"> 
+<name> 
+<text>t79</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7470" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t80"> 
+<name> 
+<text>t80</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="7575" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-10" source="p46" target="t73"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="7230" y="132"/> 
+<position x="7248" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-10" source="t76" target="p50"> 
+</arc> 
+<arc id="e-3-10" source="p50" target="t79"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-10" source="t79" target="p48"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-10" source="t79" target="p47"> 
+<graphics> 
+<position x="7483" y="238"/> 
+<position x="7485" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-10" source="t79" target="p46"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-10" source="p46" target="t78"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-10" source="t78" target="p49"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-10" source="p49" target="t77"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-10" source="t77" target="p46"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-10" source="p49" target="t80"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-10" source="t73" target="p46"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-10" source="t80" target="p50"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-10" source="t76" target="p49"> 
+<graphics> 
+<position x="7828" y="295"/> 
+<position x="7705" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-10" source="t73" target="p47"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-10" source="t74" target="p47"> 
+</arc> 
+<arc id="e-17-10" source="p48" target="t74"> 
+</arc> 
+<arc id="e-18-10" source="p47" target="t75"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="7437" y="74"/> 
+<position x="7403" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-10" source="t75" target="p46"> 
+</arc> 
+<arc id="e-20-10" source="t75" target="p48"> 
+</arc> 
+<arc id="e-21-10" source="p48" target="t76"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-10" source="p48" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="7050" y="30"/> 
+<position x="16230" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-10" source="t" target="p48"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="16000" y="0"/> 
+<position x="7000" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p51"> 
+<name> 
+<text>p51</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="8055" y="190"/> 
+</graphics> 
+</place> 
+<place id="p52"> 
+<name> 
+<text>p52</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="8265" y="50"/> 
+</graphics> 
+</place> 
+<place id="p53"> 
+<name> 
+<text>p53</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="8440" y="170"/> 
+</graphics> 
+</place> 
+<place id="p54"> 
+<name> 
+<text>p54</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8255" y="435"/> 
+</graphics> 
+</place> 
+<place id="p55"> 
+<name> 
+<text>p55</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8500" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t81"> 
+<name> 
+<text>t81</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8090" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t82"> 
+<name> 
+<text>t82</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8450" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t83"> 
+<name> 
+<text>t83</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8205" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t84"> 
+<name> 
+<text>t84</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8580" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t85"> 
+<name> 
+<text>t85</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8025" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t86"> 
+<name> 
+<text>t86</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8125" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t87"> 
+<name> 
+<text>t87</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8270" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t88"> 
+<name> 
+<text>t88</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8375" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-11" source="p51" target="t81"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="8030" y="132"/> 
+<position x="8048" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-11" source="t84" target="p55"> 
+</arc> 
+<arc id="e-3-11" source="p55" target="t87"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-11" source="t87" target="p53"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-11" source="t87" target="p52"> 
+<graphics> 
+<position x="8283" y="238"/> 
+<position x="8285" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-11" source="t87" target="p51"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-11" source="p51" target="t86"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-11" source="t86" target="p54"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-11" source="p54" target="t85"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-11" source="t85" target="p51"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-11" source="p54" target="t88"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-11" source="t81" target="p51"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-11" source="t88" target="p55"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-11" source="t84" target="p54"> 
+<graphics> 
+<position x="8628" y="295"/> 
+<position x="8505" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-11" source="t81" target="p52"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-11" source="t82" target="p52"> 
+</arc> 
+<arc id="e-17-11" source="p53" target="t82"> 
+</arc> 
+<arc id="e-18-11" source="p52" target="t83"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="8237" y="74"/> 
+<position x="8203" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-11" source="t83" target="p51"> 
+</arc> 
+<arc id="e-20-11" source="t83" target="p53"> 
+</arc> 
+<arc id="e-21-11" source="p53" target="t84"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-11" source="p53" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="7755" y="30"/> 
+<position x="17853" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-11" source="t" target="p53"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="17600" y="0"/> 
+<position x="7700" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p56"> 
+<name> 
+<text>p56</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="8855" y="190"/> 
+</graphics> 
+</place> 
+<place id="p57"> 
+<name> 
+<text>p57</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="9065" y="50"/> 
+</graphics> 
+</place> 
+<place id="p58"> 
+<name> 
+<text>p58</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="9240" y="170"/> 
+</graphics> 
+</place> 
+<place id="p59"> 
+<name> 
+<text>p59</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9055" y="435"/> 
+</graphics> 
+</place> 
+<place id="p60"> 
+<name> 
+<text>p60</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9300" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t89"> 
+<name> 
+<text>t89</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8890" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t90"> 
+<name> 
+<text>t90</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9250" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t91"> 
+<name> 
+<text>t91</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9005" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t92"> 
+<name> 
+<text>t92</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9380" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t93"> 
+<name> 
+<text>t93</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8825" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t94"> 
+<name> 
+<text>t94</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="8925" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t95"> 
+<name> 
+<text>t95</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9070" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t96"> 
+<name> 
+<text>t96</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9175" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-12" source="p56" target="t89"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="8830" y="132"/> 
+<position x="8848" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-12" source="t92" target="p60"> 
+</arc> 
+<arc id="e-3-12" source="p60" target="t95"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-12" source="t95" target="p58"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-12" source="t95" target="p57"> 
+<graphics> 
+<position x="9083" y="238"/> 
+<position x="9085" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-12" source="t95" target="p56"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-12" source="p56" target="t94"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-12" source="t94" target="p59"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-12" source="p59" target="t93"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-12" source="t93" target="p56"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-12" source="p59" target="t96"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-12" source="t89" target="p56"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-12" source="t96" target="p60"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-12" source="t92" target="p59"> 
+<graphics> 
+<position x="9428" y="295"/> 
+<position x="9305" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-12" source="t89" target="p57"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-12" source="t90" target="p57"> 
+</arc> 
+<arc id="e-17-12" source="p58" target="t90"> 
+</arc> 
+<arc id="e-18-12" source="p57" target="t91"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="9037" y="74"/> 
+<position x="9003" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-12" source="t91" target="p56"> 
+</arc> 
+<arc id="e-20-12" source="t91" target="p58"> 
+</arc> 
+<arc id="e-21-12" source="p58" target="t92"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-12" source="p58" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="8460" y="30"/> 
+<position x="19476" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-12" source="t" target="p58"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="19200" y="0"/> 
+<position x="8400" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p61"> 
+<name> 
+<text>p61</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="9655" y="190"/> 
+</graphics> 
+</place> 
+<place id="p62"> 
+<name> 
+<text>p62</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="9865" y="50"/> 
+</graphics> 
+</place> 
+<place id="p63"> 
+<name> 
+<text>p63</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="10040" y="170"/> 
+</graphics> 
+</place> 
+<place id="p64"> 
+<name> 
+<text>p64</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9855" y="435"/> 
+</graphics> 
+</place> 
+<place id="p65"> 
+<name> 
+<text>p65</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10100" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t97"> 
+<name> 
+<text>t97</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9690" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t98"> 
+<name> 
+<text>t98</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10050" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t99"> 
+<name> 
+<text>t99</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9805" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t100"> 
+<name> 
+<text>t100</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10180" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t101"> 
+<name> 
+<text>t101</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9625" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t102"> 
+<name> 
+<text>t102</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9725" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t103"> 
+<name> 
+<text>t103</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9870" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t104"> 
+<name> 
+<text>t104</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="9975" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-13" source="p61" target="t97"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="9630" y="132"/> 
+<position x="9648" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-13" source="t100" target="p65"> 
+</arc> 
+<arc id="e-3-13" source="p65" target="t103"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-13" source="t103" target="p63"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-13" source="t103" target="p62"> 
+<graphics> 
+<position x="9883" y="238"/> 
+<position x="9885" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-13" source="t103" target="p61"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-13" source="p61" target="t102"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-13" source="t102" target="p64"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-13" source="p64" target="t101"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-13" source="t101" target="p61"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-13" source="p64" target="t104"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-13" source="t97" target="p61"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-13" source="t104" target="p65"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-13" source="t100" target="p64"> 
+<graphics> 
+<position x="10228" y="295"/> 
+<position x="10105" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-13" source="t97" target="p62"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-13" source="t98" target="p62"> 
+</arc> 
+<arc id="e-17-13" source="p63" target="t98"> 
+</arc> 
+<arc id="e-18-13" source="p62" target="t99"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="9837" y="74"/> 
+<position x="9803" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-13" source="t99" target="p61"> 
+</arc> 
+<arc id="e-20-13" source="t99" target="p63"> 
+</arc> 
+<arc id="e-21-13" source="p63" target="t100"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-13" source="p63" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="9165" y="30"/> 
+<position x="21099" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-13" source="t" target="p63"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="20800" y="0"/> 
+<position x="9100" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p66"> 
+<name> 
+<text>p66</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="10455" y="190"/> 
+</graphics> 
+</place> 
+<place id="p67"> 
+<name> 
+<text>p67</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="10665" y="50"/> 
+</graphics> 
+</place> 
+<place id="p68"> 
+<name> 
+<text>p68</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="10840" y="170"/> 
+</graphics> 
+</place> 
+<place id="p69"> 
+<name> 
+<text>p69</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10655" y="435"/> 
+</graphics> 
+</place> 
+<place id="p70"> 
+<name> 
+<text>p70</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10900" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t105"> 
+<name> 
+<text>t105</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10490" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t106"> 
+<name> 
+<text>t106</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10850" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t107"> 
+<name> 
+<text>t107</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10605" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t108"> 
+<name> 
+<text>t108</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10980" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t109"> 
+<name> 
+<text>t109</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10425" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t110"> 
+<name> 
+<text>t110</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10525" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t111"> 
+<name> 
+<text>t111</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10670" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t112"> 
+<name> 
+<text>t112</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="10775" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-14" source="p66" target="t105"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="10430" y="132"/> 
+<position x="10448" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-14" source="t108" target="p70"> 
+</arc> 
+<arc id="e-3-14" source="p70" target="t111"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-14" source="t111" target="p68"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-14" source="t111" target="p67"> 
+<graphics> 
+<position x="10683" y="238"/> 
+<position x="10685" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-14" source="t111" target="p66"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-14" source="p66" target="t110"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-14" source="t110" target="p69"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-14" source="p69" target="t109"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-14" source="t109" target="p66"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-14" source="p69" target="t112"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-14" source="t105" target="p66"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-14" source="t112" target="p70"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-14" source="t108" target="p69"> 
+<graphics> 
+<position x="11028" y="295"/> 
+<position x="10905" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-14" source="t105" target="p67"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-14" source="t106" target="p67"> 
+</arc> 
+<arc id="e-17-14" source="p68" target="t106"> 
+</arc> 
+<arc id="e-18-14" source="p67" target="t107"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="10637" y="74"/> 
+<position x="10603" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-14" source="t107" target="p66"> 
+</arc> 
+<arc id="e-20-14" source="t107" target="p68"> 
+</arc> 
+<arc id="e-21-14" source="p68" target="t108"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-14" source="p68" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="9870" y="30"/> 
+<position x="22722" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-14" source="t" target="p68"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="22400" y="0"/> 
+<position x="9800" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p71"> 
+<name> 
+<text>p71</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="11255" y="190"/> 
+</graphics> 
+</place> 
+<place id="p72"> 
+<name> 
+<text>p72</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="11465" y="50"/> 
+</graphics> 
+</place> 
+<place id="p73"> 
+<name> 
+<text>p73</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="11640" y="170"/> 
+</graphics> 
+</place> 
+<place id="p74"> 
+<name> 
+<text>p74</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11455" y="435"/> 
+</graphics> 
+</place> 
+<place id="p75"> 
+<name> 
+<text>p75</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11700" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t113"> 
+<name> 
+<text>t113</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11290" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t114"> 
+<name> 
+<text>t114</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11650" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t115"> 
+<name> 
+<text>t115</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11405" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t116"> 
+<name> 
+<text>t116</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11780" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t117"> 
+<name> 
+<text>t117</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11225" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t118"> 
+<name> 
+<text>t118</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11325" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t119"> 
+<name> 
+<text>t119</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11470" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t120"> 
+<name> 
+<text>t120</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="11575" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-15" source="p71" target="t113"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="11230" y="132"/> 
+<position x="11248" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-15" source="t116" target="p75"> 
+</arc> 
+<arc id="e-3-15" source="p75" target="t119"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-15" source="t119" target="p73"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-15" source="t119" target="p72"> 
+<graphics> 
+<position x="11483" y="238"/> 
+<position x="11485" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-15" source="t119" target="p71"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-15" source="p71" target="t118"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-15" source="t118" target="p74"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-15" source="p74" target="t117"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-15" source="t117" target="p71"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-15" source="p74" target="t120"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-15" source="t113" target="p71"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-15" source="t120" target="p75"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-15" source="t116" target="p74"> 
+<graphics> 
+<position x="11828" y="295"/> 
+<position x="11705" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-15" source="t113" target="p72"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-15" source="t114" target="p72"> 
+</arc> 
+<arc id="e-17-15" source="p73" target="t114"> 
+</arc> 
+<arc id="e-18-15" source="p72" target="t115"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="11437" y="74"/> 
+<position x="11403" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-15" source="t115" target="p71"> 
+</arc> 
+<arc id="e-20-15" source="t115" target="p73"> 
+</arc> 
+<arc id="e-21-15" source="p73" target="t116"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-15" source="p73" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="10575" y="30"/> 
+<position x="24345" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-15" source="t" target="p73"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="24000" y="0"/> 
+<position x="10500" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p76"> 
+<name> 
+<text>p76</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="12055" y="190"/> 
+</graphics> 
+</place> 
+<place id="p77"> 
+<name> 
+<text>p77</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="12265" y="50"/> 
+</graphics> 
+</place> 
+<place id="p78"> 
+<name> 
+<text>p78</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="12440" y="170"/> 
+</graphics> 
+</place> 
+<place id="p79"> 
+<name> 
+<text>p79</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12255" y="435"/> 
+</graphics> 
+</place> 
+<place id="p80"> 
+<name> 
+<text>p80</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12500" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t121"> 
+<name> 
+<text>t121</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12090" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t122"> 
+<name> 
+<text>t122</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12450" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t123"> 
+<name> 
+<text>t123</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12205" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t124"> 
+<name> 
+<text>t124</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12580" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t125"> 
+<name> 
+<text>t125</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12025" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t126"> 
+<name> 
+<text>t126</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12125" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t127"> 
+<name> 
+<text>t127</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12270" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t128"> 
+<name> 
+<text>t128</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12375" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-16" source="p76" target="t121"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="12030" y="132"/> 
+<position x="12048" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-16" source="t124" target="p80"> 
+</arc> 
+<arc id="e-3-16" source="p80" target="t127"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-16" source="t127" target="p78"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-16" source="t127" target="p77"> 
+<graphics> 
+<position x="12283" y="238"/> 
+<position x="12285" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-16" source="t127" target="p76"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-16" source="p76" target="t126"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-16" source="t126" target="p79"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-16" source="p79" target="t125"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-16" source="t125" target="p76"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-16" source="p79" target="t128"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-16" source="t121" target="p76"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-16" source="t128" target="p80"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-16" source="t124" target="p79"> 
+<graphics> 
+<position x="12628" y="295"/> 
+<position x="12505" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-16" source="t121" target="p77"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-16" source="t122" target="p77"> 
+</arc> 
+<arc id="e-17-16" source="p78" target="t122"> 
+</arc> 
+<arc id="e-18-16" source="p77" target="t123"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="12237" y="74"/> 
+<position x="12203" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-16" source="t123" target="p76"> 
+</arc> 
+<arc id="e-20-16" source="t123" target="p78"> 
+</arc> 
+<arc id="e-21-16" source="p78" target="t124"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-16" source="p78" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="11280" y="30"/> 
+<position x="25968" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-16" source="t" target="p78"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="25600" y="0"/> 
+<position x="11200" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p81"> 
+<name> 
+<text>p81</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="12855" y="190"/> 
+</graphics> 
+</place> 
+<place id="p82"> 
+<name> 
+<text>p82</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="13065" y="50"/> 
+</graphics> 
+</place> 
+<place id="p83"> 
+<name> 
+<text>p83</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="13240" y="170"/> 
+</graphics> 
+</place> 
+<place id="p84"> 
+<name> 
+<text>p84</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13055" y="435"/> 
+</graphics> 
+</place> 
+<place id="p85"> 
+<name> 
+<text>p85</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13300" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t129"> 
+<name> 
+<text>t129</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12890" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t130"> 
+<name> 
+<text>t130</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13250" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t131"> 
+<name> 
+<text>t131</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13005" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t132"> 
+<name> 
+<text>t132</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13380" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t133"> 
+<name> 
+<text>t133</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12825" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t134"> 
+<name> 
+<text>t134</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="12925" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t135"> 
+<name> 
+<text>t135</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13070" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t136"> 
+<name> 
+<text>t136</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13175" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-17" source="p81" target="t129"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="12830" y="132"/> 
+<position x="12848" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-17" source="t132" target="p85"> 
+</arc> 
+<arc id="e-3-17" source="p85" target="t135"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-17" source="t135" target="p83"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-17" source="t135" target="p82"> 
+<graphics> 
+<position x="13083" y="238"/> 
+<position x="13085" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-17" source="t135" target="p81"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-17" source="p81" target="t134"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-17" source="t134" target="p84"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-17" source="p84" target="t133"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-17" source="t133" target="p81"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-17" source="p84" target="t136"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-17" source="t129" target="p81"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-17" source="t136" target="p85"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-17" source="t132" target="p84"> 
+<graphics> 
+<position x="13428" y="295"/> 
+<position x="13305" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-17" source="t129" target="p82"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-17" source="t130" target="p82"> 
+</arc> 
+<arc id="e-17-17" source="p83" target="t130"> 
+</arc> 
+<arc id="e-18-17" source="p82" target="t131"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="13037" y="74"/> 
+<position x="13003" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-17" source="t131" target="p81"> 
+</arc> 
+<arc id="e-20-17" source="t131" target="p83"> 
+</arc> 
+<arc id="e-21-17" source="p83" target="t132"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-17" source="p83" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="11985" y="30"/> 
+<position x="27591" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-17" source="t" target="p83"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="27200" y="0"/> 
+<position x="11900" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p86"> 
+<name> 
+<text>p86</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="13655" y="190"/> 
+</graphics> 
+</place> 
+<place id="p87"> 
+<name> 
+<text>p87</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="13865" y="50"/> 
+</graphics> 
+</place> 
+<place id="p88"> 
+<name> 
+<text>p88</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="14040" y="170"/> 
+</graphics> 
+</place> 
+<place id="p89"> 
+<name> 
+<text>p89</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13855" y="435"/> 
+</graphics> 
+</place> 
+<place id="p90"> 
+<name> 
+<text>p90</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14100" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t137"> 
+<name> 
+<text>t137</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13690" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t138"> 
+<name> 
+<text>t138</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14050" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t139"> 
+<name> 
+<text>t139</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13805" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t140"> 
+<name> 
+<text>t140</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14180" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t141"> 
+<name> 
+<text>t141</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13625" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t142"> 
+<name> 
+<text>t142</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13725" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t143"> 
+<name> 
+<text>t143</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13870" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t144"> 
+<name> 
+<text>t144</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="13975" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-18" source="p86" target="t137"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="13630" y="132"/> 
+<position x="13648" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-18" source="t140" target="p90"> 
+</arc> 
+<arc id="e-3-18" source="p90" target="t143"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-18" source="t143" target="p88"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-18" source="t143" target="p87"> 
+<graphics> 
+<position x="13883" y="238"/> 
+<position x="13885" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-18" source="t143" target="p86"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-18" source="p86" target="t142"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-18" source="t142" target="p89"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-18" source="p89" target="t141"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-18" source="t141" target="p86"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-18" source="p89" target="t144"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-18" source="t137" target="p86"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-18" source="t144" target="p90"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-18" source="t140" target="p89"> 
+<graphics> 
+<position x="14228" y="295"/> 
+<position x="14105" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-18" source="t137" target="p87"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-18" source="t138" target="p87"> 
+</arc> 
+<arc id="e-17-18" source="p88" target="t138"> 
+</arc> 
+<arc id="e-18-18" source="p87" target="t139"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="13837" y="74"/> 
+<position x="13803" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-18" source="t139" target="p86"> 
+</arc> 
+<arc id="e-20-18" source="t139" target="p88"> 
+</arc> 
+<arc id="e-21-18" source="p88" target="t140"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-18" source="p88" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="12690" y="30"/> 
+<position x="29214" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-18" source="t" target="p88"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="28800" y="0"/> 
+<position x="12600" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p91"> 
+<name> 
+<text>p91</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="14455" y="190"/> 
+</graphics> 
+</place> 
+<place id="p92"> 
+<name> 
+<text>p92</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="14665" y="50"/> 
+</graphics> 
+</place> 
+<place id="p93"> 
+<name> 
+<text>p93</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="14840" y="170"/> 
+</graphics> 
+</place> 
+<place id="p94"> 
+<name> 
+<text>p94</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14655" y="435"/> 
+</graphics> 
+</place> 
+<place id="p95"> 
+<name> 
+<text>p95</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14900" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t145"> 
+<name> 
+<text>t145</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14490" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t146"> 
+<name> 
+<text>t146</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14850" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t147"> 
+<name> 
+<text>t147</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14605" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t148"> 
+<name> 
+<text>t148</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14980" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t149"> 
+<name> 
+<text>t149</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14425" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t150"> 
+<name> 
+<text>t150</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14525" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t151"> 
+<name> 
+<text>t151</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14670" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t152"> 
+<name> 
+<text>t152</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="14775" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-19" source="p91" target="t145"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="14430" y="132"/> 
+<position x="14448" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-19" source="t148" target="p95"> 
+</arc> 
+<arc id="e-3-19" source="p95" target="t151"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-19" source="t151" target="p93"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-19" source="t151" target="p92"> 
+<graphics> 
+<position x="14683" y="238"/> 
+<position x="14685" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-19" source="t151" target="p91"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-19" source="p91" target="t150"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-19" source="t150" target="p94"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-19" source="p94" target="t149"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-19" source="t149" target="p91"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-19" source="p94" target="t152"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-19" source="t145" target="p91"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-19" source="t152" target="p95"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-19" source="t148" target="p94"> 
+<graphics> 
+<position x="15028" y="295"/> 
+<position x="14905" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-19" source="t145" target="p92"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-19" source="t146" target="p92"> 
+</arc> 
+<arc id="e-17-19" source="p93" target="t146"> 
+</arc> 
+<arc id="e-18-19" source="p92" target="t147"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="14637" y="74"/> 
+<position x="14603" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-19" source="t147" target="p91"> 
+</arc> 
+<arc id="e-20-19" source="t147" target="p93"> 
+</arc> 
+<arc id="e-21-19" source="p93" target="t148"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-19" source="p93" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="13395" y="30"/> 
+<position x="30837" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-19" source="t" target="p93"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="30400" y="0"/> 
+<position x="13300" y="30"/> 
+</graphics> 
+</arc> 
+<place id="p96"> 
+<name> 
+<text>p96</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>2</text> 
+</initialMarking> 
+<graphics> 
+<position x="15255" y="190"/> 
+</graphics> 
+</place> 
+<place id="p97"> 
+<name> 
+<text>p97</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>1</text> 
+</initialMarking> 
+<graphics> 
+<position x="15465" y="50"/> 
+</graphics> 
+</place> 
+<place id="p98"> 
+<name> 
+<text>p98</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</name> 
+<initialMarking> 
+<text>20</text> 
+</initialMarking> 
+<graphics> 
+<position x="15640" y="170"/> 
+</graphics> 
+</place> 
+<place id="p99"> 
+<name> 
+<text>p99</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15455" y="435"/> 
+</graphics> 
+</place> 
+<place id="p100"> 
+<name> 
+<text>p100</text> 
+<graphics> 
+<offset x="10" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15700" y="330"/> 
+</graphics> 
+</place> 
+<transition id="t153"> 
+<name> 
+<text>t153</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15290" y="55"/> 
+</graphics> 
+</transition> 
+<transition id="t154"> 
+<name> 
+<text>t154</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15650" y="60"/> 
+</graphics> 
+</transition> 
+<transition id="t155"> 
+<name> 
+<text>t155</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15405" y="135"/> 
+</graphics> 
+</transition> 
+<transition id="t156"> 
+<name> 
+<text>t156</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15780" y="180"/> 
+</graphics> 
+</transition> 
+<transition id="t157"> 
+<name> 
+<text>t157</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15225" y="450"/> 
+</graphics> 
+</transition> 
+<transition id="t158"> 
+<name> 
+<text>t158</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15325" y="340"/> 
+</graphics> 
+</transition> 
+<transition id="t159"> 
+<name> 
+<text>t159</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15470" y="285"/> 
+</graphics> 
+</transition> 
+<transition id="t160"> 
+<name> 
+<text>t160</text> 
+<graphics> 
+<offset x="0" y="0"/> 
+</graphics> 
+</name> 
+<graphics> 
+<position x="15575" y="375"/> 
+</graphics> 
+</transition> 
+<arc id="e-1-20" source="p96" target="t153"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="15230" y="132"/> 
+<position x="15248" y="80"/> 
+</graphics>  </arc> 
+<arc id="e-2-20" source="t156" target="p100"> 
+</arc> 
+<arc id="e-3-20" source="p100" target="t159"> 
+<inscription> 
+<text>5</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-4-20" source="t159" target="p98"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-5-20" source="t159" target="p97"> 
+<graphics> 
+<position x="15483" y="238"/> 
+<position x="15485" y="95"/> 
+</graphics>  </arc> 
+<arc id="e-6-20" source="t159" target="p96"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-7-20" source="p96" target="t158"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-8-20" source="t158" target="p99"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-9-20" source="p99" target="t157"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-10-20" source="t157" target="p96"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="-10" y="0"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-11-20" source="p99" target="t160"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-12-20" source="t153" target="p96"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="10" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-13-20" source="t160" target="p100"> 
+<inscription> 
+<text>4</text> 
+<graphics> 
+<offset x="0" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-14-20" source="t156" target="p99"> 
+<graphics> 
+<position x="15828" y="295"/> 
+<position x="15705" y="530"/> 
+</graphics>  </arc> 
+<arc id="e-15-20" source="t153" target="p97"> 
+<inscription> 
+<text>3</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-16-20" source="t154" target="p97"> 
+</arc> 
+<arc id="e-17-20" source="p98" target="t154"> 
+</arc> 
+<arc id="e-18-20" source="p97" target="t155"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="15437" y="74"/> 
+<position x="15403" y="94"/> 
+</graphics>  </arc> 
+<arc id="e-19-20" source="t155" target="p96"> 
+</arc> 
+<arc id="e-20-20" source="t155" target="p98"> 
+</arc> 
+<arc id="e-21-20" source="p98" target="t156"> 
+<inscription> 
+<text>2</text> 
+<graphics> 
+<offset x="0" y="-10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-t-out-20" source="p98" target="t"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="-10" y="-10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="14100" y="30"/> 
+<position x="32460" y="0"/> 
+</graphics> 
+</arc> 
+<arc id="e-t-in-20" source="t" target="p98"> 
+<inscription> 
+<text>20</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+<graphics> 
+<position x="32000" y="0"/> 
+<position x="14000" y="30"/> 
+</graphics> 
+</arc> 
+<arc id="e-p-in-t" source="p" target="t"> 
+<inscription> 
+<text>1</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+<arc id="e-p-out-t" source="t" target="p"> 
+<inscription> 
+<text>1</text> 
+<graphics> 
+<offset x="10" y="10"/> 
+</graphics> 
+</inscription> 
+</arc> 
+</page> 
+</net> 
+</pnml>

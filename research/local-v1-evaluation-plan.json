@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-09-27T15:46:21.554429+00:00",
+  "candidate": "portfolio-local",
+  "candidate_frozen_before_evaluation": true,
+  "binary_and_input_sha256": {
+    "results/solver-local-v1/vass-reach": "d599e09eaa6ff9483c226f748945091b23c6755b71c71fa2758e86e405642905",
+    "results/solver-local-v1/source.tar.gz": "11bb22b068867543ab956ef74273cfc208d9575ce114475d7c5b1bacb71424ef",
+    "results/solver-v2/vass-reach": "4abae89f2187ff710a3759accd20acf3f7618582a202ccbc5b4402608554e7b1",
+    "vendor/verifypn/build-release/verifypn/bin/verifypn": "b0c9775f689208135118c680626c450a429807d9676648ca3c5f5bb8a2907220",
+    "benchmarks/mcc-publication-evaluation/manifest.json": "9028f162dc9940a55919fd328e139ed7f4d7ea906cf6a1da9a71103f24136b02",
+    "benchmarks/publication-selection.json": "9dc8baf28450abdc3ee409b941c6589a42e0731c712f769a7fb5c7405b1c58fd"
+  },
+  "methods": [
+    "frozen-v2",
+    "portfolio-local",
+    "verifypn-default"
+  ],
+  "seconds": 5,
+  "repeat": 2,
+  "memory_mib": 2048,
+  "order_seed": 20260927,
+  "input": "original PNML/XML including Python frontend cost",
+  "families": [
+    "AirplaneLD",
+    "CloudDeployment",
+    "ERK",
+    "HirschbergSinclair",
+    "LeafsetExtension",
+    "ShieldPPPs",
+    "Sudoku",
+    "TwoPhaseLocking"
+  ],
+  "selection": "all 256 previously unseen evaluation properties; no outcome-dependent exclusion",
+  "development_gate": "results/publication-local-development/REPORT.md: 256/256 for candidate in both repetitions, no errors or conflicts",
+  "machine": "macOS local host; exploratory sampled RSS, no hardware counters or exclusive CPU isolation",
+  "frozen_design_policy": "No candidate changes during or after this run are to be described as independently tested on this evaluation set. Use newly reserved families for a future independent evaluation if results drive algorithm changes.",
+  "competitor": "Unrestricted single-property VerifyPN defaults, no trace. SMPT portable Linux comparison remains outstanding."
+}

@@ -1,0 +1,20 @@
+# Linux service runner
+
+`scripts/linux_runner.py` implements:
+
+```python
+wall, code, expired, usage = run(command, cwd, seconds, output, memory_bytes,
+                                 cpus=[8], perf=True)
+```
+
+Each invocation owns one uniquely named `pvass-<uuid>.service` in the current user's systemd manager. `ExitType=main` recognizes solver completion when its main process exits; remaining descendants are killed when the owning unit is stopped, without charging the solver a timeout for abandoned auxiliaries. `RuntimeMaxSec` sets the execution deadline, `MemoryMax` and `MemorySwapMax=0` enforce cgroup memory limits, and `CPUAffinity` pins every inherited thread/child. It polls terminal SubState and reads final ExecMainExitTimestampMonotonic, CPUUsageNSec, and MemoryPeak before stopping its own unit. It tracks PID/creation-time identities from the service cgroup and waits for their exit after unit removal, including delayed kernel teardown after OOM. It does not enumerate or stop other services. The `.systemd.json` sidecar retains raw final properties.
+
+The returned wall time includes launch/polling overhead up to terminal observation, excludes final unit removal, and is not interchangeable with the service's main-process duration. RuntimeMaxSec starts at service activation, rather than at the caller's initial timestamp. The deadline requests termination, followed by at most one second of stop grace before forced cgroup kill; report this grace in benchmark protocol. MemoryPeak includes the complete cgroup and may include memory besides resident anonymous pages; it is not sampled peak RSS.
+
+With perf enabled the executed command is wrapped in `perf stat --no-big-num -x ';' -e instructions:u,cycles:u,task-clock`. Perf inherits into descendants. At deadline SIGINT lets perf export its counters; initial SIGTERM testing lost counters. Ordinary runs use SIGTERM. All processes are finally killed through the service cgroup if necessary. Counter CSV is retained in `.perf.csv`; values, observed event labels, raw fields, event runtime and running percentage are returned. This host reports the requested task-clock as `task-clock:u`, which is preserved explicitly in `observed_event`. Instruction/cycle counts are user-space counts, not kernel work or the runner/systemd/perf controller overhead. Cgroup CPU time includes the perf wrapper.
+
+Missing, unsupported or denied counters on a completed run raise `PerfUnavailable`; there is no silent uninstrumented retry. A previous CSV is removed before invocation, so a denial cannot accept stale counts. Timeout/OOM can kill perf before it exports; the runner preserves that resource-failure result with null counters and an explicit `perf_failure`. Such runs remain unknown in the benchmark denominator. External verdicts produced during Linux shutdown grace are also conservatively unknown. Timed-out instruction counts depend on scheduling, the time-based stopping point, and termination handling. They are not an invariant cost of a solved query. Running percentages should accompany reported counts, especially when counters are multiplexed.
+
+Twelve tests passed on `jules-b650-aorus-elite-ax-v2`, Ubuntu systemd 259.5, Python 3.14.4, CPU 8, with perf_event_paranoid 2. Tests cover successful affinity/accounting, exit 7, normal-parent detached-child cleanup, virtual-environment executable preservation, detached-descendant deadline/cleanup, enforced64MiB OOM, real hardware counters, counter export on timeout, explicitly injected permission denial with a stale CSV present, OOM with perf enabled, and parser behavior. The permission-denial test uses a test-local fake perf executable; actual host access was enabled before the tests. The user authorized enabling counters; the main agent changed runtime perf_event_paranoid from 4 to 2 before testing. Other user jobs were untouched. Log: `research/linux-final-runner-tests.log`. Remote test directory: `/home/jules/experiments/pvass-publication/runner-tests`.
+
+These tests establish runner mechanics, not a solver comparison or publication-quality isolation from unrelated host load. No benchmark suite was launched by this work.

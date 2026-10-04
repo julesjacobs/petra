@@ -1,0 +1,294 @@
+{
+  "selection": "Exclude previously used family groups. Group all RERS families together. Among groups with at least five published PT instances, rank by SHA256(pvass-publication-v1:group), select first sixteen groups, choose lexicographically first eligible family per group and its third and fifth published instances. First eight groups develop, next eight evaluate. Keep all original ReachabilityCardinality properties, including trivial or unsupported ones. Fixed before any solver runs on these inputs.",
+  "index_sha256": "58b01d6b01987ef8b4d8fada40b5d392913eb9e3e2fd6ab5dfceded4fbb5fe3f",
+  "models": [
+    {
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "name": "DLCflexbar-PT-3a",
+      "published_ordinal": 3,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DLCflexbar-PT-3a.tgz",
+      "sha256": "22a8f922219f3f5019a844706d2dcfa664af1e3ac9958fa76d4c873d1af4becf"
+    },
+    {
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "name": "DLCflexbar-PT-4a",
+      "published_ordinal": 5,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DLCflexbar-PT-4a.tgz",
+      "sha256": "9d048d1a02a7f2fb50c3f8a7f32f5c6bdbcbcd4d631d0025631971ddc139b382"
+    },
+    {
+      "family": "JoinFreeModules",
+      "family_group": "JoinFreeModules",
+      "name": "JoinFreeModules-PT-0005",
+      "published_ordinal": 3,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/JoinFreeModules-PT-0005.tgz",
+      "sha256": "301af7fd5a0135500d23d0662af0b69a3a334ba8ab4e409bfedc179c7ab6eb82"
+    },
+    {
+      "family": "JoinFreeModules",
+      "family_group": "JoinFreeModules",
+      "name": "JoinFreeModules-PT-0020",
+      "published_ordinal": 5,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/JoinFreeModules-PT-0020.tgz",
+      "sha256": "a3b4321caea60fe0ce4d5334afaf8e126e5c80b5fccd5e86b859ffdc0d0b20b9"
+    },
+    {
+      "family": "CircularTrains",
+      "family_group": "CircularTrains",
+      "name": "CircularTrains-PT-048",
+      "published_ordinal": 3,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CircularTrains-PT-048.tgz",
+      "sha256": "2b68023ef4ed6a8e6086fee10aa602dcd3768c6cecc1eb28d2737e99c770eeb2"
+    },
+    {
+      "family": "CircularTrains",
+      "family_group": "CircularTrains",
+      "name": "CircularTrains-PT-192",
+      "published_ordinal": 5,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CircularTrains-PT-192.tgz",
+      "sha256": "f5f5eb8a6ba54dcb61c1974470ab951e0c9ac5624ea49277379aec422156cbda"
+    },
+    {
+      "family": "AutoFlight",
+      "family_group": "AutoFlight",
+      "name": "AutoFlight-PT-02a",
+      "published_ordinal": 3,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/AutoFlight-PT-02a.tgz",
+      "sha256": "fabd6207e7bf73831af8e215d559d56ba487bdc046238944c3e2449df0745f10"
+    },
+    {
+      "family": "AutoFlight",
+      "family_group": "AutoFlight",
+      "name": "AutoFlight-PT-03a",
+      "published_ordinal": 5,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/AutoFlight-PT-03a.tgz",
+      "sha256": "9ec279e4d1d8c832d871a896da702c0ad8444492e5c919d0f5628ad5b5471ce2"
+    },
+    {
+      "family": "Echo",
+      "family_group": "Echo",
+      "name": "Echo-PT-d02r15",
+      "published_ordinal": 3,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Echo-PT-d02r15.tgz",
+      "sha256": "6cbccfe94d3895e4f64675f43407074a87ece20919e5224afeaafcad2acbfadb"
+    },
+    {
+      "family": "Echo",
+      "family_group": "Echo",
+      "name": "Echo-PT-d03r03",
+      "published_ordinal": 5,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Echo-PT-d03r03.tgz",
+      "sha256": "2e87b3b9af5dbfdcc171dcfdc45ca2f94cce377be1f80fd641dbfad681319ef7"
+    },
+    {
+      "family": "CANConstruction",
+      "family_group": "CANConstruction",
+      "name": "CANConstruction-PT-020",
+      "published_ordinal": 3,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CANConstruction-PT-020.tgz",
+      "sha256": "53f9f9257b740fa25b1bb89248e00fd5727f8674dfcb46f69a629d55e38a5f8e"
+    },
+    {
+      "family": "CANConstruction",
+      "family_group": "CANConstruction",
+      "name": "CANConstruction-PT-040",
+      "published_ordinal": 5,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CANConstruction-PT-040.tgz",
+      "sha256": "74bc988105353da06f21241d43d607f9054c90bac038575e743a65ea5453e0ca"
+    },
+    {
+      "family": "CloudOpsManagement",
+      "family_group": "CloudOpsManagement",
+      "name": "CloudOpsManagement-PT-00010by00005",
+      "published_ordinal": 3,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CloudOpsManagement-PT-00010by00005.tgz",
+      "sha256": "8ac17d6f7bf93f13b4ca0bb97ded733e117f9ce809bbedc7bd735a7a314af800"
+    },
+    {
+      "family": "CloudOpsManagement",
+      "family_group": "CloudOpsManagement",
+      "name": "CloudOpsManagement-PT-00040by00020",
+      "published_ordinal": 5,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CloudOpsManagement-PT-00040by00020.tgz",
+      "sha256": "9b3ccda9d14fbbae94a1929e12f10d44698ec104b376349fa90e3fb199c09080"
+    },
+    {
+      "family": "GPUForwardProgress",
+      "family_group": "GPUForwardProgress",
+      "name": "GPUForwardProgress-PT-08a",
+      "published_ordinal": 3,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/GPUForwardProgress-PT-08a.tgz",
+      "sha256": "17102e973f8ffa488f19e1f6cd02bed35f211224aa9b6960ecfcd3086420e1eb"
+    },
+    {
+      "family": "GPUForwardProgress",
+      "family_group": "GPUForwardProgress",
+      "name": "GPUForwardProgress-PT-12a",
+      "published_ordinal": 5,
+      "split": "development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/GPUForwardProgress-PT-12a.tgz",
+      "sha256": "b77194246df0059c4432de51558dbbf1d35c652afcff3d2d71ebe0fca24a04a1"
+    },
+    {
+      "family": "ShieldPPPs",
+      "family_group": "ShieldPPPs",
+      "name": "ShieldPPPs-PT-002A",
+      "published_ordinal": 3,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/ShieldPPPs-PT-002A.tgz",
+      "sha256": "056977bcbb06dff7e49d837108dd9b2e5b67c89785506a34e43ff2f91288ae81"
+    },
+    {
+      "family": "ShieldPPPs",
+      "family_group": "ShieldPPPs",
+      "name": "ShieldPPPs-PT-003A",
+      "published_ordinal": 5,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/ShieldPPPs-PT-003A.tgz",
+      "sha256": "01d1252808a3c88bfbabc5bda45006ba6bcca7385152ba1f843a0ca6cf89bb83"
+    },
+    {
+      "family": "TwoPhaseLocking",
+      "family_group": "TwoPhaseLocking",
+      "name": "TwoPhaseLocking-PT-nC00010vD",
+      "published_ordinal": 3,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TwoPhaseLocking-PT-nC00010vD.tgz",
+      "sha256": "5a4d4bd0b2f9ce5e0869018b4dac14a56a6405d1d5a85ca4c3bd5005721dd4d4"
+    },
+    {
+      "family": "TwoPhaseLocking",
+      "family_group": "TwoPhaseLocking",
+      "name": "TwoPhaseLocking-PT-nC00020vD",
+      "published_ordinal": 5,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TwoPhaseLocking-PT-nC00020vD.tgz",
+      "sha256": "41921d66bdee889d3cdacbe785898cb2a9e5f30a4b0dee7807f03efc71cd8b7c"
+    },
+    {
+      "family": "LeafsetExtension",
+      "family_group": "LeafsetExtension",
+      "name": "LeafsetExtension-PT-S08C4",
+      "published_ordinal": 3,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/LeafsetExtension-PT-S08C4.tgz",
+      "sha256": "bbc77d2ffb21536747c7a04b6460bbaa8b2d578a9c906fe4c4e381cceb6298bb"
+    },
+    {
+      "family": "LeafsetExtension",
+      "family_group": "LeafsetExtension",
+      "name": "LeafsetExtension-PT-S16C3",
+      "published_ordinal": 5,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/LeafsetExtension-PT-S16C3.tgz",
+      "sha256": "c1947c91fab914f9335d966d59932e2a3076a26353c951e2d0ee9e81826adce9"
+    },
+    {
+      "family": "ERK",
+      "family_group": "ERK",
+      "name": "ERK-PT-000100",
+      "published_ordinal": 3,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/ERK-PT-000100.tgz",
+      "sha256": "b2df0d70e2e7d86b7ab3f22a7df27e3b81181a51bf57841f5d92d44a6df5c233"
+    },
+    {
+      "family": "ERK",
+      "family_group": "ERK",
+      "name": "ERK-PT-010000",
+      "published_ordinal": 5,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/ERK-PT-010000.tgz",
+      "sha256": "1cf55a281faa3394f6841a2a95b96ce9333c27c56148bbfb0bb21e1f3e053d23"
+    },
+    {
+      "family": "Sudoku",
+      "family_group": "Sudoku",
+      "name": "Sudoku-PT-AN03",
+      "published_ordinal": 3,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Sudoku-PT-AN03.tgz",
+      "sha256": "d9b0f2c111309eafaa1a6302fa0b43575561c4c17f44c5ad05c7b2ca34190535"
+    },
+    {
+      "family": "Sudoku",
+      "family_group": "Sudoku",
+      "name": "Sudoku-PT-AN05",
+      "published_ordinal": 5,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Sudoku-PT-AN05.tgz",
+      "sha256": "0acecb2f71ef4e8b4f814ec5670b58e1bbe3ccf7e3153de1fc307a0eee6605f1"
+    },
+    {
+      "family": "HirschbergSinclair",
+      "family_group": "HirschbergSinclair",
+      "name": "HirschbergSinclair-PT-15",
+      "published_ordinal": 3,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/HirschbergSinclair-PT-15.tgz",
+      "sha256": "107e5d163ebd4e88dd70a2738e01dc6989b61ebc40813f221d992831bddf1d87"
+    },
+    {
+      "family": "HirschbergSinclair",
+      "family_group": "HirschbergSinclair",
+      "name": "HirschbergSinclair-PT-25",
+      "published_ordinal": 5,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/HirschbergSinclair-PT-25.tgz",
+      "sha256": "f474cc3e623f598535b37f4dc201a1b0205e3c6683a744c8bafe66643367fd79"
+    },
+    {
+      "family": "AirplaneLD",
+      "family_group": "AirplaneLD",
+      "name": "AirplaneLD-PT-0050",
+      "published_ordinal": 3,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/AirplaneLD-PT-0050.tgz",
+      "sha256": "912417e959e7b50a6f8da18425744eb455c8505802078fb293b60fb75481b7b6"
+    },
+    {
+      "family": "AirplaneLD",
+      "family_group": "AirplaneLD",
+      "name": "AirplaneLD-PT-0200",
+      "published_ordinal": 5,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/AirplaneLD-PT-0200.tgz",
+      "sha256": "c262fdbde160aa880cb002f01724f0bf9a4110ad1b386951ab921ddd15cb9a78"
+    },
+    {
+      "family": "CloudDeployment",
+      "family_group": "CloudDeployment",
+      "name": "CloudDeployment-PT-3a",
+      "published_ordinal": 3,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CloudDeployment-PT-3a.tgz",
+      "sha256": "b770c71fc4aac5908a4c1514f41a55b959df87545df2f818f1128772c304f940"
+    },
+    {
+      "family": "CloudDeployment",
+      "family_group": "CloudDeployment",
+      "name": "CloudDeployment-PT-4a",
+      "published_ordinal": 5,
+      "split": "evaluation",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CloudDeployment-PT-4a.tgz",
+      "sha256": "04e096c808514c72c857bf09df7c6c3123c0a191ca246c36b4a0e9657819deb0"
+    }
+  ]
+}

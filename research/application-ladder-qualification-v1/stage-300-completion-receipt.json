@@ -1,0 +1,10 @@
+{
+  "terminal": true,
+  "session_id": "81844",
+  "exit_code": 0,
+  "output": "results/linux-application-ladder-qualification-v1-300",
+  "sha256": {
+    "environment.json": "0b696719f7b0ab6e222734aea1ec77d0d0db1bc8d638f19a570753f23aa68236",
+    "runs.jsonl": "2442f4a1d5c75670d356f43a07cb66fc05517784d2d9b9f9dd286fd43ec5734f"
+  }
+}

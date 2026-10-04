@@ -1,0 +1,31 @@
+{
+  "scope": "Full37-query classical SMPT corpus, local same-engine before/after coverage comparison; not isolated Linux competitive timing.",
+  "corpus": "benchmarks/smpt-classic",
+  "manifest_sha256": "bab96510954af8f7292a430c981ea360f47b792974e194fd9830a007bcd296a0",
+  "queries": 37,
+  "expected_rows": 148,
+  "seconds": 2,
+  "repeat": 1,
+  "memory_mib": 2048,
+  "outer_grace": 0,
+  "order_seed": 20261007,
+  "methods": {
+    "before-cut": "token-cut",
+    "after-cut": "token-cut",
+    "before-bounded": "bounded-token-cut",
+    "after-bounded": "bounded-token-cut"
+  },
+  "binaries": {
+    "before": {
+      "path": "results/solver-capacity-direct-v1/vass-reach",
+      "sha256": "bb449a8f64a3d2a01a099b14a3b2b016eae729c6eaed86ae25a6e8f26e2aa23a"
+    },
+    "after": {
+      "path": "results/solver-sparse-token-flow-v1/vass-reach",
+      "sha256": "3a88b9f53b202360819c164b708454f640cf52969224957845d32be12400e24d"
+    }
+  },
+  "input_scope": "Original PNML/XML, parsing and preprocessing included. Capacity frontend shortcut does not run for token-cut engines.",
+  "validation": "Independent Python checking, separately bounded30seconds/2GiB.",
+  "reporting": "Retain all37queries, unknowns, resource/setup/validation failures. Single Mac repetition qualifies coverage; timing is diagnostic only."
+}

@@ -1,0 +1,29 @@
+<property-set><property>
+    <id>CANConstruction-PT-040-ReachabilityCardinality-02</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <disjunction>
+            <integer-le>
+              <tokens-count>
+                <place>Node32requestsent31</place>
+              </tokens-count>
+              <tokens-count>
+                <place>Node28GiveAnswer18</place>
+              </tokens-count>
+            </integer-le>
+            <integer-le>
+              <tokens-count>
+                <place>Node20IsInserted</place>
+              </tokens-count>
+              <tokens-count>
+                <place>Node16DHTinfo2</place>
+              </tokens-count>
+            </integer-le>
+          </disjunction>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

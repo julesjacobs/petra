@@ -1,0 +1,21 @@
+<property-set><property>
+    <id>CloudOpsManagement-PT-00010by00005-ReachabilityCardinality-05</id>
+    <description>Automatically generated</description>
+    <formula>
+      <exists-path>
+        <finally>
+          <negation>
+            <integer-le>
+              <tokens-count>
+                <place>WSRuntime2</place>
+              </tokens-count>
+              <tokens-count>
+                <place>WSRuntime2</place>
+              </tokens-count>
+            </integer-le>
+          </negation>
+        </finally>
+      </exists-path>
+    </formula>
+  </property>
+  </property-set>

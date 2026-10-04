@@ -1,0 +1,26 @@
+{
+  "scope": "Complete frozen368-property MCC stress development corpus, one-repeat regression/coverage pilot; no selected exclusions.",
+  "corpus": "benchmarks/mcc-stress-development",
+  "manifest_sha256": "2f23cc2dcfb72d8cf03979830ad4cd0710751507208a8c000e5ba3a5b7b1a994",
+  "methods": {
+    "before": [
+      "portfolio-focused",
+      "linux-solver-dag-sat-v2"
+    ],
+    "after": [
+      "portfolio-focused",
+      "linux-solver-relevance-automaton-v1"
+    ],
+    "verifypn-default": "unrestricted default"
+  },
+  "seconds": 5,
+  "repeats": 1,
+  "expected_rows": 1104,
+  "cpus": [
+    8
+  ],
+  "memory_mib": 2048,
+  "perf": true,
+  "order_seed": 20261004,
+  "validation": "Native original-input results independently checked in separately bounded worker; competitor answers tool-reported."
+}

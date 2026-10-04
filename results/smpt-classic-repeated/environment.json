@@ -1,0 +1,20 @@
+{
+  "seconds": 2.0,
+  "repeat": 3,
+  "methods": [
+    "portfolio-next",
+    "smpt"
+  ],
+  "max_states": 200000,
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "queries": 37,
+  "manifest_sha256": "bab96510954af8f7292a430c981ea360f47b792974e194fd9830a007bcd296a0",
+  "binary_sha256": "91ece0b4b7ae9d670ec9e966293dd67319d75971e850e07aa0171c27c7dae08c",
+  "script_sha256": {
+    "benchmark_smpt_classic.py": "aac129307189a1bbb14a4f9f7c11b3c09416e86f33198374bd9dbbc192f16ad9",
+    "smpt_import.py": "3d398d8901303d21ca589aef07302917e8ca39d10542f0841c375a6835a2bc7d",
+    "benchmark.py": "19da2d3a9c5ad36bdd869364ea1a88dfc4d8c2f1a7f16416fef22685f894f26d"
+  },
+  "scope": "Whole original properties; sequential cold processes. Native branches share a budget; AG answers invert counterexample reachability. Verification excluded from wall time.",
+  "smpt": "Existing SER artifact SMPT, STATE-EQUATION BMC, no net reductions; ceil(seconds) internal timeout and seconds+1 outer timeout. No independent SMPT proof check."
+}

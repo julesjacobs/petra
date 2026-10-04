@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "rows": 18,
+  "verdicts": {
+    "unknown": 18
+  },
+  "branch_verdicts": {
+    "unknown": 24,
+    "unreachable": 6
+  },
+  "branches": 30,
+  "reasons": {
+    "time limit": 14,
+    "1 arithmetic nodes, 0 integer models, 0 causal cuts": 6,
+    "no JSON answer": 10
+  },
+  "expired_branches": 12,
+  "branches_over_assigned_wall": 24,
+  "memory_limit_branches": 0,
+  "sampled_peak_rss_bytes": 1420476416,
+  "plan_sha256": "cc61e0ecf13d679bbcf6acdbe4d7dd9b123ac47fe24c57cee1ac9f52f0129c29",
+  "rows_sha256": "743bf17e089dec31952290f5185685b9f85a74e39d7159a685a77e8804d7d494",
+  "audit_script_sha256": "e8a71024b5170775b431bbe66c23c2dcb3cb4e5d46b21080673aceee36ae5df7"
+}

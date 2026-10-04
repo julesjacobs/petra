@@ -1,0 +1,330 @@
+{
+  "format": "mcc-stress-selection-v1",
+  "selection": "Use only families in publication-selection with split=development. In each family, preserve the source index published PT instance order, deduplicating names at first occurrence. Choose the last three instances with ordinal greater than the largest previously selected development ordinal, or all qualifying instances if fewer than three. Keep all 16 ReachabilityCardinality property slots per model, including failed imports. Selection uses no solver outcomes. This is stress-development, not independent held-out evaluation.",
+  "source": "https://yanntm.github.io/pnmcc-models-2021/",
+  "index_sha256": "58b01d6b01987ef8b4d8fada40b5d392913eb9e3e2fd6ab5dfceded4fbb5fe3f",
+  "prior_selection_sha256": "9dc8baf28450abdc3ee409b941c6589a42e0731c712f769a7fb5c7405b1c58fd",
+  "expected_models": 23,
+  "expected_properties": 368,
+  "family_decisions": [
+    {
+      "family": "DLCflexbar",
+      "previous_max_ordinal": 5,
+      "published_instances": 14,
+      "eligible_instances": 9,
+      "selected_ordinals": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "family": "JoinFreeModules",
+      "previous_max_ordinal": 5,
+      "published_instances": 12,
+      "eligible_instances": 7,
+      "selected_ordinals": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "family": "CircularTrains",
+      "previous_max_ordinal": 5,
+      "published_instances": 7,
+      "eligible_instances": 2,
+      "selected_ordinals": [
+        6,
+        7
+      ]
+    },
+    {
+      "family": "AutoFlight",
+      "previous_max_ordinal": 5,
+      "published_instances": 20,
+      "eligible_instances": 15,
+      "selected_ordinals": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "family": "Echo",
+      "previous_max_ordinal": 5,
+      "published_instances": 9,
+      "eligible_instances": 4,
+      "selected_ordinals": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "family": "CANConstruction",
+      "previous_max_ordinal": 5,
+      "published_instances": 11,
+      "eligible_instances": 6,
+      "selected_ordinals": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "family": "CloudOpsManagement",
+      "previous_max_ordinal": 5,
+      "published_instances": 14,
+      "eligible_instances": 9,
+      "selected_ordinals": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "family": "GPUForwardProgress",
+      "previous_max_ordinal": 5,
+      "published_instances": 20,
+      "eligible_instances": 15,
+      "selected_ordinals": [
+        18,
+        19,
+        20
+      ]
+    }
+  ],
+  "models": [
+    {
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "name": "DLCflexbar-PT-7b",
+      "published_ordinal": 12,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DLCflexbar-PT-7b.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "name": "DLCflexbar-PT-8a",
+      "published_ordinal": 13,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DLCflexbar-PT-8a.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "DLCflexbar",
+      "family_group": "DLCflexbar",
+      "name": "DLCflexbar-PT-8b",
+      "published_ordinal": 14,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DLCflexbar-PT-8b.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "JoinFreeModules",
+      "family_group": "JoinFreeModules",
+      "name": "JoinFreeModules-PT-1000",
+      "published_ordinal": 10,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/JoinFreeModules-PT-1000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "JoinFreeModules",
+      "family_group": "JoinFreeModules",
+      "name": "JoinFreeModules-PT-2000",
+      "published_ordinal": 11,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/JoinFreeModules-PT-2000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "JoinFreeModules",
+      "family_group": "JoinFreeModules",
+      "name": "JoinFreeModules-PT-5000",
+      "published_ordinal": 12,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/JoinFreeModules-PT-5000.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CircularTrains",
+      "family_group": "CircularTrains",
+      "name": "CircularTrains-PT-384",
+      "published_ordinal": 6,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CircularTrains-PT-384.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CircularTrains",
+      "family_group": "CircularTrains",
+      "name": "CircularTrains-PT-768",
+      "published_ordinal": 7,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CircularTrains-PT-768.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "AutoFlight",
+      "family_group": "AutoFlight",
+      "name": "AutoFlight-PT-48b",
+      "published_ordinal": 18,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/AutoFlight-PT-48b.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "AutoFlight",
+      "family_group": "AutoFlight",
+      "name": "AutoFlight-PT-96a",
+      "published_ordinal": 19,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/AutoFlight-PT-96a.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "AutoFlight",
+      "family_group": "AutoFlight",
+      "name": "AutoFlight-PT-96b",
+      "published_ordinal": 20,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/AutoFlight-PT-96b.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "Echo",
+      "family_group": "Echo",
+      "name": "Echo-PT-d03r07",
+      "published_ordinal": 7,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Echo-PT-d03r07.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "Echo",
+      "family_group": "Echo",
+      "name": "Echo-PT-d04r03",
+      "published_ordinal": 8,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Echo-PT-d04r03.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "Echo",
+      "family_group": "Echo",
+      "name": "Echo-PT-d05r03",
+      "published_ordinal": 9,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/Echo-PT-d05r03.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CANConstruction",
+      "family_group": "CANConstruction",
+      "name": "CANConstruction-PT-080",
+      "published_ordinal": 9,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CANConstruction-PT-080.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CANConstruction",
+      "family_group": "CANConstruction",
+      "name": "CANConstruction-PT-090",
+      "published_ordinal": 10,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CANConstruction-PT-090.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CANConstruction",
+      "family_group": "CANConstruction",
+      "name": "CANConstruction-PT-100",
+      "published_ordinal": 11,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CANConstruction-PT-100.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CloudOpsManagement",
+      "family_group": "CloudOpsManagement",
+      "name": "CloudOpsManagement-PT-05120by02560",
+      "published_ordinal": 12,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CloudOpsManagement-PT-05120by02560.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CloudOpsManagement",
+      "family_group": "CloudOpsManagement",
+      "name": "CloudOpsManagement-PT-10240by05120",
+      "published_ordinal": 13,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CloudOpsManagement-PT-10240by05120.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CloudOpsManagement",
+      "family_group": "CloudOpsManagement",
+      "name": "CloudOpsManagement-PT-20480by10240",
+      "published_ordinal": 14,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CloudOpsManagement-PT-20480by10240.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "GPUForwardProgress",
+      "family_group": "GPUForwardProgress",
+      "name": "GPUForwardProgress-PT-36b",
+      "published_ordinal": 18,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/GPUForwardProgress-PT-36b.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "GPUForwardProgress",
+      "family_group": "GPUForwardProgress",
+      "name": "GPUForwardProgress-PT-40a",
+      "published_ordinal": 19,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/GPUForwardProgress-PT-40a.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "GPUForwardProgress",
+      "family_group": "GPUForwardProgress",
+      "name": "GPUForwardProgress-PT-40b",
+      "published_ordinal": 20,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/GPUForwardProgress-PT-40b.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    }
+  ]
+}

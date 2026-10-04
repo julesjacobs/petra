@@ -1,0 +1,47 @@
+{
+  "status": "registered before launch",
+  "queries": [
+    "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204"
+  ],
+  "properties": 1,
+  "expected_rows": 2,
+  "source_sha256": {
+    "focused": "4628a19715b022773b638081c7489e534b888a59bf8665a74eaff7e767196317",
+    "symbolic": "4628a19715b022773b638081c7489e534b888a59bf8665a74eaff7e767196317"
+  },
+  "manifest_sha256": "b922231712f9b02ba2a1972adc70a64f86e163d22afee44b56e67e833205c8e4",
+  "corpus": "benchmarks/hard-survivors-v1",
+  "methods": {
+    "focused": "portfolio-focused",
+    "symbolic": "portfolio-symbolic"
+  },
+  "seconds": 30,
+  "outer_seconds": 32,
+  "max_states": 2000000,
+  "memory_mib": 2048,
+  "repeat": 1,
+  "validation": {
+    "seconds": 60,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 200000000,
+    "separate_from_solver_timing": true
+  },
+  "order_seed": 20261031,
+  "output": "results/double-lock-gap-diagnostic-v1",
+  "binaries": {
+    "focused": {
+      "path": "results/solver-capacity-direct-v1/vass-reach",
+      "sha256": "bb449a8f64a3d2a01a099b14a3b2b016eae729c6eaed86ae25a6e8f26e2aa23a"
+    },
+    "symbolic": {
+      "path": "results/solver-capacity-direct-v1/vass-reach",
+      "sha256": "bb449a8f64a3d2a01a099b14a3b2b016eae729c6eaed86ae25a6e8f26e2aa23a"
+    }
+  },
+  "scope": "Outcome-selected one-query mechanism diagnostic. Local macOS frozen capacity-direct source; not comparable timing to Linux. No competition or general coverage claim.",
+  "selection_evidence": {
+    "research/linux-hard-survivors-v1.log": "fdca6486d544b9081201e55a320b72df7fe778a4bcad3d7d2ebcd885d49b486f"
+  },
+  "selection_note": "Snapshot hash of live log through preliminary VerifyPN positive and Boop focused unknown; live log continues. Full300s matrix still pending."
+}

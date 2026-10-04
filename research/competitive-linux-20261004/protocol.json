@@ -1,0 +1,80 @@
+{
+  "format": "competitive-original-linux-protocol-v1",
+  "status": "analysis-and-measurement-rules-before-launch",
+  "corpus": "benchmarks/competitive-development-v5",
+  "properties": 368,
+  "exact_ordered_branch_representatives": 366,
+  "source_corpora": [
+    {
+      "name": "existing176",
+      "path": "benchmarks/general-development-v3",
+      "properties": 176,
+      "representatives": 175
+    },
+    {
+      "name": "expansion192",
+      "path": "benchmarks/development-expansion-v4",
+      "properties": 192,
+      "representatives": 191
+    }
+  ],
+  "methods": [
+    "native-excess",
+    "verifypn-default",
+    "smpt-mcc-portable",
+    "its-mcc"
+  ],
+  "native_engine": "portfolio-excess",
+  "max_states": 2000000,
+  "buffer_agglomeration_methods": [
+    "native-excess"
+  ],
+  "seconds": 5,
+  "outer_grace": 0,
+  "linux_cpus": [
+    8
+  ],
+  "memory_mib": 2048,
+  "memory_enforcement": "Linux systemd process-tree cgroup",
+  "perf": true,
+  "blocks": [
+    {
+      "name": "repeat1",
+      "order_seed": 2026100405,
+      "properties": 368,
+      "rows": 1472
+    },
+    {
+      "name": "repeat2",
+      "order_seed": 2026100406,
+      "properties": 368,
+      "rows": 1472
+    }
+  ],
+  "expected_rows": 2944,
+  "ordering": "Each block shuffles all 368 queries with its frozen seed. Rotate the first method by query index; reverse the base method order between blocks. Freeze exact block commands and schedules before competitive execution. Each block requests runner repeat=1.",
+  "input_contract": "The original PNML and original single-property XML define the task. Startup, per-property staging or conversion, and all branches share one strict five-second whole-property invocation. No canonical-input shortcut or per-branch budget renewal. Benchmark acquisition and common integrity hashing occur before timing; each tool's query-specific preprocessing occurs within its deadline.",
+  "validation": {
+    "native": "Separate bounded independent original-input translation and witness/certificate checking",
+    "competitors": "Tool-reported unless separately and explicitly checked",
+    "seconds": 60,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_check_max_work": 200000000,
+    "included_in_solver_timing": false
+  },
+  "acceptance": "Accept a definitive result only with valid property semantics, complete agreed output, wall_seconds <= 5, exit_code=0, no timeout/deadline/memory/error/capability/subprocess failure, and successful bounded independent checking for native answers. Failed external definitive output becomes unknown before publication; preserve raw output, reported truth and every failure flag. A retained failed invocation is valid evidence of an unknown outcome, not an automatic campaign-audit failure. Any invalid accepted answer or definitive disagreement fails the audit and requires investigation.",
+  "launch_gate": "Freeze candidate, competitors, dependencies, runner, inputs, commands and this protocol by hash. Require qualified ITS runtime and exact four-tool known-answer EF/AG harness checks, SMPT backend capability checks, verified native source/build provenance, and an idle measurement host. Root owns launch. Preparation does not launch competitive measurements.",
+  "isolation": "One solver invocation or native checker at a time on the measurement host. No concurrent builds, tests, deployments or other benchmark work. CPU affinity does not imply exclusive host isolation; record host and workloads. Preserve interrupted or partial blocks; no replacement runs under this campaign identity.",
+  "reporting": {
+    "coverage": "For each block and method report every original slot and every ordered-branch representative, by source corpus, family and pooled. Report reachable/unreachable/unknown plus overlapping failure flags. Report solved intersection and union across blocks as descriptive repeatability, never as a measured portfolio.",
+    "pairs": "Compare native-excess with each external method within each block. Preserve exact gain/loss query lists, stable gains/losses across both blocks, and any solved-set variation. Also report joint unresolved and method-exclusive sets.",
+    "timing": "Report summed solver wall time, separately summed native validation time, actual recorded solver-plus-validation costs, and mean solver PAR-2 charging every unsolved row ten seconds. External totals contain no equivalent independent proof-checking cost; state that asymmetry.",
+    "conditional_timing": "For each candidate/competitor pair and reporting view, select only queries solved by both methods in both blocks. Use per-query medians, then geometric mean competitor/candidate ratio. Show subset denominator and query list. Report candidate solver-only and solver-plus-validation ratios separately with checking asymmetry explicit.",
+    "resources": "Retain raw systemd and perf artifacts. Report peak memory and counter availability over the full denominator. Separate full and multiplexed counters; missing or invalid values are never zero and never silently dropped from availability counts.",
+    "reproduction": "Publish exact frozen source/binary/tool/runtime identities, input/manifest identities, protocol and execution plan, terminal receipts, artifact hashes, saved validator requests/responses, audit source and all result rows."
+  },
+  "scope": "Two Linux development repetitions of the current candidate and three qualified competitors at five seconds. The current Mac 363/368 comparison and earlier Linux candidates are separate evidence and cannot substitute for these rows. No held-out, novelty, broad solver-superiority or precise confidence-interval claim follows from this campaign.",
+  "holdout": "Do not select, import, execute, inspect results from, or tune on any reserved evaluation family. Only the two listed development corpora enter this campaign.",
+  "qualification_limitations": "The ITS native runtime can print a correct negative formula and fail to exit within five seconds, and can reject negative-coefficient products. Such trials must remain unknown. Runtime qualification requires correct accepted EF/AG true/false results on supported synthetic fixtures plus conservative rejection of documented unsupported, nonterminating and oversized cases. The exact four-tool harness preserves its original EF-2 fixture and permits only ITS to return a documented timeout/unknown there; all other fixture/method pairs must return the known answer. No competitive outcome informed this exception."
+}

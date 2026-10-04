@@ -1,0 +1,367 @@
+{
+  "scope": "Additional original-LoLA positive-witness validation only; no solver timings or negative certification. All native positives in the explicitly selected suite (or the whole corpus when no suite is specified) are selected from the complete measured matrix.",
+  "suite": "fastforward-repository-random_walk",
+  "selected_properties": 43,
+  "allow_unrebased_source_mapping": true,
+  "source_mapping_exceptions": [
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_40_0_7d80d074",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_40_0_7d80d074/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_40_0_7d80d074/source-mapping.json",
+      "sha256": "07d0390c0a6a762e0aa71ed0410eff948457b92dfe55cae59b19ab2594d75bf0"
+    },
+    {
+      "query": "ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Boop_simple_vf_satabs_2_multi_90_0_071d43c6/source-mapping.json",
+      "sha256": "07d0390c0a6a762e0aa71ed0410eff948457b92dfe55cae59b19ab2594d75bf0"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_100_0_fddc5764/source-mapping.json",
+      "sha256": "7f72515aa7b19fc7e029637f2220f150138928501199041b31ef8bdce5b67189"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_25_0_473b7be1",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_25_0_473b7be1/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_25_0_473b7be1/source-mapping.json",
+      "sha256": "7f72515aa7b19fc7e029637f2220f150138928501199041b31ef8bdce5b67189"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_30_0_cfcf0d79",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_30_0_cfcf0d79/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_30_0_cfcf0d79/source-mapping.json",
+      "sha256": "7f72515aa7b19fc7e029637f2220f150138928501199041b31ef8bdce5b67189"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_35_0_45390a04/source-mapping.json",
+      "sha256": "7f72515aa7b19fc7e029637f2220f150138928501199041b31ef8bdce5b67189"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_40_0_6edcf2e4/source-mapping.json",
+      "sha256": "7f72515aa7b19fc7e029637f2220f150138928501199041b31ef8bdce5b67189"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_50_0_ca513233",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_50_0_ca513233/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_50_0_ca513233/source-mapping.json",
+      "sha256": "7f72515aa7b19fc7e029637f2220f150138928501199041b31ef8bdce5b67189"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_60_0_3391785f/source-mapping.json",
+      "sha256": "7f72515aa7b19fc7e029637f2220f150138928501199041b31ef8bdce5b67189"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_75_0_4ea8c7e2",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_75_0_4ea8c7e2/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_75_0_4ea8c7e2/source-mapping.json",
+      "sha256": "7f72515aa7b19fc7e029637f2220f150138928501199041b31ef8bdce5b67189"
+    },
+    {
+      "query": "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_Function_Pointer3_vs_satabs_3_multi_90_0_07f99807/source-mapping.json",
+      "sha256": "7f72515aa7b19fc7e029637f2220f150138928501199041b31ef8bdce5b67189"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_100_0_cd5224b8",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_dekker_vs_satabs_2_multi_100_0_cd5224b8/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_100_0_cd5224b8/source-mapping.json",
+      "sha256": "878ff0e0a3f451824667f082e36d996725ff8cae1506c4731cdd7b6311a81436"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b/source-mapping.json",
+      "sha256": "878ff0e0a3f451824667f082e36d996725ff8cae1506c4731cdd7b6311a81436"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_30_0_60ea6be9",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_dekker_vs_satabs_2_multi_30_0_60ea6be9/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_30_0_60ea6be9/source-mapping.json",
+      "sha256": "878ff0e0a3f451824667f082e36d996725ff8cae1506c4731cdd7b6311a81436"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_35_0_9d7456ea",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_dekker_vs_satabs_2_multi_35_0_9d7456ea/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_35_0_9d7456ea/source-mapping.json",
+      "sha256": "878ff0e0a3f451824667f082e36d996725ff8cae1506c4731cdd7b6311a81436"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_50_0_a060d7a3",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_dekker_vs_satabs_2_multi_50_0_a060d7a3/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_50_0_a060d7a3/source-mapping.json",
+      "sha256": "878ff0e0a3f451824667f082e36d996725ff8cae1506c4731cdd7b6311a81436"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_75_0_39e56bc6",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_dekker_vs_satabs_2_multi_75_0_39e56bc6/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_75_0_39e56bc6/source-mapping.json",
+      "sha256": "878ff0e0a3f451824667f082e36d996725ff8cae1506c4731cdd7b6311a81436"
+    },
+    {
+      "query": "ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_dekker_vs_satabs_2_multi_90_0_6088ee5f/source-mapping.json",
+      "sha256": "878ff0e0a3f451824667f082e36d996725ff8cae1506c4731cdd7b6311a81436"
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_50_0_85cc4181",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_double_lock_p1_vs_satabs_2_multi_50_0_85cc4181/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_double_lock_p1_vs_satabs_2_multi_50_0_85cc4181/source-mapping.json",
+      "sha256": "b53d6a88fbcb17c27f5e50769ff69567d65c679193ffadf14101b8b6f93eb837"
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_2_multi_75_0_4e32d951",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_double_lock_p1_vs_satabs_2_multi_75_0_4e32d951/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_double_lock_p1_vs_satabs_2_multi_75_0_4e32d951/source-mapping.json",
+      "sha256": "b53d6a88fbcb17c27f5e50769ff69567d65c679193ffadf14101b8b6f93eb837"
+    },
+    {
+      "query": "ff_random_walk_double_lock_p1_vs_satabs_3_multi_90_0_d9e4397c",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_double_lock_p1_vs_satabs_3_multi_90_0_d9e4397c/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_double_lock_p1_vs_satabs_3_multi_90_0_d9e4397c/source-mapping.json",
+      "sha256": "05832c55eac3763331114c3604ecfd810e6777f757cbe050c167470bf0a920fc"
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_double_lock_p2_vs_satabs_2_multi_100_0_c52c1204/source-mapping.json",
+      "sha256": "191d5dae1991525f630dd55e549a78572eff976319caa8f979137012373d41a3"
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_75_0_0282cae8",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_double_lock_p2_vs_satabs_2_multi_75_0_0282cae8/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_double_lock_p2_vs_satabs_2_multi_75_0_0282cae8/source-mapping.json",
+      "sha256": "191d5dae1991525f630dd55e549a78572eff976319caa8f979137012373d41a3"
+    },
+    {
+      "query": "ff_random_walk_double_lock_p2_vs_satabs_2_multi_90_0_991eb40a",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_double_lock_p2_vs_satabs_2_multi_90_0_991eb40a/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_double_lock_p2_vs_satabs_2_multi_90_0_991eb40a/source-mapping.json",
+      "sha256": "191d5dae1991525f630dd55e549a78572eff976319caa8f979137012373d41a3"
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_100_0_964d5f2c",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_double_lock_p3_vs_satabs_3_multi_100_0_964d5f2c/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_double_lock_p3_vs_satabs_3_multi_100_0_964d5f2c/source-mapping.json",
+      "sha256": "0f9e67dd939d6148fa0f2f18a52d12267c834b307205a45db3deb2b3fc7f4f64"
+    },
+    {
+      "query": "ff_random_walk_double_lock_p3_vs_satabs_3_multi_75_0_28df1c8f",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_double_lock_p3_vs_satabs_3_multi_75_0_28df1c8f/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_double_lock_p3_vs_satabs_3_multi_75_0_28df1c8f/source-mapping.json",
+      "sha256": "0f9e67dd939d6148fa0f2f18a52d12267c834b307205a45db3deb2b3fc7f4f64"
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_100_0_d3394668",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_100_0_d3394668/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_100_0_d3394668/source-mapping.json",
+      "sha256": "34507abadf08d397c05114852f133c5764bf42e4aec81dc2bd2807b43e2675d2"
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_25_0_109789c0",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_25_0_109789c0/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_25_0_109789c0/source-mapping.json",
+      "sha256": "34507abadf08d397c05114852f133c5764bf42e4aec81dc2bd2807b43e2675d2"
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_60_0_7e4914f0",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_60_0_7e4914f0/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_60_0_7e4914f0/source-mapping.json",
+      "sha256": "34507abadf08d397c05114852f133c5764bf42e4aec81dc2bd2807b43e2675d2"
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_75_0_4caa7013",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_75_0_4caa7013/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_75_0_4caa7013/source-mapping.json",
+      "sha256": "34507abadf08d397c05114852f133c5764bf42e4aec81dc2bd2807b43e2675d2"
+    },
+    {
+      "query": "ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_90_0_7680cd5d",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_90_0_7680cd5d/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_lu_fig2_fixed_vs_satabs_3_multi_90_0_7680cd5d/source-mapping.json",
+      "sha256": "34507abadf08d397c05114852f133c5764bf42e4aec81dc2bd2807b43e2675d2"
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_100_0_0dc8b190",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_peterson_vs_satabs_2_multi_100_0_0dc8b190/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_peterson_vs_satabs_2_multi_100_0_0dc8b190/source-mapping.json",
+      "sha256": "224614e802444fe583afe664b53d7a703693f3133908b1cbb40be3818a289726"
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_60_0_1f69f86b",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_peterson_vs_satabs_2_multi_60_0_1f69f86b/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_peterson_vs_satabs_2_multi_60_0_1f69f86b/source-mapping.json",
+      "sha256": "224614e802444fe583afe664b53d7a703693f3133908b1cbb40be3818a289726"
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_75_0_7b18af2a",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_peterson_vs_satabs_2_multi_75_0_7b18af2a/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_peterson_vs_satabs_2_multi_75_0_7b18af2a/source-mapping.json",
+      "sha256": "224614e802444fe583afe664b53d7a703693f3133908b1cbb40be3818a289726"
+    },
+    {
+      "query": "ff_random_walk_peterson_vs_satabs_2_multi_90_0_63a50e3a",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_peterson_vs_satabs_2_multi_90_0_63a50e3a/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_peterson_vs_satabs_2_multi_90_0_63a50e3a/source-mapping.json",
+      "sha256": "224614e802444fe583afe664b53d7a703693f3133908b1cbb40be3818a289726"
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_60_0_25230f49",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_pthread5_vs_satabs_3_multi_60_0_25230f49/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_pthread5_vs_satabs_3_multi_60_0_25230f49/source-mapping.json",
+      "sha256": "af062a770f2bb52ef72bfd61023f91c288dd93ef6152ed8f0926cefa8d17a1ea"
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_75_0_b294b730",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_pthread5_vs_satabs_3_multi_75_0_b294b730/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_pthread5_vs_satabs_3_multi_75_0_b294b730/source-mapping.json",
+      "sha256": "af062a770f2bb52ef72bfd61023f91c288dd93ef6152ed8f0926cefa8d17a1ea"
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_3_multi_90_0_a70a8618",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_pthread5_vs_satabs_3_multi_90_0_a70a8618/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_pthread5_vs_satabs_3_multi_90_0_a70a8618/source-mapping.json",
+      "sha256": "af062a770f2bb52ef72bfd61023f91c288dd93ef6152ed8f0926cefa8d17a1ea"
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_40_0_df2950d1",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_pthread5_vs_satabs_4_multi_40_0_df2950d1/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_pthread5_vs_satabs_4_multi_40_0_df2950d1/source-mapping.json",
+      "sha256": "3097d67b8d962a71ef7d331a6109411b019cbacaebc2cbe80e1c0b97be5ed164"
+    },
+    {
+      "query": "ff_random_walk_pthread5_vs_satabs_4_multi_75_0_a5685f8e",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_pthread5_vs_satabs_4_multi_75_0_a5685f8e/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_pthread5_vs_satabs_4_multi_75_0_a5685f8e/source-mapping.json",
+      "sha256": "3097d67b8d962a71ef7d331a6109411b019cbacaebc2cbe80e1c0b97be5ed164"
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_100_0_4df7a98c",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_szymanski_vs_satabs_2_multi_100_0_4df7a98c/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_szymanski_vs_satabs_2_multi_100_0_4df7a98c/source-mapping.json",
+      "sha256": "2af819dceccd73e946802c6a22f10b224a0009e9332998be8bec4add35bfac9f"
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_50_0_82faf12b",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_szymanski_vs_satabs_2_multi_50_0_82faf12b/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_szymanski_vs_satabs_2_multi_50_0_82faf12b/source-mapping.json",
+      "sha256": "2af819dceccd73e946802c6a22f10b224a0009e9332998be8bec4add35bfac9f"
+    },
+    {
+      "query": "ff_random_walk_szymanski_vs_satabs_2_multi_90_0_f3c821ab",
+      "field": "source_mapping",
+      "reason": "explicitly allowed missing unrebased source-mapping path",
+      "measured_path": "benchmarks/hard-development-v2/ff_random_walk_szymanski_vs_satabs_2_multi_90_0_f3c821ab/source-mapping.json",
+      "verified_source_path": "benchmarks/fastforward-import-v2/ff_random_walk_szymanski_vs_satabs_2_multi_90_0_f3c821ab/source-mapping.json",
+      "sha256": "2af819dceccd73e946802c6a22f10b224a0009e9332998be8bec4add35bfac9f"
+    }
+  ],
+  "source_corpus": "benchmarks/fastforward-import-v2",
+  "source_manifest_sha256": "c95d1a3a411e7b80c8db62d3fa088c62389d3fcbdfce58d7965dd30533884c99",
+  "expected_positives": 74,
+  "sources": {
+    "benchmarks/hard-development-v2/manifest.json": "1e77f4283218c14cb5f9265c372f7226e7402cdf08c245b2008d20d5485968ba",
+    "results/linux-hard-development-v2/environment.json": "b7c8bba686d7d00d281b8cab7048fd8954812d16d22772a0063e6c659b1a0718",
+    "results/linux-hard-development-v2/runs.jsonl": "82d53b349229d365403acd98695c8eaebf15b91d9f1098bc0bb0ad8dd859546d"
+  },
+  "checker_sources": {
+    "replay_fastforward_results.py": "0f1154c4584ecfd65342a284cb1d0f98365a6993edf47fd5286dae9b50860a57",
+    "analyze_original_comparison.py": "07ba010db85334ec952445018b9dceb005913fb32881a23aff43e89f8e7562d1",
+    "check_fastforward_source.py": "0138f3eaafe27b069ee84946208abdb57b1ec346bccfd69febb5874bd8cde218",
+    "fastforward_source_checker.py": "9ed6b87a7fd43c995ca68cdb76240f5022f2087238eb238176c80c02e518eee6",
+    "process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9"
+  }
+}

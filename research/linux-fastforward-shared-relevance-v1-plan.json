@@ -1,0 +1,35 @@
+{
+  "scope": "Full218-query imported FastForward development suite; common generated PNML/XML, offline source conversion excluded for all methods.",
+  "manifest_sha256": "c95d1a3a411e7b80c8db62d3fa088c62389d3fcbdfce58d7965dd30533884c99",
+  "queries": 218,
+  "expected_rows": 872,
+  "methods": [
+    "before",
+    "after",
+    "verifypn-default",
+    "smpt-full-portable"
+  ],
+  "seconds": 5,
+  "repeat": 1,
+  "linux_cpus": [
+    8
+  ],
+  "perf": true,
+  "memory_mib": 2048,
+  "order_seed": 20261005,
+  "native_engines": {
+    "before": "portfolio-focused/search-only-relevance frozen Linux binary331fd66ec3554f8d96822773ba96e81a61967f697c06bed534d66527890bc4a2",
+    "after": "portfolio-focused/shared-preprocessing frozen Linux binary0f1a9fba6a4f3f4190b44a4866d998acffed0ea02999118cc889666017a81a14"
+  },
+  "smoke_selection": [
+    "ff_coverability_mist_PN_leabasicapproach_28b876c3",
+    "ff_random_walk_mesh3x2_multi_100_0_508ba3c1",
+    "ff_sypet_geometry10_3e3a3835"
+  ],
+  "validation": "Native original generated PNML/XML answers separately checked with30s/2GiB bounds; source LoLA conversion checked independently offline. External answers tool-reported. Complete matrix and duplicate groups retained; no family held-out claim.",
+  "compatibility_evidence": {
+    "smoke": "results/linux-fastforward-smoke-v1:12rows, allnativepositiveanswersindependentlychecked; VerifyPN3positive,SMPT1positive/2timeouts",
+    "smpt_extended": "results/linux-fastforward-smpt-compatibility-v2:3rowsat15seconds;2positives,1reductiontimeout;no capability failures",
+    "caveat": "The2secondSMPTmesh timeout printed4ti2failure during interrupted reduction; preserved. Extended15second run times out without that diagnostic. Do not silently convert capability failures in full run into algorithmic defeats."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "registered before launch",
+  "queries": [
+    "AutoFlight-PT-48b__RC01",
+    "AutoFlight-PT-48b__RC02",
+    "AutoFlight-PT-48b__RC03",
+    "AutoFlight-PT-48b__RC12",
+    "AutoFlight-PT-48b__RC15",
+    "AutoFlight-PT-96b__RC05",
+    "AutoFlight-PT-96b__RC09",
+    "DLCflexbar-PT-7b__RC00",
+    "DLCflexbar-PT-7b__RC05",
+    "DLCflexbar-PT-7b__RC07",
+    "DLCflexbar-PT-7b__RC14",
+    "DLCflexbar-PT-8b__RC00",
+    "DLCflexbar-PT-8b__RC03",
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_25_0_473b7be1",
+    "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+    "ff_random_walk_pthread5_vs_satabs_3_multi_60_0_25230f49"
+  ],
+  "properties": 16,
+  "expected_rows": 32,
+  "original_selection": "research/stubborn-diagnostic-selection-v1.json",
+  "additional_selection": "All screen gains/losses absent from the original 13-case selection",
+  "additional_queries": [
+    "ff_random_walk_Function_Pointer3_vs_satabs_3_multi_25_0_473b7be1",
+    "ff_random_walk_dekker_vs_satabs_2_multi_25_0_ce78db7b",
+    "ff_random_walk_pthread5_vs_satabs_3_multi_60_0_25230f49"
+  ],
+  "binary": "results/solver-stubborn-v1/vass-reach",
+  "binary_sha256": "7277cdfa4bd16cc2e75649bdd9bd3558a9942ec03a5e1bd805b960f5b3d4cbb6",
+  "source_sha256": "84200bf3cc5cd782847bddb31ed7dc7e1f5ed6f62c66f1d8441cfda3e9aed46b",
+  "manifest_sha256": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+  "corpus": "benchmarks/candidate-challenges-v1",
+  "methods": {
+    "before": "portfolio-focused",
+    "after": "portfolio-stubborn"
+  },
+  "seconds": 5,
+  "outer_seconds": 7,
+  "max_states": 2000000,
+  "memory_mib": 2048,
+  "repeat": 1,
+  "validation": {
+    "seconds": 30,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 20000000,
+    "separate_from_solver_timing": true
+  },
+  "order_seed": 20261023,
+  "output": "results/stubborn-diagnostic-v1",
+  "profiling": "Both profile flags enabled, stderr captured separately. Two seconds of diagnostic outer grace permits deadline-return counters. Timings are diagnostic and never substituted into the strict five-second screen.",
+  "scope": "Outcome-selected mechanism diagnostics only; all scheduled cases and incomplete profiles retained."
+}

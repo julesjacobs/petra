@@ -1,0 +1,13 @@
+# Paired stress comparison and harder benchmark sets
+
+The completed Linux comparison contains all 368 properties × 3 methods × 1 repetition, at 5 seconds, one pinned CPU, and enforced 2 GiB memory. Candidate Python frontend solves 299, candidate Rust frontend 298, and VerifyPN 345. No definitive disagreement was reported. Candidate proof checking is outside solver timing; external VerifyPN answers are not independently certified. The candidate engine is frozen at afbf04ad4145eefcfbe747c20e196b37853b22121156272e91de1143ef3dae5a and predates the compact raw-search improvements.
+
+The Rust frontend uses 4.54× fewer retired user-space instructions than the Python frontend on 291 eligible common solves. Rust/VerifyPN is 0.934× on 287 eligible common solves. These subsets exclude unknowns and invalid/missing counters; this is not an overall win. Coverage remains substantially worse than VerifyPN. Rust has 66 runs with observed OOM events versus Python's 24; nested resource events can overlap other statuses or occur before a successful answer. One repetition gives no repeat-variability estimate.
+
+`benchmarks/stress-challenges-v1` packages reproducible filters over the unchanged original corpus: 70 Rust-candidate unresolved, 62 unresolved by both candidate frontends, 12 unresolved by all three configurations, 58 VerifyPN-only relative to Rust, 11 Rust-only relative to VerifyPN, and 87 unresolved by at least one configuration. These are outcome-selected development views. The complete 368-property denominator remains the headline comparison. Most common failures cluster in DLCflexbar (9), with JoinFreeModules (2) and CloudOpsManagement (1).
+
+`benchmarks/reserved-evaluation-v2.json` reserves 16 models / 256 property slots from eight families absent from recorded manifests. Median and final published ordinals are selected before outcomes. This is a selection, not a collected or demonstrated-hard corpus. Do not run it during tuning. A broader historical exposure and model-relatedness audit is still needed before calling it independent evaluation.
+
+Raw SER remains separate: the matched latest raw experiment verifies 9/12 valid queries twice; three locked queries remain unknown and six of the original 18 sources remain export timeouts. Those timeouts measure a frontend limitation, not reachability difficulty. The new negative-certificate checkers exist but discovery and CLI integration are unfinished.
+
+Next measurements should include longer budgets on the full development corpus and single-core SMPT/FastForward baselines, with frozen versions and independently checked candidate results. Do not promote the three-configuration common-unresolved set to cases unsolved by all existing tools.

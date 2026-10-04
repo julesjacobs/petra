@@ -1,0 +1,437 @@
+{
+  "format": "ser-stress-sources-v1",
+  "version": 1,
+  "selection": "fixed deterministic scaling ladder; no solver-outcome selection",
+  "provenance": [
+    {
+      "path": "scripts/generate_stress_programs.py",
+      "sha256": "e57e484d7370abef455ee8f96e1017acac724661c191925d15ce61f8d0adc660"
+    },
+    {
+      "path": "scripts/generate_harder.py",
+      "sha256": "78f7abcd741b25bfb6ead98e9719268044be43f771e9df293f6ab9dc6aac5b59"
+    },
+    {
+      "path": "research/harder-programs.md",
+      "sha256": "30c70068b3269a75c06f383c438b61f9e992c068838ca418d7cc8b0955d5ae3f"
+    }
+  ],
+  "cases": [
+    {
+      "name": "counter_d31_s16_racy",
+      "source": "counter_d31_s16_racy.ser",
+      "sha256": "5b1cdb62f3d397f6e359d8902a503a67f9b3cefd6bbdaa82169a8a8d9919ded1",
+      "bytes": 170,
+      "family": "cyclic-counter",
+      "parameters": {
+        "domain": 31,
+        "stages": 16,
+        "locked": false
+      },
+      "role": "bridge",
+      "exact_source_overlaps": [
+        "benchmarks/scaling-programs/counter_d31_s16_racy.ser"
+      ],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "two-increments-return-one",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "counter_d31_s16_locked",
+      "source": "counter_d31_s16_locked.ser",
+      "sha256": "da95f5ee5e6d3b037ae7093c7de5fd94498f3c7e3d391833bda272ef83c6b900",
+      "bytes": 255,
+      "family": "cyclic-counter",
+      "parameters": {
+        "domain": 31,
+        "stages": 16,
+        "locked": true
+      },
+      "role": "bridge",
+      "exact_source_overlaps": [
+        "benchmarks/scaling-programs/counter_d31_s16_locked.ser"
+      ],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "lock-linearization",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "counter_d63_s32_racy",
+      "source": "counter_d63_s32_racy.ser",
+      "sha256": "97a702eec46d08dc0c580645e5a3a11a34912c6b80240632cf056df1850c9494",
+      "bytes": 170,
+      "family": "cyclic-counter",
+      "parameters": {
+        "domain": 63,
+        "stages": 32,
+        "locked": false
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "two-increments-return-one",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "counter_d63_s32_locked",
+      "source": "counter_d63_s32_locked.ser",
+      "sha256": "d40e14620527cc8e60811b417ce9f18bb71e231c051ea2b4c30d260f846293e5",
+      "bytes": 255,
+      "family": "cyclic-counter",
+      "parameters": {
+        "domain": 63,
+        "stages": 32,
+        "locked": true
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "lock-linearization",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "counter_d127_s64_racy",
+      "source": "counter_d127_s64_racy.ser",
+      "sha256": "e794651ed9e646462f6b9da1315b2625d1eff15f328ace0f46bc087598de2dbe",
+      "bytes": 171,
+      "family": "cyclic-counter",
+      "parameters": {
+        "domain": 127,
+        "stages": 64,
+        "locked": false
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "two-increments-return-one",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "counter_d127_s64_locked",
+      "source": "counter_d127_s64_locked.ser",
+      "sha256": "9878f07679c5e4b56367c34951e336c93a4783a762d1941a858153a5cc2fd67c",
+      "bytes": 256,
+      "family": "cyclic-counter",
+      "parameters": {
+        "domain": 127,
+        "stages": 64,
+        "locked": true
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "lock-linearization",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "replicas_n8_racy",
+      "source": "replicas_n8_racy.ser",
+      "sha256": "3aef9b3ca9b95363874569f7d48fdb30fe2945895a0047e935148d9f327126c0",
+      "bytes": 2349,
+      "family": "replicated-register",
+      "parameters": {
+        "cells": 8,
+        "locked": false
+      },
+      "role": "bridge",
+      "exact_source_overlaps": [
+        "benchmarks/scaling-programs/replicas_n8_racy.ser"
+      ],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "read-torn-write",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "replicas_n8_locked",
+      "source": "replicas_n8_locked.ser",
+      "sha256": "32671eac2ef2f284e6c1fe6c266c70dbd340d1dd0bd8056996f81d130a7f7ce3",
+      "bytes": 2519,
+      "family": "replicated-register",
+      "parameters": {
+        "cells": 8,
+        "locked": true
+      },
+      "role": "bridge",
+      "exact_source_overlaps": [
+        "benchmarks/scaling-programs/replicas_n8_locked.ser"
+      ],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "lock-linearization",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "replicas_n10_racy",
+      "source": "replicas_n10_racy.ser",
+      "sha256": "ae7b36892ca29f7cba63c744c933b7614f0e379ac17a54e6436feae53647da3e",
+      "bytes": 8555,
+      "family": "replicated-register",
+      "parameters": {
+        "cells": 10,
+        "locked": false
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "read-torn-write",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "replicas_n10_locked",
+      "source": "replicas_n10_locked.ser",
+      "sha256": "b2c61873e991b2df041057743773b230f079c82531599473656778050d5feb2d",
+      "bytes": 8725,
+      "family": "replicated-register",
+      "parameters": {
+        "cells": 10,
+        "locked": true
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "lock-linearization",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "replicas_n12_racy",
+      "source": "replicas_n12_racy.ser",
+      "sha256": "36e28def54028250edc80c9a8202dd0fe59748d0c5647552fb726203dc3285d8",
+      "bytes": 36267,
+      "family": "replicated-register",
+      "parameters": {
+        "cells": 12,
+        "locked": false
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "read-torn-write",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "replicas_n12_locked",
+      "source": "replicas_n12_locked.ser",
+      "sha256": "f0c9aaa7e8518542b524b889da829d8ce0229ead4fbd7d9da408d4de1aa0b3a1",
+      "bytes": 36437,
+      "family": "replicated-register",
+      "parameters": {
+        "cells": 12,
+        "locked": true
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "lock-linearization",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": null
+      },
+      "solver_result": null
+    },
+    {
+      "name": "monitor_d4_c64",
+      "source": "monitor_d4_c64.ser",
+      "sha256": "d9fb982459303f8e4e94b411a4fd871eb916f21b278de07f3ac40d9df8bedfb9",
+      "bytes": 334,
+      "family": "phase-monitor",
+      "parameters": {
+        "domain": 4,
+        "cycles": 64
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "observe-completes-only-with-interleaved-advances",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": 256
+      },
+      "solver_result": null
+    },
+    {
+      "name": "monitor_d4_c128",
+      "source": "monitor_d4_c128.ser",
+      "sha256": "4636b1185ca859ff4b135bd2a3a3a5d8b6e5448a69a781cb28701731d6f219b3",
+      "bytes": 335,
+      "family": "phase-monitor",
+      "parameters": {
+        "domain": 4,
+        "cycles": 128
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "observe-completes-only-with-interleaved-advances",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": 512
+      },
+      "solver_result": null
+    },
+    {
+      "name": "monitor_d4_c256",
+      "source": "monitor_d4_c256.ser",
+      "sha256": "33b8d518a2dbc6c03b404a6d51f50396e847f9291fef5ea0a0048e00151da022",
+      "bytes": 335,
+      "family": "phase-monitor",
+      "parameters": {
+        "domain": 4,
+        "cycles": 256
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "observe-completes-only-with-interleaved-advances",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": 1024
+      },
+      "solver_result": null
+    },
+    {
+      "name": "monitor_d5_c128",
+      "source": "monitor_d5_c128.ser",
+      "sha256": "13b49d53d6a17d30f58c28ff2025a2fd6cf5c9ef4eb584afdaf0355098060649",
+      "bytes": 368,
+      "family": "phase-monitor",
+      "parameters": {
+        "domain": 5,
+        "cycles": 128
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "observe-completes-only-with-interleaved-advances",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": 640
+      },
+      "solver_result": null
+    },
+    {
+      "name": "monitor_d5_c256",
+      "source": "monitor_d5_c256.ser",
+      "sha256": "4953b603c8155ef4b02d25d8e96474bdf7a181d0628a912fc1cce7642d801a26",
+      "bytes": 368,
+      "family": "phase-monitor",
+      "parameters": {
+        "domain": 5,
+        "cycles": 256
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "observe-completes-only-with-interleaved-advances",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": 1280
+      },
+      "solver_result": null
+    },
+    {
+      "name": "monitor_d5_c512",
+      "source": "monitor_d5_c512.ser",
+      "sha256": "f501245ea6028914da719a0b10ded24a148dec88b72a83931e18bf5f4cfad830",
+      "bytes": 368,
+      "family": "phase-monitor",
+      "parameters": {
+        "domain": 5,
+        "cycles": 512
+      },
+      "role": "new-scaling-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "observe-completes-only-with-interleaved-advances",
+        "basis": "source-level semantic argument; research/harder-programs.md",
+        "mechanically_verified": false,
+        "minimum_advance_requests_for_observe_response": 2560
+      },
+      "solver_result": null
+    }
+  ],
+  "limitations": [
+    "Source expectations are not solver results or exported-net proofs.",
+    "Scaling relatives are correlated; bridge cases duplicate earlier sources.",
+    "Frontend semilinear construction may exhaust resources before a query exists.",
+    "Monitor advancement bounds count source requests, not Petri-net transitions."
+  ]
+}

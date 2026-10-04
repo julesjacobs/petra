@@ -1,0 +1,44 @@
+{
+  "corpus": "/Users/julesjacobs/git/git/pvass/benchmarks/raw-diverse-automaton-v1",
+  "collection_sha256": "69380c4bbd222ab28412872380529c10e691d51263514dca5e6d3a942af212ed",
+  "source_manifest_sha256": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea",
+  "source_selection": "full-manifest",
+  "selected_sources": [
+    "write_skew_n3_racy",
+    "write_skew_n3_pairlocked",
+    "write_skew_n4_racy",
+    "write_skew_n4_pairlocked",
+    "write_skew_n5_racy",
+    "write_skew_n5_pairlocked",
+    "optimistic_v3_aba",
+    "optimistic_v3_validated",
+    "optimistic_v5_aba",
+    "optimistic_v5_validated",
+    "optimistic_v9_aba",
+    "optimistic_v9_validated"
+  ],
+  "binary_source": "/Users/julesjacobs/git/git/pvass/results/solver-raw-balanced-v1/vass-reach",
+  "binary_sha256": "a642f91c60868b1530053a47b0c847a6eeaa8c754ca0389062e2eb5f9232c664",
+  "runner_sha256": {
+    "raw_stress_worker.py": "feda1b5dfa74defd18beff5983e447d9d4d6f98b3b6467e7ba745fbce018312e",
+    "raw_invariant_check.py": "b4cec15ad4f72626082e4dea8423246a349efd0d5412c5a385eeb0a61136c1e5",
+    "raw_automaton_check.py": "5c623527114235bb85cec70cc14102f269d24fb5261783dfc1c6c7f037ce24b9",
+    "raw_schema_check.py": "03b3c69baac745b73333aeb1d22ae1634182716b88db25931b73bf7b84fef8a5",
+    "benchmark_stress_raw.py": "cc5cb786aad59a7aba640947dd7af50c3cc0395fcf57229fae3ea48e99620a22",
+    "raw_z3.py": "ba16c188953868e5864b7820ca3ea3b365bf17ca2f56192b939383b12e9c5b4a",
+    "process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9"
+  },
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "python_executable": "/Users/julesjacobs/git/git/pvass/vendor/venv/bin/python",
+  "z3_package_version": "5.1.0.0",
+  "methods": [
+    "raw-portfolio-balanced"
+  ],
+  "repeat": 1,
+  "seconds": 60.0,
+  "solver_fraction": 0.8,
+  "max_states": 100000000,
+  "negative_verifier_work_limit": 10000000000,
+  "memory_bytes": 2147483648,
+  "started_unix": 1790575095.828341
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "Matched-checker development reruns of all18raw sources. Independent Z3 checker now constructs sparse formulas, preserves every component/response equality, and still requires UNSAT for every serial component. Same10s input-inclusive budget including checking.",
+  "variants": [
+    {
+      "binary": "results/solver-compact-markings-v1/vass-reach",
+      "output": "results/raw-stress-compact-checker-v2"
+    },
+    {
+      "binary": "results/solver-dominated-goals-v1/vass-reach",
+      "output": "results/raw-stress-dominated-checker-v2"
+    }
+  ],
+  "repeat": 2,
+  "seconds": 10,
+  "memory_mib": 2048,
+  "methods": [
+    "raw-potential"
+  ],
+  "worker_sha256": "18faed838e7f2e6766187ef32b171353e08a02adbcebe3a6214688fb9f3bdc19",
+  "reason": "The previous apparent replicas_n10_racy regression occurred in independent checking. Both binaries emitted exactly the same15-transition witness in~0.81s. Retain the previous timeout results; do not silently replace them."
+}

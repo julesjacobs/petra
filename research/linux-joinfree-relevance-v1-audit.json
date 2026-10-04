@@ -1,0 +1,1094 @@
+{
+  "properties": 48,
+  "rows": 192,
+  "repeats": 1,
+  "counts": {
+    "before": {
+      "reachable": 35,
+      "unknown": 13
+    },
+    "after": {
+      "reachable": 46,
+      "unknown": 2
+    },
+    "sliced-search": {
+      "reachable": 46,
+      "unknown": 2
+    },
+    "verifypn-default": {
+      "reachable": 46,
+      "unknown": 2
+    }
+  },
+  "stable_solved": {
+    "before": 35,
+    "after": 46,
+    "sliced-search": 46,
+    "verifypn-default": 46
+  },
+  "families": {
+    "JoinFreeModules": {
+      "properties": 48,
+      "solved": {
+        "before": 35,
+        "after": 46,
+        "sliced-search": 46,
+        "verifypn-default": 46
+      }
+    }
+  },
+  "comparisons": {
+    "before -> after": {
+      "gained": [
+        "JoinFreeModules-PT-1000__RC01",
+        "JoinFreeModules-PT-1000__RC02",
+        "JoinFreeModules-PT-1000__RC10",
+        "JoinFreeModules-PT-1000__RC13",
+        "JoinFreeModules-PT-2000__RC01",
+        "JoinFreeModules-PT-2000__RC02",
+        "JoinFreeModules-PT-2000__RC06",
+        "JoinFreeModules-PT-2000__RC15",
+        "JoinFreeModules-PT-5000__RC00",
+        "JoinFreeModules-PT-5000__RC09",
+        "JoinFreeModules-PT-5000__RC12"
+      ],
+      "lost": [],
+      "common_solved": 35,
+      "median_candidate_previous_wall_ratio": 0.9310032051631614,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "before -> sliced-search": {
+      "gained": [
+        "JoinFreeModules-PT-1000__RC01",
+        "JoinFreeModules-PT-1000__RC02",
+        "JoinFreeModules-PT-1000__RC10",
+        "JoinFreeModules-PT-1000__RC13",
+        "JoinFreeModules-PT-2000__RC01",
+        "JoinFreeModules-PT-2000__RC02",
+        "JoinFreeModules-PT-2000__RC06",
+        "JoinFreeModules-PT-2000__RC15",
+        "JoinFreeModules-PT-5000__RC00",
+        "JoinFreeModules-PT-5000__RC09",
+        "JoinFreeModules-PT-5000__RC12"
+      ],
+      "lost": [],
+      "common_solved": 35,
+      "median_candidate_previous_wall_ratio": 0.5060606674101601,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "before -> verifypn-default": {
+      "gained": [
+        "JoinFreeModules-PT-1000__RC01",
+        "JoinFreeModules-PT-1000__RC02",
+        "JoinFreeModules-PT-1000__RC10",
+        "JoinFreeModules-PT-1000__RC13",
+        "JoinFreeModules-PT-1000__RC14",
+        "JoinFreeModules-PT-2000__RC01",
+        "JoinFreeModules-PT-2000__RC02",
+        "JoinFreeModules-PT-2000__RC06",
+        "JoinFreeModules-PT-5000__RC04",
+        "JoinFreeModules-PT-5000__RC09",
+        "JoinFreeModules-PT-5000__RC12"
+      ],
+      "lost": [],
+      "common_solved": 35,
+      "median_candidate_previous_wall_ratio": 0.7076970962924665,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "after -> before": {
+      "gained": [],
+      "lost": [
+        "JoinFreeModules-PT-1000__RC01",
+        "JoinFreeModules-PT-1000__RC02",
+        "JoinFreeModules-PT-1000__RC10",
+        "JoinFreeModules-PT-1000__RC13",
+        "JoinFreeModules-PT-2000__RC01",
+        "JoinFreeModules-PT-2000__RC02",
+        "JoinFreeModules-PT-2000__RC06",
+        "JoinFreeModules-PT-2000__RC15",
+        "JoinFreeModules-PT-5000__RC00",
+        "JoinFreeModules-PT-5000__RC09",
+        "JoinFreeModules-PT-5000__RC12"
+      ],
+      "common_solved": 35,
+      "median_candidate_previous_wall_ratio": 1.074110158218786,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "after -> sliced-search": {
+      "gained": [],
+      "lost": [],
+      "common_solved": 46,
+      "median_candidate_previous_wall_ratio": 0.5546640353766181,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "after -> verifypn-default": {
+      "gained": [
+        "JoinFreeModules-PT-1000__RC14",
+        "JoinFreeModules-PT-5000__RC04"
+      ],
+      "lost": [
+        "JoinFreeModules-PT-2000__RC15",
+        "JoinFreeModules-PT-5000__RC00"
+      ],
+      "common_solved": 44,
+      "median_candidate_previous_wall_ratio": 0.7271363495006252,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "sliced-search -> before": {
+      "gained": [],
+      "lost": [
+        "JoinFreeModules-PT-1000__RC01",
+        "JoinFreeModules-PT-1000__RC02",
+        "JoinFreeModules-PT-1000__RC10",
+        "JoinFreeModules-PT-1000__RC13",
+        "JoinFreeModules-PT-2000__RC01",
+        "JoinFreeModules-PT-2000__RC02",
+        "JoinFreeModules-PT-2000__RC06",
+        "JoinFreeModules-PT-2000__RC15",
+        "JoinFreeModules-PT-5000__RC00",
+        "JoinFreeModules-PT-5000__RC09",
+        "JoinFreeModules-PT-5000__RC12"
+      ],
+      "common_solved": 35,
+      "median_candidate_previous_wall_ratio": 1.976047664636035,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "sliced-search -> after": {
+      "gained": [],
+      "lost": [],
+      "common_solved": 46,
+      "median_candidate_previous_wall_ratio": 1.8034195812356673,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "sliced-search -> verifypn-default": {
+      "gained": [
+        "JoinFreeModules-PT-1000__RC14",
+        "JoinFreeModules-PT-5000__RC04"
+      ],
+      "lost": [
+        "JoinFreeModules-PT-2000__RC15",
+        "JoinFreeModules-PT-5000__RC00"
+      ],
+      "common_solved": 44,
+      "median_candidate_previous_wall_ratio": 1.3739271405973579,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "verifypn-default -> before": {
+      "gained": [],
+      "lost": [
+        "JoinFreeModules-PT-1000__RC01",
+        "JoinFreeModules-PT-1000__RC02",
+        "JoinFreeModules-PT-1000__RC10",
+        "JoinFreeModules-PT-1000__RC13",
+        "JoinFreeModules-PT-1000__RC14",
+        "JoinFreeModules-PT-2000__RC01",
+        "JoinFreeModules-PT-2000__RC02",
+        "JoinFreeModules-PT-2000__RC06",
+        "JoinFreeModules-PT-5000__RC04",
+        "JoinFreeModules-PT-5000__RC09",
+        "JoinFreeModules-PT-5000__RC12"
+      ],
+      "common_solved": 35,
+      "median_candidate_previous_wall_ratio": 1.4130339169665533,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "verifypn-default -> after": {
+      "gained": [
+        "JoinFreeModules-PT-2000__RC15",
+        "JoinFreeModules-PT-5000__RC00"
+      ],
+      "lost": [
+        "JoinFreeModules-PT-1000__RC14",
+        "JoinFreeModules-PT-5000__RC04"
+      ],
+      "common_solved": 44,
+      "median_candidate_previous_wall_ratio": 1.375525883058649,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    },
+    "verifypn-default -> sliced-search": {
+      "gained": [
+        "JoinFreeModules-PT-2000__RC15",
+        "JoinFreeModules-PT-5000__RC00"
+      ],
+      "lost": [
+        "JoinFreeModules-PT-1000__RC14",
+        "JoinFreeModules-PT-5000__RC04"
+      ],
+      "common_solved": 44,
+      "median_candidate_previous_wall_ratio": 0.7279738568080206,
+      "timing_scope": "Conditional on both methods solving in every repetition; excludes unresolved properties."
+    }
+  },
+  "cases": [
+    {
+      "query": "JoinFreeModules-PT-1000__RC00",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC01",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC02",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC03",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC04",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC05",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC06",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC07",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC08",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC09",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC10",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC11",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC12",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC13",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC14",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "unknown"
+        ],
+        "sliced-search": [
+          "unknown"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-1000__RC15",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC00",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC01",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC02",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC03",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC04",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC05",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC06",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC07",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC08",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC09",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC10",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC11",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC12",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC13",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC14",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-2000__RC15",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "unknown"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC00",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "unknown"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC01",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC02",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC03",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC04",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "unknown"
+        ],
+        "sliced-search": [
+          "unknown"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC05",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC06",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC07",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC08",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC09",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC10",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC11",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC12",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "unknown"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC13",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC14",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    },
+    {
+      "query": "JoinFreeModules-PT-5000__RC15",
+      "family": "JoinFreeModules",
+      "verdicts": {
+        "before": [
+          "reachable"
+        ],
+        "after": [
+          "reachable"
+        ],
+        "sliced-search": [
+          "reachable"
+        ],
+        "verifypn-default": [
+          "reachable"
+        ]
+      }
+    }
+  ],
+  "sources": {
+    "benchmarks/mcc-stress-development/manifest.json": "2f23cc2dcfb72d8cf03979830ad4cd0710751507208a8c000e5ba3a5b7b1a994",
+    "results/linux-joinfree-relevance-v1/environment.json": "0b3f0ea619eef545215601a9b9aaf594773aed690bf551b4fee33c2698a3316b",
+    "results/linux-joinfree-relevance-v1/runs.jsonl": "30b18404748a774a133d51b9b86598e4e20821f9d2d77d9b81aff503917f8175"
+  },
+  "scope": "Development comparison; original-input native answers independently checked, external answers tool-reported. Full selected denominator retained."
+}

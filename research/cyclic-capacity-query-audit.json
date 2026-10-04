@@ -1,0 +1,68 @@
+{
+  "scope": "Independent finite-state enumeration and state-equation arithmetic, supplemented by an exact Rust bounded/unbounded token-flow separation regression.",
+  "reachable_markings": [
+    [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "all_transitions_reachable": true,
+  "target_unreachable": true,
+  "state_equation_counts": [
+    1,
+    2,
+    1,
+    1,
+    1
+  ],
+  "state_equation_target": [
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "rust_separation": {
+    "test": "tests/bounded_token_cut.rs::capacities_separate_a_live_cycle_with_all_transitions_reachable",
+    "log": "research/cyclic-capacity-separation-tests.log",
+    "report": "research/cyclic-capacity-separation.md",
+    "verified": [
+      "explicit feasible unbounded moment assignment",
+      "all per-place unbounded separators accept the candidate",
+      "checked x+y<=1 potential",
+      "bounded separator excludes the candidate",
+      "exact Farkas refutations of bounded relaxation for every terminal mode without fixed counts"
+    ]
+  }
+}

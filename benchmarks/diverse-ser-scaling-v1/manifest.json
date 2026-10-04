@@ -1,0 +1,547 @@
+{
+  "format": "ser-stress-sources-v1",
+  "version": 1,
+  "selection": "Fixed parameter ladder chosen before exporting or solving these larger instances; bridges are explicit duplicates.",
+  "corpus": "diverse-ser-scaling-v1",
+  "counts": {
+    "sources": 16,
+    "new_sources": 12,
+    "existing_bridges": 4,
+    "expected_serializable": 8,
+    "expected_nonserializable": 8
+  },
+  "axes": {
+    "ring_sites": [
+      5,
+      6
+    ],
+    "epoch_moduli": [
+      9,
+      13,
+      17,
+      25,
+      33,
+      49
+    ],
+    "request_multiplicity": "unbounded at every parameter; no imposed concurrency bound",
+    "selection_reason": "One additional ring size limits exponential frontend growth; five larger odd epoch domains vary serial-cycle length and interference needed for the ABA witness."
+  },
+  "provenance": [
+    {
+      "path": "scripts/generate_diverse_ser_scaling.py",
+      "sha256": "e1e96138ba731210430f61993720172d24da7c7152e7b733a8443639297a73c9"
+    },
+    {
+      "path": "scripts/generate_diverse_ser.py",
+      "sha256": "fa92154e720a70a7a6cf76c384b7d47fb455d17e561f11d2d2386701323e0869"
+    },
+    {
+      "path": "benchmarks/diverse-ser-programs-v1/manifest.json",
+      "sha256": "9d9e466697fff4d66565494328a8716cf3a452fcbc5f0b01c2271207e04ad1ea"
+    },
+    {
+      "path": "research/diverse-ser-programs-v1.md",
+      "sha256": "523612138bedbd4688b1ae6b4391387a139d1dd76762e84f1a262fd4391e9235"
+    },
+    {
+      "path": "vendor/SerializabilityChecker/src/parser.rs",
+      "sha256": "dc308f06697c62aa81943d5727536677286b18bfb220d2cb81ff38cbc0dd1f9e"
+    }
+  ],
+  "cases": [
+    {
+      "name": "write_skew_n5_racy",
+      "source": "write_skew_n5_racy.ser",
+      "sha256": "961921174617524c1f0493f329027239a0635ccda239e6697b2d727cda45edef",
+      "bytes": 694,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 5,
+        "pairlocked": false
+      },
+      "structural_parameters": {
+        "distinct_request_types": 6,
+        "shared_boolean_sites": 5,
+        "shared_boolean_locks": 0,
+        "global_valuation_upper_bound": 32
+      },
+      "paired_with": "write_skew_n5_pairlocked",
+      "role": "existing-development-bridge",
+      "exact_source_overlaps": [
+        "benchmarks/diverse-ser-programs-v1/write_skew_n5_racy.ser"
+      ],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "all-sites-leave-successfully",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "write_skew_n5_pairlocked",
+      "source": "write_skew_n5_pairlocked.ser",
+      "sha256": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+      "bytes": 1816,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 5,
+        "pairlocked": true
+      },
+      "structural_parameters": {
+        "distinct_request_types": 6,
+        "shared_boolean_sites": 5,
+        "shared_boolean_locks": 5,
+        "global_valuation_upper_bound": 1024
+      },
+      "paired_with": "write_skew_n5_racy",
+      "role": "existing-development-bridge",
+      "exact_source_overlaps": [
+        "benchmarks/diverse-ser-programs-v1/write_skew_n5_pairlocked.ser"
+      ],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "write_skew_n6_racy",
+      "source": "write_skew_n6_racy.ser",
+      "sha256": "0a19260024195a42dec528a6c26910468d50bffcb46d03dbab60fde52862a85d",
+      "bytes": 828,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 6,
+        "pairlocked": false
+      },
+      "structural_parameters": {
+        "distinct_request_types": 7,
+        "shared_boolean_sites": 6,
+        "shared_boolean_locks": 0,
+        "global_valuation_upper_bound": 64
+      },
+      "paired_with": "write_skew_n6_pairlocked",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "all-sites-leave-successfully",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "write_skew_n6_pairlocked",
+      "source": "write_skew_n6_pairlocked.ser",
+      "sha256": "ab468ed9360a2e53d4e026c72108a2b661e223511c2254dcccc232b87c985991",
+      "bytes": 2170,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 6,
+        "pairlocked": true
+      },
+      "structural_parameters": {
+        "distinct_request_types": 7,
+        "shared_boolean_sites": 6,
+        "shared_boolean_locks": 6,
+        "global_valuation_upper_bound": 4096
+      },
+      "paired_with": "write_skew_n6_racy",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v9_aba",
+      "source": "optimistic_v9_aba.ser",
+      "sha256": "35173b2f9c26d254f28b4a164edef6b3bf551989db1690ae8eb0552dc7e506fc",
+      "bytes": 301,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 9,
+        "validate_value": false
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 9,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 18,
+        "semantic_advance_cycle_length": 18
+      },
+      "paired_with": "optimistic_v9_validated",
+      "role": "existing-development-bridge",
+      "exact_source_overlaps": [
+        "benchmarks/diverse-ser-programs-v1/optimistic_v9_aba.ser"
+      ],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "odd-epoch-wrap-changes-value",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v9_validated",
+      "source": "optimistic_v9_validated.ser",
+      "sha256": "e52b081487640ca4da7e668dcac1f4ed58f40178719e030eb63c425198dd47fc",
+      "bytes": 324,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 9,
+        "validate_value": true
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 9,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 18,
+        "semantic_advance_cycle_length": 18
+      },
+      "paired_with": "optimistic_v9_aba",
+      "role": "existing-development-bridge",
+      "exact_source_overlaps": [
+        "benchmarks/diverse-ser-programs-v1/optimistic_v9_validated.ser"
+      ],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "successful-observation-is-zero",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v13_aba",
+      "source": "optimistic_v13_aba.ser",
+      "sha256": "8e84dce396843206698f1375d8e8b7c4bb6911a0f8ba1e6972f1c43605a67ebe",
+      "bytes": 302,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 13,
+        "validate_value": false
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 13,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 26,
+        "semantic_advance_cycle_length": 26
+      },
+      "paired_with": "optimistic_v13_validated",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "odd-epoch-wrap-changes-value",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v13_validated",
+      "source": "optimistic_v13_validated.ser",
+      "sha256": "322e37c8a177478bae0e8e98c056b1f302370a22b9a50b8c575970b7da6b52f8",
+      "bytes": 325,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 13,
+        "validate_value": true
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 13,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 26,
+        "semantic_advance_cycle_length": 26
+      },
+      "paired_with": "optimistic_v13_aba",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "successful-observation-is-zero",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v17_aba",
+      "source": "optimistic_v17_aba.ser",
+      "sha256": "597a1c6d0ec94381ff37c8a6edf057040d8df922cc3316a439c39659b04ed4ac",
+      "bytes": 302,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 17,
+        "validate_value": false
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 17,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 34,
+        "semantic_advance_cycle_length": 34
+      },
+      "paired_with": "optimistic_v17_validated",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "odd-epoch-wrap-changes-value",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v17_validated",
+      "source": "optimistic_v17_validated.ser",
+      "sha256": "b613ceba186ccec7522c98a86f7fe5c9d55981ec719eca65c8625fe91f147694",
+      "bytes": 325,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 17,
+        "validate_value": true
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 17,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 34,
+        "semantic_advance_cycle_length": 34
+      },
+      "paired_with": "optimistic_v17_aba",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "successful-observation-is-zero",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v25_aba",
+      "source": "optimistic_v25_aba.ser",
+      "sha256": "d4cbc5e9da8624856a07f3524d9cf6acabaf0e4b9201414ea5a1b6d00224f27e",
+      "bytes": 302,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 25,
+        "validate_value": false
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 25,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 50,
+        "semantic_advance_cycle_length": 50
+      },
+      "paired_with": "optimistic_v25_validated",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "odd-epoch-wrap-changes-value",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v25_validated",
+      "source": "optimistic_v25_validated.ser",
+      "sha256": "7af55db9e3ec9d1295adec027aa9e36284a7b46e3e1e842f64df48b1c7d6199e",
+      "bytes": 325,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 25,
+        "validate_value": true
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 25,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 50,
+        "semantic_advance_cycle_length": 50
+      },
+      "paired_with": "optimistic_v25_aba",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "successful-observation-is-zero",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v33_aba",
+      "source": "optimistic_v33_aba.ser",
+      "sha256": "fe401f534a7b87c8d16293ea645bfb1212fa3e9af70f3795bde4f1015575630c",
+      "bytes": 302,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 33,
+        "validate_value": false
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 33,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 66,
+        "semantic_advance_cycle_length": 66
+      },
+      "paired_with": "optimistic_v33_validated",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "odd-epoch-wrap-changes-value",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v33_validated",
+      "source": "optimistic_v33_validated.ser",
+      "sha256": "795e2f363fc55b5e86fb8bb9bb7ed5402bec9c55ba6938fbbdb9c5bbe0736545",
+      "bytes": 325,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 33,
+        "validate_value": true
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 33,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 66,
+        "semantic_advance_cycle_length": 66
+      },
+      "paired_with": "optimistic_v33_aba",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "successful-observation-is-zero",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v49_aba",
+      "source": "optimistic_v49_aba.ser",
+      "sha256": "1b094337f6678d9f7923a6b919846103805c297b906490cc86038db95cd471f2",
+      "bytes": 302,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 49,
+        "validate_value": false
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 49,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 98,
+        "semantic_advance_cycle_length": 98
+      },
+      "paired_with": "optimistic_v49_validated",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "odd-epoch-wrap-changes-value",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v49_validated",
+      "source": "optimistic_v49_validated.ser",
+      "sha256": "750f2af62d27e2a60abe2bb885eec03a8214566983fe1462b7811a7c91647752",
+      "bytes": 325,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 49,
+        "validate_value": true
+      },
+      "structural_parameters": {
+        "distinct_request_types": 2,
+        "epoch_domain_size": 49,
+        "value_domain_size": 2,
+        "global_valuation_upper_bound": 98,
+        "semantic_advance_cycle_length": 98
+      },
+      "paired_with": "optimistic_v49_aba",
+      "role": "parameter-scaling-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "successful-observation-is-zero",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "export_result": null,
+      "solver_result": null
+    }
+  ],
+  "limitations": [
+    "New means a new source in this ladder, not an independent benchmark family.",
+    "All cases are development relatives of the existing ring-write-skew and optimistic-aba-validation families.",
+    "Source expectations are unproved by the toolchain and must not be counted as solved queries.",
+    "Difficulty, export feasibility, and backend performance of the twelve larger sources are unmeasured at selection time.",
+    "Global valuation bounds describe source data, not measured Petri-net sizes or reachable-state counts.",
+    "Four bridges are exact duplicates and must not inflate the new-source denominator.",
+    "Every attempted source, including export timeouts and memory limits, must remain in end-to-end reports.",
+    "No reserved evaluation family is included."
+  ]
+}

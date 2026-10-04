@@ -1,0 +1,132 @@
+{
+  "seconds": 5.0,
+  "repeat": 2,
+  "methods": [
+    "before",
+    "after",
+    "verifypn-default"
+  ],
+  "native_tools": {
+    "before": {
+      "engine": "portfolio-focused",
+      "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-dag-sat-v2/vass-reach",
+      "binary_sha256": "37d1b8ae2e968ae7799372ab16bd3698c4291f472362b38c01a990b3eb114fc3"
+    },
+    "after": {
+      "engine": "portfolio-focused",
+      "binary": "/home/jules/experiments/pvass-publication/results/linux-solver-relevance-automaton-v1/vass-reach",
+      "binary_sha256": "331fd66ec3554f8d96822773ba96e81a61967f697c06bed534d66527890bc4a2"
+    }
+  },
+  "order_seed": 20261002,
+  "property_order": [
+    "CANConstruction-PT-080__RC00",
+    "DLCflexbar-PT-7b__RC00",
+    "AutoFlight-PT-48b__RC01",
+    "JoinFreeModules-PT-1000__RC01"
+  ],
+  "max_states": 200000,
+  "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.43",
+  "queries": 4,
+  "manifest_sha256": "2f23cc2dcfb72d8cf03979830ad4cd0710751507208a8c000e5ba3a5b7b1a994",
+  "binary_sha256": "331fd66ec3554f8d96822773ba96e81a61967f697c06bed534d66527890bc4a2",
+  "baseline_binary_sha256": null,
+  "script_sha256": {
+    "benchmark_smpt_classic.py": "5212b7d1d511539d99abce912b7a68b37d19336ac80518c80e96dbf3281d800d",
+    "native_original.py": "5d6275a96865a56c7a740768e0db862b254d5f91f3e4d1206c0713efd528c1c8",
+    "smpt_import.py": "ce7e9db6a5b6e4deb5453271433ad3337fd36229bf4b7e325cdf217a8ac96c90",
+    "benchmark.py": "deb2afae445aa2bd80b59101266d1cc3d6ecca01e401cfe558b294eeba34caf6",
+    "token_moment_checker.py": "a42b8367bae56f40da01d723efd504bedbb06cb3905ced5672038ac503c6e027",
+    "token_cut_checker.py": "d6667df9c6e6900b27886de8169835736345779389d85d244eb6b6241bd68d1c",
+    "bounded_token_cut_checker.py": "a333f3429a4bda272715ac84f8529191b4bf406e871a6dbfbe27df0a82a48e60",
+    "local_closure_checker.py": "6e53c37d43a6dcb76b543ec81cf826770ed5c97a0d6027eecca7a5ac984694b1",
+    "dag_checker.py": "b72e8a9c1dd0ce97fe704df748f15580e5794f32548a98de9735f561fc70cdf9",
+    "process_runner.py": "07644ec3f88ab2ae1d1e4f0071a3d3f754d13176124828d01e1f4d4cb207b71d",
+    "requirements.txt": "01b99c930705a074d54f6c45dc2de953aadc78d47906fa13d538946d062903af",
+    "bounded_validation.py": "10418247ee4159c58d4356d5ea4f97e6d6349b11345d20b213b7d5db7d71e228",
+    "rust_original_validation.py": "09a247de7c2dbf95895292b8932e4172625f4a6cf432854cdc03a5e763af3fb9",
+    "verifypn_runner.py": "ac4c9ee1d11804ae754f6b5e9b62a26994e4f35613fc4574614b6ff28b55720a",
+    "linux_runner.py": "413475025b17beaa5a027c6e3495c8dfb0f4898d5e95a79c0f5fe5ad48db5504"
+  },
+  "scope": "Whole original properties; sequential cold processes. Native branches share a budget; AG answers invert counterexample reachability. Verification excluded from wall time.",
+  "smpt_configurations": {},
+  "smpt_root": "/home/jules/experiments/pvass-publication/vendor/SMPT",
+  "smpt_python": "/home/jules/experiments/pvass-publication/vendor/venv/bin/python",
+  "auto_reduce": false,
+  "track_resources": true,
+  "smpt_original": false,
+  "outer_grace": 0.0,
+  "native_original": false,
+  "native_python": "/home/jules/experiments/pvass-publication/vendor/venv/bin/python",
+  "rust_original": true,
+  "rust_original_methods": [],
+  "method_input_scope": {
+    "before": {
+      "mode": "rust-original-v1",
+      "scope": "Original PNML/XML; Rust startup, parsing, target DNF and in-process branch solving inside one strict whole-property deadline. Bounded independent Python original-input translation, canonical comparison and witness/proof checking outside timing."
+    },
+    "after": {
+      "mode": "rust-original-v1",
+      "scope": "Original PNML/XML; Rust startup, parsing, target DNF and in-process branch solving inside one strict whole-property deadline. Bounded independent Python original-input translation, canonical comparison and witness/proof checking outside timing."
+    },
+    "verifypn-default": {
+      "mode": "verifypn-original",
+      "scope": "Original PNML/XML; VerifyPN startup, parsing, preprocessing and solving inside the timed process."
+    }
+  },
+  "linux_cpus": [
+    8
+  ],
+  "perf": true,
+  "native_python_sha256": "52e0a13e60a981d8c4b6478be2ba5176f69da07948a056bf49cf6f077e30cb41",
+  "native_input_scope": "Original PNML/XML; Rust startup, parsing, target DNF and in-process branch solving inside one strict whole-property deadline. Bounded independent Python original-input translation, canonical comparison and witness/proof checking outside timing.",
+  "memory_mib": 2048,
+  "tools": {
+    "z3": {
+      "path": "/home/jules/experiments/pvass-publication/vendor/venv/bin/z3",
+      "sha256": "54bae839dd54e262edac6f755fc99659ce2a121301faff20a3e3b94478dcead0"
+    }
+  },
+  "smpt_source_sha256": {},
+  "smpt": "Selected source directory; full modes enable automatic reduction. ceil(seconds) internal timeout and seconds+1 outer timeout including reduction. K-INDUCTION automatically adds BMC. PDR-COV applies only to monotone targets. Portfolio methods execute concurrently inside SMPT. No independent SMPT proof check. Resource sampling is best-effort, not cgroup isolation.",
+  "input_preflight": {
+    "mode": "streaming-deduplicated-sha256",
+    "unique_files": 23,
+    "bytes_hashed": 69658709
+  },
+  "collection_counts": {
+    "planned": 4,
+    "imported": 4,
+    "unsupported": 0,
+    "explicitly_unobserved": 0
+  },
+  "bounded_validation": {
+    "enabled": true,
+    "seconds": 30,
+    "memory_mib": 2048,
+    "response_mib": 1,
+    "dag_check_max_work": 20000000,
+    "included_in_solver_timing": false
+  },
+  "verifypn": {
+    "binary": "/home/jules/experiments/pvass-publication/vendor/verifypn/build-release/verifypn/bin/verifypn-linux64",
+    "binary_sha256": "50164d51246c30400615a4c7f76397b0bd21fa3f3d0fefb8bad5ba2560ad5577",
+    "source": "/home/jules/experiments/pvass-publication/vendor/verifypn",
+    "source_commit": "c8193465bed56654546968bce3a956f0c25c5bee",
+    "source_status": "",
+    "version": "VerifyPN (untimed verification engine for TAPAAL) 4.5.0\nCopyright (C) 2011-2023\n                        Alexander Bilgram <alexander@bilgram.dk>\n                        Frederik Meyer Boenneland <sadpantz@gmail.com>\n                        Emil Normann Brandt <emilnormannbrandt@gmail.com>\n                        Jesper Adriaan van Diepen <jespoke@hotmail.com>\n                        Jakob Dyhr <jakobdyhr@gmail.com>\n                        Peter Fogh <peter.f1992@gmail.com>\n                        Jonas Finnemann Jensen <jopsen@gmail.com>\n                        Emil Gybel Henriksen <emil-g-h@hotmail.com>\n                        Jens Emil Fink H\u00f8jriis <jens.emil@live.dk>\n                        Lasse Steen Jensen <lassjen88@gmail.com>\n                        Peter Gj\u00f8l Jensen <root@petergjoel.dk>\n                        Nicolaj \u00d8sterby Jensen <nicoesterby@gmail.com>\n                        Tobias Skovgaard Jepsen <tobiasj1991@gmail.com>\n                        Mads Johannsen <mads_johannsen@yahoo.com>\n                        Kenneth Yrke J\u00f8rgensen <kenneth@yrke.dk>\n                        Isabella Kaufmann <bellakaufmann93@gmail.com>\n                        Alan Mozafar Khorsid <alan18@hotmail.dk>\n                        Andreas Hairing Klostergaard <kloster92@me.com>\n                        Esben Nielsen <esbenn179@gmail.com>\n                        S\u00f8ren Moss Nielsen <soren_moss@mac.com>\n                        Thomas S\u00f8nders\u00f8 Nielsen <primogens@gmail.com>\n                        Samuel Pastva <daemontus@gmail.com>\n                        Kira St\u00e6hr Pedersen <kira2809@live.dk>\n                        Thomas Pedersen <thomas.pedersen@stofanet.dk>\n                        Theodor Risager <theodor349@gmail.com>\n                        Jiri Srba <srba.jiri@gmail.com>\n                        Adam Moloney St\u00fcck <adam@adast.xyz>\n                        Andreas Sebastian S\u00f8rensen <todes92@protonmail.com>\n                        Mathias Mehl S\u00f8rensen <mathiasmehlsoerensen@gmail.com>\n                        Peter Haar Taankvist <ptaankvist@gmail.com>\n                        Rasmus Gr\u00f8nkj\u00e6r Tollund <rasmusgtollund@gmail.com>\n                        Nikolaj Jensen Ulrik <nikolaj@njulrik.dk>\n                        Simon Mejlby Virenfeldt <simon@simwir.dk>\n                        Lars K\u00e6rlund \u00d8stergaard <larsko@gmail.com>\nGNU GPLv3 or later <http://gnu.org/licenses/gpl.html>\n",
+    "configurations": {
+      "verifypn-default": []
+    },
+    "configuration": "Single-property invocations; verifypn requests trace reconstruction (disabling H/J/R/S/Q reductions), verifypn-default uses unrestricted defaults. Upstream MCC scheduling is not used.",
+    "proof_check": "External verdicts are not independently checked."
+  },
+  "linux_host": {
+    "lscpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  32\nOn-line CPU(s) list:                     0-31\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 9 7950X3D 16-Core Processor\nCPU family:                              25\nModel:                                   97\nThread(s) per core:                      2\nCore(s) per socket:                      16\nSocket(s):                               1\nStepping:                                2\nFrequency boost:                         enabled\nCPU(s) scaling MHz:                      55%\nCPU max MHz:                             5763.3560\nCPU min MHz:                             416.6290\nBogoMIPS:                                8385.06\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good amd_lbr_v2 nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpuid_fault cpb cat_l3 cdp_l3 hw_pstate ssbd mba perfmon_v2 ibrs ibpb stibp ibrs_enhanced vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk avx512_bf16 clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic vgif x2avic v_spec_ctrl vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid overflow_recov succor smca fsrm flush_l1d amd_lbr_pmc_freeze\nVirtualization:                          AMD-V\nL1d cache:                               512 KiB (16 instances)\nL1i cache:                               512 KiB (16 instances)\nL2 cache:                                16 MiB (16 instances)\nL3 cache:                                128 MiB (2 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-31\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Mitigation; Safe RET\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; STIBP always-on; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Mitigation; Clear CPU buffers\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n",
+    "topology": "CPU CORE L1d:L1i:L2:L3\n  0    0 0:0:0:0\n  1    1 1:1:1:0\n  2    2 2:2:2:0\n  3    3 3:3:3:0\n  4    4 4:4:4:0\n  5    5 5:5:5:0\n  6    6 6:6:6:0\n  7    7 7:7:7:0\n  8    8 8:8:8:1\n  9    9 9:9:9:1\n 10   10 10:10:10:1\n 11   11 11:11:11:1\n 12   12 12:12:12:1\n 13   13 13:13:13:1\n 14   14 14:14:14:1\n 15   15 15:15:15:1\n 16    0 0:0:0:0\n 17    1 1:1:1:0\n 18    2 2:2:2:0\n 19    3 3:3:3:0\n 20    4 4:4:4:0\n 21    5 5:5:5:0\n 22    6 6:6:6:0\n 23    7 7:7:7:0\n 24    8 8:8:8:1\n 25    9 9:9:9:1\n 26   10 10:10:10:1\n 27   11 11:11:11:1\n 28   12 12:12:12:1\n 29   13 13:13:13:1\n 30   14 14:14:14:1\n 31   15 15:15:15:1\n",
+    "kernel": "7.0.0-30-generic",
+    "perf_event_paranoid": "2",
+    "loadavg": "3.27 11.84 19.97 1/1459 3117",
+    "caveat": "CPU affinity is not exclusive CPU isolation. Retired instructions count user-space work; wall and cgroup CPU/memory are recorded separately. Deadline/OOM runs remain unknown during counter-flush shutdown grace."
+  }
+}

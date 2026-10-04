@@ -1,0 +1,64 @@
+{
+  "format": "petra-research-release-v1",
+  "tag": "research-2026-10-04",
+  "repository": "julesjacobs/petra",
+  "archives": [
+    {
+      "name": "petra-benchmarks.tar.zst",
+      "bytes": 773742451,
+      "sha256": "d6fec806c9759c3aacccb687b7c31b72f98537d55df1a79eb491a7acf6d0bafc",
+      "files": 17573,
+      "uncompressed_bytes": 7740623125,
+      "inventory": "petra-benchmarks.files.jsonl.zst",
+      "inventory_sha256": "862dc680d52a5df9a24f25861394f0c85e584ad4de95caad820372e85b0014e5"
+    },
+    {
+      "name": "petra-results.tar.zst",
+      "bytes": 1074732347,
+      "sha256": "049decc4f00162000535dd56344c8425945aea3b0ed8da5a07b6bc83eff099db",
+      "files": 287252,
+      "uncompressed_bytes": 22881659550,
+      "inventory": "petra-results.files.jsonl.zst",
+      "inventory_sha256": "918979207bafcb5f379f1a596346a9f3fc58b2f8b70a45fd1b3e9901b0fd5350"
+    },
+    {
+      "name": "petra-research.tar.zst",
+      "bytes": 1456801223,
+      "sha256": "eb8a3bdc8e9db1384823046fd68f32050ad047502309ea8403ad88be4f22722c",
+      "files": 9967,
+      "uncompressed_bytes": 2088367322,
+      "inventory": "petra-research.files.jsonl.zst",
+      "inventory_sha256": "b2beafbf218f75de7ce4c8fde6549fd32555007b2526b545ca3691e6ca0e6102"
+    },
+    {
+      "name": "petra-vendor.tar.zst",
+      "bytes": 1674006129,
+      "sha256": "a74a88047979e785c20c0a9d25383b740d50dc9b6a2a2b0aac327f0d97b79896",
+      "files": 9960,
+      "uncompressed_bytes": 2336029952,
+      "inventory": "petra-vendor.files.jsonl.zst",
+      "inventory_sha256": "e4e0e473ee3fdf713d7aefe69d7675a65ba1bf52dfeb22ce262841452e7fae2b"
+    },
+    {
+      "name": "petra-runtimes.tar.zst",
+      "bytes": 16344749,
+      "sha256": "2c4aef9a297f2896a218374a56b98014d50314680cb951f09a7f967dd348340d",
+      "files": 9,
+      "uncompressed_bytes": 47801991,
+      "inventory": "petra-runtimes.files.jsonl.zst",
+      "inventory_sha256": "785c3240fbd56a845793d4322a7e9d0b0c87c2151e43352b30c24550d6f19c75"
+    }
+  ],
+  "excluded_categories": [
+    "compiler and dependency build caches",
+    "Git metadata",
+    "Python virtual environment except pinned Z3 binary and license",
+    "Python bytecode",
+    "three screenshots of unrelated private chats"
+  ],
+  "private_screenshots": [
+    "research/pro-coverage-20261004/submitted.png",
+    "research/pro-direction-review-v1/submitted.png",
+    "research/pro-pair-review-v1/submitted.png"
+  ]
+}

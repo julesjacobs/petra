@@ -1,0 +1,18 @@
+{
+  "scope": "Full fixed ladder:12new source programs plus4explicit bridge duplicates; development pilot, no competitor speed claim.",
+  "corpus": "benchmarks/raw-diverse-scaling-automaton-v1",
+  "source_manifest_sha256": "9bdd71d5bcb810d3b38611723512f2e5c01769ebc21bf95ec7464c67d88552df",
+  "binary": "results/solver-shared-relevance-schemas-v1/vass-reach",
+  "binary_sha256": "06dee8eab4b1b7fe9708cb64bafbc9f883b74a719390a50eb7431d4646ea6e3f",
+  "methods": [
+    "raw-potential",
+    "raw-negative"
+  ],
+  "seconds": 5,
+  "repeat": 1,
+  "memory_mib": 2048,
+  "expected_rows": 32,
+  "timing": "Portable Mac process-tree accounting, sampled RSS. Input parsing and independent checking inside5seconds. Export separately bounded at30seconds/2GiB/512MiB artifacts per source.",
+  "policy": "Retain every source and export failure. Source expectations are not solver results. Run every method on every available source. Separate new sources from bridges and keep existing complete comparison denominators.",
+  "limitations": "One exploratory repetition. Correlated scaling cases. Export/input/solver/checker failures reported separately; no timeout is an unreachability proof."
+}

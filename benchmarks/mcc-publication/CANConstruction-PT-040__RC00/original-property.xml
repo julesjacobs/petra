@@ -1,0 +1,37 @@
+<property-set><property>
+    <id>CANConstruction-PT-040-ReachabilityCardinality-00</id>
+    <description>Automatically generated</description>
+    <formula>
+      <exists-path>
+        <finally>
+          <disjunction>
+            <negation>
+              <disjunction>
+                <integer-le>
+                  <tokens-count>
+                    <place>Node35GiveAnswer4</place>
+                  </tokens-count>
+                  <tokens-count>
+                    <place>Node35requestsent25</place>
+                  </tokens-count>
+                </integer-le>
+                <integer-le>
+                  <integer-constant>1</integer-constant>
+                  <tokens-count>
+                    <place>Node11requestsent33</place>
+                  </tokens-count>
+                </integer-le>
+              </disjunction>
+            </negation>
+            <integer-le>
+              <integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>Node6GiveAnswer30</place>
+              </tokens-count>
+            </integer-le>
+          </disjunction>
+        </finally>
+      </exists-path>
+    </formula>
+  </property>
+  </property-set>

@@ -1,0 +1,1288 @@
+{
+  "format": "mcc-stress-selection-v1",
+  "status": "selection-only; no acquisition or solver run",
+  "selection": "Exclude every reserved and previously used family group using named selection metadata. Rank remaining families by SHA256(pvass-general-development-v3:+family), take first six distinct groups, and select median-rounded-up plus final indexed PT instance per family (deduplicate coincident ordinals). Retain all16ReachabilityCardinality slots. No model/property payload, solver outcome, polarity, input size or collection success enters selection. Development only; not held-out or established hardness.",
+  "source": "https://yanntm.github.io/pnmcc-models-2021/",
+  "index_path": "vendor/mcc2021/index.html",
+  "index_sha256": "58b01d6b01987ef8b4d8fada40b5d392913eb9e3e2fd6ab5dfceded4fbb5fe3f",
+  "expected_models": 11,
+  "expected_properties": 176,
+  "property_slots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "models": [
+    {
+      "family": "TriangularGrid",
+      "family_group": "TriangularGrid",
+      "name": "TriangularGrid-PT-3011",
+      "published_ordinal": 4,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TriangularGrid-PT-3011.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "TriangularGrid",
+      "family_group": "TriangularGrid",
+      "name": "TriangularGrid-PT-5046",
+      "published_ordinal": 8,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/TriangularGrid-PT-5046.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "IBM319",
+      "family_group": "IBM",
+      "name": "IBM319-PT-none",
+      "published_ordinal": 1,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/IBM319-PT-none.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "RERS17pb114",
+      "family_group": "RERS",
+      "name": "RERS17pb114-PT-5",
+      "published_ordinal": 5,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RERS17pb114-PT-5.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "RERS17pb114",
+      "family_group": "RERS",
+      "name": "RERS17pb114-PT-9",
+      "published_ordinal": 9,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RERS17pb114-PT-9.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "RefineWMG",
+      "family_group": "RefineWMG",
+      "name": "RefineWMG-PT-010011",
+      "published_ordinal": 8,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RefineWMG-PT-010011.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "RefineWMG",
+      "family_group": "RefineWMG",
+      "name": "RefineWMG-PT-100101",
+      "published_ordinal": 16,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/RefineWMG-PT-100101.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CloudReconfiguration",
+      "family_group": "CloudReconfiguration",
+      "name": "CloudReconfiguration-PT-311",
+      "published_ordinal": 11,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CloudReconfiguration-PT-311.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "CloudReconfiguration",
+      "family_group": "CloudReconfiguration",
+      "name": "CloudReconfiguration-PT-402",
+      "published_ordinal": 22,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/CloudReconfiguration-PT-402.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "DNAwalker",
+      "family_group": "DNAwalker",
+      "name": "DNAwalker-PT-09ringLR",
+      "published_ordinal": 9,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DNAwalker-PT-09ringLR.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    },
+    {
+      "family": "DNAwalker",
+      "family_group": "DNAwalker",
+      "name": "DNAwalker-PT-18lozangeBlock",
+      "published_ordinal": 18,
+      "split": "stress-development",
+      "url": "https://yanntm.github.io/pnmcc-models-2021/INPUTS/DNAwalker-PT-18lozangeBlock.tgz",
+      "expected_properties": 16,
+      "property_class": "ReachabilityCardinality"
+    }
+  ],
+  "family_decisions": [
+    {
+      "family": "ARMCacheCoherence",
+      "family_group": "ARMCacheCoherence",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "88b5587d1ac279ce74f5e2e01a686b45828ff5529705f7b8b9bdc7d1e3d9c4ff",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ASLink",
+      "family_group": "ASLink",
+      "indexed_instances": 20,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "e16d1a1ac1c772b365064d595afbcb34f1202f7f12a3e8715ea3ae271427d2b0",
+      "selected_ordinals": []
+    },
+    {
+      "family": "AirplaneLD",
+      "family_group": "AirplaneLD",
+      "indexed_instances": 9,
+      "decision": "reserved-group",
+      "rank_sha256": "87727a06356ee5e7ccb81debd7c79a3d4ac54c32d9bf9caf80baa5e8caa4a4fb",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Angiogenesis",
+      "family_group": "Angiogenesis",
+      "indexed_instances": 7,
+      "decision": "reserved-group",
+      "rank_sha256": "53d62d82166ae63b6e4014172f683dc07fba9524a2dbd9bd6caa1c1aaa73b7d6",
+      "selected_ordinals": []
+    },
+    {
+      "family": "AutoFlight",
+      "family_group": "AutoFlight",
+      "indexed_instances": 20,
+      "decision": "previously-used-group",
+      "rank_sha256": "72b7927546659f15ee760516462227178950498c96750e1205fde713b072e251",
+      "selected_ordinals": []
+    },
+    {
+      "family": "BART",
+      "family_group": "BART",
+      "indexed_instances": 8,
+      "decision": "previously-used-group",
+      "rank_sha256": "692cdc9f17bd1d437c304ec84e7b220d756b2a81248499fcab1f8d8894ade465",
+      "selected_ordinals": []
+    },
+    {
+      "family": "BridgeAndVehicles",
+      "family_group": "BridgeAndVehicles",
+      "indexed_instances": 20,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "2ca584ad4c74bff33f808d22e46013e4b9300b2a5bf7c7153d31c273f0957f35",
+      "selected_ordinals": []
+    },
+    {
+      "family": "BusinessProcesses",
+      "family_group": "BusinessProcesses",
+      "indexed_instances": 20,
+      "decision": "reserved-group",
+      "rank_sha256": "33a9ac00db58e82ac4b7e8013dace7f142022f559529157d6a9b6ccf8d6bc552",
+      "selected_ordinals": []
+    },
+    {
+      "family": "CANConstruction",
+      "family_group": "CANConstruction",
+      "indexed_instances": 11,
+      "decision": "previously-used-group",
+      "rank_sha256": "12e2060655a5d8ab812557a330800f412c2912dcebac4ce3fa2f0720af710414",
+      "selected_ordinals": []
+    },
+    {
+      "family": "CSRepetitions",
+      "family_group": "CSRepetitions",
+      "indexed_instances": 6,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "683a20757336c3db7fab60cc5c77770fbee07ca97534682ffa5cff7506a41519",
+      "selected_ordinals": []
+    },
+    {
+      "family": "CircadianClock",
+      "family_group": "CircadianClock",
+      "indexed_instances": 6,
+      "decision": "previously-used-group",
+      "rank_sha256": "f2abbc0e419ebe9d1446f6cc7c1ff9284e96b95e41116ea8c98608bd620e56f9",
+      "selected_ordinals": []
+    },
+    {
+      "family": "CircularTrains",
+      "family_group": "CircularTrains",
+      "indexed_instances": 7,
+      "decision": "previously-used-group",
+      "rank_sha256": "ea9bcd337d4f937b412155bb00abad6823b10b3c455c9924ef2b9c5e3c8bf11c",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ClientsAndServers",
+      "family_group": "ClientsAndServers",
+      "indexed_instances": 20,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "ef06608225c0f0b3a77ee0d63a7b34e949b3f0b91699ac639980ce05aa523b4c",
+      "selected_ordinals": []
+    },
+    {
+      "family": "CloudDeployment",
+      "family_group": "CloudDeployment",
+      "indexed_instances": 12,
+      "decision": "reserved-group",
+      "rank_sha256": "850dde9bb3b8910d54195db6b0cc5ddcb140916926d180fb8f0f58176f4ca2c3",
+      "selected_ordinals": []
+    },
+    {
+      "family": "CloudOpsManagement",
+      "family_group": "CloudOpsManagement",
+      "indexed_instances": 14,
+      "decision": "previously-used-group",
+      "rank_sha256": "632b6395a6e6611fde9fdeb1a02fb570301d362e1d18751d680a9fdbeb9705f3",
+      "selected_ordinals": []
+    },
+    {
+      "family": "CloudReconfiguration",
+      "family_group": "CloudReconfiguration",
+      "indexed_instances": 22,
+      "decision": "selected",
+      "rank_sha256": "19b8cb7e38b6446cdfdae15bb05d8e154fa7bff285591e06ce2802704d0be5f8",
+      "selected_ordinals": [
+        11,
+        22
+      ]
+    },
+    {
+      "family": "DES",
+      "family_group": "DES",
+      "indexed_instances": 20,
+      "decision": "reserved-group",
+      "rank_sha256": "e80b95424a3a684d0c01305623df1f77d331d6618644db636f5394d233da1f94",
+      "selected_ordinals": []
+    },
+    {
+      "family": "DLCflexbar",
+      "family_group": "DLC",
+      "indexed_instances": 14,
+      "decision": "previously-used-group",
+      "rank_sha256": "49e498169d7ace5d4598eb40a9208c67b8c5f6f4fe8d9750d7f99c83c03301f7",
+      "selected_ordinals": []
+    },
+    {
+      "family": "DLCround",
+      "family_group": "DLC",
+      "indexed_instances": 22,
+      "decision": "previously-used-group",
+      "rank_sha256": "052a52a26ca00b145070638890bbb5184534ad3a2fb4a4ebf3531ab5e523e49d",
+      "selected_ordinals": []
+    },
+    {
+      "family": "DLCshifumi",
+      "family_group": "DLC",
+      "indexed_instances": 10,
+      "decision": "previously-used-group",
+      "rank_sha256": "bde91db77b2d1f58443439593295aba58667f8020bac3cfe8362a4f899068026",
+      "selected_ordinals": []
+    },
+    {
+      "family": "DNAwalker",
+      "family_group": "DNAwalker",
+      "indexed_instances": 18,
+      "decision": "selected",
+      "rank_sha256": "1a8f92fbdcdaa3df9342581f55beea371b494c433f262e36c6ab774a42cae580",
+      "selected_ordinals": [
+        9,
+        18
+      ]
+    },
+    {
+      "family": "DatabaseWithMutex",
+      "family_group": "DatabaseWithMutex",
+      "indexed_instances": 5,
+      "decision": "previously-used-group",
+      "rank_sha256": "fc4066c2cfdb248b4dda75fd78a6d7b9756df3e6ae1e75dd57b7b4e75c7c7379",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Dekker",
+      "family_group": "Dekker",
+      "indexed_instances": 6,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "5195599a073488ca5776bafacb95a7d98b512f936ee41ab2efe87728ae0cf0ea",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Diffusion2D",
+      "family_group": "Diffusion2D",
+      "indexed_instances": 29,
+      "decision": "reserved-group",
+      "rank_sha256": "39fbeeb585ec2aa12b726b8ee4d949d0c8e5331c33432ebf177f95167eebaea0",
+      "selected_ordinals": []
+    },
+    {
+      "family": "DiscoveryGPU",
+      "family_group": "GPU",
+      "indexed_instances": 20,
+      "decision": "previously-used-group",
+      "rank_sha256": "112076ca1734eb0eea57b8d70654eb27df7511279efab3f786ece01febccbc41",
+      "selected_ordinals": []
+    },
+    {
+      "family": "DoubleExponent",
+      "family_group": "DoubleExponent",
+      "indexed_instances": 8,
+      "decision": "previously-used-group",
+      "rank_sha256": "773e23e06dca311a1947e9ca565fd125da80f0bf8026549612fbf8f5d32ecc83",
+      "selected_ordinals": []
+    },
+    {
+      "family": "DrinkVendingMachine",
+      "family_group": "DrinkVendingMachine",
+      "indexed_instances": 2,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "4bfb32b754c3621416dd2f22a47708412b266dccd0b899e0f94b5362105266fb",
+      "selected_ordinals": []
+    },
+    {
+      "family": "EGFr",
+      "family_group": "EGFr",
+      "indexed_instances": 3,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "79cedf212d9b09a17040de52178b756752e39400d5e5caceb1e0d4bd7ed6f91e",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ERK",
+      "family_group": "ERK",
+      "indexed_instances": 6,
+      "decision": "reserved-group",
+      "rank_sha256": "a6459eb4cd542d243fd539e63a058734c0b520d474e2b88ba57cc36aa71233c4",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Echo",
+      "family_group": "Echo",
+      "indexed_instances": 9,
+      "decision": "previously-used-group",
+      "rank_sha256": "baa33ee94196c388c1787da62f9d56a36de8849ecab44c73025afaf3cc3dfac2",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Election2020",
+      "family_group": "Election2020",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "fe86777600a394c263c8161bf0f2e43c951295625fec35816122c0ddc1cf9d1c",
+      "selected_ordinals": []
+    },
+    {
+      "family": "EnergyBus",
+      "family_group": "EnergyBus",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "9cdcebbb9ab2132aab61edac0d96d2ef2eb0a6c61f2ef3450eb7b73a8517c5a1",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Eratosthenes",
+      "family_group": "Eratosthenes",
+      "indexed_instances": 6,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "69b6061fb7feecd15d9c1f4109e07e7b216e66f52da9ef706514ad0902738b45",
+      "selected_ordinals": []
+    },
+    {
+      "family": "FMS",
+      "family_group": "FMS",
+      "indexed_instances": 14,
+      "decision": "previously-used-group",
+      "rank_sha256": "122aefc9cbe7126af20fb5bd387c9ddcc97aa389e9190b1029249f79f4e2d5cd",
+      "selected_ordinals": []
+    },
+    {
+      "family": "FamilyReunion",
+      "family_group": "FamilyReunion",
+      "indexed_instances": 6,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "701dd04170618a6b181f6dea5ba31846ce7991992866ea451d11dc37d624cfdb",
+      "selected_ordinals": []
+    },
+    {
+      "family": "FlexibleBarrier",
+      "family_group": "FlexibleBarrier",
+      "indexed_instances": 20,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "939f9967485660bd1ce6ba391d39fdfa1952d939723f52946ae606697e4917f0",
+      "selected_ordinals": []
+    },
+    {
+      "family": "GPPP",
+      "family_group": "GPPP",
+      "indexed_instances": 17,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "1f40cb4dbd4803f34b3ce1aae9ceb2b137c332f067053147ac5e0ff58f1895d9",
+      "selected_ordinals": []
+    },
+    {
+      "family": "GPUForwardProgress",
+      "family_group": "GPU",
+      "indexed_instances": 20,
+      "decision": "previously-used-group",
+      "rank_sha256": "cf29e163006acd509c33b0aef8ca5302fa3967a862856dc21e81ebc52c03e91d",
+      "selected_ordinals": []
+    },
+    {
+      "family": "GlobalResAllocation",
+      "family_group": "GlobalResAllocation",
+      "indexed_instances": 2,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "65bd2d38d545c4372be3c55ba460c9549aeb52244382ef9c7786f604ab1a4a98",
+      "selected_ordinals": []
+    },
+    {
+      "family": "HealthRecord",
+      "family_group": "HealthRecord",
+      "indexed_instances": 17,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "3b89e2d5863b657570de74c4dbd00bd9fb7800c39eb69ce6599dec13c093b45d",
+      "selected_ordinals": []
+    },
+    {
+      "family": "HexagonalGrid",
+      "family_group": "HexagonalGrid",
+      "indexed_instances": 7,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "2c90826e1fe165bded12764baf321edf09a42938fb4e63e235376102ca949fbf",
+      "selected_ordinals": []
+    },
+    {
+      "family": "HirschbergSinclair",
+      "family_group": "HirschbergSinclair",
+      "indexed_instances": 10,
+      "decision": "reserved-group",
+      "rank_sha256": "108f2acab1e65cfdb89300fed390051c006d9e7742dbfcc0f05defe0ed00c078",
+      "selected_ordinals": []
+    },
+    {
+      "family": "HospitalTriage",
+      "family_group": "HospitalTriage",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "57515a71691bec7a019639064936b0206852e7437594c0b050256f39ff29ef27",
+      "selected_ordinals": []
+    },
+    {
+      "family": "HouseConstruction",
+      "family_group": "HouseConstruction",
+      "indexed_instances": 14,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "39f54995327c9a7f68d0d99c2f737190b90a64194f8013061717ed90e1bb3861",
+      "selected_ordinals": []
+    },
+    {
+      "family": "HypercubeGrid",
+      "family_group": "HypercubeGrid",
+      "indexed_instances": 3,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "299d9bbf052f6917f20c3b97c6d496f06279a58f833d6c58560ed83f9d932e4d",
+      "selected_ordinals": []
+    },
+    {
+      "family": "HypertorusGrid",
+      "family_group": "HypertorusGrid",
+      "indexed_instances": 6,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "88a33f7e6345d688b070a7911d6272059629ef72c15fb04bd2e52dd1d8cb9c08",
+      "selected_ordinals": []
+    },
+    {
+      "family": "IBM319",
+      "family_group": "IBM",
+      "indexed_instances": 1,
+      "decision": "selected",
+      "rank_sha256": "06a60aa61df51931b6fcd2046622fbf3328bab7afc1a8da796e362815d65123f",
+      "selected_ordinals": [
+        1
+      ]
+    },
+    {
+      "family": "IBM5964",
+      "family_group": "IBM",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "e3c99e8335e776e293a0780ae49da01d5e9f4305f34853ea2ce39527f974f8dd",
+      "selected_ordinals": []
+    },
+    {
+      "family": "IBM703",
+      "family_group": "IBM",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "857a5184c2d9f28f3ba8dd7d5a7b7c4fbe7c802ea491bb4d87ca55246989a81f",
+      "selected_ordinals": []
+    },
+    {
+      "family": "IBMB2S565S3960",
+      "family_group": "IBM",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "a97d6ec5d238b6675742522cee004b4079196be99bbdf1cebc6ab8da33b7ba53",
+      "selected_ordinals": []
+    },
+    {
+      "family": "IOTPpurchase",
+      "family_group": "IOTPpurchase",
+      "indexed_instances": 4,
+      "decision": "previously-used-group",
+      "rank_sha256": "e4a57239aac14c1ffe9bec1beef61414d541c79c3e328b57c3865cf65ffc79ac",
+      "selected_ordinals": []
+    },
+    {
+      "family": "JoinFreeModules",
+      "family_group": "JoinFreeModules",
+      "indexed_instances": 12,
+      "decision": "previously-used-group",
+      "rank_sha256": "25a205338e49663f41fca12516944379d3c4496df6a280267d0a6abcfb70dc3b",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Kanban",
+      "family_group": "Kanban",
+      "indexed_instances": 13,
+      "decision": "reserved-group",
+      "rank_sha256": "c26de39642fbbd2d0fdb1d46700ccfa37a49a2124d8cd157c61b6150121b9173",
+      "selected_ordinals": []
+    },
+    {
+      "family": "LamportFastMutEx",
+      "family_group": "LamportFastMutEx",
+      "indexed_instances": 7,
+      "decision": "reserved-group",
+      "rank_sha256": "c275636f9782b136362e5063a08a46989fbb806e4bea2263e271d819d91648ae",
+      "selected_ordinals": []
+    },
+    {
+      "family": "LeafsetExtension",
+      "family_group": "LeafsetExtension",
+      "indexed_instances": 12,
+      "decision": "reserved-group",
+      "rank_sha256": "c6e81955fce6cc4522eeb604163abaef29a69beaa69a9789de5ae7e6c48562e2",
+      "selected_ordinals": []
+    },
+    {
+      "family": "MAPK",
+      "family_group": "MAPK",
+      "indexed_instances": 11,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "9f1dd710e33db2f397e95c01b5cbf07244492d15551f02b0e054b9f9fdcb07fe",
+      "selected_ordinals": []
+    },
+    {
+      "family": "MAPKbis",
+      "family_group": "MAPKbis",
+      "indexed_instances": 2,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "cb359aab432f3296bc96a0aadf9121b67123afdd8f6300ef9a5c3d13b31268fd",
+      "selected_ordinals": []
+    },
+    {
+      "family": "MultiCrashLeafsetExtension",
+      "family_group": "MultiCrashLeafsetExtension",
+      "indexed_instances": 29,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "cd8e53ca31d266ac7af7eb8f8224000f9bd7f1c19a36c3a2d76352047830c82d",
+      "selected_ordinals": []
+    },
+    {
+      "family": "MultiwaySync",
+      "family_group": "MultiwaySync",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "aba902e0031f11e093c56607608266c7c4cee6502e219157c1f5df2f45f1985b",
+      "selected_ordinals": []
+    },
+    {
+      "family": "NQueens",
+      "family_group": "NQueens",
+      "indexed_instances": 8,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "8a91898d70fa66bdc33ba47b546350313c6e1937f969a8cb445e8f3e4ddcf139",
+      "selected_ordinals": []
+    },
+    {
+      "family": "NeighborGrid",
+      "family_group": "NeighborGrid",
+      "indexed_instances": 5,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "66370b9243f2546b5f9bdcabaa603c3d0a0f2329507e440d231c17fe0ee08714",
+      "selected_ordinals": []
+    },
+    {
+      "family": "NeoElection",
+      "family_group": "NeoElection",
+      "indexed_instances": 7,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "a41d229044582f41fdb21f251d119969a0083511a3a7116e628c2d0141ebafca",
+      "selected_ordinals": []
+    },
+    {
+      "family": "NoC3x3",
+      "family_group": "NoC3x3",
+      "indexed_instances": 16,
+      "decision": "previously-used-group",
+      "rank_sha256": "1546917d6b8465bbfbc98fff8d295440238dd0c52a7b2cf00699d6d469e97643",
+      "selected_ordinals": []
+    },
+    {
+      "family": "PaceMaker",
+      "family_group": "PaceMaker",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "1f8ea93d6d0af93651b8360551e41a5e82df58fa2e14d47d742b9e4941743667",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ParamProductionCell",
+      "family_group": "ProductionCell",
+      "indexed_instances": 6,
+      "decision": "reserved-group",
+      "rank_sha256": "d3976ec805696885d6ad74fd8d8df01eec7ed766c31b5eb8306ed0d964bd4fa4",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Parking",
+      "family_group": "Parking",
+      "indexed_instances": 6,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "b352e00c105f8ae98730b79b69093471d5324d93eb8dccabc11ec154a1b7de72",
+      "selected_ordinals": []
+    },
+    {
+      "family": "PermAdmissibility",
+      "family_group": "PermAdmissibility",
+      "indexed_instances": 6,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "4ad4f7f1feb6b607785d4ad0fd6121415b9752290368f76c7186b84426512ea2",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Peterson",
+      "family_group": "Peterson",
+      "indexed_instances": 6,
+      "decision": "reserved-group",
+      "rank_sha256": "3c3b98a8ae9da2249f2b993dadb94d38f9e2243692a3dc1067ba370d9c9c9c45",
+      "selected_ordinals": []
+    },
+    {
+      "family": "PhaseVariation",
+      "family_group": "PhaseVariation",
+      "indexed_instances": 10,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "b28e40d8f2987eb8e361eb8c38a5dd53cbcda955bbc910b161ffd914dab0bd6c",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Philosophers",
+      "family_group": "Philosophers",
+      "indexed_instances": 11,
+      "decision": "reserved-group",
+      "rank_sha256": "6ff9d35c93bd5ad16e1266be897a03a997ae5e9be2b8835d64664a9de2b9f32a",
+      "selected_ordinals": []
+    },
+    {
+      "family": "PhilosophersDyn",
+      "family_group": "PhilosophersDyn",
+      "indexed_instances": 3,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "fdc8ef0b897ba39eb68b0ef246425e61cbde8dbd8c66ae2769b5369382791a49",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Planning",
+      "family_group": "Planning",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "cdcaa6cab4bb6c65521e4ea61128b9f9ec014728cb873fa7492e28aa2ed26881",
+      "selected_ordinals": []
+    },
+    {
+      "family": "PolyORBLF",
+      "family_group": "PolyORBLF",
+      "indexed_instances": 18,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "32c7da27be85f5b8c4669b192762e7428337276dad0dac3bf7a2fccaae4df33c",
+      "selected_ordinals": []
+    },
+    {
+      "family": "PolyORBNT",
+      "family_group": "PolyORBNT",
+      "indexed_instances": 10,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "eb9607b79f0507e62369bbfc78a859eb1a6054a1e1aa8816627f264f209ccfb4",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ProductionCell",
+      "family_group": "ProductionCell",
+      "indexed_instances": 1,
+      "decision": "reserved-group",
+      "rank_sha256": "077f4e23b9124517048e1bec6055f3c38f29d43e0ba367e134fed658e2da8a5e",
+      "selected_ordinals": []
+    },
+    {
+      "family": "QuasiCertifProtocol",
+      "family_group": "QuasiCertifProtocol",
+      "indexed_instances": 7,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "7ab64a1ddd2dc7ba1fa72e7bcce456c17cde089361309f935196629915165a44",
+      "selected_ordinals": []
+    },
+    {
+      "family": "RERS17pb113",
+      "family_group": "RERS",
+      "indexed_instances": 9,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "16a321d0a7a099e654ea0efb7f03f8523e54d7cb765524dd31cfa38c660f256f",
+      "selected_ordinals": []
+    },
+    {
+      "family": "RERS17pb114",
+      "family_group": "RERS",
+      "indexed_instances": 9,
+      "decision": "selected",
+      "rank_sha256": "098260e3414b1a5c2ff81eaabab5c9eff72615bd5a2d62d7875d4b6dbb892d2e",
+      "selected_ordinals": [
+        5,
+        9
+      ]
+    },
+    {
+      "family": "RERS17pb115",
+      "family_group": "RERS",
+      "indexed_instances": 9,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "0f2b5adfa7ffca532269b7541a441a82348115a8130a646fb61908668ec60ac0",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Raft",
+      "family_group": "Raft",
+      "indexed_instances": 9,
+      "decision": "reserved-group",
+      "rank_sha256": "8b253cd42f46d3ad7733fc7407ab8e9631ff47254e78cd59fbacb0ca99261db6",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Railroad",
+      "family_group": "Railroad",
+      "indexed_instances": 5,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "ecf7e1540c81f3430a21b72a02597eaeee1a4c41dfc3c3cf4d0c09936d8fc55a",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Referendum",
+      "family_group": "Referendum",
+      "indexed_instances": 8,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "77e9e5a69dbf77a64ac2a56c631c72088e02083d01eb4a93309249eeaf8af901",
+      "selected_ordinals": []
+    },
+    {
+      "family": "RefineWMG",
+      "family_group": "RefineWMG",
+      "indexed_instances": 16,
+      "decision": "selected",
+      "rank_sha256": "15eb8b013734d322f0ff07fdb32ba5042838b08a729244b3a0429c05dc79c204",
+      "selected_ordinals": [
+        8,
+        16
+      ]
+    },
+    {
+      "family": "ResAllocation",
+      "family_group": "ResAllocation",
+      "indexed_instances": 15,
+      "decision": "reserved-group",
+      "rank_sha256": "a7cd74fa04e0b885b457063dc2b289f5969f4357f163c994d6893885dae5ef5c",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Ring",
+      "family_group": "Ring",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "ab2d86b34ec1fba1746fc4cf10ca6bbdcda24202ea7beeea05d5e0046ace60c3",
+      "selected_ordinals": []
+    },
+    {
+      "family": "RobotManipulation",
+      "family_group": "RobotManipulation",
+      "indexed_instances": 13,
+      "decision": "previously-used-group",
+      "rank_sha256": "8ba2ed62c99f3531eca1c63d93d11a28bdbb9bc7ebb6bb86236f8f94c3963e4b",
+      "selected_ordinals": []
+    },
+    {
+      "family": "RwMutex",
+      "family_group": "RwMutex",
+      "indexed_instances": 12,
+      "decision": "previously-used-group",
+      "rank_sha256": "1e374665c68d2de13fb1a7d7a1b11cd555c257c0e3d86e7b8fce90e876aed359",
+      "selected_ordinals": []
+    },
+    {
+      "family": "SafeBus",
+      "family_group": "SafeBus",
+      "indexed_instances": 5,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "e0432f10be18ad43b56c1079447f406d73ec373b299011cc0407ffeb5bdd9d76",
+      "selected_ordinals": []
+    },
+    {
+      "family": "SatelliteMemory",
+      "family_group": "SatelliteMemory",
+      "indexed_instances": 5,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "6ad6034bcc21a670733e2c49c40acb8677601f4cb68aef3865c8a5e7514b05ec",
+      "selected_ordinals": []
+    },
+    {
+      "family": "SemanticWebServices",
+      "family_group": "SemanticWebServices",
+      "indexed_instances": 15,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "1d4f934b084b0fb662bf6162cb69196eb586618c41421d818d5797a4563418ab",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ServersAndClients",
+      "family_group": "ServersAndClients",
+      "indexed_instances": 11,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "5e4d5eaa37d9082e855e7c68ba7addb6ac86e814a419962892c80495818c6216",
+      "selected_ordinals": []
+    },
+    {
+      "family": "SharedMemory",
+      "family_group": "SharedMemory",
+      "indexed_instances": 6,
+      "decision": "previously-used-group",
+      "rank_sha256": "febb2816ba6bbb08e52e5ef1fdeea3e9d2c753149d0403b9804014d86aa87328",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ShieldIIPs",
+      "family_group": "ShieldIIPs",
+      "indexed_instances": 22,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "4585d34e4e7281e09019b1308e49bb89025cc6e843e1218c7d07605e15b5542a",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ShieldIIPt",
+      "family_group": "ShieldIIPt",
+      "indexed_instances": 22,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "8486568e10c34cfe8352ddd355499d16a4560e06437d63117fddd68837633b21",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ShieldPPPs",
+      "family_group": "ShieldPPPs",
+      "indexed_instances": 22,
+      "decision": "reserved-group",
+      "rank_sha256": "ec647ad1995bfd80377c0ad404535ef491c3617cfa82629a474fff88233afc44",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ShieldPPPt",
+      "family_group": "ShieldPPPt",
+      "indexed_instances": 22,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "78f6d832e42d870f66e7039cbc139e51b41b61a69ed89655dededcd72b65366a",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ShieldRVs",
+      "family_group": "ShieldRVs",
+      "indexed_instances": 22,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "d12632f590e7493dcb4bfb08e238d9e1f4fc47b24b40bd0ee356460e09a64dd6",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ShieldRVt",
+      "family_group": "ShieldRVt",
+      "indexed_instances": 22,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "c86803462fb481a9d5fb94e03c17d8bf986a51adf19f993e396eacb4ca7ee872",
+      "selected_ordinals": []
+    },
+    {
+      "family": "SimpleLoadBal",
+      "family_group": "SimpleLoadBal",
+      "indexed_instances": 5,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "5f10e579851eb4954f704e05588a168cf17ccaf218fee00fbc738f0951dac070",
+      "selected_ordinals": []
+    },
+    {
+      "family": "SmallOperatingSystem",
+      "family_group": "SmallOperatingSystem",
+      "indexed_instances": 19,
+      "decision": "previously-used-group",
+      "rank_sha256": "9b8608bee53969d4ce4cc888289da2c3cb58717e3c86996ad79c264d7521a2ab",
+      "selected_ordinals": []
+    },
+    {
+      "family": "SmartHome",
+      "family_group": "SmartHome",
+      "indexed_instances": 19,
+      "decision": "reserved-group",
+      "rank_sha256": "8feaa0760de0bd13f156fb56aaec87cf7743c07966050a515cd7f368bf5eff67",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Solitaire",
+      "family_group": "Solitaire",
+      "indexed_instances": 6,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "e9e11e246f7a49dbebc43276dd499e7b36f79dd276104cae4650c1d0864bf29d",
+      "selected_ordinals": []
+    },
+    {
+      "family": "SquareGrid",
+      "family_group": "SquareGrid",
+      "indexed_instances": 5,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "51968782c118dfa247ec19a2562c2b75b74775a2cfd7bf3078908e4ac1a12b2b",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Sudoku",
+      "family_group": "Sudoku",
+      "indexed_instances": 20,
+      "decision": "reserved-group",
+      "rank_sha256": "da1f8820fbb061ef48ecaaa559f180204022e7a1cf5793548bcd9067c67fa413",
+      "selected_ordinals": []
+    },
+    {
+      "family": "SwimmingPool",
+      "family_group": "SwimmingPool",
+      "indexed_instances": 10,
+      "decision": "reserved-group",
+      "rank_sha256": "fc781c47e2bbf5cdc37c445a245c319e86a2966bd25c5f7956f8095d827fc180",
+      "selected_ordinals": []
+    },
+    {
+      "family": "TCPcondis",
+      "family_group": "TCPcondis",
+      "indexed_instances": 9,
+      "decision": "reserved-group",
+      "rank_sha256": "fafc6cc0ccdf895181a30d2b08498ad2e9b9286206f2245176910375efc2a706",
+      "selected_ordinals": []
+    },
+    {
+      "family": "TokenRing",
+      "family_group": "TokenRing",
+      "indexed_instances": 7,
+      "decision": "previously-used-group",
+      "rank_sha256": "a6233b89c0df2841ff584a1bcbd76a1ec8f5dc4915ea399567dcdeb11f12f672",
+      "selected_ordinals": []
+    },
+    {
+      "family": "TriangularGrid",
+      "family_group": "TriangularGrid",
+      "indexed_instances": 8,
+      "decision": "selected",
+      "rank_sha256": "0643ddd3e940dcd4341cff8477a0321b7a1de3e88fb957aab7702285c0bc3cc7",
+      "selected_ordinals": [
+        4,
+        8
+      ]
+    },
+    {
+      "family": "TwoPhaseLocking",
+      "family_group": "TwoPhaseLocking",
+      "indexed_instances": 22,
+      "decision": "reserved-group",
+      "rank_sha256": "948cc4ae39ddab611c2d7c04150feb6fc37cae15d51f167874ccc802a6f5aaaf",
+      "selected_ordinals": []
+    },
+    {
+      "family": "UtahNoC",
+      "family_group": "UtahNoC",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "3f4d3fdefa9ef46233f725e5658b9abf1e8b7f8e2d59ff4969f1e4752f6670bc",
+      "selected_ordinals": []
+    },
+    {
+      "family": "UtilityControlRoom",
+      "family_group": "UtilityControlRoom",
+      "indexed_instances": 17,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "569581a2a0d7fd0ad7efd51be9e473de1e68fc073f7e343477d530186ed845ea",
+      "selected_ordinals": []
+    },
+    {
+      "family": "Vasy2003",
+      "family_group": "Vasy2003",
+      "indexed_instances": 1,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "e2ea60d014c104768c607a4834884ff0da2d71ed8cc8d755faa1145a6743d5da",
+      "selected_ordinals": []
+    },
+    {
+      "family": "ViralEpidemic",
+      "family_group": "ViralEpidemic",
+      "indexed_instances": 15,
+      "decision": "eligible-not-selected",
+      "rank_sha256": "606e13405a1a01f43c2e749caf0f2a96b7ccb77d3fa580c9ceb2efd5bb72262c",
+      "selected_ordinals": []
+    }
+  ],
+  "eligible_ranked": [
+    "TriangularGrid",
+    "IBM319",
+    "RERS17pb114",
+    "RERS17pb115",
+    "RefineWMG",
+    "RERS17pb113",
+    "CloudReconfiguration",
+    "DNAwalker",
+    "SemanticWebServices",
+    "GPPP",
+    "PaceMaker",
+    "HypercubeGrid",
+    "HexagonalGrid",
+    "BridgeAndVehicles",
+    "PolyORBLF",
+    "HouseConstruction",
+    "HealthRecord",
+    "UtahNoC",
+    "ShieldIIPs",
+    "PermAdmissibility",
+    "DrinkVendingMachine",
+    "Dekker",
+    "SquareGrid",
+    "UtilityControlRoom",
+    "HospitalTriage",
+    "ServersAndClients",
+    "SimpleLoadBal",
+    "ViralEpidemic",
+    "GlobalResAllocation",
+    "NeighborGrid",
+    "CSRepetitions",
+    "Eratosthenes",
+    "SatelliteMemory",
+    "FamilyReunion",
+    "Referendum",
+    "ShieldPPPt",
+    "EGFr",
+    "QuasiCertifProtocol",
+    "ShieldIIPt",
+    "IBM703",
+    "HypertorusGrid",
+    "ARMCacheCoherence",
+    "NQueens",
+    "FlexibleBarrier",
+    "EnergyBus",
+    "MAPK",
+    "NeoElection",
+    "IBMB2S565S3960",
+    "Ring",
+    "MultiwaySync",
+    "PhaseVariation",
+    "Parking",
+    "ShieldRVt",
+    "MAPKbis",
+    "MultiCrashLeafsetExtension",
+    "Planning",
+    "ShieldRVs",
+    "SafeBus",
+    "ASLink",
+    "Vasy2003",
+    "IBM5964",
+    "Solitaire",
+    "PolyORBNT",
+    "Railroad",
+    "ClientsAndServers",
+    "PhilosophersDyn",
+    "Election2020"
+  ],
+  "reserved_families_excluded": [
+    "AirplaneLD",
+    "Angiogenesis",
+    "BusinessProcesses",
+    "CloudDeployment",
+    "DES",
+    "Diffusion2D",
+    "ERK",
+    "HirschbergSinclair",
+    "Kanban",
+    "LamportFastMutEx",
+    "LeafsetExtension",
+    "ParamProductionCell",
+    "Peterson",
+    "Philosophers",
+    "Raft",
+    "ResAllocation",
+    "ShieldPPPs",
+    "SmartHome",
+    "Sudoku",
+    "SwimmingPool",
+    "TCPcondis",
+    "TwoPhaseLocking"
+  ],
+  "reserved_groups_excluded": [
+    "AirplaneLD",
+    "Angiogenesis",
+    "BusinessProcesses",
+    "CloudDeployment",
+    "DES",
+    "Diffusion2D",
+    "ERK",
+    "HirschbergSinclair",
+    "Kanban",
+    "LamportFastMutEx",
+    "LeafsetExtension",
+    "Peterson",
+    "Philosophers",
+    "ProductionCell",
+    "Raft",
+    "ResAllocation",
+    "ShieldPPPs",
+    "SmartHome",
+    "Sudoku",
+    "SwimmingPool",
+    "TCPcondis",
+    "TwoPhaseLocking"
+  ],
+  "recorded_used_families": [
+    "AirplaneLD",
+    "Angiogenesis",
+    "AutoFlight",
+    "BART",
+    "BusinessProcesses",
+    "CANConstruction",
+    "CircadianClock",
+    "CircularTrains",
+    "CloudDeployment",
+    "CloudOpsManagement",
+    "DES",
+    "DLCflexbar",
+    "DatabaseWithMutex",
+    "Diffusion2D",
+    "DoubleExponent",
+    "ERK",
+    "Echo",
+    "FMS",
+    "GPUForwardProgress",
+    "HirschbergSinclair",
+    "IOTPpurchase",
+    "JoinFreeModules",
+    "Kanban",
+    "LamportFastMutEx",
+    "LeafsetExtension",
+    "NoC3x3",
+    "ParamProductionCell",
+    "Peterson",
+    "Philosophers",
+    "Raft",
+    "ResAllocation",
+    "RobotManipulation",
+    "RwMutex",
+    "SharedMemory",
+    "ShieldPPPs",
+    "SmallOperatingSystem",
+    "SmartHome",
+    "Sudoku",
+    "SwimmingPool",
+    "TCPcondis",
+    "TokenRing",
+    "TwoPhaseLocking"
+  ],
+  "recorded_used_groups": [
+    "AirplaneLD",
+    "Angiogenesis",
+    "AutoFlight",
+    "BART",
+    "BusinessProcesses",
+    "CANConstruction",
+    "CircadianClock",
+    "CircularTrains",
+    "CloudDeployment",
+    "CloudOpsManagement",
+    "DES",
+    "DLC",
+    "DatabaseWithMutex",
+    "Diffusion2D",
+    "DoubleExponent",
+    "ERK",
+    "Echo",
+    "FMS",
+    "GPU",
+    "HirschbergSinclair",
+    "IOTPpurchase",
+    "JoinFreeModules",
+    "Kanban",
+    "LamportFastMutEx",
+    "LeafsetExtension",
+    "NoC3x3",
+    "Peterson",
+    "Philosophers",
+    "ProductionCell",
+    "Raft",
+    "ResAllocation",
+    "RobotManipulation",
+    "RwMutex",
+    "SharedMemory",
+    "ShieldPPPs",
+    "SmallOperatingSystem",
+    "SmartHome",
+    "Sudoku",
+    "SwimmingPool",
+    "TCPcondis",
+    "TokenRing",
+    "TwoPhaseLocking"
+  ],
+  "group_policy": "RERS*,IBM*,DLC* grouped by prefix; any ProductionCell or GPU names grouped conservatively; all others exact family names. This avoids obvious potential relatives, not a verified generator-independence claim.",
+  "input_sha256": {
+    "vendor/mcc2021/index.html": "58b01d6b01987ef8b4d8fada40b5d392913eb9e3e2fd6ab5dfceded4fbb5fe3f",
+    "benchmarks/application-expansion-v1-selection.json": "65524b6d4faeebd2b5243986a23cac23ce59dec3668a60988d82d917302507d5",
+    "benchmarks/application-parameter-ladders-v2-selection.json": "e729cd00a2facdddcb0273dda32915b0f5a78f17d6e70185a1cb172a80fec605",
+    "benchmarks/mcc-selection.json": "47639889ad5aa46acd50ab9681f1c25454eeff10a664fe1ff8b673aea97b423c",
+    "benchmarks/publication-selection.json": "9dc8baf28450abdc3ee409b941c6589a42e0731c712f769a7fb5c7405b1c58fd",
+    "benchmarks/stress-selection.json": "7b98693f3f153a608b3df6ff229f5418352031657ddfe1a090169602fb586306"
+  },
+  "selector_sha256": "d9876201f9a046559ffc2a1a731375c4d61365d86efb597b1e7c3f9ed7d00245",
+  "collector": {
+    "seconds": 120,
+    "memory_mib": 2048,
+    "archive_mib": 256,
+    "expanded_mib": 1024,
+    "artifact_mib": 1024
+  },
+  "acquisition_gate": "Wait for local34053authoritative terminal. No acquisition, imports, builds, extra solvers or exports during local measurements. Linux31728gate remains independent.",
+  "archive_identity": "Index freezes URLs/names only; acquire and hash original archive bytes later. Audit import semantics and exact/canonical duplicates before timing.",
+  "reporting": "Retain full slot denominator and failures. Compare strongest current frozen native, matched predecessor, VerifyPN and full portable SMPT with matched5s/single-core/2GiB and separate native checking. Qualify all joint survivors at declared longer budgets without discarding parent rows. No superiority from selected subset or one repeat."
+}

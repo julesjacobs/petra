@@ -1,0 +1,300 @@
+{
+  "status": "passed",
+  "rows": 16,
+  "queries": 8,
+  "parent_denominators": [
+    656,
+    640,
+    8
+  ],
+  "coverage": {
+    "native-capacity": {
+      "unknown": 7,
+      "unreachable": 1
+    },
+    "native-walk": {
+      "unknown": 7,
+      "reachable": 1
+    }
+  },
+  "checked_definitive_rows": 2,
+  "details": [
+    {
+      "query": "SharedMemory-PT-000200__RC09",
+      "method": "native-capacity",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.791141166118905,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "no checked capacity refutation within limits",
+        "no checked capacity refutation within limits",
+        "no checked capacity refutation within limits"
+      ]
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC09",
+      "method": "native-walk",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.013262583175674,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC04",
+      "method": "native-walk",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.036751667037606,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC04",
+      "method": "native-capacity",
+      "verdict": "unreachable",
+      "property_truth": false,
+      "wall_seconds": 0.6248394579160959,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "checker_seconds": 4.0272004581056535,
+      "answer_file_bytes": 933834,
+      "proof_methods": [
+        "checked-capacity-combined",
+        "checked-capacity-combined"
+      ],
+      "proof_json_bytes_compact": 933114
+    },
+    {
+      "query": "TokenRing-PT-030__RC09",
+      "method": "native-capacity",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.17128429212607443,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "no checked capacity refutation within limits",
+        "no checked capacity refutation within limits"
+      ]
+    },
+    {
+      "query": "TokenRing-PT-030__RC09",
+      "method": "native-walk",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.023246166063473,
+      "exit_code": 0,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC01",
+      "method": "native-walk",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.021902417065576,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC01",
+      "method": "native-capacity",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.6504227919504046,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "structural potential gives an exact state-equation refutation",
+        "structural potential gives an exact state-equation refutation",
+        "no checked capacity refutation within limits",
+        "structural potential gives an exact state-equation refutation",
+        "no checked capacity refutation within limits",
+        "no checked capacity refutation within limits"
+      ]
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC14",
+      "method": "native-capacity",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.47724599996581674,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "no checked capacity refutation within limits",
+        "no checked capacity refutation within limits"
+      ]
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC14",
+      "method": "native-walk",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.0176560000982136,
+      "exit_code": -9,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "TokenRing-PT-040__RC09",
+      "method": "native-walk",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.03344954107888,
+      "exit_code": 0,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "TokenRing-PT-040__RC09",
+      "method": "native-capacity",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.39921904099173844,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "no checked capacity refutation within limits"
+      ]
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC12",
+      "method": "native-capacity",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.07566341594792902,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "no checked capacity refutation within limits"
+      ]
+    },
+    {
+      "query": "NoC3x3-PT-8B__RC12",
+      "method": "native-walk",
+      "verdict": "reachable",
+      "property_truth": false,
+      "wall_seconds": 0.2680629580281675,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "checker_seconds": 0.2434885420370847,
+      "answer_file_bytes": 20079,
+      "proof_methods": [
+        "causal-state-equation"
+      ],
+      "trace_steps": 244
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC12",
+      "method": "native-walk",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 5.025052000069991,
+      "exit_code": 0,
+      "outer_timeout": true,
+      "memory_limit_exceeded": false
+    },
+    {
+      "query": "SharedMemory-PT-000200__RC12",
+      "method": "native-capacity",
+      "verdict": "unknown",
+      "property_truth": null,
+      "wall_seconds": 0.5248899168800563,
+      "exit_code": 0,
+      "outer_timeout": false,
+      "memory_limit_exceeded": false,
+      "reasons": [
+        "no checked capacity refutation within limits",
+        "no checked capacity refutation within limits"
+      ]
+    }
+  ],
+  "artifact_sha256": {
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-040__RC09.native-capacity.0.rust-original.json.validation-response.json": "c9b66902a0246c5e035684f6e240bd8f1761a377b6bcf424aa76396d0d0b945f",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC09.native-capacity.0.rust-original.json": "6ea8df753ef5d361987c5ce98eafa6b1c05a4f64f02d49c335bbde3b10a2f404",
+    "results/local-capacity-combinations-gap-v1/NoC3x3-PT-8B__RC12.native-walk.0.rust-original.json": "a2775a67e7eff489b782bbed02de4d5039d734efe4b11846c4a7eb553e3e826c",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC04.native-capacity.0.rust-original.json.validation-response.json": "86b12e6764828f95b7975a0fd62d9c8c373f5aa5e3dabb754638840fbbc954da",
+    "results/local-capacity-combinations-gap-v1/NoC3x3-PT-8B__RC12.native-walk.0.rust-original.json.validation-request.json": "b55d3c835fb5104d0b5d6ce84dfdd80c98fd83497c38580614499c23e1da3a29",
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-040__RC09.native-capacity.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC01.native-walk.0.rust-original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC01.native-capacity.0.rust-original.json.validation-request.json": "d47973ae666cb1bed99868c64fb59cf763a866d70c094299204f515753393bc1",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC09.native-walk.0.rust-original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/runs.jsonl": "8d58ea6e55f1a85d98a2bfb0155a5b8698e075a06f01ecae3553d995616adb2c",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC01.native-capacity.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-040__RC09.native-walk.0.rust-original.json": "d5eb5fe95304ce543d73c366b42ecd372e7f36423d812dad12407bf6157a1c35",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC09.native-capacity.0.rust-original.json.validation-response.json": "956845f11080e2edac8ca51df366851e7c94774d39ad60147d6e421b0d59edba",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC12.native-walk.0.rust-original.json": "d29432c9d391a95b2a0b6fbc9d3103e5ec274aa5e1fe4be5060f4b0e7535a488",
+    "results/local-capacity-combinations-gap-v1/REPORT.md": "3f7ff38b71bd551635bb53b09fd960941a7dc3a0a9c28d00c23bf2d2dccb2112",
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-040__RC09.native-capacity.0.rust-original.json": "21249a44212bf30c00bb4fbf28c8ddaeba337a903f6f13515383ff2d93a7cecd",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC12.native-capacity.0.rust-original.json": "e8356f3d6b1df9277b3ed986a71ef043623ef348a28ab40f3a0ae6e4d6e287ba",
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-030__RC09.native-capacity.0.rust-original.json.validation-request.json": "df6265260c0feeb76357a170662e8651b251def72c1368d754142900b9e5d957",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC09.native-capacity.0.rust-original.json.validation-request.json": "e0ddc6bf984fdfeeeeec85ef2ac725f665bfb7894a58c2509eb710489b3aa00a",
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-040__RC09.native-capacity.0.rust-original.json.validation-request.json": "be5fd8552bdd339de22c6400b77ecfecfe6e5fd96ba79cf381a4925c5f261b4a",
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-030__RC09.native-capacity.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC14.native-capacity.0.rust-original.json.validation-request.json": "25ce8330a7f7a9a29019c7adf8165257a271fca4a89efdec5abd6a4a226f7afb",
+    "results/local-capacity-combinations-gap-v1/NoC3x3-PT-8B__RC12.native-capacity.0.rust-original.json": "9fe873f9c831a784620b8165a7157841bd6dae9bbff3c800ac86a3b98dced690",
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-030__RC09.native-walk.0.rust-original.json": "5dd8b0d9137b373dc2eccbb4fdedd59af0cef5d1836443aad2e7ffb08843e8d6",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC12.native-capacity.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC14.native-capacity.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC04.native-capacity.0.rust-original.json": "ed8f69e5f965367ba233aa90b21c58495f956e98ff4949261f1507f4b2c7f842",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC14.native-capacity.0.rust-original.json": "aa1848f8e9e083fa5114d086b0ebf970263c4a9c809d4654e2c8d1f4bbb81559",
+    "results/local-capacity-combinations-gap-v1/NoC3x3-PT-8B__RC12.native-capacity.0.rust-original.json.validation-request.json": "39c3f4cd57c96ee86579eedf0950d40de269675db36c9e7cf43d459d89891904",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC12.native-capacity.0.rust-original.json.validation-response.json": "f26d0cfc1b6676fc0ab251909a47f3e866fb91eca10a105e7c7e0edf88002022",
+    "results/local-capacity-combinations-gap-v1/NoC3x3-PT-8B__RC12.native-capacity.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-030__RC09.native-capacity.0.rust-original.json": "e03bd5c388ad713de12b2494dc427c138d54f43e1b64869a264a6ad6b5dd932b",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC12.native-capacity.0.rust-original.json.validation-request.json": "e0307c83fe53792880f524d3ce5d80605286ace238ab3c5bfad53ac14a1a7854",
+    "results/local-capacity-combinations-gap-v1/TokenRing-PT-030__RC09.native-capacity.0.rust-original.json.validation-response.json": "c0c6843f5405e88edecfa1802e04a30ee693faedeea5c8fa47157a7341ce94fe",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC01.native-capacity.0.rust-original.json": "0d335ef87dff95715b58a7bda78982efdd1b169dae23dd11732c07f8c24bef6c",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC09.native-capacity.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC04.native-walk.0.rust-original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC04.native-capacity.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC04.native-capacity.0.rust-original.json.validation-request.json": "307b68284742f866a05d02614f013504126a914b1c83f91b4cd27e1808271180",
+    "results/local-capacity-combinations-gap-v1/NoC3x3-PT-8B__RC12.native-capacity.0.rust-original.json.validation-response.json": "a76ff5d7a13bf33d02ce906f1b530719e8362406365b40072b72d891926b97c6",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC14.native-capacity.0.rust-original.json.validation-response.json": "93105fdb149453985bf9aedc2ad8ed2ca3409390ec2dda7c918011c795e77d25",
+    "results/local-capacity-combinations-gap-v1/NoC3x3-PT-8B__RC12.native-walk.0.rust-original.json.validation-response.json": "71c24638fb50cb35b3a8295b54aba972aa5e11893ed42501f1ca0033624ee3e7",
+    "results/local-capacity-combinations-gap-v1/NoC3x3-PT-8B__RC12.native-walk.0.rust-original.json.validation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/environment.json": "1a484692f7c17beb8a3613cae866a3ce9a51fda443cf99839476522b20a41012",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC01.native-capacity.0.rust-original.json.validation-response.json": "688cbba393bd718d3ee7afcfe10509449ff65b111c90548147cdabb617f74e30",
+    "results/local-capacity-combinations-gap-v1/SharedMemory-PT-000200__RC14.native-walk.0.rust-original.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/local-capacity-combinations-gap-v1/runner-source/phase_pair_checker.py": "9f038086eb98ce567e2a24cf3b4d1928708cef931e6841871cf86e6e6cab8aeb",
+    "results/local-capacity-combinations-gap-v1/runner-source/dag_checker.py": "b72e8a9c1dd0ce97fe704df748f15580e5794f32548a98de9735f561fc70cdf9",
+    "results/local-capacity-combinations-gap-v1/runner-source/bounded_token_cut_checker.py": "a333f3429a4bda272715ac84f8529191b4bf406e871a6dbfbe27df0a82a48e60",
+    "results/local-capacity-combinations-gap-v1/runner-source/benchmark.py": "0d8985e16ff657479e8cdade5c38e3fdaf839de1d324b2633ca407fe7682848f",
+    "results/local-capacity-combinations-gap-v1/runner-source/requirements.txt": "01b99c930705a074d54f6c45dc2de953aadc78d47906fa13d538946d062903af",
+    "results/local-capacity-combinations-gap-v1/runner-source/rust_original_validation.py": "09a247de7c2dbf95895292b8932e4172625f4a6cf432854cdc03a5e763af3fb9",
+    "results/local-capacity-combinations-gap-v1/runner-source/target_zero_trap_checker.py": "15e23110138ab55a2b245608c85cc7b59e7b0efeb61ac31a7fe21d05e75a105a",
+    "results/local-capacity-combinations-gap-v1/runner-source/token_cut_checker.py": "d6667df9c6e6900b27886de8169835736345779389d85d244eb6b6241bd68d1c",
+    "results/local-capacity-combinations-gap-v1/runner-source/lazy_token_cut_checker.py": "ba43a0d1c1cab49550e807e89a8df7c7ea0c950cb41cc8a01f12df1f0b0b046b",
+    "results/local-capacity-combinations-gap-v1/runner-source/process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9",
+    "results/local-capacity-combinations-gap-v1/runner-source/local_closure_checker.py": "6e53c37d43a6dcb76b543ec81cf826770ed5c97a0d6027eecca7a5ac984694b1",
+    "results/local-capacity-combinations-gap-v1/runner-source/bounded_validation.py": "10418247ee4159c58d4356d5ea4f97e6d6349b11345d20b213b7d5db7d71e228",
+    "results/local-capacity-combinations-gap-v1/runner-source/token_moment_checker.py": "a42b8367bae56f40da01d723efd504bedbb06cb3905ced5672038ac503c6e027",
+    "results/local-capacity-combinations-gap-v1/runner-source/finite_token_cut_checker.py": "92ea2c1915a9970347f96171fa20180c3a877f4f8c95ce189bb6a017e7993859",
+    "results/local-capacity-combinations-gap-v1/runner-source/target_path_potential_checker.py": "a0f9464fc08fa4958264ca985a0303552cf7b4b839ef965ef8a4e42d3a24f500",
+    "results/local-capacity-combinations-gap-v1/runner-source/native_original.py": "5d6275a96865a56c7a740768e0db862b254d5f91f3e4d1206c0713efd528c1c8",
+    "results/local-capacity-combinations-gap-v1/runner-source/kreach_adapter.py": "8b26fd5749c06f27b75d31418e89279de3d2e8fd573433032805465702979045",
+    "results/local-capacity-combinations-gap-v1/runner-source/smpt_import.py": "ce7e9db6a5b6e4deb5453271433ad3337fd36229bf4b7e325cdf217a8ac96c90",
+    "results/local-capacity-combinations-gap-v1/runner-source/relevance_checker.py": "0c2d6f867b0809a0f17187d6fb7bba5981ad2f88e560fd875549ca085377603b",
+    "results/local-capacity-combinations-gap-v1/runner-source/buffer_agglomeration_checker.py": "199c7b045aedd4cbeb4ae3019aa649585adc0412749886feada1c52d5a16b536",
+    "results/local-capacity-combinations-gap-v1/runner-source/benchmark_smpt_classic.py": "33cef5216c48b28debc4b7a320545204fca855a288e05c95634505e657d87dac",
+    "research/capacity-combinations-gap-v1-plan.json": "ac183d9125b91404cd1a5b0dfe5e5f85789820fa0c0e767d4903211e1c3597a2",
+    "research/audit-capacity-combinations-gap-v1.py": "3a702c058c8900c3d65060278c2891255f54d99f6e090981f18ec467418aa33a",
+    "research/capacity-combinations-gap-v1-terminal.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01"
+  },
+  "scope": "Saved evidence reconciliation, not a new proof execution. All eight native-walk Unknowns from audited656-slot parent; local5s capacity versus same-binary walk portfolio comparison. No cross-machine speed, integrated-portfolio or general superiority claim."
+}

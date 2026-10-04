@@ -1,0 +1,343 @@
+{
+  "binary_only": [
+    "CircadianClock-PT-010000__RC04",
+    "CircadianClock-PT-010000__RC08",
+    "CircadianClock-PT-010000__RC09",
+    "CircadianClock-PT-010000__RC11",
+    "CircadianClock-PT-100000__RC07",
+    "CircadianClock-PT-100000__RC08",
+    "FMS-PT-00050__RC04",
+    "FMS-PT-00100__RC15",
+    "FMS-PT-00200__RC11",
+    "FMS-PT-00500__RC08",
+    "FMS-PT-01000__RC01",
+    "FMS-PT-01000__RC09",
+    "FMS-PT-01000__RC14",
+    "FMS-PT-01000__RC15",
+    "FMS-PT-02000__RC09",
+    "FMS-PT-02000__RC15",
+    "FMS-PT-05000__RC00",
+    "FMS-PT-05000__RC05",
+    "FMS-PT-05000__RC06",
+    "FMS-PT-10000__RC10",
+    "FMS-PT-10000__RC14",
+    "FMS-PT-20000__RC05",
+    "FMS-PT-20000__RC08",
+    "FMS-PT-50000__RC13",
+    "IOTPpurchase-PT-C05M04P03D02__RC09",
+    "IOTPpurchase-PT-C12M10P15D17__RC01",
+    "IOTPpurchase-PT-C12M10P15D17__RC11",
+    "RwMutex-PT-r0010w0100__RC02",
+    "RwMutex-PT-r0010w1000__RC00",
+    "RwMutex-PT-r0010w1000__RC02",
+    "RwMutex-PT-r0010w1000__RC10",
+    "RwMutex-PT-r0010w1000__RC11",
+    "RwMutex-PT-r0010w2000__RC07",
+    "RwMutex-PT-r0020w0010__RC00",
+    "RwMutex-PT-r0020w0010__RC01",
+    "RwMutex-PT-r0020w0010__RC03",
+    "RwMutex-PT-r0020w0010__RC06",
+    "RwMutex-PT-r0020w0010__RC08",
+    "RwMutex-PT-r0020w0010__RC12",
+    "RwMutex-PT-r0020w0010__RC13",
+    "RwMutex-PT-r0020w0010__RC15",
+    "RwMutex-PT-r0100w0010__RC03",
+    "RwMutex-PT-r0100w0010__RC05",
+    "RwMutex-PT-r0100w0010__RC06",
+    "RwMutex-PT-r0100w0010__RC08",
+    "RwMutex-PT-r0100w0010__RC10",
+    "RwMutex-PT-r0100w0010__RC11",
+    "RwMutex-PT-r0100w0010__RC15",
+    "RwMutex-PT-r0500w0010__RC01",
+    "RwMutex-PT-r0500w0010__RC03",
+    "RwMutex-PT-r0500w0010__RC07",
+    "RwMutex-PT-r0500w0010__RC10",
+    "RwMutex-PT-r0500w0010__RC13",
+    "RwMutex-PT-r0500w0010__RC14",
+    "RwMutex-PT-r0500w0010__RC15",
+    "RwMutex-PT-r1000w0010__RC02",
+    "RwMutex-PT-r1000w0010__RC05",
+    "RwMutex-PT-r1000w0010__RC11",
+    "RwMutex-PT-r2000w0010__RC08",
+    "RwMutex-PT-r2000w0010__RC10",
+    "SmallOperatingSystem-PT-MT2048DC1024__RC12"
+  ],
+  "costs": {
+    "native-threshold": {
+      "all_imported_solver_seconds": {
+        "count": 640,
+        "maximum": 1.1194501251447946,
+        "median": 0.15395837486721575,
+        "total": 129.40273980074562
+      },
+      "checker_seconds_on_checked_answers": {
+        "count": 100,
+        "maximum": 50.778229834046215,
+        "median": 0.14776012487709522,
+        "total": 274.64599225111306
+      },
+      "end_to_end_seconds_on_checked_answers": {
+        "count": 100,
+        "maximum": 51.35587587603368,
+        "median": 0.21839352033566684,
+        "total": 284.97413361724466
+      },
+      "failures": {
+        "collection": 16,
+        "none": 639,
+        "validation": 1
+      },
+      "outer_timeouts": 0,
+      "solver_memory_failures": 0,
+      "solver_seconds_on_checked_answers": {
+        "count": 100,
+        "maximum": 0.5776460419874638,
+        "median": 0.04991470801178366,
+        "total": 10.328141366131604
+      },
+      "validation_failures": {
+        "none": 655,
+        "timeout": 1
+      }
+    },
+    "native-unary": {
+      "all_imported_solver_seconds": {
+        "count": 640,
+        "maximum": 0.8812676251400262,
+        "median": 0.04430122848134488,
+        "total": 60.27152950060554
+      },
+      "checker_seconds_on_checked_answers": {
+        "count": 41,
+        "maximum": 38.84382687485777,
+        "median": 0.7601177080068737,
+        "total": 171.86517478874885
+      },
+      "end_to_end_seconds_on_checked_answers": {
+        "count": 41,
+        "maximum": 39.487531000049785,
+        "median": 0.8451698331627995,
+        "total": 179.13173895678483
+      },
+      "failures": {
+        "collection": 16,
+        "none": 640
+      },
+      "outer_timeouts": 0,
+      "solver_memory_failures": 0,
+      "solver_seconds_on_checked_answers": {
+        "count": 41,
+        "maximum": 0.7163068330846727,
+        "median": 0.08807341707870364,
+        "total": 7.266564168035984
+      },
+      "validation_failures": {
+        "none": 656
+      }
+    }
+  },
+  "coverage": {
+    "native-threshold": {
+      "unknown": 540,
+      "unreachable": 100,
+      "unsupported": 16
+    },
+    "native-unary": {
+      "unknown": 599,
+      "unreachable": 41,
+      "unsupported": 16
+    }
+  },
+  "evidence_sha256": {
+    "benchmarks/application-portfolio-comparison-v1/manifest.json": "9d328b8a3e804237b59150bc9b16cef13b6633efe04262dfe7227a3ffbcc1060",
+    "research/application-walk-full-v1/audit.json": "15eb5d94bd729e732e0be542291bdf7333e810c9ddc04976d53eb7c657f430dc",
+    "research/signed-threshold-full-v1-audit.json": "b9d1476caa51da8616f868dfa1ad5b52870b7f53b0924cd13b063e5675feb96b",
+    "research/summarize-signed-threshold-full-v1.py": "705fe1a5260eaee62ab7005a445eb52af78595804a81ad15ae02a07165f2388a"
+  },
+  "families": {
+    "BART": {
+      "native-threshold": {
+        "unknown": 30,
+        "unreachable": 2
+      },
+      "native-unary": {
+        "unknown": 30,
+        "unreachable": 2
+      }
+    },
+    "CircadianClock": {
+      "native-threshold": {
+        "unknown": 25,
+        "unreachable": 7
+      },
+      "native-unary": {
+        "unknown": 31,
+        "unreachable": 1
+      }
+    },
+    "DatabaseWithMutex": {
+      "native-threshold": {
+        "unknown": 32
+      },
+      "native-unary": {
+        "unknown": 32
+      }
+    },
+    "FMS": {
+      "native-threshold": {
+        "unknown": 153,
+        "unreachable": 23
+      },
+      "native-unary": {
+        "unknown": 171,
+        "unreachable": 5
+      }
+    },
+    "IOTPpurchase": {
+      "native-threshold": {
+        "unknown": 29,
+        "unreachable": 3
+      },
+      "native-unary": {
+        "unknown": 32
+      }
+    },
+    "NoC3x3": {
+      "native-threshold": {
+        "unknown": 32
+      },
+      "native-unary": {
+        "unknown": 32
+      }
+    },
+    "RobotManipulation": {
+      "native-threshold": {
+        "unknown": 28,
+        "unreachable": 4
+      },
+      "native-unary": {
+        "unknown": 28,
+        "unreachable": 4
+      }
+    },
+    "RwMutex": {
+      "native-threshold": {
+        "unknown": 111,
+        "unreachable": 33
+      },
+      "native-unary": {
+        "unknown": 144
+      }
+    },
+    "SharedMemory": {
+      "native-threshold": {
+        "unknown": 48
+      },
+      "native-unary": {
+        "unknown": 47,
+        "unreachable": 1
+      }
+    },
+    "SmallOperatingSystem": {
+      "native-threshold": {
+        "unknown": 27,
+        "unreachable": 5
+      },
+      "native-unary": {
+        "unknown": 28,
+        "unreachable": 4
+      }
+    },
+    "TokenRing": {
+      "native-threshold": {
+        "unknown": 25,
+        "unreachable": 23,
+        "unsupported": 16
+      },
+      "native-unary": {
+        "unknown": 24,
+        "unreachable": 24,
+        "unsupported": 16
+      }
+    }
+  },
+  "historical_complementarity": {
+    "baseline": "native-walk, completed single-core Linux 5s screen",
+    "baseline_definitive": 632,
+    "baseline_unknown": [
+      "NoC3x3-PT-8B__RC12",
+      "SharedMemory-PT-000200__RC01",
+      "SharedMemory-PT-000200__RC04",
+      "SharedMemory-PT-000200__RC09",
+      "SharedMemory-PT-000200__RC12",
+      "SharedMemory-PT-000200__RC14",
+      "TokenRing-PT-030__RC09",
+      "TokenRing-PT-040__RC09"
+    ],
+    "newly_checked": {
+      "native-threshold": [],
+      "native-unary": []
+    },
+    "scope": "Same query identities across different machines; diagnostic capability comparison only. No cross-machine cost ratio or measured integrated-portfolio gain."
+  },
+  "imported_slots": 640,
+  "paired_costs": {
+    "binary_over_unary_solver_ratio": {
+      "count": 39,
+      "maximum": 1.8469790136724622,
+      "median": 0.9900082722602785,
+      "total": 40.686355310899515
+    },
+    "queries": [
+      "BART-PT-040__RC05",
+      "BART-PT-060__RC13",
+      "CircadianClock-PT-100000__RC11",
+      "FMS-PT-00500__RC12",
+      "FMS-PT-10000__RC01",
+      "FMS-PT-20000__RC06",
+      "FMS-PT-20000__RC09",
+      "FMS-PT-50000__RC10",
+      "RobotManipulation-PT-01000__RC09",
+      "RobotManipulation-PT-10000__RC06",
+      "RobotManipulation-PT-10000__RC10",
+      "RobotManipulation-PT-10000__RC14",
+      "SmallOperatingSystem-PT-MT2048DC1024__RC03",
+      "SmallOperatingSystem-PT-MT8192DC4096__RC02",
+      "SmallOperatingSystem-PT-MT8192DC4096__RC04",
+      "SmallOperatingSystem-PT-MT8192DC4096__RC12",
+      "TokenRing-PT-020__RC00",
+      "TokenRing-PT-020__RC01",
+      "TokenRing-PT-020__RC02",
+      "TokenRing-PT-020__RC03",
+      "TokenRing-PT-020__RC04",
+      "TokenRing-PT-020__RC05",
+      "TokenRing-PT-020__RC06",
+      "TokenRing-PT-020__RC07",
+      "TokenRing-PT-030__RC00",
+      "TokenRing-PT-030__RC01",
+      "TokenRing-PT-030__RC02",
+      "TokenRing-PT-030__RC03",
+      "TokenRing-PT-030__RC04",
+      "TokenRing-PT-030__RC05",
+      "TokenRing-PT-030__RC06",
+      "TokenRing-PT-030__RC07",
+      "TokenRing-PT-040__RC00",
+      "TokenRing-PT-040__RC01",
+      "TokenRing-PT-040__RC02",
+      "TokenRing-PT-040__RC03",
+      "TokenRing-PT-040__RC05",
+      "TokenRing-PT-040__RC06",
+      "TokenRing-PT-040__RC07"
+    ],
+    "scope": "Conditional on both methods returning checked answers in the same local screen; one repeat."
+  },
+  "rows": 1312,
+  "scope": "Standalone negative-only engines; all source slots retained. Costs include process startup/parsing; checking reported separately. Local memory limit is sampled. No stable speed, novelty, general superiority or publication-readiness claim.",
+  "source_slots": 656,
+  "status": "passed",
+  "unary_only": [
+    "SharedMemory-PT-000050__RC04",
+    "TokenRing-PT-040__RC04"
+  ],
+  "unavailable_slots": 16
+}

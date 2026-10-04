@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "rows": 4,
+  "plan_sha256": "f995d8c04c0613104048bcdc6b258c70e0ad0769f96b08f518622efb5af13e26",
+  "results_sha256": "a63e627ee58462b5c79c59fa683f554709a620d9f7a4afcc1127779685e18ad2",
+  "scope": "Saved original-input validation and source identities; two diagnosed development properties, no whole-cohort or stable speed claim."
+}

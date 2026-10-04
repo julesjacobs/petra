@@ -1,0 +1,280 @@
+{
+  "format": "ser-stress-sources-v1",
+  "version": 1,
+  "selection": "fixed parameter ladders for two new synchronization mechanisms; no solver-outcome selection",
+  "provenance": [
+    {
+      "path": "scripts/generate_diverse_ser.py",
+      "sha256": "fa92154e720a70a7a6cf76c384b7d47fb455d17e561f11d2d2386701323e0869"
+    },
+    {
+      "path": "research/diverse-ser-programs-v1.md",
+      "sha256": "523612138bedbd4688b1ae6b4391387a139d1dd76762e84f1a262fd4391e9235"
+    },
+    {
+      "path": "vendor/SerializabilityChecker/src/parser.rs",
+      "sha256": "dc308f06697c62aa81943d5727536677286b18bfb220d2cb81ff38cbc0dd1f9e"
+    }
+  ],
+  "cases": [
+    {
+      "name": "write_skew_n3_racy",
+      "source": "write_skew_n3_racy.ser",
+      "sha256": "aad4ae6d91169cc5bbed18c9114514d3d4ad581877461ee06689d419ee0b2811",
+      "bytes": 426,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 3,
+        "pairlocked": false
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "all-sites-leave-successfully",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "write_skew_n3_pairlocked",
+      "source": "write_skew_n3_pairlocked.ser",
+      "sha256": "d872839d836b9ddc32769f28ab06e9f94d8c0fe81a5701f69f6550e5a34cf654",
+      "bytes": 1108,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 3,
+        "pairlocked": true
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "write_skew_n4_racy",
+      "source": "write_skew_n4_racy.ser",
+      "sha256": "19e9b35cde306d422fd2d4d3c7c03becb332a2ae6df19d43e0456098c04c9b00",
+      "bytes": 560,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 4,
+        "pairlocked": false
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "all-sites-leave-successfully",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "write_skew_n4_pairlocked",
+      "source": "write_skew_n4_pairlocked.ser",
+      "sha256": "d4779df1dbc128c641fb21877b4f445ddf034dacb4f6363c5d8ec1576c813a8c",
+      "bytes": 1462,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 4,
+        "pairlocked": true
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "write_skew_n5_racy",
+      "source": "write_skew_n5_racy.ser",
+      "sha256": "961921174617524c1f0493f329027239a0635ccda239e6697b2d727cda45edef",
+      "bytes": 694,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 5,
+        "pairlocked": false
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "all-sites-leave-successfully",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "write_skew_n5_pairlocked",
+      "source": "write_skew_n5_pairlocked.ser",
+      "sha256": "c32e170d51200d3d0f393ff8b27ce6ea62aed3ea042b2608b15076fe01a85eb9",
+      "bytes": 1816,
+      "family": "ring-write-skew",
+      "parameters": {
+        "sites": 5,
+        "pairlocked": true
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "ordered-strict-two-phase-locking",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v3_aba",
+      "source": "optimistic_v3_aba.ser",
+      "sha256": "c659fdd2c1e093ff6f90c4765936a41abc18a9d0fc2ff5b6b2a7c45098afe7b6",
+      "bytes": 301,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 3,
+        "validate_value": false
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "odd-epoch-wrap-changes-value",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v3_validated",
+      "source": "optimistic_v3_validated.ser",
+      "sha256": "7e79dd6574f9fdaaf21b77eeeca50081d700954fb3e1f38ed40bf4c299687223",
+      "bytes": 324,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 3,
+        "validate_value": true
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "successful-observation-is-zero",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v5_aba",
+      "source": "optimistic_v5_aba.ser",
+      "sha256": "92e30b20aa8b19b3ccf79c3d66679ff5f4d269f32e5f44d269a6f5c88548dfeb",
+      "bytes": 301,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 5,
+        "validate_value": false
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "odd-epoch-wrap-changes-value",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v5_validated",
+      "source": "optimistic_v5_validated.ser",
+      "sha256": "a42fb500762c4bb76fb37094a1f961e7e8c4c2c2d83abf1260d4229a469f5bb9",
+      "bytes": 324,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 5,
+        "validate_value": true
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "successful-observation-is-zero",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v9_aba",
+      "source": "optimistic_v9_aba.ser",
+      "sha256": "35173b2f9c26d254f28b4a164edef6b3bf551989db1690ae8eb0552dc7e506fc",
+      "bytes": 301,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 9,
+        "validate_value": false
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": false,
+        "argument": "odd-epoch-wrap-changes-value",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    },
+    {
+      "name": "optimistic_v9_validated",
+      "source": "optimistic_v9_validated.ser",
+      "sha256": "e52b081487640ca4da7e668dcac1f4ed58f40178719e030eb63c425198dd47fc",
+      "bytes": 324,
+      "family": "optimistic-aba-validation",
+      "parameters": {
+        "versions": 9,
+        "validate_value": true
+      },
+      "role": "new-mechanism-development-case",
+      "exact_source_overlaps": [],
+      "independent_test": false,
+      "source_expectation": {
+        "serializable": true,
+        "argument": "successful-observation-is-zero",
+        "basis": "source-level semantic argument; research/diverse-ser-programs-v1.md",
+        "mechanically_verified": false
+      },
+      "solver_result": null
+    }
+  ],
+  "limitations": [
+    "Source expectations are arguments, not solver ground truth or exported-net proofs.",
+    "Difficulty and raw-export feasibility are unmeasured.",
+    "Parameter relatives are correlated development data, not held-out evaluation.",
+    "The source language has finite data but unbounded request multiplicity.",
+    "Export failures must remain in the source-level denominator."
+  ]
+}

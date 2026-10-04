@@ -1,0 +1,38 @@
+{
+  "scope": "Full69outcome-selected hard development queries,local2second screening. Isolate checked relevance around finite control and compare full focused portfolio. This does not replace the live60second Linux qualification.",
+  "corpus": "benchmarks/hard-development-v2",
+  "manifest_sha256": "1e77f4283218c14cb5f9265c372f7226e7402cdf08c245b2008d20d5485968ba",
+  "properties": 69,
+  "source_properties": 620,
+  "expected_rows": 207,
+  "seconds": 2,
+  "repeat": 1,
+  "memory_mib": 2048,
+  "outer_grace": 0,
+  "order_seed": 20261010,
+  "methods": {
+    "finite-before": "finite-token-cut",
+    "finite-relevant": "finite-token-cut",
+    "focused": "portfolio-focused"
+  },
+  "binaries": {
+    "before": {
+      "path": "results/solver-finite-token-flow-v2/vass-reach",
+      "sha256": "85b4dca3c56297e9dde928b8e4eef253e7f80f9ac69258a555b45aaf6543622e"
+    },
+    "after": {
+      "path": "results/solver-relevant-finite-v1/vass-reach",
+      "sha256": "7e93f39cc51a3396b9d1c480bff88900b96ab8ad40bd373845e3e57af880c794"
+    }
+  },
+  "source_sha256": "85a2934c114c272ef15c6cef372ce5a0249e9c04a9c2512a915458b953b2e677",
+  "validation": {
+    "seconds": 30,
+    "memory_mib": 2048,
+    "response_mib": 64,
+    "dag_max_work": 20000000,
+    "separate_from_solver_timing": true
+  },
+  "input_scope": "Original PNML/XML; parsing/preprocessing included. Finite core uses metadata-free capacity proposals; focused frontend also uses NUPN proposals,as recorded by its configuration.",
+  "reporting": "All69queries and errors retained,report3source tracks separately. No precise speedup,externalcompetition orheldout claims. Original five-second selection used older/different configurations."
+}

@@ -1,0 +1,19 @@
+<property-set><property>
+    <id>DLCflexbar-PT-4a-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <integer-le>
+            <tokens-count>
+              <place>p412</place>
+            </tokens-count>
+            <tokens-count>
+              <place>p768</place>
+            </tokens-count>
+          </integer-le>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>

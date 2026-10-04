@@ -1,0 +1,18 @@
+{
+  "status": "complete-audited",
+  "session_id": 56884,
+  "exit_code": 0,
+  "recorded_at_utc": "2026-09-28T06:49:37.075039+00:00",
+  "tests_passed": 232,
+  "tests_ignored": 1,
+  "reason": "Missing Python checker dependency repaired in new archive; all200original frozen file bytes preserved;112script files added. Original failed build artifacts retained.",
+  "sha256": {
+    "research/deploy-walk-sparse-linux-v1.log": "99e3137dc318e35fa9ec381e9626ce1b57c90abbd7747c7533a1346098554004",
+    "research/deploy-walk-sparse-linux-v2.py": "974aea9173d730ce8337efb0a58486066a0d48177985fbe43de1967b6d9fd6fb",
+    "research/deploy-walk-sparse-linux-v2.log": "c93e0bd598782a91fa8ca81e47b4385e8fec6a302ab53a8b0de5a5b6a54ae875",
+    "results/solver-walk-sparse-v2/source.tar.gz": "a50bb6282f7c7a183a25b3016299f48934fa34a03d84180e6225b7cb3760de58",
+    "results/linux-solver-walk-sparse-v2/provenance.json": "091cb847867c9e0b996f2afb8c10aed0f8f956b39d0196d6a439a83c1cd838d2",
+    "results/linux-solver-walk-sparse-v2/tests.log": "8b7b85ff7d4d44bdaa0c63ff441b7a474692dab3d0b388f9b7bf795074671850",
+    "results/linux-solver-walk-sparse-v2/build.log": "e7ea442491771c149af07effe6e049c8f23b6a679df264134876f27dfb630a62"
+  }
+}

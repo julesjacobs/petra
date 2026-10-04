@@ -1,0 +1,22 @@
+{
+  "scope": "Additional original-LoLA positive-witness validation only; no solver timings or negative certification. All native positives in the explicitly selected suite (or the whole corpus when no suite is specified) are selected from the complete measured matrix.",
+  "suite": "fastforward-repository-random_walk",
+  "selected_properties": 44,
+  "allow_unrebased_source_mapping": false,
+  "source_mapping_exceptions": [],
+  "source_corpus": "benchmarks/fastforward-import-v2",
+  "source_manifest_sha256": "c95d1a3a411e7b80c8db62d3fa088c62389d3fcbdfce58d7965dd30533884c99",
+  "expected_positives": 33,
+  "sources": {
+    "benchmarks/candidate-challenges-v1/manifest.json": "c4e46d05985a0f15b53358c5bfa3ff7215facddfd89a879734f9b0df046023e6",
+    "results/target-closure-screen-v1/environment.json": "5e17808c0fbb9e2870d2aae1adb63b028dfca4a3a659a4f6f7f7143a1f4c1e3d",
+    "results/target-closure-screen-v1/runs.jsonl": "9d8877cd39337d3f5522c009011d661db1df5c4254a3c0119853d04e5de4573a"
+  },
+  "checker_sources": {
+    "replay_fastforward_results.py": "0f1154c4584ecfd65342a284cb1d0f98365a6993edf47fd5286dae9b50860a57",
+    "analyze_original_comparison.py": "07ba010db85334ec952445018b9dceb005913fb32881a23aff43e89f8e7562d1",
+    "check_fastforward_source.py": "0138f3eaafe27b069ee84946208abdb57b1ec346bccfd69febb5874bd8cde218",
+    "fastforward_source_checker.py": "9ed6b87a7fd43c995ca68cdb76240f5022f2087238eb238176c80c02e518eee6",
+    "process_runner.py": "fcafcb6efb4bb9e64eec96db71f5d2d743773ec4a962f702880b0b9485be2eb9"
+  }
+}

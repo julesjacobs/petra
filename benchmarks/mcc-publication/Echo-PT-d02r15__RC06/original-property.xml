@@ -1,0 +1,29 @@
+<property-set><property>
+    <id>Echo-PT-d02r15-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+      <all-paths>
+        <globally>
+          <conjunction>
+            <integer-le>
+              <tokens-count>
+                <place>p1082</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1510</place>
+              </tokens-count>
+            </integer-le>
+            <integer-le>
+              <tokens-count>
+                <place>p1678</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1133</place>
+              </tokens-count>
+            </integer-le>
+          </conjunction>
+        </globally>
+      </all-paths>
+    </formula>
+  </property>
+  </property-set>
