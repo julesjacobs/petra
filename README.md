@@ -1,7 +1,14 @@
 # Petra
 
-Petra is an experimental Petri-net reachability solver written in Rust. It reads ordinary P/T nets in PNML and reachability or invariance properties in MCC XML. It combines invariant proofs, structural reductions and witness search, returning a firing sequence, an unreachability certificate, or `unknown` when its limits are reached.
+Petra is an experimental Petri-net reachability solver written in Rust. It reads ordinary P/T nets in PNML and reachability or invariance properties in MCC XML. Build with `cargo build --release --locked`, then run `target/release/vass-reach --pnml model.pnml --xml properties.xml --property-id QUERY_ID --seconds 5 --max-states 2000000 --buffer-agglomeration`. See [setup and tests](publication/README.md) and the [full documentation](RESEARCH.md).
 
-Build with `cargo build --release --locked`. Run `target/release/vass-reach --pnml model.pnml --xml properties.xml --property-id QUERY_ID --seconds 5 --max-states 2000000 --buffer-agglomeration`. See [setup and tests](publication/README.md) or the [full documentation](RESEARCH.md) for other input formats and solver methods.
+The default solver combines proofs and search under one property budget. It first tries to rule out the target using bounds on token totals and the state equation `m = m₀ + Cx`, where `C` records each transition's token changes and `x ≥ 0` counts firings, ignoring their order. A linear-programming solver proposes contradiction certificates, checked with exact rational arithmetic. Remaining cases use target-guided walks, structural reductions, and further search and proof methods. Firing sequences are replayed; invariance properties are checked by searching for counterexamples. Exhausting the budget returns `unknown`.
 
-On the 368-property development set, Petra solved 364 properties in each of two five-second runs, up from 363 in the previous version, with no losses. All definitive answers were checked independently. These runs used a busy host; see the [research record](research/verifypn-learning-20261004/README.md) for the results and limitations. Full benchmark inputs, raw results and frozen experiment snapshots are included in the repository’s [release archives](https://github.com/julesjacobs/petra/releases/tag/research-2026-10-04).
+The [competitor comparison](research/competitive-linux-20261004/REPORT.md) used 368 development properties from 12 MCC families, five seconds per property, one logical CPU, and 2 GiB per invocation. The table shows properties solved in two Linux runs with an earlier Petra snapshot. The host was heavily loaded; these results do not establish general superiority. Failed runs count as unknown. Petra's answers were independently checked outside the solver budget; competitors' answers are tool-reported. The latest Petra reached [364/368 twice](research/verifypn-learning-20261004/full-v3/REPORT.md) in a separate experiment and has not been rerun against competitors. Inputs and raw results are in the [release archives](https://github.com/julesjacobs/petra/releases/tag/research-2026-10-04).
+
+| Solver and configuration | Run 1 / 368 | Run 2 / 368 |
+|---|---:|---:|
+| Petra (`portfolio-excess`, earlier snapshot) | 345 | 358 |
+| VerifyPN 4.5.0 (unrestricted defaults) | 298 | 299 |
+| SMPT (portable MCC configuration) | 205 | 238 |
+| ITS-Tools (MCC configuration) | 267 | 274 |
